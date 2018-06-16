@@ -135,6 +135,7 @@
     <defName>CryptosleepSickness</defName>
     <label>cryptosleep sickness</label>
     <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
       <li>
         <compClass>HediffComp_Disappears</compClass>
@@ -164,6 +165,7 @@
   <HediffDef ParentName="DiseaseBase">
     <defName>FoodPoisoning</defName>
     <label>food poisoning</label>
+    <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
       <li>
         <compClass>HediffComp_Disappears</compClass>
@@ -193,6 +195,7 @@
     <label>toxic buildup</label>
     <lethalSeverity>1</lethalSeverity>
     <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
       <li>
         <compClass>HediffComp_Immunizable</compClass>
@@ -384,6 +387,54 @@
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.05</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>DrugOverdose</defName>
+    <label>drug overdose</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <lethalSeverity>1.0</lethalSeverity>
+    <comps>
+      <li>
+        <compClass>HediffComp_Immunizable</compClass>
+        <severityPerDayNotImmune>-1</severityPerDayNotImmune>
+      </li>
+      <li>
+        <compClass>HediffComp_Discoverable</compClass>
+        <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+        <discoverLetterLabel>Overdose: {0}</discoverLetterLabel>
+        <discoverLetterText>{0} is overdosing!</discoverLetterText>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>hidden</label>
+        <everVisible>false</everVisible>
+      </li>
+      <li>
+        <label>minor</label>
+        <minSeverity>0.60</minSeverity>
+        <vomitMtbDays>0.30</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.50</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>major</label>
+        <minSeverity>0.75</minSeverity>
+        <deathMtbDays>2.3</deathMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
           </li>
         </capMods>
       </li>

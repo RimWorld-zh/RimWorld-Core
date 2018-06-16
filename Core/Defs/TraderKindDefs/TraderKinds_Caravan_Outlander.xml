@@ -108,6 +108,14 @@
         </totalPriceRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Neutroamine</thingDef>
+        <price>Cheap</price>
+        <countRange>
+          <min>30</min>
+          <max>150</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
         <totalPriceRange>
           <min>-150</min>
@@ -142,6 +150,7 @@
       </li>
       <li Class="StockGenerator_Animals">
         <checkTemperature>true</checkTemperature>
+        <maxWildness>0.70</maxWildness>
         <tradeTags>
           <li>StandardAnimal</li>
         </tradeTags>
@@ -154,7 +163,31 @@
           <max>12</max>
         </countRange>
       </li>
+      <li Class="StockGenerator_Clothes">
+        <countRange>
+          <min>4</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>3</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>1500</min>
+          <max>2500</max>
+        </totalPriceRange>
+      </li>
       <li Class="StockGenerator_BuyWeirdOrganic" />
+      <li Class="StockGenerator_MultiDef">
+        <thingDefs>
+          <li>Chocolate</li>
+          <li>Kibble</li>
+          <li>Pemmican</li>
+        </thingDefs>
+      </li>
     </stockGenerators>
   </TraderKindDef>
 
@@ -226,6 +259,12 @@
           <max>10</max>
         </countRange>
       </li>
+      <li Class="StockGenerator_Clothes">
+        <countRange>
+          <min>1</min>
+          <max>4</max>
+        </countRange>
+      </li>
       <li Class="StockGenerator_BuyWeirdOrganic" />
     </stockGenerators>
   </TraderKindDef>
@@ -265,6 +304,13 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>Neutroamine</thingDef>
+        <countRange>
+          <min>25</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>GlitterworldMedicine</thingDef>
         <countRange>
           <min>-5</min>
@@ -292,6 +338,17 @@
           <min>1</min>
           <max>2</max>
         </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>400</min>
+          <max>1200</max>
+        </totalPriceRange>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Artifact</tradeTag>
@@ -370,6 +427,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_BuyWeirdOrganic" />
+      <li Class="StockGenerator_BuyExpensiveSimple" />
     </stockGenerators>
   </TraderKindDef>
 
@@ -399,6 +457,26 @@
           <min>-40</min>
           <max>120</max>
         </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Neutroamine</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>-50</min>
+          <max>50</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <price>Expensive</price>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>4</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>1500</min>
+          <max>3000</max>
+        </totalPriceRange>
       </li>
       <li Class="StockGenerator_Slaves">
         <countRange>
@@ -474,6 +552,12 @@
         <countRange>
           <min>2</min>
           <max>6</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Clothes">
+        <countRange>
+          <min>1</min>
+          <max>5</max>
         </countRange>
       </li>
       <li Class="StockGenerator_BuyWeirdOrganic" />

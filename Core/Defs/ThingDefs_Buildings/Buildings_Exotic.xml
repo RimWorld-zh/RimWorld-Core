@@ -87,7 +87,7 @@
     <pathCost>35</pathCost>
     <blockWind>true</blockWind>
     <passability>PassThroughOnly</passability>
-    <fillPercent>0.8</fillPercent>
+    <fillPercent>0.50</fillPercent>
     <size>(2,2)</size>
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-
   <ThingDef Name="BaseGun" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
@@ -58,7 +57,6 @@
     </recipeMaker>
   </ThingDef>
 
-
   <ThingDef Name="BaseHumanGun" ParentName="BaseGun" Abstract="True">
     <weaponTags>
       <li>Gun</li>
@@ -69,6 +67,19 @@
     <weaponTags>
       <li>Gun</li>
     </weaponTags>
+  </ThingDef>
+
+  <ThingDef Name="BaseBullet" Abstract="True">
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Bullet</thingClass>
+    <label>bullet</label>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
   </ThingDef>
 
   <!-- ============================================================== -->
@@ -338,8 +349,8 @@
   <!-- ============================================== -->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_PDW</defName>
-    <label>PDW bullet</label>
+    <defName>Bullet_MachinePistol</defName>
+    <label>Machine pistol bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -351,11 +362,11 @@
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Gun_PDW</defName>
-    <label>PDW</label>
-    <description>A personal defense weapon is a micro-submachine gun. Short range, low power, high rate of fire. Very quick to aim and fire.</description>
+    <defName>Gun_MachinePistol</defName>
+    <label>Machine pistol</label>
+    <description>A micro-submachine gun. Short range, low power, high rate of fire. Very quick to aim and fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/PDW</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/MachinePistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractSMG</soundInteract>
@@ -376,12 +387,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_PDW</projectileDef>
+        <projectileDef>Bullet_MachinePistol</projectileDef>
         <warmupTicks>45</warmupTicks>
         <range>24</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>ShotPDW</soundCast>
+        <soundCast>ShotMachinePistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -615,68 +626,6 @@
       </li>
     </verbs>
   </ThingDef>
-
-
-
-
-
-
-  <!-- ================ Improvised turret gun ============== -->
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_TurretImprovised</defName>
-    <label>improvised turret bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>11</damageAmountBase>
-      <speed>70</speed>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseHumanGun">
-    <defName>Gun_TurretImprovised</defName>
-    <label>improvised turret gun</label>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <menuHidden>true</menuHidden>
-    <description>Jury-rigged gun attached to a turret.</description>
-    <soundInteract>InteractRifle</soundInteract>
-    <canBeSpawningInventory>false</canBeSpawningInventory>
-    <tradeability>Never</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
-    <canMakeOnMapGen>false</canMakeOnMapGen>
-    <statBases>
-      <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.64</AccuracyShort>
-      <AccuracyMedium>0.41</AccuracyMedium>
-      <AccuracyLong>0.22</AccuracyLong>
-      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>TurretGun</li>
-    </weaponTags>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_TurretImprovised</projectileDef>
-        <warmupTicks>90</warmupTicks>
-        <range>25.9</range>
-        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <burstShotCount>3</burstShotCount>
-        <soundCast>GunShotA</soundCast>
-        <soundCastTail>GunTail_Light</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-  </ThingDef>
-
 
   <!-- ======================= Heavy weapons ======================= -->
 

@@ -25,8 +25,8 @@
       <harvestDestroys>true</harvestDestroys>
       <soundHarvesting>Harvest_Standard</soundHarvesting>
       <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
-      <harvestWork>150</harvestWork>
-      <sowWork>150</sowWork>
+      <harvestWork>190</harvestWork>
+      <sowWork>260</sowWork>
       <fertilityMin>0.5</fertilityMin>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
       <topWindExposure>0.1</topWindExposure>

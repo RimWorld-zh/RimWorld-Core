@@ -5,7 +5,7 @@
   <!--=============================== Misc ================================-->
   <!--=====================================================================-->
 
-  <ThingDef ParentName="PlantFoodRawBase">
+  <ThingDef ParentName="OrganicProductBase">
     <defName>Milk</defName>
     <label>milk</label>
     <description>Milk from an animal.</description>
@@ -13,17 +13,22 @@
       <texPath>Things/Item/Resource/Milk</texPath>
     </graphicData>
     <statBases>
-      <MarketValue>2.1</MarketValue>
+      <MarketValue>3.1</MarketValue>
     </statBases>
     <comps>
+      <li Class="CompProperties_FoodPoisoningChance" />
       <li Class="CompProperties_Rottable">
         <daysToRotStart>14</daysToRotStart>
       </li>
     </comps>
     <ingestible>
+      <preferability>RawTasty</preferability>
       <foodType>AnimalProduct, Fluid</foodType>
-      <joy>0.004</joy>
+      <nutrition>0.05</nutrition>
     </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="OrganicProductBase">
@@ -41,8 +46,9 @@
       <preferability>MealFine</preferability>
       <nutrition>0.05</nutrition>
       <joy>0.08</joy>
-      <eatEffect>EatVegetarian</eatEffect>
-      <soundEat>Meal_Eat</soundEat>
+      <joyKind>Gluttonous</joyKind>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
     <thingCategories>
       <li>AnimalProductRaw</li>
@@ -61,8 +67,8 @@
     <ingestible>
       <foodType>AnimalProduct</foodType>
       <nutrition>0.25</nutrition>
-      <eatEffect>EatMeat</eatEffect>
-      <soundEat>RawMeat_Eat</soundEat>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
       <tastesRaw>true</tastesRaw>
     </ingestible>
   </ThingDef>

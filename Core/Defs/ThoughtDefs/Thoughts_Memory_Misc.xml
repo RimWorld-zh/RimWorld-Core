@@ -3,13 +3,13 @@
 
   <ThoughtDef>
     <defName>AteWithoutTable</defName>
-    <durationDays>0.25</durationDays>
-    <stackLimit>3</stackLimit>
+    <durationDays>0.5</durationDays>
+    <stackLimit>1</stackLimit>
     <stages>
       <li>
         <label>ate without table</label>
         <description>I had to eat a meal off the ground. Can't we get a table around here?</description>
-        <baseMoodEffect>-4</baseMoodEffect>
+        <baseMoodEffect>-3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -200,13 +200,13 @@
 
   <ThoughtDef>
     <defName>Catharsis</defName>
-    <durationDays>1</durationDays>
-    <stackLimit>3</stackLimit>
+    <durationDays>2.0</durationDays>
+    <stackLimit>1</stackLimit>
     <stages>
       <li>
         <label>catharsis</label>
-        <description>It felt good to unbottle my feelings for a bit and disconnect.</description>
-        <baseMoodEffect>20</baseMoodEffect>
+        <description>It felt good to finally unbottle my feelings.</description>
+        <baseMoodEffect>25</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -335,7 +335,7 @@
       <li>
         <label>witnessed ally's death</label>
         <description>I saw one of my people die. They were alive one moment, and dead the next.</description>
-        <baseMoodEffect>-8</baseMoodEffect>
+        <baseMoodEffect>-5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -369,7 +369,7 @@
       <li>
         <label>witnessed family member's death</label>
         <description>I saw a member of my family die. My own flesh and blood...</description>
-        <baseMoodEffect>-8</baseMoodEffect>
+        <baseMoodEffect>-7</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

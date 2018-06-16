@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="InteractionMoteBase" ParentName="MoteBase" Abstract="True">
+    <thingClass>MoteInteraction</thingClass>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <mote>
+      <solidTime>2</solidTime>
+      <attachedDrawOffset>(0.75, 0, 0.75)</attachedDrawOffset>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_Text</defName>
+    <graphicData>
+      <texPath>Things/Mote/Transparent</texPath>
+    </graphicData>
+    <thingClass>MoteText</thingClass>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <mote>
+      <solidTime>2.2</solidTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_ProgressBar</defName>
+    <graphicData>
+      <texPath>Things/Mote/Transparent</texPath>
+    </graphicData>
+    <thingClass>MoteProgressBar</thingClass>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <mote>
+      <solidTime>240</solidTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="InteractionMoteBase">
+    <defName>Mote_Speech</defName>
+    <graphicData>
+      <texPath>Things/Mote/Speech</texPath>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="InteractionMoteBase">
+    <defName>Mote_Thought</defName>
+    <graphicData>
+      <texPath>Things/Mote/Thought</texPath>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_Footprint</defName>
+    <graphicData>
+      <texPath>Things/Mote/Footprint</texPath>
+    </graphicData>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <mote>
+      <fadeInTime>0.08</fadeInTime>
+      <solidTime>2.2</solidTime>
+      <fadeOutTime>2.6</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_Horseshoe</defName>
+    <graphicData>
+      <texPath>Things/Mote/Horseshoe</texPath>
+    </graphicData>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <mote>
+      <solidTime>10</solidTime>
+      <fadeOutTime>4</fadeOutTime>
+      <landSound>HorseshoeImpact</landSound>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_TempRoof</defName>
+    <graphicData>
+      <texPath>Things/Mote/TempRoof</texPath>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.04</fadeInTime>
+      <solidTime>1.2</solidTime>
+      <fadeOutTime>1.5</fadeOutTime>
+    </mote>
+  </ThingDef>
+  
+</Defs>

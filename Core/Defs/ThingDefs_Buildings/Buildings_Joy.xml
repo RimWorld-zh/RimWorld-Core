@@ -32,6 +32,7 @@
       <li>Stony</li>
     </stuffCategories>
     <building>
+      <isJoySource>true</isJoySource>
       <watchBuildingStandDistanceRange>
         <min>5</min>
         <max>5</max>
@@ -43,7 +44,6 @@
     <designationCategory>Joy</designationCategory>
     <designationHotKey>Misc1</designationHotKey>
   </ThingDef>
-  
   
   <ThingDef ParentName="BuildingBase">
     <defName>ChessTable</defName>
@@ -68,6 +68,9 @@
     <rotatable>false</rotatable>
     <socialPropernessMatters>true</socialPropernessMatters>
     <fillPercent>0.40</fillPercent>
+    <building>
+      <isJoySource>true</isJoySource>
+    </building>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
@@ -92,7 +95,6 @@
     <designationHotKey>Misc2</designationHotKey>
   </ThingDef>
 
-
   <ThingDef ParentName="BuildingBase">
     <defName>BilliardsTable</defName>
     <label>billiards table</label>
@@ -114,6 +116,9 @@
     <altitudeLayer>Building</altitudeLayer>
     <socialPropernessMatters>true</socialPropernessMatters>
     <fillPercent>0.40</fillPercent>
+    <building>
+      <isJoySource>true</isJoySource>
+    </building>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToMake>12000</WorkToMake>
@@ -145,7 +150,6 @@
 			<li>PlaceWorker_NeverAdjacentUnstandable</li>
 		</placeWorkers>
   </ThingDef>
-
 
   <ThingDef ParentName="BuildingBase">
     <defName>TubeTelevision</defName>
@@ -179,6 +183,7 @@
     <pathCost>70</pathCost>
     <passability>PassThroughOnly</passability>
     <building>
+      <isJoySource>true</isJoySource>
       <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
       <boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
       <watchBuildingStandDistanceRange>
@@ -235,6 +240,7 @@
     <passability>PassThroughOnly</passability>
     <size>(2,1)</size>
     <building>
+      <isJoySource>true</isJoySource>
       <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
       <boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
       <watchBuildingStandDistanceRange>
@@ -287,6 +293,7 @@
     <passability>PassThroughOnly</passability>
     <size>(3,1)</size>
     <building>
+      <isJoySource>true</isJoySource>
       <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
       <boughtConceptLearnOpportunity>TVForSickPeople</boughtConceptLearnOpportunity>
       <watchBuildingStandDistanceRange>
@@ -331,6 +338,9 @@
     <pathCost>50</pathCost>
     <minifiedDef>MinifiedFurniture</minifiedDef>
     <socialPropernessMatters>true</socialPropernessMatters>
+    <building>
+      <isJoySource>true</isJoySource>
+    </building>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
       <Flammability>1.0</Flammability>
@@ -338,6 +348,5 @@
       <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
     </statBases>
   </ThingDef>
-  
   
 </ThingDefs>

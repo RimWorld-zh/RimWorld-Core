@@ -6,7 +6,7 @@
     <homeIconColor>(255,220,84)</homeIconColor>
   </FactionDef>
   
-  <FactionDef Parent="PlayerFactionBase">
+  <FactionDef ParentName="PlayerFactionBase">
     <defName>PlayerColony</defName>
     <label>colony</label>
     <description>Your own community.</description>
@@ -29,7 +29,7 @@
     </apparelStuffFilter>
   </FactionDef>
   
-  <FactionDef Parent="PlayerFactionBase">
+  <FactionDef ParentName="PlayerFactionBase">
     <defName>PlayerTribe</defName>
     <label>tribe</label>
     <description>Your own tribe.</description>

@@ -37,7 +37,7 @@
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
-      <WorkToMake>7000</WorkToMake>
+      <WorkToMake>5000</WorkToMake>
       <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
       <Insulation_Heat>8</Insulation_Heat>
@@ -92,7 +92,7 @@
       <li>Fabric</li>
     </stuffCategories>
     <statBases>
-      <WorkToMake>2500</WorkToMake>
+      <WorkToMake>1500</WorkToMake>
       <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
       <Insulation_Cold>-10</Insulation_Cold>
@@ -152,7 +152,7 @@
       <li>Metallic</li>
     </stuffCategories>
     <statBases>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>80</MaxHitPoints>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
@@ -195,7 +195,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>13000</WorkToMake>
+      <WorkToMake>8000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <MarketValue>300</MarketValue>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
@@ -314,7 +314,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>60000</WorkToMake>
+      <WorkToMake>40000</WorkToMake>
       <MaxHitPoints>160</MaxHitPoints>
       <MarketValue>2000</MarketValue>
       <ArmorRating_Blunt>0.35</ArmorRating_Blunt>

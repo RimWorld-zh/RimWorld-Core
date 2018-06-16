@@ -100,7 +100,7 @@
     <caravanTraderKinds>
       <li>Caravan_Neolithic_BulkGoods</li>
       <li>Caravan_Neolithic_CombatSupplier</li>
-      <li>Caravan_Neolithic_SlavesMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
     </caravanTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Neolithic_Standard</li>
@@ -154,7 +154,7 @@
     </startingGoodwill>
     <mustStartOneEnemy>true</mustStartOneEnemy>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Raider</backstoryCategory>
 		<hairTags>
 			<li>Punk</li>

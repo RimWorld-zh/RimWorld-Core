@@ -39,6 +39,19 @@
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
   </ResearchProjectDef>
 
+    <ResearchProjectDef>
+    <defName>MedicineProduction</defName>
+    <label>medicine production</label>
+    <description>Produce medicine from herbal medicine, neutroamine, and cloth.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+  
   <ResearchProjectDef>
     <defName>MultiAnalyzer</defName>
     <label>multi-analyzer</label>

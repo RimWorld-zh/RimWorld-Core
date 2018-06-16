@@ -209,6 +209,12 @@
   </JobDef>
 
   <JobDef>
+    <defName>OperateDeepDrill</defName>
+    <driverClass>JobDriver_OperateDeepDrill</driverClass>
+    <reportString>drilling at TargetA.</reportString>
+  </JobDef>
+
+  <JobDef>
     <defName>Clean</defName>
     <driverClass>JobDriver_CleanFilth</driverClass>
     <reportString>cleaning TargetA.</reportString>

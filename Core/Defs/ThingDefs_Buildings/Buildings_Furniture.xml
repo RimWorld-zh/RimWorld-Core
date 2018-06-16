@@ -709,9 +709,9 @@
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <comps>
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>1.0</fuelConsumptionRate>
+        <fuelConsumptionRate>2.2</fuelConsumptionRate>
         <fuelCapacity>20.0</fuelCapacity>
-        <fuelConsumptionPerTickInRain>0.045</fuelConsumptionPerTickInRain>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
         <fuelFilter>
           <thingDefs>
             <li>WoodLog</li>
@@ -724,7 +724,7 @@
         <glowColor>(252,187,113,0)</glowColor>
       </li>
       <li Class="CompProperties_HeatPusher">
-        <heatPerSecond>5</heatPerSecond>
+        <heatPerSecond>3.5</heatPerSecond>
         <heatPushMaxTemperature>23</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_FireOverlay">
@@ -737,7 +737,7 @@
   </ThingDef>
 
 
-  <ThingDef Abstract="True" Name="StandingLampBase" ParentName="BuildingBase">
+  <ThingDef Abstract="True" Name="LampBase" ParentName="BuildingBase">
     <thingClass>Building</thingClass>
     <category>Building</category>
     <minifiedDef>MinifiedFurniture</minifiedDef>
@@ -746,15 +746,11 @@
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
     <pathCost>8</pathCost>
-    <costList>
-      <Steel>15</Steel>
-    </costList>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <designationCategory>Furniture</designationCategory>
     <rotatable>false</rotatable>
     <graphicData>
-      <texPath>Things/Building/Furniture/LampStanding</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shadowData>
         <volume>(0.3, 0.6, 0.3)</volume>
@@ -765,23 +761,33 @@
       </damageData>
     </graphicData>
     <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>150</basePowerConsumption>
-        <shortCircuitInRain>false</shortCircuitInRain>
-      </li>
       <li Class="CompProperties_Flickable"/>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
     </comps>
-        <statBases>
+    <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <WorkToMake>170</WorkToMake>
       <Flammability>1.0</Flammability>
     </statBases>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
   </ThingDef>
-  
+
+  <ThingDef Abstract="True" Name="StandingLampBase" ParentName="LampBase">
+    <graphicData>
+      <texPath>Things/Building/Furniture/LampStanding</texPath>
+    </graphicData>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>75</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+    </comps>
+  </ThingDef>
   
   <ThingDef ParentName="StandingLampBase" >
     <defName>StandingLamp</defName>
@@ -836,6 +842,38 @@
   </ThingDef>
 
 
+  <ThingDef ParentName="LampBase">
+    <defName>SunLamp</defName>
+    <label>sun lamp</label>
+    <description>Lights an area brightly enough to grow crops, but consumes a huge amount of power.</description>
+    <thingClass>Building_SunLamp</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/LampSun</texPath>
+    </graphicData>
+    <blockWind>true</blockWind>
+    <statBases>
+      <WorkToMake>330</WorkToMake>
+    </statBases>
+    <costList>
+      <Steel>25</Steel>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <overlightRadius>7.0</overlightRadius>
+        <glowRadius>14</glowRadius>
+        <glowColor>(370,370,370,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>1600</basePowerConsumption>
+      </li>
+    </comps>
+    <!-- Determined by trial and error
+    This value isn't perfect because these radii use different algorithms
+    but it matches in this case-->
+    <specialDisplayRadius>5.8</specialDisplayRadius>
+  </ThingDef>
 
 
   <!--============================== Storage ==============================-->

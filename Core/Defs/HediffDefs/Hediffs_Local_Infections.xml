@@ -12,15 +12,6 @@
     </comps>
   </HediffDef>
 
-  <HediffDef Name="InfectionTreatableBase" ParentName="InfectionBase" Abstract="True">
-    <comps>
-      <li>
-        <compClass>HediffComp_Tendable</compClass>
-        <tendDuration>30000</tendDuration>
-      </li>
-    </comps>
-  </HediffDef>
-
   <HediffDef ParentName="InfectionBase">
     <defName>GutWorms</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -76,6 +67,9 @@
     <hediffClass>HediffWithComps</hediffClass>
     <makesSickThought>true</makesSickThought>
     <makesAlert>false</makesAlert>
+    <minSeverity>0.001</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <initialSeverity>0.001</initialSeverity>
     <comps>
       <li>
         <compClass>HediffComp_Disappears</compClass>
@@ -87,13 +81,11 @@
       <li>
         <compClass>HediffComp_Tendable</compClass>
         <tendDuration>120000</tendDuration>
+        <severityPerDayTendedOffset>-1.0</severityPerDayTendedOffset>
       </li>
       <li>
         <compClass>HediffComp_Immunizable</compClass>
         <severityPerDayNotImmune>0.25</severityPerDayNotImmune>
-        <severityPerDayTendedOffset>-1.0</severityPerDayTendedOffset>
-        <minSeverity>0.001</minSeverity>
-        <maxSeverity>1</maxSeverity>
       </li>
     </comps>
   </HediffDef>
@@ -198,21 +190,22 @@
     </stages>
   </HediffDef>
 
-
-
-
-  <HediffDef ParentName="InfectionTreatableBase">
+  <HediffDef ParentName="InfectionBase">
     <defName>WoundInfection</defName>
     <label>infection</label>
     <makesSickThought>true</makesSickThought>
     <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <tendDuration>30000</tendDuration>
+        <severityPerDayTendedOffset>-0.16</severityPerDayTendedOffset>
+      </li>
       <li>
         <compClass>HediffComp_Immunizable</compClass>
         <immunityPerDayNotSick>-0.4</immunityPerDayNotSick>
         <immunityPerDaySick>0.62</immunityPerDaySick>
         <severityPerDayNotImmune>0.26</severityPerDayNotImmune>
         <severityPerDayImmune>-0.2</severityPerDayImmune>
-        <severityPerDayTendedOffset>-0.16</severityPerDayTendedOffset>
       </li>
     </comps>
     <stages>
@@ -267,18 +260,22 @@
   </HediffDef>
 
 
-  <HediffDef ParentName="InfectionTreatableBase">
+  <HediffDef ParentName="InfectionBase">
     <defName>Flu</defName>
     <label>flu</label>
     <makesSickThought>true</makesSickThought>
     <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <tendDuration>30000</tendDuration>
+        <severityPerDayTendedOffset>-0.054</severityPerDayTendedOffset>
+      </li>
       <li>
         <compClass>HediffComp_Immunizable</compClass>
         <immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
         <immunityPerDaySick>0.173</immunityPerDaySick>
         <severityPerDayNotImmune>0.1</severityPerDayNotImmune>
         <severityPerDayImmune>-0.2</severityPerDayImmune>
-        <severityPerDayTendedOffset>-0.054</severityPerDayTendedOffset>
       </li>
     </comps>
     <stages>
@@ -357,18 +354,22 @@
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="InfectionTreatableBase">
+  <HediffDef ParentName="InfectionBase">
     <defName>Plague</defName>
     <label>plague</label>
     <makesSickThought>true</makesSickThought>
     <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <tendDuration>30000</tendDuration>
+        <severityPerDayTendedOffset>-0.15</severityPerDayTendedOffset>
+      </li>
       <li>
         <compClass>HediffComp_Immunizable</compClass>
         <immunityPerDayNotSick>-0.02</immunityPerDayNotSick>
         <immunityPerDaySick>0.3</immunityPerDaySick>
         <severityPerDayNotImmune>0.2</severityPerDayNotImmune>
         <severityPerDayImmune>-0.1</severityPerDayImmune>
-        <severityPerDayTendedOffset>-0.15</severityPerDayTendedOffset>
       </li>
     </comps>
     <stages>
@@ -454,18 +455,23 @@
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="InfectionTreatableBase">
+  <HediffDef ParentName="InfectionBase">
     <defName>Malaria</defName>
     <label>malaria</label>
     <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <tendDuration>30000</tendDuration>
+        <severityPerDayTendedOffset>-0.126</severityPerDayTendedOffset>
+      </li>
       <li>
         <compClass>HediffComp_Immunizable</compClass>
         <immunityPerDayNotSick>-0.03</immunityPerDayNotSick>
         <immunityPerDaySick>0.12</immunityPerDaySick>
         <severityPerDayNotImmune>0.15</severityPerDayNotImmune>
         <severityPerDayImmune>-0.3</severityPerDayImmune>
-        <severityPerDayTendedOffset>-0.126</severityPerDayTendedOffset>
       </li>
     </comps>
     <stages>
@@ -549,6 +555,7 @@
       <li>
         <compClass>HediffComp_Tendable</compClass>
         <tendDuration>80000</tendDuration>
+        <severityPerDayTendedOffset>-0.012</severityPerDayTendedOffset>
       </li>
       <li>
         <compClass>HediffComp_Immunizable</compClass>
@@ -556,7 +563,6 @@
         <immunityPerDaySick>0.036</immunityPerDaySick>
         <severityPerDayNotImmune>0.02</severityPerDayNotImmune>
         <severityPerDayImmune>-0.06</severityPerDayImmune>
-        <severityPerDayTendedOffset>-0.012</severityPerDayTendedOffset>
       </li>
     </comps>
     <stages>

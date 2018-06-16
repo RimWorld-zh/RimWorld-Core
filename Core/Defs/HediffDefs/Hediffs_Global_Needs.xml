@@ -5,6 +5,7 @@
     <defName>Malnutrition</defName>
     <label>malnutrition</label>
     <lethalSeverity>1</lethalSeverity>
+    <scenarioCanAdd>true</scenarioCanAdd>
     <stages>
       <li>
         <label>trivial</label>

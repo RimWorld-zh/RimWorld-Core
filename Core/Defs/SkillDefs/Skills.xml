@@ -13,6 +13,7 @@
     <description>Use of all kinds of melee weapons as well as unarmed combat.</description>
     <skillLabel>Melee</skillLabel>
 		<pawnLabel>Brawler</pawnLabel>
+    <disablingWorkTags>Violent</disablingWorkTags>
 	</SkillDef>
 
 	<SkillDef>

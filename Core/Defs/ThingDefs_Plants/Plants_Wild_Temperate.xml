@@ -71,7 +71,6 @@
     </ingestible>
     <plant>
       <leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath>
-      <harvestWork>130</harvestWork>
       <fertilityMin>0.4</fertilityMin>
       <wildClusterSizeRange>
         <min>2</min>

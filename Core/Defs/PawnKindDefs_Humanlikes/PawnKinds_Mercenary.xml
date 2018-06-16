@@ -1,19 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <PawnKindDefs>
 
-
-  <PawnKindDef>
-    <defName>MercenaryGunner</defName>
-    <label>mercenary gunner</label>
+  <PawnKindDef Name="MercenaryBase" Abstract="True">
     <race>Human</race>
-    <combatPower>70</combatPower>
     <defaultFactionType>Pirate</defaultFactionType>
     <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
     <backstoryCategory>Raider</backstoryCategory>
+    <chemicalAddictionChance>0.1</chemicalAddictionChance>
     <invNutrition>2.55</invNutrition>
     <itemQuality>Normal</itemQuality>
     <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
-    <maxGenerationAge>58</maxGenerationAge>
+    <maxGenerationAge>65</maxGenerationAge>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="MercenaryBase">
+    <defName>MercenaryGunner</defName>
+    <label>mercenary gunner</label>
+    <combatPower>70</combatPower>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -38,6 +41,10 @@
       <min>1000</min>
       <max>1500</max>
     </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
@@ -63,19 +70,10 @@
     </inventoryOptions>
   </PawnKindDef>
 
-
-  <PawnKindDef>
+  <PawnKindDef ParentName="MercenaryBase">
     <defName>MercenarySniper</defName>
     <label>mercenary sniper</label>
-    <race>Human</race>
     <combatPower>90</combatPower>
-    <defaultFactionType>Pirate</defaultFactionType>
-    <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
-    <backstoryCategory>Raider</backstoryCategory>
-    <invNutrition>2.55</invNutrition>
-    <itemQuality>Normal</itemQuality>
-    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
-    <maxGenerationAge>58</maxGenerationAge>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -100,6 +98,10 @@
       <min>1000</min>
       <max>1500</max>
     </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
@@ -125,16 +127,9 @@
     </inventoryOptions>
   </PawnKindDef>
 
-
-  <PawnKindDef Abstract="True" Name="GrenadierBase">
+  <PawnKindDef Abstract="True" Name="GrenadierBase" ParentName="MercenaryBase">
     <race>Human</race>
     <combatPower>60</combatPower>
-    <defaultFactionType>Pirate</defaultFactionType>
-    <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
-    <backstoryCategory>Raider</backstoryCategory>
-    <invNutrition>2.55</invNutrition>
-    <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
-    <maxGenerationAge>58</maxGenerationAge>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -156,6 +151,10 @@
       <min>1000</min>
       <max>1500</max>
     </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
@@ -197,17 +196,10 @@
     </weaponTags>
   </PawnKindDef>
   
-  <PawnKindDef>
+  <PawnKindDef ParentName="MercenaryBase">
     <defName>MercenarySlasher</defName>
     <label>mercenary slasher</label>
     <combatPower>135</combatPower>
-    <race>Human</race>
-    <defaultFactionType>Pirate</defaultFactionType>
-    <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
-    <backstoryCategory>Raider</backstoryCategory>
-    <invNutrition>2.55</invNutrition>
-    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
-    <maxGenerationAge>50</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
       <max>2.3</max>
@@ -235,6 +227,10 @@
       <min>2000</min>
       <max>3000</max>
     </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
@@ -260,17 +256,10 @@
     </inventoryOptions>
   </PawnKindDef>
 
-  <PawnKindDef>
+  <PawnKindDef ParentName="MercenaryBase">
     <defName>MercenaryHeavy</defName>
     <label>heavy mercenary</label>
     <combatPower>185</combatPower>
-    <race>Human</race>
-    <defaultFactionType>Pirate</defaultFactionType>
-    <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
-    <backstoryCategory>Raider</backstoryCategory>
-    <invNutrition>2.55</invNutrition>
-    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
-    <maxGenerationAge>90</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
       <max>1.4</max>
@@ -295,20 +284,18 @@
       <min>2000</min>
       <max>3000</max>
     </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
     <techHediffsChance>0.08</techHediffsChance>
   </PawnKindDef>
 
-  <PawnKindDef Abstract="True" Name="EliteBase" >
+  <PawnKindDef Abstract="True" Name="EliteBase" ParentName="MercenaryBase">
     <combatPower>220</combatPower>
-    <race>Human</race>
-    <defaultFactionType>Pirate</defaultFactionType>
-    <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
-    <backstoryCategory>Raider</backstoryCategory>
-    <itemQuality>Normal</itemQuality>
-    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
     <maxGenerationAge>45</maxGenerationAge>
     <gearHealthRange>
       <min>0.8</min>
@@ -335,6 +322,11 @@
       <min>2000</min>
       <max>3000</max>
     </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>1</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
+    <combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>

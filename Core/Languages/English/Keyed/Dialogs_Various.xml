@@ -5,6 +5,11 @@
   <GoBack>Go back</GoBack>
   <OK>OK</OK>
   
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>RimWorld has been updated from version {0} to version {1}.\n\nThis may cause saved games and mods from the old version to stop working.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this.</GameUpdatedToNewVersionSteam>
+  
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>Recovered from incompatible or corrupted mods errors</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog.</RecoveredFromErrorsText>
@@ -17,6 +22,9 @@
   <ErrorWhileGeneratingMap>An error occurred while generating a new map. See error log for more information.</ErrorWhileGeneratingMap>
   <ErrorWhileLoadingMapTitle>Error while loading a map</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>An error occurred while loading a map. See error log for more information.</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <ModWithAssemblyWasUnloaded>The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly.</ModWithAssemblyWasUnloaded>
   
   <!-- Missing Steam -->
   <SteamClientMissing>Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nThis Steam version of the game requires Steam and will now quit.</SteamClientMissing>
@@ -163,6 +171,8 @@
   <RecruitDifficulty>Recruit difficulty</RecruitDifficulty>
   <MarketValue>Base price</MarketValue>
   <Covers>Covers</Covers>
+  <CoverEffectiveness>Cover effectiveness</CoverEffectiveness>
+  <CoverEffectivenessExplanation>How effective this is when used as cover in a gunfight. Higher percentages will block more shots.</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>Experience gain factor</MedicineXpGainFactor>
   <BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
   <MoodChange>Mood change</MoodChange>
@@ -172,6 +182,7 @@
   <AnimalFilthRateExplanation>Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Time</TimeRecordsCategory>
   <MiscRecordsCategory>Misc</MiscRecordsCategory>
+  <Addictiveness>Addictiveness</Addictiveness>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>Positive numbers buy.\nNegative numbers sell.</PositiveBuysNegativeSells>
@@ -183,11 +194,12 @@
   <AcceptButton>Accept</AcceptButton>
   <ResetButton>Reset</ResetButton>
   <CancelButton>Cancel</CancelButton>
+  <CloseButton>Close</CloseButton>
   <YourTradeableSilver>Your tradeable silver: {0}</YourTradeableSilver>
 	<YourTradeableSilverTip>You can only trade with silver that is near an orbital trade beacon and not under a roof.</YourTradeableSilverTip>
   <TraderHasNoMore>Trader has no more.</TraderHasNoMore>
   <ColonyHasNoMore>No more to sell.</ColonyHasNoMore>
-  <TraderWillNotTrade>Trader is not willing to trade in this item.</TraderWillNotTrade>
+  <TraderWillNotTrade>Trader is not willing to trade this.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Your negotiator {0} cannot talk properly because of poor health.\n\nThis will affect trade prices.\n\nConsider using a healthier negotiator.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Trader has insufficient silver to fully cover this transaction.  Proceed anyways?</ConfirmTraderShortFunds>
   <SortBy>Sort by</SortBy>
@@ -214,6 +226,39 @@
   <DeleteOutfit>Delete outfit...</DeleteOutfit>
   <OutfitInUse>Outfit is in use by {0}.</OutfitInUse>
   <NoOutfitSelected>No outfit selected</NoOutfitSelected>
+  
+  <!-- Drug policy management -->
+  <DrugPolicy>Drug policy</DrugPolicy>
+  <SelectDrugPolicy>Select policy...</SelectDrugPolicy>
+  <NewDrugPolicy>New policy</NewDrugPolicy>
+  <DeleteDrugPolicy>Delete policy...</DeleteDrugPolicy>
+  <DrugPolicyInUse>Drugs policy is in use by {0}.</DrugPolicyInUse>
+  <SocialDrugs>Social drugs</SocialDrugs>
+  <NoDrugs>No drugs</NoDrugs>
+  <OneDrinkPerDay>One drink per day</OneDrinkPerDay>
+  <Unrestricted>Unrestricted</Unrestricted>
+  <NoDrugPolicySelected>No drug policy selected</NoDrugPolicySelected>
+  <AddDrug>Add drug...</AddDrug>
+  <DrugColumnLabel>Drug</DrugColumnLabel>
+  <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>Frequency</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>Only if mood below</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Only if joy below</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Take to inventory</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(no drugs)</NoDrugsBrackets>
+  <EveryDay>Every day</EveryDay>
+  <TimesPerDay>{0} times per day</TimesPerDay>
+  <EveryDays>Every {0} days</EveryDays>
+  <NoDrugUseRequirement>Any</NoDrugUseRequirement>
+  <DeleteDrugTooltip>Delete this drug.</DeleteDrugTooltip>
+  <DrugNameColumnDesc>The name of a drug.</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>How the drug is allowed to be used.</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>How often the colonists should try to take this drug.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>The colonists will take this drug only if their mood level is below this threshold.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>The colonists will take this drug only if their joy level is below this threshold.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time.</TakeToInventoryColumnDesc>
+  <DrugUsageTipForJoy>For joy\n\nUse this drug for joy and social purposes, and to satisfy addiction needs, as desired.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met.</DrugUsageTipScheduled>
   
   <!-- Growing -->
   <NoGrowerCanPlant>{0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown.</NoGrowerCanPlant>

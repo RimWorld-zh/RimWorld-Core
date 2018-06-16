@@ -7,6 +7,7 @@
     <description>Cooks a straightforward meal from one ingredient.</description>
     <jobString>Cooking simple meal.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_CookMeal</soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>

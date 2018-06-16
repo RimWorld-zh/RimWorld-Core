@@ -20,7 +20,7 @@
     <label>temperate forest</label>
     <description>A friendly biome dominated by forests of deciduous trees interspersed with fertile clearings. Many species of animals move around in the trees and on the plains.</description>
     <workerClass>BiomeWorker_TemperateForest</workerClass>
-    <animalDensity>6.0</animalDensity>
+    <animalDensity>5.5</animalDensity>
     <plantDensity>0.83</plantDensity>
     <baseColor>(0.341, 0.525, 0.180)</baseColor>
     <soundsAmbient>
@@ -149,7 +149,7 @@
     <label>tropical rainforest</label>
     <description>A thick, moist jungle. Dense overgrowth and aggressive wildlife make construction and survival difficult.</description>
     <workerClass>BiomeWorker_TropicalRainforest</workerClass>
-    <animalDensity>8.0</animalDensity>
+    <animalDensity>7.2</animalDensity>
     <plantDensity>1.0</plantDensity>
     <baseColor>(0, 0.372, 0.035)</baseColor>
     <soundsAmbient>

@@ -39,9 +39,9 @@
   <AnimalsSkillTooLow>Animals skill too low</AnimalsSkillTooLow>
 	<NoComponentsToRepair>need components</NoComponentsToRepair>
 	<NoFuelToRefuel>need {0}</NoFuelToRefuel>
-
+  <NoWort>need wort</NoWort>
+  
   <ConsumeThing>Consume {0}</ConsumeThing>
-  <Teetotaler>teetotaler</Teetotaler>
   
   <CannotGoNoPath>Cannot go here (no path)</CannotGoNoPath>
   <GoHere>Go here</GoHere>
@@ -109,7 +109,9 @@
 
   <CannotGenericAlreadyAm>Already {0} {1}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>Cannot prioritize ({0} is not a {1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeWorkTypeDisabled>Cannot prioritize (will never do {0})</CannotPrioritizeWorkTypeDisabled>
+  
+  <CannotPrioritizeNotAssignedToWorkType>Cannot prioritize (not assigned to {0})</CannotPrioritizeNotAssignedToWorkType>
 
   <CannotPrioritizeResearch>Cannot prioritize (research is a long-term task)</CannotPrioritizeResearch>
 

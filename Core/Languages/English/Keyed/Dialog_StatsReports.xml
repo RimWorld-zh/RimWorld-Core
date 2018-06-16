@@ -4,6 +4,7 @@
   <StatsReport_BaseValue>Base value</StatsReport_BaseValue>
   <StatsReport_RelevantTraits>Relevant traits</StatsReport_RelevantTraits>
   <StatsReport_RelevantGear>Relevant gear</StatsReport_RelevantGear>
+  <StatsReport_RelevantHediffs>Relevant health conditions</StatsReport_RelevantHediffs>
   <StatsReport_LifeStage>Life stage</StatsReport_LifeStage>
   <StatsReport_Material>Material</StatsReport_Material>
   <StatsReport_CharacterQuality>Character quality</StatsReport_CharacterQuality>

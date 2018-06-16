@@ -6,7 +6,7 @@
     <label>arid shrubland</label>
     <description>A dry region, but not dry enough to become a true desert. Open plains with grasses and bushes give way to scattered groves of trees. Plants are hardy and there is a moderate density of animals.</description>
     <workerClass>BiomeWorker_AridShrubland</workerClass>
-    <animalDensity>4.0</animalDensity>
+    <animalDensity>3.6</animalDensity>
     <plantDensity>0.5</plantDensity>
     <baseColor>(125,101,78)</baseColor>
     <soundsAmbient>
@@ -108,7 +108,7 @@
     <label>desert</label>
     <description>A very dry, hot area which supports little life.</description>
     <workerClass>BiomeWorker_Desert</workerClass>
-    <animalDensity>0.9</animalDensity>
+    <animalDensity>0.8</animalDensity>
     <plantDensity>0.14</plantDensity>
     <baseColor>(0.592, 0.568, 0.396)</baseColor>
     <diseaseMtbDays>80</diseaseMtbDays>
@@ -190,7 +190,7 @@
     <label>extreme desert</label>
     <description>An extremely hot, dry area, devoid of almost all living creatures. Immense heat and limited vegetation make it very difficult to survive here, even for well-adapted animals.</description>
     <workerClass>BiomeWorker_ExtremeDesert</workerClass>
-    <animalDensity>0.45</animalDensity>
+    <animalDensity>0.4</animalDensity>
     <plantDensity>0.006</plantDensity>
     <baseColor>(0.707, 0.664, 0.371)</baseColor>
     <diseaseMtbDays>90</diseaseMtbDays>

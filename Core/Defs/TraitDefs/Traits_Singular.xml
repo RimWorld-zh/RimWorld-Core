@@ -182,7 +182,7 @@
     <degreeDatas>
       <li>
         <label>night owl</label>
-        <description>NAME likes to work at night. HECAP gets a mood bonus if awake at night and mood loss if awake during the day.</description>
+        <description>NAME likes to be up during the night, and sleep during the day.\n\nHECAP gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).</description>
       </li>
     </degreeDatas>
   </TraitDef>
@@ -221,7 +221,7 @@
     <degreeDatas>
       <li>
         <label>ascetic</label>
-        <description>NAME prefers to live in asceticism. HECAP will be put in a poor mood if HE has a bedroom that's too impressive.</description>
+        <description>NAME prefers to live in asceticism. HECAP will be put in a poor mood if HE has a bedroom that's too impressive. HECAP also dislikes fancy food and prefers to eat raw - and raw food won't both HIM a bit.</description>
       </li>
     </degreeDatas>
     <conflictingTraits>

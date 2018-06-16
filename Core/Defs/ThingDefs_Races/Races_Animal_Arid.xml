@@ -424,7 +424,7 @@
       <leatherColor>(150,150,150)</leatherColor>
       <leatherLabel>rhinohide</leatherLabel>
       <leatherInsulation>0.65</leatherInsulation>
-      <leatherMarketValue>6</leatherMarketValue>
+      <leatherMarketValueFactor>2</leatherMarketValueFactor>
       <leatherStatFactors>
         <ArmorRating_Blunt>2.0</ArmorRating_Blunt>
         <ArmorRating_Sharp>2.5</ArmorRating_Sharp>

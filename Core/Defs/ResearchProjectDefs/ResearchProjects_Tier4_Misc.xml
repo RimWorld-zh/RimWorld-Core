@@ -1,7 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--========================= Tier 4: Hit-tech research bench with multi-analyzer ===================================-->
+  <!--========================= Tier 4: Hi-tech research bench with multi-analyzer ===================================-->
+
+  <ResearchProjectDef>
+    <defName>GroundPenetratingScanner</defName>
+    <label>ground-penetrating scanner</label>
+    <description>Allows you to build ground-penetrating scanners that can detect drillable resources deep under the surface.</description>
+    <baseCost>7000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DeepDrilling</defName>
+    <label>deep drilling</label>
+    <description>Allows you to build deep drills for extracting resources from deep underground. You'll need a ground-penetrating scanner to find the resources.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>VitalsMonitor</defName>
@@ -53,7 +83,7 @@
     <defName>Cryptosleep</defName>
     <label>cryptosleep casket</label>
     <description>Allows colonists to construct cryptosleep caskets, which can put living beings in a state of suspended animation.</description>
-    <baseCost>1000</baseCost>
+    <baseCost>1100</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>MicroelectronicsBasics</li>
@@ -93,5 +123,5 @@
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
   </ResearchProjectDef>
-
+  
 </Defs>

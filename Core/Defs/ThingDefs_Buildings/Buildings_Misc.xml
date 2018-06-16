@@ -2,60 +2,6 @@
 <Buildings>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>SunLamp</defName>
-    <label>sun lamp</label>
-    <thingClass>Building_SunLamp</thingClass>
-    <category>Building</category>
-    <graphicData>
-      <texPath>Things/Building/Production/LampSun</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shadowData>
-        <volume>(0.2, 0.4, 0.2)</volume>
-        <offset>(0,0,-0.1)</offset>
-      </shadowData>
-      <damageData>
-        <rect>(0.2,0.2,0.6,0.6)</rect>
-      </damageData>
-    </graphicData>
-    <altitudeLayer>Building</altitudeLayer>
-    <blockWind>true</blockWind>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.15</fillPercent>
-    <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
-      <WorkToMake>330</WorkToMake>
-      <Flammability>1.0</Flammability>
-    </statBases>
-    <selectable>true</selectable>
-    <description>Lights an area brightly enough to grow crops.</description>
-    <costList>
-      <Steel>25</Steel>
-    </costList>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <comps>
-      <li Class="CompProperties_Glower">
-        <overlightRadius>7.0</overlightRadius>
-        <glowRadius>14</glowRadius>
-        <glowColor>(370,370,370,0)</glowColor>
-      </li>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <startElectricalFires>true</startElectricalFires>
-        <basePowerConsumption>1600</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-    </comps>
-    <!-- Determined by trial and error
-    This value isn't perfect because these radii use different algorithms
-    but it matches in this case-->
-    <specialDisplayRadius>5.8</specialDisplayRadius>
-    <designationCategory>Misc</designationCategory>
-    <rotatable>false</rotatable>
-    <designationHotKey>Misc1</designationHotKey>
-  </ThingDef>
-
-  <ThingDef ParentName="BuildingBase">
     <defName>OrbitalTradeBeacon</defName>
     <label>orbital trade beacon</label>
     <thingClass>Building_OrbitalTradeBeacon</thingClass>
@@ -156,7 +102,165 @@
     </researchPrerequisites>
   </ThingDef>
 
-  <!-- Facilities -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>FirefoamPopper</defName>
+    <label>firefoam popper</label>
+    <description>When touched by fire or triggered by hand, this pops and sprays a fire-extinguishing foam in a circular field around itself.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/FirefoamPopper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.25, 0.5, 0.25)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>9.9</explosiveRadius>
+        <explosiveDamageType>Extinguish</explosiveDamageType>
+        <startWickHitPointsPercent>-1</startWickHitPointsPercent>
+        <startWickOnDamageTaken>Flame</startWickOnDamageTaken>
+        <postExplosionSpawnThingDef>FilthFireFoam</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+        <explosionEffect>ExtinguisherExplosion</explosionEffect>
+      </li>
+      <li Class="CompProperties_Usable">
+        <useJob>TriggerFirefoamPopper</useJob>
+        <useLabel>Trigger firefoam popper</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_StartWick</compClass>
+      </li>
+    </comps>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>1500</WorkToMake>
+      <Flammability>1.0</Flammability>
+      <Beauty>-8</Beauty>
+    </statBases>
+    <fillPercent>0.15</fillPercent>
+    <costList>
+      <Steel>75</Steel>
+      <Component>1</Component>
+    </costList>
+    <specialDisplayRadius>9.9</specialDisplayRadius>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>25</pathCost>
+    <designationCategory>Misc</designationCategory>
+    <rotatable>false</rotatable>
+    <designationHotKey>Misc7</designationHotKey>
+    <researchPrerequisites>
+      <li>Firefoam</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>MoisturePump</defName>
+    <label>moisture pump</label>
+    <description>Very slowly removes moisture from nearby terrain, converting marshes or shallow water into dry ground. Does not affect deep water.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/MoisturePump</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.25, 0.5, 0.25)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>150</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_TerrainPumpDry">
+        <radius>6.9</radius>
+        <daysToRadius>60</daysToRadius>
+      </li>
+    </comps>
+    <tickerType>Rare</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>1500</WorkToMake>
+      <Flammability>1.0</Flammability>
+      <Beauty>-8</Beauty>
+    </statBases>
+    <fillPercent>0.15</fillPercent>
+    <costList>
+      <Steel>75</Steel>
+      <Component>5</Component>
+    </costList>
+    <specialDisplayRadius>6.9</specialDisplayRadius>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>25</pathCost>
+    <designationCategory>Misc</designationCategory>
+    <rotatable>false</rotatable>
+    <researchPrerequisites>
+      <li>MoisturePump</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>GroundPenetratingScanner</defName>
+    <label>ground-penetrating scanner</label>
+    <description>A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Requires a huge amount of electricity.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/GroundPenetratingScanner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(1.4, 0.5, 1.4)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+    </graphicData>
+    <costList>
+      <Steel>400</Steel>
+      <Component>12</Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>1500</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li>
+        <compClass>CompDeepScanner</compClass>
+      </li>
+    </comps>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>1500</WorkToMake>
+      <Flammability>1.0</Flammability>
+      <Beauty>-8</Beauty>
+    </statBases>
+    <fillPercent>0.25</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <pathCost>25</pathCost>
+    <designationCategory>Misc</designationCategory>
+    <rotatable>false</rotatable>
+    <size>(2,2)</size>
+    <researchPrerequisites>
+      <li>GroundPenetratingScanner</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!--========================== Facilities ============================-->
 
   <ThingDef ParentName="BuildingBase">
     <defName>MultiAnalyzer</defName>
@@ -313,117 +417,7 @@
 		</placeWorkers>
   </ThingDef>
    
-  <ThingDef ParentName="BuildingBase">
-    <defName>FirefoamPopper</defName>
-    <label>firefoam popper</label>
-    <description>When touched by fire or triggered by hand, this pops and sprays a fire-extinguishing foam in a circular field around itself.</description>
-    <graphicData>
-      <texPath>Things/Building/Misc/FirefoamPopper</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shadowData>
-        <volume>(0.25, 0.5, 0.25)</volume>
-        <offset>(0,0,-0.1)</offset>
-      </shadowData>
-      <damageData>
-        <rect>(0.2,0.2,0.6,0.6)</rect>
-      </damageData>
-    </graphicData>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>9.9</explosiveRadius>
-        <explosiveDamageType>Extinguish</explosiveDamageType>
-        <startWickHitPointsPercent>-1</startWickHitPointsPercent>
-        <startWickOnDamageTaken>Flame</startWickOnDamageTaken>
-        <postExplosionSpawnThingDef>FilthFireFoam</postExplosionSpawnThingDef>
-        <postExplosionSpawnChance>1</postExplosionSpawnChance>
-        <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
-        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-        <explosionEffect>ExtinguisherExplosion</explosionEffect>
-      </li>
-      <li Class="CompProperties_Usable">
-        <useJob>TriggerFirefoamPopper</useJob>
-        <useLabel>Trigger firefoam popper</useLabel>
-      </li>
-      <li Class="CompProperties_UseEffect">
-        <compClass>CompUseEffect_StartWick</compClass>
-      </li>
-    </comps>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Building</altitudeLayer>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
-    <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
-      <WorkToMake>1500</WorkToMake>
-      <Flammability>1.0</Flammability>
-      <Beauty>-8</Beauty>
-    </statBases>
-    <fillPercent>0.15</fillPercent>
-    <costList>
-      <Steel>75</Steel>
-      <Component>1</Component>
-    </costList>
-    <specialDisplayRadius>9.9</specialDisplayRadius>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <pathCost>25</pathCost>
-    <designationCategory>Misc</designationCategory>
-    <rotatable>false</rotatable>
-    <designationHotKey>Misc7</designationHotKey>
-    <researchPrerequisites>
-      <li>Firefoam</li>
-    </researchPrerequisites>
-  </ThingDef>
-
-  <ThingDef ParentName="BuildingBase">
-    <defName>MoisturePump</defName>
-    <label>moisture pump</label>
-    <description>Very slowly removes moisture from nearby terrain, converting marshes or shallow water into dry ground. Does not affect deep water.</description>
-    <graphicData>
-      <texPath>Things/Building/Misc/MoisturePump</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shadowData>
-        <volume>(0.25, 0.5, 0.25)</volume>
-        <offset>(0,0,-0.1)</offset>
-      </shadowData>
-      <damageData>
-        <rect>(0.2,0.2,0.6,0.6)</rect>
-      </damageData>
-    </graphicData>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <startElectricalFires>true</startElectricalFires>
-        <basePowerConsumption>150</basePowerConsumption>
-        <shortCircuitInRain>false</shortCircuitInRain>
-      </li>
-      <li Class="CompProperties_TerrainPumpDry">
-        <radius>6.9</radius>
-        <daysToRadius>60</daysToRadius>
-      </li>
-    </comps>
-    <tickerType>Rare</tickerType>
-    <altitudeLayer>Building</altitudeLayer>
-    <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
-      <WorkToMake>1500</WorkToMake>
-      <Flammability>1.0</Flammability>
-      <Beauty>-8</Beauty>
-    </statBases>
-    <fillPercent>0.15</fillPercent>
-    <costList>
-      <Steel>75</Steel>
-      <Component>5</Component>
-    </costList>
-    <specialDisplayRadius>6.9</specialDisplayRadius>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <pathCost>25</pathCost>
-    <designationCategory>Misc</designationCategory>
-    <rotatable>false</rotatable>
-    <researchPrerequisites>
-      <li>MoisturePump</li>
-    </researchPrerequisites>
-  </ThingDef>
-
-  <!-- =================================================== -->
+  <!--=========================== Graves ============================-->
 
   <ThingDef ParentName="BuildingBase">
     <defName>Grave</defName>
@@ -562,7 +556,7 @@
     <designationHotkey>Misc9</designationHotkey>
   </ThingDef>
 
-  <!-- Cryptosleep casket -->
+  <!--======================= Cryptosleep caskets ===========================-->
 
   <ThingDef ParentName="BuildingBase">
     <defName>CryptosleepCasket</defName>
@@ -650,6 +644,8 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <staticSunShadowHeight>0.4</staticSunShadowHeight>
   </ThingDef>
+
+  <!--============================ Spots =============================-->
 
   <ThingDef ParentName="BuildingBase">
     <defName>MarriageSpot</defName>

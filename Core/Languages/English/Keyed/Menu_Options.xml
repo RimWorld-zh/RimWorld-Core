@@ -14,9 +14,8 @@
   <CustomCursor>Custom cursor</CustomCursor>
   <KeyboardConfig>Keyboard configuration</KeyboardConfig>
   <ChooseLanguage>Choose language</ChooseLanguage>
-  <AdaptiveTutor>Adaptive tutor</AdaptiveTutor>
-  <ResetAdaptiveTutor>Reset adaptive tutor</ResetAdaptiveTutor>
-  <AdaptiveTutorIsReset>Adaptive tutor is reset. He will now teach you from scratch.</AdaptiveTutorIsReset>
+  <ResetAdaptiveTutor>Reset learning helper</ResetAdaptiveTutor>
+  <AdaptiveTutorIsReset>Tutor is reset. You will be now be re-taught all lessons from scratch.</AdaptiveTutorIsReset>
   <RunInBackground>Run in background</RunInBackground>
   <DevelopmentMode>Development mode</DevelopmentMode>
   <ResetModsConfigOnCrash>Auto-reset mods config on crash</ResetModsConfigOnCrash>
@@ -27,6 +26,7 @@
   <AutosaveInterval>Autosave interval</AutosaveInterval>
   <TemperatureMode>Temperature mode</TemperatureMode>
   <ShowRealtimeClock>Show realtime clock</ShowRealtimeClock>
+  <PlantWindSway>Plant wind sway</PlantWindSway>
   <MaxPermadeathAutosaveIntervalInfo>Maximum autosave interval in permadeath mode is {0} day.</MaxPermadeathAutosaveIntervalInfo>
 
   <!-- Resolution -->

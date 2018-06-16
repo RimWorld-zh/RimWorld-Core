@@ -18,7 +18,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>AIPersonaCore</defName>
     <label>AI persona core</label>
-    <description>A hyper-advanced computer core that houses a superhumanlike artificial intelligence. In its isolated state the core is dormant. Installed in a proper support structure, however, it can become a mind of frightening power.</description>
+    <description>A hyper-advanced computer core that houses a superhumanlike artificial intelligence. In its isolated state, the core is dormant. Installed in a proper support structure, however, it can become a mind of frightening power.</description>
     <graphicData>
       <texPath>Things/Item/Special/AIPersonaCore</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -29,7 +29,7 @@
     <stackLimit>1</stackLimit>
     <useHitPoints>true</useHitPoints>
     <statBases>
-      <MarketValue>7000</MarketValue>
+      <MarketValue>4000</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
     </statBases>
     <thingCategories>
@@ -57,7 +57,7 @@
     <tradeNeverStack>true</tradeNeverStack>
     <useHitPoints>true</useHitPoints>
     <statBases>
-      <MarketValue>2000</MarketValue>
+      <MarketValue>1500</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
     </statBases>
     <thingCategories>

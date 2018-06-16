@@ -21,15 +21,15 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <defaultCooldownTicks>110</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>100</defaultCooldownTicks>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <defaultCooldownTicks>110</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
       </li>
@@ -43,7 +43,7 @@
       <leatherColor>(211,194,143)</leatherColor>
       <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
       <leatherInsulation>0.70</leatherInsulation>
-      <leatherMarketValue>15</leatherMarketValue>
+      <leatherMarketValueFactor>3</leatherMarketValueFactor>
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
       <baseBodySize>1</baseBodySize>

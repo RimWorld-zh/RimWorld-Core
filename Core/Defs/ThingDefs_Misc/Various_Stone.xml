@@ -49,6 +49,7 @@
       <categories>
         <li>Stony</li>
       </categories>
+      <commonality>0.20</commonality> <!-- because there are so many stone types -->
       <appearance>Bricks</appearance>
       <statOffsets>
         <WorkToMake>140</WorkToMake>

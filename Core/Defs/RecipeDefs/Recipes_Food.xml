@@ -27,6 +27,9 @@
           <categories>
             <li>PlantFoodRaw</li>
           </categories>
+          <thingDefs>
+            <li>Hay</li>
+          </thingDefs>
         </filter>
         <count>1</count>
       </li>
@@ -38,14 +41,20 @@
       <categories>
         <li>FoodRaw</li>
       </categories>
+      <thingDefs>
+        <li>Hay</li>
+      </thingDefs>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <categories>
-        <li>FoodRaw</li>
+        <li>Foods</li>
       </categories>
       <exceptedCategories>
         <li>EggsFertilized</li>
       </exceptedCategories>
+      <exceptedThingDefs>
+        <li>InsectJelly</li>
+      </exceptedThingDefs>
     </defaultIngredientFilter>
     <workSkill>Cooking</workSkill>
   </RecipeDef>
@@ -57,6 +66,7 @@
     <jobString>Making pemmican.</jobString>
     <workAmount>600</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_CookMeal</soundWorking>
     <allowMixingIngredients>true</allowMixingIngredients>

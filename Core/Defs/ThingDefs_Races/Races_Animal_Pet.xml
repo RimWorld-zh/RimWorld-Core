@@ -49,7 +49,7 @@
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0</wildness>
-      <nuzzleMtbHours>36</nuzzleMtbHours>
+      <nuzzleMtbHours>15</nuzzleMtbHours>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -188,7 +188,7 @@
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0</wildness>
-      <nuzzleMtbHours>48</nuzzleMtbHours>
+      <nuzzleMtbHours>24</nuzzleMtbHours>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -329,7 +329,7 @@
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0</wildness>
-      <nuzzleMtbHours>48</nuzzleMtbHours>
+      <nuzzleMtbHours>24</nuzzleMtbHours>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -491,7 +491,7 @@
       <petness>1</petness>
       <trainableIntelligence>None</trainableIntelligence>
       <mateMtbHours>6</mateMtbHours>
-      <nuzzleMtbHours>48</nuzzleMtbHours>
+      <nuzzleMtbHours>24</nuzzleMtbHours>
       <gestationPeriodDays>20</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <litterSizeCurve>

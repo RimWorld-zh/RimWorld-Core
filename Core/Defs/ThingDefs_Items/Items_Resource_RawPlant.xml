@@ -19,60 +19,14 @@
       <preferability>RawBad</preferability>
       <tastesRaw>true</tastesRaw>
       <nutrition>0.05</nutrition>
-      <eatEffect>EatVegetarian</eatEffect>
-      <soundEat>RawVegetable_Eat</soundEat>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
     </ingestible>
     <thingCategories>
       <li>PlantFoodRaw</li>
     </thingCategories>
     <comps>
       <li Class="CompProperties_FoodPoisoningChance" />
-    </comps>
-  </ThingDef>
-
-  
-  
-  
-  <ThingDef ParentName="PlantFoodRawBase">
-    <defName>Hay</defName>
-    <label>hay</label>
-    <description>Nutrient-rich grasses and shoots, harvested and compacted for storage. Hay is good animal feed, but inedible for humans.</description>
-    <stackLimit>200</stackLimit>
-    <ingestible>
-      <foodType>Plant</foodType>
-    </ingestible>
-    <graphicData>
-      <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>0.6</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>90</daysToRotStart>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="OrganicProductBase">
-    <defName>RawHops</defName>
-    <label>hops</label>
-    <description>Raw hops. A flavoring and preserving agent that is necessary for making beer.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/PlantFoodRaw/Hops</texPath>
-    </graphicData>
-    <statBases>
-      <MarketValue>2.0</MarketValue>
-    </statBases>
-    <thingCategories>
-      <li>ResourcesRaw</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>25</daysToRotStart>
-        <rotDestroys>true</rotDestroys>
-      </li>
     </comps>
   </ThingDef>
 
@@ -141,7 +95,7 @@
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>RawCorn</defName>
     <label>corn</label>
-    <description>Raw corn. Nice to eat, even when raw.</description>
+    <description>Raw corn.</description>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <graphicData>
@@ -152,8 +106,6 @@
     </statBases>
     <ingestible>
       <foodType>VegetableOrFruit</foodType>
-      <preferability>RawTasty</preferability>
-      <tastesRaw>false</tastesRaw>
     </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
@@ -181,8 +133,102 @@
       <preferability>RawTasty</preferability>
       <tastesRaw>false</tastesRaw>
       <foodType>VegetableOrFruit</foodType>
-      <joy>0.004</joy>
     </ingestible>
   </ThingDef>
 
+  <!-- Plant matter (inedible by people) -->
+
+  <ThingDef ParentName="OrganicProductBase" Name="RoughPlantBase" Abstract="True">
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>RawBad</preferability>
+      <nutrition>0.05</nutrition>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>Hay</defName>
+    <label>hay</label>
+    <description>Nutrient-rich grasses and shoots, harvested and compacted for storage. Hay is good animal feed, but inedible for humans.</description>
+    <stackLimit>200</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.6</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>RawHops</defName>
+    <label>hops</label>
+    <description>Raw hops. A flavoring and preserving agent that is necessary for making beer.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/Hops</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>PsychoidLeaves</defName>
+    <label>psychoid leaves</label>
+    <description>Raw cut leaves of a psychoid plant.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/PsychoidLeaves</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>SmokeleafLeaves</defName>
+    <label>smokeleaf leaves</label>
+    <description>Raw cut leaves of a smokeleaf plant. Can be rolled into smokeable joint at a crafting spot.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/PlantFoodRaw/SmokeleafLeaves</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+  </ThingDef>
+  
 </Defs>

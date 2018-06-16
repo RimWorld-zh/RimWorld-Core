@@ -184,18 +184,19 @@
   <HediffDef ParentName="DiseaseBase">
     <defName>Asthma</defName>
     <label>asthma</label>
+    <initialSeverity>0.001</initialSeverity>
+    <minSeverity>0.001</minSeverity>
+    <maxSeverity>0.5</maxSeverity>
     <comps>
       <li>
         <compClass>HediffComp_Immunizable</compClass>
         <severityPerDayNotImmune>0.25</severityPerDayNotImmune>
-        <severityPerDayTendedOffset>-0.8</severityPerDayTendedOffset>
-        <minSeverity>0.001</minSeverity>
-        <maxSeverity>0.5</maxSeverity>
       </li>
       <li>
         <compClass>HediffComp_Tendable</compClass>
         <tendDuration>420000</tendDuration>
         <tendAllAtOnce>true</tendAllAtOnce>
+        <severityPerDayTendedOffset>-0.8</severityPerDayTendedOffset>
       </li>
     </comps>
     <stages>

@@ -485,14 +485,14 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>ShotPDW</defName>  
+    <defName>ShotMachinePistol</defName>  
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Weapon/PDW</clipFolderPath>
+            <clipFolderPath>Weapon/MachinePistol</clipFolderPath>
           </li>
         </grains>      
         <sustainLoop>False</sustainLoop>

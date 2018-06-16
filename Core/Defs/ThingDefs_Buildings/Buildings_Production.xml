@@ -624,7 +624,6 @@
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <building>
       <isMealSource>true</isMealSource>
@@ -732,7 +731,7 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <recipes>
-      <li>BrewBeer</li>
+      <li>MakeWort</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -742,7 +741,69 @@
     </building>
     <researchPrerequisites><li>Brewing</li></researchPrerequisites>
   </ThingDef>
-
+  
+  <ThingDef ParentName="BenchBase">
+    <DefName>DrugLab</DefName>
+    <label>drug lab</label>
+    <ThingClass>Building_WorkTable</ThingClass>
+    <Description>A work bench equipped with various containers, heaters, and measurement equipment for producing a variety of drugs.</Description>
+    <graphicData>
+      <texPath>Things/Building/Production/TableDrugLab</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costList>
+      <Steel>75</Steel>
+      <Component>8</Component>
+    </costList>
+    <AltitudeLayer>Building</AltitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToMake>3500</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <Size>(3,1)</Size>
+    <DesignationCategory>Production</DesignationCategory>
+    <Passability>PassThroughOnly</Passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+    <researchPrerequisites>
+      <li>DrugProduction</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
   <ThingDef ParentName="BenchBase">
     <DefName>ElectricSmelter</DefName>
     <label>electric smelter</label>
@@ -933,8 +994,6 @@
     <size>(5,2)</size>
     <stuffCategories>
       <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
     </stuffCategories>
     <costStuffCount>150</costStuffCount>
     <costList>
@@ -1033,6 +1092,7 @@
     <recipes>
       <li>CremateCorpse</li>
       <li>BurnApparel</li>
+      <li>BurnDrugs</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -1115,6 +1175,91 @@
     <designationCategory>Production</designationCategory>
   </ThingDef>
 
+  <ThingDef ParentName="BuildingBase">
+    <defName>FermentingBarrel</defName>
+    <label>fermenting barrel</label>
+    <thingClass>Building_FermentingBarrel</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/FermentingBarrel</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <rect>(0.05,0.1,0.9,0.9)</rect>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <description>A barrel for fermenting raw wort into beer.</description>
+    <costList>
+      <Steel>10</Steel>
+      <WoodLog>30</WoodLog>
+    </costList>
+    <tickerType>Rare</tickerType>
+    <rotatable>true</rotatable>
+    <designationCategory>Production</designationCategory>
+    <constructEffect>ConstructWood</constructEffect>
+    <researchPrerequisites><li>Brewing</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>DeepDrill</defName>
+    <label>deep drill</label>
+    <description>A deep-crust drilling rig for extracting minerals from deep under the surface. Use a ground-penetrating scanner to detect the resources.</description>
+    <size>(1,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <designationCategory>Production</designationCategory>
+    <designationHotKey>Misc12</designationHotKey>
+    <specialDisplayRadius>1.5</specialDisplayRadius>
+    <rotatable>true</rotatable>
+    <costList>
+      <Steel>100</Steel>
+      <Component>3</Component>
+    </costList>
+    <placeWorkers>
+      <li>PlaceWorker_ShowDeepResources</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <researchPrerequisites>
+      <li>DeepDrilling</li>
+    </researchPrerequisites>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Flammability>1.0</Flammability>
+      <Beauty>-25</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>250</basePowerConsumption>
+        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li>
+        <compClass>CompDeepDrill</compClass>
+      </li>
+    </comps>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/Production/DeepDrill</texPath>
+      <drawSize>(2,2)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+  </ThingDef>
+  
   <!--======================== Nutrient dispenser ==============================-->
 
   <ThingDef ParentName="BuildingBase">
@@ -1238,5 +1383,5 @@
     </placeWorkers>
     <constructEffect>ConstructMetal</constructEffect>
   </ThingDef>
-
+  
 </ThingDefs>

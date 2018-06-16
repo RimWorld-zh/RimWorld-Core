@@ -134,6 +134,18 @@
   </JobDef>
   
   <JobDef>
+    <defName>FillFermentingBarrel</defName>
+    <driverClass>JobDriver_FillFermentingBarrel</driverClass>
+    <reportString>filling TargetA.</reportString>
+  </JobDef>
+  
+  <JobDef>
+    <defName>TakeBeerOutOfFermentingBarrel</defName>
+    <driverClass>JobDriver_TakeBeerOutOfFermentingBarrel</driverClass>
+    <reportString>taking beer out of TargetA.</reportString>
+  </JobDef>
+  
+  <JobDef>
     <defName>ManTurret</defName>
     <driverClass>JobDriver_ManTurret</driverClass>
     <reportString>operating turret.</reportString>

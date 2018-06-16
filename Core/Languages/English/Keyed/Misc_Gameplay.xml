@@ -59,6 +59,17 @@
   <CurrentRadius>current radius</CurrentRadius>
   <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
   <Permanent>permanent</Permanent>
+  <Temperature>Temperature</Temperature>
+  <BadTemperature>bad temperature</BadTemperature>
+  <IdealFermentingTemperature>Ideal fermenting temperature</IdealFermentingTemperature>
+  <DrugEffectMultiplier>{0} effect multiplier</DrugEffectMultiplier>
+  
+  <!-- Fermentation barrel -->
+  <ContainsWort>Contains {0} / {1} wort.</ContainsWort>
+  <ContainsBeer>Contains {0} / {1} beer.</ContainsBeer>
+  <Fermented>Fermented</Fermented>
+  <FermentationProgress>Progress: {0} (finished in about {1}).</FermentationProgress>
+  <FermentationBarrelOutOfIdealTemperature>Non-ideal temperature. Fermentation speed multiplier: {0}</FermentationBarrelOutOfIdealTemperature>
   
   <!--TextMotes-->
   <Headshot>Headshot</Headshot>
@@ -206,8 +217,8 @@
 
   <!-- Rotting -->
   <CurrentlyFrozen>Frozen (won't spoil)</CurrentlyFrozen>
-  <CurrentlyRefrigerated>Refrigerated (Spoils in {0})</CurrentlyRefrigerated>
-  <NotRefrigerated>Not refrigerated (Spoils in {0})</NotRefrigerated>
+  <CurrentlyRefrigerated>Refrigerated (spoils in {0})</CurrentlyRefrigerated>
+  <NotRefrigerated>Not refrigerated (spoils in {0})</NotRefrigerated>
   <OverADecade>over a decade</OverADecade>
   <LessThanADay>less than a day</LessThanADay>
   
@@ -249,6 +260,7 @@
   <Undiscovered>Undiscovered</Undiscovered>
   
   <!-- Buttons -->
+  <ShowLearningHelperWhenEmptyToggleButton>Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Toggle visiblity of zones.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing.</ShowRoomStatsToggleButton>
@@ -256,7 +268,8 @@
   <AutoHomeAreaToggleButton>Toggle automatically expanding the home area around new constructions.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Toggle categorized mode on the resource readout.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Toggle displaying animal names for tame named animals.</ShowAnimalNamesToggleButton>
-  
+  <ShowRoofOverlayToggleButton>Toggle visiblity of roofs.</ShowRoofOverlayToggleButton>
+
   <!-- Fire -->
   <Fire>Fire</Fire>
   <FireOn>Fire on {0}</FireOn>
@@ -368,5 +381,15 @@
   <!-- Maintainable -->
   <DueForMaintenance>Due for maintenance.</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Deteriorating due to lack of maintenance.</DeterioratingDueToLackOfMaintenance>
+  
+  <!-- Deep drill -->
+  <ProgressToNextLump>Progress to next lump</ProgressToNextLump>
+  <ResourceBelow>Resource below</ResourceBelow>
+  
+  <!-- Learning helper -->
+  <LearningHelper>Learning helper</LearningHelper>
+  <MarkLearned>Mark as learned</MarkLearned>
+  <AlreadyLearned>Already learned</AlreadyLearned>
+  <Filter>Filter</Filter>
   
 </LanguageData>

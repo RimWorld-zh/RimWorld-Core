@@ -74,10 +74,13 @@
       <Beauty>2</Beauty>
     </statBases>
     <plant>
-      <growDays>10</growDays>
+      <growDays>14</growDays>
       <harvestWork>550</harvestWork>
       <harvestYield>20</harvestYield>
     </plant>
+    <ingestible>
+      <nutrition>1.20</nutrition>
+    </ingestible>
   </ThingDef>
 
 </Defs>

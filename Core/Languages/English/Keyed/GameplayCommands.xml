@@ -23,7 +23,7 @@
   <CommandDraftLabel>Draft</CommandDraftLabel>
   <CommandUndraftLabel>Undraft</CommandUndraftLabel>
   <CommandToggleDraftDesc>Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest.</CommandToggleDraftDesc>
-  <IsIncapped>{0} is incapacitated.</IsIncapped>
+  <IsIncapped>{0} cannot walk.</IsIncapped>
 
   <CommandClearPrioritizedWork>Clear prioritized work</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>Clear any prioritized work you assigned. The character will go back to their usual self-directed activities.</CommandClearPrioritizedWorkDesc>
@@ -137,5 +137,9 @@
   <CommandSelectPlantToGrowMulti>Select plant to grow</CommandSelectPlantToGrowMulti>
   <CommandSelectPlantToGrow>Plant: {0}</CommandSelectPlantToGrow>
   <CommandSelectPlantToGrowDesc>Determine which plant should be sown here.</CommandSelectPlantToGrowDesc>
+  
+  <!-- Build copy -->
+  <CommandBuildCopy>Build copy</CommandBuildCopy>
+  <CommandBuildCopyDesc>Build a copy of this building.</CommandBuildCopyDesc>
   
 </LanguageData>

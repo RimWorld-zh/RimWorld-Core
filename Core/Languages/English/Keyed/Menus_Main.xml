@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!--=========== Main menu ==========-->
-  <CreateWorld>Create world</CreateWorld>
+  <Tutorial>Tutorial</Tutorial>
   <NewColony>New colony</NewColony>
   <BackToGame>Back to game</BackToGame>
   <ReviewScenario>Review scenario</ReviewScenario>
@@ -23,6 +23,7 @@
   <TynansDesignBook>Tynan's design book</TynansDesignBook>
   <HelpTranslate>Help translate RimWorld</HelpTranslate>
   <BuySoundtrack>Buy soundtrack</BuySoundtrack>
+  <CreateWorld>Create world</CreateWorld>
 
   <!--=========== Create/review world ================-->
   <ReviewWorld>Review world</ReviewWorld>
@@ -67,6 +68,7 @@
   <ModTargetVersion>For version: {0}</ModTargetVersion>
   <ModNotMadeForThisVersion>This mod was not made for this version of RimWorld, and will probably not work correctly.</ModNotMadeForThisVersion>
   <MessageModNeedsWellFormattedTargetVersion>Mod needs a well-formatted target version in About.xml. Like this: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <DragToReorder>Drag to reorder</DragToReorder>
   
   <!--=========== Select scenario =============-->
   <ChooseScenario>Choose scenario</ChooseScenario>
@@ -100,7 +102,7 @@
   <SelectSite>Select site</SelectSite>
   <MustSelectLandingSite>Please select a landing site.</MustSelectLandingSite>
   <CannotLandBiome>You cannot land on this biome: {0}</CannotLandBiome>
-  <WorldRenderMode>Mode</WorldRenderMode>
+  <WorldRenderMode>View mode</WorldRenderMode>
   <WorldRenderModeFull>Full</WorldRenderModeFull>
   <WorldRenderModeTemperature>Temperature</WorldRenderModeTemperature>
   <WorldRenderModeElevation>Elevation</WorldRenderModeElevation>

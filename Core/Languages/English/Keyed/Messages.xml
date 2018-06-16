@@ -50,7 +50,7 @@
   <MessageMustDesignateHarvestable>Must designate harvestable sufficiently-grown plants.</MessageMustDesignateHarvestable>
   <MessageMustDesignateHarvestableWood>Must designate wood-yielding, sufficiently-grown plants.</MessageMustDesignateHarvestableWood>
   <MessageMustDesignatePlants>Must designate plants.</MessageMustDesignatePlants>
-  <MessageMustDesignateHaulable>Must designate haulable items.</MessageMustDesignateHaulable>
+  <MessageMustDesignateHaulable>Must designate haulable items. Some items are always haulable and can't be designated.</MessageMustDesignateHaulable>
   <MessageMustDesignateMineable>Must designate impassable mineable rocks.</MessageMustDesignateMineable>
   <MessageMustDesignateHuntable>Must designate huntable animals.</MessageMustDesignateHuntable>
   <MessageMustDesignateTameable>Must designate tameable animals.</MessageMustDesignateTameable>
@@ -126,5 +126,13 @@
   <MessageConstructionFailed>{1} failed while constructing {0}. Some resources have been wasted.</MessageConstructionFailed>
 
   <MessageScreenshotSavedAs>Screenshot saved as: {0}</MessageScreenshotSavedAs>
+  
+  <MessageNoLongerSocialFighting>{0} and {1} are no longer social fighting.</MessageNoLongerSocialFighting>
+  
+  <MessageNoLongerBingingOnDrug>{0} is no longer binging on {1}.</MessageNoLongerBingingOnDrug>
+
+  <MessageRottedAwayInStorage>{0} has rotted away in storage.</MessageRottedAwayInStorage>
+  
+  <MessageFoodPoisoning>{0} has gotten food poisoning from: {1}.</MessageFoodPoisoning>
   
 </LanguageData>

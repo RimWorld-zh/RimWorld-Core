@@ -22,8 +22,6 @@
     <label>work</label>
     <description>Choose which colonist does what kinds of work, and in what priority order.</description>
     <windowClass>MainTabWindow_Work</windowClass>
-    <concept>WorkTab</concept>
-    <tutorHighlightTag>ButtonWorkTab</tutorHighlightTag>
     <order>10</order>
     <defaultToggleKey>F1</defaultToggleKey>
   </MainTabDef>
@@ -54,13 +52,21 @@
     <order>40</order>
     <defaultToggleKey>F4</defaultToggleKey>
   </MainTabDef>
-  
+
+  <MainTabDef>
+    <defName>Research</defName>
+    <label>research</label>
+    <description>Examine and decide on research projects.</description>
+    <windowClass>MainTabWindow_Research</windowClass>
+    <order>50</order>
+  </MainTabDef>
+
   <MainTabDef>
     <defName>Factions</defName>
     <label>factions</label>
     <description>Review the factions known to the colony and their relationships.</description>
     <windowClass>MainTabWindow_Factions</windowClass>
-    <order>50</order>
+    <order>60</order>
     <defaultToggleKey>F5</defaultToggleKey>
   </MainTabDef>
   
@@ -69,7 +75,7 @@
     <label>world</label>
     <description>Examine the world map.</description>
     <windowClass>MainTabWindow_World</windowClass>
-    <order>60</order>
+    <order>70</order>
     <defaultToggleKey>F6</defaultToggleKey>
   </MainTabDef>
   
@@ -78,27 +84,8 @@
     <label>history</label>
     <description>Review records of the colony's history.</description>
     <windowClass>MainTabWindow_History</windowClass>
-    <concept>HistoryTab</concept>
-    <tutorHighlightTag>ButtonHistoryTab</tutorHighlightTag>
-    <order>70</order>
-    <defaultToggleKey>F7</defaultToggleKey>
-  </MainTabDef>
-  
-  <MainTabDef>
-    <defName>Statistics</defName>
-    <label>statistics</label>
-    <description>Review statistics about the colony.</description>
-    <windowClass>MainTabWindow_Statistics</windowClass>
     <order>80</order>
-    <defaultToggleKey>F8</defaultToggleKey>
-  </MainTabDef>
-  
-  <MainTabDef>
-    <defName>Research</defName>
-    <label>research</label>
-    <description>Examine and decide on research projects.</description>
-    <windowClass>MainTabWindow_Research</windowClass>
-    <order>90</order>
+    <defaultToggleKey>F7</defaultToggleKey>
   </MainTabDef>
   
   <MainTabDef>
@@ -106,6 +93,7 @@
     <label>menu</label>
     <description>Change options, save, load, or quit the game.</description>
     <windowClass>MainTabWindow_Menu</windowClass>
+    <canBeTutorDenied>false</canBeTutorDenied>
     <order>500</order>
   </MainTabDef>
 

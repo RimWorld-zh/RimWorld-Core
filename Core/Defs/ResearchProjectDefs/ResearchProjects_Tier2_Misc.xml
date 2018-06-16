@@ -1,6 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ResearchProjectDefs>
 
+  <!--================================ Tier 2: Non-electric ====================================-->
+
+  <ResearchProjectDef>
+    <defName>PsychiteRefining</defName>
+    <label>psychite refining</label>
+    <description>Learn to refine psychoid leaves into flake and yayo, different forms of the euphoric drug psychite.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>WakeUpProduction</defName>
+    <label>wake-up production</label>
+    <description>Your chemists learn the formulas and techniques for synthesizing wake-up, a work performance-enhancing drug.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>GoJuiceProduction</defName>
+    <label>go-juice production</label>
+    <description>Learn to produce the synthetic combat-performance-enhancing drug go-juice.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MalariBlockProduction</defName>
+    <label>malari-block production</label>
+    <description>Learn to produce malari-block, a malaria prevention drug.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
   <!--================================ Tier 2: Basic electricity ====================================-->
 
   <ResearchProjectDef>
@@ -73,7 +119,7 @@
   <ResearchProjectDef>
     <defName>Hydroponics</defName>
     <label>hydroponics</label>
-    <description>Allows you to build hydroponics tables to rapidly grow crops indoors regardless of the terrain or weather outside.</description>
+    <description>Allows you to build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -84,7 +130,7 @@
   <ResearchProjectDef>
     <defName>ElectricSmelting</defName>
     <label>electric smelting</label>
-    <description>Build electic smithy and smelters.\n\nThe electric smithy allows smithing items without fuel. The electric smelters uses heat and strong electromagnets to extract useful metal from slag chunks and other items.</description>
+    <description>Build electric smithy and smelters.\n\nThe electric smithy allows smithing items without fuel. The electric smelters uses heat and strong electromagnets to extract useful metal from slag chunks and other items.</description>
     <baseCost>1700</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -122,6 +168,7 @@
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
+      <li>Smithing</li>
     </prerequisites>
   </ResearchProjectDef>
 
@@ -133,6 +180,7 @@
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
+      <li>Machining</li>
     </prerequisites>
   </ResearchProjectDef>
 

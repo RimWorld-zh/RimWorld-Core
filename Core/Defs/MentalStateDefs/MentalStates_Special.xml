@@ -16,7 +16,7 @@
     <beginLetter>{0} has broken down and is wandering around confused.</beginLetter>
     <beginLetterType>BadNonUrgent</beginLetterType>
     <recoveryMessage>{0} is no longer confused.</recoveryMessage>
-    <inspectLine>Mental state: Confused and wandering</inspectLine>
+    <baseInspectLine>Mental state: Confused and wandering</baseInspectLine>
   </MentalStateDef>
 
   <MentalStateDef ParentName="BaseMentalState">
@@ -28,7 +28,7 @@
     <beginLetterLabel>flee</beginLetterLabel>
     <beginLetter>{0} is fleeing in panic.</beginLetter>
     <recoveryMessage>{0} is no longer fleeing in panic.</recoveryMessage>
-    <inspectLine>Mental state: Fleeing in panic</inspectLine>
+    <baseInspectLine>Mental state: Fleeing in panic</baseInspectLine>
     <blockNormalThoughts>true</blockNormalThoughts>
   </MentalStateDef>
 
@@ -41,7 +41,7 @@
     <beginLetterLabel>manhunter</beginLetterLabel>
     <beginLetter>{0} has become a manhunter!</beginLetter>
     <recoveryMessage>{0}'s manhunting bloodlust has come to an end.</recoveryMessage>
-    <inspectLine>Maddened: Manhunter</inspectLine>
+    <baseInspectLine>Maddened: Manhunter</baseInspectLine>
     <stateEffecter>Manhunter</stateEffecter>
   </MentalStateDef>
 
@@ -58,8 +58,7 @@
     <recoveryMtbDays>0.02</recoveryMtbDays>
     <category>Aggro</category>
     <nameColor>(0.88,0.48,0.16)</nameColor>
-    <recoveryMessage>{0} and {1} are no longer social fighting.</recoveryMessage>
-    <inspectLine>Mental state: Social fighting</inspectLine>
+    <baseInspectLine>Mental state: Social fighting</baseInspectLine>
   </MentalStateDef>
   
 </Defs>

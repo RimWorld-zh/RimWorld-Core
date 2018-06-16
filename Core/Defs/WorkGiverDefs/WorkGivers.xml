@@ -350,23 +350,6 @@
   </WorkGiverDef>
 
   <WorkGiverDef>
-    <defName>DoBillsBrew</defName>
-    <label>brew liquors</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Cooking</workType>
-    <priorityInType>95</priorityInType>
-    <fixedBillGiverDefs>
-      <li>Brewery</li>
-    </fixedBillGiverDefs>
-    <verb>brew</verb>
-    <gerund>brewing</gerund>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-    <prioritizeSustains>true</prioritizeSustains>
-  </WorkGiverDef>
-
-  <WorkGiverDef>
     <defName>DoBillsButcherFlesh</defName>
     <label>butcher creatures</label>
     <giverClass>WorkGiver_DoBill</giverClass>
@@ -388,12 +371,29 @@
     <label>fill food hoppers</label>
     <giverClass>WorkGiver_CookFillHopper</giverClass>
     <workType>Cooking</workType>
-    <priorityInType>10</priorityInType>
+    <priorityInType>50</priorityInType>
     <verb>fill</verb>
     <gerund>filling</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>DoBillsBrew</defName>
+    <label>brew liquors</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>30</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Brewery</li>
+    </fixedBillGiverDefs>
+    <verb>brew</verb>
+    <gerund>brewing</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
   
   <!-- ============= Hunting ============= -->
@@ -628,8 +628,22 @@
     <label>mine</label>
     <giverClass>WorkGiver_Miner</giverClass>
     <workType>Mining</workType>
+    <priorityInType>100</priorityInType>
     <verb>mine</verb>
     <gerund>mining</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>Drill</defName>
+    <label>drill</label>
+    <giverClass>WorkGiver_DeepDrill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>50</priorityInType>
+    <verb>drill</verb>
+    <gerund>drilling</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -760,6 +774,23 @@
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>DoBillsProduceDrugs</defName>
+    <label>produce drugs</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>95</priorityInType>
+    <fixedBillGiverDefs>
+      <li>DrugLab</li>
+    </fixedBillGiverDefs>
+    <verb>produce drugs</verb>
+    <gerund>produce drugs at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
 
   <WorkGiverDef>
     <defName>DoBillsStonecut</defName>
@@ -849,6 +880,32 @@
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>TakeBeerOutOfFermentingBarrel</defName>
+    <label>take beer out of fermenting barrels</label>
+    <giverClass>WorkGiver_TakeBeerOutOfFermentingBarrel</giverClass>
+    <workType>Hauling</workType>
+    <verb>take beer</verb>
+    <gerund>taking beer from</gerund>
+    <priorityInType>130</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>FillFermentingBarrel</defName>
+    <label>fill fermenting barrels</label>
+    <giverClass>WorkGiver_FillFermentingBarrel</giverClass>
+    <workType>Hauling</workType>
+    <verb>fill</verb>
+    <gerund>filling</gerund>
+    <priorityInType>120</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
 
   <WorkGiverDef>
     <defName>DoBillsCremate</defName>
@@ -861,6 +918,23 @@
     </fixedBillGiverDefs>
     <verb>cremate</verb>
     <gerund>cremating at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>DoBillsHaulCampfire</defName>
+    <label>do bills at campfire</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>90</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Campfire</li>
+    </fixedBillGiverDefs>
+    <verb>work at</verb>
+    <gerund>working at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>

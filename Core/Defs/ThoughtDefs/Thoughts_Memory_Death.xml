@@ -10,7 +10,7 @@
 
   <ThoughtDef ParentName="DeathMemory">
     <defName>KnowGuestExecuted</defName>
-    <durationDays>7.5</durationDays>
+    <durationDays>6</durationDays>
     <nullifyingTraits>
       <li>Psychopath</li>
       <li>Bloodlust</li>
@@ -39,7 +39,7 @@
 
   <ThoughtDef ParentName="DeathMemory">
     <defName>KnowColonistExecuted</defName>
-    <durationDays>7.5</durationDays>
+    <durationDays>6</durationDays>
     <stackLimit>5</stackLimit>
     <nullifyingTraits>
       <li>Psychopath</li>
@@ -68,7 +68,7 @@
 
   <ThoughtDef ParentName="DeathMemory">
     <defName>KnowPrisonerDiedInnocent</defName>
-    <durationDays>7.5</durationDays>
+    <durationDays>6</durationDays>
     <stackLimit>5</stackLimit>
     <nullifyingTraits>
       <li>Psychopath</li>
@@ -85,7 +85,7 @@
 
   <ThoughtDef ParentName="DeathMemory">
     <defName>KnowColonistDied</defName>
-    <durationDays>7.5</durationDays>
+    <durationDays>6</durationDays>
     <stackLimit>5</stackLimit>
     <nullifyingTraits>
       <li>Psychopath</li>
@@ -104,7 +104,7 @@
 
   <ThoughtDef ParentName="DeathMemory">
     <defName>BondedAnimalDied</defName>
-    <durationDays>20.0</durationDays>
+    <durationDays>20</durationDays>
     <stackLimit>5</stackLimit>
     <nullifyingTraits>
       <li>Psychopath</li>
@@ -113,7 +113,7 @@
       <li>
         <label>bonded animal {0} died</label>
         <description>Such a tender, unique animal. This universe is evil!</description>
-        <baseMoodEffect>-10</baseMoodEffect>
+        <baseMoodEffect>-8</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -122,8 +122,11 @@
 
   <ThoughtDef ParentName="DeathMemory">
     <defName>PawnWithGoodOpinionDied</defName>
-    <durationDays>20.0</durationDays>
+    <durationDays>20</durationDays>
     <stackLimit>5</stackLimit>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
     <stages>
       <li>
         <label>my friend {0} died</label>
@@ -135,7 +138,7 @@
 
   <ThoughtDef ParentName="DeathMemory">
     <defName>PawnWithBadOpinionDied</defName>
-    <durationDays>20.0</durationDays>
+    <durationDays>20</durationDays>
     <stackLimit>5</stackLimit>
     <stages>
       <li>
@@ -159,7 +162,7 @@
       <li>
         <label>my son {0} died</label>
         <description>My son is dead. My own flesh and blood...</description>
-        <baseMoodEffect>-25</baseMoodEffect>
+        <baseMoodEffect>-20</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -170,7 +173,7 @@
       <li>
         <label>my daughter {0} died</label>
         <description>My daughter is dead. My own flesh and blood...</description>
-        <baseMoodEffect>-25</baseMoodEffect>
+        <baseMoodEffect>-20</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -181,7 +184,7 @@
       <li>
         <label>my husband {0} died</label>
         <description>My husband is dead. I am alone.</description>
-        <baseMoodEffect>-25</baseMoodEffect>
+        <baseMoodEffect>-20</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -192,7 +195,7 @@
       <li>
         <label>my wife {0} died</label>
         <description>My wife is dead. I am alone.</description>
-        <baseMoodEffect>-25</baseMoodEffect>
+        <baseMoodEffect>-20</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -203,7 +206,7 @@
       <li>
         <label>my fiance {0} died</label>
         <description>My fiance died. Such a man... my future is gone.</description>
-        <baseMoodEffect>-20</baseMoodEffect>
+        <baseMoodEffect>-18</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -214,7 +217,7 @@
       <li>
         <label>my fiancée {0} died</label>
         <description>My fiancée died. Such a woman... my future is gone.</description>
-        <baseMoodEffect>-20</baseMoodEffect>
+        <baseMoodEffect>-18</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
