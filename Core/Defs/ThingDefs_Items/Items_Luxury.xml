@@ -5,21 +5,23 @@
   
   <ThingDef Name="ResourceBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
-    <label>unspecified resource</label>
     <category>Item</category>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <useHitPoints>true</useHitPoints>
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>75</stackLimit>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-    </comps>
-    <alwaysHaulable>true</alwaysHaulable>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <rotatable>false</rotatable>
-    <pathCost>15</pathCost>
-  </ThingDef>
+		<statBases>
+			<Beauty>-7</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
 
   <!--=============== Luxury ====================-->
 
@@ -37,6 +39,7 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <MarketValue>6</MarketValue>
+      <Mass>0.075</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>10</DeteriorationRate>
     </statBases>

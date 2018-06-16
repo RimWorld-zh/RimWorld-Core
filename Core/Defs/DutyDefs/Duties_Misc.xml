@@ -364,4 +364,14 @@
     </thinkNode>
   </DutyDef>
 
+  <DutyDef>
+    <defName>LoadAndEnterTransporters</defName>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_LoadTransporters" />
+        <li Class="JobGiver_EnterTransporter" />
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
 </Defs>

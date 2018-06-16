@@ -20,11 +20,13 @@
 
   <InstructionDef>
     <defName>ChooseLandingSite</defName>
-    <text>Here, you choose your landing site.\n\nThere are lots of biomes, but for now, let's start with a friendly one.\n\nClick a landing site with temperate forest biome and flat terrain, and click SELECT SITE.</text>
+    <text>Here, you choose your landing site.\n\nThere are lots of biomes, but for now, let's start with a friendly one.\n\nClick a landing site with temperate forest biome and flat terrain, and click NEXT.\n\nYou can use the TERRAIN tab to view information about the selected tile.</text>
     <eventTagInitiate>PageStart-SelectLandingSite</eventTagInitiate>
     <actionTagsAllowed>
       <li>GotoPrevPage</li>
       <li>ChooseBiome-TemperateForest-Flat</li>
+      <li>ITab-Planet-Open</li>
+      <li>ITab-Terrain-Open</li>
       <li>GotoNextPage</li>
     </actionTagsAllowed>
     <eventTagsEnd>
@@ -363,7 +365,7 @@
     <instructionClass>Instruction_AddBill</instructionClass>
     <eventTagInitiate>InstructionDeactivated-BuildFueledStove</eventTagInitiate>
     <actionTagsAllowed>
-      <li>ITab-ITab_Bills-Open</li>
+      <li>ITab-Bills-Open</li>
       <li>MainTab-Work-Open</li>
     </actionTagsAllowed>
     <highlightTags>
@@ -490,7 +492,7 @@
 
   <InstructionDef>
     <defName>SelectResearchProject</defName>
-    <text>Now just choose whatever you want to be researched first.\n\nYou might have to wait for the research bench to be constructed.\n\nIf it's taking too long, use the WORK tab to assign more colonists to Construct.</text>
+    <text>Now just choose whatever you want to be researched first.\n\nYou might have to wait for the research bench to be constructed, or for trees to be chopped for wood.\n\nIf it's taking too long, use the WORK tab to assign more colonists to Construct.</text>
     <eventTagInitiate>InstructionDeactivated-OpenMainTabResearch</eventTagInitiate>
     <actionTagsAllowed>
       <li>MainTab-Research-Open</li>
@@ -584,11 +586,19 @@
     <actionTagsAllowed>
       <li>Draft</li>
       <li>Undraft</li>
-    </actionTagsAllowed>
+			<li>AllowFiringToggle</li>
+			<li>VerbTarget</li>
+			<li>ITab-Health-Open</li>
+			<li>ITab-Gear-Open</li>
+			<li>ITab-Needs-Open</li>
+			<li>ITab-Social-Open</li>
+			<li>ITab-Character-Open</li>
+		</actionTagsAllowed>
     <highlightTags>
       <li>Draft</li>
     </highlightTags>
-    <onMapInstruction>Send colonists here\ntouching sandbags for cover</onMapInstruction>
+		<rejectInputMessage>Please focus on winning the fight!</rejectInputMessage>
+		<onMapInstruction>Send colonists here\ntouching sandbags for cover</onMapInstruction>
   </InstructionDef>
 
   <InstructionDef>
@@ -603,7 +613,8 @@
     <highlightTags>
       <li>Undraft</li>
     </highlightTags>
-  </InstructionDef>
+		<rejectInputMessage>Please un-draft your colonists.</rejectInputMessage>
+	</InstructionDef>
 
   <InstructionDef>
     <defName>ChooseStoryteller</defName>
@@ -622,7 +633,7 @@
       <li>ChooseStoryteller</li>
     </eventTagsEnd>
     <endTutorial>true</endTutorial>
-    <rejectInputMessage>Please change to a normal storyteller to end the tutorial.</rejectInputMessage>
+    <rejectInputMessage>Please choose a storyteller in the Options menu to end the tutorial.</rejectInputMessage>
   </InstructionDef>
 
 </Defs>

@@ -9,7 +9,9 @@
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
-    </statBases>
+			<Beauty>-6</Beauty>
+			<Mass>0.44</Mass>
+		</statBases>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>10</stackLimit>
     <tickerType>Rare</tickerType>
@@ -27,7 +29,7 @@
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <drawGUIOverlay>true</drawGUIOverlay>
     <ingestible>
-      <foodType>Meal, Processed</foodType>
+      <foodType>Meal</foodType>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <optimalityOffset>16</optimalityOffset>
     </ingestible>
@@ -53,10 +55,12 @@
     <statBases>
       <DeteriorationRate>0.5</DeteriorationRate>
       <MarketValue>30</MarketValue>
+			<Mass>0.4</Mass>
     </statBases>
     <ingestible>
       <preferability>MealFine</preferability>
-      <nutrition>0.90</nutrition>
+			<tasteThought>AteFineMeal</tasteThought>
+			<nutrition>0.90</nutrition>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
@@ -76,7 +80,8 @@
     </statBases>
     <ingestible>
       <preferability>MealAwful</preferability>
-      <nutrition>0.90</nutrition>
+			<tasteThought>AteAwfulMeal</tasteThought>
+			<nutrition>0.90</nutrition>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
@@ -97,7 +102,7 @@
     </statBases>
     <ingestible>
       <preferability>MealSimple</preferability>
-      <nutrition>0.85</nutrition>
+			<nutrition>0.85</nutrition>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
@@ -118,7 +123,8 @@
     </statBases>
     <ingestible>
       <preferability>MealFine</preferability>
-      <nutrition>0.90</nutrition>
+			<tasteThought>AteFineMeal</tasteThought>
+			<nutrition>0.90</nutrition>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
@@ -139,6 +145,7 @@
     </statBases>
     <ingestible>
       <preferability>MealLavish</preferability>
+			<tasteThought>AteLavishMeal</tasteThought>
       <nutrition>1.00</nutrition>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
@@ -151,17 +158,19 @@
     <thingCategories>
       <li>Foods</li>
     </thingCategories>
-    <description>Kibble animal feed made from mixed meat and plant sources.</description>
+    <description>Kibble animal feed made from mixed meat and plant sources. Humans can eat it, but they really, really don't like it.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Kibble</texPath>
     </graphicData>
     <statBases>
       <MarketValue>1.3</MarketValue>
+      <Mass>0.015</Mass>
     </statBases>
     <ingestible>
       <foodType>Kibble</foodType>
       <preferability>RawBad</preferability>
-      <tastesRaw>true</tastesRaw>
+			<tasteThought>AteKibble</tasteThought>
+			<optimalityOffset>-30</optimalityOffset>
       <nutrition>0.05</nutrition>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>RawVegetable_Eat</ingestSound>
@@ -181,8 +190,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>3.1</MarketValue>
-      <WorkToMake>600</WorkToMake>
+      <MarketValue>3.0</MarketValue>
+      <Mass>0.018</Mass>
+      <WorkToMake>700</WorkToMake>
     </statBases>
     <ingestible>
       <foodType>Meal</foodType>

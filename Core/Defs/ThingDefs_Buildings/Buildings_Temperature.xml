@@ -25,7 +25,7 @@
     <fillPercent>0.25</fillPercent>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>200</WorkToMake>
+      <WorkToBuild>200</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
@@ -108,7 +108,7 @@
     <fillPercent>0.40</fillPercent>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>200</WorkToMake>
+      <WorkToBuild>200</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
@@ -165,8 +165,9 @@
     <rotatable>false</rotatable>
     <fillPercent>0.4</fillPercent>
     <statBases>
-      <WorkToMake>1000</WorkToMake>
+      <WorkToBuild>1000</WorkToBuild>
       <MaxHitPoints>100</MaxHitPoints>
+      <Mass>6</Mass>
       <Flammability>1.0</Flammability>
     </statBases>
     <tickerType>Rare</tickerType>
@@ -226,7 +227,7 @@
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <statBases>
-      <WorkToMake>1600</WorkToMake>
+      <WorkToBuild>1600</WorkToBuild>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
@@ -285,7 +286,7 @@
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <statBases>
-			<WorkToMake>400</WorkToMake>
+			<WorkToBuild>400</WorkToBuild>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>

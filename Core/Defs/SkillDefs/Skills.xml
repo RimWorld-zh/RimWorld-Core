@@ -28,7 +28,7 @@
     <description>Taming, training, managing, and controlling animals.</description>
     <skillLabel>Animals</skillLabel>
     <pawnLabel>Handler</pawnLabel>
-    <definedInBackstories>false</definedInBackstories>
+		<usuallyDefinedInBackstories>false</usuallyDefinedInBackstories>
   </SkillDef>
   
   <SkillDef>

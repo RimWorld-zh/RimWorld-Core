@@ -16,9 +16,10 @@
       <li Class="StorytellerCompProperties_ThreatCycle">
         <minDaysPassed>5</minDaysPassed>
         <mtbDaysThreatSmall>3.75</mtbDaysThreatSmall>
-        <mtbDaysThreatBig>1.25</mtbDaysThreatBig>
-        <threatCycleLength>9.2</threatCycleLength>
-        <minDaysBetweenThreatBigs>2.1</minDaysBetweenThreatBigs>
+        <mtbDaysThreatBig>1.20</mtbDaysThreatBig>
+        <threatOffDays>5.8</threatOffDays>
+        <threatOnDays>4.6</threatOnDays>
+        <minDaysBetweenThreatBigs>1.9</minDaysBetweenThreatBigs>
       </li>
       <li Class="StorytellerCompProperties_CategoryMTB">
         <minDaysPassed>5</minDaysPassed>
@@ -37,6 +38,10 @@
       <li Class="StorytellerCompProperties_Disease">
         <minDaysPassed>5</minDaysPassed>
       </li>
+      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+        <category>CaravanTarget</category>
+      </li>
+      <li Class="StorytellerCompProperties_JourneyOffer"/>
     </comps>
   </StorytellerDef>
   
@@ -56,7 +61,8 @@
         <minDaysPassed>5</minDaysPassed>
         <mtbDaysThreatSmall>8</mtbDaysThreatSmall>
         <mtbDaysThreatBig>1.25</mtbDaysThreatBig>
-        <threatCycleLength>17</threatCycleLength>
+        <threatOffDays>8.5</threatOffDays>
+        <threatOnDays>8.5</threatOnDays>
         <minDaysBetweenThreatBigs>12.5</minDaysBetweenThreatBigs>
       </li>
       <li Class="StorytellerCompProperties_CategoryMTB">
@@ -76,6 +82,10 @@
       <li Class="StorytellerCompProperties_Disease">
         <minDaysPassed>5</minDaysPassed>
       </li>
+      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+        <category>CaravanTarget</category>
+      </li>
+      <li Class="StorytellerCompProperties_JourneyOffer"/>
     </comps>
   </StorytellerDef>
 
@@ -106,6 +116,7 @@
       <li Class="StorytellerCompProperties_Disease">
         <minDaysPassed>0</minDaysPassed>
       </li>
+      <li Class="StorytellerCompProperties_JourneyOffer"/>
     </comps>
   </StorytellerDef>
 

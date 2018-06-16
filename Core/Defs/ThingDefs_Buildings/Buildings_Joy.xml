@@ -22,7 +22,8 @@
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
-      <WorkToMake>150</WorkToMake>
+      <WorkToBuild>150</WorkToBuild>
+      <Mass>3</Mass>
       <Flammability>1.0</Flammability>
       <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
     </statBases>
@@ -43,9 +44,14 @@
     <pathCost>10</pathCost>
     <designationCategory>Joy</designationCategory>
     <designationHotKey>Misc1</designationHotKey>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
   </ThingDef>
   
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="FurnitureBase">
     <defName>ChessTable</defName>
     <label>chess table</label>
     <description>The ancient game of kings. Fun for a few hours here and there, even playing alone.</description>
@@ -63,7 +69,6 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
     <rotatable>false</rotatable>
     <socialPropernessMatters>true</socialPropernessMatters>
@@ -73,7 +78,8 @@
     </building>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>5</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>10</Beauty>
       <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
@@ -83,19 +89,19 @@
       <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
     <costStuffCount>70</costStuffCount>
     <pathCost>70</pathCost>
     <passability>PassThroughOnly</passability>
     <designationCategory>Joy</designationCategory>
     <designationHotKey>Misc2</designationHotKey>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
   </ThingDef>
 
-  <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="FurnitureBase">
     <defName>BilliardsTable</defName>
     <label>billiards table</label>
     <description>A soft-topped bounded table for playing a variety of billiards-type games.</description>
@@ -111,7 +117,6 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <altitudeLayer>Building</altitudeLayer>
     <socialPropernessMatters>true</socialPropernessMatters>
@@ -121,7 +126,8 @@
     </building>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToBuild>12000</WorkToBuild>
+      <Mass>300</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>10</Beauty>
       <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
@@ -132,11 +138,6 @@
       <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
     <costStuffCount>80</costStuffCount>
     <costList>
       <Cloth>80</Cloth>
@@ -149,6 +150,11 @@
 		<placeWorkers>
 			<li>PlaceWorker_NeverAdjacentUnstandable</li>
 		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -170,8 +176,9 @@
     <socialPropernessMatters>true</socialPropernessMatters>
     <fillPercent>0.40</fillPercent>
     <statBases>
-      <WorkToMake>6000</WorkToMake>
+      <WorkToBuild>6000</WorkToBuild>
       <MaxHitPoints>100</MaxHitPoints>
+      <Mass>28</Mass>
       <Flammability>1.0</Flammability>
       <MarketValue>700</MarketValue>
       <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
@@ -202,6 +209,9 @@
         <basePowerConsumption>200</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
     </comps>
     <tradeTags>
       <li>Television</li>
@@ -234,6 +244,7 @@
       <MaxHitPoints>80</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <MarketValue>1200</MarketValue>
+      <Mass>5</Mass>
       <EntertainmentStrengthFactor>1.2</EntertainmentStrengthFactor>
     </statBases>
     <pathCost>70</pathCost>
@@ -259,6 +270,9 @@
         <basePowerConsumption>150</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
     </comps>
     <tradeTags>
       <li>Television</li>
@@ -287,6 +301,7 @@
       <MaxHitPoints>85</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <MarketValue>2000</MarketValue>
+      <Mass>8</Mass>
       <EntertainmentStrengthFactor>1.35</EntertainmentStrengthFactor>
     </statBases>
     <pathCost>70</pathCost>
@@ -312,6 +327,9 @@
         <basePowerConsumption>220</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
     </comps>
     <tradeTags>
       <li>Television</li>
@@ -345,8 +363,14 @@
       <MaxHitPoints>75</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <MarketValue>350</MarketValue>
+      <Mass>7.5</Mass>
       <EntertainmentStrengthFactor>1</EntertainmentStrengthFactor>
     </statBases>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
   </ThingDef>
   
 </ThingDefs>

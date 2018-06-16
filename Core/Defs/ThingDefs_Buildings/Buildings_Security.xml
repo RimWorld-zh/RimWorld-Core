@@ -27,11 +27,12 @@
     <statBases>
       <MaxHitPoints>450</MaxHitPoints>
       <Beauty>-10</Beauty>
-      <WorkToMake>180</WorkToMake>
+      <WorkToBuild>180</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <building>
-      <isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
     </building>
     <description>Cover from gunfire.</description>
     <placingDraggableDimensions>1</placingDraggableDimensions>
@@ -71,7 +72,8 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>2500</WorkToMake>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>100</Mass>
       <Beauty>-60</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
@@ -107,9 +109,9 @@
     <designationCategory>Security</designationCategory>
     <specialDisplayRadius>25.9</specialDisplayRadius>
     <building>
-      <ai_combatDangerous>true</ai_combatDangerous>
+			<ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_TurretImprovised</turretGunDef>
-      <turretBurstCooldownTicks>310</turretBurstCooldownTicks>
+      <turretBurstCooldownTime>5.15</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/Security/TurretImprovised_Top</turretTopgraphicPath>
     </building>
     <designationHotKey>Misc2</designationHotKey>
@@ -145,7 +147,6 @@
     <canBeSpawningInventory>false</canBeSpawningInventory>
     <tradeability>Never</tradeability>
     <destroyOnDrop>true</destroyOnDrop>
-    <canMakeOnMapGen>false</canMakeOnMapGen>
     <statBases>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.64</AccuracyShort>
@@ -161,7 +162,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_TurretImprovised</projectileDef>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.5</warmupTime>
         <range>25.9</range>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
@@ -172,7 +173,7 @@
     </verbs>
   </ThingDef>
 
-  <!-- ================ Artillery ==================-->
+  <!-- ================ Mortars ==================-->
 
   <ThingDef Name="BaseArtilleryBuilding" ParentName="BuildingBase" Abstract="True">
     <thingClass>Building_TurretGun</thingClass>
@@ -210,17 +211,18 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>2700</WorkToMake>
+      <WorkToBuild>2700</WorkToBuild>
+      <Mass>200</Mass>
       <Beauty>-60</Beauty>
     </statBases>
     <building>
-      <turretShellDef>ArtilleryShell</turretShellDef>
-      <turretBurstWarmupTicks>300</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>2100</turretBurstCooldownTicks>
-      <buildingTags>
-        <li>Artillery</li>
-      </buildingTags>
-    </building>
+      <turretShellDef>MortarShell</turretShellDef>
+      <turretBurstwarmupTime>5.0</turretBurstwarmupTime>
+			<turretBurstCooldownTime>35.0</turretBurstCooldownTime>
+			<buildingTags>
+				<li>Artillery</li>
+			</buildingTags>
+		</building>
     <placeWorkers>
       <li>PlaceWorker_NotUnderRoof</li>
     </placeWorkers>
@@ -290,7 +292,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_MortarBomb</projectileDef>
         <forcedMissRadius>12</forcedMissRadius>
-        <warmupTicks>350</warmupTicks>
+        <warmupTime>5.8</warmupTime>
         <minRange>30</minRange>
         <range>500</range>
         <burstShotCount>1</burstShotCount>
@@ -364,7 +366,7 @@
         <projectileDef>Bullet_MortarIncendiary</projectileDef>
         <forcedMissRadius>12</forcedMissRadius>
         <ai_IsIncendiary>true</ai_IsIncendiary>
-        <warmupTicks>250</warmupTicks>
+        <warmupTime>5.8</warmupTime>
         <minRange>30</minRange>
         <range>500</range>
         <burstShotCount>1</burstShotCount>
@@ -433,7 +435,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_MortarEMP</projectileDef>
         <forcedMissRadius>12</forcedMissRadius>
-        <warmupTicks>350</warmupTicks>
+        <warmupTime>5.8</warmupTime>
         <minRange>30</minRange>
         <range>500</range>
         <burstShotCount>1</burstShotCount>
@@ -485,7 +487,7 @@
     <stealable>false</stealable>
     <statBases>
       <MaxHitPoints>40</MaxHitPoints>
-      <WorkToMake>2000</WorkToMake>
+      <WorkToBuild>2000</WorkToBuild>
       <Beauty>-4</Beauty>
       <TrapMeleeDamage>60</TrapMeleeDamage>
       <TrapSpringChance>0.8</TrapSpringChance>
@@ -528,13 +530,13 @@
     <stealable>false</stealable>
     <statBases>
       <MaxHitPoints>40</MaxHitPoints>
-      <WorkToMake>2000</WorkToMake>
+      <WorkToBuild>2000</WorkToBuild>
       <Beauty>-4</Beauty>
       <TrapSpringChance>0.8</TrapSpringChance>
     </statBases>
-    <description>An artillery shell connected to a homemade trigger. When someone disturbs the trigger, the shell explodes. The improvised trigger has a random delay that might allow a nimble enemy to escape.</description>
+    <description>A mortar shell connected to a homemade trigger. When someone disturbs the trigger, the shell explodes. The improvised trigger has a random delay that might allow a nimble enemy to escape.</description>
     <costList>
-      <ArtilleryShell>1</ArtilleryShell>
+			<MortarShell>1</MortarShell>
       <Component>1</Component>
     </costList>
     <designationCategory>Security</designationCategory>
@@ -574,13 +576,13 @@
     <stealable>false</stealable>
     <statBases>
       <MaxHitPoints>40</MaxHitPoints>
-      <WorkToMake>2000</WorkToMake>
+      <WorkToBuild>2000</WorkToBuild>
       <Beauty>-4</Beauty>
       <TrapSpringChance>0.8</TrapSpringChance>
     </statBases>
     <description>Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable.</description>
     <costList>
-      <ArtilleryShell>1</ArtilleryShell>
+      <MortarShell>1</MortarShell>
       <Component>1</Component>
     </costList>
     <designationCategory>Security</designationCategory>

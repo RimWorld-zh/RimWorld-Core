@@ -12,12 +12,28 @@
     <toStringStyle>Integer</toStringStyle>
     <roundToFiveOver>200</roundToFiveOver>
   </StatDef>
+  
+  <StatDef>
+    <defName>Mass</defName>
+    <label>mass</label>
+    <description>The physical mass of an object.</description>
+    <category>Basics</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>FloatTwo</toStringStyle>
+    <formatString>{0} kg</formatString>
+    <parts>
+      <li Class="StatPart_BodySize" />
+      <li Class="StatPart_NaturalNotMissingBodyPartsCoverage" />
+      <li Class="StatPart_GearAndInventoryMass" />
+    </parts>
+  </StatDef>
 
   <StatDef>
     <defName>MarketValue</defName>
     <workerClass>StatWorker_MarketValue</workerClass>
     <label>market value</label>
-    <description>The market value of an object. The actual trade price will be further modified by relationship status and negotitation skill.</description>
+    <description>The market value of an object. The actual trade price will be further modified by negotiation skill, relationship status, and other contextual factors.</description>
     <category>BasicsNonPawn</category>
     <toStringStyle>FloatTwo</toStringStyle>
     <roundToFiveOver>200</roundToFiveOver>
@@ -43,6 +59,7 @@
           </points>
         </curve>
       </li>
+			<li Class="StatPart_WornByCorpse"/>
     </parts>
   </StatDef>
 
@@ -79,6 +96,18 @@
     <showIfUndefined>false</showIfUndefined>
   </StatDef>
 
+	<StatDef>
+		<defName>WorkToBuild</defName>
+		<label>work to build</label>
+		<description>The base amount of work it takes to build a structure, once all materials and tools are gathered.</description>
+		<category>BasicsNonPawn</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>WorkAmount</toStringStyle>
+		<roundToFiveOver>300</roundToFiveOver>
+		<showIfUndefined>false</showIfUndefined>
+	</StatDef>
+
   <StatDef>
     <defName>DeteriorationRate</defName>
     <label>deterioration rate</label>
@@ -88,7 +117,7 @@
     <defaultBaseValue>0</defaultBaseValue>
     <minValue>0</minValue>
     <toStringStyle>FloatTwo</toStringStyle>
-    <formatString>{0}/d</formatString>
+    <formatString>{0} / day</formatString>
 		<parts>
 			<li Class="StatPart_Quality">
 				<factorAwful>2</factorAwful>
@@ -110,8 +139,7 @@
     <description>How enjoyable an object is to be around and look at.</description>
     <category>BasicsNonPawn</category>
     <defaultBaseValue>0</defaultBaseValue>
-    <maxValue>1000</maxValue>
-    <minValue>-1000</minValue>
+    <minValue>-999999</minValue>
     <hideAtValue>0</hideAtValue>
     <roundValue>true</roundValue>
     <toStringStyle>Integer</toStringStyle>
@@ -148,7 +176,7 @@
   <StatDef>
     <defName>Comfort</defName>
     <label>comfort</label>
-    <description>How comfortble an object is to sit or lay on.</description>
+    <description>How comfortable an object is to sit or lay on.</description>
     <category>BasicsNonPawn</category>
     <showIfUndefined>false</showIfUndefined>
     <defaultBaseValue>0</defaultBaseValue>

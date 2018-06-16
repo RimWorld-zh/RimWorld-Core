@@ -1,34 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-
-
-  <!-- ============================ Human ========================== -->
-
   <ThingDef ParentName="BasePawn">
     <defName>Human</defName>
     <label>human</label>
     <description>A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.</description>
-    <uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
     <statBases>
       <MarketValue>1750</MarketValue>
       <MoveSpeed>4.61</MoveSpeed>
       <Flammability>1.0</Flammability>
       <ComfyTemperatureMin>12</ComfyTemperatureMin>
       <ComfyTemperatureMax>32</ComfyTemperatureMax>
-      <LeatherAmount>20</LeatherAmount>
+      <LeatherAmount>25</LeatherAmount>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>110</defaultCooldownTicks>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
         <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>110</defaultCooldownTicks>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
         <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
@@ -124,7 +119,5 @@
       <li>Euthanize</li>
     </recipes>
   </ThingDef>
-
-
 
 </ThingDefs>

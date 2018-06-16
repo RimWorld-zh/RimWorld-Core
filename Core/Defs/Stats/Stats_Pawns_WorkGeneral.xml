@@ -50,6 +50,7 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.5</weight>
+				<max>1</max>
       </li>
     </capacityFactors>
   </StatDef>
@@ -83,7 +84,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.3</weight>
-      </li>
+				<max>1</max>
+			</li>
     </capacityFactors>
   </StatDef>
   
@@ -112,11 +114,12 @@
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.9</weight>
-      </li>
+			</li>
       <li>
         <capacity>Sight</capacity>
         <weight>0.5</weight>
-      </li>
+				<max>1</max>
+			</li>
     </capacityFactors>
   </StatDef>
 
@@ -149,7 +152,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.5</weight>
-      </li>
+				<max>1</max>
+			</li>
     </capacityFactors>
   </StatDef>
 
@@ -182,7 +186,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.5</weight>
-      </li>
+				<max>1</max>
+			</li>
     </capacityFactors>
   </StatDef>
 
@@ -236,7 +241,8 @@
         <capacity>Sight</capacity>
         <weight>0.1</weight>
         <useReciprocal>true</useReciprocal>
-      </li>
+				<max>1</max>
+			</li>
     </capacityFactors>
   </StatDef>
 
@@ -290,7 +296,8 @@
         <capacity>Sight</capacity>
         <weight>0.2</weight>
         <useReciprocal>true</useReciprocal>
-      </li>
+				<max>1</max>
+			</li>
     </capacityFactors>
   </StatDef>
 
@@ -344,7 +351,8 @@
         <capacity>Sight</capacity>
         <weight>0.2</weight>
         <useReciprocal>true</useReciprocal>
-      </li>
+				<max>1</max>
+			</li>
     </capacityFactors>
   </StatDef>
 

@@ -13,11 +13,7 @@
         <label>awful</label>
       </li>
       <li>
-        <minScore>-150</minScore>
-        <label>repulsive</label>
-      </li>
-      <li>
-        <minScore>-40</minScore>
+        <minScore>20</minScore>
         <label>dull</label>
       </li>
       <li>
@@ -25,36 +21,32 @@
         <label>mediocre</label>
       </li>
       <li>
-        <minScore>60</minScore>
-        <label>interesting</label>
+        <minScore>40</minScore>
+        <label>decent</label>
       </li>
       <li>
-        <minScore>80</minScore>
-        <label>little bit impressive</label>
+        <minScore>50</minScore>
+        <label>slightly impressive</label>
       </li>
       <li>
-        <minScore>95</minScore>
-        <label>impressive</label>
+        <minScore>65</minScore>
+        <label>somewhat impressive</label>
       </li>
       <li>
-        <minScore>115</minScore>
+        <minScore>85</minScore>
         <label>very impressive</label>
       </li>
       <li>
-        <minScore>130</minScore>
+        <minScore>120</minScore>
         <label>extremely impressive</label>
       </li>
       <li>
-        <minScore>160</minScore>
+        <minScore>170</minScore>
         <label>unbelievably impressive</label>
       </li>
       <li>
-        <minScore>180</minScore>
-        <label>miraculously wonderful</label>
-      </li>
-      <li>
-        <minScore>215</minScore>
-        <label>wonder of the World</label>
+        <minScore>240</minScore>
+        <label>wondrously impressive</label>
       </li>
     </scoreStages>
   </RoomStatDef>
@@ -126,11 +118,11 @@
       </li>
       <li>
         <minScore>55</minScore>
-        <label>rather spacious</label>
+        <label>somewhat spacious</label>
       </li>
       <li>
         <minScore>70</minScore>
-        <label>spacious</label>
+        <label>quite spacious</label>
       </li>
       <li>
         <minScore>130</minScore>
@@ -163,7 +155,7 @@
       </li>
       <li>
         <minScore>2.4</minScore>
-        <label>rather nice</label>
+        <label>pretty</label>
       </li>
       <li>
         <minScore>5.0</minScore>
@@ -200,7 +192,7 @@
       </li>
       <li>
         <minScore>-0.4</minScore>
-        <label>a little bit dirty</label>
+        <label>slightly dirty</label>
       </li>
       <li>
         <minScore>-0.05</minScore>

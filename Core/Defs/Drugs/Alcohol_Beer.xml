@@ -13,8 +13,9 @@
     <rotatable>false</rotatable>
     <stackLimit>25</stackLimit>
     <statBases>
-      <DeteriorationRate>0</DeteriorationRate>
+      <DeteriorationRate>0.5</DeteriorationRate>
       <MarketValue>9</MarketValue>
+      <Mass>0.5</Mass>
       <MeleeWeapon_DamageAmount>7</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
     </statBases>
@@ -38,7 +39,8 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AlcoholTolerance</hediffDef>
           <severity>0.032</severity>
-        </li>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
       </outcomeDoers>
     </ingestible>
     <equipmentType>Primary</equipmentType>
@@ -46,7 +48,7 @@
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>Alcohol</chemical>
-        <addictiveness>0.006</addictiveness>
+        <addictiveness>0.010</addictiveness>
         <minToleranceToAddict>0.25</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
         <needLevelOffset>1</needLevelOffset>
@@ -79,8 +81,9 @@
       <li>Manufactured</li>
     </thingCategories>
     <statBases>
-      <DeteriorationRate>0</DeteriorationRate>
+      <DeteriorationRate>1.0</DeteriorationRate>
       <MarketValue>2.5</MarketValue>
+      <Mass>0.8</Mass>
     </statBases>
     <tickerType>Rare</tickerType>
     <comps>
@@ -98,16 +101,14 @@
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
-      <li>
-        <compClass>HediffComp_Effecter</compClass>
+      <li Class="HediffCompProperties_Effecter">
         <stateEffecter>Drunk</stateEffecter>
         <severityIndices>
           <min>3</min>
           <max>5</max>
         </severityIndices>
       </li>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1.0</severityPerDay>
       </li>
     </comps>
@@ -158,7 +159,7 @@
               </li>
               <li>
                 <capacity>Moving</capacity>
-                <offset>-0.1</offset>
+                <offset>-0.10</offset>
               </li>
             </capMods>
         </li>
@@ -172,11 +173,11 @@
             <capMods>
               <li>
                 <capacity>Consciousness</capacity>
-                <offset>-0.60</offset>
+                <offset>-0.50</offset>
               </li>
               <li>
                 <capacity>Moving</capacity>
-                <offset>-0.2</offset>
+                <offset>-0.10</offset>
               </li>
             </capMods>
         </li>
@@ -184,12 +185,21 @@
           <minSeverity>0.9</minSeverity>
           <label>blackout</label>
           <painFactor>0.1</painFactor>
-            <capMods>
-              <li>
-                <capacity>Consciousness</capacity>
-                <setMax>0.1</setMax>
-              </li>
-            </capMods>
+          <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <setMax>0.1</setMax>
+            </li>
+          </capMods>
+					<hediffGivers>
+						<li Class="HediffGiver_Random">
+							<hediff>ChemicalDamageBrain</hediff>
+							<mtbDays>10</mtbDays>
+							<partsToAffect>
+								<li>Brain</li>
+							</partsToAffect>
+						</li>
+					</hediffGivers>
         </li>
       </stages>
   </HediffDef>
@@ -201,8 +211,7 @@
     <initialSeverity>1</initialSeverity>
     <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
       </li>
     </comps>
@@ -246,6 +255,7 @@
     <defName>Inebriated</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>AlcoholHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <label>buzzed-hidden</label>
@@ -280,6 +290,7 @@
     <defName>Hungover</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>Hangover</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <label>Hungover (slight)</label>
@@ -324,15 +335,31 @@
     <defName>AlcoholTolerance</defName>
     <label>alcohol tolerance</label>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.015</severityPerDay>
       </li>
-      <li>
-        <compClass>HediffComp_DrugEffectFactor</compClass>
+      <li Class="HediffCompProperties_DrugEffectFactor">
         <chemical>Alcohol</chemical>
       </li>
     </comps>
+		<hediffGivers>
+			<li Class="HediffGiver_RandomDrugEffect">
+				<hediff>Cirrhosis</hediff>
+				<minSeverity>0.50</minSeverity>
+				<baseMtbDays>60</baseMtbDays>
+				<partsToAffect>
+					<li>Liver</li>
+				</partsToAffect>
+			</li>
+			<li Class="HediffGiver_RandomDrugEffect">
+				<hediff>Carcinoma</hediff>
+				<minSeverity>0.50</minSeverity>
+				<baseMtbDays>180</baseMtbDays>
+				<partsToAffect>
+					<li>Liver</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
   </HediffDef>
 
   <HediffDef ParentName="AddictionBase">
@@ -341,9 +368,8 @@
     <label>alcohol addiction</label>
     <causesNeed>Chemical_Alcohol</causesNeed>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
-        <severityPerDay>-0.05</severityPerDay>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.0333</severityPerDay>
       </li>
     </comps>
     <stages>
@@ -359,13 +385,19 @@
           </li>
           <li>
             <capacity>Moving</capacity>
-            <offset>-0.20</offset>
+            <offset>-0.30</offset>
           </li>
           <li>
             <capacity>Manipulation</capacity>
             <offset>-0.50</offset>
           </li>
         </capMods>
+				<mentalStateGivers>
+					<li>
+						<mentalState>BingingDrugMajor</mentalState>
+						<mtbDays>40</mtbDays>
+					</li>
+				</mentalStateGivers>
       </li>
     </stages>
   </HediffDef>
@@ -374,6 +406,7 @@
     <defName>AlcoholWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>AlcoholAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <visible>false</visible>
@@ -381,7 +414,7 @@
       <li>
         <label>alcohol withdrawal</label>
         <description>Feeling shaky. Everything pisses me off. I keep thinking of drinking.</description>
-        <baseMoodEffect>-25</baseMoodEffect>
+        <baseMoodEffect>-35</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

@@ -22,9 +22,6 @@
         <count>0.5</count>
       </li>
     </ingredients>
-    <products>
-      <MealSimple>1</MealSimple>
-    </products>
     <fixedIngredientFilter>
       <categories>
         <li>FoodRaw</li>
@@ -42,8 +39,12 @@
       </exceptedCategories>
       <exceptedThingDefs>
         <li>Human_Meat</li>
+        <li>Megaspider_Meat</li>
       </exceptedThingDefs>
     </defaultIngredientFilter>
+		<products>
+			<MealSimple>1</MealSimple>
+		</products>
     <workSkill>Cooking</workSkill>
   </RecipeDef>
 
@@ -101,6 +102,7 @@
       </exceptedCategories>
       <exceptedThingDefs>
 				<li>Human_Meat</li>
+        <li>Megaspider_Meat</li>
 			</exceptedThingDefs>
 		</defaultIngredientFilter>
 		<skillRequirements>
@@ -161,6 +163,7 @@
       </exceptedCategories>
       <exceptedThingDefs>
 				<li>Human_Meat</li>
+        <li>Megaspider_Meat</li>
 			</exceptedThingDefs>
 		</defaultIngredientFilter>
 		<skillRequirements>

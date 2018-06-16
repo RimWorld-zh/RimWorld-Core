@@ -25,7 +25,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.25</weight>
-      </li>
+				<max>1</max>
+			</li>
     </capacityFactors>
   </StatDef>
 
@@ -47,7 +48,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.6</weight>
-      </li>
+				<max>1</max>
+			</li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.9</weight>
@@ -73,7 +75,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.6</weight>
-      </li>
+				<max>1</max>
+			</li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.9</weight>
@@ -99,7 +102,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.6</weight>
-      </li>
+				<max>1</max>
+			</li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.9</weight>
@@ -107,10 +111,63 @@
     </capacityFactors>
   </StatDef>
 
+	<StatDef>
+		<defName>StonecuttingSpeed</defName>
+		<label>stonecutting speed</label>
+		<description>Speed at which this person cuts rough stone into blocks.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<statFactors>
+			<li>WorkSpeedGlobal</li>
+		</statFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Consciousness</capacity>
+				<weight>1</weight>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.3</weight>
+				<max>1</max>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.9</weight>
+			</li>
+		</capacityFactors>
+	</StatDef>
+
+	<StatDef>
+		<defName>SmeltingSpeed</defName>
+		<label>smelting speed</label>
+		<description>Speed at which this person smelts things.</description>
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<statFactors>
+			<li>WorkSpeedGlobal</li>
+		</statFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Consciousness</capacity>
+				<weight>1</weight>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.3</weight>
+				<max>1</max>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.9</weight>
+			</li>
+		</capacityFactors>
+	</StatDef>
 
 
 
-  <!-- Production recipes - speed affected by skill.-->
+	<!-- Production recipes - speed affected by skill.-->
   
   <StatDef>
     <defName>CookSpeed</defName>
@@ -137,7 +194,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.3</weight>
-      </li>
+				<max>1</max>
+			</li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.9</weight>
@@ -207,7 +265,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.3</weight>
-      </li>
+				<max>1</max>
+			</li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.9</weight>
@@ -215,16 +274,34 @@
     </capacityFactors>
   </StatDef>
 
-  <StatDef>
-    <defName>ButcheryFleshSpeed</defName>
-    <label>butchery speed</label>
-    <description>Speed at which this person butchers flesh creatures.</description>
-    <category>PawnWork</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <toStringStyle>PercentZero</toStringStyle>
-    <statFactors>
-      <li>WorkSpeedGlobal</li>
-    </statFactors>
+	<StatDef Abstract="True" Name="ButcherySpeedBase">
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<statFactors>
+			<li>WorkSpeedGlobal</li>
+		</statFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Consciousness</capacity>
+				<weight>1</weight>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.4</weight>
+				<max>1</max>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.9</weight>
+			</li>
+		</capacityFactors>
+	</StatDef>
+
+	<StatDef ParentName="ButcherySpeedBase">
+		<defName>ButcheryFleshSpeed</defName>
+		<label>butchery speed</label>
+		<description>Speed at which this person butchers flesh creatures.</description>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Cooking</skill>
@@ -232,57 +309,12 @@
         <bonusFactor>0.06</bonusFactor>
       </li>
     </skillNeedFactors>
-    <capacityFactors>
-      <li>
-        <capacity>Consciousness</capacity>
-        <weight>1</weight>
-      </li>
-      <li>
-        <capacity>Sight</capacity>
-        <weight>0.4</weight>
-      </li>
-      <li>
-        <capacity>Manipulation</capacity>
-        <weight>0.9</weight>
-      </li>
-    </capacityFactors>
   </StatDef>
-  <StatDef>
-    <defName>ButcheryFleshEfficiency</defName>
-    <label>butchery efficiency</label>
-    <description>Multiplier on the amount of meat produced when butchering flesh animals.</description>
-    <category>PawnWork</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <toStringStyle>PercentZero</toStringStyle>
-    <skillNeedFactors>
-      <li Class="SkillNeed_BaseBonus">
-        <skill>Cooking</skill>
-        <baseFactor>0.75</baseFactor>
-        <bonusFactor>0.025</bonusFactor>
-      </li>
-    </skillNeedFactors>
-    <capacityFactors>
-      <li>
-        <capacity>Sight</capacity>
-        <weight>0.4</weight>
-      </li>
-      <li>
-        <capacity>Manipulation</capacity>
-        <weight>0.9</weight>
-      </li>
-    </capacityFactors>
-  </StatDef>
-
-  <StatDef>
+	
+  <StatDef ParentName="ButcherySpeedBase">
     <defName>ButcheryMechanoidSpeed</defName>
     <label>mechanoid disassembly speed</label>
     <description>Speed at which this person can disassemble a mechanoid.</description>
-    <category>PawnWork</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <toStringStyle>PercentZero</toStringStyle>
-    <statFactors>
-      <li>WorkSpeedGlobal</li>
-    </statFactors>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Crafting</skill>
@@ -290,28 +322,42 @@
         <bonusFactor>0.06</bonusFactor>
       </li>
     </skillNeedFactors>
-    <capacityFactors>
-      <li>
-        <capacity>Consciousness</capacity>
-        <weight>1</weight>
-      </li>
-      <li>
-        <capacity>Sight</capacity>
-        <weight>0.4</weight>
-      </li>
-      <li>
-        <capacity>Manipulation</capacity>
-        <weight>0.9</weight>
-      </li>
-    </capacityFactors>
   </StatDef>
-  <StatDef>
+
+	<StatDef Abstract="True" Name="ButcheryEfficiencyBase" >
+		<category>PawnWork</category>
+		<defaultBaseValue>1</defaultBaseValue>
+		<toStringStyle>PercentZero</toStringStyle>
+		<capacityFactors>
+			<li>
+				<capacity>Sight</capacity>
+				<weight>0.4</weight>
+				<max>1</max>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.9</weight>
+			</li>
+		</capacityFactors>
+	</StatDef>
+
+	<StatDef ParentName="ButcheryEfficiencyBase">
+		<defName>ButcheryFleshEfficiency</defName>
+		<label>butchery efficiency</label>
+		<description>Multiplier on the amount of meat produced when butchering flesh creatures.</description>
+		<skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Cooking</skill>
+				<baseFactor>0.75</baseFactor>
+				<bonusFactor>0.025</bonusFactor>
+			</li>
+		</skillNeedFactors>
+	</StatDef>
+
+	<StatDef ParentName="ButcheryEfficiencyBase">
     <defName>ButcheryMechanoidEfficiency</defName>
     <label>mechanoid disassembly efficiency</label>
     <description>Multiplier on the amount of materials yielded when this person disassembles a dead mechanoid.</description>
-    <category>PawnWork</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <toStringStyle>PercentZero</toStringStyle>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Crafting</skill>
@@ -319,68 +365,6 @@
         <bonusFactor>0.025</bonusFactor>
       </li>
     </skillNeedFactors>
-    <capacityFactors>
-      <li>
-        <capacity>Sight</capacity>
-        <weight>0.4</weight>
-      </li>
-      <li>
-        <capacity>Manipulation</capacity>
-        <weight>0.9</weight>
-      </li>
-    </capacityFactors>
-  </StatDef>
-
-  <StatDef>
-    <defName>StonecuttingSpeed</defName>
-    <label>stonecutting speed</label>
-    <description>Speed at which this person cuts rough stone into blocks.</description>
-    <category>PawnWork</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <toStringStyle>PercentZero</toStringStyle>
-    <statFactors>
-      <li>WorkSpeedGlobal</li>
-    </statFactors>
-    <capacityFactors>
-      <li>
-        <capacity>Consciousness</capacity>
-        <weight>1</weight>
-      </li>
-      <li>
-        <capacity>Sight</capacity>
-        <weight>0.3</weight>
-      </li>
-      <li>
-        <capacity>Manipulation</capacity>
-        <weight>0.9</weight>
-      </li>
-    </capacityFactors>
-  </StatDef>
-
-  <StatDef>
-    <defName>SmeltingSpeed</defName>
-    <label>smelting speed</label>
-    <description>Speed at which this person smelts things.</description>
-    <category>PawnWork</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <toStringStyle>PercentZero</toStringStyle>
-    <statFactors>
-      <li>WorkSpeedGlobal</li>
-    </statFactors>
-    <capacityFactors>
-      <li>
-        <capacity>Consciousness</capacity>
-        <weight>1</weight>
-      </li>
-      <li>
-        <capacity>Sight</capacity>
-        <weight>0.3</weight>
-      </li>
-      <li>
-        <capacity>Manipulation</capacity>
-        <weight>0.9</weight>
-      </li>
-    </capacityFactors>
   </StatDef>
 
 </StatDefs>

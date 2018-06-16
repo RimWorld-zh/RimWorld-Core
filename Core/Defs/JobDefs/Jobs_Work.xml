@@ -34,6 +34,14 @@
     <canCheckOverrideOnDamage>false</canCheckOverrideOnDamage>
   </JobDef>
 
+  <JobDef>
+    <defName>CarryDownedPawnToExit</defName>
+    <driverClass>JobDriver_Kidnap</driverClass>
+    <reportString>carrying TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <canCheckOverrideOnDamage>false</canCheckOverrideOnDamage>
+  </JobDef>
+  
   <!--============= Pawn hauling ===============-->
 
   <JobDef>

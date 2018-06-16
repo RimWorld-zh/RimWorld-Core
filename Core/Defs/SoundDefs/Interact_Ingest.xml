@@ -3,6 +3,7 @@
   <SoundDef>
     <defName>RawVegetable_Eat</defName>  
     <sustain>True</sustain>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <priorityMode>PrioritizeNearest</priorityMode>  
@@ -31,6 +32,7 @@
   <SoundDef>
     <defName>RawMeat_Eat</defName>  
     <sustain>True</sustain>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <priorityMode>PrioritizeNearest</priorityMode>  
@@ -63,6 +65,7 @@
   <SoundDef>
     <defName>Meal_Eat</defName>  
     <sustain>True</sustain>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <priorityMode>PrioritizeNearest</priorityMode>  
@@ -105,6 +108,7 @@
   <SoundDef>
     <defName>Ingest_Beer</defName>  
     <sustain>True</sustain>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <priorityMode>PrioritizeNearest</priorityMode>  
@@ -140,6 +144,7 @@
 
   <SoundDef>
     <defName>Ingest_Beer_Start</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
@@ -168,6 +173,7 @@
 
   <SoundDef>
     <defName>Ingest_Smoke</defName>
+    <context>MapOnly</context>
     <eventNames />
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -197,6 +203,7 @@
   <SoundDef>
     <defName>Ingest_Snort</defName>
     <sustain>True</sustain>
+    <context>MapOnly</context>
     <eventNames />
     <maxSimultaneous>1</maxSimultaneous>
     <priorityMode>PrioritizeNearest</priorityMode>
@@ -231,6 +238,7 @@
 
   <SoundDef>
     <defName>Ingest_Pill</defName>
+    <context>MapOnly</context>
     <eventNames />
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
@@ -259,6 +267,7 @@
 
   <SoundDef>
     <defName>Ingest_Inject</defName>
+    <context>MapOnly</context>
     <eventNames />
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>

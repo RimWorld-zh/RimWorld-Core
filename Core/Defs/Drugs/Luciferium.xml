@@ -11,7 +11,8 @@
     </graphicData>
     <rotatable>false</rotatable>
     <statBases>
-      <MarketValue>100</MarketValue>
+      <MarketValue>120</MarketValue>
+      <Mass>0.003</Mass>
     </statBases>
     <techLevel>Spacer</techLevel>
     <ingestible>
@@ -20,6 +21,7 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>LuciferiumHigh</hediffDef>
           <severity>1.00</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
         </li>
       </outcomeDoers>
     </ingestible>
@@ -40,18 +42,25 @@
     <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_HealOldWounds" />
+		</comps>
     <stages>
       <li>
         <painFactor>0.8</painFactor>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>0.25</offset>
+            <offset>0.10</offset>
           </li>
           <li>
             <capacity>Moving</capacity>
-            <offset>0.25</offset>
+            <offset>0.05</offset>
           </li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.15</offset>
+					</li>
           <li>
             <capacity>BloodFiltration</capacity>
             <offset>0.70</offset>
@@ -67,14 +76,6 @@
           <li>
             <capacity>Breathing</capacity>
             <offset>0.10</offset>
-          </li>
-          <li>
-            <capacity>Sight</capacity>
-            <offset>0.20</offset>
-          </li>
-          <li>
-            <capacity>Hearing</capacity>
-            <offset>0.20</offset>
           </li>
         </capMods>
       </li>

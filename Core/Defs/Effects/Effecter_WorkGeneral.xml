@@ -161,6 +161,7 @@
   <SoundDef>
     <defName>Interact_Drill</defName>
     <sustain>True</sustain>
+    <context>MapOnly</context>
     <eventNames />
     <maxSimultaneous>1</maxSimultaneous>
     <priorityMode>PrioritizeNearest</priorityMode>

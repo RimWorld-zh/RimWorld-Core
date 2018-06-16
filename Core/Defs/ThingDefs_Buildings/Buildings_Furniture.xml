@@ -14,11 +14,8 @@
     </tradeTags>
   </ThingDef>
   
-  <ThingDef Name="HighQualityFurnitureBase" ParentName="BuildingBase" Abstract="True">
+  <ThingDef Name="ArtableFurnitureBase" ParentName="FurnitureBase" Abstract="True">
     <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
       <li Class="CompProperties_Art">
         <nameMaker>ArtName_Furniture</nameMaker>
         <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
@@ -28,14 +25,11 @@
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
-    <DesignationCategory>Furniture</DesignationCategory>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
   </ThingDef>
 
 
   <!--============================== Beds ==============================-->
-
-
+	
   <ThingDef ParentName="BuildingBase">
     <defName>SleepingSpot</defName>
     <label>sleeping spot</label>
@@ -48,9 +42,10 @@
     </graphicData>
     <AltitudeLayer>FloorEmplacement</AltitudeLayer>
     <statBases>
-      <WorkToMake>0</WorkToMake>
+      <WorkToBuild>0</WorkToBuild>
       <Comfort>0.4</Comfort>
     </statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>False</useHitPoints>
     <Size>(1,2)</Size>
     <DesignationCategory>Furniture</DesignationCategory>
@@ -58,13 +53,16 @@
     <DrawGUIOverlay>True</DrawGUIOverlay>
     <building>
       <Bed_ShowSleeperBody>True</Bed_ShowSleeperBody>
-      <Bed_HealTickInterval>3000</Bed_HealTickInterval>
       <sowTag>SupportPlantsOnly</sowTag>
       <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
     </building>
     <designationHotkey>Misc1</designationHotkey>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
   </ThingDef>
-  
   
   <ThingDef ParentName="FurnitureBase">
     <defName>Bed</defName>
@@ -85,7 +83,8 @@
       <MaxHitPoints>140</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <Beauty>8</Beauty>
-      <WorkToMake>870</WorkToMake>
+      <WorkToBuild>870</WorkToBuild>
+      <Mass>50</Mass>
       <BedRestEffectiveness>1</BedRestEffectiveness>
       <Comfort>0.75</Comfort>
       <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
@@ -99,7 +98,7 @@
     <costStuffCount>35</costStuffCount>
     <building>
       <Bed_ShowSleeperBody>False</Bed_ShowSleeperBody>
-      <Bed_HealTickInterval>2100</Bed_HealTickInterval>
+      <bed_healPerDay>7</bed_healPerDay>
     </building>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
@@ -107,6 +106,9 @@
           <li>VitalsMonitor</li>
         </linkableFacilities>
       </li>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
     </comps>
     <fillPercent>0.4</fillPercent>
     <PathCost>60</PathCost>
@@ -120,7 +122,7 @@
 		</placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="HighQualityFurnitureBase">
+  <ThingDef ParentName="ArtableFurnitureBase">
     <defName>DoubleBed</defName>
     <label>double bed</label>
     <Description>A simple double-wide bed that fits two people.</Description>
@@ -138,7 +140,8 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>1740</WorkToMake>
+      <WorkToBuild>1740</WorkToBuild>
+      <Mass>85</Mass>
       <Comfort>0.75</Comfort>
       <Beauty>8</Beauty>
       <BedRestEffectiveness>1</BedRestEffectiveness>
@@ -153,7 +156,7 @@
     <costStuffCount>70</costStuffCount>
     <building>
       <Bed_ShowSleeperBody>False</Bed_ShowSleeperBody>
-      <Bed_HealTickInterval>2100</Bed_HealTickInterval>
+      <bed_healPerDay>7</bed_healPerDay>
     </building>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
@@ -161,6 +164,9 @@
           <li>VitalsMonitor</li>
         </linkableFacilities>
       </li>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
     </comps>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <fillPercent>0.4</fillPercent>
@@ -176,9 +182,7 @@
 		</placeWorkers>
   </ThingDef>
 
-
-
-  <ThingDef ParentName="HighQualityFurnitureBase">
+  <ThingDef ParentName="ArtableFurnitureBase">
     <defName>RoyalBed</defName>
     <label>royal bed</label>
     <Description>A luxurious gold-inlaid bed fit for the highborn. Very comfy and beautiful. Fits two.</Description>
@@ -196,7 +200,8 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToMake>4500</WorkToMake>
+      <WorkToBuild>4500</WorkToBuild>
+      <Mass>90</Mass>
       <Beauty>50</Beauty>
       <BedRestEffectiveness>1.05</BedRestEffectiveness>
       <Comfort>0.90</Comfort>
@@ -214,7 +219,7 @@
     </costList>
     <building>
       <Bed_ShowSleeperBody>False</Bed_ShowSleeperBody>
-      <Bed_HealTickInterval>2000</Bed_HealTickInterval>
+      <bed_healPerDay>8</bed_healPerDay>
     </building>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
@@ -222,6 +227,9 @@
           <li>VitalsMonitor</li>
         </linkableFacilities>
       </li>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
     </comps>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <fillPercent>0.4</fillPercent>
@@ -251,12 +259,13 @@
     <AltitudeLayer>Building</AltitudeLayer>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
-      <WorkToMake>2850</WorkToMake>
+      <WorkToBuild>2850</WorkToBuild>
+      <Mass>45</Mass>
       <Flammability>1.0</Flammability>
       <BedRestEffectiveness>1</BedRestEffectiveness>
       <Comfort>0.80</Comfort>
       <ImmunityGainSpeedFactor>1.144</ImmunityGainSpeedFactor>
-      <MedicalTreatmentQualityFactor>1.04</MedicalTreatmentQualityFactor>
+      <MedicalTendQualityOffset>0.10</MedicalTendQualityOffset>
     </statBases>
     <Size>(1,2)</Size>
     <stuffCategories>
@@ -269,7 +278,7 @@
     </costList>
     <building>
       <Bed_ShowSleeperBody>False</Bed_ShowSleeperBody>
-      <Bed_HealTickInterval>1950</Bed_HealTickInterval>
+      <bed_healPerDay>12</bed_healPerDay>
       <bed_defaultMedical>true</bed_defaultMedical>
     </building>
     <comps>
@@ -278,6 +287,9 @@
           <li>VitalsMonitor</li>
         </linkableFacilities>
       </li>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
     </comps>
     <fillPercent>0.4</fillPercent>
     <PathCost>60</PathCost>
@@ -306,6 +318,7 @@
 		<size>(1,1)</size>
 		<Passability>Standable</Passability>
 		<designationCategory>Furniture</designationCategory>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<useHitPoints>False</useHitPoints>
 		<AltitudeLayer>FloorEmplacement</AltitudeLayer>
 		<graphicData>
@@ -313,15 +326,20 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<WorkToMake>0</WorkToMake>
+			<WorkToBuild>0</WorkToBuild>
 		</statBases>
 		<building>
 			<bed_humanlike>false</bed_humanlike>
 			<Bed_ShowSleeperBody>True</Bed_ShowSleeperBody>
-			<Bed_HealTickInterval>3000</Bed_HealTickInterval>
+      <bed_healPerDay>4</bed_healPerDay>
 			<sowTag>SupportPlantsOnly</sowTag>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 		</building>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="FurnitureBase">
@@ -355,17 +373,23 @@
       <bed_humanlike>false</bed_humanlike>
 			<bed_maxBodySize>0.55</bed_maxBodySize>
 			<bed_ShowSleeperBody>true</bed_ShowSleeperBody>
-			<bed_HealTickInterval>2100</bed_HealTickInterval>
+      <bed_healPerDay>7</bed_healPerDay>
 		</building>
 		<AltitudeLayer>Building</AltitudeLayer>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToMake>120</WorkToMake>
+			<WorkToBuild>120</WorkToBuild>
+      <Mass>3</Mass>
 			<BedRestEffectiveness>0.93</BedRestEffectiveness>
 			<Comfort>0.60</Comfort>
 			<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
 		</statBases>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="FurnitureBase">
@@ -391,17 +415,23 @@
 		<building>
       <bed_humanlike>false</bed_humanlike>
 			<bed_ShowSleeperBody>true</bed_ShowSleeperBody>
-			<bed_HealTickInterval>2100</bed_HealTickInterval>
+      <bed_healPerDay>7</bed_healPerDay>
 		</building>
 		<AltitudeLayer>Building</AltitudeLayer>
 		<statBases>
 			<MaxHitPoints>140</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToMake>600</WorkToMake>
+			<WorkToBuild>600</WorkToBuild>
+      <Mass>10</Mass>
 			<BedRestEffectiveness>1</BedRestEffectiveness>
 			<Comfort>0.75</Comfort>
 			<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
 		</statBases>
+		<comps>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
+		</comps>
 	</ThingDef>
 
 
@@ -431,7 +461,8 @@
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
-      <WorkToMake>750</WorkToMake>
+      <WorkToBuild>750</WorkToBuild>
+      <Mass>3</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>3</Beauty>
       <Comfort>0.5</Comfort>
@@ -453,7 +484,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="HighQualityFurnitureBase">
+  <ThingDef ParentName="ArtableFurnitureBase">
     <defName>DiningChair</defName>
     <label>dining chair</label>
     <graphicData>
@@ -473,7 +504,8 @@
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>170</MaxHitPoints>
-      <WorkToMake>6000</WorkToMake>
+      <WorkToBuild>6000</WorkToBuild>
+      <Mass>5</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>7</Beauty>
       <Comfort>0.70</Comfort>
@@ -514,7 +546,8 @@
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>220</MaxHitPoints>
-      <WorkToMake>7500</WorkToMake>
+      <WorkToBuild>7500</WorkToBuild>
+      <Mass>18</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>3</Beauty>
       <Comfort>0.8</Comfort>
@@ -538,7 +571,7 @@
 
 
   <!-- Table base -->
-  <ThingDef Abstract="True" ParentName="BuildingBase" Name="TableBase">
+  <ThingDef Abstract="True" ParentName="FurnitureBase" Name="TableBase">
     <thingClass>Building</thingClass>
     <altitudeLayer>Building</altitudeLayer>
     <description>People eat off tables when chairs are placed facing them.</description>
@@ -546,7 +579,6 @@
     <castEdgeShadows>true</castEdgeShadows>
     <pathCost>60</pathCost>
     <fillPercent>0.4</fillPercent>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
     <socialPropernessMatters>true</socialPropernessMatters>
     <stuffCategories>
       <li>Metallic</li>
@@ -554,16 +586,15 @@
       <li>Stony</li>
     </stuffCategories>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <designationCategory>Furniture</designationCategory>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <surfaceType>Eat</surfaceType>
     <comps>
       <li>
         <compClass>CompGatherSpot</compClass>
       </li>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
+			<li Class="CompProperties_RoomIdentifier">
+				<roomStat>Impressiveness</roomStat>
+			</li>
     </comps>
   </ThingDef>
 
@@ -585,7 +616,8 @@
     </graphicData>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>1500</WorkToMake>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>10</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>8</Beauty>
     </statBases>
@@ -615,7 +647,8 @@
     </graphicData>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
-      <WorkToMake>3000</WorkToMake>
+      <WorkToBuild>3000</WorkToBuild>
+      <Mass>20</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>12</Beauty>
     </statBases>
@@ -643,7 +676,8 @@
     <fillPercent>0.20</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>495</WorkToMake>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>2</Mass>
       <Flammability>1.0</Flammability>
     </statBases>
     <stuffCategories>
@@ -661,7 +695,6 @@
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <building>
       <defaultPlantToGrow>PlantDaylily</defaultPlantToGrow>
-      <plantsDestroyWithMe>true</plantsDestroyWithMe>
       <sowTag>Decorative</sowTag>
     </building>
     <rotatable>false</rotatable>
@@ -693,7 +726,7 @@
     <fillPercent>0.15</fillPercent>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>200</WorkToMake>
+      <WorkToBuild>200</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <selectable>true</selectable>
@@ -765,7 +798,7 @@
     </comps>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
-      <WorkToMake>170</WorkToMake>
+      <WorkToBuild>170</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <researchPrerequisites>
@@ -780,6 +813,9 @@
     <costList>
       <Steel>15</Steel>
     </costList>
+    <statBases>
+      <Mass>4</Mass>
+    </statBases>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -852,7 +888,8 @@
     </graphicData>
     <blockWind>true</blockWind>
     <statBases>
-      <WorkToMake>330</WorkToMake>
+      <WorkToBuild>330</WorkToBuild>
+      <Mass>4.5</Mass>
     </statBases>
     <costList>
       <Steel>25</Steel>
@@ -900,7 +937,8 @@
     <costStuffCount>30</costStuffCount>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>1050</WorkToMake>
+      <Mass>8</Mass>
+      <WorkToBuild>1050</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <description>Items stored in this will not deteriorate, even if outside.</description>
@@ -914,7 +952,7 @@
             <li>Apparel</li>
           </categories>
           <thingDefs>
-            <li>ArtilleryShell</li>
+            <li>MortarShell</li>
           </thingDefs>
         </filter>
       </fixedStorageSettings>
@@ -934,13 +972,5 @@
     <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <surfaceType>Item</surfaceType>
   </ThingDef>
-
-
-
-
-
-
-
-
 
 </Buildings>

@@ -362,7 +362,7 @@
 
   <TaleDef>
     <defName>KilledMajorColonyEnemy</defName>
-    <label>major colony enemy killed</label>
+    <label>major enemy killed</label>
     <taleClass>Tale_DoublePawn</taleClass>
     <type>Expirable</type>
     <firstPawnSymbol>killer</firstPawnSymbol>
@@ -382,7 +382,7 @@
     <baseInterest>1</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun->a trade between [seller_fullName] and [buyer_fullName]</li>
+        <li>tale_noun->a trade between [seller_nameFull] and [buyer_nameFull]</li>
         <li>image->[buyer_nameFull] buying goods from [seller_nameFull] [circumstance_group]</li>
         <li>image->[seller_nameFull] selling goods to [buyer_nameFull] [circumstance_group]</li>
         <li>circumstance_phrase->with greedy intent</li>

@@ -12,7 +12,8 @@
     <rotatable>false</rotatable>
     <statBases>
       <WorkToMake>800</WorkToMake>
-      <MarketValue>28</MarketValue>
+      <MarketValue>24</MarketValue>
+      <Mass>0.0015</Mass>
     </statBases>
     <techLevel>Industrial</techLevel>
     <ingestible>
@@ -32,7 +33,8 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>WakeUpTolerance</hediffDef>
           <severity>0.045</severity>
-        </li>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
@@ -48,7 +50,7 @@
       <li Class="CompProperties_Drug">
         <chemical>WakeUp</chemical>
         <addictiveness>0.10</addictiveness>
-        <minToleranceToAddict>0.10</minToleranceToAddict>
+        <minToleranceToAddict>0.08</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
         <needLevelOffset>1</needLevelOffset>
         <listOrder>210</listOrder>
@@ -56,7 +58,8 @@
           <min>0.18</min>
           <max>0.35</max>
         </overdoseSeverityOffset>
-      </li>
+				<largeOverdoseChance>0.01</largeOverdoseChance>
+			</li>
     </comps>
   </ThingDef>
 
@@ -68,8 +71,7 @@
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1.5</severityPerDay>
       </li>
     </comps>
@@ -120,15 +122,23 @@
     <defName>WakeUpTolerance</defName>
     <label>wake-up tolerance</label>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.015</severityPerDay>
       </li>
-      <li>
-        <compClass>HediffComp_DrugEffectFactor</compClass>
+      <li Class="HediffCompProperties_DrugEffectFactor">
         <chemical>WakeUp</chemical>
       </li>
     </comps>
+		<hediffGivers>
+			<li Class="HediffGiver_RandomDrugEffect">
+				<hediff>ChemicalDamageBrain</hediff>
+				<minSeverity>0.50</minSeverity>
+				<baseMtbDays>120</baseMtbDays>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
   </HediffDef>
   
   <HediffDef ParentName="AddictionBase">
@@ -137,9 +147,8 @@
     <label>wake-up addiction</label>
     <causesNeed>Chemical_WakeUp</causesNeed>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
-        <severityPerDay>-0.04</severityPerDay>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.0333</severityPerDay>
       </li>
     </comps>
     <stages>
@@ -152,7 +161,7 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.30</offset>
+            <offset>-0.50</offset>
           </li>
           <li>
             <capacity>Manipulation</capacity>
@@ -164,6 +173,10 @@
           </li>
         </capMods>
         <mentalStateGivers>
+					<li>
+						<mentalState>BingingDrugExtreme</mentalState>
+						<mtbDays>40</mtbDays>
+					</li>
           <li>
             <mentalState>WanderPsychotic</mentalState>
             <mtbDays>10</mtbDays>
@@ -177,6 +190,7 @@
     <defName>WakeUpWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>WakeUpAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <visible>false</visible>
@@ -184,7 +198,7 @@
       <li>
         <label>wake-up withdrawal</label>
         <description>I feel all fuzzy and unfocused.</description>
-        <baseMoodEffect>-25</baseMoodEffect>
+        <baseMoodEffect>-35</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

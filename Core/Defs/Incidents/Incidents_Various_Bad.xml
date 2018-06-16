@@ -5,6 +5,7 @@
   <IncidentDef>
     <defName>Eclipse</defName>
     <label>eclipse</label>
+    <targetType>BaseMap</targetType>
     <WorkerClass>IncidentWorker_MakeMapCondition</WorkerClass>
     <mapCondition>Eclipse</mapCondition>
     <letterLabel>Eclipse</letterLabel>
@@ -21,6 +22,7 @@
   <IncidentDef>
     <defName>SolarFlare</defName>
     <label>solar flare</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_MakeMapCondition</workerClass>
     <mapCondition>SolarFlare</mapCondition>
     <letterLabel>Solar flare</letterLabel>
@@ -37,6 +39,7 @@
   <IncidentDef>
     <defName>PsychicDrone</defName>
     <label>psychic drone</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_PsychicDrone</workerClass>
     <mapCondition>PsychicDrone</mapCondition>
     <baseChance>1.0</baseChance>
@@ -50,6 +53,7 @@
   <IncidentDef>
     <defName>ToxicFallout</defName>
     <label>toxic fallout</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_MakeMapCondition</workerClass>
     <mapCondition>ToxicFallout</mapCondition>
     <letterLabel>Toxic fallout</letterLabel>
@@ -68,6 +72,7 @@
   <IncidentDef>
     <defName>VolcanicWinter</defName>
     <label>volcanic winter</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_MakeMapCondition</workerClass>
     <mapCondition>VolcanicWinter</mapCondition>
     <letterLabel>Volcanic winter</letterLabel>
@@ -86,6 +91,7 @@
   <IncidentDef>
     <defName>HeatWave</defName>
     <label>heat wave</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_HeatWave</workerClass>
     <mapCondition>HeatWave</mapCondition>
     <letterLabel>Heat wave</letterLabel>
@@ -102,6 +108,7 @@
   <IncidentDef>
     <defName>ColdSnap</defName>
     <label>cold snap</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_ColdSnap</workerClass>
     <mapCondition>ColdSnap</mapCondition>
     <letterLabel>Cold snap</letterLabel>
@@ -118,6 +125,7 @@
   <IncidentDef>
     <defName>Flashstorm</defName>
     <label>flashstorm</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_Flashstorm</workerClass>
     <letterLabel>Flashstorm</letterLabel>
     <letterText>Extreme amounts of lightning are hitting a small region. This can cause massive fires.</letterText>
@@ -134,6 +142,7 @@
   <IncidentDef>
     <defName>ShortCircuit</defName>
     <label>short circuit</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_ShortCircuit</workerClass>
     <baseChance>1.2</baseChance>
     <minRefireDays>8</minRefireDays>
@@ -142,6 +151,7 @@
   <IncidentDef>
     <defName>CropBlight</defName>
     <label>crop blight</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_CropBlight</workerClass>
     <baseChance>0.4</baseChance>
     <minRefireDays>35</minRefireDays>
@@ -150,6 +160,7 @@
   <IncidentDef>
     <defName>Alphabeavers</defName>
     <label>alphabeavers</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_Alphabeavers</workerClass>
     <baseChance>1.0</baseChance>
     <minRefireDays>8</minRefireDays>

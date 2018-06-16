@@ -8,7 +8,13 @@
     <workerClass>BiomeWorker_AridShrubland</workerClass>
     <animalDensity>3.6</animalDensity>
     <plantDensity>0.5</plantDensity>
-    <baseColor>(125,101,78)</baseColor>
+    <factionBaseSelectionWeight>0.95</factionBaseSelectionWeight>
+    <pathCost>
+      <points>
+        <li>(0, 0)</li>
+      </points>
+    </pathCost>
+    <texture>World/Biomes/AridShrubland</texture>
     <soundsAmbient>
       <li>AmbientNightInsects_Standard</li>
     </soundsAmbient>
@@ -92,7 +98,7 @@
       <Emu>0.3</Emu>
       <Ostrich>0.5</Ostrich>
       <Rat>1.0</Rat>
-      <Megatherium>0.03</Megatherium>
+      <Megasloth>0.03</Megasloth>
       <Cougar>0.10</Cougar>
       <WolfTimber>0.01</WolfTimber>
       <FoxFennec>0.03</FoxFennec>
@@ -106,11 +112,17 @@
   <BiomeDef>
     <defName>Desert</defName>
     <label>desert</label>
-    <description>A very dry, hot area which supports little life.</description>
+    <description>A very dry area which supports little life. Deserts can be hot, or quite cold.</description>
     <workerClass>BiomeWorker_Desert</workerClass>
     <animalDensity>0.8</animalDensity>
     <plantDensity>0.14</plantDensity>
-    <baseColor>(0.592, 0.568, 0.396)</baseColor>
+    <factionBaseSelectionWeight>0.65</factionBaseSelectionWeight>
+    <pathCost>
+      <points>
+        <li>(0, 0)</li>
+      </points>
+    </pathCost>
+    <texture>World/Biomes/Desert</texture>
     <diseaseMtbDays>80</diseaseMtbDays>
     <diseases>
       <li>
@@ -192,7 +204,13 @@
     <workerClass>BiomeWorker_ExtremeDesert</workerClass>
     <animalDensity>0.4</animalDensity>
     <plantDensity>0.006</plantDensity>
-    <baseColor>(0.707, 0.664, 0.371)</baseColor>
+    <factionBaseSelectionWeight>0.42</factionBaseSelectionWeight>
+		<pathCost>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</pathCost>
+    <texture>World/Biomes/ExtremeDesert</texture>
     <diseaseMtbDays>90</diseaseMtbDays>
     <diseases>
       <li>

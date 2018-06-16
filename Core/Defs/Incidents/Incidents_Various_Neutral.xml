@@ -4,6 +4,7 @@
   <IncidentDef>
     <defName>RefugeeChased</defName>
     <label>chased refugee</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_RefugeeChased</workerClass>
     <baseChance>2.5</baseChance>
     <populationEffect>Increase</populationEffect>
@@ -13,6 +14,7 @@
   <IncidentDef>
     <defName>ThrumboPasses</defName>
     <label>thrumbos pass</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_ThrumboPasses</workerClass>
     <baseChance>0.7</baseChance>
     <minRefireDays>13</minRefireDays>
@@ -21,6 +23,7 @@
   <IncidentDef>
     <defName>RansomDemand</defName>
     <label>ransom demand</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_RansomDemand</workerClass>
     <baseChance>2</baseChance>
     <populationEffect>Increase</populationEffect>

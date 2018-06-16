@@ -236,6 +236,7 @@
     <defName>Mote_FoodBitVegetarian</defName>
     <graphicData>
       <texPath>Things/Mote/FoodBitVegetarian</texPath>
+			<shaderType>Mote</shaderType>
     </graphicData>
   </ThingDef>
   
@@ -243,28 +244,32 @@
     <defName>Mote_FoodBitMeat</defName>
     <graphicData>
       <texPath>Things/Mote/FoodBitMeat</texPath>
-    </graphicData>
+			<shaderType>Mote</shaderType>
+		</graphicData>
   </ThingDef>
   
   <ThingDef ParentName="FoodBitBase">
     <defName>Mote_StoneBit</defName>
     <graphicData>
       <texPath>Things/Mote/StoneBit</texPath>
-    </graphicData>
+			<shaderType>Mote</shaderType>
+		</graphicData>
   </ThingDef>
   
   <ThingDef ParentName="FoodBitBase">
     <defName>Mote_CookBit</defName>
     <graphicData>
       <texPath>Things/Mote/CookBit</texPath>
-    </graphicData>
+			<shaderType>Mote</shaderType>
+		</graphicData>
   </ThingDef>
   
   <ThingDef ParentName="FoodBitBase">
     <defName>Mote_VomitBit</defName>
     <graphicData>
       <texPath>Things/Mote/VomitBit</texPath>
-    </graphicData>
+			<shaderType>Mote</shaderType>
+		</graphicData>
   </ThingDef>
 
   <!--=============== Puffs ==============-->

@@ -109,6 +109,7 @@
       </categories>
       <exceptedThingDefs>
         <li>Human_Meat</li>
+        <li>Megaspider_Meat</li>
       </exceptedThingDefs>
     </defaultIngredientFilter>
     <workSkill>Cooking</workSkill>

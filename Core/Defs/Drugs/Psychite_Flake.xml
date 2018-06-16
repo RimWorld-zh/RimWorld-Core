@@ -11,8 +11,9 @@
     </graphicData>
     <rotatable>false</rotatable>
     <statBases>
-      <WorkToMake>300</WorkToMake>
-      <MarketValue>15</MarketValue>
+      <WorkToMake>250</WorkToMake>
+      <MarketValue>14</MarketValue>
+      <Mass>0.002</Mass>
     </statBases>
     <techLevel>Industrial</techLevel>
     <ingestible>
@@ -23,7 +24,8 @@
       <drugCategory>Hard</drugCategory>
       <ingestSound>Ingest_Smoke</ingestSound>
       <ingestEffect>Smoke_Flake</ingestEffect>
-      <ingestHoldOffsetStanding>(0.23,0,0.065)</ingestHoldOffsetStanding>
+			<ingestEffectEat>EatVegetarian</ingestEffectEat>
+			<ingestHoldOffsetStanding>(0.23,0,0.065)</ingestHoldOffsetStanding>
       <ingestHoldUsesTable>false</ingestHoldUsesTable>
       <ingestCommandString>Smoke {0}</ingestCommandString>
       <ingestReportString>Smoking {0}.</ingestReportString>
@@ -41,7 +43,8 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>PsychiteTolerance</hediffDef>
           <severity>0.045</severity>
-        </li>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
@@ -51,7 +54,7 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <PsychoidLeaves>7</PsychoidLeaves>
+      <PsychoidLeaves>4</PsychoidLeaves>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
@@ -65,7 +68,8 @@
           <min>0.18</min>
           <max>0.35</max>
         </overdoseSeverityOffset>
-      </li>
+				<largeOverdoseChance>0.015</largeOverdoseChance>
+			</li>
     </comps>
   </ThingDef>
   
@@ -77,8 +81,7 @@
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-3.0</severityPerDay>
       </li>
     </comps>
@@ -94,6 +97,7 @@
     <defName>FlakeHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>FlakeHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <label>high on flake</label>

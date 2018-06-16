@@ -10,7 +10,9 @@
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
-    </statBases>
+			<DeteriorationRate>2.0</DeteriorationRate>
+			<Beauty>-6</Beauty>
+		</statBases>
     <altitudeLayer>Item</altitudeLayer>
     <tickerType>Never</tickerType>
     <alwaysHaulable>true</alwaysHaulable>
@@ -37,6 +39,7 @@
     </graphicData>
     <statBases>
       <MarketValue>800</MarketValue>
+      <Mass>0.2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
@@ -53,6 +56,7 @@
     </graphicData>
     <statBases>
       <MarketValue>800</MarketValue>
+      <Mass>0.08</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>

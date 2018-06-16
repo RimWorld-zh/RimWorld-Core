@@ -7,7 +7,7 @@
     <label>heart</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.5</bleedingRateMultiplier>
+    <bleedingRateMultiplier>5</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
     <activities>
       <li>BloodPumping</li>
@@ -21,7 +21,6 @@
     <label>left lung</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.3</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
     <activities>
       <li>Breathing_main</li>
@@ -34,7 +33,6 @@
     <label>right lung</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.3</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
     <activities>
       <li>Breathing_main</li>
@@ -47,7 +45,6 @@
     <label>left kidney</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.3</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
     <activities>
       <li>BloodFiltration_kidney</li>
@@ -60,7 +57,6 @@
     <label>right kidney</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.3</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
     <activities>
       <li>BloodFiltration_kidney</li>
@@ -73,7 +69,6 @@
     <label>liver</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.3</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
     <activities>
       <li>Metabolism</li>
@@ -88,7 +83,6 @@
     <label>stomach</label>
     <hitPoints>25</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.4</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
     <activities>
       <li>Eating_digestion</li>

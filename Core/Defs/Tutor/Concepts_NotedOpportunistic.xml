@@ -1,9 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	
+	<!--===================== Concepts taught through the learning readout, when opportunities arise ===================-->
 
-  <!--===================== Concepts taught through the learning readout, when opportunities arise ===================-->
+	<ConceptDef>
+		<defName>ReformCaravan</defName>
+		<label>Reforming caravans</label>
+		<priority>50</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpText>After an encounter, you can easily re-form a caravan by using the RE-FORM CARAVAN command in the World view.</helpText>
+		<highlightTags>
+			<li>MainTab-World-Closed</li>
+			<li>ReformCaravan</li>
+		</highlightTags>
+	</ConceptDef>
 
-  <ConceptDef>
+	<ConceptDef>
     <defName>Rescuing</defName>
     <label>Rescuing</label>
     <priority>50</priority>
@@ -67,7 +79,7 @@
     <helpText>Manhunting animals generally won't attack doors or inactive turrets.\n\nYou can escape them by getting inside or behind a wall. But they'll wait for you.</helpText>
   </ConceptDef>
 
-  <ConceptDef>
+	<ConceptDef>
     <defName>BillsTab</defName>
     <label>Bills tab</label>
     <needsOpportunity>true</needsOpportunity>

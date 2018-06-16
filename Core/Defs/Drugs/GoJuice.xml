@@ -11,8 +11,9 @@
     </graphicData>
     <rotatable>false</rotatable>
     <statBases>
-      <WorkToMake>600</WorkToMake>
-      <MarketValue>90</MarketValue>
+      <WorkToMake>400</WorkToMake>
+      <MarketValue>45</MarketValue>
+      <Mass>0.04</Mass>
     </statBases>
     <techLevel>Industrial</techLevel>
     <ingestible>
@@ -39,7 +40,8 @@
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>GoJuiceTolerance</hediffDef>
           <severity>0.044</severity>
-        </li>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
@@ -49,14 +51,14 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Neutroamine>5</Neutroamine>
+      <Neutroamine>2</Neutroamine>
       <Yayo>1</Yayo>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
         <chemical>GoJuice</chemical>
-        <addictiveness>0.065</addictiveness>
-        <minToleranceToAddict>0.05</minToleranceToAddict>
+        <addictiveness>0.08</addictiveness>
+        <minToleranceToAddict>0.03</minToleranceToAddict>
         <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
         <needLevelOffset>1</needLevelOffset>
         <isCombatEnhancingDrug>true</isCombatEnhancingDrug>
@@ -65,6 +67,7 @@
           <min>0.18</min>
           <max>0.35</max>
         </overdoseSeverityOffset>
+				<largeOverdoseChance>0.01</largeOverdoseChance>
       </li>
     </comps>
   </ThingDef>
@@ -77,8 +80,7 @@
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.40</severityPerDay>
       </li>
     </comps>
@@ -88,8 +90,12 @@
           <capMods>
             <li>
               <capacity>Consciousness</capacity>
-              <offset>0.35</offset>
+              <offset>0.10</offset>
             </li>
+						<li>
+							<capacity>Sight</capacity>
+							<offset>0.25</offset>
+						</li>
             <li>
               <capacity>Moving</capacity>
               <offset>0.30</offset>
@@ -103,6 +109,7 @@
     <defName>GoJuiceHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>GoJuiceHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <label>high on go-juice</label>
@@ -133,15 +140,23 @@
     <defName>GoJuiceTolerance</defName>
     <label>go-juice tolerance</label>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.015</severityPerDay>
       </li>
-      <li>
-        <compClass>HediffComp_DrugEffectFactor</compClass>
+      <li Class="HediffCompProperties_DrugEffectFactor">
         <chemical>GoJuice</chemical>
       </li>
     </comps>
+		<hediffGivers>
+			<li Class="HediffGiver_RandomDrugEffect">
+				<hediff>ChemicalDamageBrain</hediff>
+				<minSeverity>0.50</minSeverity>
+				<baseMtbDays>120</baseMtbDays>
+				<partsToAffect>
+					<li>Brain</li>
+				</partsToAffect>
+			</li>
+		</hediffGivers>
   </HediffDef>
 
   <HediffDef ParentName="AddictionBase">
@@ -150,8 +165,7 @@
     <label>go-juice addiction</label>
     <causesNeed>Chemical_GoJuice</causesNeed>
     <comps>
-      <li>
-        <compClass>HediffComp_SeverityPerDay</compClass>
+      <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.04</severityPerDay>
       </li>
     </comps>
@@ -166,11 +180,11 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.15</offset>
+            <offset>-0.20</offset>
           </li>
           <li>
             <capacity>Moving</capacity>
-            <offset>-0.40</offset>
+            <offset>-0.50</offset>
           </li>
           <li>
             <capacity>Sight</capacity>
@@ -186,6 +200,10 @@
           </li>
         </capMods>
         <mentalStateGivers>
+					<li>
+						<mentalState>BingingDrugExtreme</mentalState>
+						<mtbDays>40</mtbDays>
+					</li>
           <li>
             <mentalState>WanderPsychotic</mentalState>
             <mtbDays>7</mtbDays>
@@ -199,6 +217,7 @@
     <defName>GoJuiceWithdrawal</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>GoJuiceAddiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <visible>false</visible>
@@ -206,7 +225,7 @@
       <li>
         <label>go-juice withdrawal</label>
         <description>I'm all fuzzy and can't think straight. My limbs feel heavy, I'm tired and hungry, everything hurts. And why won't my eyes focus properly?</description>
-        <baseMoodEffect>-20</baseMoodEffect>
+        <baseMoodEffect>-35</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

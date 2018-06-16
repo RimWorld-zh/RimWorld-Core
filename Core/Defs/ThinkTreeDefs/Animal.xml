@@ -101,7 +101,9 @@
                 <li Class="ThinkNode_ConditionalShouldFollowMaster" >
                   <subNodes>
                     <li Class="JobGiver_AIFollowMaster"/>
-                    <li Class="JobGiver_AIDefendMaster" />
+                    <li Class="JobGiver_AIDefendMaster">
+                      <attackMeleeThreatEvenIfNotHostile>true</attackMeleeThreatEvenIfNotHostile>
+                    </li>
                     <li Class="JobGiver_WanderNearMaster" />
                   </subNodes>
                 </li>
@@ -126,6 +128,14 @@
           </subNodes>
         </li>
         
+				<!-- Eat random things out of curiosity -->
+				<li Class="ThinkNode_ChancePerHour_Constant">
+					<mtbHours>600</mtbHours>
+					<subNodes>
+						<li Class="JobGiver_EatRandom"/>
+					</subNodes>
+				</li>
+				
         <li Class="ThinkNode_PrioritySorter">
           <subNodes>
             <li Class="JobGiver_GetFood"/>
@@ -165,6 +175,30 @@
               </subNodes>
             </li>
 
+            <!-- If in non-PlayerHomeMap -->
+            <li Class="ThinkNode_ConditionalInNonPlayerHomeMap">
+              <subNodes>
+                <!-- There is a caravan nearby -->
+                <li Class="ThinkNode_ConditionalAnyAutoJoinableCaravan">
+                  <subNodes>
+                    <!-- Exit map and join the caravan -->
+                    <li Class="JobGiver_ExitMapBest">
+                      <failIfCantJoinOrCreateCaravan>true</failIfCantJoinOrCreateCaravan> <!-- in case the caravan moves before we manage to exit the map -->
+                    </li>
+                  </subNodes>
+                </li>
+                <!-- Any colonist is now on his way to exit the map -->
+                <li Class="ThinkNode_ConditionalAnyColonistTryingToExitMap">
+                  <subNodes>
+                    <!-- Wander near the map edge -->
+                    <li Class="JobGiver_WanderMapEdge">
+                      <locomotionUrgency>Jog</locomotionUrgency>
+                      <maxDanger>Deadly</maxDanger>
+                    </li>
+                  </subNodes>
+                </li>
+              </subNodes>
+            </li>
           </subNodes>
         </li>
 

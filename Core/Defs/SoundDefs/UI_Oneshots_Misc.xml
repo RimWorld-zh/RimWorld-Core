@@ -575,6 +575,26 @@
   </SoundDef>
 
   <SoundDef>
+    <defName>MapSelected</defName>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>UI/SelectMap</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>15</min>        
+          <max>15</max>
+        </volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
     <defName>ColonistSelected</defName>  
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  

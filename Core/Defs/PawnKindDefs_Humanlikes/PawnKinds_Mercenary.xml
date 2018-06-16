@@ -259,6 +259,7 @@
   <PawnKindDef ParentName="MercenaryBase">
     <defName>MercenaryHeavy</defName>
     <label>heavy mercenary</label>
+    <labelPlural>heavy mercenaries</labelPlural>
     <combatPower>185</combatPower>
     <gearHealthRange>
       <min>0.5</min>
@@ -316,6 +317,7 @@
       <max>2000</max>
     </weaponMoney>
     <weaponTags>
+			<li>EliteGun</li>
       <li>AdvancedGun</li>
     </weaponTags>
     <techHediffsMoney>
@@ -355,12 +357,14 @@
   <PawnKindDef ParentName="EliteBase">
     <defName>PirateBoss</defName>
     <label>boss</label>
+    <labelPlural>bosses</labelPlural>
     <factionLeader>true</factionLeader>
   </PawnKindDef>
 
   <PawnKindDef ParentName="EliteBase">
     <defName>MercenaryElite</defName>
     <label>elite mercenary</label>
+    <labelPlural>elite mercenaries</labelPlural>
   </PawnKindDef>
 
 </PawnKindDefs>

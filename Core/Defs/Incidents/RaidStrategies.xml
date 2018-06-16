@@ -10,7 +10,6 @@
     <arrivalTextFriendly>They are moving in to help you immediately.</arrivalTextFriendly>
     <pointsFactor>0.9</pointsFactor>
     <selectionChance>0.75</selectionChance>
-    <pawnsCanBringFood>false</pawnsCanBringFood>
     <arriveModes>
       <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>
@@ -27,7 +26,6 @@
     <arrivalTextFriendly>They are moving in to help you immediately.</arrivalTextFriendly>
     <pointsFactor>0.85</pointsFactor>
     <selectionChance>0.25</selectionChance>
-    <pawnsCanBringFood>false</pawnsCanBringFood>
     <arriveModes>
       <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>
@@ -44,7 +42,6 @@
     <arrivalTextFriendly>They will prepare for a while before moving in to help you.</arrivalTextFriendly>
     <pointsFactor>1.0</pointsFactor>
     <selectionChance>1.0</selectionChance>
-    <pawnsCanBringFood>false</pawnsCanBringFood>
     <arriveModes>
       <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>
@@ -60,7 +57,6 @@
     <selectionChance>2.0</selectionChance>
     <minPawns>2</minPawns>
     <minDaysPassed>30</minDaysPassed>
-    <pawnsCanBringFood>false</pawnsCanBringFood>
     <arriveModes>
       <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>
@@ -71,7 +67,7 @@
     <defName>Siege</defName>
     <workerClass>RaidStrategyWorker_Siege</workerClass>
     <letterLabelEnemy>Siege</letterLabelEnemy>
-    <arrivalTextEnemy>It looks like they want to besiege the colony and pound you with artillery from a distance. You can try to wait them out - or go get them.</arrivalTextEnemy>
+    <arrivalTextEnemy>It looks like they want to besiege the colony and pound you with mortars from a distance. You can try to wait them out - or go get them.</arrivalTextEnemy>
     <letterLabelFriendly>Friendlies</letterLabelFriendly>
     <arrivalTextFriendly>It looks like they want to use siege tactics to help you.</arrivalTextFriendly>
     <pointsFactor>0.6</pointsFactor>

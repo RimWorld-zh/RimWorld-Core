@@ -4,23 +4,11 @@
   <IncidentDef>
     <defName>AnimalInsanitySingle</defName>
     <label>single animal insanity</label>
+    <targetType>BaseMap</targetType>
     <workerClass>IncidentWorker_AnimalInsanitySingle</workerClass>
     <baseChance>5</baseChance>
     <minRefireDays>2</minRefireDays>
     <category>ThreatSmall</category>
   </IncidentDef>
 
-  <!--
-  <IncidentDef>
-    <defName>AgentRevealed</defName>
-    <label>agent revealed</label>
-    <workerClass>IncidentWorker_AgentRevealed</workerClass>
-    <baseChance>1</baseChance>
-    <minRefireDays>20</minRefireDays>
-    <category>ThreatSmall</category>
-    <populationEffect>Decrease</populationEffect>
-    <pointsScaleable>true</pointsScaleable>
-  </IncidentDef>
-  -->
-  
 </Defs>

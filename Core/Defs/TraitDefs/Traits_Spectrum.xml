@@ -244,49 +244,6 @@
   </TraitDef>
 
   <TraitDef>
-    <defName>TemperaturePreference</defName>
-    <commonality>1.2</commonality>
-    <degreeDatas>
-      <li>
-        <label>cold lover</label>
-        <description>NAME's body produces tremendous amounts of heat. HECAP is comfortable in temperatures which would make anyone else shiver, but HE doesn't like heat.</description>
-        <degree>2</degree>
-        <statOffsets>
-          <ComfyTemperatureMin>-22</ComfyTemperatureMin>
-          <ComfyTemperatureMax>-4</ComfyTemperatureMax>
-        </statOffsets>
-      </li>
-      <li>
-        <label>cold tolerant</label>
-        <description>NAME handles cool temperatures better than most.</description>
-        <degree>1</degree>
-        <statOffsets>
-          <ComfyTemperatureMin>-14</ComfyTemperatureMin>
-          <ComfyTemperatureMax>-2</ComfyTemperatureMax>
-        </statOffsets>
-      </li>
-      <li>
-        <label>heat tolerant</label>
-        <description>NAME handles warm temperatures better than most.</description>
-        <degree>-1</degree>
-        <statOffsets>
-          <ComfyTemperatureMax>14</ComfyTemperatureMax>
-          <ComfyTemperatureMin>2</ComfyTemperatureMin>
-        </statOffsets>
-      </li>
-      <li>
-        <label>heat lover</label>
-        <description>NAME loves hot weather - but HE doesn't handle cold very well.</description>
-        <degree>-2</degree>
-        <statOffsets>
-          <ComfyTemperatureMax>22</ComfyTemperatureMax>
-          <ComfyTemperatureMin>4</ComfyTemperatureMin>
-        </statOffsets>
-      </li>
-    </degreeDatas>
-  </TraitDef>
-
-  <TraitDef>
     <defName>ShootingAccuracy</defName>
     <commonality>0.9</commonality>
     <degreeDatas>

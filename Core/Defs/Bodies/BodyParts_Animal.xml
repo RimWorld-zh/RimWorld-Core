@@ -21,6 +21,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
     <activities>
       <li>Eating_source</li>
       <li>Talking_source</li>
@@ -74,7 +75,7 @@
     <label>heart</label>
     <hitPoints>20</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.5</bleedingRateMultiplier>
+    <bleedingRateMultiplier>5</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
     <activities>
       <li>BloodPumping</li>
@@ -128,6 +129,7 @@
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0.3</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -138,6 +140,7 @@
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0.3</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -160,6 +163,7 @@
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -170,6 +174,7 @@
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -180,6 +185,7 @@
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>false</skinCovered>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -190,6 +196,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -200,6 +207,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -219,6 +227,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
   
   <BodyPartDef>
@@ -229,6 +238,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -248,6 +258,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -258,6 +269,7 @@
     <skinCovered>false</skinCovered>
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -268,6 +280,7 @@
     <skinCovered>true</skinCovered>
     <isSolid>false</isSolid>
     <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
   </BodyPartDef>
 
 

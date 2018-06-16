@@ -22,6 +22,7 @@
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
     <skinCovered>true</skinCovered>
     <dontSuggestAmputation>true</dontSuggestAmputation>
+    <bleedingRateMultiplier>2</bleedingRateMultiplier>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -145,7 +146,7 @@
     <label>neck</label>
     <hitPoints>30</hitPoints>
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.3</bleedingRateMultiplier>
+    <bleedingRateMultiplier>4</bleedingRateMultiplier>
     <skinCovered>true</skinCovered>
     <activities>
       <li>Breathing_way</li>
@@ -178,7 +179,6 @@
     </activities>
   </BodyPartDef>
 
- 
   <BodyPartDef>
     <defName>LeftLeg</defName>
     <label>left leg</label>

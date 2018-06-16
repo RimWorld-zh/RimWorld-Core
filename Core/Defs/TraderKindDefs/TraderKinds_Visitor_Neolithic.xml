@@ -14,7 +14,8 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Component</thingDef>
-        <countRange>
+				<price>Expensive</price>
+				<countRange>
           <min>-8</min>
           <max>2</max>
         </countRange>
@@ -49,8 +50,9 @@
         </countRange>
       </li>
       <li Class="StockGenerator_Category">
-        <maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
-        <categoryDef>Drugs</categoryDef>
+				<categoryDef>Drugs</categoryDef>
+				<maxTechLevelGenerate>Neolithic</maxTechLevelGenerate>
+				<price>Expensive</price>
         <thingDefCountRange>
           <min>-1</min>
           <max>2</max>

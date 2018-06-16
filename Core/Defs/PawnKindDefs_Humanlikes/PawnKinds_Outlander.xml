@@ -71,6 +71,7 @@
   <PawnKindDef ParentName="Villager">
     <defName>TownCouncilman</defName>
     <label>town councilman</label>
+    <labelPlural>town councilmen</labelPlural>
     <factionLeader>true</factionLeader>
     <minGenerationAge>40</minGenerationAge>
     <maxGenerationAge>100</maxGenerationAge>

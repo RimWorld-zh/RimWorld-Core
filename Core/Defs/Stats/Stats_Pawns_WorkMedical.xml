@@ -23,7 +23,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.7</weight>
-      </li>
+				<max>1</max>
+			</li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.9</weight>
@@ -74,7 +75,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.4</weight>
-      </li>
+				<max>1</max>
+			</li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.4</weight>
@@ -83,9 +85,9 @@
   </StatDef>
 
   <StatDef>
-    <defName>BaseHealingQuality</defName>
-    <label>base healing quality</label>
-    <description>Base quality of treatment given to patients when acting as a doctor.</description>
+    <defName>HealingQuality</defName>
+    <label>healing quality</label>
+    <description>Quality of tending given to patients when acting as a doctor.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <toStringStyle>PercentZero</toStringStyle>
@@ -95,25 +97,25 @@
         <factorsPerLevel>
           <li>0.10</li>
           <li>0.30</li>
+          <li>0.40</li>
           <li>0.50</li>
           <li>0.60</li>
           <li>0.70</li>
           <li>0.80</li>
           <li>0.90</li>
-          <li>0.95</li>
           <li>1.00</li>
-          <li>1.05</li>
           <li>1.10</li>
-          <li>1.15</li>
           <li>1.20</li>
-          <li>1.25</li>
           <li>1.30</li>
-          <li>1.35</li>
           <li>1.40</li>
-          <li>1.45</li>
           <li>1.50</li>
-          <li>1.55</li>
           <li>1.60</li>
+          <li>1.70</li>
+          <li>1.80</li>
+          <li>1.90</li>
+          <li>2.00</li>
+          <li>2.10</li>
+          <li>2.20</li>
         </factorsPerLevel>
       </li>
     </skillNeedFactors>
@@ -121,7 +123,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.7</weight>
-      </li>
+				<max>1.3</max>
+			</li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.9</weight>
@@ -132,7 +135,7 @@
   <StatDef>
     <defName>HealingSpeed</defName>
     <label>healing speed</label>
-    <description>Speed at which the character heals wounds as a doctor.</description>
+    <description>Speed at which the character tends to wounds and illnesses as a doctor.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <toStringStyle>PercentZero</toStringStyle>
@@ -151,7 +154,8 @@
       <li>
         <capacity>Sight</capacity>
         <weight>0.8</weight>
-      </li>
+				<max>1.3</max>
+			</li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.9</weight>

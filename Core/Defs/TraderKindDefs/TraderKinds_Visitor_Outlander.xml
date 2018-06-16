@@ -14,7 +14,8 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Component</thingDef>
-        <countRange>
+				<price>Expensive</price>
+				<countRange>
           <min>-2</min>
           <max>5</max>
         </countRange>
@@ -45,7 +46,8 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
-        <thingDefCountRange>
+				<price>Expensive</price>
+				<thingDefCountRange>
           <min>-1</min>
           <max>2</max>
         </thingDefCountRange>

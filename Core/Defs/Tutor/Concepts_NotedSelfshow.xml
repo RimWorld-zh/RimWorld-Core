@@ -127,7 +127,19 @@
     <helpText>The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree.</helpText>
   </ConceptDef>
 
-  <ConceptDef>
+	<ConceptDef>
+		<defName>FormCaravan</defName>
+		<label>Forming caravans</label>
+		<priority>11</priority>
+		<helpText>You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button.</helpText>
+		<highlightTags>
+			<li>MainTab-World-Closed</li>
+			<li>FormCaravan</li>
+			<li>ReformCaravan</li>
+		</highlightTags>
+	</ConceptDef>
+
+	<ConceptDef>
     <defName>AnimalTaming</defName>
     <label>Animal taming</label>
     <priority>10.1</priority>

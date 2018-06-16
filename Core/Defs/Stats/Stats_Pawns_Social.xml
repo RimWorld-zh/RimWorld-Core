@@ -54,22 +54,22 @@
   <StatDef>
     <defName>TrainAnimalChance</defName>
     <label>train animal chance</label>
-    <description>Base chance this person will make progress training an animal on a given attempt. May change based on the animal.</description>
+    <description>Base chance this person will make progress training an animal on a given attempt. The actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on.</description>
     <category>PawnSocial</category>
-    <defaultBaseValue>1</defaultBaseValue>
+    <defaultBaseValue>1.0</defaultBaseValue>
     <minValue>0.01</minValue>
     <toStringStyle>PercentTwo</toStringStyle>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Animals</skill>
-        <baseFactor>0.05</baseFactor>
-        <bonusFactor>0.025</bonusFactor>
+        <baseFactor>0.04</baseFactor>
+        <bonusFactor>0.04</bonusFactor>
       </li>
     </skillNeedFactors>
     <capacityFactors>
       <li>
         <capacity>Talking</capacity>
-        <weight>0.9</weight>
+        <weight>0.7</weight>
       </li>
     </capacityFactors>
   </StatDef>

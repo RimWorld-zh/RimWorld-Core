@@ -10,6 +10,7 @@
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-6</Beauty>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>400</stackLimit>
@@ -101,6 +102,7 @@
   <NeedDef Name="DrugAddictionNeedBase" Abstract="True">
     <onlyIfCausedByHediff>true</onlyIfCausedByHediff>
     <tutorHighlightTag>NeedAddiction</tutorHighlightTag>
+    <showForCaravanMembers>true</showForCaravanMembers>
   </NeedDef>
   
 </DrugBases>

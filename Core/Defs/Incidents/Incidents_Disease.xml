@@ -4,6 +4,7 @@
   <IncidentDef Name="DiseaseIncident" Abstract="True">
     <workerClass>IncidentWorker_Disease</workerClass>
     <category>Disease</category>
+    <targetType>BaseMap</targetType>
   </IncidentDef>
   
   <IncidentDef ParentName="DiseaseIncident">

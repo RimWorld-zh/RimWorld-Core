@@ -7,7 +7,8 @@
     <lethalSeverity>1</lethalSeverity>
     <stages>
       <li>
-        <label>trivial</label>
+        <label>hidden</label>
+        <everVisible>false</everVisible>
       </li>
       <li>
         <minSeverity>0.2</minSeverity>
@@ -57,14 +58,14 @@
   <HediffDef Name="DiseaseBase" Abstract="True">
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <initialSeverity>0.001</initialSeverity>
   </HediffDef>
 
   <HediffDef ParentName="DiseaseBase">
     <defName>Anesthetic</defName>
     <label>anesthetic</label>
     <comps>
-      <li>
-        <compClass>HediffComp_Disappears</compClass>
+      <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>
           <min>15000</min>
           <max>15000</max>
@@ -84,35 +85,10 @@
   </HediffDef>
 
   <HediffDef ParentName="DiseaseBase">
-    <defName>Concussion</defName>
-    <label>concussion</label>
-    <comps>
-      <li>
-        <compClass>HediffComp_Disappears</compClass>
-        <disappearsAfterTicks>
-          <min>25000</min>
-          <max>25000</max>
-        </disappearsAfterTicks>
-      </li>
-    </comps>
-    <stages>
-      <li>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <setMax>0.1</setMax>
-          </li>
-        </capMods>
-      </li>
-    </stages>
-  </HediffDef>
-
-  <HediffDef ParentName="DiseaseBase">
     <defName>PsychicShock</defName>
     <label>psychic shock</label>
     <comps>
-      <li>
-        <compClass>HediffComp_Disappears</compClass>
+      <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>
           <min>7500</min>
           <max>7500</max>
@@ -137,8 +113,7 @@
     <makesSickThought>true</makesSickThought>
     <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
-      <li>
-        <compClass>HediffComp_Disappears</compClass>
+      <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>
           <min>10000</min>
           <max>10000</max>
@@ -151,11 +126,7 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <setMax>0.7</setMax>
-          </li>
-          <li>
-            <capacity>Manipulation</capacity>
-            <setMax>0.6</setMax>
+            <postFactor>0.5</postFactor>
           </li>
         </capMods>
       </li>
@@ -167,8 +138,7 @@
     <label>food poisoning</label>
     <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
-      <li>
-        <compClass>HediffComp_Disappears</compClass>
+      <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>
           <min>30000</min>
           <max>30000</max>
@@ -181,7 +151,7 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <setMax>0.5</setMax>
+						<postFactor>0.5</postFactor>
           </li>
         </capMods>
       </li>
@@ -197,8 +167,7 @@
     <makesSickThought>true</makesSickThought>
     <scenarioCanAdd>true</scenarioCanAdd>
     <comps>
-      <li>
-        <compClass>HediffComp_Immunizable</compClass>
+      <li Class="HediffCompProperties_Immunizable">
         <severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
       </li>
     </comps>
@@ -309,10 +278,10 @@
     <defName>Pregnant</defName>
     <hediffClass>Hediff_Pregnant</hediffClass>
     <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <initialSeverity>0.001</initialSeverity>
     <label>pregnant</label>
     <comps>
-      <li>
-        <compClass>HediffComp_Discoverable</compClass>
+      <li Class="HediffCompProperties_Discoverable">
         <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
         <discoverLetterLabel>{0} pregnant</discoverLetterLabel>
         <discoverLetterText>{0} is pregnant!</discoverLetterText>
@@ -364,7 +333,7 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <setMax>0.5</setMax>
+						<postFactor>0.5</postFactor>
           </li>
         </capMods>
       </li>
@@ -383,12 +352,6 @@
       <li>
         <label>fatal</label>
         <minSeverity>1</minSeverity>
-        <capMods>
-          <li>
-            <capacity>Consciousness</capacity>
-            <setMax>0.05</setMax>
-          </li>
-        </capMods>
       </li>
     </stages>
   </HediffDef>
@@ -398,14 +361,12 @@
     <label>drug overdose</label>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-    <lethalSeverity>1.0</lethalSeverity>
+    <lethalSeverity>1</lethalSeverity>
     <comps>
-      <li>
-        <compClass>HediffComp_Immunizable</compClass>
+      <li Class="HediffCompProperties_Immunizable">
         <severityPerDayNotImmune>-1</severityPerDayNotImmune>
       </li>
-      <li>
-        <compClass>HediffComp_Discoverable</compClass>
+      <li Class="HediffCompProperties_Discoverable">
         <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
         <discoverLetterLabel>Overdose: {0}</discoverLetterLabel>
         <discoverLetterText>{0} is overdosing!</discoverLetterText>
@@ -418,7 +379,7 @@
       </li>
       <li>
         <label>minor</label>
-        <minSeverity>0.60</minSeverity>
+        <minSeverity>0.50</minSeverity>
         <vomitMtbDays>0.30</vomitMtbDays>
         <capMods>
           <li>
@@ -430,13 +391,22 @@
       <li>
         <label>major</label>
         <minSeverity>0.75</minSeverity>
-        <deathMtbDays>2.3</deathMtbDays>
+        <deathMtbDays>3.0</deathMtbDays>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
             <setMax>0.1</setMax>
           </li>
         </capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>ChemicalDamageBrain</hediff>
+						<mtbDays>2.5</mtbDays>
+						<partsToAffect>
+							<li>Brain</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
       </li>
     </stages>
   </HediffDef>
