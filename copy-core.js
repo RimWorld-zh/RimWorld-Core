@@ -10,20 +10,23 @@ const path = require('path');
 const rm = require('rimraf');
 const copy = require('copy-concurrently');
 
-const GAME_PATH = '/mnt/e/bak/RimWorld/RimWorld 0.18.1722 rev1196';
+const GAME_PATH = '/mnt/d/Games/SteamLibrary/steamapps/common/RimWorld';
 
 async function copyCore() {
-  const currentVersion = fs.readFileSync('./Version.txt', 'utf-8').trim();
-  const latestVersion = fs.readFileSync(`${GAME_PATH}/Version.txt`, 'utf-8').trim();
+  const previousVersion = fs.readFileSync('./Version.txt', 'utf-8').trim();
+  const nextVersion = fs.readFileSync(`${GAME_PATH}/Version.txt`, 'utf-8').trim();
 
-  log(chalk.cyan('Current Version: '), chalk.cyanBright(currentVersion));
-  log(chalk.cyan('Latest  Version: '), chalk.cyanBright(latestVersion));
-
-  if (currentVersion === latestVersion) {
+  if (previousVersion === nextVersion) {
     log(chalk.greenBright('No change, exit.'));
 
     return;
   }
+
+  log(
+    chalk.cyan('Version changed: '),
+    chalk.cyanBright(previousVersion),
+    chalk.cyanBright(nextVersion),
+  );
 
   const coreFrom = path.join(GAME_PATH, 'Mods', 'Core');
   const coreTo = path.join(__dirname, 'Core');
@@ -47,7 +50,7 @@ async function copyCore() {
     ),
   ]);
 
-  fs.writeFileSync('./Version.txt', latestVersion);
+  fs.writeFileSync('./Version.txt', nextVersion);
 
   log(chalk.greenBright('Complete.'));
 }
