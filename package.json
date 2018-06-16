@@ -10,7 +10,8 @@
   "author": "Ludeon Studio",
   "private": true,
   "scripts": {
-    "start": "node auto-task.js"
+    "copy": "node copy-core.js",
+    "dist": "git add . && git commit -F Version.txt && git push origin master"
   },
   "devDependencies": {
     "@types/globby": "^6.1.0",

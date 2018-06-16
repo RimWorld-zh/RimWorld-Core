@@ -2,18 +2,17 @@
  * Auto check the version of RimWorld and copy the Core files.
  */
 
+const chalk = require('chalk');
+const log = console.log;
+
 const fs = require('fs');
 const path = require('path');
 const rm = require('rimraf');
 const copy = require('copy-concurrently');
-const globby = require('globby');
-
-const chalk = require('chalk');
-const log = console.log;
 
 const GAME_PATH = '/mnt/d/Games/SteamLibrary/steamapps/common/RimWorld';
 
-async function task() {
+async function copyCore() {
   const currentVersion = fs.readFileSync('./Version.txt', 'utf-8').trim();
   const latestVersion = fs.readFileSync(`${GAME_PATH}/Version.txt`, 'utf-8').trim();
 
@@ -29,6 +28,12 @@ async function task() {
   const coreFrom = path.join(GAME_PATH, 'Mods', 'Core');
   const coreTo = path.join(__dirname, 'Core');
 
+  log(
+    `Copying files from "${chalk.greenBright(coreFrom)}" to "${chalk.greenBright(
+      coreTo,
+    )}"....`,
+  );
+
   if (fs.existsSync(coreTo)) {
     rm.sync(coreTo);
   }
@@ -41,6 +46,10 @@ async function task() {
       path.join(coreTo, 'Languages', 'English'),
     ),
   ]);
+
+  fs.writeFileSync('./Version.txt', latestVersion);
+
+  log(chalk.greenBright('Complete.'));
 }
 
-task();
+copyCore();
