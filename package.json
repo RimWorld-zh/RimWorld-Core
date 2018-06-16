@@ -11,7 +11,8 @@
   "private": true,
   "scripts": {
     "copy": "node copy-core.js",
-    "dist": "git add . && git commit -F Version.txt && git push origin master"
+    "dist": "git add . && git commit -F Version.txt && git push origin master",
+    "start": "yarn copy && yarn dist"
   },
   "devDependencies": {
     "@types/globby": "^6.1.0",
