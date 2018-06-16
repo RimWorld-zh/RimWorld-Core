@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResearchProjectDefs>
+
+  <!--================================ Tier 2: Basic electricity ====================================-->
+
+  <ResearchProjectDef>
+    <defName>Batteries</defName>
+    <label>batteries</label>
+    <description>Build batteries for storing electricity.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>NutrientPaste</defName>
+    <label>nutrient paste</label>
+    <description>Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SolarPanels</defName>
+    <label>solar panels</label>
+    <description>Build solar panels for electrical generation.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>AirConditioning</defName>
+    <label>air conditioning</label>
+    <description>Build air conditions to cool rooms in the heat, or to keep freezers.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Autodoors</defName>
+    <label>autodoors</label>
+    <description>Build autodoors which open to permit movement without slowing anyone down.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Hydroponics</defName>
+    <label>hydroponics</label>
+    <description>Allows you to build hydroponics tables to rapidly grow crops indoors regardless of the terrain or weather outside.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ElectricSmelting</defName>
+    <label>electric smelting</label>
+    <description>Build electic smithy and smelters.\n\nThe electric smithy allows smithing items without fuel. The electric smelters uses heat and strong electromagnets to extract useful metal from slag chunks and other items.</description>
+    <baseCost>1700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ElectricCremation</defName>
+    <label>electric cremation</label>
+    <description>Build crematoriums which can vaporize unwanted corpses.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ElectricSmelting</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ColoredLights</defName>
+    <label>colored lights</label>
+    <description>Allows colonists to construct colored lights for decorative purposes.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Machining</defName>
+    <label>machining</label>
+    <description>Build machining tables to craft guns and machinery or disassemble dead mechanoids.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mortars</defName>
+    <label>mortars</label>
+    <description>Learn to build mortars which can lob shells long distances over walls.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>IEDBomb</defName>
+    <label>Explosive IEDs</label>
+    <description>Allows colonists to build improvised explosive device-based traps from artillery shells.</description>
+    <baseCost>1600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>IEDIncendiary</defName>
+    <label>Incendiary IEDs</label>
+    <description>Allows colonists to build incendiary explosive traps from artillery shells.</description>
+    <baseCost>1600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MicroelectronicsBasics</defName>
+    <label>microelectronics basics</label>
+    <description>The basics of working with delicate, complex electronics. This unlocks the high-tech research bench, comms console, and other research projects like tube televisions, and cryptosleep caskets.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <!--=============================== Tier 2.5 Microelectronics ===================================-->
+
+  <ResearchProjectDef>
+    <defName>TubeTelevision</defName>
+    <label>tube television</label>
+    <description>Allows the production of tube televisions.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>GunTurrets</defName>
+    <label>gun turrets</label>
+    <description>Allows the production of automated gun turrets.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</ResearchProjectDefs>
