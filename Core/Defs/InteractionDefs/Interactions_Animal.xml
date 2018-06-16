@@ -9,14 +9,62 @@
     <initiatorXpGainAmount>90</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
-        <li>logentry->Communicated with [other_nameShortIndef], attempting to build rapport.</li>
+        <li>r_logentry(p=5)->[INITIATOR_nameIndef] [tamed] [RECIPIENT_nameIndef].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] sat near [RECIPIENT_nameIndef] and talked to [INITIATOR_objective]self about [talktopic].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] approached [RECIPIENT_nameIndef] while whispering to [INITIATOR_objective]self about [talktopic].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] came near [RECIPIENT_nameIndef] while talking to [INITIATOR_objective]self about [talktopic].</li>
+
+        <li>talktopic->[TalkTopic_heavy]</li>
+        <li>talktopic->[TalkTopic_light]</li>
+
+        <li>tamed->made calming noises towards</li>
+        <li>tamed->offered slow, friendly gestures to</li>
+        <li>tamed->made shushing noises at</li>
+        <li>tamed->made happy clicking noises at</li>
+        <li>tamed->gestured gently and approached</li>
+        <li>tamed->slowly approached</li>
+        <li>tamed->gently touched</li>
+        <li>tamed->calmed and encouraged</li>
+        <li>tamed->matched breathing with</li>
+        <li>tamed->took a low stance while approaching</li>
+        <li>tamed->showed no fear or anger to</li>
+        <li>tamed->feigned inattention towards</li>
+        <li>tamed->gently hummed a song at</li>
+        <li>tamed->sang an old lullaby at</li>
+        <li>tamed->firmly yet softly touched</li>
+        <li>tamed->showed a relaxed attitude towards</li>
+        <li>tamed->sat patiently near</li>
+        <li>tamed->whispered a story about [talktopic] to</li>
       </rulesStrings>
     </logRulesInitiator>
-    <logRulesRecipient>
+  </InteractionDef>
+
+ <InteractionDef>
+    <defName>TameAttempt</defName>
+    <label>tame attempt</label>
+    <symbol>Things/Mote/SpeechSymbols/PrisonerRecruit</symbol>
+    <workerClass>InteractionWorker_RecruitAttempt</workerClass>
+    <initiatorXpGainSkill>Animals</initiatorXpGainSkill>
+    <initiatorXpGainAmount>90</initiatorXpGainAmount>
+    <logRulesInitiator>
       <rulesStrings>
-        <li>logentry->Responded to [other_nameShortIndef]'s friendly communication.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] tried to tame [RECIPIENT_nameIndef].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] tried to bring [RECIPIENT_nameIndef] under control.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] attempted to collar [RECIPIENT_nameIndef].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] demanded obedience from [RECIPIENT_nameIndef].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] called [RECIPIENT_nameIndef] to come to [INITIATOR_objective].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] tried to make [RECIPIENT_nameIndef] sit still.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] seized [RECIPIENT_nameIndef] sharply and barked a command.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] attempted to hold [RECIPIENT_nameIndef] still.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] shouted a command at [RECIPIENT_nameIndef].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] slapped [RECIPIENT_nameIndef] in a show of dominance.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] directed [RECIPIENT_nameIndef] back towards the community.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] called [RECIPIENT_nameIndef] to come back to the community.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] touched a vulnerable body part of [RECIPIENT_nameIndef], demanding obedience.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] pointed at the ground, demanding that [RECIPIENT_nameIndef] come.</li>
+        <li>r_logentry->[INITIATOR_nameIndef] gave [RECIPIENT_nameIndef] a first command.</li>
       </rulesStrings>
-    </logRulesRecipient>
+    </logRulesInitiator>
   </InteractionDef>
 
   <InteractionDef>
@@ -27,34 +75,23 @@
     <initiatorXpGainAmount>90</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
-        <li>logentry->Trained [other_nameShortIndef].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] [trained] [RECIPIENT_nameIndef].</li>
+
+        <li>trained(p=2)->[tried] to train</li>
+        <li>trained->[tried] to show a new trick to</li>
+        <li>trained->[tried] to discipline</li>
+        <li>trained->[tried] to instruct</li>
+        <li>trained->[tried] to encourage a new skill in</li>
+        <li>trained->demonstrated a skill to</li>
+        <li>trained->encouraged a new response from</li>
+
+        <li>tried->tried</li>
+        <li>tried->attempted</li>
       </rulesStrings>
     </logRulesInitiator>
-    <logRulesRecipient>
-      <rulesStrings>
-        <li>logentry->Was trained by [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesRecipient>
   </InteractionDef>
 
-  <InteractionDef>
-    <defName>TameAttempt</defName>
-    <label>tame attempt</label>
-    <symbol>Things/Mote/SpeechSymbols/PrisonerRecruit</symbol>
-    <workerClass>InteractionWorker_RecruitAttempt</workerClass>
-    <initiatorXpGainSkill>Animals</initiatorXpGainSkill>
-    <initiatorXpGainAmount>90</initiatorXpGainAmount>
-    <logRulesInitiator>
-      <rulesStrings>
-        <li>logentry->Attempted to tame [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesInitiator>
-    <logRulesRecipient>
-      <rulesStrings>
-        <li>logentry->Watches [other_nameShortIndef] attempt to tame me.</li>
-      </rulesStrings>
-    </logRulesRecipient>
-  </InteractionDef>
+ 
   
   <InteractionDef>
     <defName>Nuzzle</defName>
@@ -64,14 +101,35 @@
     <workerClass>InteractionWorker_Nuzzle</workerClass>
     <logRulesInitiator>
       <rulesStrings>
-        <li>logentry->Nuzzled [other_nameShortIndef].</li>
+        <li>r_logentry(p=2)->[INITIATOR_nameIndef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameIndef].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameIndef]'s [rubbedpart].</li>
+
+        <li>nuzzled(p=2)->nuzzled</li>
+        <li>nuzzled->snuggled up to</li>
+
+        <li>nuzzleadverb(p=4)-></li>
+        <li>nuzzleadverb->gently</li>
+        <li>nuzzleadverb->encouragingly</li>
+        <li>nuzzleadverb->happily</li>
+        <li>nuzzleadverb->softly</li>
+        <li>nuzzleadverb->supportively</li>
+        <li>nuzzleadverb->lightly</li>
+        <li>nuzzleadverb->warmly</li>
+        <li>nuzzleadverb->plaintively</li>
+        <li>nuzzleadverb->lovingly</li>
+        <li>nuzzleadverb->affectionately</li>
+
+        <li>rubbedpart->leg</li>
+        <li>rubbedpart->knee</li>
+        <li>rubbedpart->foot</li>
+        <li>rubbedpart->elbow</li>
+        <li>rubbedpart->hip</li>
+        <li>rubbedpart->shoulder</li>
+        <li>rubbedpart->hand</li>
+        <li>rubbedpart->side</li>
+        <li>rubbedpart->arm</li>
       </rulesStrings>
     </logRulesInitiator>
-    <logRulesRecipient>
-      <rulesStrings>
-        <li>logentry->Was nuzzled by [other_nameShortIndef].</li>
-      </rulesStrings>
-    </logRulesRecipient>
   </InteractionDef>
 
 </Defs>

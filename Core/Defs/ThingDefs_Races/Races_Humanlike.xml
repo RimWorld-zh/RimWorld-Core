@@ -9,9 +9,9 @@
       <MarketValue>1750</MarketValue>
       <MoveSpeed>4.61</MoveSpeed>
       <Flammability>1.0</Flammability>
-      <ComfyTemperatureMin>12</ComfyTemperatureMin>
-      <ComfyTemperatureMax>32</ComfyTemperatureMax>
-      <LeatherAmount>25</LeatherAmount>
+      <ComfyTemperatureMin>16</ComfyTemperatureMin>
+      <ComfyTemperatureMax>26</ComfyTemperatureMax>
+      <LeatherAmount>50</LeatherAmount>
     </statBases>
     <tools>
       <li>
@@ -20,13 +20,13 @@
           <li>Blunt</li>
         </capacities>
         <power>7</power>
-        <cooldownTime>1.6</cooldownTime>
+        <cooldownTime>1.7</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>22</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -37,13 +37,13 @@
           <li>Blunt</li>
         </capacities>
         <power>7</power>
-        <cooldownTime>1.6</cooldownTime>
+        <cooldownTime>1.7</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>22</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -54,8 +54,9 @@
           <li>Blunt</li>
         </capacities>
         <power>5</power>
-        <cooldownTime>1.8</cooldownTime>
+        <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -65,10 +66,7 @@
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>80</lifeExpectancy>
-      <leatherColor>(211,194,143)</leatherColor>
-      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
-      <leatherInsulation>0.70</leatherInsulation>
-      <leatherMarketValueFactor>2</leatherMarketValueFactor>
+      <leatherDef>Leather_Human</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
       <baseBodySize>1</baseBodySize>
@@ -126,17 +124,27 @@
       </ageGenerationCurve>
       <hediffGiverSets>
         <li>OrganicStandard</li>
+        <li>Human</li>
       </hediffGiverSets>
     </race>
     <recipes>
+      <li>InstallArchotechEye</li>
+      <li>InstallArchotechArm</li>
+      <li>InstallArchotechLeg</li>
       <li>InstallPowerClaw</li>
-      <li>InstallScytherBlade</li>
       <li>InstallBionicEye</li>
       <li>InstallBionicArm</li>
       <li>InstallBionicLeg</li>
+      <li>InstallBionicSpine</li>
+      <li>InstallBionicHeart</li>
+      <li>InstallBionicStomach</li>
+      <li>InstallBionicEar</li>
       <li>InstallSimpleProstheticArm</li>
       <li>InstallSimpleProstheticLeg</li>
+      <li>InstallSimpleProstheticHeart</li>
+      <li>InstallCochlearImplant</li>
       <li>InstallPegLeg</li>
+      <li>InstallWoodenFoot</li>
       <li>InstallDenture</li>
       <li>InstallJoywire</li>
       <li>InstallPainstopper</li>

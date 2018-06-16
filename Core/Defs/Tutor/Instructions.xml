@@ -91,7 +91,7 @@
 
   <InstructionDef>
     <defName>MapCameraDolly</defName>
-    <text>Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight} keys, or click and drag with the middle mouse button.\n\nTry it now!</text>
+    <text>Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now!</text>
     <eventTagInitiate>GameStartDialogClosed</eventTagInitiate>
     <instructionClass>Instruction_LearnConcept</instructionClass>
     <concept>CameraDolly</concept>
@@ -99,7 +99,7 @@
 
   <InstructionDef>
     <defName>MapCameraZoom</defName>
-    <text>Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoomIn} and {Key:MapZoomOut} keys.\n\nTry it now!</text>
+    <text>Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now!</text>
     <instructionClass>Instruction_LearnConcept</instructionClass>
     <eventTagInitiate>InstructionDeactivated-MapCameraDolly</eventTagInitiate>
     <concept>CameraZoom</concept>
@@ -118,7 +118,7 @@
   
   <InstructionDef>
     <defName>TimeControls</defName>
-    <text>You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeedNormal}, {Key:TimeSpeedFast}, and {Key:TimeSpeedSuperfast} keys, or with the time controls in the bottom right.</text>
+    <text>You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right.</text>
     <instructionClass>Instruction_LearnConcept</instructionClass>
     <eventTagInitiate>InstructionDeactivated-Pause</eventTagInitiate>
     <concept>TimeControls</concept>
@@ -219,7 +219,7 @@
 
   <InstructionDef>
     <defName>BuildBeds</defName>
-    <text>Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:DesignatorRotateLeft} and {Key:DesignatorRotateRight} keys to rotate the building.</text>
+    <text>Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building.</text>
     <instructionClass>Instruction_BuildInRoom</instructionClass>
     <eventTagInitiate>InstructionDeactivated-BuildRoomDoor</eventTagInitiate>
     <actionTagsAllowed>
@@ -337,10 +337,10 @@
     <eventTagInitiate>InstructionDeactivated-MakeGrowingZone</eventTagInitiate>
     <actionTagsAllowed>
       <li>GrowingZoneSetPlant</li>
-      <li>GrowingZoneSetPlant-PlantRice</li>
+      <li>GrowingZoneSetPlant-Plant_Rice</li>
     </actionTagsAllowed>
     <eventTagsEnd>
-      <li>GrowingZoneSetPlant-PlantRice</li>
+      <li>GrowingZoneSetPlant-Plant_Rice</li>
     </eventTagsEnd>
     <highlightTags>
       <li>GrowingZoneSetPlant</li>

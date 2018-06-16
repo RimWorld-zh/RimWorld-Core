@@ -28,8 +28,8 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>120000</tendDuration>
-        <disappearsAtTendedCount>5</disappearsAtTendedCount>
+        <baseTendDurationHours>48</baseTendDurationHours>
+        <disappearsAtTotalTendQuality>3</disappearsAtTotalTendQuality>
       </li>
     </comps>
   </HediffDef>
@@ -59,8 +59,8 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>120000</tendDuration>
-        <disappearsAtTendedCount>5</disappearsAtTendedCount>
+        <baseTendDurationHours>48</baseTendDurationHours>
+        <disappearsAtTotalTendQuality>3</disappearsAtTotalTendQuality>
       </li>
     </comps>
   </HediffDef>
@@ -81,7 +81,7 @@
         </disappearsAfterTicks>
       </li>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>120000</tendDuration>
+        <baseTendDurationHours>48</baseTendDurationHours>
         <severityPerDayTended>-1.0</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
@@ -202,12 +202,12 @@
     <tendable>true</tendable>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>30000</tendDuration>
+        <baseTendDurationHours>12</baseTendDurationHours>
         <severityPerDayTended>-0.53</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
         <immunityPerDayNotSick>-0.4</immunityPerDayNotSick>
-        <immunityPerDaySick>0.66</immunityPerDaySick>
+        <immunityPerDaySick>0.55</immunityPerDaySick>
         <severityPerDayNotImmune>0.84</severityPerDayNotImmune>
         <severityPerDayImmune>-0.7</severityPerDayImmune>
       </li>
@@ -266,7 +266,92 @@
     <tendable>true</tendable>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>30000</tendDuration>
+        <baseTendDurationHours>12</baseTendDurationHours>
+        <severityPerDayTended>-0.13</severityPerDayTended>
+      </li>
+      <li Class="HediffCompProperties_Immunizable">
+        <immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
+        <immunityPerDaySick>0.152</immunityPerDaySick>
+        <severityPerDayNotImmune>0.166</severityPerDayNotImmune>
+        <severityPerDayImmune>-0.333</severityPerDayImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>minor</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>0.333</minSeverity>
+        <label>minor</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.666</minSeverity>
+        <label>major</label>
+        <vomitMtbDays>1.5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.833</minSeverity>
+        <label>extreme</label>
+        <lifeThreatening>true</lifeThreatening>
+        <vomitMtbDays>0.75</vomitMtbDays>
+        <painOffset>0.05</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="InfectionBase">
+    <defName>Animal_Flu</defName>
+    <label>flu</label>
+    <taleOnVisible>IllnessRevealed</taleOnVisible>
+    <makesSickThought>true</makesSickThought>
+    <lethalSeverity>1</lethalSeverity>
+    <tendable>true</tendable>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>48</baseTendDurationHours>
         <severityPerDayTended>-0.13</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
@@ -351,7 +436,99 @@
     <tendable>true</tendable>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>30000</tendDuration>
+        <baseTendDurationHours>12</baseTendDurationHours>
+        <severityPerDayTended>-0.38</severityPerDayTended>
+      </li>
+      <li Class="HediffCompProperties_Immunizable">
+        <immunityPerDayNotSick>-0.02</immunityPerDayNotSick>
+        <immunityPerDaySick>0.265</immunityPerDaySick>
+        <severityPerDayNotImmune>0.4</severityPerDayNotImmune>
+        <severityPerDayImmune>-0.2</severityPerDayImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>minor</label>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>0.4</minSeverity>
+        <label>minor</label>
+        <painOffset>0.2</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>major</label>
+        <painOffset>0.35</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>extreme</label>
+        <painOffset>0.6</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.3</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.3</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.9</minSeverity>
+        <label>extreme</label>
+        <lifeThreatening>true</lifeThreatening>
+        <painOffset>0.85</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.3</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.3</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="InfectionBase">
+    <defName>Animal_Plague</defName>
+    <label>plague</label>
+    <taleOnVisible>IllnessRevealed</taleOnVisible>
+    <makesSickThought>true</makesSickThought>
+    <lethalSeverity>1</lethalSeverity>
+    <tendable>true</tendable>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>48</baseTendDurationHours>
         <severityPerDayTended>-0.38</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
@@ -434,6 +611,7 @@
     </stages>
   </HediffDef>
 
+
   <HediffDef ParentName="InfectionBase">
     <defName>Malaria</defName>
     <label>malaria</label>
@@ -444,12 +622,12 @@
     <tendable>true</tendable>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>30000</tendDuration>
+        <baseTendDurationHours>12</baseTendDurationHours>
         <severityPerDayTended>-0.20</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
         <immunityPerDayNotSick>-0.03</immunityPerDayNotSick>
-        <immunityPerDaySick>0.12</immunityPerDaySick>
+        <immunityPerDaySick>0.11</immunityPerDaySick>
         <severityPerDayNotImmune>0.137</severityPerDayNotImmune>
         <severityPerDayImmune>-0.27</severityPerDayImmune>
       </li>
@@ -526,12 +704,12 @@
     <tendable>true</tendable>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>80000</tendDuration>
+        <baseTendDurationHours>32</baseTendDurationHours>
         <severityPerDayTended>-0.033</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
         <immunityPerDayNotSick>-0.02</immunityPerDayNotSick>
-        <immunityPerDaySick>0.036</immunityPerDaySick>
+        <immunityPerDaySick>0.032</immunityPerDaySick>
         <severityPerDayNotImmune>0.0417</severityPerDayNotImmune>
         <severityPerDayImmune>-0.125</severityPerDayImmune>
       </li>

@@ -5,18 +5,18 @@
     <defName>NamerScenario</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[story] [trans] the [weapon]</li>
-        <li>name->[story] [trans] the [animal]</li>
-        <li>name->[story] [trans] the [terrainfeature]</li>
-        <li>name->[story] [trans] [outlander]s</li>
-        <li>name->[story] [trans] [concept]</li>
-        <li>name->[concept] [story]</li>
-        <li>name->[story] [trans] a [community]</li>
-        <li>name->a [adjective] [story]</li>
-        <li>name->[story] [trans] the [game]</li>
-        <li>name->[story] in [color] and [color]</li>
-        <li>name->[color] [story]</li>
-        <li>name->[story] [romannumeral]</li>
+        <li>r_name->[story] [Trans] the [Weapon]</li>
+        <li>r_name->[story] [Trans] the [Animal]</li>
+        <li>r_name->[story] [Trans] the [TerrainFeature]</li>
+        <li>r_name->[story] [Trans] [Person]s</li>
+        <li>r_name->[story] [Trans] [Concept]</li>
+        <li>r_name->[Concept] [story]</li>
+        <li>r_name->[story] [Trans] a [Community]</li>
+        <li>r_name->a [Adjective] [story]</li>
+        <li>r_name->[story] [Trans] the [Game]</li>
+        <li>r_name->[story] in [Color] and [Color]</li>
+        <li>r_name->[Color] [story]</li>
+        <li>r_name->[story] [RomanNumeral]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">

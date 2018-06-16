@@ -8,7 +8,7 @@
 		<label>resource pod crash</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_ResourcePodCrash</workerClass>
 		<baseChance>2.6</baseChance>
@@ -19,7 +19,7 @@
 		<label>psychic soothe</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_PsychicSoothe</workerClass>
 		<baseChance>1.0</baseChance>
@@ -35,7 +35,7 @@
 		<label>self-tame</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_SelfTame</workerClass>
 		<baseChance>0.75</baseChance>
@@ -46,7 +46,7 @@
 		<label>ambrosia sprout</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_AmbrosiaSprout</workerClass>
 		<baseChance>0.35</baseChance>
@@ -68,7 +68,7 @@
 		<label>farm animals wander in</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_FarmAnimalsWanderIn</workerClass>
 		<baseChance>0.25</baseChance>
@@ -79,7 +79,7 @@
 		<label>wanderer join</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_WandererJoin</workerClass>
 		<baseChance>0.4</baseChance>
@@ -91,7 +91,7 @@
 		<label>refugee pod crash</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_RefugeePodCrash</workerClass>
 		<baseChance>1.5</baseChance>
@@ -105,7 +105,7 @@
     <label>chased refugee</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
     <workerClass>IncidentWorker_RefugeeChased</workerClass>
     <baseChance>2</baseChance>
@@ -118,7 +118,7 @@
     <label>thrumbos pass</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
     <workerClass>IncidentWorker_ThrumboPasses</workerClass>
     <baseChance>0.7</baseChance>
@@ -130,7 +130,7 @@
     <label>ransom demand</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
     <workerClass>IncidentWorker_RansomDemand</workerClass>
     <baseChance>2</baseChance>
@@ -139,37 +139,18 @@
     <letterDef>RansomDemand</letterDef>
   </IncidentDef>
 
-  <IncidentDef>
-    <defName>CaravanRequest</defName>
-    <label>caravan request</label>
-		<category>Misc</category>
-    <targetTypes>
-      <li>MapPlayerHome</li>
-    </targetTypes>
-    <workerClass>IncidentWorker_CaravanRequest</workerClass>
-    <baseChance>1</baseChance>
-		<minPopulation>4</minPopulation>
-		<earliestDay>15</earliestDay>
-		<chanceFactorByPopulationCurve>
-			<points>
-				<li>(2,0)</li>
-				<li>(7,1)</li>
-			</points>
-		</chanceFactorByPopulationCurve>
-  </IncidentDef>
-  
 	<IncidentDef>
 		<defName>MeteoriteImpact</defName>
 		<label>meteorite impact</label>
 		<category>Misc</category>
 		<targetTypes>
-			<li>MapPlayerHome</li>
+			<li>Map_PlayerHome</li>
 		</targetTypes>
 		<workerClass>IncidentWorker_MeteoriteImpact</workerClass>
 		<baseChance>0.6</baseChance>
 		<letterLabel>Meteorite</letterLabel>
 		<letterText>A large meteorite has struck ground in the area. It has left behind a lump of {0}.</letterText>
-    <tale>MeteoriteImpact</tale>
+    	<tale>MeteoriteImpact</tale>
 	</IncidentDef>
 
 	<IncidentDef>
@@ -177,12 +158,34 @@
 		<label>herd migration</label>
 		<category>Misc</category>
 		<targetTypes>
-			<li>MapPlayerHome</li>
+			<li>Map_PlayerHome</li>
 		</targetTypes>
+		<allowedBiomes>
+			<li>SeaIce</li>
+			<li>IceSheet</li>
+			<li>Tundra</li>
+			<li>Desert</li>
+			<li>ExtremeDesert</li>
+		</allowedBiomes>
 		<workerClass>IncidentWorker_HerdMigration</workerClass>
 		<baseChance>0.8</baseChance>
-		<letterLabel>Herd migration: {0}</letterLabel>
-		<letterText>A large herd of {0} is passing through the area. They won't attack unless provoked.</letterText>
+		<letterLabel>Animal migration: {0}</letterLabel>
+		<letterText>A group of {0} is passing through the area.\n\nThey won't attack unless provoked.</letterText>
+		<letterDef>NeutralEvent</letterDef>
+	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>WildManWandersIn</defName>
+		<label>wild man wanders in</label>
+		<category>Misc</category>
+		<targetTypes>
+			<li>Map_PlayerHome</li>
+		</targetTypes>
+		<workerClass>IncidentWorker_WildManWandersIn</workerClass>
+		<baseChance>0.15</baseChance>
+		<populationEffect>Increase</populationEffect>
+		<letterLabel>Wild man wanders in</letterLabel>
+		<letterText>A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective].</letterText>
 		<letterDef>NeutralEvent</letterDef>
 	</IncidentDef>
 
@@ -193,7 +196,7 @@
 		<label>psychic drone</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_PsychicDrone</workerClass>
 		<gameCondition>PsychicDrone</gameCondition>
@@ -210,7 +213,7 @@
 		<label>toxic fallout</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_MakeGameCondition</workerClass>
 		<gameCondition>ToxicFallout</gameCondition>
@@ -233,7 +236,7 @@
 		<label>volcanic winter</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_MakeGameCondition</workerClass>
 		<gameCondition>VolcanicWinter</gameCondition>
@@ -256,7 +259,7 @@
 		<label>heat wave</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_HeatWave</workerClass>
 		<gameCondition>HeatWave</gameCondition>
@@ -276,7 +279,7 @@
 		<label>cold snap</label>
 		<category>Misc</category>
 		    <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_ColdSnap</workerClass>
 		<gameCondition>ColdSnap</gameCondition>
@@ -292,32 +295,11 @@
 	</IncidentDef>
 
 	<IncidentDef>
-		<defName>Aurora</defName>
-		<label>aurora</label>
-		<category>Misc</category>
-    <targetTypes>
-      <li>MapPlayerHome</li>
-    </targetTypes>
-		<workerClass>IncidentWorker_Aurora</workerClass>
-		<gameCondition>Aurora</gameCondition>
-		<letterLabel>Aurora</letterLabel>
-		<letterText>A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter.</letterText>
-		<letterDef>PositiveEvent</letterDef>
-		<baseChance>1.2</baseChance>
-		<minRefireDays>15</minRefireDays>
-		<durationDays>
-			<min>0.125</min>
-			<max>0.35</max>
-		</durationDays>
-    <tale>Aurora</tale>
-	</IncidentDef>
-
-	<IncidentDef>
 		<defName>Flashstorm</defName>
 		<label>flashstorm</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_Flashstorm</workerClass>
 		<letterLabel>Flashstorm</letterLabel>
@@ -334,28 +316,11 @@
 	</IncidentDef>
 
 	<IncidentDef>
-		<defName>Tornado</defName>
-		<label>tornado</label>
-		<category>Misc</category>
-    <targetTypes>
-      <li>MapPlayerHome</li>
-    </targetTypes>
-		<workerClass>IncidentWorker_Tornado</workerClass>
-		<letterLabel>Tornado</letterLabel>
-		<letterText>A tornado has formed!\n\nIt will cut a path of destruction through the area.</letterText>
-		<letterDef>ThreatSmall</letterDef>
-		<baseChance>0.25</baseChance>
-		<minRefireDays>15</minRefireDays>
-		<minDifficulty>2</minDifficulty>
-    <tale>Tornado</tale>
-	</IncidentDef>
-
-	<IncidentDef>
 		<defName>ShortCircuit</defName>
 		<label>short circuit</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_ShortCircuit</workerClass>
 		<baseChance>1.2</baseChance>
@@ -367,7 +332,7 @@
 		<label>crop blight</label>
 		<category>Misc</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_CropBlight</workerClass>
 		<baseChance>0.30</baseChance>
@@ -378,19 +343,16 @@
 		<defName>Alphabeavers</defName>
 		<label>alphabeavers</label>
 		<category>Misc</category>
+		<allowedBiomes>
+			<li>Tundra</li>
+			<li>AridShrubland</li>
+		</allowedBiomes>
     <targetTypes>
-      <li>MapPlayerHome</li>
+      <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_Alphabeavers</workerClass>
 		<baseChance>1.0</baseChance>
 		<minRefireDays>8</minRefireDays>
-		<allowedBiomes>
-			<li>BorealForest</li>
-			<li>TemperateForest</li>
-			<li>TemperateSwamp</li>
-			<li>TropicalRainforest</li>
-			<li>TropicalSwamp</li>
-		</allowedBiomes>
 	</IncidentDef>
 
 </Defs>

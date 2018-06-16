@@ -222,11 +222,6 @@
                 </li>
               </subNodes>
             </li>
-
-            <!-- Join auto joinable caravan -->
-            <li Class="ThinkNode_Subtree">
-              <treeDef>JoinAutoJoinableCaravan</treeDef>
-            </li>
           </subNodes>
         </li>
 
@@ -235,12 +230,26 @@
           <insertTag>Animal_PreWander</insertTag>
         </li>
         
-        <!-- Tame animal: wander colony -->
+        <!-- Tame animal: wander near colony if possible -->
         <li Class="ThinkNode_ConditionalOfPlayerFaction">
           <subNodes>
             <li Class="ThinkNode_Tagger">
               <tagToGive>Idle</tagToGive>
               <subNodes>
+                <!-- Wander near your current position if in hostile map -->
+                <li Class="ThinkNode_ConditionalAnyEnemyInHostileMap">
+                  <subNodes>
+                    <li Class="JobGiver_WanderAnywhere">
+                      <maxDanger>None</maxDanger>
+                      <ticksBetweenWandersRange>
+                        <min>120</min>
+                        <max>240</max>
+                      </ticksBetweenWandersRange>
+                    </li>
+                  </subNodes>
+                </li>
+
+                <!-- Wander near colony -->
                 <li Class="JobGiver_WanderColony">
                   <maxDanger>None</maxDanger>
                   <ticksBetweenWandersRange>
@@ -254,7 +263,7 @@
         </li>
         
         <!-- Of neutral faction: rest and then exit the map -->
-        <li Class="ThinkNode_ConditionalNeutralFaction">
+        <li Class="ThinkNode_ConditionalNonPlayerNonHostileFaction">
           <subNodes>
             <li Class="ThinkNode_Tagger">
               <tagToGive>RestingForMedicalReasons</tagToGive>
@@ -311,14 +320,14 @@
 			<subNodes>
         <li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
           <subNodes>
-            <!-- Wild animals flee tornados, meteorites, etc. -->
-            <li Class="ThinkNode_ConditionalHasFaction">
-              <invert>true</invert>
-              <subNodes>
-                <li Class="JobGiver_FleeImmediateDanger" />
-              </subNodes>
-            </li>
+            <!-- Flee enemies, tornados, meteorites, etc. -->
+            <li Class="JobGiver_AnimalFlee" />
 
+            <!-- Join auto joinable caravan -->
+            <li Class="ThinkNode_Subtree">
+              <treeDef>JoinAutoJoinableCaravan</treeDef>
+            </li>
+            
             <!-- Lord directives -->
             <li Class="ThinkNode_Subtree">
               <treeDef>LordDutyConstant</treeDef>

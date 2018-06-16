@@ -5,50 +5,34 @@
     <rulePack>
       <rulesRaw>
         <li Class="Rule_File">
-          <keyword>animalnameunisex</keyword>
+          <keyword>animalname_unisex</keyword>
           <path>Names/Animal_Unisex</path>
         </li>
         <li Class="Rule_File">
-          <keyword>animalnamemale</keyword>
+          <keyword>animalname_male</keyword>
           <path>Names/Animal_Male</path>
         </li>
         <li Class="Rule_File">
-          <keyword>animalnamefemale</keyword>
+          <keyword>animalname_female</keyword>
           <path>Names/Animal_Female</path>
         </li>
         <li Class="Rule_PersonName">
           <selectionWeight>25</selectionWeight>
           <gender>Male</gender>
-          <keyword>personnamemale</keyword>
+          <keyword>personname_male</keyword>
         </li>
         <li Class="Rule_PersonName">
           <selectionWeight>25</selectionWeight>
           <gender>Female</gender>
-          <keyword>personnamefemale</keyword>
+          <keyword>personname_female</keyword>
         </li>
         <li Class="Rule_File">
-          <keyword>badassconcept</keyword>
-          <path>Words/Nouns/Concepts_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassanimal</keyword>
-          <path>Words/Nouns/Animals_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassadjective</keyword>
+          <keyword>adjective_badass</keyword>
           <path>Words/Adjectives/Badass</path>
         </li>
         <li Class="Rule_File">
-          <keyword>badassperson</keyword>
+          <keyword>person_badass</keyword>
           <path>Words/Nouns/People_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassconcept</keyword>
-          <path>Words/Nouns/Concepts_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badasscolor</keyword>
-          <path>Words/Nouns/Colors_Badass</path>
         </li>
       </rulesRaw>
     </rulePack>
@@ -58,21 +42,32 @@
     <defName>NamerAnimalGenericMale</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[animalnameunisex]</li>
-        <li>name->[animalnameunisex]</li>
-        <li>name->[animalnameunisex]</li>
-        <li>name->[animalnamemale]</li>
-        <li>name->[animalnamemale]</li>
-        <li>name->[animalnamemale]</li>
-        <li>name->[personnamemale]</li>
-        <li>name->[personnamemale]</li>
-        <li>name->[personnamemale]</li>
-        <li>name->[exoticname]</li>
-        <li>exoticname->[badassadjective]</li>
-        <li>exoticname->[badassadjective]</li>
-        <li>exoticname->[concept]</li>
-        <li>exoticname->[concept]</li>
-        <li>exoticname->[color]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_male]</li>
+        <li>r_name->[animalname_male]</li>
+        <li>r_name->[animalname_male]</li>
+        <li>r_name->[animalname_male]</li>
+        <li>r_name->[animalname_male]</li>
+        <li>r_name->[animalname_male]</li>
+        <li>r_name->[animalname_male]</li>
+        <li>r_name->[personname_male]</li>
+        <li>r_name->[personname_male]</li>
+        <li>r_name->[personname_male]</li>
+        <li>r_name->[personname_male]</li>
+        <li>r_name->[personname_male]</li>
+        <li>r_name->[personname_male]</li>
+        <li>r_name->[exoticname]</li>
+        <li>exoticname->[AdjectiveBadass]</li>
+        <li>exoticname->[AdjectiveBadass]</li>
+        <li>exoticname->[person_badass]</li>
+        <li>exoticname->[person_badass]</li>
+        <li>exoticname->[Concept]</li>
+        <li>exoticname->[Color]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -81,21 +76,32 @@
     <defName>NamerAnimalGenericFemale</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[animalnameunisex]</li>
-        <li>name->[animalnameunisex]</li>
-        <li>name->[animalnameunisex]</li>
-        <li>name->[animalnamefemale]</li>
-        <li>name->[animalnamefemale]</li>
-        <li>name->[animalnamefemale]</li>
-        <li>name->[personnamefemale]</li>
-        <li>name->[personnamefemale]</li>
-        <li>name->[personnamefemale]</li>
-        <li>name->[exoticname]</li>
-        <li>exoticname->[badassadjective]</li>
-        <li>exoticname->[badassadjective]</li>
-        <li>exoticname->[concept]</li>
-        <li>exoticname->[concept]</li>
-        <li>exoticname->[color]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_unisex]</li>
+        <li>r_name->[animalname_female]</li>
+        <li>r_name->[animalname_female]</li>
+        <li>r_name->[animalname_female]</li>
+        <li>r_name->[animalname_female]</li>
+        <li>r_name->[animalname_female]</li>
+        <li>r_name->[animalname_female]</li>
+        <li>r_name->[animalname_female]</li>
+        <li>r_name->[personname_female]</li>
+        <li>r_name->[personname_female]</li>
+        <li>r_name->[personname_female]</li>
+        <li>r_name->[personname_female]</li>
+        <li>r_name->[personname_female]</li>
+        <li>r_name->[personname_female]</li>
+        <li>r_name->[exoticname]</li>
+        <li>exoticname->[AdjectiveBadass]</li>
+        <li>exoticname->[AdjectiveBadass]</li>
+        <li>exoticname->[person_badass]</li>
+        <li>exoticname->[person_badass]</li>
+        <li>exoticname->[Concept]</li>
+        <li>exoticname->[Color]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

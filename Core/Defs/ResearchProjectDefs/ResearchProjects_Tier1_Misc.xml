@@ -1,173 +1,203 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--=============================== Tier 1: pre-electricity ===================================-->
+  <!--=============================== Tier 1: pre-electricity ===================================-->
 
+  <!--===== Column 1 ====-->
+  
   <ResearchProjectDef>
-    <defName>RecurveBow</defName>
-    <label>recurve bow</label>
-    <description>Advanced construction techniques allow for production of the recurve bow, an effective and inexpensive ranged weapon.</description>
-    <baseCost>200</baseCost>
+    <defName>PsychoidBrewing</defName>
+    <label>psychoid brewing</label>
+    <description>Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea.</description>
+    <baseCost>800</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>
       <li>TribalStart</li>
     </tags>
-    <researchViewX>1</researchViewX>
-    <researchViewY>5</researchViewY>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
   </ResearchProjectDef>
-  
-	<ResearchProjectDef>
-		<defName>Pemmican</defName>
-		<label>pemmican</label>
-		<description>Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Neolithic</techLevel>
-		<tags>
-			<li>TribalStart</li>
-		</tags>
-		<researchViewX>0</researchViewX>
-		<researchViewY>1</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>PassiveCooler</defName>
-		<label>passive cooler</label>
-		<description>Make passive coolers, a way to cool indoor spaces without using electricity.</description>
-		<baseCost>400</baseCost>
-		<techLevel>Neolithic</techLevel>
-		<tags>
-			<li>TribalStart</li>
-		</tags>
-		<researchViewX>0</researchViewX>
-		<researchViewY>2</researchViewY>
-	</ResearchProjectDef>
-  
-	<ResearchProjectDef>
-		<defName>Devilstrand</defName>
-		<label>devilstrand</label>
-		<description>Allows colonists to plant devilstrand, a slow-growing mushroom that yields a valuable plant fiber.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Neolithic</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>PsychoidBrewing</defName>
-    <label>psychoid brewing</label>
-    <description>With preparation, psychoid leaves can be boiled in water, producing a mildly euphoric and addictive tea.</description>
+    <defName>Pemmican</defName>
+    <label>pemmican</label>
+    <description>Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Bedrolls</defName>
+    <label>bedrolls</label>
+    <description>Make bedrolls, easy-to-carry sleeping accomodations.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1.5</researchViewY>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ComplexFurniture</defName>
+    <label>complex furniture</label>
+    <description>Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiard tables, and poker tables, vents, sarcophagi, and more.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2.25</researchViewY>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PassiveCooler</defName>
+    <label>passive cooler</label>
+    <description>Make passive coolers, to cool indoor spaces without using electricity.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+      <li>TribalStart</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3.0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Stonecutting</defName>
+    <label>stonecutting</label>
+    <description>Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ComplexClothing</defName>
+    <label>complex clothing</label>
+    <description>Tailor complicated garments like pants, dusters, and cowboy hats.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4.5</researchViewY>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <!--====== Column 2 ======-->
+
+  <ResearchProjectDef>
+    <defName>DrugProduction</defName>
+    <label>drug production</label>
+    <description>Build a drug lab for basic drug synthesis. Further research is required to make specific drugs.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Brewing</defName>
+    <label>beer brewing</label>
+    <description>Build a brewery and fermenting vats to transform hops into tasty, tasty beer.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>Devilstrand</defName>
+    <label>devilstrand</label>
+    <description>Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Bridges</defName>
+    <label>bridges</label>
+    <description>Build bridges to provide passage over water or construct non-heavy structures on otherwise unbuildable terrain.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2.25</researchViewY>
+  </ResearchProjectDef>
+
+<ResearchProjectDef>
+    <defName>CarpetMaking</defName>
+    <label>carpet making</label>
+    <description>Weave beautiful carpets from cloth.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>TreeSowing</defName>
+    <label>tree sowing</label>
+    <description>Sow the local biome's natural trees in your fields.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3.75</researchViewY>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+  </ResearchProjectDef>
+
+  <!--====== Column 3+ ======-->
+  
+  <ResearchProjectDef>
+    <defName>Smithing</defName>
+    <label>smithing</label>
+    <description>Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>3.6</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RecurveBow</defName>
+    <label>recurve bow</label>
+    <description>Build the recurve bow, an effective and inexpensive ranged weapon.</description>
     <baseCost>400</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>
       <li>TribalStart</li>
     </tags>
-    <researchViewX>1</researchViewX>
-    <researchViewY>1</researchViewY>
+    <researchViewX>2</researchViewX>
+    <researchViewY>5</researchViewY>
   </ResearchProjectDef>
-  
-	<ResearchProjectDef>
-		<defName>Brewing</defName>
-		<label>brewing</label>
-		<description>Allows you to build a brewery to transform hops into tasty, tasty beer.</description>
-		<baseCost>700</baseCost>
-		<techLevel>Neolithic</techLevel>
-		<researchViewX>1</researchViewX>
-		<researchViewY>2</researchViewY>
-	</ResearchProjectDef>
 
-	<ResearchProjectDef>
-		<defName>Bedrolls</defName>
-		<label>bedrolls</label>
-		<description>Allows you to make bedrolls.</description>
-		<baseCost>400</baseCost>
-		<techLevel>Neolithic</techLevel>
-		<researchViewX>1</researchViewX>
-		<researchViewY>3</researchViewY>
-		<tags>
-			<li>TribalStart</li>
-		</tags>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Beds</defName>
-		<label>beds</label>
-		<description>Allows you to build beds.</description>
-		<baseCost>700</baseCost>
-		<techLevel>Medieval</techLevel>
-		<researchViewX>1</researchViewX>
-		<researchViewY>4</researchViewY>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>CarpetMaking</defName>
-		<label>carpet making</label>
-		<description>Allows colonists to build carpets to increase the quality of their environments.</description>
-		<baseCost>1200</baseCost>
-		<techLevel>Medieval</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>3</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Smithing</defName>
-		<label>smithing</label>
-		<description>Build smithies for crafting metal weapons and tools.\n\nAllows you to craft simple weapons like knives, gladii, and maces.</description>
-		<baseCost>700</baseCost>
-		<techLevel>Medieval</techLevel>
-		<researchViewX>2</researchViewX>
-		<researchViewY>4</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Stonecutting</defName>
-		<label>stonecutting</label>
-		<description>Build stonecutting tables, which allow you to refine rock chunks into stone blocks that can be used for construction.</description>
-		<baseCost>300</baseCost>
-		<techLevel>Medieval</techLevel>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
-		<researchViewX>0</researchViewX>
-		<researchViewY>5</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>ComplexClothing</defName>
-		<label>complex clothing</label>
-		<description>Sew complicated garments like pants, dusters, and cowboy hats.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Medieval</techLevel>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
-		<researchViewX>0</researchViewX>
-		<researchViewY>4</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>DrugProduction</defName>
-		<label>drug production</label>
-		<description>The basics of drug preparation and synthesis. Allows creation of the drug lab. Further research is required to make specific drugs.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Electricity</defName>
-		<label>electricity</label>
-		<description>Generate and use electricity for cooking and other simple tasks.</description>
-		<baseCost>1200</baseCost>
-		<techLevel>Industrial</techLevel>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
-		<researchViewX>3</researchViewX>
-		<researchViewY>2.5</researchViewY>
-	</ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Electricity</defName>
+    <label>electricity</label>
+    <description>Harness the power of electricity for a hundred different tasks.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2.9</researchViewY>
+  </ResearchProjectDef>
 
 </Defs>

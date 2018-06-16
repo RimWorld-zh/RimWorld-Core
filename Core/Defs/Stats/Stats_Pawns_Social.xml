@@ -4,7 +4,7 @@
   <StatDef>
     <defName>RecruitPrisonerChance</defName>
     <label>recruit prisoner chance</label>
-    <description>Base chance this person will recruit a prisoner.</description>
+    <description>The base chance this person will recruit a prisoner on any given attempt. The actual chance is also affected by factors like prisoner mood, prisoner difficulty, and so on.</description>
     <category>PawnSocial</category>
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.01</minValue>
@@ -28,7 +28,7 @@
   <StatDef>
     <defName>TameAnimalChance</defName>
     <label>tame animal chance</label>
-    <description>Base chance this person will tame an animal.</description>
+    <description>The base chance this person will successfully tame an animal on any given attempt. The actual chance is also affected by the animal's wildness. Failed tame attempt can induce animal attacks, especially for more vicious animals.</description>
     <category>PawnSocial</category>
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.01</minValue>
@@ -36,8 +36,8 @@
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Animals</skill>
-        <baseValue>0.02</baseValue>
-        <bonusPerLevel>0.01</bonusPerLevel>
+        <baseValue>0.028</baseValue>
+        <bonusPerLevel>0.014</bonusPerLevel>
       </li>
     </skillNeedFactors>
     <capacityFactors>
@@ -56,7 +56,7 @@
   <StatDef>
     <defName>TrainAnimalChance</defName>
     <label>train animal chance</label>
-    <description>Base chance this person will make progress training an animal on a given attempt. The actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on.</description>
+    <description>The base chance this person will make progress training an animal on a given attempt. The actual chance for a given attempt will also depend on the animal's wildness, whether it is bonded with the trainer, and so on.</description>
     <category>PawnSocial</category>
     <defaultBaseValue>1.0</defaultBaseValue>
     <minValue>0.01</minValue>
@@ -64,8 +64,8 @@
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Animals</skill>
-        <baseValue>0.04</baseValue>
-        <bonusPerLevel>0.04</bonusPerLevel>
+        <baseValue>0.042</baseValue>
+        <bonusPerLevel>0.042</bonusPerLevel>
       </li>
     </skillNeedFactors>
     <capacityFactors>
@@ -80,7 +80,7 @@
   <StatDef>
     <defName>SocialImpact</defName>
     <label>social chat impact</label>
-    <description>When this person interacts socially, this is how much the other person is affected.</description>
+    <description>A multiplier on how much other people are affected by this person's social interactions.</description>
     <category>PawnSocial</category>
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.2</minValue>
@@ -104,7 +104,7 @@
   <StatDef>
     <defName>DiplomacyPower</defName>
     <label>diplomacy power</label>
-    <description>How effective this person is as a negotiator. Affects the impact on faction relations when this person gives gifts to another faction. It also affects the outcome of peace talks with other factions.</description>
+    <description>How effective this person is as a diplomat. This affects the impact on relations when giving gifts to another faction, and determines the outcome of peace talks.</description>
     <category>PawnSocial</category>
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.4</minValue>
@@ -127,7 +127,7 @@
   <StatDef>
     <defName>TradePriceImprovement</defName>
     <label>trade price improvement</label>
-    <description>When this person negotiates prices, buy and sell prices are improved by this percentage.</description>
+    <description>When this person acts as a trade negotiator, buy and sell prices are improved by this percentage.</description>
     <category>PawnSocial</category>
     <defaultBaseValue>1</defaultBaseValue>
     <toStringStyle>PercentTwo</toStringStyle>

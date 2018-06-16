@@ -13,7 +13,7 @@
 			<Beauty>-4</Beauty>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
-    <stackLimit>400</stackLimit>
+    <stackLimit>150</stackLimit>
     <thingCategories>
       <li>Drugs</li>
     </thingCategories>

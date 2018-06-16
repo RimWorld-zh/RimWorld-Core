@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MapGeneratorDef ParentName="MapCommonBase">
+    <defName>Base_Faction</defName>
+    <genSteps>
+      <li>RocksFromGrid</li>
+      <li>ScatterDeepResourceLumps</li>
+      <li>FactionBase</li>
+      <li>FactionBasePower</li>
+    </genSteps>
+  </MapGeneratorDef>
+  
+  <!-- Generate faction base -->
+  <GenStepDef>
+    <defName>FactionBase</defName>
+    <order>400</order>
+    <genStep Class="GenStep_FactionBase">
+      <count>1</count>
+      <nearMapCenter>true</nearMapCenter>
+    </genStep>
+  </GenStepDef>
+
+  <!-- Spawn power conduits -->
+  <GenStepDef>
+    <defName>FactionBasePower</defName>
+    <order>401</order>
+    <genStep Class="GenStep_Power" />
+  </GenStepDef>
+  
+</Defs>

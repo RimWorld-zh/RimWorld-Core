@@ -6,9 +6,12 @@
     <label>manhunter pack</label>
     <description>A pack of manhunting animals.</description>
 		<descriptionDialogue>there is a group of manhunting animals wandering nearby</descriptionDialogue>
+    <workerClass>SitePartWorker_Manhunters</workerClass>
 		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/Manhunters</expandingIconTexture>
-    <knownDanger>true</knownDanger>
+    <arrivedLetter>There are manhunting animals in this area.</arrivedLetter>
+    <arrivedLetterLabel>Manhunters</arrivedLetterLabel>
+    <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
     <tags>
       <li>MineralScannerPreciousLumpThreat</li>
       <li>ItemStashQuestThreat</li>

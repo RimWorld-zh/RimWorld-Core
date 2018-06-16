@@ -3,14 +3,14 @@
 
 	<SkillDef>
 		<defName>Shooting</defName>
-    <description>Use of all kinds of ranged weapons.</description>
+    <description>Ranged combat, with both high-tech and low-tech weapons.</description>
     <skillLabel>shooting</skillLabel>
     <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
   </SkillDef>
 
 	<SkillDef>
 		<defName>Melee</defName>
-    <description>Use of all kinds of melee weapons as well as unarmed combat.</description>
+    <description>Melee combat, both armed and unarmed.</description>
     <skillLabel>melee</skillLabel>
     <disablingWorkTags>Violent</disablingWorkTags>
     <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
@@ -24,15 +24,15 @@
 
   <SkillDef>
     <defName>Animals</defName>
-    <description>Taming, training, managing, and controlling animals.</description>
+    <description>Taming, training, and controlling animals.</description>
     <skillLabel>animals</skillLabel>
 		<usuallyDefinedInBackstories>false</usuallyDefinedInBackstories>
   </SkillDef>
   
   <SkillDef>
     <defName>Medicine</defName>
-    <description>Treating wounds and diseases and doing surgery.</description>
-    <skillLabel>medicine</skillLabel>
+    <description>Tending wounds and diseases and performing surgery.</description>
+    <skillLabel>medical</skillLabel>
     <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
   </SkillDef>
 
@@ -45,21 +45,21 @@
 
   <SkillDef>
     <defName>Construction</defName>
-    <description>Better constructors build structures and furniture faster and of higher quality.</description>
+    <description>Constructing and deconstructing structures and furniture.</description>
     <skillLabel>construction</skillLabel>
     <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
   </SkillDef>
 
   <SkillDef>
 		<defName>Growing</defName>
-    <description>Sowing, caring for, and harvesting crops.</description>
+    <description>Sowing, caring for and harvesting crops, and foraging for food while traveling.</description>
     <skillLabel>growing</skillLabel>
     <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
 	</SkillDef>
 
   <SkillDef>
 		<defName>Mining</defName>
-    <description>Digging tunnels and extracting mineral or buried resources.</description>
+    <description>Digging tunnels and extracting buried resources.</description>
     <skillLabel>mining</skillLabel>
     <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
 	</SkillDef>
@@ -72,13 +72,13 @@
 
 	<SkillDef>
 		<defName>Crafting</defName>
-    <description>Crafting general items including weapons and tools.</description>
+    <description>Crafting general items including weapons, components, and refined resources.</description>
     <skillLabel>crafting</skillLabel>
 	</SkillDef>
  
   <SkillDef>
     <defName>Intellectual</defName>
-    <description>Investigating evidence, making connections, calculating and using logic.</description>
+    <description>Researching and complex item production.</description>
     <skillLabel>intellectual</skillLabel>
     <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
   </SkillDef>

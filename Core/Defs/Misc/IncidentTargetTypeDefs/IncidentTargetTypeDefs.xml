@@ -2,19 +2,19 @@
 
 <Defs>
   <IncidentTargetTypeDef>
-    <defName>MapPlayerHome</defName>
+    <defName>Map_PlayerHome</defName>
   </IncidentTargetTypeDef>
   
   <IncidentTargetTypeDef>
-    <defName>MapTempIncident</defName>
+    <defName>Map_TempIncident</defName>
   </IncidentTargetTypeDef>
 
   <IncidentTargetTypeDef>
-    <defName>MapMisc</defName>
+    <defName>Map_Misc</defName>
   </IncidentTargetTypeDef>
 
   <IncidentTargetTypeDef>
-    <defName>MapRaidBeacon</defName>
+    <defName>Map_RaidBeacon</defName>
   </IncidentTargetTypeDef>
 
   <IncidentTargetTypeDef>

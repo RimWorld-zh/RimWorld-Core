@@ -4,11 +4,12 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Muffalo</defName>
     <label>muffalo</label>
-    <description>A large herding herbivore descended from buffalo and adapted for some exotic environment. Peaceful unless disturbed.</description>
+    <description>A large herding herbivore descended from buffalo and adapted for both cold and warm environments. While enraged muffalo are deadly, tamed muffalo are quite docile and can be used as pack animals.\n\nNobody is quite sure why they're blue - it might even be some early genetic modification test that just never got changed.</description>
     <statBases>
-      <MoveSpeed>3.6</MoveSpeed>
-      <ComfyTemperatureMin>-60</ComfyTemperatureMin>
-      <MarketValue>500</MarketValue>
+      <MoveSpeed>3.5</MoveSpeed>
+      <MarketValue>300</MarketValue>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+      <ComfyTemperatureMax>45</ComfyTemperatureMax>
     </statBases>
     <tools>
       <li>
@@ -17,9 +18,9 @@
           <li>Blunt</li>
         </capacities>
         <power>10</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2.00</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
       </li>
     </tools>
     <comps>
@@ -41,12 +42,11 @@
       <baseHealthScale>1.75</baseHealthScale>
 			<baseHungerRate>0.85</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(152,170,174)</leatherColor>
-      <leatherInsulation>1.0</leatherInsulation>
-      <gestationPeriodDays>25</gestationPeriodDays>
-      <wildness>0.5</wildness>
-      <nuzzleMtbHours>120</nuzzleMtbHours>
-			<packAnimal>true</packAnimal>
+      <leatherDef>Leather_Bluefur</leatherDef>
+      <gestationPeriodDays>24</gestationPeriodDays>
+      <wildness>0.6</wildness>
+      <trainability>Simple</trainability>
+      <packAnimal>true</packAnimal>
       <lifeExpectancy>15</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -71,7 +71,8 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef Name="Muffalo" ParentName="AnimalKindBase">
@@ -79,12 +80,11 @@
     <label>muffalo</label>
     <race>Muffalo</race>
     <combatPower>90</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>1</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>1.1</ecoSystemWeight>
+    <wildGroupSize>
       <min>3</min>
       <max>9</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <label>muffalo calf</label>
@@ -140,9 +140,9 @@
     <label>gazelle</label>
     <description>A small, extremely quick antelope known for its amazingly long leap.</description>
     <statBases>
-      <MoveSpeed>6.2</MoveSpeed>
+      <MoveSpeed>6.0</MoveSpeed>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
-      <MarketValue>120</MarketValue>
+      <MarketValue>150</MarketValue>
     </statBases>
     <tools>
       <li>
@@ -181,6 +181,7 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -191,10 +192,9 @@
       <baseHungerRate>0.35</baseHungerRate>
       <baseHealthScale>0.7</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(214,134,59)</leatherColor>
-      <leatherInsulation>0.75</leatherInsulation>
+      <leatherDef>Leather_Plain</leatherDef>
       <wildness>0.75</wildness>
-      <gestationPeriodDays>20</gestationPeriodDays>
+      <gestationPeriodDays>18</gestationPeriodDays>
       <lifeExpectancy>12</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -219,7 +219,7 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
     </tradeTags>
   </ThingDef>
 
@@ -228,12 +228,11 @@
     <label>gazelle</label>
     <race>Gazelle</race>
     <combatPower>40</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.55</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.45</ecoSystemWeight>
+    <wildGroupSize>
       <min>4</min>
       <max>13</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -281,11 +280,12 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Iguana</defName>
     <label>iguana</label>
-    <description>These large lizards normally feed on plant matter. However, when angered, their tough hide and sharp claws make them quite dangerous.</description>
+    <description>These large lizards normally feed on plant matter. However, when angered, their tough hide and sharp claws make them quite dangerous.\n\nResting iguanas hold their heads high, giving them an amusing 'proud' look. But they're not proud; they're just trying to see predators so they don't get eaten.</description>
     <statBases>
-      <MoveSpeed>3.23</MoveSpeed>
-      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MoveSpeed>3.0</MoveSpeed>
       <MarketValue>100</MarketValue>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
     </statBases>
     <tools>
       <li>
@@ -322,6 +322,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -329,7 +330,7 @@
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>EggIguanaFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>10</eggLayIntervalDays>
+        <eggLayIntervalDays>15</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>
           <min>1</min>
@@ -343,19 +344,10 @@
       <baseHealthScale>0.5</baseHealthScale>
 			<baseHungerRate>0.28</baseHungerRate>
 			<foodType>OmnivoreRoughAnimal</foodType>
-      <leatherColor>(101,116,58)</leatherColor>
-      <leatherLabel>iguana skin</leatherLabel>
-      <leatherInsulation>0.50</leatherInsulation>
+      <leatherDef>Leather_Lizard</leatherDef>
       <wildness>0.5</wildness>
-      <gestationPeriodDays>14</gestationPeriodDays>
-      <litterSizeCurve>
-        <points>
-          <li>(0.5, 0)</li>
-          <li>(1, 1)</li>
-          <li>(3, 1)</li>
-          <li>(3.5, 0)</li>
-        </points>
-      </litterSizeCurve>
+      <trainability>Simple</trainability>
+      <petness>0.15</petness>
       <lifeExpectancy>12</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -380,16 +372,16 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
+  
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Iguana</defName>
     <label>iguana</label>
     <race>Iguana</race>
     <combatPower>40</combatPower>
-    <wildSpawn_EcoSystemWeight>0.33</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <ecoSystemWeight>0.30</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -433,11 +425,11 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Rhinoceros</defName>
     <label>rhinoceros</label>
-    <description>This large land mammal is typically quite peaceful, but it will not hesitate to charge with its horn to fend off trespassers.</description>
+    <description>Despite being herbivorous, this large mammal is very easy to enrage. Once angered, its massive strength and sharp horn make it a brutal opponent. It has more muscle in one leg than most humans do in their whole body.</description>
     <statBases>
       <MoveSpeed>3.8</MoveSpeed>
+      <MarketValue>700</MarketValue>
       <ComfyTemperatureMin>-8</ComfyTemperatureMin>
-      <MarketValue>1000</MarketValue>
     </statBases>
     <tools>
       <li>
@@ -476,6 +468,7 @@
         <power>9</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -485,20 +478,14 @@
       <baseBodySize>3.0</baseBodySize>
       <baseHealthScale>3.5</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(150,150,150)</leatherColor>
-      <leatherLabel>rhinohide</leatherLabel>
-      <leatherInsulation>0.65</leatherInsulation>
-      <leatherMarketValueFactor>2</leatherMarketValueFactor>
-      <leatherStatFactors>
-        <ArmorRating_Blunt>2.0</ArmorRating_Blunt>
-        <ArmorRating_Sharp>2.5</ArmorRating_Sharp>
-      </leatherStatFactors>
+      <leatherDef>Leather_Rhinoceros</leatherDef>
       <wildness>0.90</wildness>
-      <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>1</manhunterOnDamageChance>
-      <gestationPeriodDays>45</gestationPeriodDays>
+      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.055</manhunterOnDamageChance>
+      <gestationPeriodDays>37</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <lifeExpectancy>45</lifeExpectancy>
+      <herdAnimal>true</herdAnimal>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -522,7 +509,8 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
@@ -531,12 +519,11 @@
     <labelPlural>rhinoceroses</labelPlural>
     <race>Rhinoceros</race>
     <combatPower>280</combatPower>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>1.5</ecoSystemWeight>
+    <wildGroupSize>
       <min>1</min>
-      <max>3</max>
-    </wildSpawn_GroupSizeRange>
+      <max>4</max>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -588,11 +575,12 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Dromedary</defName>
     <label>dromedary</label>
-    <description>Adapted to survival in arid environments, this distant cousin of the horse can go weeks without water.</description>
+    <description>A large land mammal adapted to arid environments. Domesticated since ancient times, its wool and leather are both exceptionally good at insulating against the desert heat, and its milk is quite nourishing. It can be used as a pack animal, but it's bouncing gait makes it too uncomfortable to ride for any distance.\n\nBy storing water in its large humps and reclaiming moisture from its breath as it exhales, it can go weeks without drinking.</description>
     <statBases>
       <MoveSpeed>3.4</MoveSpeed>
-      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
-      <MarketValue>450</MarketValue>
+      <MarketValue>300</MarketValue>
+      <ComfyTemperatureMin>-22</ComfyTemperatureMin>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
@@ -613,7 +601,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>11</power>
+        <power>8</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
@@ -623,7 +611,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>11</power>
+        <power>8</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
@@ -643,6 +631,7 @@
         <power>6</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -653,11 +642,11 @@
       <baseHealthScale>1.6</baseHealthScale>
 			<baseHungerRate>0.80</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(204,180,150)</leatherColor>
-      <leatherInsulation>1.0</leatherInsulation>
+      <leatherDef>Leather_Camel</leatherDef>
       <wildness>0.25</wildness>
-			<packAnimal>true</packAnimal>
-      <gestationPeriodDays>30</gestationPeriodDays>
+      <trainability>Simple</trainability>
+      <packAnimal>true</packAnimal>
+      <gestationPeriodDays>24</gestationPeriodDays>
       <lifeExpectancy>45</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -682,7 +671,8 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase" Name="Dromedary">
@@ -691,12 +681,11 @@
     <labelPlural>dromedaries</labelPlural>
     <race>Dromedary</race>
     <combatPower>90</combatPower>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
-      <min>1</min>
-      <max>3</max>
-    </wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>1.0</ecoSystemWeight>
+    <wildGroupSize>
+      <min>2</min>
+      <max>5</max>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <label>dromedary calf</label>

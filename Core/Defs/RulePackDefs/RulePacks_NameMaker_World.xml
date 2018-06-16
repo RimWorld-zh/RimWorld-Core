@@ -5,23 +5,23 @@
     <defName>NamerWorld</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[celestialname]</li>
-        <li>name->[celestialprefix] [celestialname]</li>
-        <li>name->[celestialname] [romannumeral]</li>
-        <li>name->[celestialname] [celestialname]</li>
-        <li>name->[celestialname] [celestialsuffix]</li>
+        <li>r_name->[celestial_name]</li>
+        <li>r_name->[celestial_prefix] [celestial_name]</li>
+        <li>r_name->[celestial_name] [RomanNumeral]</li>
+        <li>r_name->[celestial_name] [celestial_name]</li>
+        <li>r_name->[celestial_name] [celestial_suffix]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
-          <keyword>celestialname</keyword>
+          <keyword>celestial_name</keyword>
           <path>Names/Celestial</path>
         </li>
         <li Class="Rule_File">
-          <keyword>celestialsuffix</keyword>
+          <keyword>celestial_suffix</keyword>
           <path>Names/CelestialSuffix</path>
         </li>
         <li Class="Rule_File">
-          <keyword>celestialprefix</keyword>
+          <keyword>celestial_prefix</keyword>
           <path>Names/CelestialPrefix</path>
         </li>
       </rulesRaw>

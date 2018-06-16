@@ -4,7 +4,7 @@
   <StatDef>
     <defName>WorkSpeedGlobal</defName>
     <label>global work speed</label>
-    <description>A multiplier on someone's speed at doing any work.</description>
+    <description>A multiplier on a character's speed at doing any kind of work.</description>
     <category>PawnWork</category>
     <displayPriorityInCategory>100</displayPriorityInCategory>
     <defaultBaseValue>1</defaultBaseValue>
@@ -56,7 +56,7 @@
 	<StatDef>
 		<defName>MiningYield</defName>
 		<label>mining yield</label>
-		<description>The percentage yield a miner will achieve. This applies to both wall mining and deep drill mining. This doesn't affect the rate of mining rock chunks.</description>
+		<description>The percentage of mined resources a miner will produce. This applies to both wall mining and deep drill mining. This doesn't affect the production rate of rock chunks.</description>
 		<category>PawnWork</category>
 		<defaultBaseValue>1</defaultBaseValue>
 		<minValue>0</minValue>
@@ -107,7 +107,7 @@
   <StatDef>
     <defName>SmoothingSpeed</defName>
     <label>smoothing speed</label>
-    <description>A multiplier on the speed at which this person smooths floors.</description>
+    <description>A multiplier on the speed at which this person smooths rough stone floors and walls.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <toStringStyle>PercentZero</toStringStyle>
@@ -137,7 +137,7 @@
   <StatDef>
     <defName>ResearchSpeed</defName>
     <label>research speed</label>
-    <description>This person does research at this speed.</description>
+    <description>How fast this person performs research.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <toStringStyle>PercentZero</toStringStyle>
@@ -218,18 +218,18 @@
 					<li>0.95</li>
 					<li>0.975</li>
 					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
-					<li>1</li>
+          <li>1.01</li>
+          <li>1.02</li>
+          <li>1.03</li>
+          <li>1.04</li>
+          <li>1.05</li>
+          <li>1.06</li>
+          <li>1.07</li>
+          <li>1.08</li>
+          <li>1.09</li>
+          <li>1.10</li>
+          <li>1.12</li>
+          <li>1.13</li>
 				</valuesPerLevel>
 			</li>
 		</skillNeedFactors>
@@ -249,7 +249,7 @@
   <StatDef>
     <defName>PlantWorkSpeed</defName>
     <label>plant work speed</label>
-    <description>Speed at which this person sows and harvests plants.</description>
+    <description>The speed at which this person sows and harvests plants.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <toStringStyle>PercentZero</toStringStyle>
@@ -260,8 +260,8 @@
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Growing</skill>
-        <baseValue>0.20</baseValue>
-        <bonusPerLevel>0.12</bonusPerLevel>
+        <baseValue>0.08</baseValue>
+        <bonusPerLevel>0.115</bonusPerLevel>
       </li>
     </skillNeedFactors>
     <capacityFactors>
@@ -280,9 +280,11 @@
   <StatDef>
     <defName>PlantHarvestYield</defName>
     <label>plant harvest yield</label>
-    <description>The yield someone gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest.</description>
+    <description>The yield this person gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <maxValue>1</maxValue>
     <toStringStyle>PercentZero</toStringStyle>
     <neverDisabled>true</neverDisabled>
     <skillNeedFactors>
@@ -298,18 +300,18 @@
           <li>0.95</li>
           <li>0.975</li>
           <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
+          <li>1.01</li>
+          <li>1.02</li>
+          <li>1.03</li>
+          <li>1.04</li>
+          <li>1.05</li>
+          <li>1.06</li>
+          <li>1.07</li>
+          <li>1.08</li>
+          <li>1.09</li>
+          <li>1.10</li>
+          <li>1.12</li>
+          <li>1.13</li>
         </valuesPerLevel>
       </li>
     </skillNeedFactors>
@@ -330,7 +332,7 @@
 	<StatDef>
 		<defName>ConstructionSpeed</defName>
 		<label>construction speed</label>
-		<description>Speed at which this person constructs and repairs buildings.</description>
+		<description>The speed at which this person constructs and repairs buildings.</description>
 		<category>PawnWork</category>
 		<defaultBaseValue>1</defaultBaseValue>
 		<toStringStyle>PercentZero</toStringStyle>
@@ -364,6 +366,8 @@
     <description>The chance that this person will succeed in constructing something. Failing means wasting time and resources.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <maxValue>1</maxValue>
     <toStringStyle>PercentZero</toStringStyle>
     <skillNeedFactors>
       <li Class="SkillNeed_Direct">
@@ -378,18 +382,18 @@
           <li>0.95</li>
           <li>0.975</li>
           <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
+          <li>1.01</li>
+          <li>1.02</li>
+          <li>1.03</li>
+          <li>1.04</li>
+          <li>1.05</li>
+          <li>1.06</li>
+          <li>1.07</li>
+          <li>1.08</li>
+          <li>1.09</li>
+          <li>1.10</li>
+          <li>1.12</li>
+          <li>1.13</li>
         </valuesPerLevel>
       </li>
     </skillNeedFactors>
@@ -413,6 +417,8 @@
     <description>The chance that this person will successfully repair a broken down building using a component. Failing means wasting time and resources. Note that this only applies to repairing breakdowns, which is different from repairing damage.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <maxValue>1</maxValue>
     <toStringStyle>PercentZero</toStringStyle>
     <skillNeedFactors>
       <li Class="SkillNeed_Direct">
@@ -427,18 +433,18 @@
           <li>0.95</li>
           <li>0.975</li>
           <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
-          <li>1</li>
+          <li>1.01</li>
+          <li>1.02</li>
+          <li>1.03</li>
+          <li>1.04</li>
+          <li>1.05</li>
+          <li>1.06</li>
+          <li>1.07</li>
+          <li>1.08</li>
+          <li>1.09</li>
+          <li>1.10</li>
+          <li>1.12</li>
+          <li>1.13</li>
         </valuesPerLevel>
       </li>
     </skillNeedFactors>

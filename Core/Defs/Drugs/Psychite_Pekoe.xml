@@ -3,8 +3,8 @@
 
   <ThingDef ParentName="MakeableDrugBase">
     <defName>PsychoidPekoe</defName>
-    <label>psychoid pekoe</label>
-    <description>A fragrant tea which can be drank to induce a weak euphoric effect. Very easy to produce, but be wary of addiction.</description>
+    <label>psychite pekoe</label>
+    <description>A fragrant tea infused with psychoid leaves. Drinking it induces a subtle psychite euphoria. This tea is easy to produce, but can psychite psychoid addiction if consumed too often.\n\nMany tribes use psychoid tea, both as a daily energizer and as part of social and religious rituals.</description>
     <graphicData>
       <texPath>Things/Item/Drug/Pekoe</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -12,7 +12,7 @@
     <rotatable>false</rotatable>
     <statBases>
       <WorkToMake>400</WorkToMake>
-      <MarketValue>14</MarketValue>
+      <MarketValue>10</MarketValue>
       <Mass>0.05</Mass>
       <DeteriorationRate>6</DeteriorationRate>
     </statBases>
@@ -45,7 +45,7 @@
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>PsychiteTolerance</hediffDef>
-          <severity>0.02</severity>
+          <severity>0.03</severity>
 					<divideByBodySize>true</divideByBodySize>
 				</li>
       </outcomeDoers>
@@ -55,6 +55,9 @@
       <recipeUsers>
         <li>CraftingSpot</li>
       </recipeUsers>
+      <skillRequirements>
+        <Intellectual>2</Intellectual>
+      </skillRequirements>
     </recipeMaker>
     <costList>
       <PsychoidLeaves>4</PsychoidLeaves>
@@ -88,7 +91,7 @@
       <stages>
         <li>
           <painFactor>0.9</painFactor>
-          <restFallFactor>0.9</restFallFactor>
+          <restFallFactor>0.8</restFallFactor>
         </li>
       </stages>
   </HediffDef>
@@ -100,8 +103,8 @@
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>high on psychite pekoe</label>
-        <description>Everything just feels good right now.</description>
+        <label>psychite pekoe</label>
+        <description>Drinking that tea made me feel better. I love having this energy.</description>
         <baseMoodEffect>12</baseMoodEffect>
       </li>
     </stages>

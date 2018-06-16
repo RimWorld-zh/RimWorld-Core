@@ -18,7 +18,7 @@
 	<StatDef>
 		<defName>MeleeHitChance</defName>
 		<label>melee hit chance</label>
-		<description>Chance to hit a target in melee. The target can still dodge even if we hit.</description>
+		<description>Chance to hit a target in melee. The target can still dodge even if we would've hit.</description>
 		<category>PawnCombat</category>
     <neverDisabled>true</neverDisabled>
 		<defaultBaseValue>0</defaultBaseValue>
@@ -103,7 +103,7 @@
 	<StatDef>
     <defName>ShootingAccuracy</defName>
     <label>shooting accuracy</label>
-    <description>Base chance to not miss per cell of shot distance. Chance to hit is also affected by target, cover, and environmental conditions, and can be viewed by selecting a shooter and mousing over a target.</description>
+    <description>Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target.</description>
     <category>PawnCombat</category>
 		<workerClass>StatWorker_ShootingAccuracy</workerClass>
     <displayPriorityInCategory>50</displayPriorityInCategory>
@@ -161,7 +161,7 @@
   <StatDef>
     <defName>AimingDelayFactor</defName>
     <label>aiming time</label>
-    <description>How long it takes to strike after aiming.</description>
+    <description>How long it takes to shoot after choosing a target.</description>
     <category>PawnCombat</category>
     <displayPriorityInCategory>10</displayPriorityInCategory>
     <defaultBaseValue>1</defaultBaseValue>

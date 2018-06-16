@@ -4,20 +4,23 @@
   <SitePartDef>
     <defName>Turrets</defName>
     <label>turrets</label>
-    <description>A few turrets.</description>
+    <description>A group of turrets.</description>
 		<descriptionDialogue>a ring of enemy turrets defends the site</descriptionDialogue>
+    <workerClass>SitePartWorker_Turrets</workerClass>
 		<siteTexture>World/WorldObjects/Sites/Outpost</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/Turrets</expandingIconTexture>
     <applyFactionColorToSiteTexture>true</applyFactionColorToSiteTexture>
     <showFactionInInspectString>true</showFactionInInspectString>
-    <knownDanger>true</knownDanger>
     <requiresFaction>true</requiresFaction>
     <minFactionTechLevel>Industrial</minFactionTechLevel>
+    <arrivedLetter>There are enemy turrets in this area.</arrivedLetter>
+    <arrivedLetterLabel>Enemy turrets</arrivedLetterLabel>
+    <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
     <tags>
       <li>MineralScannerPreciousLumpThreat</li>
       <li>ItemStashQuestThreat</li>
       <li>DownedRefugeeQuestThreat</li>
-      <li>PrisonerWillingToJoinQuestThreat</li>
+      <li>PrisonerRescueQuestThreat</li>
     </tags>
   </SitePartDef>
 

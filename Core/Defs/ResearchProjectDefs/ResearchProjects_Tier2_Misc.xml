@@ -6,7 +6,7 @@
 	<ResearchProjectDef>
 		<defName>PsychiteRefining</defName>
 		<label>psychite refining</label>
-		<description>Learn to refine psychoid leaves into flake and yayo, different forms of the euphoric drug psychite.</description>
+		<description>Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug.</description>
 		<baseCost>400</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -19,7 +19,7 @@
 	<ResearchProjectDef>
 		<defName>WakeUpProduction</defName>
 		<label>wake-up production</label>
-		<description>Your chemists learn the formulas and techniques for synthesizing wake-up, a work performance-enhancing drug.</description>
+		<description>Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -32,7 +32,7 @@
 	<ResearchProjectDef>
 		<defName>GoJuiceProduction</defName>
 		<label>go-juice production</label>
-		<description>Learn to produce the synthetic combat-performance-enhancing drug go-juice.</description>
+		<description>Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -45,7 +45,7 @@
 	<ResearchProjectDef>
 		<defName>PenoxycylineProduction</defName>
 		<label>penoxycyline production</label>
-		<description>Learn to produce penoxycline, a disease prevention drug.</description>
+		<description>Produce penoxycline, a disease prevention drug which blocks plague, malaria, and more before they start.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -68,10 +68,23 @@
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef>
-		<defName>Greatbows</defName>
-		<label>greatbows</label>
-		<description>Learn to produce powerful greatbows.</description>
+  <ResearchProjectDef>
+    <defName>PlateArmor</defName>
+    <label>plate armor</label>
+    <description>Smith suits of plate armor from metal or wood.</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>4.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+		<defName>Greatbow</defName>
+		<label>greatbow</label>
+		<description>Craft greatbows for killing enemies at great range.</description>
 		<baseCost>800</baseCost>
 		<techLevel>Medieval</techLevel>
 		<prerequisites>
@@ -86,98 +99,102 @@
 
 	<ResearchProjectDef>
 		<defName>Batteries</defName>
-		<label>batteries</label>
+		<label>battery</label>
 		<description>Build batteries for storing electricity.</description>
 		<baseCost>400</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
 		<researchViewX>4</researchViewX>
-		<researchViewY>1.25</researchViewY>
+		<researchViewY>1.16</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>Refining</defName>
-		<label>refining</label>
-		<description>Build refineries to make chemfuel from wood.</description>
-		<baseCost>1200</baseCost>
+		<defName>BiofuelRefining</defName>
+		<label>biofuel refining</label>
+		<description>Build biofuel refineries to make chemfuel from biological matter like wood or foodstuffs.</description>
+		<baseCost>700</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
-		<researchViewX>4</researchViewX>
-		<researchViewY>3.6</researchViewY>
+		<researchViewX>5</researchViewX>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Waterproofing</defName>
+    <label>waterproof conduit</label>
+    <description>Build underwater electrical conduits.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>1.16</researchViewY>
+  </ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>NutrientPaste</defName>
 		<label>nutrient paste</label>
-		<description>Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks.</description>
-		<baseCost>600</baseCost>
+		<description>Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all.</description>
+		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
-		<researchViewX>5</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>SolarPanels</defName>
-		<label>solar panels</label>
-		<description>Build solar panels for electrical generation.</description>
+		<label>solar panel</label>
+		<description>Build solar panels for electricity generation.</description>
 		<baseCost>600</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>Electricity</li>
-		</prerequisites>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
-		<researchViewX>4</researchViewX>
-		<researchViewY>2</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>AirConditioning</defName>
-		<label>air conditioning</label>
-		<description>Build air conditions to cool rooms in the heat, or to keep freezers.</description>
-		<baseCost>600</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>Electricity</li>
-		</prerequisites>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
-		<researchViewX>4</researchViewX>
-		<researchViewY>2.9</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Autodoors</defName>
-		<label>autodoors</label>
-		<description>Build autodoors which open to permit movement without slowing anyone down.</description>
-		<baseCost>400</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
 		<researchViewX>5</researchViewX>
-		<researchViewY>2.9</researchViewY>
+		<researchViewY>1.83</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AirConditioning</defName>
+		<label>air conditioning</label>
+		<description>Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<researchViewX>4</researchViewX>
+		<researchViewY>2.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Autodoors</defName>
+		<label>autodoor</label>
+		<description>Build autodoors which automatically open when someone approaches, without slowing anyone down.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>1.83</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>Hydroponics</defName>
 		<label>hydroponics</label>
-		<description>Allows you to build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside.</description>
+		<description>Build hydroponics basins to rapidly grow crops indoors regardless of the terrain or weather outside.</description>
 		<baseCost>700</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -190,59 +207,88 @@
 	<ResearchProjectDef>
 		<defName>ElectricSmelting</defName>
 		<label>electric smelting</label>
-		<description>Build electric smithy and smelters.\n\nThe electric smithy allows smithing items without fuel. The electric smelters uses heat and strong electromagnets to extract useful metal from slag chunks and other items.</description>
-		<baseCost>1700</baseCost>
+		<description>Build electric smithy and smelters.\n\nThe electric smithy allows smithing items without fuel. The electric smelter extracts useful metal from slag chunks and other items.</description>
+		<baseCost>800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
-		<researchViewX>5</researchViewX>
+		<researchViewX>6</researchViewX>
 		<researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>PackagedSurvivalMeal</defName>
     <label>packaged survival meal</label>
-    <description>Learn to produce packaged survival meals, a preserved and sealed food that never goes bad. Great for traveling.</description>
-    <baseCost>2000</baseCost>
+    <description>Produce packaged survival meals which never go bad. Great for traveling.</description>
+    <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>NutrientPaste</li>
     </prerequisites>
-    <researchViewX>6</researchViewX>
+    <researchViewX>7</researchViewX>
     <researchViewY>0.5</researchViewY>
   </ResearchProjectDef>
   
 	<ResearchProjectDef>
 		<defName>ElectricCremation</defName>
 		<label>electric cremation</label>
-		<description>Build crematoriums which can vaporize unwanted corpses.</description>
+		<description>Build crematoriums for vaporizing unwanted corpses.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>ElectricSmelting</li>
 		</prerequisites>
-		<researchViewX>6</researchViewX>
+		<researchViewX>7</researchViewX>
 		<researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>ColoredLights</defName>
 		<label>colored lights</label>
-		<description>Allows colonists to construct colored lights for decorative purposes.</description>
-		<baseCost>500</baseCost>
+		<description>Construct colored lights for decorative purposes.</description>
+		<baseCost>300</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
-		<researchViewX>5</researchViewX>
-		<researchViewY>2</researchViewY>
+		<researchViewX>6</researchViewX>
+		<researchViewY>1.83</researchViewY>
 	</ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>IEDs</defName>
+    <label>IEDs</label>
+    <description>Build improvised traps from any kind of mortar shell.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+
+  	<ResearchProjectDef>
+		<defName>GeothermalPower</defName>
+		<label>geothermal power</label>
+		<description>Build geothermal power plants on top of steam geysers, for uninterrupted power.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>7</researchViewX>
+		<researchViewY>1.8</researchViewY>
+	</ResearchProjectDef>
+  
+  <!--===================== Machining and its children sub-tier ======================-->
+  
 	<ResearchProjectDef>
 		<defName>Machining</defName>
 		<label>machining</label>
-		<description>Build machining tables to craft guns and machinery or disassemble dead mechanoids.</description>
+		<description>Build machining tables to craft guns and machinery, or to disassemble dead mechanoids.</description>
 		<baseCost>800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -250,155 +296,154 @@
 			<li>Smithing</li>
 		</prerequisites>
 		<researchViewX>4</researchViewX>
-		<researchViewY>5</researchViewY>
-	</ResearchProjectDef>
-	
-	<ResearchProjectDef>
-		<defName>IEDs</defName>
-		<label>IEDs</label>
-		<description>Allows colonists to build improvised traps from explosive, EMP, firefoam, and antigrain warhead mortar shells.</description>
-		<baseCost>1600</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>Electricity</li>
-		</prerequisites>
-		<researchViewX>6</researchViewX>
 		<researchViewY>3.6</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>IEDIncendiary</defName>
-		<label>incendiary IEDs</label>
-		<description>Allows colonists to build incendiary explosive traps from mortar shells.</description>
-		<baseCost>1600</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>Electricity</li>
-		</prerequisites>
-		<researchViewX>6</researchViewX>
-		<researchViewY>4.3</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
 		<defName>Mortars</defName>
 		<label>mortars</label>
-		<description>Learn to build mortars which can lob shells long distances over walls.</description>
+		<description>Build mortars which can lob shells long distances - even over walls.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Machining</li>
 		</prerequisites>
 		<researchViewX>5</researchViewX>
-		<researchViewY>4.3</researchViewY>
+		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef>
-		<defName>Gunsmithing</defName>
-		<label>gunsmithing</label>
-		<description>Craft simple manually operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers.</description>
-		<baseCost>700</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>Machining</li>
-		</prerequisites>
-		<researchViewX>5</researchViewX>
-		<researchViewY>5</researchViewY>
-	</ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>SmokepopBelt</defName>
+    <label>smokepop belts</label>
+    <description>Build smokepop belts which generate an automatic defensive smokescreen when the user is shot.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>3.6</researchViewY>
+  </ResearchProjectDef>
 
-	<ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Prosthetics</defName>
+    <label>prosthetics</label>
+    <description>Build inexpensive prosthetic body parts to replace lost limbs. Requires a skilled doctor to attach.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>4.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Gunsmithing</defName>
+    <label>gunsmithing</label>
+    <description>Craft simple manually-operated guns like revolvers, pump shotguns, bolt-action rifles, and incendiary launchers.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
 		<defName>BlowbackOperation</defName>
 		<label>blowback operation</label>
-		<description>Craft simple semi-automatic and automatic guns like autopistols, machine pistols, and heavy SMGs.</description>
+		<description>Craft low-power blowback-operated guns like autopistols, machine pistols, and heavy SMGs.</description>
 		<baseCost>700</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Gunsmithing</li>
 		</prerequisites>
-		<researchViewX>6</researchViewX>
+		<researchViewX>7</researchViewX>
 		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>GasOperation</defName>
 		<label>gas operation</label>
-		<description>Craft more advanced semi-automatic and automatic guns like chain shotguns and LMGs.</description>
+		<description>Craft high-power guns like chain shotguns and LMGs.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>BlowbackOperation</li>
 		</prerequisites>
-		<researchViewX>7</researchViewX>
+		<researchViewX>9</researchViewX>
 		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>PrecisionRifling</defName>
 		<label>precision rifling</label>
-		<description>Craft assault rifles and sniper rifles.</description>
+		<description>Craft precisely-machined guns like assault rifles and sniper rifles.</description>
 		<baseCost>1400</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>GasOperation</li>
 		</prerequisites>
-		<researchViewX>8</researchViewX>
+		<researchViewX>11</researchViewX>
 		<researchViewY>5</researchViewY>
-	</ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>SmokepopBelt</defName>
-    <label>smokepop belts</label>
-    <description>Learn to build smokepop belts which can provide an automatic defensive smokescreen.</description>
-    <baseCost>1000</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>Machining</li>
-      <li>Refining</li>
-    </prerequisites>
-    <researchViewX>5</researchViewX>
-    <researchViewY>3.6</researchViewY>
-  </ResearchProjectDef>
-  
-	<ResearchProjectDef>
-		<defName>MicroelectronicsBasics</defName>
-		<label>microelectronics basics</label>
-		<description>The basics of working with delicate, complex electronics. This unlocks the high-tech research bench, comms console, and other research projects like tube televisions, and cryptosleep caskets.</description>
-		<baseCost>700</baseCost>
-		<techLevel>Industrial</techLevel>
-		<prerequisites>
-			<li>Electricity</li>
-      <li>Machining</li>
-		</prerequisites>
-		<researchViewX>6</researchViewX>
-		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
 	<!--=============================== Tier 2.5 Microelectronics ===================================-->
 
-	<ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MicroelectronicsBasics</defName>
+    <label>microelectronics</label>
+    <description>Work with complex microelectronics. This unlocks the high-tech research bench and comms console.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>2.9</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
 		<defName>TubeTelevision</defName>
 		<label>tube television</label>
-		<description>Allows the production of tube televisions.</description>
+		<description>Produce tube televisions.</description>
 		<baseCost>800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>
-		<researchViewX>7</researchViewX>
-		<researchViewY>3.6</researchViewY>
+		<researchViewX>8</researchViewX>
+		<researchViewY>0.72</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>GunTurrets</defName>
 		<label>gun turrets</label>
-		<description>Allows the production of automated gun turrets.</description>
-		<baseCost>800</baseCost>
+		<description>Produce simple automated gun turrets.</description>
+		<baseCost>400</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>MicroelectronicsBasics</li>
 			<li>BlowbackOperation</li>
 		</prerequisites>
-		<researchViewX>7</researchViewX>
-		<researchViewY>4.3</researchViewY>
+		<researchViewX>8</researchViewX>
+		<researchViewY>3.9</researchViewY>
 	</ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>HeavyTurrets</defName>
+    <label>autocannon turret</label>
+    <description>Produce the heavy, long-ranged autocannon turret.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>GunTurrets</li>
+    </prerequisites>
+    <researchViewX>9</researchViewX>
+    <researchViewY>3.9</researchViewY>
+  </ResearchProjectDef>
 
 </Defs>

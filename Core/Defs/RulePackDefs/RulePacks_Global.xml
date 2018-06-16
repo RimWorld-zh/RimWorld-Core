@@ -5,110 +5,159 @@
     <defName>GlobalUtility</defName>
     <rulePack>
       <rulesStrings>
-        <li>quantity_adjphrase->a group of</li>
-        <li>quantity_adjphrase->several</li>
-        <li>quantity_adjphrase->dozens of</li>
-        <li>quantity_adjphrase->two</li>
-        <li>quantity_adjphrase->three</li>
-        <li>quantity_adjphrase->four</li>
-        <li>quantity_adjphrase->five</li>
-        <li>quantity_adjphrase->six</li>
-        <li>quantity_adjphrase->uncountable</li>
-        <li>quantity_adjphrase->innumerable</li>
-        <li>trans->of</li>
-        <li>trans->for</li>
-        <li>trans->by</li>
-        <li>trans->with</li>
+        <li>Trans->of</li>
+        <li>Trans->for</li>
+        <li>Trans->by</li>
+        <li>Trans->with</li>
+        <li>Character(p=6)->[Person]</li>
+        <li>Character(p=4)->[Animal]</li>
+        <li>Character(p=3)->[Enemy]</li>
+        <li>Character->[Mechanoid]</li>
+        <li>Quantity_adjphrase->two</li>
+        <li>Quantity_adjphrase->three</li>
+        <li>Quantity_adjphrase->four</li>
+        <li>Quantity_adjphrase->five</li>
+        <li>Quantity_adjphrase->six</li>
+        <li>Quantity_adjphrase->seven</li>
+        <li>Quantity_adjphrase->eight</li>
+        <li>Quantity_adjphrase->nine</li>
+        <li>Quantity_adjphrase->ten</li>
+        <li>Quantity_adjphrase->several</li>
+        <li>Quantity_adjphrase->a group of</li>
+        <li>Quantity_adjphrase->a large group of</li>
+        <li>Quantity_adjphrase->dozens of</li>
+        <li>Quantity_adjphrase->hundreds of</li>
+        <li>Quantity_adjphrase->a thousand</li>
+        <li>Quantity_adjphrase->thousands of</li>
+        <li>Shape->triangle</li>
+        <li>Shape->square</li>
+        <li>Shape->rectangle</li>
+        <li>Shape->cone</li>
+        <li>Shape->line</li>
+        <li>Shape->heart</li>
+        <li>Shape->star</li>
+        <li>Shape->circle</li>
+        <li>Shape->ellipse</li>
+        <li>TalkTopic_light->[Vegetable]s</li>
+        <li>TalkTopic_light->eating [Vegetable]s</li>
+        <li>TalkTopic_light->cooking with [Vegetable]s</li>
+        <li>TalkTopic_light->[Game]</li>
+        <li>TalkTopic_light->playing [Game]</li>
+        <li>TalkTopic_light->practicing [Game]</li>
+        <li>TalkTopic_light->learning [Game]</li>
+        <li>TalkTopic_light->[Animal]s</li>
+        <li>TalkTopic_light->training [Animal]s</li>
+        <li>TalkTopic_light->taming [Animal]s</li>
+        <li>TalkTopic_light->fighting [Animal]s</li>
+        <li>TalkTopic_light->crazy [Animal]s</li>
+        <li>TalkTopic_light->[Weapon]s</li>
+        <li>TalkTopic_light->using [Weapon]s</li>
+        <li>TalkTopic_light->practicing with [Weapon]s</li>
+        <li>TalkTopic_light->[TerrainFeature]s</li>
+        <li>TalkTopic_light->[NaturalObject]s</li>
+        <li>TalkTopic_light->[TreeType] trees</li>
+        <li>TalkTopic_light->[Person]s</li>
+        <li>TalkTopic_light->friendly [Person]s</li>
+        <li>TalkTopic_light->hostile [Person]s</li>
+        <li>TalkTopic_light->[Enemy]s</li>
+        <li>TalkTopic_light->fighting [Enemy]s</li>
+        <li>TalkTopic_light->[Apparel]s</li>
+        <li>TalkTopic_light->wearing [Apparel]s</li>
+        <li>TalkTopic_light->making [Apparel]s</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_Number">
           <selectionWeight>10</selectionWeight>
-          <keyword>digit</keyword>
+          <keyword>Digit</keyword>
           <range>
             <min>0</min>
             <max>9</max>
           </range>
         </li>
         <li Class="Rule_File">
-          <keyword>vegetable</keyword>
+          <keyword>Vegetable</keyword>
           <path>Words/Nouns/Vegetables</path>
         </li>
         <li Class="Rule_File">
-          <keyword>game</keyword>
+          <keyword>Game</keyword>
           <path>Words/Nouns/Games</path>
         </li>
         <li Class="Rule_File">
-          <keyword>letter</keyword>
+          <keyword>Letter</keyword>
           <path>WordParts/CapitalLetters</path>
         </li>
         <li Class="Rule_File">
-          <keyword>color</keyword>
+          <keyword>Color</keyword>
           <path>Words/Nouns/Colors</path>
         </li>
         <li Class="Rule_File">
-          <keyword>animal</keyword>
+          <keyword>Animal</keyword>
           <path>Words/Nouns/Animals</path>
         </li>
         <li Class="Rule_File">
-          <keyword>animalgroup</keyword>
+          <keyword>AnimalGroup</keyword>
           <path>Words/Nouns/AnimalGroups</path>
         </li>
         <li Class="Rule_File">
-          <keyword>weapon</keyword>
+          <keyword>Weapon</keyword>
           <path>Words/Nouns/Weapons</path>
         </li>
         <li Class="Rule_File">
-          <keyword>romannumeral</keyword>
+          <keyword>RomanNumeral</keyword>
           <path>Words/Misc/Numbers_SmallRoman</path>
         </li>
         <li Class="Rule_File">
-          <keyword>terrainfeature</keyword>
+          <keyword>TerrainFeature</keyword>
           <path>Words/Nouns/TerrainFeatures</path>
         </li>
         <li Class="Rule_File">
-          <keyword>naturalobject</keyword>
+          <keyword>NaturalObject</keyword>
           <path>Words/Nouns/NaturalObject</path>
         </li>
         <li Class="Rule_File">
-          <keyword>tree</keyword>
-          <path>Words/Nouns/Trees</path>
+          <keyword>TreeType</keyword>
+          <path>Words/Nouns/TreeTypes</path>
         </li>
         <li Class="Rule_File">
-          <keyword>outlander</keyword>
+          <keyword>Person</keyword>
           <pathList>
-            <li>Words/Nouns/People_Outlanders</li>
+            <li>Words/Nouns/People_General</li>
+          </pathList>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Family</keyword>
+          <pathList>
             <li>Words/Nouns/People_Family</li>
           </pathList>
         </li>
         <li Class="Rule_File">
-          <keyword>enemy</keyword>
+          <keyword>Enemy</keyword>
           <pathList>
             <li>Words/Nouns/People_Enemies</li>
-            <li>Words/Nouns/People_Badass</li>
           </pathList>
         </li>
         <li Class="Rule_PersonName">
           <selectionWeight>25</selectionWeight>
-          <keyword>personname</keyword>
+          <keyword>PersonName</keyword>
         </li>
         <li Class="Rule_File">
-          <keyword>apparel</keyword>
+          <keyword>Apparel</keyword>
           <path>Words/Nouns/Apparel</path>
         </li>
         <li Class="Rule_File">
-          <keyword>large</keyword>
+          <keyword>Large</keyword>
           <pathList>
             <li>Words/Adjectives/Large</li>
           </pathList>
         </li>
         <li Class="Rule_File">
-          <keyword>naturaladjective</keyword>
+          <keyword>AdjectiveNatural</keyword>
           <pathList>
             <li>Words/Adjectives/Natural</li>
           </pathList>
         </li>
         <li Class="Rule_File">
-          <keyword>adjective</keyword>
+          <keyword>Adjective</keyword>
           <pathList>
             <li>Words/Adjectives/Badass</li>
             <li>Words/Adjectives/Angsty</li>
@@ -116,31 +165,31 @@
           </pathList>
         </li>
         <li Class="Rule_File">
-          <keyword>badassadjective</keyword>
+          <keyword>AdjectiveBadass</keyword>
           <path>Words/Adjectives/Badass</path>
         </li>
         <li Class="Rule_File">
-          <keyword>angstyadjective</keyword>
+          <keyword>AdjectiveAngsty</keyword>
           <path>Words/Adjectives/Angsty</path>
         </li>
         <li Class="Rule_File">
-          <keyword>friendlyadjective</keyword>
+          <keyword>AdjectiveFriendly</keyword>
           <path>Words/Adjectives/Friendly</path>
         </li>
         <li Class="Rule_File">
-          <keyword>friendlyverb</keyword>
+          <keyword>VerbFriendly</keyword>
           <path>Words/Verbs/Friendly</path>
         </li>
         <li Class="Rule_File">
-          <keyword>gore</keyword>
+          <keyword>Gore</keyword>
           <path>Words/Nouns/Gore</path>
         </li>
         <li Class="Rule_File">
-          <keyword>mechanoid</keyword>
+          <keyword>Mechanoid</keyword>
           <path>Words/Nouns/Mechanoid</path>
         </li>
         <li Class="Rule_File">
-          <keyword>concept</keyword>
+          <keyword>Concept</keyword>
           <pathList>
             <li>Words/Nouns/Concepts_Badass</li>
             <li>Words/Nouns/Concepts_Positive</li>
@@ -148,18 +197,30 @@
           </pathList>
         </li>
         <li Class="Rule_File">
-          <keyword>community</keyword>
+          <keyword>Conceptpositive</keyword>
+          <path>Words/Nouns/Concepts_Positive</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Community</keyword>
           <path>Words/Nouns/Communities</path>
         </li>
         <li Class="Rule_File">
-          <keyword>bodypart</keyword>
+          <keyword>Bodypart</keyword>
           <pathList>
             <li>Words/Nouns/Bodyparts</li>
           </pathList>
         </li>
         <li Class="Rule_File">
-          <keyword>direction</keyword>
+          <keyword>Direction</keyword>
           <path>Words/Adjectives/CompassDirections</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>PersonalCharacteristic</keyword>
+          <path>Words/Nouns/PersonalCharacteristics</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Talktopic_heavy</keyword>
+          <path>Words/Nouns/TalkTopics_Heavy</path>
         </li>
       </rulesRaw>
     </rulePack>

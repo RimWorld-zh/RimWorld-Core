@@ -48,4 +48,13 @@
     </comps>
   </ThingDef>
 
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>TunnelHiveSpawner</defName>
+    <label>tunnel</label>
+    <thingClass>TunnelHiveSpawner</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <alwaysFlee>true</alwaysFlee>
+  </ThingDef>
+
 </Defs>

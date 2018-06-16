@@ -1,16 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ====================================================== -->
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>YorkshireTerrier</defName>
     <label>yorkshire terrier</label>
-    <description>A small, even-tempered dog. Originally bred to hunt rats, it later became a show and companionship animal.</description>
+    <description>A small, even-tempered dog. Originally bred to hunt rats, it later became a show and companionship animal. Some consider it useless, but the mood boost it gives by nuzzling can outweight the cost of feeding it.</description>
     <statBases>
       <MoveSpeed>3.1</MoveSpeed>
-      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
-      <MarketValue>200</MarketValue>
+      <MarketValue>100</MarketValue>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
     </statBases>
     <tools>
       <li>
@@ -44,9 +42,10 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>1</power>
+        <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -54,16 +53,15 @@
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <petness>1</petness>
       <baseBodySize>0.3</baseBodySize>
-      <baseHungerRate>0.25</baseHungerRate>
+      <baseHungerRate>0.30</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherLabel>yorkieskin</leatherLabel>
-      <leatherColor>(209,168,39)</leatherColor>
-      <gestationPeriodDays>30</gestationPeriodDays>
+      <leatherDef>Leather_Dog</leatherDef>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Intermediate</trainability>
       <wildness>0</wildness>
-      <nuzzleMtbHours>15</nuzzleMtbHours>
+      <nuzzleMtbHours>24</nuzzleMtbHours>
+      <gestationPeriodDays>20</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -97,7 +95,8 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
+      <li>AnimalPet</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
@@ -105,6 +104,7 @@
     <label>yorkshire terrier</label>
     <race>YorkshireTerrier</race>
     <combatPower>30</combatPower>
+    <ecoSystemWeight>0.30</ecoSystemWeight>
     <lifeStages>
       <li>
         <label>yorkshire terrier puppy</label>
@@ -151,7 +151,6 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
   </PawnKindDef>
   
   <!-- ====================================================== -->
@@ -161,9 +160,9 @@
     <label>husky</label>
     <description>A large, energetic dog with a thick fur coat for remaining comfortable in arctic environments.</description>
     <statBases>
-      <MoveSpeed>5.2</MoveSpeed>
+      <MoveSpeed>5.0</MoveSpeed>
+      <MarketValue>250</MarketValue>
       <ComfyTemperatureMin>-50</ComfyTemperatureMin>
-      <MarketValue>300</MarketValue>
     </statBases>
     <tools>
       <li>
@@ -200,32 +199,30 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <petness>1</petness>
-      <herdAnimal>true</herdAnimal>
-      <baseBodySize>1.0</baseBodySize>
+      <baseBodySize>0.86</baseBodySize>
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.05</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherColor>(137,133,133)</leatherColor>
-      <leatherLabel>husky fur</leatherLabel>
-      <leatherInsulation>1.0</leatherInsulation>
-      <gestationPeriodDays>22.5</gestationPeriodDays>
+      <leatherDef>Leather_Dog</leatherDef>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <wildness>0</wildness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
+      <gestationPeriodDays>21</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
           <li>(1, 1)</li>
           <li>(2, 1.7)</li>
-          <li>(3, 0.7)</li>
-          <li>(3.5, 0)</li>
+          <li>(2.5, 0.7)</li>
+          <li>(3, 0)</li>
         </points>
       </litterSizeCurve>
       <lifeExpectancy>12</lifeExpectancy>
@@ -252,15 +249,18 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
+      <li>AnimalPet</li>
     </tradeTags>
   </ThingDef>
+  
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Husky</defName>
     <label>husky</label>
     <labelPlural>huskies</labelPlural>
     <race>Husky</race>
     <combatPower>60</combatPower>
+    <ecoSystemWeight>0.7</ecoSystemWeight>
     <lifeStages>
       <li>
         <label>husky puppy</label>
@@ -309,7 +309,6 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
   </PawnKindDef>
   
   <!-- ====================================================== -->
@@ -320,8 +319,8 @@
     <description>A very versatile, medium-sized dog. Originally bred to retrieve birds shot on the hunt, the lab is also an excellent guard dog, play pal, and family friend.</description>
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
-      <ComfyTemperatureMin>-14</ComfyTemperatureMin>
-      <MarketValue>300</MarketValue>
+      <MarketValue>250</MarketValue>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
     </statBases>
     <tools>
       <li>
@@ -358,25 +357,25 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <petness>1</petness>
-      <herdAnimal>true</herdAnimal>
-      <baseBodySize>1.0</baseBodySize>
-      <baseHungerRate>0.5</baseHungerRate>
+      <baseBodySize>0.75</baseBodySize>
+      <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>1.0</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherColor>(220,198,160)</leatherColor>
-      <leatherLabel>labrador fur</leatherLabel>
-      <leatherInsulation>0.9</leatherInsulation>
+      <leatherDef>Leather_Dog</leatherDef>
       <gestationPeriodDays>22.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <wildness>0</wildness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -410,14 +409,17 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
+      <li>AnimalPet</li>
     </tradeTags>
   </ThingDef>
+  
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>LabradorRetriever</defName>
     <label>labrador retriever</label>
     <race>LabradorRetriever</race>
     <combatPower>55</combatPower>
+    <ecoSystemWeight>0.6</ecoSystemWeight>
     <lifeStages>
       <li>
         <label>labrador puppy</label>
@@ -463,7 +465,6 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
   </PawnKindDef>
   
   <!-- ====================================================== -->
@@ -471,11 +472,11 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Cat</defName>
     <label>cat</label>
-    <description>One of mankind's first pets, the cat is a small mammal which hunts vermin. Known for their aloofness, cats are nevertheless popular companions because of their calmness, independence, and fine, pettable fur.</description>
+    <description>One of mankind's first pets, the cat is a small mammal which hunts vermin. Known for their aloofness, cats are nevertheless popular companions because of their independence, calm disposition, and fine, pettable fur.</description>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
-      <ComfyTemperatureMin>-14</ComfyTemperatureMin>
-      <MarketValue>250</MarketValue>
+      <MarketValue>100</MarketValue>
+      <ComfyTemperatureMin>-25</ComfyTemperatureMin>
     </statBases>
     <tools>
       <li>
@@ -490,7 +491,7 @@
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -507,7 +508,7 @@
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -523,7 +524,7 @@
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -536,6 +537,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -547,12 +549,10 @@
       <baseHungerRate>0.1</baseHungerRate>
       <baseHealthScale>0.42</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherLabel>catskin</leatherLabel>
-      <leatherColor>(189,171,159)</leatherColor>
-      <leatherInsulation>0.9</leatherInsulation>
+      <leatherDef>Leather_Light</leatherDef>
       <wildness>0.2</wildness>
       <petness>1</petness>
-      <trainableIntelligence>None</trainableIntelligence>
+      <trainability>None</trainability>
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <gestationPeriodDays>20</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
@@ -589,15 +589,17 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
+      <li>AnimalPet</li>
     </tradeTags>
   </ThingDef>
+  
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Cat</defName>
     <label>cat</label>
     <race>Cat</race>
     <combatPower>35</combatPower>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
     <lifeStages>
       <li>
         <label>kitten</label>

@@ -14,14 +14,14 @@
 			<categories>
 				<li>FoodRaw</li>
 			</categories>
-			<exceptedCategories>
+			<disallowedCategories>
 				<li>EggsFertilized</li>
-			</exceptedCategories>
-			<exceptedThingDefs>
-				<li>Human_Meat</li>
-				<li>Megaspider_Meat</li>
+			</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
 				<li>InsectJelly</li>
-			</exceptedThingDefs>
+			</disallowedThingDefs>
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>
 	</RecipeDef>
@@ -29,7 +29,7 @@
 	<RecipeDef Name="CookMealSimple" ParentName="CookMealBase">
     <defName>CookMealSimple</defName>
     <label>cook simple meal</label>
-    <description>Cooks a straightforward meal from one ingredient.</description>
+    <description>Cook a straightforward meal from one ingredient.</description>
     <jobString>Cooking simple meal.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <requiredGiverWorkType>Cooking</requiredGiverWorkType>
@@ -61,7 +61,7 @@
   <RecipeDef ParentName="CookMealBase">
 		<defName>CookMealFine</defName>
 		<label>cook fine meal</label>
-		<description>Cooks a somewhat complex meal from a combination of raw meat and raw plant ingredients.</description>
+		<description>Cook a somewhat complex meal from a combination of meat and plant ingredients.</description>
 		<jobString>Cooking fine meal.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -98,7 +98,7 @@
 	<RecipeDef ParentName="CookMealBase">
 		<defName>CookMealLavish</defName>
 		<label>cook lavish meal</label>
-		<description>Cooks a very complex meal from a combination of raw meat and raw plant ingredients. Much of the ingredients are wasted.</description>
+		<description>Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
 		<jobString>Cooking lavish meal.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -135,7 +135,7 @@
   <RecipeDef ParentName="CookMealBase">
     <defName>CookMealSurvival</defName>
     <label>cook packaged survival meal</label>
-    <description>Cooks a packaged survival meal from a combination of raw meat and raw plant ingredients. Much of the ingredients are wasted.</description>
+    <description>Prepare a packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
     <jobString>Cooking survival meal.</jobString>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -150,7 +150,7 @@
             <li>AnimalProductRaw</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>0.3</count>
       </li>
       <li>
         <filter>
@@ -158,7 +158,7 @@
             <li>PlantFoodRaw</li>
           </categories>
         </filter>
-        <count>0.5</count>
+        <count>0.3</count>
       </li>
     </ingredients>
     <products>

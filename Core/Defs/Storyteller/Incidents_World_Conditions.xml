@@ -42,4 +42,25 @@
     </durationDays>
   </IncidentDef>
 
+  <IncidentDef>
+    <defName>Aurora</defName>
+    <label>aurora</label>
+    <category>Misc</category>
+    <targetTypes>
+      <li>World</li>
+    </targetTypes>
+    <workerClass>IncidentWorker_Aurora</workerClass>
+    <gameCondition>Aurora</gameCondition>
+    <letterLabel>Aurora</letterLabel>
+    <letterText>A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter.</letterText>
+    <letterDef>PositiveEvent</letterDef>
+    <baseChance>1.2</baseChance>
+    <minRefireDays>15</minRefireDays>
+    <durationDays>
+      <min>0.125</min>
+      <max>0.35</max>
+    </durationDays>
+    <tale>Aurora</tale>
+  </IncidentDef>
+
 </Defs>

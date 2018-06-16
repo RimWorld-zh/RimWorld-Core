@@ -9,13 +9,13 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>name->[metaprefix] [standardname]</li>
-        <li>name(p=0.05)->[storyname] [suffix]</li>
+        <li>r_name->[metaprefix] [standardname]</li>
+        <li>r_name(p=0.05)->[storyname] [suffix]</li>
 
         <li>standardname->[prefix] [suffix]</li>
 
         <li>metaprefix(p=10)-></li>
-        <li>metaprefix->[direction]</li>
+        <li>metaprefix->[Direction]</li>
         <li>metaprefix->[derivative]</li>
 
         <li>derivative->great</li>
@@ -25,16 +25,16 @@
         <li>derivative->new</li>
         <li>derivative->old</li>
         
-        <li>prefix(p=0.5)->[animal]</li>
-        <li>prefix(p=0.5)->[color]</li>
-        <li>prefix(p=0.3)->[color][animal]</li>
-        <li>prefix(p=0.2)->[color] [animal]</li>
-        <li>prefix(p=0.3)->[naturaladjective][animal]</li>
-        <li>prefix(p=0.2)->[naturaladjective] [animal]</li>
-        <li>prefix(p=0.3)->[animal][bodypart]</li>
-        <li>prefix(p=0.2)->[animal] [bodypart]</li>
-        <li>prefix->[color][naturalobject]</li>
-        <li>prefix->[naturaladjective][bodypart]</li>
+        <li>prefix(p=0.5)->[Animal]</li>
+        <li>prefix(p=0.5)->[Color]</li>
+        <li>prefix(p=0.3)->[Color][Animal]</li>
+        <li>prefix(p=0.2)->[Color] [Animal]</li>
+        <li>prefix(p=0.3)->[AdjectiveNatural][Animal]</li>
+        <li>prefix(p=0.2)->[AdjectiveNatural] [Animal]</li>
+        <li>prefix(p=0.3)->[Animal][BodyPart]</li>
+        <li>prefix(p=0.2)->[Animal] [BodyPart]</li>
+        <li>prefix->[Color][NaturalObject]</li>
+        <li>prefix->[AdjectiveNatural][BodyPart]</li>
         <li>prefix(p=2)->[tribalword]</li>
         <li>prefix(p=2)->[outlanderword]</li>
 
@@ -79,14 +79,14 @@
         <li>storyname->[subject]'s [storyderivative] deception</li>
         <li>storyname->[subject]'s [storyderivative] facade</li>
         <li>storyname->[subject]'s [storyderivative] fraud</li>
-        <li>storyname(p=0.5)->[subject]'s [gore]</li>
-        <li>storyname->[subject]'s [bodypart]</li>
+        <li>storyname(p=0.5)->[subject]'s [Gore]</li>
+        <li>storyname->[subject]'s [BodyPart]</li>
 
         <li>storyderivative-></li>
         <li>storyderivative(p=0.1)->[derivative]</li>
 
-        <li>subject(p=5)->[personname]</li>
-        <li>subject(p=1)->[animal]</li>
+        <li>subject(p=5)->[PersonName]</li>
+        <li>subject(p=1)->[Animal]</li>
         <li>subject(p=1)->[tribalword]</li>
         <li>subject(p=1)->[outlanderword]</li>
       </rulesStrings>

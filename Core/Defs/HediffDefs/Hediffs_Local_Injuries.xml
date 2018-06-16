@@ -8,6 +8,7 @@
     <defName>MissingBodyPart</defName>
     <label>missing body part</label>
     <labelNoun>a missing body part</labelNoun>
+    <labelNounPretty>missing a {1}</labelNounPretty>
     <defaultLabelColor>(0.5, 0.5, 0.5, 1)</defaultLabelColor>
     <tendable>true</tendable>
     <injuryProps>
@@ -15,8 +16,9 @@
       <painPerSeverity>0.0125</painPerSeverity>
     </injuryProps>
     <comps>
-      <li Class="HediffCompProperties_TendDuration" />
-      <li Class="HediffCompProperties_GetsOld" />
+      <li Class="HediffCompProperties_TendDuration">
+        <showTendQuality>false</showTendQuality>
+      </li>
     </comps>
   </HediffDef>
 
@@ -26,6 +28,7 @@
     <hediffClass>Hediff_Injury</hediffClass>
     <tendable>true</tendable>
     <displayWound>true</displayWound>
+    <labelNounPretty>{0} in the {1}</labelNounPretty>
   </HediffDef>
 
 	<HediffDef ParentName="InjuryBase">
@@ -58,15 +61,15 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.25</infectionChance>
+        <infectionChance>0.40</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>burn scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>burn scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.01875</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
       <canMerge>true</canMerge>
 			<destroyedLabel>Burned off</destroyedLabel>
 			<destroyedOutLabel>Burned out</destroyedOutLabel>
@@ -84,15 +87,15 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.10</infectionChance>
+        <infectionChance>0.20</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 			<bleedRate>0.015</bleedRate>
       <canMerge>true</canMerge>
 			<destroyedLabel>Crushed</destroyedLabel>
@@ -112,7 +115,7 @@
     </comps>
     <injuryProps>
       <painPerSeverity>0.01</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
       <destroyedLabel>Shattered</destroyedLabel>
     </injuryProps>
 	</HediffDef>
@@ -128,15 +131,15 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.10</infectionChance>
+        <infectionChance>0.20</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>cut scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>cut scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
 			<painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 			<bleedRate>0.03</bleedRate>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Cut off</destroyedLabel>
@@ -154,13 +157,13 @@
         <labelTendedWellInner>sutured</labelTendedWellInner>
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-			  <oldLabel>cut scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+			  <permanentLabel>cut scar</permanentLabel>
       </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 			<bleedRate>0.03</bleedRate>
 			<canMerge>false</canMerge>
 			<useRemovedLabel>true</useRemovedLabel>
@@ -178,15 +181,15 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.10</infectionChance>
+        <infectionChance>0.20</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>scratch scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>scratch scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 			<bleedRate>0.015</bleedRate>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Torn off</destroyedLabel>
@@ -205,15 +208,15 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.25</infectionChance>
+        <infectionChance>0.40</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>bite scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>bite scar</permanentLabel>
       </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
       <bleedRate>0.02</bleedRate>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Bitten off</destroyedLabel>
@@ -232,15 +235,15 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.10</infectionChance>
+        <infectionChance>0.20</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>stab scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>stab scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 			<bleedRate>0.035</bleedRate>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Cut off</destroyedLabel>
@@ -259,16 +262,16 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.10</infectionChance>
+        <infectionChance>0.20</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>old gunshot</oldLabel>
-        <instantlyOldLabel>permanent gunshot injury</instantlyOldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>old gunshot</permanentLabel>
+        <instantlyPermanentLabel>permanent gunshot injury</instantlyPermanentLabel>
       </li>
     </comps>
 		<injuryProps>
 			<painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 			<bleedRate>0.04</bleedRate>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Shot off</destroyedLabel>
@@ -287,15 +290,15 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.10</infectionChance>
+        <infectionChance>0.20</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-			  <oldLabel>scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+			  <permanentLabel>scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 			<bleedRate>0.04</bleedRate>
 			<canMerge>true</canMerge>
 			<destroyedLabel>Torn off</destroyedLabel>
@@ -316,7 +319,7 @@
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Destroyed</destroyedLabel>
 		</injuryProps>
@@ -333,15 +336,15 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.25</infectionChance>
+        <infectionChance>0.40</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>frostbite scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>frostbite scar</permanentLabel>
       </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
       <canMerge>true</canMerge>
       <destroyedLabel>Lost to frostbite</destroyedLabel>
     </injuryProps>

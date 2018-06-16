@@ -167,11 +167,11 @@
         <li Class="JobGiver_TakeCombatEnhancingDrug">
           <onlyIfInDanger>true</onlyIfInDanger>
         </li>
-        <li Class="JobGiver_AIFollowEscortee"/>
         <li Class="JobGiver_AIDefendEscortee">
           <targetAcquireRadius>65</targetAcquireRadius>
           <targetKeepRadius>72</targetKeepRadius>
         </li>
+        <li Class="JobGiver_AIFollowEscortee"/>
         <li Class="ThinkNode_Subtree">
           <treeDef>SatisfyVeryUrgentNeeds</treeDef>
         </li> 
@@ -254,12 +254,12 @@
         <li Class="ThinkNode_ConditionalHasDutyPawnTarget">
           <subNodes>
             <!-- Follow and defend leader -->
-            <li Class="JobGiver_AIFollowEscortee"/>
             <li Class="JobGiver_AIDefendEscortee">
               <targetAcquireRadius>15</targetAcquireRadius>
               <targetKeepRadius>18</targetKeepRadius>
               <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
             </li>
+            <li Class="JobGiver_AIFollowEscortee"/>
             <li Class="JobGiver_WanderNearDutyLocation">
               <wanderRadius>3</wanderRadius>
             </li>
@@ -379,6 +379,22 @@
   </DutyDef>
 
   <DutyDef>
+    <defName>DefendHiveAggressively</defName>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_HiveDefense">
+          <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>
+          <targetAcquireRadius>50</targetAcquireRadius>
+          <chaseTarget>false</chaseTarget>
+        </li>
+        <li Class="JobGiver_WanderHive">
+          <maxDanger>Deadly</maxDanger>
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
+  <DutyDef>
     <defName>ExitMapRandom</defName>
     <thinkNode Class="JobGiver_ExitMapRandom">
       <defaultLocomotion>Walk</defaultLocomotion>
@@ -474,6 +490,7 @@
         <li Class="JobGiver_ForceSleepNow" />
       </subNodes>
     </thinkNode>
+    <threatDisabled>true</threatDisabled>
   </DutyDef>
 
 </Defs>

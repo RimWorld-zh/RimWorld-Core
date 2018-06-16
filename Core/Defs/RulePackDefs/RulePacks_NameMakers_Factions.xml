@@ -4,146 +4,20 @@
   <!-- Player initial namers - used initially -->
 
   <RulePackDef>
-    <defName>NamerFactionBasePlayerColony</defName>
+    <defName>NamerInitialSettlementColony</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->Colony</li>
+        <li>r_name->Colony</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
 
   <RulePackDef>
-    <defName>NamerFactionBasePlayerTribe</defName>
+    <defName>NamerInitialSettlementTribe</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->Village</li>
+        <li>r_name->Village</li>
       </rulesStrings>
-    </rulePack>
-  </RulePackDef>
-
-	<!-- Player suggestion namers - used for default name in the 'name faction and/or base' dialogs -->
-	
-	<RulePackDef>
-		<defName>NamerFactionPlayerColonyRandomized</defName>
-		<rulePack>
-			<rulesStrings>
-				<li>name->[colonyname]</li>
-			</rulesStrings>
-			<rulesRaw>
-				<li Class="Rule_File">
-					<keyword>colonyname</keyword>
-					<path>Names/ColonyNames</path>
-				</li>
-			</rulesRaw>
-		</rulePack>
-	</RulePackDef>
-
-	<RulePackDef>
-    <defName>NamerFactionBasePlayerColonyRandomized</defName>
-    <include>
-      <li>NamerFactionBaseOutlander</li>
-    </include>
-  </RulePackDef>
-
-  <!-- Pirate -->
-
-  <RulePackDef>
-    <defName>NamerFactionPirate</defName>
-    <rulePack>
-      <rulesStrings>
-        <li>name->The [badassanimal]s</li>
-        <li>name->The [badassanimal] Men</li>
-        <li>name->The [badassanimal]s of [badassconcept]</li>
-        <li>name->The [badassperson]s of [badassconcept]</li>
-        <li>name->The [badassperson]s</li>
-        <li>name->The [weapon] Men</li>
-        <li>name->The [weapon]s</li>
-        <li>name->The [weapon] [badassanimal]s</li>
-        <li>name->The [badasscolor] [weapon]s</li>
-        <li>name->The [badasscolor] [badassanimal]s</li>
-        <li>name->The [badasscolor] [badassperson]s</li>
-        <li>name->The [badassperson] [groupname]</li>
-        <li>name->The [badassadjective] [groupname]</li>
-        <li>name->The [badassadjective] [badassanimal]s</li>
-        <li>name->The [badassadjective] [badassperson]s</li>
-        <li>name->[weapon] [groupname]</li>
-        <li>name->[badassconcept] [groupname]</li>
-        <li>name->[badassconcept][groupname]</li>
-      </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>badassanimal</keyword>
-          <path>Words/Nouns/Animals_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassadjective</keyword>
-          <path>Words/Adjectives/Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassperson</keyword>
-          <path>Words/Nouns/People_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassconcept</keyword>
-          <path>Words/Nouns/Concepts_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>groupname</keyword>
-          <path>Words/Nouns/GroupNames</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badasscolor</keyword>
-          <path>Words/Nouns/Colors_Badass</path>
-        </li>
-      </rulesRaw>
-    </rulePack>
-  </RulePackDef>
-
-  <RulePackDef>
-    <defName>NamerFactionBasePirate</defName>
-    <rulePack>
-      <rulesStrings>
-        <li>name->[badassanimal] [geography]</li>
-        <li>name->[badassconcept] [geography]</li>
-        <li>name->[badassanimal]'s [geography]</li>
-        <li>name->[badassperson]'s [geography]</li>
-        <li>geography->[terrainfeature]</li>
-        <li>geography->[community]</li>
-      </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>community</keyword>
-          <path>Words/Nouns/Communities</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassanimal</keyword>
-          <path>Words/Nouns/Animals_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassadjective</keyword>
-          <path>Words/Adjectives/Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassperson</keyword>
-          <path>Words/Nouns/People_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badassconcept</keyword>
-          <path>Words/Nouns/Concepts_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>groupname</keyword>
-          <path>Words/Nouns/GroupNames</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>terrainfeature</keyword>
-          <path>Words/Nouns/TerrainFeatures</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>badasscolor</keyword>
-          <path>Words/Nouns/Colors_Badass</path>
-        </li>
-      </rulesRaw>
     </rulePack>
   </RulePackDef>
 
@@ -153,20 +27,20 @@
     <defName>OutlanderWord</defName>
     <rulePack>
       <rulesStrings>
-        <li>outlanderword->[olsyl][olendsyl]</li>
-        <li>outlanderword->[olsyl][olendsyl]</li>
-        <li>outlanderword->[olsyl][olendsyl]</li>
-        <li>outlanderword->[olsyl][olsyl][olendsyl]</li>
-        <li>outlanderword->[olsyl][olsyl][olendsyl]</li>
-        <li>outlanderword->[olsyl][olsyl][olsyl][olendsyl]</li>
+        <li>outlanderword->[esyl][placeend]</li>
+        <li>outlanderword->[esyl][placeend]</li>
+        <li>outlanderword->[esyl][placeend]</li>
+        <li>outlanderword->[esyl][esyl][placeend]</li>
+        <li>outlanderword->[esyl][esyl][placeend]</li>
+        <li>outlanderword->[esyl][esyl][esyl][placeend]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
-          <keyword>olsyl</keyword>
+          <keyword>esyl</keyword>
           <path>WordParts/Syllables_English</path>
         </li>
         <li Class="Rule_File">
-          <keyword>olendsyl</keyword>
+          <keyword>placeend</keyword>
           <path>WordParts/PlaceEndings</path>
         </li>
       </rulesRaw>
@@ -180,17 +54,13 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>name->[subname]</li>
-        <li>name->[subname]</li>
-        <li>name->[subname]</li>
-        <li>name->[subname] [politicalunion]</li>
-        <li>name->[subname] [politicaladjective] [politicalunion]</li>
-        <li>name->[politicalunion] of [subname]</li>
-        <li>name->[politicaladjective] [politicalunion] of [subname]</li>
-        <li>subname->[outlanderword]</li>
-        <li>subname->[outlanderword]</li>
-        <li>subname->[outlanderword]</li>
-        <li>subname->[direction] [outlanderword]</li>
+        <li>r_name(p=3)->[nearnameinitial]</li>
+        <li>r_name->[nearnameinitial] [politicalunion]</li>
+        <li>r_name->[nearnameinitial] [politicaladjective] [politicalunion]</li>
+        <li>r_name->[politicalunion] of [nearnameinitial]</li>
+        <li>r_name->[politicaladjective] [politicalunion] of [nearnameinitial]</li>
+        <li>nearnameinitial(p=3)->[outlanderword]</li>
+        <li>nearnameinitial->[Direction] [outlanderword]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -206,23 +76,40 @@
   </RulePackDef>
 
   <RulePackDef>
-    <defName>NamerFactionBaseOutlander</defName>
+    <defName>NamerSettlementOutlander</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[positiveconcept]'s [terrainfeature]</li>
-        <li>name->[outlander]'s [terrainfeature]</li>
-        <li>name->[outlander]'s [community]</li>
-        <li>name->[nearname]</li>
-        <li>name->[wordname]</li>
-        <li>name->[wordname]</li>
-        <li>nearname->[subname]-at-the-[terrainfeature]</li>
-        <li>nearname->[subname]-by-the-[terrainfeature]</li>
-        <li>subname->[wordname]</li>
-        <li>subname->[community]</li>
-        <li>wordname->[syl][syl]</li>
-        <li>wordname->[syl][townend]</li>
-        <li>wordname->[syl][syl][townend]</li>
-        <li>wordname->[terrainfeature][townend]</li>
+        <li>r_name(p=12)->[townname_wordgen]</li>
+        <li>r_name(p=6)->[townname_fixed]</li>
+        <li>r_name(p=4)->[townname_combo]</li>
+        <li>r_name->[townname_near]</li>
+
+        <li>topicalnoun->[Vegetable]</li>
+        <li>topicalnoun->[Game]</li>
+        <li>topicalnoun->[BodyPart]</li>
+
+        <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
+        <li>townname_combo->[topicalnoun] [Community]</li>
+        <li>townname_combo->[topicalnoun]'s [TerrainFeature]</li>
+        <li>townname_combo->[topicalnoun]'s [Community]</li>
+        <li>townname_combo(p=2)->[concept_positive]'s [TerrainFeature]</li>
+        <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
+        <li>townname_combo(p=2)->[concept_positive] [Community]</li>
+        <li>townname_combo(p=3)->[Character]'s [TerrainFeature]</li>
+        <li>townname_combo(p=3)->[Character]'s [Community]</li>
+
+        <li>townname_near->[nearnameinitial]-at-the-[TerrainFeature]</li>
+        <li>townname_near->[nearnameinitial]-by-the-[TerrainFeature]</li>
+        <li>townname_near->[nearnameinitial]-on-the-[TerrainFeature]</li>
+        <li>nearnameinitial->[townname_wordgen]</li>
+        <li>nearnameinitial->[Community]</li>
+
+        <li>townname_wordgen(p=2)->[syl][syl]</li>
+        <li>townname_wordgen(p=2)->[syl][syl][syl]</li>
+        <li>townname_wordgen(p=2)->[syl][townend]</li>
+        <li>townname_wordgen(p=2)->[syl][syl][townend]</li>
+        <li>townname_wordgen->[TerrainFeature][townend]</li>
+        <li>townname_wordgen->[topicalnoun][townend]</li>
         <li>townend->ville</li>
         <li>townend->town</li>
         <li>townend->hurst</li>
@@ -235,10 +122,25 @@
         <li>townend->mere</li>
         <li>townend->shaw</li>
         <li>townend->wick</li>
+        <li>townend->ton</li>
+        <li>townend->ston</li>
+        <li>townend->os</li>
+        <li>townend->den</li>
+        <li>townend->tas</li>
+        <li>townend->wood</li>
+        <li>townend->land</li>
+        <li>townend->worth</li>
+        <li>townend->roon</li>
+        <li>townend->ron</li>
+        <li>townend->well</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
-          <keyword>positiveconcept</keyword>
+          <keyword>townname_fixed</keyword>
+          <path>Names/OutlanderTown</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>concept_positive</keyword>
           <path>Words/Nouns/Concepts_Positive</path>
         </li>
         <li Class="Rule_File">
@@ -250,10 +152,9 @@
           <path>Words/Nouns/TerrainFeatures</path>
         </li>
         <li Class="Rule_File">
-          <keyword>outlander</keyword>
+          <keyword>person</keyword>
           <pathList>
-            <li>Words/Nouns/People_Outlanders</li>
-            <li>Words/Nouns/People_Family</li>
+            <li>Words/Nouns/People_General</li>
           </pathList>
         </li>
         <li Class="Rule_File">
@@ -298,19 +199,19 @@
     </include>
     <rulePack>
       <rulesStrings>
-        <li>name->[tribalworld] [politicalunion]</li>
-        <li>name->The [tribalworld] [politicalunion]</li>
-        <li>name->The [color] [terrainfeature] [politicalunion]</li>
-        <li>name->[politicalunion] of [tribalword]</li>
-        <li>name->The [color] [animal] [tribalword]</li>
-        <li>name->The [tribalword] of the [terrainfeature]</li>
+        <li>r_name->[tribalworld] [politicalunion]</li>
+        <li>r_name->The [tribalworld] [politicalunion]</li>
+        <li>r_name->The [Color] [TerrainFeature] [politicalunion]</li>
+        <li>r_name->[politicalunion] of [tribalword]</li>
+        <li>r_name->The [Color] [Animal] [tribalword]</li>
+        <li>r_name->The [tribalword] of the [TerrainFeature]</li>
         <li>tribalword->[tribalwordfile]</li>
-        <li>tribalword->[syl][syl]</li>
-				<li>tribalword->[syl][syl]</li>
-				<li>tribalword->[syl][syl]</li>
-				<li>tribalword->[syl][syl][syl]</li>
-				<li>tribalword->[syl][syl][syl]</li>
-				<li>tribalword->[syl][syl][syl][syl]</li>
+        <li>tribalword->[trsyl][trsyl]</li>
+				<li>tribalword->[trsyl][trsyl]</li>
+				<li>tribalword->[trsyl][trsyl]</li>
+				<li>tribalword->[trsyl][trsyl][trsyl]</li>
+				<li>tribalword->[trsyl][trsyl][trsyl]</li>
+				<li>tribalword->[trsyl][trsyl][trsyl][trsyl]</li>
 			</rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -318,7 +219,7 @@
           <path>Words/Foreign/Tribal</path>
         </li>
         <li Class="Rule_File">
-          <keyword>syl</keyword>
+          <keyword>trsyl</keyword>
           <path>WordParts/Syllables_Tribal</path>
         </li>
         <li Class="Rule_File">
@@ -330,17 +231,17 @@
   </RulePackDef>
 
   <RulePackDef>
-    <defName>NamerFactionBaseTribal</defName>
+    <defName>NamerSettlementTribal</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[tribalword]</li>
-        <li>name->[tribalword]</li>
-        <li>name->[color] [tribalword]</li>
-        <li>name->[color] [terrainfeature]</li>
-        <li>name->[tribalword] [terrainfeature]</li>
+        <li>r_name->[tribalword]</li>
+        <li>r_name->[tribalword]</li>
+        <li>r_name->[Color] [tribalword]</li>
+        <li>r_name->[Color] [TerrainFeature]</li>
+        <li>r_name->[tribalword] [TerrainFeature]</li>
         <li>tribalword->[tribalwordfile]</li>
-        <li>tribalword->[syl][syl]</li>
-        <li>tribalword->[syl][syl][syl]</li>
+        <li>tribalword->[trsyl][trsyl]</li>
+        <li>tribalword->[trsyl][trsyl][trsyl]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -348,26 +249,142 @@
           <path>Words/Foreign/Tribal</path>
         </li>
         <li Class="Rule_File">
-          <keyword>terrainfeature</keyword>
-          <path>Words/Nouns/TerrainFeatures</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>syl</keyword>
+          <keyword>trsyl</keyword>
           <path>WordParts/Syllables_Tribal</path>
         </li>
       </rulesRaw>
     </rulePack>
   </RulePackDef>
 
-  <!-- Special -->
+ <!-- Pirate -->
 
   <RulePackDef>
-    <defName>NamerFactionSpacer</defName>
+    <defName>NamerFactionPirate</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->Spacer</li>
+        <li>r_name->The [animal_badass]s</li>
+        <li>r_name->The [animal_badass] Men</li>
+        <li>r_name->The [animal_badass]s of [concept_badass]</li>
+        <li>r_name->The [person_badass]s of [concept_badass]</li>
+        <li>r_name->The [person_badass]s</li>
+        <li>r_name->The [Weapon] Men</li>
+        <li>r_name->The [Weapon]s</li>
+        <li>r_name->The [Weapon] [animal_badass]s</li>
+        <li>r_name->The [color_badass] [Weapon]s</li>
+        <li>r_name->The [color_badass] [animal_badass]s</li>
+        <li>r_name->The [color_badass] [person_badass]s</li>
+        <li>r_name->The [person_badass] [groupname]</li>
+        <li>r_name->The [AdjectiveBadass] [groupname]</li>
+        <li>r_name->The [AdjectiveBadass] [animal_badass]s</li>
+        <li>r_name->The [AdjectiveBadass] [person_badass]s</li>
+        <li>r_name->[Weapon] [groupname]</li>
+        <li>r_name->[concept_badass] [groupname]</li>
+        <li>r_name->[concept_badass][groupname]</li>
       </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>animal_badass</keyword>
+          <path>Words/Nouns/Animals_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>adjective_badass</keyword>
+          <path>Words/Adjectives/Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>person_badass</keyword>
+          <path>Words/Nouns/People_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>concept_badass</keyword>
+          <path>Words/Nouns/Concepts_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>groupname</keyword>
+          <path>Words/Nouns/GroupNames</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>color_badass</keyword>
+          <path>Words/Nouns/Colors_Badass</path>
+        </li>
+      </rulesRaw>
     </rulePack>
   </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerSettlementPirate</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=4)->[townname_combo]</li>
+        <li>r_name->[townname_wordgen]</li>
+
+        <li>townname_combo->[animal_badass] [geography]</li>
+        <li>townname_combo->[animal_badass]'s [geography]</li>
+        <li>townname_combo->[concept_badass] [geography]</li>
+        <li>townname_combo->[concept_badass]'s' [geography]</li>
+        <li>townname_combo->[person_badass] [geography]</li>
+        <li>townname_combo->[person_badass]'s [geography]</li>
+        <li>townname_combo->[Enemy]'s [geography]</li>
+        <li>townname_combo->[Enemy] [geography]</li>
+        <li>townname_combo->[Weapon]'s [geography]</li>
+        <li>townname_combo->[Weapon] [geography]</li>
+        <li>townname_combo->[color_badass] [geography]</li>
+        <li>geography(p=2)->[TerrainFeature]</li>
+        <li>geography->[Community]</li>
+
+        <li>townname_wordgen(p=2)->[esyl][esyl]</li>
+        <li>townname_wordgen(p=2)->[esyl][esyl][esyl]</li>
+        <li>townname_wordgen(p=2)->[esyl][townendevil]</li>
+        <li>townname_wordgen(p=2)->[esyl][esyl][townendevil]</li>
+        <li>townendevil->vast</li>
+        <li>townendevil->varg</li>
+        <li>townendevil->vix</li>
+        <li>townendevil->tor</li>
+        <li>townendevil->tear</li>
+        <li>townendevil->cut</li>
+        <li>townendevil->lop</li>
+        <li>townendevil->oze</li>
+        <li>townendevil->ozzle</li>
+        <li>townendevil->latch</li>
+        <li>townendevil->lock</li>
+        <li>townendevil->burn</li>
+        <li>townendevil->sear</li>
+        <li>townendevil->shank</li>
+        <li>townendevil->hurt</li>
+        <li>townendevil->vash</li>
+        <li>townendevil->warg</li>
+        <li>townendevil->wug</li>
+        <li>townendevil->thot</li>
+        <li>townendevil->thard</li>
+        <li>townendevil->thad</li>
+      </rulesStrings>
+      <rulesRaw>
+      <li Class="Rule_File">
+          <keyword>esyl</keyword>
+          <path>WordParts/Syllables_English</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>animal_badass</keyword>
+          <path>Words/Nouns/Animals_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>adjective_badass</keyword>
+          <path>Words/Adjectives/Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>person_badass</keyword>
+          <path>Words/Nouns/People_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>concept_badass</keyword>
+          <path>Words/Nouns/Concepts_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>color_badass</keyword>
+          <path>Words/Nouns/Colors_Badass</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
 
 </Defs>

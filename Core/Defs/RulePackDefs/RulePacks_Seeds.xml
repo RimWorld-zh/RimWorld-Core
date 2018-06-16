@@ -5,28 +5,28 @@
     <defName>SeedGenerator</defName>
     <rulePack>
       <rulesStrings>
-        <li>seed->[personnamemale]</li>
-        <li>seed->[personnamemale]</li>
-        <li>seed->[personnamemale]</li>
-        <li>seed->[personnamefemale]</li>
-        <li>seed->[personnamefemale]</li>
-        <li>seed->[personnamefemale]</li>
-        <li>seed->[animal]</li>
-        <li>seed->[terrainfeature]</li>
-        <li>seed->[outlander]</li>
-        <li>seed->[apparel]</li>
-        <li>seed->[adjective]</li>
-        <li>seed->[concept]</li>
-        <li>seed->[tribalword]</li>
-        <li>seed->[rareseed]</li>
-        <li>seed->[rareseed]</li>
-        <li>rareseed->[weapon]</li>
-        <li>rareseed->[color]</li>
-        <li>rareseed->[vegetable]</li>
-        <li>rareseed->[game]</li>
+        <li>r_seed->[personname_male]</li>
+        <li>r_seed->[personname_male]</li>
+        <li>r_seed->[personname_male]</li>
+        <li>r_seed->[personname_female]</li>
+        <li>r_seed->[personname_female]</li>
+        <li>r_seed->[personname_female]</li>
+        <li>r_seed->[Animal]</li>
+        <li>r_seed->[TerrainFeature]</li>
+        <li>r_seed->[Person]</li>
+        <li>r_seed->[Apparel]</li>
+        <li>r_seed->[Adjective]</li>
+        <li>r_seed->[Concept]</li>
+        <li>r_seed->[tribalword]</li>
+        <li>r_seed->[rareseed]</li>
+        <li>r_seed->[rareseed]</li>
+        <li>rareseed->[Weapon]</li>
+        <li>rareseed->[Color]</li>
+        <li>rareseed->[Vegetable]</li>
+        <li>rareseed->[Game]</li>
         <li>rareseed->[businessname]</li>
         <li>rareseed->[businesstype]</li>
-        <li>rareseed->[community]</li>
+        <li>rareseed->[Community]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -43,11 +43,11 @@
         </li>
         <li Class="Rule_PersonName">
           <gender>Male</gender>
-          <keyword>personnamemale</keyword>
+          <keyword>personname_male</keyword>
         </li>
         <li Class="Rule_PersonName">
           <gender>Female</gender>
-          <keyword>personnamefemale</keyword>
+          <keyword>personname_female</keyword>
         </li>
       </rulesRaw>
     </rulePack>

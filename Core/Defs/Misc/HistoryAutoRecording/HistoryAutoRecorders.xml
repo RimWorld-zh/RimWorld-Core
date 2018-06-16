@@ -2,7 +2,7 @@
 <Defs>
 
   <HistoryAutoRecorderDef>
-    <defName>WealthTotal</defName>
+    <defName>Wealth_Total</defName>
     <label>wealth (total)</label>
     <graphColor>RGBA(1, 1, 0, 1)</graphColor>
     <recordTicksFrequency>30000</recordTicksFrequency>
@@ -11,20 +11,29 @@
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
-    <defName>WealthItems</defName>
+    <defName>Wealth_Items</defName>
     <label>wealth (items)</label>
-    <graphColor>RGBA(0.9, 0.7, 0, 1)</graphColor>
+    <graphColor>RGBA(0.91, 0.68, 0, 1)</graphColor>
     <recordTicksFrequency>30000</recordTicksFrequency>
     <workerClass>HistoryAutoRecorderWorker_WealthItems</workerClass>
     <graphLabelY>Amount</graphLabelY>
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
-    <defName>WealthBuildings</defName>
+    <defName>Wealth_Buildings</defName>
     <label>wealth (buildings)</label>
     <graphColor>RGBA(0.5, 0.7, 0, 1)</graphColor>
     <recordTicksFrequency>30000</recordTicksFrequency>
     <workerClass>HistoryAutoRecorderWorker_WealthBuildings</workerClass>
+    <graphLabelY>Amount</graphLabelY>
+  </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
+    <defName>Wealth_TameAnimals</defName>
+    <label>wealth (animals)</label>
+    <graphColor>RGBA(0.3, 0.6, 0.48, 1)</graphColor>
+    <recordTicksFrequency>30000</recordTicksFrequency>
+    <workerClass>HistoryAutoRecorderWorker_WealthTameAnimals</workerClass>
     <graphLabelY>Amount</graphLabelY>
   </HistoryAutoRecorderDef>
 

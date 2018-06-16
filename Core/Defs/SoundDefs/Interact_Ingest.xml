@@ -7,7 +7,6 @@
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <priorityMode>PrioritizeNearest</priorityMode>  
-    <sustainStartSound>RawVegetable_EatStart</sustainStartSound>  
     <subSounds>
       <li>
         <muteWhenPaused>True</muteWhenPaused>      
@@ -36,7 +35,6 @@
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <priorityMode>PrioritizeNearest</priorityMode>  
-    <sustainStartSound>RawVegetable_EatStart</sustainStartSound>  
     <subSounds>
       <li>
         <muteWhenPaused>True</muteWhenPaused>      
@@ -69,7 +67,6 @@
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <priorityMode>PrioritizeNearest</priorityMode>  
-    <sustainStartSound>RawVegetable_EatStart</sustainStartSound>  
     <subSounds>
       <li>
         <muteWhenPaused>True</muteWhenPaused>      

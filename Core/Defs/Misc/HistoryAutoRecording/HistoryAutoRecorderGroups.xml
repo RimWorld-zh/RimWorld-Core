@@ -4,11 +4,12 @@
   <HistoryAutoRecorderGroupDef>
     <defName>Wealth</defName>
     <label>wealth</label>
-	<historyAutoRecorderDefs>
-	  <li>WealthTotal</li>
-	  <li>WealthItems</li>
-	  <li>WealthBuildings</li>
-	</historyAutoRecorderDefs>
+    <historyAutoRecorderDefs>
+	    <li>Wealth_Total</li>
+	    <li>Wealth_Items</li>
+	    <li>Wealth_Buildings</li>
+	    <li>Wealth_TameAnimals</li>
+    </historyAutoRecorderDefs>
   </HistoryAutoRecorderGroupDef>
   
   <HistoryAutoRecorderGroupDef>

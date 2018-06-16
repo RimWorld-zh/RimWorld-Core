@@ -12,7 +12,7 @@
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been stunned to death.</deathMessage>
 		<armorCategory>Blunt</armorCategory>
-		<explosionDamage>35</explosionDamage>
+		<defaultDamage>20</defaultDamage>
 		<explosionCellMote>Mote_BlastDry</explosionCellMote>
 		<soundExplosion>Explosion_Stun</soundExplosion>
     <combatLogRules>Damage_Stun</combatLogRules>
@@ -25,8 +25,7 @@
 		<deathMessage>{0} has been EMPed to death.</deathMessage>
 		<harmsHealth>false</harmsHealth>
 		<impactSoundType>Electric</impactSoundType>
-		<armorCategory>Electric</armorCategory>
-		<explosionDamage>60</explosionDamage>
+		<defaultDamage>40</defaultDamage>
 		<explosionSnowMeltAmount>0</explosionSnowMeltAmount>
 		<explosionCellMote>Mote_BlastEMP</explosionCellMote>
 		<explosionColorEdge>(0.8, 0.8, 0.8, 0.8)</explosionColorEdge>

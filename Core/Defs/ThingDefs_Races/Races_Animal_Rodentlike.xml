@@ -4,11 +4,11 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Squirrel</defName>
     <label>squirrel</label>
-    <description>One of the many hardy, versatile rodent species that follows humankind everywhere it spreads.</description>
+    <description>One of the many hardy rodent species that follows humankind everywhere it spreads. Squirrels are distinguished by their bushy tails, which they use as umbrellas in bad weather.</description>
     <statBases>
-      <MoveSpeed>6.00</MoveSpeed>
-      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
-      <MarketValue>60</MarketValue>
+      <MoveSpeed>5.25</MoveSpeed>
+      <MarketValue>35</MarketValue>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
     </statBases>
     <tools>
       <li>
@@ -45,6 +45,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -54,17 +55,16 @@
       <baseHealthScale>0.25</baseHealthScale>
 			<baseHungerRate>0.20</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(140,85,36)</leatherColor>
-      <leatherLabel>squirrelskin</leatherLabel>
-      <leatherInsulation>0.85</leatherInsulation>
+      <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
-      <gestationPeriodDays>10</gestationPeriodDays>
+      <trainability>Simple</trainability>
+      <gestationPeriodDays>11</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
           <li>(1, 1)</li>
-          <li>(5, 1)</li>
-          <li>(6, 0)</li>
+          <li>(1.8, 1)</li>
+          <li>(2.4, 0)</li>
         </points>
       </litterSizeCurve>
       <lifeExpectancy>8</lifeExpectancy>
@@ -91,7 +91,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
     </tradeTags>
   </ThingDef>
 
@@ -100,8 +100,7 @@
     <label>squirrel</label>
     <race>Squirrel</race>
     <combatPower>33</combatPower>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <ecoSystemWeight>0.2</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -144,11 +143,11 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Alphabeaver</defName>
     <label>alphabeaver</label>
-    <description>A large beaver derivative genetically engineered to harvest wood with machine-like efficiency. In the absence of specialized feed, these animals will enter a manic state that compels them to eat trees whole.</description>
+    <description>A large beaver-like creature genetically engineered to harvest wood with machine-like efficiency. In the absence of specialized feed, these animals will enter a manic state that compels them to eat trees whole, and are likely to attack if disturbed.</description>
     <statBases>
       <MoveSpeed>3.50</MoveSpeed>
-      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
       <MarketValue>250</MarketValue>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
     </statBases>
     <tools>
       <li>
@@ -185,21 +184,21 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>0.6</baseBodySize>
+      <baseBodySize>0.45</baseBodySize>
       <baseHungerRate>6.0</baseHungerRate>
       <baseHealthScale>0.7</baseHealthScale>
       <foodType>DendrovoreAnimal</foodType>
-      <leatherColor>(115,83,72)</leatherColor>
-      <leatherLabel>beaverskin</leatherLabel>
-      <leatherInsulation>0.8</leatherInsulation>
+      <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
       <gestationPeriodDays>14</gestationPeriodDays>
+      <manhunterOnDamageChance>0.02</manhunterOnDamageChance>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -232,7 +231,7 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
 
@@ -241,12 +240,11 @@
     <label>alphabeaver</label>
     <race>Alphabeaver</race>
     <combatPower>40</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.9</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.5</ecoSystemWeight>
+    <wildGroupSize>
       <min>3</min>
       <max>9</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -289,11 +287,12 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Capybara</defName>
     <label>capybara</label>
-    <description>The largest natural rodent, the capybara is well-adapted for steaming jungle.</description>
+    <description>The largest natural rodent, the capybara is well-adapted for steaming jungle environments.</description>
     <statBases>
       <MoveSpeed>3.5</MoveSpeed>
-      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <MarketValue>150</MarketValue>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
     </statBases>
     <tools>
       <li>
@@ -330,6 +329,7 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -340,18 +340,17 @@
       <baseHungerRate>0.30</baseHungerRate>
       <baseHealthScale>0.7</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(185,125,79)</leatherColor>
-      <leatherLabel>capybaraskin</leatherLabel>
-      <leatherInsulation>0.75</leatherInsulation>
+      <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
+      <petness>0.08</petness>
       <nuzzleMtbHours>120</nuzzleMtbHours>
-      <gestationPeriodDays>14</gestationPeriodDays>
+      <gestationPeriodDays>17</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
           <li>(1, 1)</li>
-          <li>(3, 1)</li>
-          <li>(3.5, 0)</li>
+          <li>(1.5, 1)</li>
+          <li>(2, 0)</li>
         </points>
       </litterSizeCurve>
       <lifeExpectancy>12</lifeExpectancy>
@@ -378,7 +377,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
 
@@ -387,12 +386,11 @@
     <label>capybara</label>
     <race>Capybara</race>
     <combatPower>45</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.8</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.35</ecoSystemWeight>
+    <wildGroupSize>
       <min>3</min>
       <max>9</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -439,11 +437,12 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Chinchilla</defName>
     <label>chinchilla</label>
-    <description>A small but quick rodent famous for its exceptionally soft fur.</description>
+    <description>A small, nimble rodent. Its fur is softer than just about anything in the universe, making it very valuable as a trade good.</description>
     <statBases>
-      <MoveSpeed>4.84</MoveSpeed>
-      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
-      <MarketValue>120</MarketValue>
+      <MoveSpeed>5.00</MoveSpeed>
+      <MarketValue>150</MarketValue>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMax>55</ComfyTemperatureMax>
     </statBases>
     <tools>
       <li>
@@ -480,6 +479,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -489,14 +489,21 @@
       <baseHealthScale>0.4</baseHealthScale>
 			<baseHungerRate>0.30</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
-      <leatherLabel>chinchilla fur</leatherLabel>
-      <leatherInsulation>1.1</leatherInsulation>
-      <leatherMarketValueFactor>3</leatherMarketValueFactor>
-      <leatherColor>178,170,158</leatherColor>
+      <leatherDef>Leather_Chinchilla</leatherDef>
       <wildness>0.60</wildness>
+      <trainability>Intermediate</trainability>
+      <petness>0.20</petness>
       <mateMtbHours>8</mateMtbHours>
-      <nuzzleMtbHours>72</nuzzleMtbHours>
-      <gestationPeriodDays>8</gestationPeriodDays>
+      <nuzzleMtbHours>48</nuzzleMtbHours>
+      <gestationPeriodDays>12</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2.5, 1)</li>
+          <li>(3, 0)</li>
+        </points>
+      </litterSizeCurve>
       <lifeExpectancy>9</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -521,7 +528,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalUncommon</li>
     </tradeTags>
   </ThingDef>
 
@@ -530,12 +537,11 @@
     <label>chinchilla</label>
     <race>Chinchilla</race>
     <combatPower>33</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
+    <wildGroupSize>
       <min>1</min>
       <max>1</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -584,9 +590,9 @@
     <label>boomrat</label>
     <description>Either by deliberate genetic weaponization, or as an unusual defense mechanism, these rodent-like creatures create a powerful fire-starting explosion when killed.</description>
     <statBases>
-      <MoveSpeed>5.5</MoveSpeed>
-      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
-      <MarketValue>130</MarketValue>
+      <MoveSpeed>4.75</MoveSpeed>
+      <MarketValue>100</MarketValue>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
     </statBases>
     <tools>
       <li>
@@ -623,6 +629,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -633,20 +640,20 @@
       <baseHungerRate>0.35</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherColor>(115,37,28)</leatherColor>
-      <leatherInsulation>0.7</leatherInsulation>
+      <leatherDef>Leather_Light</leatherDef>
       <executionRange>4</executionRange>
       <wildness>0.75</wildness>
+      <petness>0.20</petness>
       <mateMtbHours>8</mateMtbHours>
       <nuzzleMtbHours>120</nuzzleMtbHours>
       <canBePredatorPrey>false</canBePredatorPrey>
-      <gestationPeriodDays>12.5</gestationPeriodDays>
+      <gestationPeriodDays>12</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
           <li>(1, 1)</li>
-          <li>(5, 1)</li>
-          <li>(5.5, 0)</li>
+          <li>(2.5, 1)</li>
+          <li>(3, 0)</li>
         </points>
       </litterSizeCurve>
       <lifeExpectancy>8</lifeExpectancy>
@@ -673,8 +680,8 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
-      <li>BadassAnimal</li>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
 
@@ -683,8 +690,7 @@
     <label>boomrat</label>
     <race>Boomrat</race>
     <combatPower>55</combatPower>
-    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <ecoSystemWeight>0.30</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -734,11 +740,11 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Raccoon</defName>
     <label>raccoon</label>
-    <description>A small, hardy animal that ranges wide across forests and shrubland. Eats almost anything.</description>
+    <description>A small, hardy animal that ranges wide across forests and shrubland. It is happy to break into your garbage container, or your kitchen, to eat almost anything.</description>
     <statBases>
       <MoveSpeed>4.0</MoveSpeed>
+      <MarketValue>100</MarketValue>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
-      <MarketValue>110</MarketValue>
     </statBases>
     <tools>
       <li>
@@ -775,6 +781,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -784,8 +791,7 @@
       <baseHealthScale>0.4</baseHealthScale>
 			<baseHungerRate>0.32</baseHungerRate>
 			<foodType>OmnivoreRoughAnimal</foodType>
-      <leatherColor>(174,172,174)</leatherColor>
-      <leatherInsulation>0.7</leatherInsulation>
+      <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
       <mateMtbHours>8</mateMtbHours>
       <gestationPeriodDays>12</gestationPeriodDays>
@@ -793,8 +799,8 @@
         <points>
           <li>(0.5, 0)</li>
           <li>(1, 1)</li>
-          <li>(5, 1)</li>
-          <li>(5.5, 0)</li>
+          <li>(2, 1)</li>
+          <li>(2.5, 0)</li>
         </points>
       </litterSizeCurve>
       <lifeExpectancy>8</lifeExpectancy>
@@ -821,7 +827,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
     </tradeTags>
   </ThingDef>
 
@@ -830,8 +836,7 @@
     <label>raccoon</label>
     <race>Raccoon</race>
     <combatPower>35</combatPower>
-    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <ecoSystemWeight>0.30</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -877,11 +882,11 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Rat</defName>
     <label>rat</label>
-    <description>A rodent famous for soiling kitchens and spreading disease. Eats almost anything; lives almost anywhere.</description>
+    <description>A widely-hated rodent known for soiling kitchens and spreading disease, rats have a way of following humans everywhere they go. It eats almost anything and lives almost anywhere.</description>
     <statBases>
-      <MoveSpeed>3.6</MoveSpeed>
+      <MoveSpeed>4.0</MoveSpeed>
+      <MarketValue>35</MarketValue>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
-      <MarketValue>60</MarketValue>
     </statBases>
     <tools>
       <li>
@@ -918,6 +923,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
       </li>
     </tools>
@@ -927,17 +933,18 @@
       <baseHungerRate>0.20</baseHungerRate>
       <baseHealthScale>0.29</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherColor>(110,95,82)</leatherColor>
-      <leatherInsulation>0.7</leatherInsulation>
+      <leatherDef>Leather_Light</leatherDef>
       <wildness>0.50</wildness>
+      <trainability>Simple</trainability>
+      <petness>0.15</petness>
       <mateMtbHours>8</mateMtbHours>
-      <gestationPeriodDays>12</gestationPeriodDays>
+      <gestationPeriodDays>10</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
           <li>(1, 1)</li>
-          <li>(5, 1)</li>
-          <li>(5.5, 0)</li>
+          <li>(2.2, 1)</li>
+          <li>(2.8, 0)</li>
         </points>
       </litterSizeCurve>
       <lifeExpectancy>8</lifeExpectancy>
@@ -964,7 +971,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
     </tradeTags>
   </ThingDef>
 
@@ -973,8 +980,7 @@
     <label>rat</label>
     <race>Rat</race>
     <combatPower>30</combatPower>
-    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <ecoSystemWeight>0.20</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>

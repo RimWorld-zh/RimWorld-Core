@@ -174,4 +174,12 @@
 		<needsOpportunity>true</needsOpportunity>
 	</ConceptDef>
 
+  <ConceptDef>
+    <defName>QueueOrders</defName>
+    <label>Order queueing</label>
+    <priority>50</priority>
+    <helpText>When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns.</helpText>
+    <needsOpportunity>true</needsOpportunity>
+  </ConceptDef>
+
 </Defs>

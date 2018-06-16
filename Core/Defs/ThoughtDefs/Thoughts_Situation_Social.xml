@@ -294,21 +294,6 @@
     <nullifiedIfNotColonist>true</nullifiedIfNotColonist>
   </ThoughtDef>
   
-  <ThoughtDef>
-    <defName>KilledMajorColonyEnemy</defName>
-    <thoughtClass>Thought_Tale</thoughtClass>
-    <workerClass>ThoughtWorker_Tale</workerClass>
-    <taleDef>KilledMajorColonyEnemy</taleDef>
-    <validWhileDespawned>true</validWhileDespawned>
-    <stages>
-      <li>
-        <label>killed major enemy</label>
-        <baseOpinionOffset>10</baseOpinionOffset>
-      </li>
-    </stages>
-    <nullifiedIfNotColonist>true</nullifiedIfNotColonist>
-  </ThoughtDef>
-  
   <!-- affecting mood -->
   
   <ThoughtDef>

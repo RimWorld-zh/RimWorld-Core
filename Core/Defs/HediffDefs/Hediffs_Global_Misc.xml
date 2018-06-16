@@ -64,6 +64,7 @@
   <HediffDef ParentName="DiseaseBase">
     <defName>Anesthetic</defName>
     <label>anesthetic</label>
+    <isBad>false</isBad>
     <comps>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>
@@ -173,17 +174,38 @@
     <defName>FoodPoisoning</defName>
     <label>food poisoning</label>
     <scenarioCanAdd>true</scenarioCanAdd>
+    <initialSeverity>1</initialSeverity>
     <comps>
-      <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>
-          <min>30000</min>
-          <max>30000</max>
-        </disappearsAfterTicks>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
       </li>
     </comps>
     <stages>
       <li>
+        <label>recovering</label>
         <vomitMtbDays>0.35</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.5</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>major</label>
+        <minSeverity>0.2</minSeverity>
+        <vomitMtbDays>0.3</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.1</postFactor>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.8</minSeverity>
+        <vomitMtbDays>0.3</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -323,6 +345,8 @@
         <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
         <discoverLetterLabel>{0} pregnant</discoverLetterLabel>
         <discoverLetterText>{0} is pregnant!</discoverLetterText>
+        <letterType>PositiveEvent</letterType>
+        <messageType>PositiveEvent</messageType>
       </li>
     </comps>
     <stages>

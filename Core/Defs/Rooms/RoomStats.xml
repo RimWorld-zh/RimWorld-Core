@@ -234,7 +234,7 @@
   
   <RoomStatDef>
     <defName>GraveVisitingJoyGainFactor</defName>
-    <label>grave visiting joy gain factor</label>
+    <label>grave visiting recreation factor</label>
     <workerClass>RoomStatWorker_GraveVisitingJoyGainFactor</workerClass>
     <updatePriority>0</updatePriority>
     <isHidden>true</isHidden>

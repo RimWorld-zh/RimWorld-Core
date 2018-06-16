@@ -5,13 +5,13 @@
     <defName>NamerPersonTribal</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[tribalword] '[badassanimal]' [tribalword]</li>
-        <li>name->[color] [tribalword]</li>
-        <li>name->[tribalword] [tribalword]</li>
-        <li>name->[tribalword] [tribalword]</li>
-        <li>name->[tribalword] [animal]</li>
-        <li>name->[animal] [tribalword]</li>
-        <li>name->[color] [animal]</li>
+        <li>r_name->[tribalword] '[animal_badass]' [tribalword]</li>
+        <li>r_name->[Color] [tribalword]</li>
+        <li>r_name->[tribalword] [tribalword]</li>
+        <li>r_name->[tribalword] [tribalword]</li>
+        <li>r_name->[tribalword] [Animal]</li>
+        <li>r_name->[Animal] [tribalword]</li>
+        <li>r_name->[Color] [Animal]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
@@ -19,7 +19,7 @@
           <path>Words/Foreign/Tribal</path>
         </li>
         <li Class="Rule_File">
-          <keyword>badassanimal</keyword>
+          <keyword>animal_badass</keyword>
           <path>Words/Nouns/Animals_Badass</path>
         </li>
         <li Class="Rule_File">

@@ -2,85 +2,61 @@
 <Defs>
 
   <IncidentDef Name="DiseaseIncident" Abstract="True">
-    <workerClass>IncidentWorker_Disease</workerClass>
-    <category>Disease</category>
+    <workerClass>IncidentWorker_DiseaseHuman</workerClass>
+    <category>DiseaseHuman</category>
     <targetTypes>
-      <li>MapPlayerHome</li>
-      <li>MapTempIncident</li>
-      <li>MapMisc</li>
-      <li>MapRaidBeacon</li>
+      <li>Map_PlayerHome</li>
+      <li>Map_TempIncident</li>
+      <li>Map_Misc</li>
+      <li>Map_RaidBeacon</li>
       <li>Caravan</li>
     </targetTypes>
+    <diseaseVictimFractionRange>
+      <min>0.2</min>
+      <max>0.5</max>
+    </diseaseVictimFractionRange>
   </IncidentDef>
   
   <IncidentDef ParentName="DiseaseIncident">
     <defName>Disease_Flu</defName>
     <label>flu</label>
 	  <diseaseIncident>Flu</diseaseIncident>
-    <diseaseVictimFractionRange>
-      <min>0.2</min>
-      <max>0.5</max>
-    </diseaseVictimFractionRange>
   </IncidentDef>
 
   <IncidentDef ParentName="DiseaseIncident">
     <defName>Disease_Plague</defName>
     <label>plague</label>
 	  <diseaseIncident>Plague</diseaseIncident>
-    <diseaseVictimFractionRange>
-      <min>0.2</min>
-      <max>0.5</max>
-    </diseaseVictimFractionRange>
   </IncidentDef>
   
   <IncidentDef ParentName="DiseaseIncident">
     <defName>Disease_Malaria</defName>
     <label>malaria</label>
 	  <diseaseIncident>Malaria</diseaseIncident>
-    <diseaseVictimFractionRange>
-      <min>0.2</min>
-      <max>0.5</max>
-    </diseaseVictimFractionRange>
   </IncidentDef>
   
   <IncidentDef ParentName="DiseaseIncident">
     <defName>Disease_SleepingSickness</defName>
     <label>sleeping sickness</label>
 	  <diseaseIncident>SleepingSickness</diseaseIncident>
-    <diseaseVictimFractionRange>
-      <min>0.2</min>
-      <max>0.5</max>
-    </diseaseVictimFractionRange>
   </IncidentDef>
   
   <IncidentDef ParentName="DiseaseIncident">
     <defName>Disease_FibrousMechanites</defName>
     <label>fibrous mechanites</label>
     <diseaseIncident>FibrousMechanites</diseaseIncident>
-    <diseaseVictimFractionRange>
-      <min>0.2</min>
-      <max>0.5</max>
-    </diseaseVictimFractionRange>
   </IncidentDef>
   
   <IncidentDef ParentName="DiseaseIncident">
     <defName>Disease_SensoryMechanites</defName>
     <label>sensory mechanites</label>
     <diseaseIncident>SensoryMechanites</diseaseIncident>
-    <diseaseVictimFractionRange>
-      <min>0.2</min>
-      <max>0.5</max>
-    </diseaseVictimFractionRange>
   </IncidentDef>
 
   <IncidentDef ParentName="DiseaseIncident">
     <defName>Disease_GutWorms</defName>
     <label>gut worms</label>
     <diseaseIncident>GutWorms</diseaseIncident>
-    <diseaseVictimFractionRange>
-      <min>0.2</min>
-      <max>0.5</max>
-    </diseaseVictimFractionRange>
     <diseasePartsToAffect>
       <li>Stomach</li>
     </diseasePartsToAffect>
@@ -90,10 +66,27 @@
     <defName>Disease_MuscleParasites</defName>
     <label>muscle parasites</label>
     <diseaseIncident>MuscleParasites</diseaseIncident>
+  </IncidentDef>
+
+  <IncidentDef Name="DiseaseAnimalIncident" Abstract="True" ParentName="DiseaseIncident">
+    <workerClass>IncidentWorker_DiseaseAnimal</workerClass>
+    <category>DiseaseAnimal</category>
     <diseaseVictimFractionRange>
-      <min>0.2</min>
-      <max>0.5</max>
+      <min>0.3</min>
+      <max>0.7</max>
     </diseaseVictimFractionRange>
   </IncidentDef>
 
+  <IncidentDef ParentName="DiseaseAnimalIncident">
+    <defName>Disease_AnimalFlu</defName>
+    <label>flu (animals)</label>
+    <diseaseIncident>Animal_Flu</diseaseIncident>
+  </IncidentDef>
+
+  <IncidentDef ParentName="DiseaseAnimalIncident">
+    <defName>Disease_AnimalPlague</defName>
+    <label>plague (animals)</label>
+    <diseaseIncident>Animal_Plague</diseaseIncident>
+  </IncidentDef>
+  
 </Defs>

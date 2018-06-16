@@ -4,14 +4,15 @@
   <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseInsect">
     <statBases>
       <ToxicSensitivity>0</ToxicSensitivity>
+      <ComfyTemperatureMax>60</ComfyTemperatureMax>
     </statBases>
     <race>
       <fleshType>Insectoid</fleshType>
-      <bloodDef>FilthBloodInsect</bloodDef>
+      <bloodDef>Filth_BloodInsect</bloodDef>
       <meatColor>(160,150,140)</meatColor>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
-      <manhunterOnDamageChance>1</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
     </race>
   </ThingDef>
 
@@ -20,9 +21,9 @@
   <ThingDef ParentName="BaseInsect">
     <defName>Megascarab</defName>
     <label>megascarab</label>
-    <description>A large, genetically-engineered beetle. Once the worker caste of an artifical ecosystem of insectoids designed to fight mechanoid invasions, it is now usually seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
+    <description>A large, genetically-engineered beetle. Once the worker caste of an artifical ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
     <statBases>
-      <MoveSpeed>4.7</MoveSpeed>
+      <MoveSpeed>4.5</MoveSpeed>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -35,7 +36,7 @@
           <li>Bite</li>
         </capacities>
         <power>7</power>
-        <cooldownTime>2.5</cooldownTime>
+        <cooldownTime>2.9</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -46,7 +47,8 @@
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <commonality>0.1</commonality>
       </li>
     </tools>
     <race>
@@ -80,7 +82,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>Insectoid</li>
+      <li>AnimalInsect</li>
     </tradeTags>
   </ThingDef>
   
@@ -90,8 +92,7 @@
     <race>Megascarab</race>
     <combatPower>40</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+		<ecoSystemWeight>0.15</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -138,11 +139,11 @@
   <ThingDef ParentName="BaseInsect">
     <defName>Spelopede</defName>
     <label>spelopede</label>
-    <description>A medium-sized bioengineered bug the size of a sheep. The spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its claws.</description>
+    <description>A medium-sized bioengineered bug the size of a sheep. The spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its digging claws.</description>
     <statBases>
-      <MoveSpeed>4.3</MoveSpeed>
+      <MoveSpeed>4.0</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
-      <MarketValue>450</MarketValue>
+      <MarketValue>200</MarketValue>
       <LeatherAmount>0</LeatherAmount>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
@@ -153,7 +154,7 @@
           <li>Cut</li>
         </capacities>
         <power>9</power>
-        <cooldownTime>2.5</cooldownTime>
+        <cooldownTime>2.9</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
       </li>
       <li>
@@ -164,7 +165,8 @@
         <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <commonality>0.1</commonality>
       </li>
     </tools>
     <race>
@@ -199,7 +201,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>Insectoid</li>
+      <li>AnimalInsect</li>
     </tradeTags>
   </ThingDef>
 
@@ -209,8 +211,7 @@
     <race>Spelopede</race>
     <combatPower>75</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+		<ecoSystemWeight>0.35</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -259,9 +260,9 @@
     <label>megaspider</label>
     <description>Not actually a spider, the megaspider is a genetically-engineered giant insectoid the size of a bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long deadly ripper-blades make it deadly.</description>
     <statBases>
-      <MoveSpeed>4.5</MoveSpeed>
+      <MoveSpeed>4.25</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
-      <MarketValue>700</MarketValue>
+      <MarketValue>500</MarketValue>
       <LeatherAmount>0</LeatherAmount>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
@@ -272,7 +273,7 @@
           <li>Cut</li>
         </capacities>
         <power>13</power>
-        <cooldownTime>2.4</cooldownTime>
+        <cooldownTime>2.9</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
       </li>
       <li>
@@ -283,7 +284,8 @@
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <commonality>0.1</commonality>
       </li>
     </tools>
     <race>
@@ -318,7 +320,7 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>Insectoid</li>
+      <li>AnimalInsect</li>
     </tradeTags>
   </ThingDef>
 
@@ -328,8 +330,7 @@
     <race>Megaspider</race>
     <combatPower>150</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+		<ecoSystemWeight>0.50</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
