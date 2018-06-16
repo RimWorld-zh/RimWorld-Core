@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefPackage-TraderKindDef>
+<Defs>
 
   <TraderKindDef>
     <defName>Base_Neolithic_Standard</defName>
@@ -191,4 +191,4 @@
     </stockGenerators>
   </TraderKindDef>
 
-</DefPackage-TraderKindDef>
+</Defs>
