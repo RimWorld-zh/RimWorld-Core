@@ -10,7 +10,7 @@ const path = require('path');
 const rm = require('rimraf');
 const copy = require('copy-concurrently');
 
-const GAME_PATH = '/mnt/e/bak/RimWorld/RimWorld 0.17.1546 rev882';
+const GAME_PATH = '/mnt/e/bak/RimWorld/RimWorld 0.17.1557 rev1150';
 
 async function copyCore() {
   const currentVersion = fs.readFileSync('./Version.txt', 'utf-8').trim();
