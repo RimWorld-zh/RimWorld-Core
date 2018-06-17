@@ -19,7 +19,7 @@ async function copyCore() {
   if (previousVersion === nextVersion) {
     log(
       chalk.greenBright('No change, exit.'),
-      chalk.cyan('Version changed: '),
+      chalk.cyan('Version: '),
       chalk.cyanBright(nextVersion),
     );
 
