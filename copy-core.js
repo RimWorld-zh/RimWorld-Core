@@ -17,7 +17,11 @@ async function copyCore() {
   const nextVersion = fs.readFileSync(`${GAME_PATH}/Version.txt`, 'utf-8').trim();
 
   if (previousVersion === nextVersion) {
-    log(chalk.greenBright('No change, exit.'));
+    log(
+      chalk.greenBright('No change, exit.'),
+      chalk.cyan('Version changed: '),
+      chalk.cyanBright(nextVersion),
+    );
 
     return;
   }
