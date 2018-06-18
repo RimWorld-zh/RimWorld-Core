@@ -21,7 +21,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_Sculpture</nameMaker>
+        <nameMaker>NamerArtSculpture</nameMaker>
         <descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
 				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
       </li>

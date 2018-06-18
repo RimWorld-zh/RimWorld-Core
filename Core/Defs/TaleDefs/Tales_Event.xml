@@ -29,7 +29,7 @@
         <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
         <li>desc_sentence->A [Animal] is fleeing the launch in fear.</li>
         <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
-        <li>desc_sentence->A [Person] watches silently from afar.</li>
+        <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>
@@ -87,10 +87,10 @@
     <baseInterest>10</baseInterest>
     <rulePack>
       <rulesStrings>
-        <li>tale_noun->[PAWN_nameDef] dodging a cavein</li>
+        <li>tale_noun->[PAWN_nameDef] dodging a cave-in</li>
         <li>tale_noun->[PAWN_nameDef] nearly crushed by falling objects</li>
         <li>image->[PAWN_nameFull] leaping away from a collapse of debris [circumstance_group]</li>
-        <li>image->[PAWN_nameFull] narrowly avoiding a cavein [circumstance_group]</li>
+        <li>image->[PAWN_nameFull] narrowly avoiding a cave-in [circumstance_group]</li>
         <li>image->[PAWN_nameFull] avoiding a falling ceiling [circumstance_group]</li>
         <li>image->[PAWN_nameFull] avoiding certain death by a falling rock [circumstance_group]</li>
         <li>circumstance_phrase->that vanishes behind a curtain of debris and dust</li>

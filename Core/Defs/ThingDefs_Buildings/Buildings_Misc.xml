@@ -759,7 +759,7 @@
         <compClass>CompQuality</compClass>
       </li>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_SarcophagusPlate</nameMaker>
+        <nameMaker>NamerArtSarcophagusPlate</nameMaker>
         <descriptionMaker>ArtDescription_SarcophagusPlate</descriptionMaker>
         <mustBeFullGrave>true</mustBeFullGrave>
       </li>

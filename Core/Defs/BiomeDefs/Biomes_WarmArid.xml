@@ -103,8 +103,8 @@
       <Elephant>0.5</Elephant>
       <Rhinoceros>0.5</Rhinoceros>
       <Boomalope>0.5</Boomalope>
-      <Cougar>0.2</Cougar>
-      <Fox_Fennec>0.2</Fox_Fennec>
+      <Cougar>0.15</Cougar>
+      <Fox_Fennec>0.15</Fox_Fennec>
       <Megasloth>0.1</Megasloth>
     </wildAnimals>
     <allowedPackAnimals>
@@ -216,8 +216,8 @@
       <Ostrich>0.5</Ostrich>
       <Emu>0.5</Emu>
       <Gazelle>0.5</Gazelle>
-      <Cougar>0.1</Cougar>
-      <Fox_Fennec>0.1</Fox_Fennec>
+      <Cougar>0.07</Cougar>
+      <Fox_Fennec>0.07</Fox_Fennec>
     </wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>

@@ -108,10 +108,10 @@
 			<Plant_Moss>4.0</Plant_Moss>
 			<Plant_Bush>3.0</Plant_Bush>
 			<Plant_TreePine>5.0</Plant_TreePine>
-			<Plant_Raspberry>1.8</Plant_Raspberry>
 			<Plant_TreeBirch>1.5</Plant_TreeBirch>
 			<Plant_TreePoplar>1.2</Plant_TreePoplar>
-			<Plant_HealrootWild>0.3</Plant_HealrootWild>
+			<Plant_Raspberry>0.16</Plant_Raspberry>
+			<Plant_HealrootWild>0.16</Plant_HealrootWild>
 		</wildPlants>
     <wildAnimals>
       <Squirrel>1</Squirrel>
@@ -126,14 +126,14 @@
       <Turkey>0.5</Turkey>
       <Deer>0.5</Deer>
       <Megasloth>0.1</Megasloth>
-      <Fox_Red>0.1</Fox_Red>
-      <Fox_Arctic>0.1</Fox_Arctic>
-      <Bear_Grizzly>0.1</Bear_Grizzly>
-      <Wolf_Timber>0.1</Wolf_Timber>
-      <Wolf_Arctic>0.1</Wolf_Arctic>
-      <Cougar>0.1</Cougar>
-      <Lynx>0.1</Lynx>
-      <Warg>0.1</Warg>
+      <Fox_Red>0.07</Fox_Red>
+      <Fox_Arctic>0.07</Fox_Arctic>
+      <Bear_Grizzly>0.07</Bear_Grizzly>
+      <Wolf_Timber>0.07</Wolf_Timber>
+      <Wolf_Arctic>0.07</Wolf_Arctic>
+      <Cougar>0.07</Cougar>
+      <Lynx>0.07</Lynx>
+      <Warg>0.07</Warg>
     </wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>
@@ -232,15 +232,15 @@
       <SnowHard>4</SnowHard>
     </baseWeatherCommonalities>
     <wildPlants>
-			<Plant_Grass>0.36</Plant_Grass>
-			<Plant_Moss>0.05</Plant_Moss>
-			<Plant_Bush>0.03</Plant_Bush>
-			<Plant_Raspberry>0.01</Plant_Raspberry>
-			<Plant_Astragalus>0.01</Plant_Astragalus>
-			<Plant_Dandelion>0.01</Plant_Dandelion>
-			<Plant_TreePine>0.005</Plant_TreePine>
-      <Plant_TreeBirch>0.005</Plant_TreeBirch>
-			<Plant_HealrootWild>0.005</Plant_HealrootWild>
+			<Plant_Grass>3.6</Plant_Grass>
+			<Plant_Moss>0.5</Plant_Moss>
+			<Plant_Bush>0.3</Plant_Bush>
+			<Plant_Astragalus>0.1</Plant_Astragalus>
+			<Plant_Dandelion>0.1</Plant_Dandelion>
+			<Plant_Raspberry>0.07</Plant_Raspberry>
+			<Plant_TreePine>0.05</Plant_TreePine>
+      <Plant_TreeBirch>0.05</Plant_TreeBirch>
+			<Plant_HealrootWild>0.05</Plant_HealrootWild>
 		</wildPlants>
     <wildAnimals>
       <Hare>2</Hare>
@@ -250,13 +250,13 @@
       <Muffalo>2</Muffalo>
 			<Ibex>2</Ibex>
       <Megasloth>0.2</Megasloth>
-      <Fox_Arctic>0.1</Fox_Arctic>
-      <Wolf_Arctic>0.1</Wolf_Arctic>
-      <Wolf_Timber>0.1</Wolf_Timber>
-      <Lynx>0.1</Lynx>
-			<Warg>0.1</Warg>
-			<Bear_Polar>0.1</Bear_Polar>
-			<Bear_Grizzly>0.1</Bear_Grizzly>
+      <Fox_Arctic>0.07</Fox_Arctic>
+      <Wolf_Arctic>0.07</Wolf_Arctic>
+      <Wolf_Timber>0.07</Wolf_Timber>
+      <Lynx>0.07</Lynx>
+			<Warg>0.07</Warg>
+			<Bear_Polar>0.07</Bear_Polar>
+			<Bear_Grizzly>0.07</Bear_Grizzly>
 		</wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>
@@ -385,16 +385,16 @@
       <SnowHard>4</SnowHard>
     </baseWeatherCommonalities>
     <wildPlants>
-      <Plant_TallGrass>0.24</Plant_TallGrass>
-      <Plant_Chokevine>0.3</Plant_Chokevine>
-      <Plant_Moss>0.05</Plant_Moss>
-      <Plant_Bush>0.03</Plant_Bush>
-      <Plant_Raspberry>0.01</Plant_Raspberry>
-      <Plant_Astragalus>0.01</Plant_Astragalus>
-      <Plant_TreeWillow>0.06</Plant_TreeWillow>
-      <Plant_TreeCypress>0.06</Plant_TreeCypress>
-      <Plant_TreeMaple>0.06</Plant_TreeMaple>
-      <Plant_HealrootWild>0.005</Plant_HealrootWild>
+      <Plant_Chokevine>3.0</Plant_Chokevine>
+      <Plant_TallGrass>2.4</Plant_TallGrass>
+      <Plant_Moss>0.5</Plant_Moss>
+      <Plant_Bush>0.3</Plant_Bush>
+      <Plant_Astragalus>0.1</Plant_Astragalus>
+      <Plant_TreeWillow>0.6</Plant_TreeWillow>
+      <Plant_TreeCypress>0.6</Plant_TreeCypress>
+      <Plant_TreeMaple>0.6</Plant_TreeMaple>
+      <Plant_Raspberry>0.07</Plant_Raspberry>
+      <Plant_HealrootWild>0.05</Plant_HealrootWild>
     </wildPlants>
     <wildAnimals>
       <Squirrel>1</Squirrel>
@@ -409,15 +409,15 @@
       <Turkey>0.5</Turkey>
       <Deer>0.5</Deer>
       <Megasloth>0.1</Megasloth>
-      <Fox_Red>0.1</Fox_Red>
-      <Fox_Arctic>0.1</Fox_Arctic>
-      <Wolf_Timber>0.1</Wolf_Timber>
-      <Wolf_Arctic>0.1</Wolf_Arctic>
-      <Cougar>0.1</Cougar>
-      <Lynx>0.1</Lynx>
-      <Warg>0.1</Warg>
-      <Bear_Polar>0.1</Bear_Polar>
-      <Bear_Grizzly>0.1</Bear_Grizzly>
+      <Fox_Red>0.07</Fox_Red>
+      <Fox_Arctic>0.07</Fox_Arctic>
+      <Wolf_Timber>0.07</Wolf_Timber>
+      <Wolf_Arctic>0.07</Wolf_Arctic>
+      <Cougar>0.07</Cougar>
+      <Lynx>0.07</Lynx>
+      <Warg>0.07</Warg>
+      <Bear_Polar>0.07</Bear_Polar>
+      <Bear_Grizzly>0.07</Bear_Grizzly>
     </wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>

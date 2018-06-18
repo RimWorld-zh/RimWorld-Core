@@ -205,7 +205,7 @@
     </graphicData>
     <stackLimit>150</stackLimit>
 		<deepCommonality>2</deepCommonality>
-		<deepCountPerCell>300</deepCountPerCell>
+		<deepCountPerCell>400</deepCountPerCell>
     <deepLumpSizeRange>
       <min>6</min>
       <max>24</max>

@@ -20,7 +20,7 @@
   <ThingDef Name="ArtableFurnitureBase" ParentName="FurnitureWithQualityBase" Abstract="True">
     <comps>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_Furniture</nameMaker>
+        <nameMaker>NamerArtFurniture</nameMaker>
         <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
@@ -134,7 +134,7 @@
   <ThingDef Name="ArtableBedBase" ParentName="BedWithQualityBase" Abstract="True">
     <comps>
       <li Class="CompProperties_Art">
-        <nameMaker>ArtName_Furniture</nameMaker>
+        <nameMaker>NamerArtFurniture</nameMaker>
         <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>

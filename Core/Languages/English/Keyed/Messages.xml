@@ -41,7 +41,7 @@
   <LetterLabelMessageRecruitSuccess>New recruit</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0} successfully recruited {1} ({2} chance).</MessageRecruitSuccess>
   <MessageTameSuccess>{0} successfully tamed {1} ({2} chance).</MessageTameSuccess>
-  <MessageTameAndNameSuccess>{0} successfully tamed {1} ({2} chance) and named HIM {3}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{0} successfully tamed {1} ({2} chance) and named [PAWN_objective] {3}.</MessageTameAndNameSuccess>
 
   <MessageColonyCannotAfford>The colony cannot afford this deal.</MessageColonyCannotAfford>
   <MessageColonyNotEnoughSilver>You do not have enough silver ready to trade.</MessageColonyNotEnoughSilver>
@@ -112,7 +112,7 @@
   <MessageMarriageCeremonyAfterPartyFinished>The marriage ceremony for {0} and {1} has finished.</MessageMarriageCeremonyAfterPartyFinished>
   
   <MessageNewBondRelation>{0} and {1} have formed a bond.</MessageNewBondRelation>
-  <MessageNewBondRelationNewName>{0} and {1} have formed a bond. {0} has named HIM {2}.</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{0} and {1} have formed a bond. {0} has named [PAWN_objective] {2}.</MessageNewBondRelationNewName>
   
   <MessageBondedAnimalMentalBreak>{0} has a mental break because of {1}'s death.</MessageBondedAnimalMentalBreak>
   <MessageNamedBondedAnimalMentalBreak>{0} named {1} has a mental break because of {2}'s death.</MessageNamedBondedAnimalMentalBreak>
@@ -174,7 +174,7 @@
 	
 	<MessagePermanentWoundHealed>{1}'s {2} has healed. Cause: {0}</MessagePermanentWoundHealed>
 
-	<MessageRescueeJoined>Since you rescued HIM, {0} has joined your group!</MessageRescueeJoined>
+	<MessageRescueeJoined>Since you rescued [PAWN_objective], {0} has joined your group!</MessageRescueeJoined>
   
   <MessageTransporterUnreachable>Some transport pods are unreachable.</MessageTransporterUnreachable>
   <MessageTransportersNotAdjacent>All pod launchers connected to the selected transport pods must be adjacent.</MessageTransportersNotAdjacent>
@@ -227,7 +227,7 @@
   <MessageSiteCountdownBecauseNoMoreEnemies>You have defeated all enemies. In {0}, the caravan will automatically be reformed.</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
-  <MessageCantBanishDownedPawn>Cannot banish {0} since HE cannot walk.</MessageCantBanishDownedPawn>
+  <MessageCantBanishDownedPawn>Cannot banish {0} since [PAWN_pronoun] cannot walk.</MessageCantBanishDownedPawn>
 
   <MessageSleepingPawnsWokenUp>{0} have woken up.</MessageSleepingPawnsWokenUp>
 
@@ -249,11 +249,11 @@
 
   <MessageWarningCavePlantsExposedToLight>Warning: {0} cannot live when exposed to light.</MessageWarningCavePlantsExposedToLight>
 
-  <MessageTargetedTantrumChangedTarget>{0} couldn't reach {1} so HE decided to redirect HIS anger at {2}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}.</MessageTargetedTantrumChangedTarget>
 
-  <MessageTargetedInsultingSpreeChangedTarget>{0} couldn't reach {1} so HE decided to redirect HIS anger at {2}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
-  <MessageMurderousRageChangedTarget>{0} has decided to redirect HIS anger at {1}.</MessageMurderousRageChangedTarget>
+  <MessageMurderousRageChangedTarget>{0} has decided to redirect [PAWN_possessive] anger at {1}.</MessageMurderousRageChangedTarget>
 
   <MessagePlantIncompatibleWithRoof>{0} cannot grow underneath a roof.</MessagePlantIncompatibleWithRoof>
   <MessageRoofIncompatibleWithPlant>Cannot build a roof over {0}.</MessageRoofIncompatibleWithPlant>

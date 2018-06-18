@@ -3,13 +3,16 @@
 
   <RulePackDef>
     <defName>GlobalUtility</defName>
+    <include>
+      <li>TalkTopicsUtility</li>
+    </include>
     <rulePack>
       <rulesStrings>
         <li>Trans->of</li>
         <li>Trans->for</li>
         <li>Trans->by</li>
         <li>Trans->with</li>
-        <li>Character(p=6)->[Person]</li>
+        <li>Character(p=6)->[PersonJob]</li>
         <li>Character(p=4)->[Animal]</li>
         <li>Character(p=3)->[Enemy]</li>
         <li>Character->[Mechanoid]</li>
@@ -38,41 +41,60 @@
         <li>Shape->star</li>
         <li>Shape->circle</li>
         <li>Shape->ellipse</li>
-        <li>TalkTopic_light->[Vegetable]s</li>
-        <li>TalkTopic_light->eating [Vegetable]s</li>
-        <li>TalkTopic_light->cooking with [Vegetable]s</li>
-        <li>TalkTopic_light->[Game]</li>
-        <li>TalkTopic_light->playing [Game]</li>
-        <li>TalkTopic_light->practicing [Game]</li>
-        <li>TalkTopic_light->learning [Game]</li>
-        <li>TalkTopic_light->[Animal]s</li>
-        <li>TalkTopic_light->training [Animal]s</li>
-        <li>TalkTopic_light->taming [Animal]s</li>
-        <li>TalkTopic_light->fighting [Animal]s</li>
-        <li>TalkTopic_light->crazy [Animal]s</li>
-        <li>TalkTopic_light->[Weapon]s</li>
-        <li>TalkTopic_light->using [Weapon]s</li>
-        <li>TalkTopic_light->practicing with [Weapon]s</li>
-        <li>TalkTopic_light->[TerrainFeature]s</li>
-        <li>TalkTopic_light->[NaturalObject]s</li>
-        <li>TalkTopic_light->[TreeType] trees</li>
-        <li>TalkTopic_light->[Person]s</li>
-        <li>TalkTopic_light->friendly [Person]s</li>
-        <li>TalkTopic_light->hostile [Person]s</li>
-        <li>TalkTopic_light->[Enemy]s</li>
-        <li>TalkTopic_light->fighting [Enemy]s</li>
-        <li>TalkTopic_light->[Apparel]s</li>
-        <li>TalkTopic_light->wearing [Apparel]s</li>
-        <li>TalkTopic_light->making [Apparel]s</li>
+        <li>AdjectiveAny->[AdjectiveBadass]</li>
+        <li>AdjectiveAny->[AdjectiveAngsty]</li>
+        <li>AdjectiveAny->[AdjectiveFriendly]</li>
+        <li>AdjectiveAny->[AdjectiveNatural]</li>
+        <li>ConceptAny->[ConceptPositive]</li>
+        <li>ConceptAny->[ConceptBadass]</li>
+        <li>ConceptAny->[ConceptAngsty]</li>
       </rulesStrings>
       <rulesRaw>
+        <li Class="Rule_NamePerson">
+          <keyword>NamePerson</keyword>
+        </li>
+        <li Class="Rule_NamePerson">
+          <keyword>NamePersonMale</keyword>
+          <gender>Male</gender>
+        </li>
+        <li Class="Rule_NamePerson">
+          <keyword>NamePersonFemale</keyword>
+          <gender>Female</gender>
+        </li>
         <li Class="Rule_Number">
-          <selectionWeight>10</selectionWeight>
           <keyword>Digit</keyword>
           <range>
             <min>0</min>
             <max>9</max>
           </range>
+        </li>
+        <li Class="Rule_File">
+          <keyword>RomanNumeral</keyword>
+          <path>Words/Misc/Numbers_SmallRoman</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Direction</keyword>
+          <path>Words/Adjectives/CompassDirections</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Letter</keyword>
+          <path>WordParts/CapitalLetters</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>SylE</keyword>
+          <path>WordParts/Syllables_English</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>SylG</keyword>
+          <path>WordParts/Syllables_Galician</path>
+        </li>
+         <li Class="Rule_File">
+          <keyword>Color</keyword>
+          <path>Words/Nouns/Colors</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>ColorBadass</keyword>
+          <path>Words/Nouns/Colors_Badass</path>
         </li>
         <li Class="Rule_File">
           <keyword>Vegetable</keyword>
@@ -83,16 +105,12 @@
           <path>Words/Nouns/Games</path>
         </li>
         <li Class="Rule_File">
-          <keyword>Letter</keyword>
-          <path>WordParts/CapitalLetters</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Color</keyword>
-          <path>Words/Nouns/Colors</path>
-        </li>
-        <li Class="Rule_File">
           <keyword>Animal</keyword>
           <path>Words/Nouns/Animals</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>AnimalBadass</keyword>
+          <path>Words/Nouns/Animals_Badass</path>
         </li>
         <li Class="Rule_File">
           <keyword>AnimalGroup</keyword>
@@ -101,10 +119,6 @@
         <li Class="Rule_File">
           <keyword>Weapon</keyword>
           <path>Words/Nouns/Weapons</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>RomanNumeral</keyword>
-          <path>Words/Misc/Numbers_SmallRoman</path>
         </li>
         <li Class="Rule_File">
           <keyword>TerrainFeature</keyword>
@@ -119,50 +133,60 @@
           <path>Words/Nouns/TreeTypes</path>
         </li>
         <li Class="Rule_File">
-          <keyword>Person</keyword>
-          <pathList>
-            <li>Words/Nouns/People_General</li>
-          </pathList>
+          <keyword>PersonJob</keyword>
+          <path>Words/Nouns/People_Jobs</path>
         </li>
         <li Class="Rule_File">
-          <keyword>Family</keyword>
-          <pathList>
-            <li>Words/Nouns/People_Family</li>
-          </pathList>
+          <keyword>PersonFamily</keyword>
+          <path>Words/Nouns/People_Family</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>PersonAlly</keyword>
+          <path>Words/Nouns/People_Allies</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>PersonBadass</keyword>
+          <path>Words/Nouns/People_Badass</path>
         </li>
         <li Class="Rule_File">
           <keyword>Enemy</keyword>
-          <pathList>
-            <li>Words/Nouns/People_Enemies</li>
-          </pathList>
-        </li>
-        <li Class="Rule_PersonName">
-          <selectionWeight>25</selectionWeight>
-          <keyword>PersonName</keyword>
+          <path>Words/Nouns/Enemies</path>
         </li>
         <li Class="Rule_File">
           <keyword>Apparel</keyword>
           <path>Words/Nouns/Apparel</path>
         </li>
         <li Class="Rule_File">
-          <keyword>Large</keyword>
-          <pathList>
-            <li>Words/Adjectives/Large</li>
-          </pathList>
+          <keyword>Gore</keyword>
+          <path>Words/Nouns/Gore</path>
         </li>
         <li Class="Rule_File">
-          <keyword>AdjectiveNatural</keyword>
-          <pathList>
-            <li>Words/Adjectives/Natural</li>
-          </pathList>
+          <keyword>Mechanoid</keyword>
+          <path>Words/Nouns/Mechanoid</path>
         </li>
         <li Class="Rule_File">
-          <keyword>Adjective</keyword>
-          <pathList>
-            <li>Words/Adjectives/Badass</li>
-            <li>Words/Adjectives/Angsty</li>
-            <li>Words/Adjectives/Friendly</li>
-          </pathList>
+          <keyword>ConceptPositive</keyword>
+          <path>Words/Nouns/Concepts_Positive</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>ConceptBadass</keyword>
+          <path>Words/Nouns/Concepts_Badass</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>ConceptAngsty</keyword>
+          <path>Words/Nouns/Concepts_Angsty</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Community</keyword>
+          <path>Words/Nouns/Communities</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Bodypart</keyword>
+          <path>Words/Nouns/Bodyparts</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>AdjectiveLarge</keyword>
+          <path>Words/Adjectives/Large</path>
         </li>
         <li Class="Rule_File">
           <keyword>AdjectiveBadass</keyword>
@@ -177,54 +201,62 @@
           <path>Words/Adjectives/Friendly</path>
         </li>
         <li Class="Rule_File">
+          <keyword>AdjectiveNatural</keyword>
+          <path>Words/Adjectives/Natural</path>
+        </li>
+        <li Class="Rule_File">
           <keyword>VerbFriendly</keyword>
           <path>Words/Verbs/Friendly</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Gore</keyword>
-          <path>Words/Nouns/Gore</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Mechanoid</keyword>
-          <path>Words/Nouns/Mechanoid</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Concept</keyword>
-          <pathList>
-            <li>Words/Nouns/Concepts_Badass</li>
-            <li>Words/Nouns/Concepts_Positive</li>
-            <li>Words/Nouns/Concepts_Angsty</li>
-          </pathList>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Conceptpositive</keyword>
-          <path>Words/Nouns/Concepts_Positive</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Community</keyword>
-          <path>Words/Nouns/Communities</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Bodypart</keyword>
-          <pathList>
-            <li>Words/Nouns/Bodyparts</li>
-          </pathList>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Direction</keyword>
-          <path>Words/Adjectives/CompassDirections</path>
         </li>
         <li Class="Rule_File">
           <keyword>PersonalCharacteristic</keyword>
           <path>Words/Nouns/PersonalCharacteristics</path>
         </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>TalkTopicsUtility</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>TalkTopicAny->[TalkTopicLight]</li>
+        <li>TalkTopicAny->[TalkTopicHeavy]</li>
+
+        <li>TalkTopicLight->[Vegetable]s</li>
+        <li>TalkTopicLight->eating [Vegetable]s</li>
+        <li>TalkTopicLight->cooking with [Vegetable]s</li>
+        <li>TalkTopicLight->[Game]</li>
+        <li>TalkTopicLight->playing [Game]</li>
+        <li>TalkTopicLight->practicing [Game]</li>
+        <li>TalkTopicLight->learning [Game]</li>
+        <li>TalkTopicLight->[Animal]s</li>
+        <li>TalkTopicLight->training [Animal]s</li>
+        <li>TalkTopicLight->taming [Animal]s</li>
+        <li>TalkTopicLight->fighting [Animal]s</li>
+        <li>TalkTopicLight->crazy [Animal]s</li>
+        <li>TalkTopicLight->[Weapon]s</li>
+        <li>TalkTopicLight->using [Weapon]s</li>
+        <li>TalkTopicLight->practicing with [Weapon]s</li>
+        <li>TalkTopicLight->[TerrainFeature]s</li>
+        <li>TalkTopicLight->[NaturalObject]s</li>
+        <li>TalkTopicLight->[TreeType] trees</li>
+        <li>TalkTopicLight->[PersonJob]s</li>
+        <li>TalkTopicLight->friendly [PersonJob]s</li>
+        <li>TalkTopicLight->hostile [PersonJob]s</li>
+        <li>TalkTopicLight->[Enemy]s</li>
+        <li>TalkTopicLight->fighting [Enemy]s</li>
+        <li>TalkTopicLight->[Apparel]s</li>
+        <li>TalkTopicLight->wearing [Apparel]s</li>
+        <li>TalkTopicLight->making [Apparel]s</li>
+      </rulesStrings>
+      <rulesRaw>
         <li Class="Rule_File">
-          <keyword>Talktopic_heavy</keyword>
+          <keyword>TalkTopicHeavy</keyword>
           <path>Words/Nouns/TalkTopics_Heavy</path>
         </li>
       </rulesRaw>
     </rulePack>
   </RulePackDef>
-  
-  
+
 </Defs>

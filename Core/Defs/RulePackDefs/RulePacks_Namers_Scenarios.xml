@@ -8,11 +8,11 @@
         <li>r_name->[story] [Trans] the [Weapon]</li>
         <li>r_name->[story] [Trans] the [Animal]</li>
         <li>r_name->[story] [Trans] the [TerrainFeature]</li>
-        <li>r_name->[story] [Trans] [Person]s</li>
-        <li>r_name->[story] [Trans] [Concept]</li>
-        <li>r_name->[Concept] [story]</li>
+        <li>r_name->[story] [Trans] [PersonJob]s</li>
+        <li>r_name->[story] [Trans] [ConceptAny]</li>
+        <li>r_name->[ConceptAny] [story]</li>
         <li>r_name->[story] [Trans] a [Community]</li>
-        <li>r_name->a [Adjective] [story]</li>
+        <li>r_name->a [AdjectiveAny] [story]</li>
         <li>r_name->[story] [Trans] the [Game]</li>
         <li>r_name->[story] in [Color] and [Color]</li>
         <li>r_name->[Color] [story]</li>

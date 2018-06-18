@@ -22,8 +22,8 @@
 
         <li>wootactic(p=4)->[complimenting] [OTHER_possessive] [PersonalCharacteristic]</li>
         <li>wootactic(p=2)->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic]</li>
-        <li>wootactic(p=2)->telling a story about [TalkTopic_light]</li>
-        <li>wootactic(p=2)->telling a story about [TalkTopic_heavy]</li>
+        <li>wootactic(p=2)->telling a story about [TalkTopicLight]</li>
+        <li>wootactic(p=2)->telling a story about [TalkTopicHeavy]</li>
         <li>wootactic->comparing [OTHER_objective] to a [romantic_adj] [romantic_noun]</li>
         <li>wootactic->describing [OTHER_objective] as a [romantic_adj] [romantic_noun]</li>
 

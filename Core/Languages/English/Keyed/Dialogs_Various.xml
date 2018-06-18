@@ -86,7 +86,7 @@
   <ZoneGainsName>The zone is now called {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
-  <PawnGainsName>This person's nickname is now {0}. HISCAP title is {1}.</PawnGainsName>
+  <PawnGainsName>This person's nickname is now {0}. [PAWN_possessive] title is {1}.</PawnGainsName>
   <AnimalGainsName>The animal's name is now {0}.</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
@@ -431,7 +431,7 @@
   <!-- Abandon pawn -->
   <ConfirmBanishPawnDialog>Do you really want to banish {0}?</ConfirmBanishPawnDialog>
   <ConfirmBanishPawnDialog_LeftToDie>{0} will most likely die.</ConfirmBanishPawnDialog_LeftToDie>
-  <ConfirmBanishPawnDialog_Items>{0} will take the following items with HIM:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>{0} will take the following items with [PAWN_objective]:</ConfirmBanishPawnDialog_Items>
   <ConfirmBanishPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <ConfirmBanishPawnDialog_IndividualThoughts>Banishing {0} will cause the following people to get the following thoughts:</ConfirmBanishPawnDialog_IndividualThoughts>
 

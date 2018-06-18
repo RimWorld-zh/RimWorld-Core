@@ -258,7 +258,7 @@
         <li>circumstance_phrase->in a cowardly, halfhearted way</li>
         <li>desc_sentence->The sun is setting behind them in a symbolic echo of the event.</li>
         <li>desc_sentence->[Quantity_adjphrase] [Animal]s look on.</li>
-        <li>desc_sentence->A [Person] watches silently [side_position].</li>
+        <li>desc_sentence->A [PersonJob] watches silently [side_position].</li>
         <li>desc_sentence->Blood is pooling around [VICTIM_nameDef]'s body.</li>
         <li>desc_sentence->[VICTIM_nameDef]'s eyes are rendered in a realistically lifeless fashion.</li>
         <li>desc_sentence->[KILLER_nameDef] is baring [KILLER_possessive] teeth.</li>

@@ -10,12 +10,9 @@
     <logRulesInitiator>
       <rulesStrings>
         <li>r_logentry(p=5)->[INITIATOR_nameIndef] [tamed] [RECIPIENT_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] sat near [RECIPIENT_nameIndef] and talked to [INITIATOR_objective]self about [talktopic].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] approached [RECIPIENT_nameIndef] while whispering to [INITIATOR_objective]self about [talktopic].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] came near [RECIPIENT_nameIndef] while talking to [INITIATOR_objective]self about [talktopic].</li>
-
-        <li>talktopic->[TalkTopic_heavy]</li>
-        <li>talktopic->[TalkTopic_light]</li>
+        <li>r_logentry->[INITIATOR_nameIndef] sat near [RECIPIENT_nameIndef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] approached [RECIPIENT_nameIndef] while whispering to [INITIATOR_objective]self about [TalkTopicAny].</li>
+        <li>r_logentry->[INITIATOR_nameIndef] came near [RECIPIENT_nameIndef] while talking to [INITIATOR_objective]self about [TalkTopicAny].</li>
 
         <li>tamed->made calming noises towards</li>
         <li>tamed->offered slow, friendly gestures to</li>
@@ -34,7 +31,7 @@
         <li>tamed->firmly yet softly touched</li>
         <li>tamed->showed a relaxed attitude towards</li>
         <li>tamed->sat patiently near</li>
-        <li>tamed->whispered a story about [talktopic] to</li>
+        <li>tamed->whispered a story about [TalkTopicAny] to</li>
       </rulesStrings>
     </logRulesInitiator>
   </InteractionDef>

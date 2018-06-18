@@ -2,9 +2,9 @@
 <LanguageData>
 
   <FactionGreetingHostile>{0} hurls some epithets into the microphone and disconnects.</FactionGreetingHostile>
-  <FactionGreetingHostileAppreciative>{0} demands that you make a gesture of goodwill, like bringing gifts to one of HIS settlements or releasing HIS faction's prisoners unharmed. Until then, HE is unwilling to talk.\n\nMuttering an insult, HE disconnects.</FactionGreetingHostileAppreciative>
+  <FactionGreetingHostileAppreciative>{0} demands that you make a gesture of goodwill, like bringing gifts to one of [PAWN_possessive] settlements or releasing [PAWN_possessive] faction's prisoners unharmed. Until then, [PAWN_pronoun] is unwilling to talk.\n\nMuttering an insult, [PAWN_pronoun] disconnects.</FactionGreetingHostileAppreciative>
   <FactionGreetingWary>{0} greets {1} warily asks what business you want to handle.</FactionGreetingWary>
-  <FactionGreetingWarm>{0} greets {1} warmly and asks what HE can do to help you.</FactionGreetingWarm>
+  <FactionGreetingWarm>{0} greets {1} warmly and asks what [PAWN_pronoun] can do to help you.</FactionGreetingWarm>
 
   <Disconnect>Disconnect</Disconnect>
 

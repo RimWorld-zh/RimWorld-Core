@@ -68,9 +68,9 @@
         <li>artextra_clause->a [Animal] [idles] [side_position]</li>
         <!-- One-offs -->
         <li>artextra_clause->if you squint your eyes, the [composition] composition of the image reveals the outline of [subimageany]</li>
-        <li>artextra_clause->the [emotional_expression] head of a [PAWN_adj] [Person] watches over all</li>
-        <li>artextra_clause->a [PAWN_adj] [Person] watches over all while [emotional_expression]</li>
-        <li>artextra_clause->the head of a [PAWN_adj] [Person] watches over all</li>
+        <li>artextra_clause->the [emotional_expression] head of a [PAWN_adj] [PersonJob] watches over all</li>
+        <li>artextra_clause->a [PAWN_adj] [PersonJob] watches over all while [emotional_expression]</li>
+        <li>artextra_clause->the head of a [PAWN_adj] [PersonJob] watches over all</li>
         <li>artextra_clause->the whole image is depicted by the careful arrangement of [subimageplural]</li>
 
         <li>subimageany->[subimagesingle]</li>
@@ -134,16 +134,16 @@
         <li>side_position->behind the focal point</li>
 
         <!--=== style_clause ===-->
-        <li>style_clause(p=4)->the work [symbolizes] [Concept]</li>
-        <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [Concept]</li>
-        <li>style_clause->the work is infused with the idea of [Concept] and is done in a [artstyle_adj] style</li>
+        <li>style_clause(p=4)->the work [symbolizes] [ConceptAny]</li>
+        <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
+        <li>style_clause->the work is infused with the idea of [ConceptAny] and is done in a [artstyle_adj] style</li>
         <li>style_clause->the work is executed in a [artstyle_adj] style</li>
         <li>style_clause->the [artstyle_adj] style of the central scene clashes with the [artstyle_adj] depiction of the background</li>
         <li>style_clause->the work has a [artstyle_adj] feeling and a [composition] structure</li>
         <li>style_clause->the overall composition is [composition]</li>
         <li>style_clause->the style is [artstyle_adj] with [artstyle_adj] elements</li>
-        <li>style_clause->the image somehow expresses both [Concept] and [Concept]</li>
-        <li>style_clause->the image contrasts [Concept] with [Concept]</li>
+        <li>style_clause->the image somehow expresses both [ConceptAny] and [ConceptAny]</li>
+        <li>style_clause->the image contrasts [ConceptAny] with [ConceptAny]</li>
         <li>style_clause->the [composition] structure of the image almost conflicts with its [artstyle_adj] style</li>
         <li>style_clause->the work is shaded in hues of [Color] and [Color]</li>
         <li>style_clause->almost every shape in the image seems to be [composition]</li>

@@ -114,7 +114,7 @@
 			<Plant_Bush>0.6</Plant_Bush>
 			<Plant_TreeOak>0.5</Plant_TreeOak>
 			<Plant_TreePoplar>0.5</Plant_TreePoplar>
-			<Plant_Raspberry>0.1</Plant_Raspberry>
+			<Plant_Raspberry>0.05</Plant_Raspberry>
 			<Plant_HealrootWild>0.05</Plant_HealrootWild>
 		</wildPlants>
     <wildAnimals>
@@ -133,13 +133,13 @@
       <Tortoise>0.3</Tortoise>
       <Gazelle>0.3</Gazelle>
       <Megasloth>0.2</Megasloth>
-      <Bear_Grizzly>0.1</Bear_Grizzly>
-      <Wolf_Timber>0.1</Wolf_Timber>
-      <Fox_Red>0.1</Fox_Red>
-      <Cougar>0.1</Cougar>
-      <Lynx>0.1</Lynx>
-      <Warg>0.1</Warg>
       <Rhinoceros>0.1</Rhinoceros>
+      <Bear_Grizzly>0.07</Bear_Grizzly>
+      <Wolf_Timber>0.07</Wolf_Timber>
+      <Fox_Red>0.07</Fox_Red>
+      <Cougar>0.07</Cougar>
+      <Lynx>0.07</Lynx>
+      <Warg>0.07</Warg>
     </wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>
@@ -283,13 +283,13 @@
       <Boomalope>0.4</Boomalope>
       <Boomrat>0.4</Boomrat>
       <Megasloth>0.2</Megasloth>
-      <Bear_Grizzly>0.1</Bear_Grizzly>
-      <Wolf_Timber>0.1</Wolf_Timber>
-      <Fox_Red>0.1</Fox_Red>
-      <Cougar>0.1</Cougar>
-      <Lynx>0.1</Lynx>
-      <Warg>0.1</Warg>
       <Rhinoceros>0.1</Rhinoceros>
+      <Bear_Grizzly>0.07</Bear_Grizzly>
+      <Wolf_Timber>0.07</Wolf_Timber>
+      <Fox_Red>0.07</Fox_Red>
+      <Cougar>0.07</Cougar>
+      <Lynx>0.07</Lynx>
+      <Warg>0.07</Warg>
     </wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>

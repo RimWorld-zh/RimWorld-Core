@@ -14,8 +14,7 @@ old
 round
 strange
 wise
-ice
-flame
+icy
 bad
 good
 far

@@ -30,7 +30,7 @@
         <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
         <li>desc_sentence->A [Animal] is fleeing the impact in fear.</li>
         <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
-        <li>desc_sentence->A [Person] watches silently from afar.</li>
+        <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
       </rulesStrings>
     </rulePack>
   </TaleDef>

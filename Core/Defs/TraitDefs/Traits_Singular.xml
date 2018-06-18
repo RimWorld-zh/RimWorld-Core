@@ -388,7 +388,7 @@
     <degreeDatas>
       <li>
         <label>gourmand</label>
-        <description>[PAWN_nameDef]'s life revolves around food. [PAWN_pronoun] gets hungry quickly, and if [PAWN_pronoun] is in a bad mood, [PAWN_pronoun] will often satisfy HIMself by eating.</description>
+        <description>[PAWN_nameDef]'s life revolves around food. [PAWN_pronoun] gets hungry quickly, and if [PAWN_pronoun] is in a bad mood, [PAWN_pronoun] will often satisfy [PAWN_objective]self by eating.</description>
         <theOnlyAllowedMentalBreaks>
           <li>Binging_Food</li>
         </theOnlyAllowedMentalBreaks>

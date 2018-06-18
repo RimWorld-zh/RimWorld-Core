@@ -31,7 +31,7 @@
   <RecruitSuccess>{0} successfully recruited {1} ({2} chance).</RecruitSuccess>
   <RecruitFail>{0} failed to recruit {1} ({2} chance).</RecruitFail>
 
-  <RelatedPawnInvolvedInQuest>NAME is {0}'s {1}. If NAME dies, {0} will suffer from long-lasting grief. However, if you manage to rescue NAME, {0} will be very happy for a long time.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>[PAWN_nameDef] is {0}'s {1}. If [PAWN_nameDef] dies, {0} will suffer from long-lasting grief. However, if you manage to rescue [PAWN_nameDef], {0} will be very happy for a long time.</RelatedPawnInvolvedInQuest>
 
   <LetterLabelBirthday>Birthday</LetterLabelBirthday>
   <BirthdayChronological>It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday.</BirthdayChronological>
@@ -39,16 +39,16 @@
 
   <LetterLabelNewDisease>Disease</LetterLabelNewDisease>
   <NewDisease>{0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {2} gets proper treatment and spends as much time in bed as possible.</NewDisease>
-  <NewPartDisease>{0} has gotten sick from {3}. The infection is in HIS {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {2} gets proper treatment and spends as much time in bed as possible.</NewPartDisease>
+  <NewPartDisease>{0} has gotten sick from {3}. The infection is in [PAWN_possessive] {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {2} gets proper treatment and spends as much time in bed as possible.</NewPartDisease>
   <NewDiseaseAnimal>{0} has developed an illness: {1}</NewDiseaseAnimal>
-  <NewPartDiseaseAnimal>{0} has developed an illness: {3} in HIS {1}</NewPartDiseaseAnimal>
+  <NewPartDiseaseAnimal>{0} has developed an illness: {3} in [PAWN_possessive] {1}</NewPartDiseaseAnimal>
 
   <PawnWasFormerlyColonist>{0} was formerly part of your faction.</PawnWasFormerlyColonist>
   <PawnHasTheseRelationshipsWithColonists>{0} has these relationships with your colonists:</PawnHasTheseRelationshipsWithColonists>
   <PrisonerRescueTimeout>The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {1} again.</PrisonerRescueTimeout>
 
   <LetterLabelAncientShrineWarning>Ancient danger</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>As {0} draws near the ancient wall, a sense of foreboding overcomes HIM. HECAP isn't sure why, but HE feels that this dusty structure may contain great danger.</AncientShrineWarning>
+  <AncientShrineWarning>As {0} draws near the ancient wall, a sense of foreboding overcomes [PAWN_objective]. [PAWN_pronoun] isn't sure why, but [PAWN_pronoun] feels that this dusty structure may contain great danger.</AncientShrineWarning>
 
   <StruckMineable>We have struck {0}!</StruckMineable>
 
@@ -93,8 +93,8 @@
   <LetterRelatedPawnsSite>There are people who have relationships with your {0} or prisoners in this area:</LetterRelatedPawnsSite>
 
   <RelationshipAppendedLetterSuffix>(relationship)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME has a relationship with a colonist. HECAP is {0}'s {1}.</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME has a relationship with one of your prisoners. HECAP is {0}'s {1}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] has a relationship with a colonist. [PAWN_pronoun] is {0}'s {1}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] has a relationship with one of your prisoners. [PAWN_pronoun] is {0}'s {1}.</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Affair</LetterLabelAffair>
@@ -131,7 +131,7 @@
 
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>{0} addiction</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0} has developed an addiction to {1}.\n\nHECAP now has a need for {1}, visible on HIS Needs tab. HECAP will automatically consume the drug to fulfil HIS need. If HE cannot get any {1}, HE will go into withdrawal.</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{0} has developed an addiction to {1}.\n\n[PAWN_pronoun] now has a need for {1}, visible on [PAWN_possessive] Needs tab. [PAWN_pronoun] will automatically consume the drug to fulfil [PAWN_possessive] need. If [PAWN_pronoun] cannot get any {1}, [PAWN_pronoun] will go into withdrawal.</LetterNewlyAddicted>
   
   <!-- Drug binge -->
   <LetterLabelDrugBinge>{0} binge</LetterLabelDrugBinge>
@@ -184,10 +184,10 @@
   <PeaceTalksSocialXPGain>{0}, your negotiator, has gained {1} social experience.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <LetterRunWildMentalBreak>{0} is fed up with civilization.\n\nHECAP realized that wild creatures are always free. So, HE has decided to leave your faction and live with the animals.\n\nYou can attempt to tame HIM to get HIM back.</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0} is fed up with civilization.\n\n[PAWN_pronoun] realized that wild creatures are always free. So, [PAWN_pronoun] has decided to leave your faction and live with the animals.\n\nYou can attempt to tame [PAWN_objective] to get [PAWN_objective] back.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
-  <LetterCatatonicMentalBreak>{0} has suffered a total mental breakdown and entered a catatonic state. HECAP will recover in several days.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0} has suffered a total mental breakdown and entered a catatonic state. [PAWN_pronoun] will recover in several days.</LetterCatatonicMentalBreak>
 
   <LetterLabelAICoreOffer>AI Core Offer</LetterLabelAICoreOffer>
   <LetterAICoreOffer>{0} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested.</LetterAICoreOffer>
@@ -220,7 +220,7 @@
 
   <!-- Rescue quest -->
   <LetterLabelRescueQuestFinished>Rescuee joins</LetterLabelRescueQuestFinished>
-  <LetterRescueQuestFinished>You have rescued NAME and HE has joined your group.\n\nYou can take HIM with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option.</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>You have rescued [PAWN_nameDef] and [PAWN_pronoun] has joined your group.\n\nYou can take [PAWN_objective] with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option.</LetterRescueQuestFinished>
 
   <!-- Player entered site (generic label) -->
   <LetterLabelPlayerEnteredNewSiteGeneric>Arrived at site</LetterLabelPlayerEnteredNewSiteGeneric>
