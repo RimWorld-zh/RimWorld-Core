@@ -60,32 +60,32 @@
       <li>
         <label>transhumanist somewhat pleased</label>
         <description>This artificial part is cool. I want more.</description>
-        <baseMoodEffect>10</baseMoodEffect>
+        <baseMoodEffect>4</baseMoodEffect>
       </li>
       <li>
         <label>transhumanist quite pleased</label>
         <description>Two artificial parts are better than one. I wish I had more.</description>
-        <baseMoodEffect>11</baseMoodEffect>
+        <baseMoodEffect>6</baseMoodEffect>
       </li>
       <li>
         <label>transhumanist delighted</label>
         <description>Three artificial parts, and my weak human flesh is receding. But I still want more machine power.</description>
-        <baseMoodEffect>12</baseMoodEffect>
+        <baseMoodEffect>7</baseMoodEffect>
       </li>
       <li>
         <label>transhumanist enchanted</label>
         <description>Four artificial body parts and I am becoming more than human. But there's still some flesh that needs replacing.</description>
-        <baseMoodEffect>13</baseMoodEffect>
+        <baseMoodEffect>8</baseMoodEffect>
       </li>
       <li>
         <label>transhumanist overjoyed</label>
         <description>Five artificial body parts! How could an enhanced being like me ever feel sad?</description>
-        <baseMoodEffect>14</baseMoodEffect>
+        <baseMoodEffect>9</baseMoodEffect>
       </li>
       <li>
         <label>machine body is complete</label>
         <description>I asked for this.</description>
-        <baseMoodEffect>15</baseMoodEffect>
+        <baseMoodEffect>10</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
@@ -144,27 +144,27 @@
       <li>
         <label>artificial body uneasiness</label>
         <description>One artificial body part was okay, but having two is bothersome. I miss my natural, clean body.</description>
-        <baseMoodEffect>-2</baseMoodEffect>
+        <baseMoodEffect>-1</baseMoodEffect>
       </li>
       <li>
         <label>artificial body squeamishness</label>
         <description>I have three artificial body parts. Even if they're necessary, I still wish I could be natural again.</description>
-        <baseMoodEffect>-4</baseMoodEffect>
+        <baseMoodEffect>-2</baseMoodEffect>
       </li>
       <li>
         <label>artificial body discomfort</label>
         <description>Four artificial body parts. I click and creak when I move. I wish I could just be a healthy again, without these reminders of pain.</description>
-        <baseMoodEffect>-6</baseMoodEffect>
+        <baseMoodEffect>-3</baseMoodEffect>
       </li>
       <li>
         <label>artificial body disgust</label>
         <description>Five artificial body parts is too much. It's like I'm becoming an android.</description>
-        <baseMoodEffect>-8</baseMoodEffect>
+        <baseMoodEffect>-4</baseMoodEffect>
       </li>
       <li>
         <label>artificial body horror</label>
         <description>I never asked for this.</description>
-        <baseMoodEffect>-10</baseMoodEffect>
+        <baseMoodEffect>-5</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

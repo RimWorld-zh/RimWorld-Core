@@ -327,6 +327,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2,2)</drawSize>
     </graphicData>
+    <castEdgeShadows>True</castEdgeShadows>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToBuild>2850</WorkToBuild>
@@ -365,7 +366,6 @@
     <pathCost>60</pathCost>
     <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
     <staticSunShadowHeight>0.17</staticSunShadowHeight>
-    <castEdgeShadows>True</castEdgeShadows>
     <designationHotKey>Misc5</designationHotKey>
     <researchPrerequisites>
       <li>HospitalBed</li>
@@ -385,6 +385,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(1,2)</drawSize>
     </graphicData>
+    <castEdgeShadows>True</castEdgeShadows>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
       <Flammability>1.0</Flammability>
@@ -430,6 +431,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2,2)</drawSize>
     </graphicData>
+    <castEdgeShadows>True</castEdgeShadows>
     <statBases>
       <Flammability>1.0</Flammability>
       <Mass>4.5</Mass>
@@ -511,7 +513,6 @@
 		<rotatable>false</rotatable>
 		<fillPercent>0.15</fillPercent>
 		<pathCost>40</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
 		<passability>PassThroughOnly</passability>
     <canOverlapZones>false</canOverlapZones>
 		<graphicData>
@@ -525,6 +526,7 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
 		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
@@ -564,7 +566,6 @@
 		<rotatable>false</rotatable>
 		<fillPercent>0.15</fillPercent>
 		<pathCost>40</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
 		<passability>PassThroughOnly</passability>
     <canOverlapZones>false</canOverlapZones>
 		<graphicData>
@@ -572,6 +573,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.2</drawSize>
 		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
     <uiIconScale>0.85</uiIconScale>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -622,6 +624,9 @@
         <cornerBL>Damage/Corner</cornerBL>
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
+      <shadowData>
+        <volume>(0.18, 0.23, 0.18)</volume>
+      </shadowData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
@@ -663,6 +668,9 @@
         <rectE>(0.28125,0.25,0.453125,0.25)</rectE>
         <rectW>(0.28125,0.25,0.453125,0.25)</rectW>
       </damageData>
+      <shadowData>
+        <volume>(0.23, 0.26, 0.23)</volume>
+      </shadowData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
@@ -707,6 +715,9 @@
         <rectE>(0,0,0.84375,0.625)</rectE>
         <rectW>(0.15625,0,0.84375,0.625)</rectW>
       </damageData>
+      <shadowData>
+        <volume>(0.3, 0.33, 0.3)</volume>
+      </shadowData>
     </graphicData>
     <uiIconScale>0.9</uiIconScale>
     <altitudeLayer>Building</altitudeLayer>

@@ -251,10 +251,6 @@
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
 			<Mass>3.4</Mass>
-			<AccuracyTouch>0.50</AccuracyTouch>
-			<AccuracyShort>0.40</AccuracyShort>
-			<AccuracyMedium>0.30</AccuracyMedium>
-			<AccuracyLong>0.20</AccuracyLong>
 			<RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
       <Weapon_Bulk>1.0</Weapon_Bulk>
 		</statBases>
@@ -274,6 +270,7 @@
 				<defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
 				<warmupTime>3.0</warmupTime>
 				<range>23.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>Shot_IncendiaryLauncher</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -864,10 +861,10 @@
     <statBases>
       <WorkToMake>60000</WorkToMake>
       <Mass>10</Mass>
-      <AccuracyTouch>0.50</AccuracyTouch>
-      <AccuracyShort>0.42</AccuracyShort>
-      <AccuracyMedium>0.18</AccuracyMedium>
-      <AccuracyLong>0.06</AccuracyLong>
+      <AccuracyTouch>0.18</AccuracyTouch>
+      <AccuracyShort>0.28</AccuracyShort>
+      <AccuracyMedium>0.27</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
       <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
       <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
@@ -894,11 +891,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Minigun</defaultProjectile>
-        <forcedMissRadius>1.8</forcedMissRadius>
-        <warmupTime>3.0</warmupTime>
+        <warmupTime>3.1</warmupTime>
         <range>30.9</range>
         <burstShotCount>30</burstShotCount>
-        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <soundCast>Shot_Minigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>

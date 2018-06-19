@@ -8,6 +8,7 @@
     <category>PawnWork</category>
     <displayPriorityInCategory>100</displayPriorityInCategory>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.3</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <parts>
 			<li Class="StatPart_Glow">
@@ -28,6 +29,7 @@
     <description>A speed at which this person digs at walls and drills for deep resources.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <statFactors>
       <li>WorkSpeedGlobal</li>
@@ -110,6 +112,7 @@
     <description>A multiplier on the speed at which this person smooths rough stone floors and walls.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <statFactors>
       <li>WorkSpeedGlobal</li>
@@ -140,6 +143,7 @@
     <description>How fast this person performs research.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <statFactors>
       <li>WorkSpeedGlobal</li>
@@ -172,6 +176,7 @@
 		<description>The speed at which this person milks, shears, and otherwise gathers resources from animals.</description>
 		<category>PawnWork</category>
 		<defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
 		<toStringStyle>PercentZero</toStringStyle>
 		<statFactors>
 			<li>WorkSpeedGlobal</li>
@@ -252,6 +257,7 @@
     <description>The speed at which this person sows and harvests plants.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <neverDisabled>true</neverDisabled>
     <statFactors>
@@ -335,6 +341,7 @@
 		<description>The speed at which this person constructs and repairs buildings.</description>
 		<category>PawnWork</category>
 		<defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
 		<toStringStyle>PercentZero</toStringStyle>
 		<statFactors>
 			<li>WorkSpeedGlobal</li>

@@ -223,6 +223,12 @@
         <li>TalkTopicAny->[TalkTopicLight]</li>
         <li>TalkTopicAny->[TalkTopicHeavy]</li>
 
+        <li>TalkTopicHeavy->[talktopicheavyfile]</li>
+        <li>TalkTopicHeavy(p=0.08)->the link between [talktopicheavyfile] and [talktopicheavyfile]</li>
+        <li>TalkTopicHeavy(p=0.08)->the connection between [talktopicheavyfile] and [talktopicheavyfile]</li>
+        <li>TalkTopicHeavy(p=0.08)->the relationship between [talktopicheavyfile] and [talktopicheavyfile]</li>
+
+        <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
         <li>TalkTopicLight->[Vegetable]s</li>
         <li>TalkTopicLight->eating [Vegetable]s</li>
         <li>TalkTopicLight->cooking with [Vegetable]s</li>
@@ -252,8 +258,12 @@
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">
-          <keyword>TalkTopicHeavy</keyword>
+          <keyword>talktopicheavyfile</keyword>
           <path>Words/Nouns/TalkTopics_Heavy</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>talktopiclightfile</keyword>
+          <path>Words/Nouns/TalkTopics_Light</path>
         </li>
       </rulesRaw>
     </rulePack>

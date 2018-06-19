@@ -31,10 +31,6 @@
     <statBases>
       <MarketValue>1400</MarketValue>
       <Mass>18</Mass>
-      <AccuracyTouch>0.30</AccuracyTouch>
-      <AccuracyShort>0.40</AccuracyShort>
-      <AccuracyMedium>0.20</AccuracyMedium>
-      <AccuracyLong>0.10</AccuracyLong>
       <RangedWeapon_Cooldown>8.4</RangedWeapon_Cooldown>
       <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
@@ -97,10 +93,10 @@
     <statBases>
       <MarketValue>1400</MarketValue>
       <Mass>22</Mass>
-      <AccuracyTouch>0.60</AccuracyTouch>
-      <AccuracyShort>0.77</AccuracyShort>
-      <AccuracyMedium>0.59</AccuracyMedium>
-      <AccuracyLong>0.42</AccuracyLong>
+      <AccuracyTouch>0.18</AccuracyTouch>
+      <AccuracyShort>0.30</AccuracyShort>
+      <AccuracyMedium>0.30</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
       <RangedWeapon_Cooldown>7.4</RangedWeapon_Cooldown>
       <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
@@ -116,7 +112,6 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
-        <forcedMissRadius>1.9</forcedMissRadius>
         <warmupTime>1.25</warmupTime>
         <range>26.9</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>

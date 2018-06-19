@@ -334,7 +334,6 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <shadowData>
         <volume>(0.5, 0.3, 0.4)</volume>
-        <offset>(0,0,-0.1)</offset>
       </shadowData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
@@ -403,8 +402,8 @@
       <texPath>Things/Building/Joy/FlatscreenTelevision</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shadowData>
-        <volume>(1.6, 0.6, 0.3)</volume>
-        <offset>(0.06, 0, 0.35)</offset>
+        <volume>(1.6, 0.6, 0.1)</volume>
+        <offset>(0, 0, 0.35)</offset>
       </shadowData>
       <drawSize>(2,1)</drawSize>
     </graphicData>
@@ -470,7 +469,7 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <shadowData>
         <volume>(2.5, 0.6, 0.1)</volume>
-        <offset>(0.06, 0, 0.2)</offset>
+        <offset>(0, 0, 0.2)</offset>
       </shadowData>
       <drawSize>(3,1)</drawSize>
     </graphicData>

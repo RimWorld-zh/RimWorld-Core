@@ -20,8 +20,9 @@
 		<label>melee hit chance</label>
 		<description>Chance to hit a target in melee. The target can still dodge even if we would've hit.</description>
 		<category>PawnCombat</category>
-    <neverDisabled>true</neverDisabled>
+		<neverDisabled>true</neverDisabled>
 		<defaultBaseValue>0</defaultBaseValue>
+		<minValue>0</minValue>
 		<showOnPawns>false</showOnPawns>
 		<toStringStyle>PercentZero</toStringStyle>
 		<toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
@@ -66,6 +67,7 @@
 		<displayPriorityInCategory>99</displayPriorityInCategory>
 		<neverDisabled>true</neverDisabled>
 		<defaultBaseValue>0</defaultBaseValue>
+		<minValue>0</minValue>
 		<toStringStyle>PercentZero</toStringStyle>
 		<toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
 		<noSkillOffset>0</noSkillOffset>
@@ -109,6 +111,7 @@
     <displayPriorityInCategory>50</displayPriorityInCategory>
     <showOnAnimals>false</showOnAnimals>
     <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
     <toStringStyle>PercentTwo</toStringStyle>
 		<toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
 		<noSkillOffset>8</noSkillOffset>

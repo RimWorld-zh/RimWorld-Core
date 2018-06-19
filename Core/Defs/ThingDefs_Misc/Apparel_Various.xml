@@ -132,9 +132,6 @@
 				<li>HandTailoringBench</li>
 				<li>CraftingSpot</li>
 			</recipeUsers>
-      <factionPrerequisiteTags>
-        <li>Tribal</li>
-      </factionPrerequisiteTags>
 		</recipeMaker>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -704,6 +701,7 @@
       </bodyPartGroups>
       <layers>
         <li>OnSkin</li>
+        <li>Middle</li>
       </layers>
       <tags>
         <li>IndustrialMilitaryBasic</li>

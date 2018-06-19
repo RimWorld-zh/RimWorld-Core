@@ -19,7 +19,8 @@
   <FriendlyRaidLeaderPresent>One of the {0} - {1}, is the leader of the faction.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Escape pod</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>You've detected an escape pod crashing hard nearby.\n\nIf anyone survived the impact, they'll be badly wounded.\n\nYou can rescue them and send them on their way. Or, capture them for recruitment or slavery purposes.</RefugeePodCrash>
+  <RefugeePodCrash>A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded.\n\nYou can rescue [PAWN_objective] and send [PAWN_objective] on [PAWN_possessive] way. Or, capture [PAWN_objective] for recruitment or slavery purposes.</RefugeePodCrash>
+  <RefugeePodCrashFactionWarning>Note: [PAWN_nameDef] is from [PAWN_factionName]. Capturing [PAWN_objective] will anger them, while rescuing and healing [PAWN_objective] will improve faction relations.</RefugeePodCrashFactionWarning>
 
   <LetterLabelCargoPodCrash>Cargo pods</LetterLabelCargoPodCrash>
   <CargoPodCrash>You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage.</CargoPodCrash>

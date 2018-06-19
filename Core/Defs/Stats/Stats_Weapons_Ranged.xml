@@ -4,7 +4,7 @@
   <StatDef Abstract="True" Name="AccuracyBase">
     <category>Weapon</category>
     <defaultBaseValue>1</defaultBaseValue>
-    <minValue>0.1</minValue>
+    <minValue>0.01</minValue>
     <maxValue>1</maxValue>
     <toStringStyle>PercentZero</toStringStyle>
     <showIfUndefined>false</showIfUndefined>

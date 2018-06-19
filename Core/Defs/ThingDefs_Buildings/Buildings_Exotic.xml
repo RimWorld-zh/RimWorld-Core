@@ -70,8 +70,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(6,3)</drawSize>
 			<shadowData>
-				<volume>(5.5, 1.0, 2.5)</volume>
-        <offset>(0, 0, -0.03)</offset>
+				<volume>(5.5, 1.0, 2.45)</volume>
 			</shadowData>
     </graphicData>
 		<comps>
@@ -104,7 +103,6 @@
       </damageData>
       <shadowData>
         <volume>(1.39,0.5,1.25)</volume>
-        <offset>(0,0,0)</offset>
       </shadowData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>

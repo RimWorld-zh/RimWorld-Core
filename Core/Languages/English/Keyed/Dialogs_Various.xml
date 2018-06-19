@@ -180,6 +180,8 @@
   <Range>Range</Range>
   <StoppingPower>Stopping power</StoppingPower>
   <StoppingPowerExplanation>Hits from this weapon will stagger targets, slowing their movement for several seconds. Targets with a body size larger than the stopping power will be unaffected.</StoppingPowerExplanation>
+  <DirectHitChance>Direct hit chance</DirectHitChance>
+  <MissRadius>Miss radius</MissRadius>
   <GrowsWild>Grows wild</GrowsWild>
   <Harvestable>Harvestable</Harvestable>
   <LimitedLifespan>Limited lifespan</LimitedLifespan>

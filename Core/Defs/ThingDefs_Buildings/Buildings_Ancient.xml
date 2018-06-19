@@ -11,11 +11,6 @@
       <texPath>Things/Building/Ruins/AncientConcreteBarrier</texPath>
       <graphicClass>Graphic_Random</graphicClass>
 			<color>(231,216,206)</color>
-      <!-->
-			<shadowData>
-        <volume>(0.99, 0.35, 0.99)</volume>
-				<offset>(0,0,0)</offset>
-      </shadowData>-->
     </graphicData>
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.2</staticSunShadowHeight>

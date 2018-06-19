@@ -21,9 +21,11 @@
         <li>wooed->courted</li>
 
         <li>wootactic(p=4)->[complimenting] [OTHER_possessive] [PersonalCharacteristic]</li>
+        <li>wootactic->telling a story about [TalkTopicAny]</li>
+        <li>wootactic->telling a tale about [TalkTopicAny]</li>
+        <li>wootactic->joking about [TalkTopicAny]</li>
+        <li>wootactic->making an observation about [TalkTopicAny]</li>
         <li>wootactic(p=2)->[boasting] [INITIATOR_possessive] own [PersonalCharacteristic]</li>
-        <li>wootactic(p=2)->telling a story about [TalkTopicLight]</li>
-        <li>wootactic(p=2)->telling a story about [TalkTopicHeavy]</li>
         <li>wootactic->comparing [OTHER_objective] to a [romantic_adj] [romantic_noun]</li>
         <li>wootactic->describing [OTHER_objective] as a [romantic_adj] [romantic_noun]</li>
 

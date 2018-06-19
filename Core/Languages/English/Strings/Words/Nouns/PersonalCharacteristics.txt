@@ -9,7 +9,9 @@ weight
 hair
 hairstyle
 body hair
-public hair
+pubic hair
+facial hair
+leg hair
 face
 nose
 ears
@@ -85,6 +87,8 @@ kindness
 eloquence
 broad-mindedness
 charm
+sincerity
+open-mindedness
 
 origins
 parents

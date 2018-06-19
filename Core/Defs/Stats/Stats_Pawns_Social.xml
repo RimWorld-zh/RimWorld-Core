@@ -130,6 +130,7 @@
     <description>When this person acts as a trade negotiator, buy and sell prices are improved by this percentage.</description>
     <category>PawnSocial</category>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
     <toStringStyle>PercentTwo</toStringStyle>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">

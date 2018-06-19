@@ -7,6 +7,7 @@
 		<description>Speed at which the character tends to wounds and illnesses.</description>
 		<category>PawnWork</category>
 		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0.1</minValue>
 		<toStringStyle>PercentZero</toStringStyle>
 		<neverDisabled>true</neverDisabled> <!-- NPCs incapable of doctoring can self-tend -->
 		<skillNeedFactors>
@@ -36,6 +37,7 @@
 		<description>The base quality of tending given when tending wounds and illnesses. The actual tend quality will also be affected by factors like medicine used, facilities, room cleanliness, luck, and so on.</description>
 		<category>PawnWork</category>
 		<defaultBaseValue>1</defaultBaseValue>
+		<minValue>0</minValue>
 		<toStringStyle>PercentZero</toStringStyle>
 		<neverDisabled>true</neverDisabled> <!-- NPCs incapable of doctoring can self-tend -->
 		<skillNeedFactors>
@@ -73,6 +75,7 @@
     <description>The speed at which the character performs medical operations.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
@@ -100,6 +103,7 @@
     <description>The chance that a character will succeed when performing a medical operation. The actual success chance is also affected by factors like facilities, room cleanliness, medicine used, and the difficulty of the surgery.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1.00</defaultBaseValue>
+    <minValue>0.01</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <skillNeedFactors>
       <li Class="SkillNeed_Direct">

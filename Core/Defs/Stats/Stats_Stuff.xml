@@ -7,6 +7,7 @@
     <description>Armor against sharp damage like bullets, knife stabs, and animal bites.</description>
     <category>StuffStatFactors</category>
     <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <showIfUndefined>false</showIfUndefined>
     <displayPriorityInCategory>100</displayPriorityInCategory>
@@ -18,6 +19,7 @@
     <description>Armor against blunt damage like club impacts, rock falls, and explosions.</description>
     <category>StuffStatFactors</category>
     <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <showIfUndefined>false</showIfUndefined>
     <displayPriorityInCategory>90</displayPriorityInCategory>
@@ -29,6 +31,7 @@
     <description>Armor against temperature-related damage like burns.</description>
     <category>StuffStatFactors</category>
     <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
     <toStringStyle>PercentZero</toStringStyle>
     <showIfUndefined>false</showIfUndefined>
     <displayPriorityInCategory>80</displayPriorityInCategory>
