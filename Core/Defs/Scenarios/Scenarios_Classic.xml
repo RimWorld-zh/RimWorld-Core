@@ -75,6 +75,19 @@
           <thingDef>MeleeWeapon_Knife</thingDef>
           <stuff>Plasteel</stuff>
         </li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakPants</thingDef>
+        </li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakVest</thingDef>
+        </li>
+				<li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_AdvancedHelmet</thingDef>
+					<stuff>Plasteel</stuff>
+        </li>
         <li Class="ScenPart_StartingAnimal">
           <def>StartingAnimal</def>
           <count>1</count>

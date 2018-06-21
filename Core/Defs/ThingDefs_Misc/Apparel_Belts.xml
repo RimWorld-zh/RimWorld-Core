@@ -23,7 +23,6 @@
       <ComponentIndustrial>2</ComponentIndustrial>
       <Steel>50</Steel>
       <Plasteel>20</Plasteel>
-      <Uranium>1</Uranium>
     </costList>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>

@@ -82,7 +82,7 @@
   
   <!-- Refugee chased -->
 	<RefugeeChasedTitle>Refugee chased at {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>A {1} named {0} calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. Biologically, [PAWN_pronoun] is {4} years old.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Offer safety</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignore the message</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>{0} screams in panic through the tinny speaker before you cut off the transmission.</RefugeeChasedRejected>

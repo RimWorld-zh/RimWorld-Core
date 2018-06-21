@@ -116,7 +116,7 @@
 			<harvestYield>10</harvestYield>
 			<harvestMinGrowth>0.2</harvestMinGrowth>
 			<harvestFailable>false</harvestFailable>
-			<sowWork>14400</sowWork>
+			<sowWork>12000</sowWork>
 			<sowMinSkill>6</sowMinSkill>
 			<mustBeWildToSow>true</mustBeWildToSow>
 			<visualSizeRange>

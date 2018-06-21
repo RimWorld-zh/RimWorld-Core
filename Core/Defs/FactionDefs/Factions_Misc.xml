@@ -17,10 +17,6 @@
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>prime councilor</leaderTitle>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-    <colorSpectrum>
-      <li>(0.64, 0.42, 0.36)</li>
-      <li>(0.47, 0.5, 0.91)</li>
-    </colorSpectrum>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Industrial</techLevel>
@@ -116,6 +112,10 @@
     <defName>OutlanderCivil</defName>
     <label>civil outlander union</label>
     <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard.</description>
+    <colorSpectrum>
+      <li>(0.35, 0.30, 0.60)</li>
+      <li>(0.45, 0.40, 0.90)</li>
+    </colorSpectrum>
     <startingGoodwill>
       <min>0</min>
       <max>0</max>
@@ -130,6 +130,10 @@
     <defName>OutlanderRough</defName>
     <label>rough outlander union</label>
     <description>These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group has a streak of barbarity in them.</description>
+    <colorSpectrum>
+      <li>(0.00, 0.30, 0.70)</li>
+      <li>(0.00, 0.40, 1.00)</li>
+    </colorSpectrum>
     <startingGoodwill>
       <min>-20</min>
       <max>-20</max>
@@ -154,11 +158,6 @@
     <canStageAttacks>true</canStageAttacks>
     <expandingIconTexture>World/WorldObjects/Expanding/Village</expandingIconTexture>
 		<geneticVariance>0.1</geneticVariance>
-		<colorSpectrum>
-      <li>(0.4, 0.92, 0.35)</li>
-      <li>(0.89, 0.89, 0.7)</li>
-      <li>(1, 1, 0.1)</li>
-    </colorSpectrum>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
@@ -288,6 +287,10 @@
     <defName>TribeCivil</defName>
     <label>gentle tribe</label>
     <description>These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</description>
+    <colorSpectrum>
+      <li>(0.85, 0.75, 0.37)</li>
+      <li>(0.95, 0.95, 0.37)</li>
+    </colorSpectrum>
     <startingGoodwill>
       <min>-0</min>
       <max>0</max>
@@ -302,6 +305,10 @@
     <defName>TribeRough</defName>
     <label>savage tribe</label>
     <description>These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe values warlike dominance; it may be difficult to turn them into an ally.</description>
+    <colorSpectrum>
+      <li>(0.25, 0.65, 0.05)</li>
+      <li>(0.25, 0.75, 0.05)</li>
+    </colorSpectrum>
     <startingGoodwill>
       <min>-20</min>
       <max>-20</max>
@@ -330,9 +337,8 @@
     <leaderTitle>boss</leaderTitle>
     <expandingIconTexture>World/WorldObjects/Expanding/PirateOutpost</expandingIconTexture>
     <colorSpectrum>
-      <li>(0.45, 0.03, 0.02)</li>
-      <li>(0.8, 0.08, 0.18)</li>
-      <li>(0.92, 0.62, 0.06)</li>
+      <li>(0.45, 0.05, 0.05)</li>
+      <li>(0.80, 0.25, 0.05)</li>
     </colorSpectrum>
     <permanentEnemy>true</permanentEnemy>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>

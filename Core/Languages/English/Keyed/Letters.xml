@@ -100,7 +100,6 @@
   <LetterLabelAffair>Affair</LetterLabelAffair>
   <LetterAffair>{0}, married to {1}, has begun an affair with {2}.</LetterAffair>
   <LetterLabelNewLovers>New lovers</LetterLabelNewLovers>
-  <LetterNewLovers>{0} and {1} have come together and are now lovers.</LetterNewLovers>
   <LetterNoLongerLovers>{0} and {1} are no longer in a relationship.</LetterNoLongerLovers>
   <LetterLabelBreakup>Breakup</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>Marriage is on!</LetterLabelAcceptedProposal>

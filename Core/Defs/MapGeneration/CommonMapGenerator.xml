@@ -41,8 +41,8 @@
     <genStep Class="GenStep_ScatterDeepResourceLumps">
       <minSpacing>3</minSpacing>
       <countPer10kCellsRange>
-        <min>9</min>
-        <max>9</max>
+        <min>14</min>
+        <max>14</max>
       </countPer10kCellsRange>
       <warnOnFail>false</warnOnFail>
     </genStep>

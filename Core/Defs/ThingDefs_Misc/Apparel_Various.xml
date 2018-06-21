@@ -158,6 +158,7 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<costStuffCount>80</costStuffCount>
@@ -376,6 +377,7 @@
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.05</drawSize>
     </graphicData>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
@@ -447,6 +449,7 @@
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
     </graphicData>
     <costStuffCount>70</costStuffCount>
     <stuffCategories>
@@ -606,13 +609,14 @@
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
     </graphicData>
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>4</Mass>
       <Flammability>0.6</Flammability>
-      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
@@ -674,13 +678,14 @@
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/FlakPants/FlakPants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
     </graphicData>
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>4</Mass>
       <Flammability>0.6</Flammability>
-      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>3.5</Insulation_Cold>
@@ -769,7 +774,7 @@
     <costList>
       <ComponentSpacer>4</ComponentSpacer>
       <Plasteel>100</Plasteel>
-      <Uranium>2</Uranium>
+      <Uranium>20</Uranium>
     </costList>
 		<apparel>
 			<bodyPartGroups>

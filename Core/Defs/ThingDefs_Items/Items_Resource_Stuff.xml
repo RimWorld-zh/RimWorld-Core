@@ -10,7 +10,8 @@
     <description>This metal is mostly used as a commodity currency. It can also be used for making decorations.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Silver</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.05</drawSize>
     </graphicData>
     <resourceReadoutPriority>First</resourceReadoutPriority>
     <soundInteract>Silver_Drop</soundInteract>
@@ -33,10 +34,10 @@
     </thingCategories>
     <stackLimit>500</stackLimit>
     <smallVolume>true</smallVolume>
-    <deepCommonality>1</deepCommonality>
+    <deepCommonality>0.5</deepCommonality>
     <deepLumpSizeRange>
-      <min>4</min>
-      <max>12</max>
+      <min>2</min>
+      <max>10</max>
     </deepLumpSizeRange>
     <stuffProps>
       <categories>
@@ -91,7 +92,7 @@
     <deepCommonality>0.5</deepCommonality>
     <deepLumpSizeRange>
       <min>1</min>
-      <max>6</max>
+      <max>5</max>
     </deepLumpSizeRange>
     <stuffProps>
       <stuffAdjective>golden</stuffAdjective>
@@ -124,9 +125,10 @@
     <label>steel</label>
     <description>An iron-carbon metal alloy used for building a huge variety of structures, weapons, and machines.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Metal</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-      <color>(255,255,255)</color>
+      <texPath>Things/Item/Resource/Steel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(115,115,115)</color>
+      <drawSize>1.04</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -157,7 +159,7 @@
       </categories>
       <commonality>1.00</commonality>
       <constructEffect>ConstructMetal</constructEffect>
-      <color>(102,102,105)</color>
+      <color>(105,105,105)</color>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
@@ -178,6 +180,7 @@
     <graphicData>
       <texPath>Things/Item/Resource/Plasteel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.95</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -196,10 +199,10 @@
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <deepCommonality>0.5</deepCommonality>
+    <deepCommonality>1</deepCommonality>
     <deepLumpSizeRange>
-      <min>1</min>
-      <max>6</max>
+      <min>2</min>
+      <max>10</max>
     </deepLumpSizeRange>
     <stuffProps>
       <categories>
@@ -294,7 +297,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Uranium</defName>
     <label>uranium</label>
-    <description>An extremely hard, dense metal. While it is best known as a fuel for nuclear devices, its extreme density and hardness also make it good for making certain primitive weapons and armor.</description>
+    <description>An dark, heavy metal. While it is best known as a fuel for nuclear devices, its extreme density and hardness also make it good for making certain primitive weapons and armor.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Uranium</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -304,7 +307,7 @@
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
       <MarketValue>6</MarketValue>
-      <Mass>0.1</Mass>
+      <Mass>1</Mass>
       <StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
@@ -316,12 +319,10 @@
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <stackLimit>500</stackLimit>
-    <smallVolume>true</smallVolume>
-    <deepCommonality>0.5</deepCommonality>
+    <deepCommonality>1</deepCommonality>
     <deepLumpSizeRange>
-      <min>1</min>
-      <max>6</max>
+      <min>2</min>
+      <max>10</max>
     </deepLumpSizeRange>
     <stuffProps>
       <categories>
@@ -375,7 +376,7 @@
     <deepCommonality>0.5</deepCommonality>
     <deepLumpSizeRange>
       <min>1</min>
-      <max>6</max>
+      <max>5</max>
     </deepLumpSizeRange>
     <stuffProps>
       <categories>

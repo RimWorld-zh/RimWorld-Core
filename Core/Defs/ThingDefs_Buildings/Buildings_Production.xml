@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>CraftingSpot</defName>
     <label>crafting spot</label>
-    <description>A place for crafting simple items like knives or bows.</description>
+    <description>A place for crafting simple items like knives or bows. Production here is slow because of the lack of tools.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/Building/Production/CraftingSpot</texPath>
@@ -14,6 +14,7 @@
     <altitudeLayer>FloorEmplacement</altitudeLayer>
     <statBases>
       <WorkToBuild>0</WorkToBuild>
+      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
     </statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<useHitPoints>false</useHitPoints>
@@ -27,6 +28,8 @@
       <li>ITab_Bills</li>
     </inspectorTabs>
     <building>
+      <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <sowTag>SupportPlantsOnly</sowTag>
       <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
@@ -38,10 +41,14 @@
           <li>ToolCabinet</li>
         </linkableFacilities>
       </li>
+      <li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
     </comps>
     <designationHotKey>Misc1</designationHotKey>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
   </ThingDef>
 
@@ -76,6 +83,8 @@
       <li>ITab_Bills</li>
     </inspectorTabs>
     <building>
+      <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <sowTag>SupportPlantsOnly</sowTag>
       <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
@@ -87,10 +96,14 @@
           <li>ToolCabinet</li>
         </linkableFacilities>
       </li>
+      <li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
     </comps>
     <designationHotKey>Misc1</designationHotKey>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
     </placeWorkers>
   </ThingDef>
 

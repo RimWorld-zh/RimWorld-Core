@@ -62,7 +62,7 @@
   <InPain>In pain</InPain>
   <PainLevel>Pain</PainLevel>
   <Injured>Injured</Injured>
-  <NoInjuries>(no injuries)</NoInjuries>
+  <NoHealthConditions>no health conditions</NoHealthConditions>
   <WholeBody>Whole body</WholeBody>
   <DataProcessing>Data processing</DataProcessing>
   <Communication>Communication</Communication>

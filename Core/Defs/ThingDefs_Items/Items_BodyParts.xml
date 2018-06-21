@@ -41,7 +41,7 @@
 
   <ThingDef Name="BodyPartNaturalBase" ParentName="BodyPartBase"  Abstract="True">
     <graphicData>
-      <texPath>Things/Item/BodyPart/BodyPartNatural</texPath>
+      <texPath>Things/Item/Health/HealthItemNatural</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>
@@ -97,7 +97,7 @@
 
   <ThingDef Name="BodyPartProstheticBase" ParentName="BodyPartArtificialBase" Abstract="True">
     <graphicData>
-      <texPath>Things/Item/BodyPart/BodyPartProsthetic</texPath>
+      <texPath>Things/Item/Health/HealthItemProsthetic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>
@@ -174,7 +174,7 @@
   <ThingDef ParentName="BodyPartProstheticBase">
     <defName>CochlearImplant</defName>
     <label>cochlear implant</label>
-    <description>text_todo</description>
+    <description>An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf.</description>
     <techLevel>Industrial</techLevel>
     <costList>
       <Steel>20</Steel>
@@ -193,7 +193,7 @@
 
   <ThingDef Name="BodyPartBionicBase" ParentName="BodyPartProstheticBase" Abstract="True">
     <graphicData>
-      <texPath>Things/Item/BodyPart/BodyPartBionic</texPath>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>
@@ -319,7 +319,7 @@
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>BionicEar</defName>
     <label>bionic ear</label>
-    <description>text_todo</description>
+    <description>An advanced artificial ear implant. A collection of invisible subdermal microphones capture sound and transmit it to a biogel nerve interface that links directly with the auditory nerve. It's sensitive enough to hear a cat before you see it, can't be damaged by loud noise, and automatically tunes itself to pick out meaningful sounds in noisy environments.</description>
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>10</Plasteel>
@@ -342,7 +342,7 @@
     <description>A combat-oriented hand replacement consisting of three deadly claws arranged in a grasping shape. It is vicious in combat, and its powerful mini-servos can crush a skull like a natural hand crushes an egg. The blades can be retracted, making it almost as useful as a biological hand for non-combat tasks.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
-      <texPath>Things/Item/BodyPart/BodyPartBionic</texPath>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>
@@ -362,7 +362,7 @@
 
   <ThingDef Name="BodyPartArchotechBase" ParentName="BodyPartArtificialBase" Abstract="True">
     <graphicData>
-      <texPath>Things/Item/BodyPart/BodyPartArchotech</texPath>
+      <texPath>Things/Item/Health/HealthItemArchotech</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.80</drawSize>
     </graphicData>

@@ -1,6 +1,7 @@
 ﻿clothes
 clothing choices
 fashion knowledge
+stylishness
 
 looks
 appearance
@@ -13,8 +14,10 @@ pubic hair
 facial hair
 leg hair
 face
+eyes
 nose
 ears
+jawline
 forehead
 hands
 genitals

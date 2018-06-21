@@ -59,7 +59,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>Turret_MiniTurret</defName>
     <label>mini-turret</label>
-    <description>An small, short-ranged automatic turret. Requires steel to replace its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
+    <description>A small, short-ranged automatic turret. Requires steel to replace its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
       <texPath>Things/Building/Security/MiniTurret</texPath>

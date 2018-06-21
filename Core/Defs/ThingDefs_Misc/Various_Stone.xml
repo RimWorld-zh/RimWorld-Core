@@ -42,7 +42,7 @@
     <description>Blocks of stone. Mostly useful for building long-lasting, simple structures.</description>
     <graphicData>
       <texPath>Things/Item/Resource/StoneBlocks</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Stone_Drop</soundInteract>
     <soundDrop>Stone_Drop</soundDrop>

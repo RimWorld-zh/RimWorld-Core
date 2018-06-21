@@ -163,8 +163,8 @@
   <Paused>Paused</Paused>
   <Unpause>Unpause</Unpause>
 
-  <IncludeEquipped>Include equipped</IncludeEquipped>
-  <IncludeTainted>Include tainted</IncludeTainted>
+  <IncludeEquipped>Count equipped</IncludeEquipped>
+  <IncludeTainted>Count tainted</IncludeTainted>
   <LimitToAllowedStuff>Only allowed ingredients</LimitToAllowedStuff>
   <IncludeFromAll>Look everywhere</IncludeFromAll>
   <IncludeSpecific>Look in {0}</IncludeSpecific>

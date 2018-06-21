@@ -20,7 +20,7 @@
     <plant>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestTag>Standard</harvestTag>
-			<sowWork>960</sowWork>
+			<sowWork>800</sowWork>
 			<sowTags>
 				<li>Ground</li>
 				<li>Decorative</li>
@@ -57,7 +57,7 @@
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
-      <sowWork>960</sowWork>
+      <sowWork>800</sowWork>
       <sowTags>
         <li>Ground</li>
         <li>Decorative</li>

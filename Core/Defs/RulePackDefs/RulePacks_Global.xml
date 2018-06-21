@@ -49,6 +49,44 @@
         <li>ConceptAny->[ConceptBadass]</li>
         <li>ConceptAny->[ConceptAngsty]</li>
       </rulesStrings>
+      <rulesFiles>
+        <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
+        <li>Direction->Words/Adjectives/CompassDirections</li>
+        <li>Letter->WordParts/CapitalLetters</li>
+        <li>SylE->WordParts/Syllables_English</li>
+        <li>SylG->WordParts/Syllables_Galician</li>
+        <li>Color->Words/Nouns/Colors</li>
+        <li>ColorBadass->Words/Nouns/Colors_Badass</li>
+        <li>Vegetable->Words/Nouns/Vegetables</li>
+        <li>Game->Words/Nouns/Games</li>
+        <li>Animal->Words/Nouns/Animals</li>
+        <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
+        <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
+        <li>Weapon->Words/Nouns/Weapons</li>
+        <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
+        <li>NaturalObject->Words/Nouns/NaturalObject</li>
+        <li>TreeType->Words/Nouns/TreeTypes</li>
+        <li>PersonJob->Words/Nouns/People_Jobs</li>
+        <li>PersonFamily->Words/Nouns/People_Family</li>
+        <li>PersonAlly->Words/Nouns/People_Allies</li>
+        <li>PersonBadass->Words/Nouns/People_Badass</li>
+        <li>Enemy->Words/Nouns/Enemies</li>
+        <li>Apparel->Words/Nouns/Apparel</li>
+        <li>Gore->Words/Nouns/Gore</li>
+        <li>Mechanoid->Words/Nouns/Mechanoid</li>
+        <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
+        <li>ConceptBadass->Words/Nouns/Concepts_Badass</li>
+        <li>ConceptAngsty->Words/Nouns/Concepts_Angsty</li>
+        <li>Community->Words/Nouns/Communities</li>
+        <li>Bodypart->Words/Nouns/Bodyparts</li>
+        <li>AdjectiveLarge->Words/Adjectives/Large</li>
+        <li>AdjectiveBadass->Words/Adjectives/Badass</li>
+        <li>AdjectiveAngsty->Words/Adjectives/Angsty</li>
+        <li>AdjectiveFriendly->Words/Adjectives/Friendly</li>
+        <li>AdjectiveNatural->Words/Adjectives/Natural</li>
+        <li>VerbFriendly->Words/Verbs/Friendly</li>
+        <li>PersonalCharacteristic->Words/Nouns/PersonalCharacteristics</li>
+      </rulesFiles>
       <rulesRaw>
         <li Class="Rule_NamePerson">
           <keyword>NamePerson</keyword>
@@ -67,150 +105,6 @@
             <min>0</min>
             <max>9</max>
           </range>
-        </li>
-        <li Class="Rule_File">
-          <keyword>RomanNumeral</keyword>
-          <path>Words/Misc/Numbers_SmallRoman</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Direction</keyword>
-          <path>Words/Adjectives/CompassDirections</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Letter</keyword>
-          <path>WordParts/CapitalLetters</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>SylE</keyword>
-          <path>WordParts/Syllables_English</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>SylG</keyword>
-          <path>WordParts/Syllables_Galician</path>
-        </li>
-         <li Class="Rule_File">
-          <keyword>Color</keyword>
-          <path>Words/Nouns/Colors</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>ColorBadass</keyword>
-          <path>Words/Nouns/Colors_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Vegetable</keyword>
-          <path>Words/Nouns/Vegetables</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Game</keyword>
-          <path>Words/Nouns/Games</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Animal</keyword>
-          <path>Words/Nouns/Animals</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>AnimalBadass</keyword>
-          <path>Words/Nouns/Animals_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>AnimalGroup</keyword>
-          <path>Words/Nouns/AnimalGroups</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Weapon</keyword>
-          <path>Words/Nouns/Weapons</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>TerrainFeature</keyword>
-          <path>Words/Nouns/TerrainFeatures</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>NaturalObject</keyword>
-          <path>Words/Nouns/NaturalObject</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>TreeType</keyword>
-          <path>Words/Nouns/TreeTypes</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>PersonJob</keyword>
-          <path>Words/Nouns/People_Jobs</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>PersonFamily</keyword>
-          <path>Words/Nouns/People_Family</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>PersonAlly</keyword>
-          <path>Words/Nouns/People_Allies</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>PersonBadass</keyword>
-          <path>Words/Nouns/People_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Enemy</keyword>
-          <path>Words/Nouns/Enemies</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Apparel</keyword>
-          <path>Words/Nouns/Apparel</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Gore</keyword>
-          <path>Words/Nouns/Gore</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Mechanoid</keyword>
-          <path>Words/Nouns/Mechanoid</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>ConceptPositive</keyword>
-          <path>Words/Nouns/Concepts_Positive</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>ConceptBadass</keyword>
-          <path>Words/Nouns/Concepts_Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>ConceptAngsty</keyword>
-          <path>Words/Nouns/Concepts_Angsty</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Community</keyword>
-          <path>Words/Nouns/Communities</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Bodypart</keyword>
-          <path>Words/Nouns/Bodyparts</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>AdjectiveLarge</keyword>
-          <path>Words/Adjectives/Large</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>AdjectiveBadass</keyword>
-          <path>Words/Adjectives/Badass</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>AdjectiveAngsty</keyword>
-          <path>Words/Adjectives/Angsty</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>AdjectiveFriendly</keyword>
-          <path>Words/Adjectives/Friendly</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>AdjectiveNatural</keyword>
-          <path>Words/Adjectives/Natural</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>VerbFriendly</keyword>
-          <path>Words/Verbs/Friendly</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>PersonalCharacteristic</keyword>
-          <path>Words/Nouns/PersonalCharacteristics</path>
         </li>
       </rulesRaw>
     </rulePack>
@@ -256,16 +150,10 @@
         <li>TalkTopicLight->wearing [Apparel]s</li>
         <li>TalkTopicLight->making [Apparel]s</li>
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>talktopicheavyfile</keyword>
-          <path>Words/Nouns/TalkTopics_Heavy</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>talktopiclightfile</keyword>
-          <path>Words/Nouns/TalkTopics_Light</path>
-        </li>
-      </rulesRaw>
+      <rulesFiles>
+        <li>talktopicheavyfile->Words/Nouns/TalkTopics_Heavy</li>
+        <li>talktopiclightfile->Words/Nouns/TalkTopics_Light</li>
+      </rulesFiles>
     </rulePack>
   </RulePackDef>
 

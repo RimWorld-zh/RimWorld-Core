@@ -29,20 +29,11 @@
         <li>planet->World</li>
         <li>planet->Planet</li>
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>celestial_name</keyword>
-          <path>Names/Celestial</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>celestial_suffix</keyword>
-          <path>Names/CelestialSuffix</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>celestial_prefix</keyword>
-          <path>Names/CelestialPrefix</path>
-        </li>
-      </rulesRaw>
+      <rulesFiles>
+        <li>celestial_name->Names/Celestial</li>
+        <li>celestial_suffix->Names/CelestialSuffix</li>
+        <li>celestial_prefix->Names/CelestialPrefix</li>
+      </rulesFiles>
     </rulePack>
   </RulePackDef>
 

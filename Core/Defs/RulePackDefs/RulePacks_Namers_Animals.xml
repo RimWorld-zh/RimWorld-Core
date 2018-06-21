@@ -4,20 +4,11 @@
   <RulePackDef>
     <defName>NamerAnimalUtility</defName>
     <rulePack>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>NameAnimalUnisex</keyword>
-          <path>Names/Animal_Unisex</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>NameAnimalMale</keyword>
-          <path>Names/Animal_Male</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>NameAnimalFemale</keyword>
-          <path>Names/Animal_Female</path>
-        </li>
-      </rulesRaw>
+      <rulesFiles>
+        <li>NameAnimalUnisex->Names/Animal_Unisex</li>
+        <li>NameAnimalMale->Names/Animal_Male</li>
+        <li>NameAnimalFemale->Names/Animal_Female</li>
+      </rulesFiles>
     </rulePack>
   </RulePackDef>
 

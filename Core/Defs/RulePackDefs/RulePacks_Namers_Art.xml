@@ -6,12 +6,9 @@
   <RulePackDef>
     <defName>ArtNameUtility</defName>
     <rulePack>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>Artwork</keyword>
-          <path>Words/Nouns/Artworks</path>
-        </li>
-      </rulesRaw>
+      <rulesFiles>
+        <li>Artwork->Words/Nouns/Artworks</li>
+      </rulesFiles>
     </rulePack>
   </RulePackDef>
 

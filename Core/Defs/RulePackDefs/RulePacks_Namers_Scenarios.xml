@@ -18,12 +18,9 @@
         <li>r_name->[Color] [story]</li>
         <li>r_name->[story] [RomanNumeral]</li>
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>story</keyword>
-          <path>Words/Nouns/Stories</path>
-        </li>
-      </rulesRaw>
+      <rulesFiles>
+        <li>story->Words/Nouns/Stories</li>
+      </rulesFiles>
     </rulePack>
   </RulePackDef>
 

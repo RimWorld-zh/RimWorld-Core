@@ -12,12 +12,9 @@
         <li>WordTribal(p=2)->[SylG][SylG][SylG]</li>
         <li>WordTribal->[SylG][SylG][SylG][SylG]</li>
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>tribal_word_file</keyword>
-          <path>Words/Foreign/Tribal</path>
-        </li>
-      </rulesRaw>
+      <rulesFiles>
+        <li>tribal_word_file->Words/Foreign/Tribal</li>
+      </rulesFiles>
     </rulePack>
   </RulePackDef>
 
@@ -32,12 +29,9 @@
         <li>PlaceOutlander->[SylE][SylE][place_end]</li>
         <li>PlaceOutlander->[SylE][SylE][SylE][place_end]</li>
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>place_end</keyword>
-          <path>WordParts/PlaceEndings</path>
-        </li>
-      </rulesRaw>
+      <rulesFiles>
+        <li>place_end->WordParts/PlaceEndings</li>
+      </rulesFiles>
     </rulePack>
   </RulePackDef>
 

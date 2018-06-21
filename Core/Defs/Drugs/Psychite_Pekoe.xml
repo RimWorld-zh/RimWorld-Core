@@ -54,6 +54,7 @@
 			<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
       <recipeUsers>
         <li>CraftingSpot</li>
+        <li>DrugLab</li>
       </recipeUsers>
       <skillRequirements>
         <Intellectual>2</Intellectual>

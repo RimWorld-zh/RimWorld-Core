@@ -22,16 +22,10 @@
         <li>r_seed->[businesstype]</li>
         <li>r_seed->[Community]</li>
       </rulesStrings>
-      <rulesRaw>
-        <li Class="Rule_File">
-          <keyword>businessname</keyword>
-          <path>Names/Business</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>businesstype</keyword>
-          <path>Words/Nouns/BusinessTypes</path>
-        </li>
-      </rulesRaw>
+      <rulesFiles>
+        <li>businessname->Names/Business</li>
+        <li>businesstype->Words/Nouns/BusinessTypes</li>
+      </rulesFiles>
     </rulePack>
   </RulePackDef>
 

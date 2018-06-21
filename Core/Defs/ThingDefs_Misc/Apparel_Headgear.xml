@@ -124,6 +124,7 @@
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/TribalHeaddress/TribalHeaddress</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
     </graphicData>
     <stuffCategories>
       <li>Fabric</li>
@@ -223,6 +224,7 @@
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/WarMask/WarMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
     </graphicData>
     <stuffCategories>
       <li>Woody</li>
@@ -276,6 +278,7 @@
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/WarVeil/WarVeil</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
     </graphicData>
     <stuffCategories>
       <li>Fabric</li>
