@@ -29,6 +29,7 @@ async function copyCore() {
   log(
     chalk.cyan('Version changed: '),
     chalk.cyanBright(previousVersion),
+    chalk.cyan('=>'),
     chalk.cyanBright(nextVersion),
   );
 
