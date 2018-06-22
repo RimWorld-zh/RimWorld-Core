@@ -252,7 +252,7 @@
 	<YourTradeableSilverTip>You can only trade with silver that is near an orbital trade beacon and not under a roof.</YourTradeableSilverTip>
   <TraderHasNoMore>Trader has no more.</TraderHasNoMore>
   <ColonyHasNoMore>No more to sell.</ColonyHasNoMore>
-  <TraderWillNotTrade>Trader is not willing to trade this.</TraderWillNotTrade>
+  <TraderWillNotTrade>Trader is not willing to buy this.</TraderWillNotTrade>
   <Negotiator>Negotiator</Negotiator>
   <NegotiatorTalkingImpaired>Your negotiator {0} cannot talk properly because of poor health.</NegotiatorTalkingImpaired>
   <NegotiatorHearingImpaired>Your negotiator {0} cannot hear properly because of poor health.</NegotiatorHearingImpaired>

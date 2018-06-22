@@ -62,7 +62,7 @@
       <meatLabel>venison</meatLabel>
       <wildness>0.75</wildness>
       <nuzzleMtbHours>120</nuzzleMtbHours>
-      <gestationPeriodDays>20</gestationPeriodDays>
+      <gestationPeriodDays>24</gestationPeriodDays>
       <lifeExpectancy>15</lifeExpectancy>
       <manhunterOnDamageChance>0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
@@ -225,7 +225,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
       <wildness>0.55</wildness>
-      <gestationPeriodDays>20</gestationPeriodDays>
+      <gestationPeriodDays>24</gestationPeriodDays>
       <lifeExpectancy>15</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -393,7 +393,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
       <wildness>0.75</wildness>
-      <gestationPeriodDays>21</gestationPeriodDays>
+      <gestationPeriodDays>25</gestationPeriodDays>
       <lifeExpectancy>18</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -562,7 +562,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
       <wildness>0.75</wildness>
-      <gestationPeriodDays>21</gestationPeriodDays>
+      <gestationPeriodDays>25</gestationPeriodDays>
       <lifeExpectancy>18</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -702,7 +702,7 @@
       <trainability>Intermediate</trainability>
       <useMeatFrom>Pig</useMeatFrom>
       <leatherDef>Leather_Pig</leatherDef>
-      <gestationPeriodDays>15</gestationPeriodDays>
+      <gestationPeriodDays>18</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>

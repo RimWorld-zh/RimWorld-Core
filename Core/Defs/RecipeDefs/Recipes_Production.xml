@@ -4,6 +4,7 @@
 	<RecipeDef Name="MakeStoneBlocksBase" Abstract="True">
 		<jobString>Cutting stone blocks from chunk.</jobString>
 		<workAmount>1600</workAmount>
+    <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<targetCountAdjustment>20</targetCountAdjustment>
@@ -139,7 +140,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>2000</workAmount>
-		<workSkill>Intellectual</workSkill>
+    <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
 		<ingredients>
 			<li>
 				<filter>
@@ -168,7 +169,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>2500</workAmount>
-		<workSkill>Intellectual</workSkill>
+    <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>

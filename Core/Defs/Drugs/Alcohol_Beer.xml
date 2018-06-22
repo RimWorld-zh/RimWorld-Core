@@ -85,7 +85,7 @@
 		<label>make wort</label>
 		<description>Make wort from hops.</description>
 		<jobString>Making wort.</jobString>
-		<workSpeedStat>BrewingSpeed</workSpeedStat>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>

@@ -486,7 +486,7 @@
       <Plasteel>50</Plasteel>
       <Gold>20</Gold>
       <ComponentIndustrial>6</ComponentIndustrial>
-      <ComponentSpacer>2</ComponentSpacer>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <comps>
       <li Class="CompProperties_Power">

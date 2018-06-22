@@ -189,7 +189,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>4</heatPerSecond>
+        <heatPerSecond>6</heatPerSecond>
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
@@ -258,7 +258,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>3</heatPerSecond>
+        <heatPerSecond>6</heatPerSecond>
       </li>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Explosive">
@@ -493,9 +493,9 @@
     <tickerType>Normal</tickerType>
     <size>(4,5)</size>
     <costList>
-      <WoodLog>340</WoodLog>
-      <Steel>20</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <WoodLog>280</WoodLog>
+      <Steel>80</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Power">

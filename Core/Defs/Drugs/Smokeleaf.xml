@@ -70,8 +70,8 @@
         <li>CraftingSpot</li>
         <li>DrugLab</li>
       </recipeUsers>
-			<workSpeedStat></workSpeedStat>
-			<workSkill></workSkill>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
     </recipeMaker>
     <costList>
       <SmokeleafLeaves>4</SmokeleafLeaves>

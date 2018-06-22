@@ -85,7 +85,7 @@
       <baseHealthScale>1.15</baseHealthScale>
       <foodType>CarnivoreAnimalStrict</foodType>
       <leatherDef>Leather_Wolf</leatherDef>
-      <gestationPeriodDays>22.5</gestationPeriodDays>
+      <gestationPeriodDays>26</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>
       <wildness>0.35</wildness>
@@ -272,7 +272,7 @@
       <nuzzleMtbHours>240</nuzzleMtbHours>
       <manhunterOnDamageChance>0.055</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
-      <gestationPeriodDays>22.5</gestationPeriodDays>
+      <gestationPeriodDays>26</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -524,7 +524,7 @@
       <trainability>Advanced</trainability>
       <wildness>0.75</wildness>
       <nuzzleMtbHours>120</nuzzleMtbHours>
-      <gestationPeriodDays>18</gestationPeriodDays>
+      <gestationPeriodDays>21</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>

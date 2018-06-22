@@ -80,7 +80,7 @@
       <baseHealthScale>2.5</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Bear</leatherDef>
-      <gestationPeriodDays>27</gestationPeriodDays>
+      <gestationPeriodDays>30</gestationPeriodDays>
       <wildness>0.80</wildness>
       <lifeExpectancy>22</lifeExpectancy>
       <trainability>Advanced</trainability>

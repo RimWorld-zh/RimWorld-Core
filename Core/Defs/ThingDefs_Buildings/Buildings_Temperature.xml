@@ -85,7 +85,6 @@
       <isMealSource>true</isMealSource>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
-    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">

@@ -1,7 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Artistic recipes - speed not affected by skill because skill affects output quality-->
+  <!-- Basic recipes - speed not affected by skill because there's no skill involved -->
+
+
+<StatDef>
+    <defName>UnskilledLaborSpeed</defName>
+    <label>unskilled labor speed</label>
+    <description>The speed at which this person carries out unskilled labor like making stone blocks, making chemfuel at a refinery or burning items.</description>
+    <category>PawnWork</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <statFactors>
+      <li>WorkSpeedGlobal</li>
+    </statFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>1</weight>
+      </li>
+      <li>
+        <capacity>Sight</capacity>
+        <weight>0.25</weight>
+				<max>1</max>
+			</li>
+    </capacityFactors>
+  </StatDef>
+
+  <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
 
   <StatDef>
     <defName>SculptingSpeed</defName>
@@ -78,9 +105,9 @@
 	<!-- Production recipes - speed affected by skill because there is no output quality -->
 
 	<StatDef>
-    <defName>DrugProductionSpeed</defName>
-    <label>drug production speed</label>
-    <description>How fast this character produces drugs.</description>
+    <defName>DrugSynthesisSpeed</defName>
+    <label>drug synthesis speed</label>
+    <description>How fast this character synthesizes complex chemical drugs.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.1</minValue>
@@ -178,9 +205,9 @@
   </StatDef>
 
   <StatDef>
-    <defName>BrewingSpeed</defName>
-    <label>brewing speed</label>
-    <description>The speed at which this person brews beer.</description>
+    <defName>DrugCookingSpeed</defName>
+    <label>drug cooking speed</label>
+    <description>The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.1</minValue>

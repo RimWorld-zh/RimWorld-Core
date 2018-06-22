@@ -113,7 +113,7 @@
 			<harvestWork>300</harvestWork>
 			<harvestedThingDef>WoodLog</harvestedThingDef>
 			<harvestTag>Wood</harvestTag>
-			<harvestYield>10</harvestYield>
+			<harvestYield>20</harvestYield>
 			<harvestMinGrowth>0.2</harvestMinGrowth>
 			<harvestFailable>false</harvestFailable>
 			<sowWork>12000</sowWork>

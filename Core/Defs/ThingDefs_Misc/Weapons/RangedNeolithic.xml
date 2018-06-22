@@ -71,7 +71,7 @@
         <li>CraftingSpot</li>
       </recipeUsers>
       <skillRequirements>
-        <Crafting>3</Crafting>
+        <Crafting>2</Crafting>
       </skillRequirements>
     </recipeMaker>
     <verbs>

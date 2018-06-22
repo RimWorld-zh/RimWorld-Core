@@ -42,7 +42,7 @@
     </requiredTraits>
     <stages>
       <li>
-        <label>transhumanist lacks artificial bodypart</label>
+        <label>transhumanist frustrated</label>
         <description>Flesh is so limiting. I wish I had some kind of artificial body part.</description>
         <baseMoodEffect>-4</baseMoodEffect>
       </li>
@@ -58,7 +58,7 @@
     </requiredTraits>
     <stages>
       <li>
-        <label>transhumanist somewhat pleased</label>
+        <label>transhumanist pleased</label>
         <description>This artificial part is cool. I want more.</description>
         <baseMoodEffect>4</baseMoodEffect>
       </li>

@@ -60,7 +60,7 @@
       <baseHealthScale>3.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Elephant</leatherDef>
-      <gestationPeriodDays>45</gestationPeriodDays>
+      <gestationPeriodDays>48</gestationPeriodDays>
       <wildness>0.75</wildness>
       <nuzzleMtbHours>48</nuzzleMtbHours>
       <trainability>Advanced</trainability>
@@ -214,7 +214,7 @@
       <baseHealthScale>3.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Heavy</leatherDef>
-      <gestationPeriodDays>50</gestationPeriodDays>
+      <gestationPeriodDays>55</gestationPeriodDays>
       <wildness>0.97</wildness>
       <trainability>Advanced</trainability>
       <nuzzleMtbHours>120</nuzzleMtbHours>

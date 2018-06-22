@@ -487,6 +487,7 @@
 			<texPath>Things/Building/Misc/AnimalBed/AnimalSleepSpot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+    <uiIconScale>0.80</uiIconScale>
 		<statBases>
 			<WorkToBuild>0</WorkToBuild>
 			<SurgerySuccessChanceFactor>0.7</SurgerySuccessChanceFactor>
@@ -574,7 +575,7 @@
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<castEdgeShadows>true</castEdgeShadows>
-    <uiIconScale>0.85</uiIconScale>
+    <uiIconScale>0.80</uiIconScale>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
@@ -844,6 +845,7 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
+    <uiIconScale>0.8</uiIconScale>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
       <WorkToBuild>750</WorkToBuild>
@@ -870,6 +872,7 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
+    <uiIconScale>0.8</uiIconScale>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>1500</WorkToBuild>
@@ -926,6 +929,7 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
+    <uiIconScale>0.9</uiIconScale>
     <statBases>
       <MaxHitPoints>175</MaxHitPoints>
       <WorkToBuild>3300</WorkToBuild>
@@ -1207,6 +1211,10 @@
         <startTime>0.25</startTime>
         <endTime>0.8</endTime>
         <offMessage>Off for plant resting period</offMessage>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>3</heatPerSecond>
       </li>
     </comps>
     <!-- Determined by trial and error

@@ -58,7 +58,7 @@
       <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
       <trainability>Simple</trainability>
-      <gestationPeriodDays>11</gestationPeriodDays>
+      <gestationPeriodDays>13</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -197,7 +197,7 @@
       <foodType>DendrovoreAnimal</foodType>
       <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
-      <gestationPeriodDays>14</gestationPeriodDays>
+      <gestationPeriodDays>17</gestationPeriodDays>
       <manhunterOnDamageChance>0.02</manhunterOnDamageChance>
       <litterSizeCurve>
         <points>
@@ -344,7 +344,7 @@
       <wildness>0.75</wildness>
       <petness>0.08</petness>
       <nuzzleMtbHours>120</nuzzleMtbHours>
-      <gestationPeriodDays>17</gestationPeriodDays>
+      <gestationPeriodDays>20</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -495,7 +495,7 @@
       <petness>0.20</petness>
       <mateMtbHours>8</mateMtbHours>
       <nuzzleMtbHours>48</nuzzleMtbHours>
-      <gestationPeriodDays>12</gestationPeriodDays>
+      <gestationPeriodDays>14</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -647,7 +647,7 @@
       <mateMtbHours>8</mateMtbHours>
       <nuzzleMtbHours>120</nuzzleMtbHours>
       <canBePredatorPrey>false</canBePredatorPrey>
-      <gestationPeriodDays>12</gestationPeriodDays>
+      <gestationPeriodDays>14</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -794,7 +794,7 @@
       <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
       <mateMtbHours>8</mateMtbHours>
-      <gestationPeriodDays>12</gestationPeriodDays>
+      <gestationPeriodDays>14</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -938,7 +938,7 @@
       <trainability>Simple</trainability>
       <petness>0.15</petness>
       <mateMtbHours>8</mateMtbHours>
-      <gestationPeriodDays>10</gestationPeriodDays>
+      <gestationPeriodDays>12</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>

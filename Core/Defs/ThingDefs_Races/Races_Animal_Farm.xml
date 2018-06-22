@@ -193,7 +193,7 @@
       <wildness>0.07</wildness>
       <trainability>Advanced</trainability>
       <meatLabel>pork</meatLabel>
-      <gestationPeriodDays>14</gestationPeriodDays>
+      <gestationPeriodDays>17</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -361,7 +361,7 @@
       <wildness>0.05</wildness>
       <trainability>Simple</trainability>
       <meatLabel>beef</meatLabel>
-      <gestationPeriodDays>17</gestationPeriodDays>
+      <gestationPeriodDays>20</gestationPeriodDays>
       <lifeExpectancy>22</lifeExpectancy>
       <manhunterOnDamageChance>0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
@@ -553,7 +553,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Camel</leatherDef>
       <wildness>0.25</wildness>
-      <gestationPeriodDays>21</gestationPeriodDays>
+      <gestationPeriodDays>25</gestationPeriodDays>
       <lifeExpectancy>15</lifeExpectancy>
       <lifeStageAges>
         <li>

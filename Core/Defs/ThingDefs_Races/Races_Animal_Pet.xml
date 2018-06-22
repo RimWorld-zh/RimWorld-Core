@@ -61,7 +61,7 @@
       <trainability>Intermediate</trainability>
       <wildness>0</wildness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
-      <gestationPeriodDays>20</gestationPeriodDays>
+      <gestationPeriodDays>24</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -215,7 +215,7 @@
       <trainability>Advanced</trainability>
       <wildness>0</wildness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
-      <gestationPeriodDays>21</gestationPeriodDays>
+      <gestationPeriodDays>25</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -369,7 +369,7 @@
       <baseHealthScale>1.0</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Dog</leatherDef>
-      <gestationPeriodDays>22.5</gestationPeriodDays>
+      <gestationPeriodDays>26</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>
       <wildness>0</wildness>
@@ -554,7 +554,7 @@
       <petness>1</petness>
       <trainability>None</trainability>
       <nuzzleMtbHours>24</nuzzleMtbHours>
-      <gestationPeriodDays>20</gestationPeriodDays>
+      <gestationPeriodDays>24</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <litterSizeCurve>
         <points>

@@ -61,7 +61,7 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.40</infectionChance>
+        <infectionChance>0.30</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>burn scar</permanentLabel>
@@ -87,7 +87,7 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.20</infectionChance>
+        <infectionChance>0.15</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>scar</permanentLabel>
@@ -131,7 +131,7 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.20</infectionChance>
+        <infectionChance>0.15</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>cut scar</permanentLabel>
@@ -181,7 +181,7 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.20</infectionChance>
+        <infectionChance>0.15</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>scratch scar</permanentLabel>
@@ -208,7 +208,7 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.40</infectionChance>
+        <infectionChance>0.30</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>bite scar</permanentLabel>
@@ -235,7 +235,7 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.20</infectionChance>
+        <infectionChance>0.15</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>stab scar</permanentLabel>
@@ -262,7 +262,7 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.20</infectionChance>
+        <infectionChance>0.15</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>old gunshot</permanentLabel>
@@ -336,7 +336,7 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.40</infectionChance>
+        <infectionChance>0.25</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>frostbite scar</permanentLabel>

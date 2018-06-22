@@ -527,6 +527,10 @@
           <li>ToolCabinet</li>
         </linkableFacilities>
       </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>4</heatPerSecond>
+      </li>
     </comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -668,6 +672,10 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>3</heatPerSecond>
+      </li>
     </comps>
     <building>
       <isMealSource>true</isMealSource>
@@ -737,6 +745,10 @@
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>4</heatPerSecond>
       </li>
     </comps>
     <building>
@@ -988,7 +1000,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>12</heatPerSecond>
+        <heatPerSecond>9</heatPerSecond>
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
@@ -1321,7 +1333,7 @@
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>15</heatPerSecond>
+        <heatPerSecond>12</heatPerSecond>
       </li>
     </comps>
     <building>

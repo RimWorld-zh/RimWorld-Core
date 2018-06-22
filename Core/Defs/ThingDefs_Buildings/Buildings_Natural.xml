@@ -330,7 +330,7 @@
         <saveKeysPrefix>pod</saveKeysPrefix>
       </li>
       <li Class="CompProperties_HeatPusher">
-        <heatPerSecond>7</heatPerSecond>
+        <heatPerSecond>6</heatPerSecond>
         <heatPushMaxTemperature>38</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_TemperatureDamaged">

@@ -56,8 +56,10 @@
         <li>CraftingSpot</li>
         <li>DrugLab</li>
       </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
       <skillRequirements>
-        <Intellectual>2</Intellectual>
+        <Cooking>2</Cooking>
       </skillRequirements>
     </recipeMaker>
     <costList>

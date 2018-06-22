@@ -5,7 +5,7 @@
     <race>
       <body>Bird</body>
       <leatherDef>Leather_Bird</leatherDef>
-      <gestationPeriodDays>20</gestationPeriodDays>
+      <gestationPeriodDays>24</gestationPeriodDays>
       <lifeStageAges>
         <li>
           <def>AnimalBabyTiny</def>

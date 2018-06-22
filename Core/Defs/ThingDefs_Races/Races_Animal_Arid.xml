@@ -43,7 +43,7 @@
 			<baseHungerRate>0.85</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Bluefur</leatherDef>
-      <gestationPeriodDays>24</gestationPeriodDays>
+      <gestationPeriodDays>28</gestationPeriodDays>
       <wildness>0.6</wildness>
       <trainability>Simple</trainability>
       <packAnimal>true</packAnimal>
@@ -194,7 +194,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Plain</leatherDef>
       <wildness>0.75</wildness>
-      <gestationPeriodDays>18</gestationPeriodDays>
+      <gestationPeriodDays>22</gestationPeriodDays>
       <lifeExpectancy>12</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -482,7 +482,7 @@
       <wildness>0.90</wildness>
       <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.055</manhunterOnDamageChance>
-      <gestationPeriodDays>37</gestationPeriodDays>
+      <gestationPeriodDays>43</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <lifeExpectancy>45</lifeExpectancy>
       <herdAnimal>true</herdAnimal>
@@ -646,7 +646,7 @@
       <wildness>0.25</wildness>
       <trainability>Simple</trainability>
       <packAnimal>true</packAnimal>
-      <gestationPeriodDays>24</gestationPeriodDays>
+      <gestationPeriodDays>28</gestationPeriodDays>
       <lifeExpectancy>45</lifeExpectancy>
       <lifeStageAges>
         <li>

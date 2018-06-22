@@ -40,7 +40,7 @@
       <petness>0.08</petness>
       <mateMtbHours>8</mateMtbHours>
       <nuzzleMtbHours>72</nuzzleMtbHours>
-      <gestationPeriodDays>11</gestationPeriodDays>
+      <gestationPeriodDays>13</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(1.0, 0)</li>

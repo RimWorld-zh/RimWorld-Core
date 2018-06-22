@@ -199,7 +199,7 @@
       <trainability>Advanced</trainability>
       <wildness>0.60</wildness>
       <nuzzleMtbHours>48</nuzzleMtbHours>
-      <gestationPeriodDays>13</gestationPeriodDays>
+      <gestationPeriodDays>16</gestationPeriodDays>
       <lifeExpectancy>30</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -324,7 +324,7 @@
       <leatherDef>Leather_Plain</leatherDef>
       <wildness>0.6</wildness>
       <canBePredatorPrey>false</canBePredatorPrey>
-      <gestationPeriodDays>24</gestationPeriodDays>
+      <gestationPeriodDays>28</gestationPeriodDays>
       <lifeExpectancy>15</lifeExpectancy>
       <lifeStageAges>
         <li>

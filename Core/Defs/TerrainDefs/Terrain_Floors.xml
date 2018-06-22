@@ -96,6 +96,7 @@
     <researchPrerequisites>
       <li>Smithing</li>
     </researchPrerequisites>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
   </TerrainDef>
   
   <TerrainDef ParentName="FloorBase">
@@ -118,6 +119,7 @@
     <researchPrerequisites>
       <li>Smithing</li>
     </researchPrerequisites>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
   </TerrainDef>
   
   <TerrainDef ParentName="FloorBase">
@@ -140,6 +142,7 @@
     <researchPrerequisites>
       <li>Smithing</li>
     </researchPrerequisites>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
   </TerrainDef>
   
   <TerrainDef ParentName="FloorBase">

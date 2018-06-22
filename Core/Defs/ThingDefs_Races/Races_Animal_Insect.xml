@@ -174,7 +174,7 @@
       <baseHungerRate>0.25</baseHungerRate>
       <baseBodySize>0.8</baseBodySize>
       <baseHealthScale>1.7</baseHealthScale>
-      <gestationPeriodDays>10</gestationPeriodDays>
+      <gestationPeriodDays>12</gestationPeriodDays>
       <useMeatFrom>Megaspider</useMeatFrom>
       <wildness>0.95</wildness>
       <lifeExpectancy>6</lifeExpectancy>
@@ -293,7 +293,7 @@
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>2.5</baseHealthScale>
-      <gestationPeriodDays>10</gestationPeriodDays>
+      <gestationPeriodDays>12</gestationPeriodDays>
       <meatLabel>insect meat</meatLabel>
       <wildness>0.95</wildness>
       <lifeExpectancy>6</lifeExpectancy>
