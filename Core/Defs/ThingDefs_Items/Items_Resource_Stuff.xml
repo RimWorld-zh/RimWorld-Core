@@ -106,7 +106,7 @@
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
       <statOffsets>
-        <Beauty>12</Beauty>
+        <Beauty>20</Beauty>
       </statOffsets>
       <statFactors>
         <MaxHitPoints>0.6</MaxHitPoints>
@@ -389,7 +389,7 @@
       <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <statOffsets>
-        <Beauty>6</Beauty>
+        <Beauty>10</Beauty>
       </statOffsets>
       <statFactors>
         <MaxHitPoints>0.5</MaxHitPoints>

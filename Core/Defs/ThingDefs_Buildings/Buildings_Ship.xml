@@ -142,7 +142,7 @@
     <graphicData>
       <texPath>Things/Building/Ship/ShipComputerCore</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(2,2)</drawSize>
       <shadowData>
         <volume>(2.76, 0.5, 2.66)</volume>
         <offset>(0,0,-0.05)</offset>
@@ -162,7 +162,7 @@
       <Flammability>0</Flammability>
     </statBases>
     <tickerType>Normal</tickerType>
-    <size>(3,3)</size>
+    <size>(2,2)</size>
     <designationCategory>Ship</designationCategory>
     <comps>
       <li Class="CompProperties_ShipPart"/>

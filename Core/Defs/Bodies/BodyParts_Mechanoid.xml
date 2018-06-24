@@ -220,37 +220,37 @@
   <BodyPartDef ParentName="MechanicalCentipedeRingBase">
     <defName>MechanicalCentipedeBodyFirstRing</defName>
     <label>first body ring</label>
-    <hitPoints>55</hitPoints>
+    <hitPoints>50</hitPoints>
   </BodyPartDef>
 
   <BodyPartDef ParentName="MechanicalCentipedeRingBase">
     <defName>MechanicalCentipedeBodySecondRing</defName>
     <label>second body ring</label>
-    <hitPoints>50</hitPoints>
+    <hitPoints>45</hitPoints>
   </BodyPartDef>
 
   <BodyPartDef ParentName="MechanicalCentipedeRingBase">
     <defName>MechanicalCentipedeBodyThirdRing</defName>
     <label>third body ring</label>
-    <hitPoints>45</hitPoints>
+    <hitPoints>40</hitPoints>
   </BodyPartDef>
 
   <BodyPartDef ParentName="MechanicalCentipedeRingBase">
     <defName>MechanicalCentipedeBodyFourthRing</defName>
     <label>fourth body ring</label>
-    <hitPoints>40</hitPoints>
+    <hitPoints>35</hitPoints>
   </BodyPartDef>
 
   <BodyPartDef ParentName="MechanicalCentipedeRingBase">
     <defName>MechanicalCentipedeBodyFifthRing</defName>
     <label>fifth body ring</label>
-    <hitPoints>35</hitPoints>
+    <hitPoints>30</hitPoints>
   </BodyPartDef>
 
   <BodyPartDef ParentName="MechanicalCentipedeRingBase">
     <defName>MechanicalCentipedeBodySixthRing</defName>
     <label>sixth body ring</label>
-    <hitPoints>30</hitPoints>
+    <hitPoints>25</hitPoints>
   </BodyPartDef>
   
 </Defs>

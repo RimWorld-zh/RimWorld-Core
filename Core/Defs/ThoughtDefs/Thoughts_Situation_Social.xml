@@ -191,6 +191,64 @@
   </ThoughtDef>
   
   <ThoughtDef>
+    <defName>TranshumanistAppreciation</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_TranshumanistAppreciation</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>transhumanist appreciation</label>
+        <baseOpinionOffset>8</baseOpinionOffset>
+      </li>
+      <li>
+        <label>transhumanist appreciation</label>
+        <baseOpinionOffset>16</baseOpinionOffset>
+      </li>
+      <li>
+        <label>transhumanist appreciation</label>
+        <baseOpinionOffset>24</baseOpinionOffset>
+      </li>
+      <li>
+        <label>transhumanist appreciation</label>
+        <baseOpinionOffset>32</baseOpinionOffset>
+      </li>
+      <li>
+        <label>transhumanist appreciation</label>
+        <baseOpinionOffset>40</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>BodyPuristDisgust</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>ThoughtWorker_BodyPuristDisgust</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>body purist disgust</label>
+        <baseOpinionOffset>-8</baseOpinionOffset>
+      </li>
+      <li>
+        <label>body purist disgust</label>
+        <baseOpinionOffset>-16</baseOpinionOffset>
+      </li>
+      <li>
+        <label>body purist disgust</label>
+        <baseOpinionOffset>-24</baseOpinionOffset>
+      </li>
+      <li>
+        <label>body purist disgust</label>
+        <baseOpinionOffset>-32</baseOpinionOffset>
+      </li>
+      <li>
+        <label>body purist disgust</label>
+        <baseOpinionOffset>-40</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+        
+  <ThoughtDef>
     <defName>ButcheredHumanlikeCorpseOpinion</defName>
     <thoughtClass>Thought_Tale</thoughtClass>
     <workerClass>ThoughtWorker_Tale</workerClass>

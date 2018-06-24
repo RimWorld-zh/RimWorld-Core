@@ -35,7 +35,7 @@
     <statBases>
       <MoveSpeed>1.33</MoveSpeed>
       <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
     </statBases>
     <tools>
       <li>
@@ -43,7 +43,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>16</power>
+        <power>15</power>
         <cooldownTime>2.4</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -222,8 +222,8 @@
     <description>Fast, spindly, human-sized combat mechanoids specializing in rapid approach and close-range combat. Their bodies are covered in points and blades, but their mostly use two arm blades to lop off limbs or gut their victims alive.</description>
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
-      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
     </statBases>
     <tools>
       <li>

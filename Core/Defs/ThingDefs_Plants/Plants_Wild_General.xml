@@ -122,6 +122,7 @@
 		<defName>Plant_HealrootWild</defName>
 		<label>wild healroot</label>
 		<description>A slow-growing plant which yields herbal medicine when harvested.\n\nThis wild breed of healroot is hardier than domesticated healroot, but too difficult to cultivate. It is prized by tribespeople in colder climates.</description>
+    <neverMultiSelect>false</neverMultiSelect>
 		<plant>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>80</wildClusterWeight>
