@@ -1509,7 +1509,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>NutrientPasteDispenser</defName>
     <label>nutrient paste dispenser</label>
-    <description>A machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay.</description>
+    <description>A machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method, and does not cause food poisoning - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay.</description>
     <thingClass>Building_NutrientPasteDispenser</thingClass>
     <graphicData>
       <texPath>Things/Building/Production/NutrientDispenser</texPath>
@@ -1556,7 +1556,7 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <socialPropernessMatters>true</socialPropernessMatters>
-    <interactionCellOffset>(0,0,-2)</interactionCellOffset>
+    <interactionCellOffset>(0,0,3)</interactionCellOffset>
     <hasInteractionCell>true</hasInteractionCell>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Production</designationCategory>
@@ -1564,9 +1564,6 @@
     <designationHotKey>Misc6</designationHotKey>
     <canOverlapZones>false</canOverlapZones>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
-    <researchPrerequisites>
-      <li>NutrientPaste</li>
-    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -1634,9 +1631,6 @@
       <li>PlaceWorker_NextToHopperAccepter</li>
     </placeWorkers>
     <constructEffect>ConstructMetal</constructEffect>
-    <researchPrerequisites>
-      <li>NutrientPaste</li>
-    </researchPrerequisites>
     <uiIconPath>Things/Building/Production/Hopper_MenuIcon</uiIconPath>
     <uiIconScale>0.85</uiIconScale>
   </ThingDef>

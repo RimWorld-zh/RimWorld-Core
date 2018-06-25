@@ -183,10 +183,27 @@
     <stages>
       <li>
         <label>recovering</label>
-        <vomitMtbDays>0.35</vomitMtbDays>
+        <vomitMtbDays>0.4</vomitMtbDays>
+        <painOffset>0.2</painOffset>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
+            <postFactor>0.6</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.9</postFactor>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
             <postFactor>0.5</postFactor>
           </li>
         </capMods>
@@ -194,11 +211,32 @@
       <li>
         <label>major</label>
         <minSeverity>0.2</minSeverity>
-        <vomitMtbDays>0.3</vomitMtbDays>
+        <vomitMtbDays>0.2</vomitMtbDays>
+        <painOffset>0.4</painOffset>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <postFactor>0.1</postFactor>
+            <postFactor>0.5</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.5</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <postFactor>0.6</postFactor>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <postFactor>0</postFactor>
           </li>
         </capMods>
       </li>
@@ -206,10 +244,27 @@
         <label>initial</label>
         <minSeverity>0.8</minSeverity>
         <vomitMtbDays>0.3</vomitMtbDays>
+        <painOffset>0.2</painOffset>
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-						<postFactor>0.5</postFactor>
+						<postFactor>0.6</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <postFactor>0.9</postFactor>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <postFactor>0.8</postFactor>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <postFactor>0.5</postFactor>
           </li>
         </capMods>
       </li>

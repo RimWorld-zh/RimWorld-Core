@@ -383,7 +383,7 @@
     <disableAdaptiveTraining>true</disableAdaptiveTraining>
     <disableAlerts>true</disableAlerts>
     <disablePermadeath>true</disablePermadeath>
-    <forcedDifficulty>VeryEasy</forcedDifficulty>
+    <forcedDifficulty>Easy</forcedDifficulty>
     <comps Inherit="False" />
   </StorytellerDef>
 

@@ -22,7 +22,7 @@
 	</DifficultyDef>
 
 	<DifficultyDef>
-		<defName>VeryEasy</defName>
+		<defName>Easy</defName>
 		<label>Base builder</label>
 		<description>For those who want to build a colony with a taste of danger.\n\nMajor threats appear, but they're weakened. Some extremely dangerous events are disabled.\n\nThere are bonuses to things like character mood, crop yields.</description>
 		<difficulty>1</difficulty>
@@ -37,8 +37,8 @@
 	</DifficultyDef>
 
 	<DifficultyDef>
-		<defName>Easy</defName>
-		<label>Some challenge</label>
+		<defName>Medium</defName>
+		<label>Medium</label>
 		<description>For players on their first game, or casual players who still want a challenge.\n\nThreats are dangerous but not brutal.\n\nThere are small bonuses to things like character mood and crop yields.</description>
 		<difficulty>2</difficulty>
 		<threatScale>0.55</threatScale>
@@ -52,8 +52,8 @@
 	</DifficultyDef>
 
 	<DifficultyDef>
-		<defName>Medium</defName>
-		<label>Rough</label>
+		<defName>Hard</defName>
+		<label>Hard</label>
 		<description>It's a rough planet.\n\nThreats can be quite dangerous. Not recommended until you've got some experience with the game.</description>
 		<difficulty>3</difficulty>
 		<threatScale>1.0</threatScale>
@@ -66,8 +66,8 @@
 	</DifficultyDef>
 
 	<DifficultyDef>
-		<defName>Hard</defName>
-		<label>Intense</label>
+		<defName>ExtraHard</defName>
+		<label>Extra hard</label>
 		<description>A significant challenge.\n\nSucceeding at this level requires a solid and well-rounded understanding of survival strategies, and some luck.</description>
 		<difficulty>4</difficulty>
 		<threatScale>1.5</threatScale>
@@ -81,7 +81,7 @@
 	</DifficultyDef>
 
 	<DifficultyDef>
-		<defName>VeryHard</defName>
+		<defName>Extreme</defName>
 		<label>Extreme</label>
 		<description>As hard as a diamond-bladed dagger in the iciest pit of hell.\n\nEnemies are numerous, prices are poor, crop yields are poor, and colonists are grumpy. For those who enjoy digital suffering.</description>
 		<difficulty>5</difficulty>

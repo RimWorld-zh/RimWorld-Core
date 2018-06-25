@@ -835,10 +835,6 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3,4)</drawSize>
       <damageData>
-        <rectN>(0,0.27,1,1.73)</rectN>
-        <rectS>(0,0.27,1,1.73)</rectS>
-        <rectE>(0.125,0.27,1.75,0.73)</rectE>
-        <rectW>(0.125,0.27,1.75,0.73)</rectW>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
         <cornerBL>Damage/Corner</cornerBL>
@@ -865,7 +861,6 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(4,4)</drawSize>
       <damageData>
-        <rect>(0.05,0.27,1.9,1.73)</rect>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
         <cornerBL>Damage/Corner</cornerBL>
@@ -893,10 +888,6 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(4,6)</drawSize>
       <damageData>
-        <rectN>(0,0.27,2,3.73)</rectN>
-        <rectS>(0,0.27,2,3.73)</rectS>
-        <rectE>(0.125,0.27,3.75,1.73)</rectE>
-        <rectW>(0.125,0.27,3.75,1.73)</rectW>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
         <cornerBL>Damage/Corner</cornerBL>
@@ -922,7 +913,6 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(5, 5)</drawSize>
       <damageData>
-        <rect>(0.05,0.27,2.9,2.73)</rect>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
         <cornerBL>Damage/Corner</cornerBL>

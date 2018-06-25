@@ -58,6 +58,20 @@
       <canFilthAttach>true</canFilthAttach>
     </filth>
   </ThingDef>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>Filth_Trash</defName>
+    <label>trash</label>
+    <graphicData>
+      <texPath>Things/Filth/Trash</texPath>
+      <graphicClass>Graphic_Cluster</graphicClass>
+    </graphicData>
+    <filth>
+      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
+      <terrainSourced>true</terrainSourced>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
   
   <ThingDef ParentName="BaseFilth">
     <defName>Filth_Sand</defName>

@@ -3,7 +3,7 @@
 
   <TraitDef>
     <defName>Nudist</defName>
-    <commonality>0.5</commonality>
+    <commonality>0.7</commonality>
     <degreeDatas>
       <li>
         <label>nudist</label>
@@ -310,7 +310,7 @@
   
   <TraitDef>
     <defName>Transhumanist</defName>
-    <commonality>0.5</commonality>
+    <commonality>0.9</commonality>
     <degreeDatas>
       <li>
         <label>transhumanist</label>
@@ -324,7 +324,7 @@
 
   <TraitDef>
     <defName>BodyPurist</defName>
-    <commonality>0.5</commonality>
+    <commonality>0.7</commonality>
     <degreeDatas>
       <li>
         <label>body purist</label>
@@ -362,7 +362,7 @@
 
   <TraitDef>
     <defName>GreatMemory</defName>
-    <commonality>1.0</commonality>
+    <commonality>1.1</commonality>
     <degreeDatas>
       <li>
         <label>great memory</label>
@@ -373,7 +373,7 @@
 
   <TraitDef>
     <defName>Tough</defName>
-    <commonality>1.0</commonality>
+    <commonality>1.1</commonality>
     <degreeDatas>
       <li>
         <label>tough</label>

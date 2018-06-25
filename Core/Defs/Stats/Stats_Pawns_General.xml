@@ -322,7 +322,7 @@
     <showOnMechanoids>false</showOnMechanoids>
     <skillNeedOffsets>
       <li Class="SkillNeed_BaseBonus">
-        <skill>Growing</skill>
+        <skill>Plants</skill>
         <baseValue>0</baseValue>
         <bonusPerLevel>0.09</bonusPerLevel>
       </li>

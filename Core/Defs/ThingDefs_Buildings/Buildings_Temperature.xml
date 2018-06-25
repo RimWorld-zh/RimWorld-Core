@@ -150,7 +150,6 @@
     <researchPrerequisites>
       <li>PassiveCooler</li>
     </researchPrerequisites>
-    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
   </ThingDef>
   
   <ThingDef ParentName="BuildingBase">

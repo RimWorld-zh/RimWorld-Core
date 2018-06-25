@@ -469,7 +469,7 @@
     <graphicData>
       <texPath>Things/Building/Power/WatermillGenerator/WatermillGeneratorBody</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4,5)</drawSize>
+      <drawSize>(5,6)</drawSize>
       <shadowData>
         <volume>(2.6,1,2.16)</volume>
         <offset>(-0.20,0,0)</offset>
@@ -491,7 +491,7 @@
       <Beauty>-20</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
-    <size>(4,5)</size>
+    <size>(5,6)</size>
     <costList>
       <WoodLog>280</WoodLog>
       <Steel>80</Steel>

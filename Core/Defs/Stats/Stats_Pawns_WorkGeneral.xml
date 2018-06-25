@@ -265,7 +265,7 @@
     </statFactors>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
-        <skill>Growing</skill>
+        <skill>Plants</skill>
         <baseValue>0.08</baseValue>
         <bonusPerLevel>0.115</bonusPerLevel>
       </li>
@@ -295,7 +295,7 @@
     <neverDisabled>true</neverDisabled>
     <skillNeedFactors>
       <li Class="SkillNeed_Direct">
-        <skill>Growing</skill>
+        <skill>Plants</skill>
         <valuesPerLevel>
           <li>0.6</li>
           <li>0.7</li>

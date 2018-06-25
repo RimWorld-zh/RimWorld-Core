@@ -496,7 +496,7 @@
 		<label>fix broken-down buildings</label>
 		<giverClass>WorkGiver_FixBrokenDownBuilding</giverClass>
 		<workType>Construction</workType>
-		<priorityInType>90</priorityInType>
+		<priorityInType>120</priorityInType>
 		<verb>replace broken components in</verb>
 		<gerund>replacing broken components in</gerund>
 		<requiredCapacities>
@@ -505,18 +505,17 @@
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
 
-	<WorkGiverDef>
-		<defName>Repair</defName>
-		<label>repair damaged things</label>
-		<giverClass>WorkGiver_Repair</giverClass>
+   <WorkGiverDef>
+		<defName>Uninstall</defName>
+		<label>uninstall structures</label>
+		<giverClass>WorkGiver_Uninstall</giverClass>
 		<workType>Construction</workType>
-		<priorityInType>80</priorityInType>
-		<verb>repair</verb>
-		<gerund>repairing</gerund>
+		<priorityInType>110</priorityInType>
+		<verb>uninstall</verb>
+		<gerund>uninstalling</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
-		<canBeDoneByNonColonists>true</canBeDoneByNonColonists>
 	</WorkGiverDef>
 	
 	<WorkGiverDef>
@@ -524,7 +523,7 @@
 		<label>build roofs</label>
 		<giverClass>WorkGiver_BuildRoof</giverClass>
 		<workType>Construction</workType>
-		<priorityInType>70</priorityInType>
+		<priorityInType>100</priorityInType>
 		<verb>build roof</verb>
 		<gerund>building roof</gerund>
 		<scanThings>false</scanThings>
@@ -539,7 +538,7 @@
 		<label>remove roofs</label>
 		<giverClass>WorkGiver_RemoveRoof</giverClass>
 		<workType>Construction</workType>
-		<priorityInType>60</priorityInType>
+		<priorityInType>90</priorityInType>
 		<verb>remove roof</verb>
 		<gerund>removing roof</gerund>
 		<scanThings>false</scanThings>
@@ -554,7 +553,7 @@
     <label>construct placed frames</label>
     <giverClass>WorkGiver_ConstructFinishFrames</giverClass>
     <workType>Construction</workType>
-    <priorityInType>50</priorityInType>
+    <priorityInType>80</priorityInType>
     <verb>construct</verb>
     <gerund>constructing</gerund>
     <requiredCapacities>
@@ -570,7 +569,7 @@
     <label>deliver resources to frames</label>
     <giverClass>WorkGiver_ConstructDeliverResourcesToFrames</giverClass>
     <workType>Construction</workType>
-    <priorityInType>40</priorityInType>
+    <priorityInType>70</priorityInType>
     <verb>work on</verb>
     <gerund>working on</gerund>
     <requiredCapacities>
@@ -586,7 +585,7 @@
     <label>deliver resources to blueprints</label>
     <giverClass>WorkGiver_ConstructDeliverResourcesToBlueprints</giverClass>
     <workType>Construction</workType>
-    <priorityInType>30</priorityInType>
+    <priorityInType>60</priorityInType>
     <verb>work on</verb>
     <gerund>working on</gerund>
     <requiredCapacities>
@@ -602,25 +601,26 @@
 		<label>deconstruct structures</label>
 		<giverClass>WorkGiver_Deconstruct</giverClass>
 		<workType>Construction</workType>
-		<priorityInType>20</priorityInType>
+		<priorityInType>50</priorityInType>
 		<verb>deconstruct</verb>
 		<gerund>deconstructing</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
-
-	<WorkGiverDef>
-		<defName>Uninstall</defName>
-		<label>uninstall structures</label>
-		<giverClass>WorkGiver_Uninstall</giverClass>
+	
+  <WorkGiverDef>
+		<defName>Repair</defName>
+		<label>repair damaged things</label>
+		<giverClass>WorkGiver_Repair</giverClass>
 		<workType>Construction</workType>
-		<priorityInType>19</priorityInType>
-		<verb>uninstall</verb>
-		<gerund>uninstalling</gerund>
+		<priorityInType>40</priorityInType>
+		<verb>repair</verb>
+		<gerund>repairing</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
+		<canBeDoneByNonColonists>true</canBeDoneByNonColonists>
 	</WorkGiverDef>
 
 	<WorkGiverDef>
@@ -628,24 +628,9 @@
     <label>remove floors</label>
     <giverClass>WorkGiver_ConstructRemoveFloor</giverClass>
     <workType>Construction</workType>
-    <priorityInType>10</priorityInType>
+    <priorityInType>30</priorityInType>
     <verb>remove floor</verb>
     <gerund>removing floor</gerund>
-    <scanThings>false</scanThings>
-    <scanCells>true</scanCells>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-  </WorkGiverDef>
-
-  <WorkGiverDef>
-    <defName>ConstructSmoothWalls</defName>
-    <label>smooth walls</label>
-    <giverClass>WorkGiver_ConstructSmoothWall</giverClass>
-    <workType>Construction</workType>
-    <priorityInType>6</priorityInType>
-    <verb>smooth</verb>
-    <gerund>smoothing</gerund>
     <scanThings>false</scanThings>
     <scanCells>true</scanCells>
     <requiredCapacities>
@@ -658,7 +643,7 @@
 		<label>smooth floors</label>
 		<giverClass>WorkGiver_ConstructSmoothFloor</giverClass>
 		<workType>Construction</workType>
-		<priorityInType>5</priorityInType>
+		<priorityInType>20</priorityInType>
 		<verb>smooth</verb>
 		<gerund>smoothing</gerund>
 		<scanThings>false</scanThings>
@@ -667,6 +652,21 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>ConstructSmoothWalls</defName>
+    <label>smooth walls</label>
+    <giverClass>WorkGiver_ConstructSmoothWall</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>10</priorityInType>
+    <verb>smooth</verb>
+    <gerund>smoothing</gerund>
+    <scanThings>false</scanThings>
+    <scanCells>true</scanCells>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
   
   <!-- ============= Growing ============= -->
 

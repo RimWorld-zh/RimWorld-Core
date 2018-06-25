@@ -153,12 +153,12 @@
     <labelShort>Grow</labelShort>
     <pawnLabel>Grower</pawnLabel>
     <gerundLabel>growing</gerundLabel>
-    <description>Plant seeds and harvest grown crops.</description>
+    <description>Plant seeds, harvest crops, and forage for wild plants.</description>
     <verb>Grow</verb>
     <naturalPriority>700</naturalPriority>
     <requireCapableColonist>true</requireCapableColonist>
     <relevantSkills>
-      <li>Growing</li>
+      <li>Plants</li>
     </relevantSkills>
     <workTags>
       <li>ManualSkilled</li>
@@ -194,7 +194,7 @@
     <naturalPriority>500</naturalPriority>
     <requireCapableColonist>true</requireCapableColonist>
     <relevantSkills>
-      <li>Growing</li>
+      <li>Plants</li>
     </relevantSkills>
     <workTags>
       <li>ManualSkilled</li>

@@ -455,11 +455,9 @@
     <graphicData>
       <texPath>Things/Building/Misc/MultiAnalyzer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
-      <damageData>
-        <rect>(0.15,0.15,1.7,1.7)</rect>
-      </damageData>
+      <drawSize>2.46875</drawSize>
     </graphicData>
+    <uiIconScale>0.85</uiIconScale>
     <researchPrerequisites><li>MultiAnalyzer</li></researchPrerequisites>
     <size>(2,2)</size>
     <rotatable>false</rotatable>
