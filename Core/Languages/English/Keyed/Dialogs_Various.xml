@@ -4,6 +4,7 @@
   <Confirm>Confirm</Confirm>
   <GoBack>Go back</GoBack>
   <OK>OK</OK>
+  <Dismiss>Dismiss</Dismiss>
   
   <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>RimWorld has been updated from version {0} to version {1}.</GameUpdatedToNewVersionInitial>
@@ -171,6 +172,8 @@
   
   <!-- Info card -->
   <Damage>Damage</Damage>
+  <ArmorPenetration>Armor penetration</ArmorPenetration>
+  <ArmorPenetrationExplanation>Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor.</ArmorPenetrationExplanation>
   <Accuracy>Accuracy</Accuracy>
   <BurstShotCount>Burst shot count</BurstShotCount>
   <WarmupTime>Warmup</WarmupTime>

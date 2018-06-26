@@ -128,7 +128,7 @@
 		<defName>PoweredArmor</defName>
 		<label>powered armor</label>
 		<description>Build the power armor and power armor helmets. Note that these also require advanced components.</description>
-		<baseCost>1600</baseCost>
+		<baseCost>3000</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>Fabrication</li>

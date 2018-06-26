@@ -4,17 +4,17 @@
   <DamageArmorCategoryDef>
     <defName>Sharp</defName>
     <multStat>SharpDamageMultiplier</multStat>
-    <deflectionStat>ArmorRating_Sharp</deflectionStat>
+    <armorRatingStat>ArmorRating_Sharp</armorRatingStat>
   </DamageArmorCategoryDef>
 
   <DamageArmorCategoryDef>
     <defName>Blunt</defName>
     <multStat>BluntDamageMultiplier</multStat>
-    <deflectionStat>ArmorRating_Blunt</deflectionStat>
+    <armorRatingStat>ArmorRating_Blunt</armorRatingStat>
   </DamageArmorCategoryDef>
 
   <DamageArmorCategoryDef>
     <defName>Heat</defName>
-    <deflectionStat>ArmorRating_Heat</deflectionStat>
+    <armorRatingStat>ArmorRating_Heat</armorRatingStat>
   </DamageArmorCategoryDef>
 </Defs>

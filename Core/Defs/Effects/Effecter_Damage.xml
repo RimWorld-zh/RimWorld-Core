@@ -94,8 +94,8 @@
       </li>
 		</children>
     <offsetTowardsTarget>
-      <min>0.23</min>
-      <max>0.23</max>
+      <min>0.25</min>
+      <max>0.25</max>
     </offsetTowardsTarget>
     <positionRadius>0.1</positionRadius>
 	</EffecterDef>
@@ -119,7 +119,7 @@
     <children>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <moteDef>Mote_MetalSparkThrown</moteDef>
+        <moteDef>Mote_LongSparkThrown</moteDef>
         <burstCount>
           <min>1</min>
           <max>1</max>
@@ -213,8 +213,8 @@
       </li>
     </children>
     <offsetTowardsTarget>
-      <min>0.23</min>
-      <max>0.23</max>
+      <min>0.25</min>
+      <max>0.25</max>
     </offsetTowardsTarget>
     <positionRadius>0.1</positionRadius>
   </EffecterDef>
@@ -224,7 +224,7 @@
     <children>
       <li>
         <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
-        <moteDef>Mote_MetalSparkThrown</moteDef>
+        <moteDef>Mote_LongSparkThrown</moteDef>
         <burstCount>
           <min>1</min>
           <max>1</max>
@@ -247,8 +247,168 @@
     </children>
   </EffecterDef>
 
+  <EffecterDef>
+    <defName>DamageDiminished_Metal</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <moteDef>Mote_AirPuff</moteDef>
+        <burstCount>
+          <min>3</min>
+          <max>4</max>
+        </burstCount>
+        <speed>
+          <min>0.3</min>
+          <max>0.7</max>
+        </speed>
+        <scale>
+          <min>0.5</min>
+          <max>0.8</max>
+        </scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.02</positionRadius>
+        <moteDef>Mote_SparkThrownFast</moteDef>
+        <burstCount>
+          <min>4</min>
+          <max>5</max>
+        </burstCount>
+        <speed>
+          <min>3.3</min>
+          <max>5</max>
+        </speed>
+        <scale>
+          <min>0.1</min>
+          <max>0.2</max>
+        </scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.02</positionRadius>
+        <moteDef>Mote_MicroSparksFast</moteDef>
+        <burstCount>
+          <min>1</min>
+          <max>2</max>
+        </burstCount>
+        <speed>
+          <min>0.3</min>
+          <max>0.4</max>
+        </speed>
+        <rotationRate>
+          <min>5</min>
+          <max>10</max>
+        </rotationRate>
+        <scale>
+          <min>0.3</min>
+          <max>0.5</max>
+        </scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>Mote_SparkThrown</moteDef>
+        <burstCount>
+          <min>3</min>
+          <max>3</max>
+        </burstCount>
+        <scale>
+          <min>0.1</min>
+          <max>0.2</max>
+        </scale>
+        <airTime>
+          <min>0.08</min>
+          <max>0.1</max>
+        </airTime>
+        <speed>
+          <min>2</min>
+          <max>4</max>
+        </speed>
+        <positionRadius>0.02</positionRadius>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <offsetTowardsTarget>
+      <min>0.31</min>
+      <max>0.31</max>
+    </offsetTowardsTarget>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>DamageDiminished_General</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.2</positionRadius>
+        <moteDef>Mote_AirPuff</moteDef>
+        <burstCount>
+          <min>3</min>
+          <max>4</max>
+        </burstCount>
+        <speed>
+          <min>0.3</min>
+          <max>0.7</max>
+        </speed>
+        <scale>
+          <min>0.5</min>
+          <max>0.8</max>
+        </scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <positionRadius>0.02</positionRadius>
+        <moteDef>Mote_SparkThrownFast</moteDef>
+        <burstCount>
+          <min>4</min>
+          <max>5</max>
+        </burstCount>
+        <speed>
+          <min>3.3</min>
+          <max>5</max>
+        </speed>
+        <scale>
+          <min>0.1</min>
+          <max>0.2</max>
+        </scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>Mote_SparkThrown</moteDef>
+        <burstCount>
+          <min>3</min>
+          <max>3</max>
+        </burstCount>
+        <scale>
+          <min>0.1</min>
+          <max>0.2</max>
+        </scale>
+        <airTime>
+          <min>0.08</min>
+          <max>0.1</max>
+        </airTime>
+        <speed>
+          <min>2</min>
+          <max>4</max>
+        </speed>
+        <positionRadius>0.02</positionRadius>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+    <offsetTowardsTarget>
+      <min>0.31</min>
+      <max>0.31</max>
+    </offsetTowardsTarget>
+    <positionRadius>0.1</positionRadius>
+  </EffecterDef>
+
   <ThingDef ParentName="MoteBase">
-    <defName>Mote_MetalSparkThrown</defName>
+    <defName>Mote_LongSparkThrown</defName>
     <graphicData>
       <texPath>Things/Mote/LongSparkThrown</texPath>
       <shaderType>MoteGlow</shaderType>

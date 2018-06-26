@@ -80,9 +80,7 @@
   <!-- Shallow -->
   
   <TerrainDef Abstract="True" Name="WaterShallowBase" ParentName="WaterBase">
-    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
-    <waterDepthShader>Map/WaterDepth</waterDepthShader>
-    <pathCost>25</pathCost>
+    <pathCost>30</pathCost>
     <affordances>
       <li>ShallowWater</li>
       <li>Bridgeable</li>
@@ -92,6 +90,8 @@
   <TerrainDef ParentName="WaterShallowBase">
     <defName>WaterShallow</defName>
     <label>shallow water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
     <renderPrecedence>394</renderPrecedence>
     <driesTo>Gravel</driesTo>
   </TerrainDef>
@@ -99,6 +99,8 @@
   <TerrainDef ParentName="WaterShallowBase">
     <defName>WaterOceanShallow</defName>
     <label>shallow ocean water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
     <renderPrecedence>396</renderPrecedence>
     <driesTo>Gravel</driesTo>
   </TerrainDef>
@@ -106,6 +108,8 @@
   <TerrainDef ParentName="WaterShallowBase">
     <defName>WaterMovingShallow</defName>
     <label>shallow moving water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
     <renderPrecedence>398</renderPrecedence>
     <affordances>
       <li>MovingFluid</li>
@@ -116,6 +120,36 @@
     <waterDepthShaderParameters>
       <_UseWaterOffset>1</_UseWaterOffset>
     </waterDepthShaderParameters>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WaterShallowBase">
+    <defName>Marsh</defName>
+    <label>marsh</label>
+    <texturePath>Terrain/Surfaces/Marsh</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>325</renderPrecedence>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <acceptFilth>false</acceptFilth>
+    <avoidWander>true</avoidWander>
+    <driesTo>Soil</driesTo>
+    <extinguishesFire>true</extinguishesFire>
+    <tools>
+      <li>
+        <label>mud</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>MudInEyes</hediff>
+        <power>1</power>
+        <cooldownTime>15</cooldownTime>
+      </li>
+    </tools>
   </TerrainDef>
   
 </Defs>

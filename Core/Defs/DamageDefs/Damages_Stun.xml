@@ -11,7 +11,6 @@
 		<label>stun</label>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been stunned to death.</deathMessage>
-		<armorCategory>Blunt</armorCategory>
 		<defaultDamage>20</defaultDamage>
 		<explosionCellMote>Mote_BlastDry</explosionCellMote>
 		<soundExplosion>Explosion_Stun</soundExplosion>

@@ -220,7 +220,7 @@
         <hediffGivers>
           <li Class="HediffGiver_Random">
             <hediff>HeartAttack</hediff>
-            <mtbDays>600</mtbDays>
+            <mtbDays>300</mtbDays>
             <partsToAffect>
               <li>Heart</li>
             </partsToAffect>
@@ -234,7 +234,7 @@
         <hediffGivers>
           <li Class="HediffGiver_Random">
             <hediff>HeartAttack</hediff>
-            <mtbDays>500</mtbDays>
+            <mtbDays>200</mtbDays>
             <partsToAffect>
               <li>Heart</li>
             </partsToAffect>
@@ -248,7 +248,7 @@
         <hediffGivers>
           <li Class="HediffGiver_Random">
             <hediff>HeartAttack</hediff>
-            <mtbDays>300</mtbDays>
+            <mtbDays>100</mtbDays>
             <partsToAffect>
               <li>Heart</li>
             </partsToAffect>
@@ -262,7 +262,7 @@
         <hediffGivers>
           <li Class="HediffGiver_Random">
             <hediff>HeartAttack</hediff>
-            <mtbDays>200</mtbDays>
+            <mtbDays>60</mtbDays>
             <partsToAffect>
               <li>Heart</li>
             </partsToAffect>
@@ -277,7 +277,7 @@
         <hediffGivers>
           <li Class="HediffGiver_Random">
             <hediff>HeartAttack</hediff>
-            <mtbDays>120</mtbDays>
+            <mtbDays>30</mtbDays>
             <partsToAffect>
               <li>Heart</li>
             </partsToAffect>

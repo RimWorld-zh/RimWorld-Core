@@ -115,7 +115,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -130,7 +130,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
           <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -145,7 +145,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
           <drawSize>3.8</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
@@ -271,7 +271,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -285,7 +285,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
           <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -299,7 +299,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
           <drawSize>3.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>

@@ -12,6 +12,9 @@
         <statOffsets>
           <MoveSpeed>-0.20</MoveSpeed>
         </statOffsets>
+        <disallowedInspirations>
+          <li>Frenzy_Go</li>
+        </disallowedInspirations>
       </li>
       <li>
         <label>fast walker</label>

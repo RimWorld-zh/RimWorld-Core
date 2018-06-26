@@ -428,7 +428,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_PumpShotgun</defaultProjectile>
+        <defaultProjectile>Bullet_Shotgun</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>15.9</range>
         <soundCast>Shot_Shotgun</soundCast>
@@ -456,8 +456,9 @@
       </li>
     </tools>
   </ThingDef>
+
   <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_PumpShotgun</defName>
+    <defName>Bullet_Shotgun</defName>
     <label>shotgun blast</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Shotgun</texPath>
@@ -467,6 +468,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>18</damageAmountBase>
       <stoppingPower>2.5</stoppingPower>
+      <armorPenetrationBase>0.05</armorPenetrationBase>
       <speed>55</speed>
     </projectile>
   </ThingDef>
@@ -504,7 +506,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_PumpShotgun</defaultProjectile>
+        <defaultProjectile>Bullet_Shotgun</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>12.9</range>
         <burstShotCount>3</burstShotCount>
@@ -615,7 +617,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Gun_LMG</defName>
 		<label>LMG</label>
-		<description>A gas-operated light machine gun. It fires in long bursts, for suppressing groups of enemies.</description>
+		<description>A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -624,29 +626,29 @@
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
       <skillRequirements>
-        <Crafting>5</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
 			<Mass>8.5</Mass>
-			<AccuracyTouch>0.50</AccuracyTouch>
-			<AccuracyShort>0.65</AccuracyShort>
-			<AccuracyMedium>0.40</AccuracyMedium>
-			<AccuracyLong>0.20</AccuracyLong>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.48</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.26</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
       <Weapon_Bulk>2.0</Weapon_Bulk>
 		</statBases>
 		<costList>
 			<Steel>75</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
     <verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_LMG</defaultProjectile>
-				<warmupTime>1.4</warmupTime>
+				<warmupTime>1.6</warmupTime>
 				<range>25.9</range>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<burstShotCount>6</burstShotCount>
@@ -687,7 +689,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>8</damageAmountBase>
+      <damageAmountBase>11</damageAmountBase>
       <stoppingPower>1</stoppingPower>
       <speed>46</speed>
     </projectile>
@@ -729,8 +731,8 @@
         <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>30.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -768,7 +770,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>7</damageAmountBase>
+      <damageAmountBase>11</damageAmountBase>
       <speed>70</speed>
     </projectile>
   </ThingDef>
@@ -864,11 +866,11 @@
     <statBases>
       <WorkToMake>60000</WorkToMake>
       <Mass>10</Mass>
-      <AccuracyTouch>0.18</AccuracyTouch>
-      <AccuracyShort>0.28</AccuracyShort>
-      <AccuracyMedium>0.27</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.15</AccuracyTouch>
+      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
+      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
       <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <costList>
@@ -896,7 +898,7 @@
         <defaultProjectile>Bullet_Minigun</defaultProjectile>
         <warmupTime>3.1</warmupTime>
         <range>30.9</range>
-        <burstShotCount>30</burstShotCount>
+        <burstShotCount>25</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <soundCast>Shot_Minigun</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -923,7 +925,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>8</damageAmountBase>
+      <damageAmountBase>10</damageAmountBase>
       <speed>70</speed>
     </projectile>
   </ThingDef>

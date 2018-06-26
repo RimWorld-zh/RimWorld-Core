@@ -24,10 +24,12 @@
         <partsToAffect>
           <li>Heart</li>
         </partsToAffect>
+        <minPlayerPopulation>2</minPlayerPopulation>
         <ageFractionMtbDaysCurve>
           <points>
             <li>(0, 99999999)</li>
-            <li>(0.5, 99999999)</li>
+            <li>(0.2, 99999999)</li>
+            <li>(0.3, 5000)</li>
             <li>(0.6, 2500)</li>
             <li>(1, 300)</li>
           </points>

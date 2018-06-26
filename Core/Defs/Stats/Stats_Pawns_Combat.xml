@@ -16,6 +16,18 @@
 	</StatDef>
 
 	<StatDef>
+		<defName>MeleeArmorPenetration</defName>
+		<workerClass>StatWorker_MeleeArmorPenetration</workerClass>
+		<label>melee armor penetration</label>
+		<description>Average armor penetration of all attacks in melee combat. This stat includes currently used weapon.</description>
+		<category>PawnCombat</category>
+		<displayPriorityInCategory>99</displayPriorityInCategory>
+		<defaultBaseValue>0</defaultBaseValue>
+		<minValue>0</minValue>
+		<toStringStyle>PercentZero</toStringStyle>
+	</StatDef>
+
+	<StatDef>
 		<defName>MeleeHitChance</defName>
 		<label>melee hit chance</label>
 		<description>Chance to hit a target in melee. The target can still dodge even if we would've hit.</description>
@@ -64,7 +76,7 @@
 		<label>melee dodge chance</label>
 		<description>Chance to dodge a melee attack that would've otherwise hit. Characters will not dodge while aiming or firing a ranged weapon.</description>
 		<category>PawnCombat</category>
-		<displayPriorityInCategory>99</displayPriorityInCategory>
+		<displayPriorityInCategory>98</displayPriorityInCategory>
 		<neverDisabled>true</neverDisabled>
 		<defaultBaseValue>0</defaultBaseValue>
 		<minValue>0</minValue>

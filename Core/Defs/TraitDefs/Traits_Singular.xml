@@ -18,8 +18,8 @@
     <degreeDatas>
       <li>
         <label>bloodlust</label>
-        <description>[PAWN_nameDef] gets a rush from hurting people, and never minds the sight of blood or death. [PAWN_pronoun] is twice as likely to start a social fight.</description>
-        <socialFightChanceFactor>2</socialFightChanceFactor>
+        <description>[PAWN_nameDef] gets a rush from hurting people, and never minds the sight of blood or death. [PAWN_pronoun] is four times as likely to start a social fight as others.</description>
+        <socialFightChanceFactor>4</socialFightChanceFactor>
       </li>
     </degreeDatas>
     <requiredWorkTags>
@@ -116,6 +116,9 @@
             <value>-4</value>
           </li>
         </skillGains>
+        <disallowedInspirations>
+          <li>Frenzy_Shoot</li>
+        </disallowedInspirations>
       </li>
     </degreeDatas>
     <conflictingTraits>

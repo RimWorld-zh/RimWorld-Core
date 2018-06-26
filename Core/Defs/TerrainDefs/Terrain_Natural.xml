@@ -275,40 +275,6 @@
     </tools>
   </TerrainDef>
 
-  <TerrainDef>
-    <defName>Marsh</defName>
-    <label>marsh</label>
-    <texturePath>Terrain/Surfaces/Marsh</texturePath>
-    <edgeType>FadeRough</edgeType>
-    <renderPrecedence>325</renderPrecedence>
-    <pathCost>23</pathCost>
-    <statBases>
-      <Beauty>-2</Beauty>
-      <Cleanliness>-2</Cleanliness>
-    </statBases>
-    <affordances>
-      <li>Bridgeable</li>
-    </affordances>
-    <generatedFilth>Filth_Dirt</generatedFilth>
-    <fertility>0</fertility>
-    <takeFootprints>True</takeFootprints>
-    <acceptFilth>false</acceptFilth>
-    <avoidWander>true</avoidWander>
-    <driesTo>Soil</driesTo>
-    <extinguishesFire>true</extinguishesFire>
-    <tools>
-      <li>
-        <label>mud</label>
-        <capacities>
-          <li>KickMaterialInEyes</li>
-        </capacities>
-        <hediff>MudInEyes</hediff>
-        <power>1</power>
-        <cooldownTime>15</cooldownTime>
-      </li>
-    </tools>
-  </TerrainDef>
-
   <!-- Ice -->
 
   <TerrainDef>

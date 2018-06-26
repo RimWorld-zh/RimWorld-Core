@@ -25,7 +25,7 @@
 
   <MessageShipHasLeftCommsRange>{0} has left comms range.</MessageShipHasLeftCommsRange>
 	
-	<MessageNeedBeaconToTradeWithShip>You need an orbital trade beacon to trade with a ship.\n\nThe beacon needs to be powered.</MessageNeedBeaconToTradeWithShip>
+	<MessageNeedBeaconToTradeWithShip>You need a powered orbital trade beacon to trade with a ship.</MessageNeedBeaconToTradeWithShip>
 	
   <MessageBillComplete>Bill complete: {0}.</MessageBillComplete>
   
@@ -120,7 +120,7 @@
   
   <MessageSuccessfullyRemovedHediff>{0} has successfully removed {1}'s {2}.</MessageSuccessfullyRemovedHediff>
   
-  <MessageShipChunkDrop>Chunks of a spacecraft have fallen from space and landed nearby.\n\nYou can deconstruct them to yield valuable resources.</MessageShipChunkDrop>
+  <MessageShipChunkDrop>Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.</MessageShipChunkDrop>
   
   <MessagePartyCalledOff>The party has been called off.</MessagePartyCalledOff>
   <MessagePartyFinished>The party has finished.</MessagePartyFinished>

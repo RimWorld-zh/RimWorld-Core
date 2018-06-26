@@ -116,7 +116,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.0</drawSize>
+          <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -132,7 +132,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.15</drawSize>
+          <drawSize>1.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -148,7 +148,7 @@
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Deer/DeerFemale</texPath>
-          <drawSize>1.55</drawSize>
+          <drawSize>2.25</drawSize>
           <color>(188,146,110)</color>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
@@ -802,8 +802,8 @@
     <statBases>
       <MoveSpeed>1.0</MoveSpeed>
       <MarketValue>200</MarketValue>
-      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.54</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
     </statBases>

@@ -228,13 +228,13 @@
 
   <ThoughtDef>
     <defName>SoakingWet</defName>
-    <durationDays>0.25</durationDays>
+    <durationDays>0.20</durationDays>
     <stackLimit>1</stackLimit>
     <stages>
       <li>
         <label>soaking wet</label>
         <description>I walked into water and now I'm soaking wet. I wish I could have used a bridge.</description>
-        <baseMoodEffect>-6</baseMoodEffect>
+        <baseMoodEffect>-3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
