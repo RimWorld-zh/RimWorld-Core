@@ -236,7 +236,7 @@
     <rotatable>false</rotatable>
     <size>(2,2)</size>
     <statBases>
-      <MaxHitPoints>360</MaxHitPoints>
+      <MaxHitPoints>420</MaxHitPoints>
       <Flammability>0.7</Flammability>
       <WorkToBuild>15000</WorkToBuild>
       <Mass>100</Mass>
@@ -252,7 +252,7 @@
       <li Class="CompProperties_Forbiddable"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>160</basePowerConsumption>
+        <basePowerConsumption>250</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
@@ -264,7 +264,7 @@
             <li>Steel</li>
           </thingDefs>
         </fuelFilter>
-        <fuelCapacity>100</fuelCapacity>
+        <fuelCapacity>90</fuelCapacity>
         <initialFuelPercent>1</initialFuelPercent>
         <autoRefuelPercent>0.25</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
@@ -285,8 +285,8 @@
     </stuffCategories>
     <costStuffCount>200</costStuffCount>
     <costList>
-      <Steel>300</Steel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <Steel>400</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -319,7 +319,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>34</damageAmountBase>
+      <damageAmountBase>48</damageAmountBase>
       <speed>88</speed>
     </projectile>
   </ThingDef>
@@ -339,10 +339,10 @@
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <AccuracyTouch>0.70</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.50</AccuracyMedium>
-      <AccuracyLong>0.40</AccuracyLong>
+      <AccuracyTouch>0.25</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
       <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>40</Mass>
@@ -359,7 +359,7 @@
         <warmupTime>1.8</warmupTime>
         <minRange>10.9</minRange>
         <range>36.9</range>
-        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>17</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
         <soundCast>Shot_Autocannon</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>

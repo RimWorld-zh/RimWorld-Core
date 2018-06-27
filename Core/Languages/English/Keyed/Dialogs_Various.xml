@@ -44,7 +44,7 @@
   <LoadingWorld>Loading world</LoadingWorld>
   <LoadingMap>Loading map</LoadingMap>
   <InitializingGame>Initializing game</InitializingGame>
-  <SpawningAllThings>Spawning all things</SpawningAllThings>
+  <SpawningAllThings>Spawning things</SpawningAllThings>
   <SpawningColonists>Spawning colonists</SpawningColonists>
   
   <!-- Save/load -->
@@ -395,7 +395,7 @@
   <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
   <FrequencyColumnLabel>Frequency</FrequencyColumnLabel>
   <MoodThresholdColumnLabel>Only if mood below</MoodThresholdColumnLabel>
-  <JoyThresholdColumnLabel>Only if joy below</JoyThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Only if recreation below</JoyThresholdColumnLabel>
   <TakeToInventoryColumnLabel>Take to inventory</TakeToInventoryColumnLabel>
   <NoDrugsBrackets>(no drugs)</NoDrugsBrackets>
   <EveryDay>Every day</EveryDay>
@@ -407,10 +407,10 @@
   <DrugUsageColumnDesc>How the drug is allowed to be used.</DrugUsageColumnDesc>
   <FrequencyColumnDesc>How often the colonists should try to take this drug.</FrequencyColumnDesc>
   <MoodThresholdColumnDesc>The colonists will take this drug only if their mood level is below this threshold.</MoodThresholdColumnDesc>
-  <JoyThresholdColumnDesc>The colonists will take this drug only if their joy level is below this threshold.</JoyThresholdColumnDesc>
+  <JoyThresholdColumnDesc>The colonists will take this drug only if their recreation level is below this threshold.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time.</TakeToInventoryColumnDesc>
 	<DrugUsageTipForAddiction>For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForAddiction>
-	<DrugUsageTipForJoy>For joy\n\nUse this drug for joy and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
+	<DrugUsageTipForJoy>For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met.</DrugUsageTipScheduled>
 
   <!-- Medical settings -->

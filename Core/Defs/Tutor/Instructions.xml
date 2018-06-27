@@ -285,7 +285,7 @@
 
   <InstructionDef>
     <defName>BuildHorseshoesPin</defName>
-    <text>Your colonists need sources of joy or they'll get sad over time.\n\nBuild a HORSESHOES pin outside, near the room.</text>
+    <text>Your colonists need sources of recreation or they'll get sad over time.\n\nBuild a HORSESHOES pin outside, near the room.</text>
     <instructionClass>Instruction_BuildNearRoom</instructionClass>
     <eventTagInitiate>InstructionDeactivated-BuildAnimalSleepingSpot</eventTagInitiate>
     <actionTagsAllowed>

@@ -9,7 +9,7 @@
   <BreakRiskMinorDesc>These colonists are in a poor mood and may have a minor mental break at any time:\n\n{0}</BreakRiskMinorDesc>
   <BreakRiskMajorDesc>These colonists are in a very poor mood and may have a major mental break at any time:\n\n{0}</BreakRiskMajorDesc>
   <BreakRiskExtremeDesc>These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0}</BreakRiskExtremeDesc>
-  <BreakRiskDescEnding>Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more joy hours per day and nicer joy objects, place them in beautiful environments, have them drink and smoke, and much more.</BreakRiskDescEnding>
+  <BreakRiskDescEnding>Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more.</BreakRiskDescEnding>
   
   <ColonistNeedsRescue>Colonist needs rescue</ColonistNeedsRescue>
   <ColonistsNeedRescue>Colonists need rescue</ColonistsNeedRescue>
@@ -61,8 +61,8 @@
   <NeedMealSource>Need meal source</NeedMealSource>
   <NeedMealSourceDesc>You have no way of preparing proper meals from raw food.\n\nBuild a stove, campfire, or nutrient dispenser.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.)</NeedMealSourceDesc>
 
-  <NeedJoySource>Need joy source</NeedJoySource>
-  <NeedJoySourceDesc>Your colonists need to fulfill their joy need, but you haven't built any joy sources.\n\nHelp them by building a horseshoes pin, chess table, or other joy source.</NeedJoySourceDesc>
+  <NeedJoySource>Need recreation sources</NeedJoySource>
+  <NeedJoySourceDesc>Your colonists need to fulfill their recreation need, but you haven't built enough recreation sources.\n\nHelp them by building a horseshoes pin, chess table, acquiring chocolate, alcohol or drugs, or supplying some other recreation source.</NeedJoySourceDesc>
 
   <NeedBatteries>Need batteries</NeedBatteries>
   <NeedBatteriesDesc>You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power.</NeedBatteriesDesc>

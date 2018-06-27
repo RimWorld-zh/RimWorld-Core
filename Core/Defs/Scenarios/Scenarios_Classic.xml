@@ -351,9 +351,9 @@
   <ScenarioDef>
     <defName>NakedBrutality</defName>
     <label>Naked Brutality</label>
-    <description>You went under anasthetic for a minor surgery. Now you've awoken in a drop pod crashing into a distant planet. You're naked, alone, and totally unprepared. Can you survive?\n\nWarning: This is an extremely difficult scenario.</description>
+    <description>You went under anasthetic for a minor surgery. Now you've awoken in a drop pod crashing into a distant planet. You're naked, alone, and totally unprepared. Can you survive?\n\nWarning: There is nothing fair about this scenario - it is extremely difficult and death can happen for any reason.</description>
     <scenario>
-      <summary>Naked, alone, and utterly unprepared. Can you survive? Extremely difficult.</summary>
+      <summary>Naked, alone, and utterly unprepared. Can you survive? Extremely difficult and unfair.</summary>
       <playerFaction>
         <def>PlayerFaction</def>
         <factionDef>PlayerColony</factionDef>

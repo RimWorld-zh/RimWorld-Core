@@ -51,7 +51,7 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerPlantWind</compClass>
-				<basePowerConsumption>-2000</basePowerConsumption>
+				<basePowerConsumption>-2300</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Breakdownable"/>

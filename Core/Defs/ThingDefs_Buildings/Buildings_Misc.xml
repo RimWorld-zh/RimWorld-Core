@@ -483,8 +483,7 @@
       <Steel>40</Steel>
       <Plasteel>50</Plasteel>
       <Gold>20</Gold>
-      <ComponentIndustrial>6</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Power">

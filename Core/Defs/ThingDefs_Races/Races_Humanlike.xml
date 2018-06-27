@@ -73,6 +73,7 @@
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>
       <gestationPeriodDays>45</gestationPeriodDays>
+      <meatMarketValue>0.8</meatMarketValue>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>

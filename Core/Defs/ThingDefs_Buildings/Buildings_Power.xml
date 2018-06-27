@@ -464,7 +464,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>WatermillGenerator</defName>
     <label>watermill generator</label>
-    <description>Produces electricity from river. Must be placed with its wheel in moving water.</description>
+    <description>Produces electricity from river. Must be placed with its wheel in moving water. If watermills are placed too close together, the turbulence they generated and reduces each other's power generation.</description>
     <thingClass>Building</thingClass>
     <graphicData>
       <texPath>Things/Building/Power/WatermillGenerator/WatermillGeneratorBody</texPath>

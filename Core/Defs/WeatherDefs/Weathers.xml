@@ -97,6 +97,7 @@
     <accuracyMultiplier>0.8</accuracyMultiplier>
     <favorability>Neutral</favorability>
     <perceivePriority>1</perceivePriority>
+    <exposedThought>SoakingWet</exposedThought>
     <rainRate>1</rainRate>
     <moveSpeedMultiplier>0.9</moveSpeedMultiplier>
     <ambientSounds>
@@ -205,6 +206,7 @@
     <windSpeedFactor>1.5</windSpeedFactor>
     <favorability>Bad</favorability>
     <perceivePriority>2</perceivePriority>
+    <exposedThought>SoakingWet</exposedThought>
     <accuracyMultiplier>0.8</accuracyMultiplier>
     <rainRate>1</rainRate>
     <moveSpeedMultiplier>0.8</moveSpeedMultiplier>
@@ -274,6 +276,7 @@
     <windSpeedFactor>1.5</windSpeedFactor>
     <favorability>Neutral</favorability>
     <perceivePriority>1</perceivePriority>
+    <exposedThought>SoakingWet</exposedThought>
     <accuracyMultiplier>0.5</accuracyMultiplier>
     <rainRate>1</rainRate>
     <moveSpeedMultiplier>0.9</moveSpeedMultiplier>

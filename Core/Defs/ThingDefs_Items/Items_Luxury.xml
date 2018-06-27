@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Chocolate</defName>
     <label>chocolate</label>
-    <description>A delicious preparation of cocoa seeds ground together with sugar and vanilla. It fulfills the need for joy, but it is not very nutritious.</description>
+    <description>A delicious preparation of cocoa seeds ground together with sugar and vanilla. It fulfills the need for recreation, but it is not very nutritious.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Chocolate</texPath>
       <graphicClass>Graphic_Single</graphicClass>

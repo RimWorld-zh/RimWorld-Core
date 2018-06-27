@@ -126,7 +126,7 @@
   
   <!-- Party -->
   <LetterLabelNewParty>Party</LetterLabelNewParty>
-  <LetterNewParty>{0} is throwing a party! Everyone who goes will gain joy and social energy, and a lasting positive mood boost.</LetterNewParty>
+  <LetterNewParty>{0} is throwing a party! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost.</LetterNewParty>
 
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>{0} addiction</LetterLabelNewlyAddicted>
