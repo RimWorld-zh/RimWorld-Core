@@ -137,15 +137,15 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>RGBA(0.4,0.3,0.15,1)</only>
+					<only>(0.4,0.3,0.15)</only>
 				</li>
 				<li>
 					<weight>15</weight>
-					<only>RGBA(0.6,0.45,0.18,1)</only>
+					<only>(0.6,0.45,0.18)</only>
 				</li>
 				<li>
 					<weight>20</weight>
-					<only>RGBA(0.8,0.6,0.23,1)</only>
+					<only>(0.8,0.6,0.23)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -201,25 +201,25 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>RGBA(0.33,0.33,0.33,1)</only>
+					<only>(0.33,0.33,0.33)</only>
 				</li>
 				<li>
 					<weight>10</weight>
-					<only>RGBA(0.65,0.65,0.65,1)</only>
+					<only>(0.65,0.65,0.65)</only>
 				</li>
 				<li>
 					<weight>10</weight>
-					<only>RGBA(0.4,0.3,0.15,1)</only>
+					<only>(0.4,0.3,0.15)</only>
 				</li>
 				<li>
 					<weight>15</weight>
-					<min>RGBA(0.3,0.3,0.3,1)</min>
-					<max>RGBA(0.5,0.5,0.5,1)</max>
+					<min>(0.3,0.3,0.3)</min>
+					<max>(0.5,0.5,0.5)</max>
 				</li>
 				<li>
 					<weight>6</weight>
-					<min>RGBA(0.5,0.5,0.5,1)</min>
-					<max>RGBA(1,1,1,1)</max>
+					<min>(0.5,0.5,0.5)</min>
+					<max>(1,1,1)</max>
 				</li>
 			</options>
 		</colorGenerator>
@@ -418,25 +418,25 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>(0.33,0.33,0.33)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
+          <only>(0.65,0.65,0.65)</only>
         </li>
         <li>
           <weight>30</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
+          <only>(0.4,0.3,0.15)</only>
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
         </li>
         <li>
           <weight>2</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
+          <min>(0.5,0.5,0.5)</min>
+          <max>(1,1,1)</max>
         </li>
       </options>
     </colorGenerator>
@@ -489,25 +489,25 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>(0.33,0.33,0.33)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
+          <only>(0.65,0.65,0.65)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.4,0.3,0.15,1)</only>
+          <only>(0.4,0.3,0.15)</only>
         </li>
         <li>
           <weight>15</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.5,0.5,0.5,1)</min>
-          <max>RGBA(1,1,1,1)</max>
+          <min>(0.5,0.5,0.5)</min>
+          <max>(1,1,1)</max>
         </li>
       </options>
     </colorGenerator>
@@ -577,16 +577,16 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>(0.33,0.33,0.33)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
+          <only>(0.65,0.65,0.65)</only>
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
         </li>
       </options>
     </colorGenerator>
@@ -597,7 +597,7 @@
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>Apparel_FlakVest</defName>
     <label>flak vest</label>
-    <description>A vest with armor plates inserted on the chest and back. Protects against gunfire.</description>
+    <description>A vest with armor plates inserted on the chest and back. While quite effective at deflecting gunshots and stabbing attacks against the chest, it does nothing to protect the limbs.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
@@ -649,16 +649,16 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>(0.33,0.33,0.33)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
+          <only>(0.65,0.65,0.65)</only>
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
         </li>
       </options>
     </colorGenerator>
@@ -667,7 +667,7 @@
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>Apparel_FlakPants</defName>
     <label>flak pants</label>
-    <description>A pair of pants with armor plates sewn in. Protects against gunfire.</description>
+    <description>A pair of pants with armor plates sewn in. While it's not as good as solid armor, it offers solid protection against all manner of attacks while remaining quite comfortable.</description>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -719,16 +719,82 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.44,0.44,0.44,1)</only>
+          <only>(0.44,0.44,0.44)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.62,0.62,0.62,1)</only>
+          <only>(0.62,0.62,0.62)</only>
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.44,0.44,0.44,1)</min>
-          <max>RGBA(0.47,0.47,0.47,1)</max>
+          <min>(0.44,0.44,0.44)</min>
+          <max>(0.47,0.47,0.47)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_FlakJacket</defName>
+    <label>flak jacket</label>
+    <description>A tough fabric jacket with armor plates sewn in. While it's not as good as solid armor, it offers good protection against all manner of attacks while remaining quite comfortable.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.00</drawSize>
+    </graphicData>
+    <costList>
+      <Cloth>60</Cloth>
+      <Steel>100</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>260</MaxHitPoints>
+      <WorkToMake>14000</WorkToMake>
+      <Mass>7</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>0.54</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.27</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>3.5</Insulation_Cold>
+      <Insulation_Heat>1</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.44,0.44,0.44)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.62,0.62,0.62)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.44,0.44,0.44)</min>
+          <max>(0.47,0.47,0.47)</max>
         </li>
       </options>
     </colorGenerator>
@@ -801,20 +867,20 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>(0.33,0.33,0.33)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
+          <only>(0.65,0.65,0.65)</only>
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.9,0.9,0.9,1)</only>
+          <only>(0.9,0.9,0.9)</only>
         </li>
       </options>
     </colorGenerator>

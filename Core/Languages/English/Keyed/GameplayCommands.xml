@@ -266,8 +266,8 @@
   <CommandRemoveWaypointDesc>Remove this waypoint.</CommandRemoveWaypointDesc>
 
   <!-- Pause caravan -->
-  <CommandPauseCaravan>Pause</CommandPauseCaravan>
-  <CommandToggleCaravanPauseDesc>Pause the caravan movement. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}</CommandToggleCaravanPauseDesc>
+  <CommandPauseCaravan>Rest</CommandPauseCaravan>
+  <CommandToggleCaravanPauseDesc>Stop and start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <CommandShowSellableItems>Show what will buy</CommandShowSellableItems>

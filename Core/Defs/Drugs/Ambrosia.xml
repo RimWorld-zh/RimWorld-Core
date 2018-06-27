@@ -25,6 +25,7 @@
       <preferability>DesperateOnly</preferability>
       <tasteThought></tasteThought>
       <foodType>VegetableOrFruit</foodType>
+      <joyKind>Chemical</joyKind>
       <joy>0.5</joy>
       <nurseable>true</nurseable>
       <drugCategory>Social</drugCategory>

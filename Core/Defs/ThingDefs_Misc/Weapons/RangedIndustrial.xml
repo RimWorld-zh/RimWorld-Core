@@ -34,7 +34,7 @@
       <AccuracyShort>0.75</AccuracyShort>
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
-      <RangedWeapon_Cooldown>1.38</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
       <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <weaponTags>
@@ -120,7 +120,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Autopistol</defaultProjectile>
         <warmupTime>0.3</warmupTime>
-        <range>21.9</range>
+        <range>25.9</range>
         <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -467,8 +467,8 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>18</damageAmountBase>
-      <stoppingPower>2.5</stoppingPower>
-      <armorPenetrationBase>0.05</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.06</armorPenetrationBase>
       <speed>55</speed>
     </projectile>
   </ThingDef>

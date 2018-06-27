@@ -19,6 +19,7 @@
     <techLevel>Industrial</techLevel>
     <ingestible>
       <foodType>Processed</foodType>
+      <joyKind>Chemical</joyKind>
       <joy>0.80</joy>
       <drugCategory>Hard</drugCategory>
       <baseIngestTicks>240</baseIngestTicks>

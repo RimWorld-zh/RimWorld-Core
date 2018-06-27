@@ -546,4 +546,18 @@
     </stages>
   </ThoughtDef>
 
+  <ThoughtDef>
+    <defName>Rescued</defName>
+    <durationDays>30</durationDays>
+    <stackLimit>5</stackLimit>
+	<showBubble>true</showBubble>
+    <stages>
+      <li>
+        <label>rescued</label>
+        <description>text_todo</description>
+        <baseMoodEffect>18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
 </Defs>

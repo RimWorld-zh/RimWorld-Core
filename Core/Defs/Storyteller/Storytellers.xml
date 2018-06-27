@@ -4,8 +4,8 @@
 	<StorytellerDef Name="BaseStoryteller" Abstract="True">
 		<populationIntentFromTimeCurve>
 			<points>
-				<li>0, 0.15</li>
-				<li>3, 0.15</li>
+				<li>0, 0.05</li>
+				<li>5, 0.15</li>
 				<li>10, 1</li>
 			</points>
 		</populationIntentFromTimeCurve>
@@ -32,7 +32,7 @@
 		<populationIntentFromPopCurve>
 			<points>
 				<li>0, 8</li>
-				<li>1, 4</li>
+				<li>1, 2</li>
 				<li>5, 1</li>
 				<li>9, 0.5</li>
 				<li>13, 0</li>
@@ -152,7 +152,7 @@
 		<populationIntentFromPopCurve>
 			<points>
 				<li>0, 8</li>
-				<li>1, 4</li>
+				<li>1, 2</li>
 				<li>5, 1</li>
 				<li>9, 0.5</li>
 				<li>13, 0</li>
@@ -270,7 +270,7 @@
 		<populationIntentFromPopCurve>
 			<points>
 				<li>0, 8</li>
-				<li>1, 4</li>
+				<li>1, 2</li>
 				<li>5, 1</li>
 				<li>9, 0.5</li>
 				<li>13, 0</li>

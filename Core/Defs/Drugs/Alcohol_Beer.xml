@@ -21,6 +21,7 @@
     </statBases>
     <ingestible>
       <foodType>Fluid, Processed, Liquor</foodType>
+      <joyKind>Chemical</joyKind>
       <joy>0.17</joy>
       <nurseable>true</nurseable>
       <drugCategory>Social</drugCategory>

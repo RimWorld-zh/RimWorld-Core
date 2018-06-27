@@ -20,6 +20,7 @@
     <techLevel>Industrial</techLevel>
     <ingestible>
       <foodType>Processed</foodType>
+      <joyKind>Chemical</joyKind>
       <joy>0.70</joy>
       <baseIngestTicks>720</baseIngestTicks>
       <nurseable>true</nurseable>

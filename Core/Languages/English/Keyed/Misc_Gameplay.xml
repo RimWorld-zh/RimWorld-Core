@@ -90,7 +90,7 @@
   <CaravanPawnsInMentalState>{0} in mental state</CaravanPawnsInMentalState>
   <CaravanPawnsDowned>{0} downed</CaravanPawnsDowned>
   <CaravanTraveling>Traveling.</CaravanTraveling>
-  <CaravanPaused>Paused.</CaravanPaused>
+  <CaravanPaused>Resting.</CaravanPaused>
 	<CaravanWaiting>Waiting.</CaravanWaiting>
 	<CurrentTileMovementTime>Current tile movement time</CurrentTileMovementTime>
   <Visibility>Visibility</Visibility>
@@ -390,7 +390,7 @@
 	<ZoneVisibilityToggleButton>Toggle visiblity of zones.</ZoneVisibilityToggleButton>
 	<ShowBeautyToggleButton>Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing.</ShowBeautyToggleButton>
 	<ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing.</ShowRoomStatsToggleButton>
-	<ShowColonistBarToggleButton>Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.</ShowColonistBarToggleButton>
+	<ShowColonistBarToggleButton>Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them.</ShowColonistBarToggleButton>
 	<AutoHomeAreaToggleButton>Toggle automatically expanding the home area around new constructions.</AutoHomeAreaToggleButton>
   <AutoRebuildButton>Toggle automatic rebuild of destroyed structures.</AutoRebuildButton>
 	<CategorizedResourceReadoutToggleButton>Toggle categorized mode on the resource readout.</CategorizedResourceReadoutToggleButton>

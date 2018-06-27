@@ -6,11 +6,13 @@
   <JoyKindDef>
     <defName>Meditative</defName>
     <label>solitary relaxation</label>
+    <needsThing>false</needsThing>
   </JoyKindDef>
 
   <JoyKindDef>
     <defName>Social</defName>
     <label>social interaction</label>
+    <needsThing>false</needsThing>
   </JoyKindDef>
 
   <!--======================= Building use =======================-->

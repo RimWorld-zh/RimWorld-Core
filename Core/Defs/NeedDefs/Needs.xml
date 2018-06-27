@@ -42,7 +42,7 @@
     <defName>Joy</defName>
     <needClass>Need_Joy</needClass>
     <label>recreation</label>
-    <description>Recreation represents the need to do something pleasurable from time to time, like playing games or socializing. Repeating the same kind of activity makes it less effective in gaining recreation, so it's important to provide a variety of recreation activities.</description>
+    <description>Recreation is the need have fun. Repeating the same kind of activity makes it less fun, so variety is necessary.</description>
     <minIntelligence>Humanlike</minIntelligence>
     <colonistsOnly>true</colonistsOnly>
 		<neverOnPrisoner>true</neverOnPrisoner>

@@ -1,43 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <ThoughtDef>
-    <defName>LowExpectations</defName>
-    <workerClass>ThoughtWorker_Expectations</workerClass>
-    <stages>
-      <li>
-        <label>sky-high expectations</label>
-        <description>This place is really rich. I should be made very comfortable here.</description>
-        <baseMoodEffect>0</baseMoodEffect>
-      </li>
-      <li>
-        <label>high expectations</label>
-        <description>This place is almost rich. There's no reason I shouldn't have the things I want.</description>
-        <baseMoodEffect>6</baseMoodEffect>
-      </li>
-      <li>
-        <label>moderate expectations</label>
-        <description>This place isn't quite rich. I can't expect to be totally pampered.</description>
-        <baseMoodEffect>12</baseMoodEffect>
-      </li>
-      <li>
-        <label>low expectations</label>
-        <description>This place doesn't have the wealth for many luxuries. I can't expect great comforts.</description>
-        <baseMoodEffect>18</baseMoodEffect>
-      </li>
-      <li>
-        <label>very low expectations</label>
-        <description>This place is poverty-stricken. I need to keep myself strong to survive.</description>
-        <baseMoodEffect>24</baseMoodEffect>
-      </li>
-      <li>
-        <label>extremely low expectations</label>
-        <description>There's nothing here to make me comfortable. I'd better steel myself to survive.</description>
-        <baseMoodEffect>30</baseMoodEffect>
-      </li>
-    </stages>
-    <validWhileDespawned>true</validWhileDespawned>
-  </ThoughtDef>
   
   <ThoughtDef>
     <defName>EnvironmentDark</defName>

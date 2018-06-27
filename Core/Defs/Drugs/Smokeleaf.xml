@@ -20,6 +20,7 @@
     <techLevel>Neolithic</techLevel>
     <ingestible>
       <foodType>Plant, Processed</foodType>
+      <joyKind>Chemical</joyKind>
       <joy>0.80</joy>
       <baseIngestTicks>720</baseIngestTicks>
       <nurseable>true</nurseable>

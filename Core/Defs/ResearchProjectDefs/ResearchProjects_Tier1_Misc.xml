@@ -18,17 +18,17 @@
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
 
-  <ResearchProjectDef>
-    <defName>Pemmican</defName>
-    <label>pemmican</label>
-    <description>Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling.</description>
-    <baseCost>500</baseCost>
+    <ResearchProjectDef>
+    <defName>TreeSowing</defName>
+    <label>tree sowing</label>
+    <description>Sow the local biome's natural trees in your fields.</description>
+    <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0.75</researchViewY>
     <tags>
       <li>TribalStart</li>
     </tags>
-    <researchViewX>0</researchViewX>
-    <researchViewY>0.75</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -110,13 +110,16 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Brewing</defName>
-    <label>beer brewing</label>
-    <description>Build a brewery and fermenting vats to transform hops into tasty, tasty beer.</description>
-    <baseCost>400</baseCost>
+    <defName>Cocoa</defName>
+    <label>cocoa</label>
+    <description>Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation, and it's valuable on the market too.</description>
+    <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>1</researchViewX>
     <researchViewY>0.75</researchViewY>
+    <prerequisites>
+      <li>TreeSowing</li>
+    </prerequisites>
   </ResearchProjectDef>
   
   <ResearchProjectDef>
@@ -149,17 +152,27 @@
     <researchViewY>3</researchViewY>
   </ResearchProjectDef>
 
-  <ResearchProjectDef>
-    <defName>TreeSowing</defName>
-    <label>tree sowing</label>
-    <description>Sow the local biome's natural trees in your fields.</description>
-    <baseCost>1000</baseCost>
+    <ResearchProjectDef>
+    <defName>Pemmican</defName>
+    <label>pemmican</label>
+    <description>Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling.</description>
+    <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewX>1</researchViewX>
-    <researchViewY>3.75</researchViewY>
     <tags>
       <li>TribalStart</li>
     </tags>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3.75</researchViewY>
+  </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>Brewing</defName>
+    <label>beer brewing</label>
+    <description>Build a brewery and fermenting vats to transform hops into tasty, tasty beer.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4.5</researchViewY>
   </ResearchProjectDef>
 
   <!--====== Column 3+ ======-->
