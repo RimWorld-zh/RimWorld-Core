@@ -13,7 +13,7 @@
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ArmorHelmetMakeableBase" ParentName="ArmorMakeableBase" Abstract="True">
+  <ThingDef Name="ArmorHelmetMakeableBase" ParentName="ArmorMachineableBase" Abstract="True">
     <thingCategories>
       <li>Headgear</li>
     </thingCategories>

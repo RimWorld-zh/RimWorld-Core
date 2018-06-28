@@ -94,9 +94,9 @@
       <Steel>120</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
     <hasInteractionCell>true</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <interactionCellIcon>DiningChair</interactionCellIcon>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Misc</designationCategory>
 		<building>

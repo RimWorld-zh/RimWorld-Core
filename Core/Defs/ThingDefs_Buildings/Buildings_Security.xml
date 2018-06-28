@@ -236,7 +236,7 @@
     <rotatable>false</rotatable>
     <size>(2,2)</size>
     <statBases>
-      <MaxHitPoints>420</MaxHitPoints>
+      <MaxHitPoints>400</MaxHitPoints>
       <Flammability>0.7</Flammability>
       <WorkToBuild>15000</WorkToBuild>
       <Mass>100</Mass>
@@ -252,7 +252,7 @@
       <li Class="CompProperties_Forbiddable"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>250</basePowerConsumption>
+        <basePowerConsumption>300</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
@@ -280,12 +280,9 @@
     <pathCost>50</pathCost>
     <fillPercent>0.5</fillPercent>
     <hasTooltip>true</hasTooltip>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>200</costStuffCount>
     <costList>
-      <Steel>400</Steel>
+      <Steel>600</Steel>
+      <Plasteel>30</Plasteel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>

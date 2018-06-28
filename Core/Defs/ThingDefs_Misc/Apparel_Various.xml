@@ -59,7 +59,32 @@
     </recipeMaker>
   </ThingDef>
   
-  <ThingDef Name="ArmorMakeableBase" ParentName="ApparelBase" Abstract="True">
+  <ThingDef Name="ArmorSmithableBase" ParentName="ApparelBase" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Root</li>
+        </categories>
+        <disallowedThingDefs>
+          <li>Gold</li>
+          <li>Silver</li>
+          <li>Plasteel</li>
+          <li>Jade</li>
+          <li>Uranium</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="ArmorMachineableBase" ParentName="ApparelBase" Abstract="True">
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -68,7 +93,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
       <defaultIngredientFilter>
         <categories>
           <li>Root</li>
@@ -513,7 +538,7 @@
     </colorGenerator>
   </ThingDef>
   
-  <ThingDef ParentName="ArmorMakeableBase">
+  <ThingDef ParentName="ArmorSmithableBase">
     <defName>Apparel_PlateArmor</defName>
     <label>plate armor</label>
     <description>Overlapping solid plates of armor covering the entire body from neck to feet.</description>
@@ -522,15 +547,6 @@
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
-      <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers Inherit="False">
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
-      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/PlateArmor/PlateArmor</texPath>
@@ -545,7 +561,7 @@
       <WorkToMake>38000</WorkToMake>
       <MaxHitPoints>290</MaxHitPoints>
       <Mass>15</Mass>
-      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>15</EquipDelay>
@@ -594,7 +610,7 @@
 
   <!-- ======================================= Industrial =======================================-->
   
-  <ThingDef ParentName="ArmorMakeableBase">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_FlakVest</defName>
     <label>flak vest</label>
     <description>A vest with armor plates inserted on the chest and back. While quite effective at deflecting gunshots and stabbing attacks against the chest, it does nothing to protect the limbs.</description>
@@ -648,15 +664,13 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>10</weight>
           <only>(0.33,0.33,0.33)</only>
         </li>
         <li>
-          <weight>10</weight>
           <only>(0.65,0.65,0.65)</only>
         </li>
         <li>
-          <weight>6</weight>
+          <weight>0.5</weight>
           <min>(0.3,0.3,0.3)</min>
           <max>(0.5,0.5,0.5)</max>
         </li>
@@ -664,10 +678,10 @@
     </colorGenerator>
   </ThingDef>
 
-  <ThingDef ParentName="ArmorMakeableBase">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_FlakPants</defName>
     <label>flak pants</label>
-    <description>A pair of pants with armor plates sewn in. While it's not as good as solid armor, it offers solid protection against all manner of attacks while remaining quite comfortable.</description>
+    <description>A pair of pants with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable.</description>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -685,9 +699,9 @@
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>4</Mass>
       <Flammability>0.6</Flammability>
-      <ArmorRating_Sharp>0.54</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.27</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.10</ArmorRating_Heat>
       <Insulation_Cold>3.5</Insulation_Cold>
       <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>5</EquipDelay>
@@ -718,26 +732,19 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>10</weight>
           <only>(0.44,0.44,0.44)</only>
         </li>
         <li>
-          <weight>10</weight>
           <only>(0.62,0.62,0.62)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>(0.44,0.44,0.44)</min>
-          <max>(0.47,0.47,0.47)</max>
         </li>
       </options>
     </colorGenerator>
   </ThingDef>
 
-  <ThingDef ParentName="ApparelMakeableBase">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_FlakJacket</defName>
     <label>flak jacket</label>
-    <description>A tough fabric jacket with armor plates sewn in. While it's not as good as solid armor, it offers good protection against all manner of attacks while remaining quite comfortable.</description>
+    <description>A tough fabric jacket with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -756,9 +763,9 @@
       <WorkToMake>14000</WorkToMake>
       <Mass>7</Mass>
       <Flammability>0.6</Flammability>
-      <ArmorRating_Sharp>0.54</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.27</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.10</ArmorRating_Heat>
       <Insulation_Cold>3.5</Insulation_Cold>
       <Insulation_Heat>1</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
@@ -768,7 +775,6 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
-        <li>Neck</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Jacket/Jacket</wornGraphicPath>
       <layers>
@@ -784,17 +790,10 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>10</weight>
           <only>(0.44,0.44,0.44)</only>
         </li>
         <li>
-          <weight>10</weight>
           <only>(0.62,0.62,0.62)</only>
-        </li>
-        <li>
-          <weight>6</weight>
-          <min>(0.44,0.44,0.44)</min>
-          <max>(0.47,0.47,0.47)</max>
         </li>
       </options>
     </colorGenerator>
@@ -802,7 +801,7 @@
 
 	<!-- ==================================== Spacer =====================================-->
 
-	<ThingDef ParentName="ArmorMakeableBase">
+	<ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_PowerArmor</defName>
     <label>power armor</label>
     <description>A suit of powered armor. Layered plasteel-weave plates are very effective at stopping attacks. Neuro-memetic robotics allow a human to wear the heavy armor and still be capable of moving easily.\n\nPowered armor usually used by heavy infantry and space marines from spacer-tech militaries.</description>

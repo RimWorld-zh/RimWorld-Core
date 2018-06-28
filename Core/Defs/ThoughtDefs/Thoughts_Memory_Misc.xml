@@ -554,7 +554,7 @@
     <stages>
       <li>
         <label>rescued</label>
-        <description>text_todo</description>
+        <description>I was rescued! I almost thought I was done for back there. I'm so thankful.</description>
         <baseMoodEffect>18</baseMoodEffect>
       </li>
     </stages>

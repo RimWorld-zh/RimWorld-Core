@@ -100,7 +100,7 @@
     </targetTypes>
     <workerClass>IncidentWorker_PoisonShipPartCrash</workerClass>
     <letterLabel>Poison ship</letterLabel>
-    <letterText>A large piece of an ancient ship has crashed nearby.\n\nIt is leaking toxic material and will kill all plants in an expanding circle around itself.\n\nDestroy it as soon as possible. But beware - it will probably defend itself.</letterText>
+    <letterText>A large piece of an ancient ship has crashed nearby.\n\nIt's mysterious influence will kill all plants in an expanding circle around itself.\n\nDestroy it as soon as possible. But beware - it will probably defend itself.</letterText>
     <letterDef>ThreatSmall</letterDef>
     <baseChance>2.0</baseChance>
     <minRefireDays>15</minRefireDays>

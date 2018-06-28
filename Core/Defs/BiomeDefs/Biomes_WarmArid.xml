@@ -8,7 +8,7 @@
     <workerClass>BiomeWorker_AridShrubland</workerClass>
     <animalDensity>2.0</animalDensity>
     <plantDensity>0.16</plantDensity>
-    <factionBaseSelectionWeight>0.95</factionBaseSelectionWeight>
+    <settlementSelectionWeight>0.95</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <texture>World/Biomes/AridShrubland</texture>
     <forageability>0.5</forageability>
@@ -122,7 +122,7 @@
     <workerClass>BiomeWorker_Desert</workerClass>
     <animalDensity>0.40</animalDensity>
     <plantDensity>0.05</plantDensity>
-    <factionBaseSelectionWeight>0.65</factionBaseSelectionWeight>
+    <settlementSelectionWeight>0.65</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <texture>World/Biomes/Desert</texture>
     <forageability>0.25</forageability>
@@ -233,7 +233,7 @@
     <animalDensity>0.1</animalDensity>
     <plantDensity>0.002</plantDensity>
     <hasVirtualPlants>false</hasVirtualPlants>
-    <factionBaseSelectionWeight>0.42</factionBaseSelectionWeight>
+    <settlementSelectionWeight>0.42</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <texture>World/Biomes/ExtremeDesert</texture>
     <forageability>0</forageability>

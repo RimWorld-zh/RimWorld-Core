@@ -8,7 +8,7 @@
     <workerClass>BiomeWorker_TemperateForest</workerClass>
     <animalDensity>4.2</animalDensity>
     <plantDensity>0.55</plantDensity>
-    <factionBaseSelectionWeight>1</factionBaseSelectionWeight>
+    <settlementSelectionWeight>1</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <texture>World/Biomes/TemperateForest</texture>
     <forageability>1</forageability>
@@ -154,7 +154,7 @@
     <workerClass>BiomeWorker_TemperateSwamp</workerClass>
     <animalDensity>4.8</animalDensity>
     <plantDensity>0.55</plantDensity>
-    <factionBaseSelectionWeight>0.6</factionBaseSelectionWeight>
+    <settlementSelectionWeight>0.6</settlementSelectionWeight>
     <movementDifficulty>4</movementDifficulty>
     <texture>World/Biomes/TemperateSwamp</texture>
     <forageability>0.75</forageability>

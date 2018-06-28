@@ -26,7 +26,7 @@
 		<workSkill>Cooking</workSkill>
 	</RecipeDef>
 
-	<RecipeDef Name="CookMealSimple" ParentName="CookMealBase">
+	<RecipeDef ParentName="CookMealBase">
     <defName>CookMealSimple</defName>
     <label>cook simple meal</label>
     <description>Cook a straightforward meal from one ingredient.</description>
@@ -52,11 +52,6 @@
 		</products>
     <workSkill>Cooking</workSkill>
   </RecipeDef>
-
-	<RecipeDef ParentName="CookMealSimple">
-		<defName>CookMealSimpleCampfire</defName>
-    <workAmount>1000</workAmount> <!-- other meals use WorkToMake stat -->
-	</RecipeDef>
 
   <RecipeDef ParentName="CookMealBase">
 		<defName>CookMealFine</defName>

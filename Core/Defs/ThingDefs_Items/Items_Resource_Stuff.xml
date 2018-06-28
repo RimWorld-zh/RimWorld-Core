@@ -35,6 +35,7 @@
     <stackLimit>500</stackLimit>
     <smallVolume>true</smallVolume>
     <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>40</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>2</min>
       <max>10</max>
@@ -90,6 +91,7 @@
     <stackLimit>500</stackLimit>
     <smallVolume>true</smallVolume>
     <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>15</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>1</min>
       <max>5</max>
@@ -148,6 +150,7 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <deepCommonality>4</deepCommonality>
+    <deepCountPerPortion>35</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>20</min>
       <max>40</max>
@@ -199,6 +202,7 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <deepCommonality>1</deepCommonality>
+    <deepCountPerPortion>25</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>2</min>
       <max>10</max>
@@ -319,6 +323,7 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <deepCommonality>1</deepCommonality>
+    <deepCountPerPortion>35</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>2</min>
       <max>10</max>
@@ -373,6 +378,7 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>15</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>1</min>
       <max>5</max>
@@ -517,9 +523,9 @@
       <Mass>0.032</Mass>
       <Flammability>0.4</Flammability>
       <DeteriorationRate>3</DeteriorationRate>
-      <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.18</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>1.44</StuffPower_Armor_Heat>
+      <StuffPower_Armor_Sharp>1.44</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.88</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
     </statBases>
@@ -557,9 +563,9 @@
       <Mass>0.038</Mass>
       <Flammability>0.4</Flammability>
 			<DeteriorationRate>1.0</DeteriorationRate>
-      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.27</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>1.44</StuffPower_Armor_Heat>
+      <StuffPower_Armor_Sharp>2.00</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.88</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
 		</statBases>

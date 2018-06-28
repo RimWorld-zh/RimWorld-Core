@@ -54,8 +54,9 @@
     <recipeMaker>
 			<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
       <recipeUsers>
-        <li>CraftingSpot</li>
-        <li>DrugLab</li>
+        <li>Campfire</li>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
       </recipeUsers>
       <workSpeedStat>DrugCookingSpeed</workSpeedStat>
       <workSkill>Cooking</workSkill>

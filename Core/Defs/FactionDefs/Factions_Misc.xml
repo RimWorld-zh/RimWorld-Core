@@ -2,8 +2,8 @@
 <Defs>
 
   <FactionDef Name="HumanFactionBase" Abstract="True">
-    <goodwillDailyGain>0.25</goodwillDailyGain>
-    <goodwillDailyFall>0.25</goodwillDailyFall>
+    <goodwillDailyGain>0.20</goodwillDailyGain>
+    <goodwillDailyFall>0.20</goodwillDailyFall>
   </FactionDef>
 
   <FactionDef ParentName="HumanFactionBase" Name="OutlanderFactionBase" Abstract="True">
@@ -93,7 +93,7 @@
 				</guards>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
 					<Villager>10</Villager>
           <Town_Guard>10</Town_Guard>
@@ -105,7 +105,7 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
   </FactionDef>
 
   <FactionDef ParentName="OutlanderFactionBase">
@@ -269,7 +269,7 @@
         </guards>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
           <Tribal_Warrior>7</Tribal_Warrior>
           <Tribal_Archer>10</Tribal_Archer>
@@ -280,7 +280,7 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/TribalFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/TribalSettlement</homeIconPath>
   </FactionDef>
 
   <FactionDef ParentName="TribeBase">
@@ -446,7 +446,7 @@
       </li>
       <li>
 				<!-- Base defense, mainly ranged with melee mix-ins -->
-				<kindDef>FactionBase</kindDef>
+				<kindDef>Settlement</kindDef>
         <options>
           <Thrasher>3</Thrasher>
           <Pirate>10</Pirate>
@@ -459,7 +459,7 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
   </FactionDef>
 
 </Defs>

@@ -252,6 +252,7 @@
     </placeWorkers>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationHotKey>Misc4</designationHotKey>
+    <defaultPlacingRot>East</defaultPlacingRot>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
 

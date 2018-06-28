@@ -348,7 +348,7 @@
     <statBases>
       <WorkToBuild>6000</WorkToBuild>
       <MaxHitPoints>100</MaxHitPoints>
-      <Mass>28</Mass>
+      <Mass>14</Mass>
       <Flammability>1.0</Flammability>
       <JoyGainFactor>1.2</JoyGainFactor>
     </statBases>
@@ -417,20 +417,21 @@
       <li>BuildingsJoy</li>
     </thingCategories>
     <costList>
-      <Steel>100</Steel>
-      <ComponentIndustrial>8</ComponentIndustrial>
+      <Steel>140</Steel>
+      <ComponentIndustrial>16</ComponentIndustrial>
     </costList>
     <statBases>
+      <WorkToBuild>40000</WorkToBuild>
       <MaxHitPoints>80</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <MarketValue>800</MarketValue>
-      <Mass>5</Mass>
-      <JoyGainFactor>1.44</JoyGainFactor>
+      <Mass>8</Mass>
+      <JoyGainFactor>1.4</JoyGainFactor>
     </statBases>
     <pathCost>70</pathCost>
     <passability>PassThroughOnly</passability>
     <size>(2,1)</size>
     <defaultPlacingRot>South</defaultPlacingRot>
+    <researchPrerequisites><li>FlatscreenTelevision</li></researchPrerequisites>
     <building>
       <joyKind>Television</joyKind>
       <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>
@@ -441,6 +442,7 @@
       </watchBuildingStandDistanceRange>
 			<watchBuildingStandRectWidth>6</watchBuildingStandRectWidth>
     </building>
+    <designationCategory>Joy</designationCategory>
     <placeWorkers>
       <li>PlaceWorker_WatchArea</li>
     </placeWorkers>
@@ -448,7 +450,7 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <shortCircuitInRain>true</shortCircuitInRain>
-        <basePowerConsumption>150</basePowerConsumption>
+        <basePowerConsumption>330</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_RoomIdentifier">
@@ -484,15 +486,15 @@
       <li>BuildingsJoy</li>
     </thingCategories>
     <costList>
-      <Steel>120</Steel>
-      <ComponentIndustrial>12</ComponentIndustrial>
+      <Steel>260</Steel>
+      <ComponentIndustrial>22</ComponentIndustrial>
     </costList>
     <statBases>
+      <WorkToBuild>80000</WorkToBuild>
       <MaxHitPoints>85</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <MarketValue>1200</MarketValue>
-      <Mass>8</Mass>
-      <JoyGainFactor>1.62</JoyGainFactor>
+      <Mass>10</Mass>
+      <JoyGainFactor>1.6</JoyGainFactor>
     </statBases>
     <pathCost>70</pathCost>
     <passability>PassThroughOnly</passability>
@@ -514,7 +516,7 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <shortCircuitInRain>true</shortCircuitInRain>
-        <basePowerConsumption>220</basePowerConsumption>
+        <basePowerConsumption>450</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_RoomIdentifier">

@@ -1448,7 +1448,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>DeepDrill</defName>
     <label>deep drill</label>
-    <description>A deep-crust drilling rig for extracting minerals from deep under the surface. Use a ground-penetrating scanner to detect the resources. This drill can also extract stone chunks if no resources are present.</description>
+    <description>A deep-crust drilling rig for extracting minerals from deep under the surface. Use a ground-penetrating scanner to detect the resources. This drill will yield stone chunks if no resources are present. Can be repositioned freely.</description>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Building/Production/DeepDrill</texPath>
@@ -1466,7 +1466,6 @@
     <fillPercent>0.5</fillPercent>
     <hasInteractionCell>true</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <interactionCellIcon>DiningChair</interactionCellIcon>
     <designationCategory>Production</designationCategory>
     <designationHotKey>Misc12</designationHotKey>
     <specialDisplayRadius>1.5</specialDisplayRadius>
@@ -1475,9 +1474,13 @@
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <uiIconOffset>(0, 0.03)</uiIconOffset>
     <uiIconScale>0.85</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
     <costList>
-      <Steel>100</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <Steel>200</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <placeWorkers>
       <li>PlaceWorker_DeepDrill</li>
@@ -1487,17 +1490,18 @@
       <li>DeepDrilling</li>
     </researchPrerequisites>
     <statBases>
-      <MaxHitPoints>140</MaxHitPoints>
-      <WorkToBuild>5000</WorkToBuild>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
       <Flammability>0.5</Flammability>
       <Beauty>-25</Beauty>
+      <Mass>35</Mass>
     </statBases>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>250</basePowerConsumption>
+        <basePowerConsumption>300</basePowerConsumption>
       </li>
       <li Class="CompProperties_DeepDrill" />
       <li Class="CompProperties_CreatesInfestations" />

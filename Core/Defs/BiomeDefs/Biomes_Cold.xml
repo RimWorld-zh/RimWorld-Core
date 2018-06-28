@@ -8,7 +8,7 @@
     <workerClass>BiomeWorker_BorealForest</workerClass>
     <animalDensity>3.1</animalDensity>
     <plantDensity>0.30</plantDensity>
-    <factionBaseSelectionWeight>0.9</factionBaseSelectionWeight>
+    <settlementSelectionWeight>0.9</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <forageability>0.75</forageability>
     <foragedFood>RawBerries</foragedFood>
@@ -147,7 +147,7 @@
     <workerClass>BiomeWorker_Tundra</workerClass>
     <animalDensity>1.2</animalDensity>
     <plantDensity>0.14</plantDensity>
-    <factionBaseSelectionWeight>0.32</factionBaseSelectionWeight>
+    <settlementSelectionWeight>0.32</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <texture>World/Biomes/Tundra</texture>
     <forageability>0.5</forageability>
@@ -270,7 +270,7 @@
     <workerClass>BiomeWorker_ColdBog</workerClass>
     <animalDensity>3.6</animalDensity>
     <plantDensity>0.52</plantDensity>
-    <factionBaseSelectionWeight>0.17</factionBaseSelectionWeight>
+    <settlementSelectionWeight>0.17</settlementSelectionWeight>
     <movementDifficulty>4</movementDifficulty>
     <texture>World/Biomes/ColdBog</texture>
     <forageability>0.5</forageability>
@@ -434,7 +434,7 @@
     <animalDensity>0.2</animalDensity>
     <plantDensity>0</plantDensity>
     <hasVirtualPlants>false</hasVirtualPlants>
-    <factionBaseSelectionWeight>0.15</factionBaseSelectionWeight>
+    <settlementSelectionWeight>0.15</settlementSelectionWeight>
     <movementDifficulty>1.5</movementDifficulty>
     <texture>World/Biomes/IceSheet</texture>
     <forageability>0</forageability>
@@ -529,7 +529,7 @@
 		<plantDensity>0</plantDensity>
     <hasVirtualPlants>false</hasVirtualPlants>
     <hasBedrock>false</hasBedrock>
-		<factionBaseSelectionWeight>0.01</factionBaseSelectionWeight>
+		<settlementSelectionWeight>0.01</settlementSelectionWeight>
     <movementDifficulty>1.5</movementDifficulty>
 		<texture>World/Biomes/IceSheetOcean</texture>
     <forageability>0</forageability>

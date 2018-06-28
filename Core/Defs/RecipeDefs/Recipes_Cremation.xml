@@ -40,12 +40,12 @@
     </defaultIngredientFilter>
   </RecipeDef>
 
-  <RecipeDef Name="BurnApparel">
+  <RecipeDef>
     <defName>BurnApparel</defName>
     <label>burn apparel</label>
     <description>Burn unwanted apparel to completely destroy it.</description>
     <jobString>Burning apparel.</jobString>
-    <workAmount>200</workAmount>
+    <workAmount>60</workAmount>
     <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
     <requiredGiverWorkType>Hauling</requiredGiverWorkType>
     <effectWorking>Cremate</effectWorking>
@@ -67,17 +67,12 @@
     </fixedIngredientFilter>
   </RecipeDef>
 
-  <RecipeDef ParentName="BurnApparel">
-    <defName>BurnApparelCampfire</defName>
-    <workAmount>350</workAmount>
-  </RecipeDef>
-
 	<RecipeDef>
 		<defName>BurnDrugs</defName>
 		<label>burn drugs</label>
 		<description>Burn unwanted drugs to completely destroy them.</description>
 		<jobString>Burning drugs.</jobString>
-		<workAmount>40</workAmount>
+		<workAmount>60</workAmount>
     <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
 		<requiredGiverWorkType>Hauling</requiredGiverWorkType>
 		<effectWorking>BurnDrug</effectWorking>

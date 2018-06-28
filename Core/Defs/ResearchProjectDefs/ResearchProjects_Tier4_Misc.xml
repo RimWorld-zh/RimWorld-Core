@@ -24,7 +24,7 @@
 		<defName>DeepDrilling</defName>
 		<label>deep drilling</label>
 		<description>Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources.</description>
-		<baseCost>1500</baseCost>
+		<baseCost>2400</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>MultiAnalyzer</li>

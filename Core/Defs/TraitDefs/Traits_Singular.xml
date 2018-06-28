@@ -244,9 +244,7 @@
         <randomMentalState>FireStartingSpree</randomMentalState>
         <randomMentalStateMtbDaysMoodCurve>
           <points>
-            <li>(0, 15)</li>
-            <li>(50, 70)</li>
-            <li>(100, 500)</li>
+            <li>(0, 50)</li>
           </points>
         </randomMentalStateMtbDaysMoodCurve>
 				<marketValueFactorOffset>-0.2</marketValueFactorOffset>
@@ -398,9 +396,7 @@
         <randomMentalState>Binging_Food</randomMentalState>
         <randomMentalStateMtbDaysMoodCurve>
           <points>
-            <li>(0, 15)</li>
-            <li>(50, 70)</li>
-            <li>(100, 500)</li>
+            <li>(0, 50)</li>
           </points>
         </randomMentalStateMtbDaysMoodCurve>
         <skillGains>

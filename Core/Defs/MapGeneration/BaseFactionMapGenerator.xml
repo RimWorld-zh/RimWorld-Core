@@ -6,16 +6,16 @@
     <genSteps>
       <li>RocksFromGrid</li>
       <li>ScatterDeepResourceLumps</li>
-      <li>FactionBase</li>
-      <li>FactionBasePower</li>
+      <li>Settlement</li>
+      <li>SettlementPower</li>
     </genSteps>
   </MapGeneratorDef>
   
   <!-- Generate faction base -->
   <GenStepDef>
-    <defName>FactionBase</defName>
+    <defName>Settlement</defName>
     <order>400</order>
-    <genStep Class="GenStep_FactionBase">
+    <genStep Class="GenStep_Settlement">
       <count>1</count>
       <nearMapCenter>true</nearMapCenter>
     </genStep>
@@ -23,7 +23,7 @@
 
   <!-- Spawn power conduits -->
   <GenStepDef>
-    <defName>FactionBasePower</defName>
+    <defName>SettlementPower</defName>
     <order>401</order>
     <genStep Class="GenStep_Power" />
   </GenStepDef>

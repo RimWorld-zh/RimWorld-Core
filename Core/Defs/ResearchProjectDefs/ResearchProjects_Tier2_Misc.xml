@@ -72,7 +72,7 @@
     <defName>PlateArmor</defName>
     <label>plate armor</label>
     <description>Smith suits of plate armor from metal or wood.</description>
-    <baseCost>1800</baseCost>
+    <baseCost>1400</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>Smithing</li>
@@ -412,14 +412,27 @@
   <ResearchProjectDef>
 		<defName>TubeTelevision</defName>
 		<label>tube television</label>
-		<description>Produce tube televisions.</description>
+		<description>Produce tube televisions for recreational watching.</description>
 		<baseCost>800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>MicroelectronicsBasics</li>
 		</prerequisites>
 		<researchViewX>8</researchViewX>
-		<researchViewY>0.72</researchViewY>
+		<researchViewY>3.25</researchViewY>
+	</ResearchProjectDef>
+
+  <ResearchProjectDef>
+		<defName>FlatscreenTelevision</defName>
+		<label>flatscreen television</label>
+		<description>Produce high-resolution flatscreen televisions for greater enjoyment.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>TubeTelevision</li>
+		</prerequisites>
+		<researchViewX>9</researchViewX>
+		<researchViewY>3.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>

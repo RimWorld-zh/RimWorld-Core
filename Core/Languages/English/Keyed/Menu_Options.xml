@@ -33,7 +33,7 @@
   <AutosaveInterval>Autosave interval</AutosaveInterval>
   <TemperatureMode>Temperature mode</TemperatureMode>
   <ShowRealtimeClock>Show realtime clock</ShowRealtimeClock>
-  <MaxNumberOfPlayerHomes>Maximum number of colonies: {0}</MaxNumberOfPlayerHomes>
+  <MaxNumberOfPlayerSettlements>Maximum number of colonies: {0}</MaxNumberOfPlayerSettlements>
   <PlantWindSway>Plant wind sway</PlantWindSway>
   <EnableTestMapSizes>Enable test map sizes</EnableTestMapSizes>
   <MaxPermadeathAutosaveIntervalInfo>Maximum autosave interval in permadeath mode is {0} day.</MaxPermadeathAutosaveIntervalInfo>

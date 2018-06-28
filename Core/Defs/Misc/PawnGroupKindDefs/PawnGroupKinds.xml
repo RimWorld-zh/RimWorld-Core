@@ -17,7 +17,7 @@
   </PawnGroupKindDef>
 
   <PawnGroupKindDef>
-    <defName>FactionBase</defName>
+    <defName>Settlement</defName>
     <workerClass>PawnGroupKindWorker_Normal</workerClass>
   </PawnGroupKindDef>
   

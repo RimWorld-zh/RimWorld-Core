@@ -59,7 +59,7 @@
     <workSkill>Cooking</workSkill>
   </RecipeDef>
 
-  <RecipeDef Name="MakePemmican">
+  <RecipeDef>
     <defName>Make_Pemmican</defName>
     <label>make pemmican</label>
     <description>Make pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration.</description>
@@ -115,12 +115,5 @@
     <workSkill>Cooking</workSkill>
     <researchPrerequisite>Pemmican</researchPrerequisite>
   </RecipeDef>
-
-  <RecipeDef ParentName="MakePemmican">
-    <defName>Make_PemmicanCampfire</defName>
-    <workAmount>1400</workAmount>
-    <!-- other meals use WorkToMake stat -->
-  </RecipeDef>
-
 
 </Defs>

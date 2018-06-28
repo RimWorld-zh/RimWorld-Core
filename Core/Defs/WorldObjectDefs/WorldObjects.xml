@@ -26,12 +26,13 @@
   </WorldObjectDef>
   
   <WorldObjectDef>
-    <defName>FactionBase</defName>
-    <label>faction base</label>
+    <defName>Settlement</defName>
+    <label>settlement</label>
     <description>A base of one of the factions.</description>
-    <worldObjectClass>FactionBase</worldObjectClass>
+    <worldObjectClass>Settlement</worldObjectClass>
     <expandingIcon>true</expandingIcon>
     <expandingIconPriority>10</expandingIconPriority>
+    <canBePlayerHome>true</canBePlayerHome>
     <comps>
       <li Class="WorldObjectCompProperties_Abandon" />
       <li Class="WorldObjectCompProperties_TradeRequest" />
@@ -42,20 +43,20 @@
   </WorldObjectDef>
   
   <WorldObjectDef>
-    <defName>AbandonedBase</defName>
-    <label>abandoned base</label>
-    <description>An abandoned base.</description>
-    <texture>World/WorldObjects/TribalFactionBase</texture>
+    <defName>AbandonedSettlement</defName>
+    <label>abandoned settlement</label>
+    <description>An abandoned settlement.</description>
+    <texture>World/WorldObjects/TribalSettlement</texture>
   </WorldObjectDef>
   
   <WorldObjectDef>
-    <defName>DestroyedFactionBase</defName>
-    <label>destroyed faction base</label>
-    <description>A destroyed faction base.</description>
-    <worldObjectClass>DestroyedFactionBase</worldObjectClass>
-    <texture>World/WorldObjects/TribalFactionBase</texture>
+    <defName>DestroyedSettlement</defName>
+    <label>destroyed settlement</label>
+    <description>A destroyed settlement.</description>
+    <worldObjectClass>DestroyedSettlement</worldObjectClass>
+    <texture>World/WorldObjects/TribalSettlement</texture>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>World/WorldObjects/Expanding/DestroyedFactionBase</expandingIconTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/DestroyedSettlement</expandingIconTexture>
     <expandingIconPriority>20</expandingIconPriority>
     <comps>
       <li Class="WorldObjectCompProperties_FormCaravan" />
@@ -77,6 +78,7 @@
       <li>Map_PlayerHome</li>
     </incidentTargetTypes>
     <mapGenerator>EscapeShip</mapGenerator>
+    <canBePlayerHome>true</canBePlayerHome>
     <comps>
       <li Class="WorldObjectCompProperties_Abandon" />
       <li Class="WorldObjectCompProperties_EscapeShip" />

@@ -296,7 +296,7 @@
     </stuffCategories>
     <costStuffCount>100</costStuffCount>
     <costList>
-      <Gold>10</Gold>
+      <Gold>50</Gold>
     </costList>
     <building>
       <bed_showSleeperBody>False</bed_showSleeperBody>
@@ -1296,7 +1296,7 @@
       <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
-    <defaultPlacingRot>North</defaultPlacingRot>
+    <defaultPlacingRot>South</defaultPlacingRot>
     <costStuffCount>50</costStuffCount>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>

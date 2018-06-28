@@ -2,7 +2,7 @@
 <Defs>
 
   <FactionDef Abstract="True" Name="PlayerFactionBase">
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
     <colorSpectrum>
       <li>(0, 0.737, 0.847)</li>
     </colorSpectrum>
@@ -47,7 +47,7 @@
 		<techLevel>Neolithic</techLevel>
 		<backstoryCategory>Tribal</backstoryCategory>
 		<expandingIconTexture>World/WorldObjects/Expanding/Village</expandingIconTexture>
-		<homeIconPath>World/WorldObjects/TribalFactionBase</homeIconPath>
+		<homeIconPath>World/WorldObjects/TribalSettlement</homeIconPath>
 		<pawnNameMaker>NamerPersonTribal</pawnNameMaker>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>

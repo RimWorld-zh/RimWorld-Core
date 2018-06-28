@@ -63,7 +63,7 @@
           <li>World</li>
         </allowedTargetTypes>
         <minDaysPassed>6</minDaysPassed>
-        <mtbDays>5</mtbDays>
+        <mtbDays>7</mtbDays>
         <mtbDaysFactorByDaysPassedCurve>
           <points>
             <li>(6, 4)</li>
@@ -183,7 +183,7 @@
           <li>World</li>
         </allowedTargetTypes>
         <minDaysPassed>6</minDaysPassed>
-        <mtbDays>5</mtbDays>
+        <mtbDays>7</mtbDays>
         <mtbDaysFactorByDaysPassedCurve>
           <points>
             <li>(6, 4)</li>
@@ -304,7 +304,7 @@
           <li>World</li>
         </allowedTargetTypes>
         <minDaysPassed>1</minDaysPassed>
-        <mtbDays>6</mtbDays>
+        <mtbDays>7</mtbDays>
         <mtbDaysFactorByDaysPassedCurve>
           <points>
             <li>(6, 3)</li>
