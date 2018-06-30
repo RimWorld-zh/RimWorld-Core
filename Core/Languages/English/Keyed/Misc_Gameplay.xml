@@ -138,9 +138,9 @@
 	<WorkPriorityShiftClickEnableDisableTip>Shift + click: Enable all\nShift + right click: Disable all</WorkPriorityShiftClickEnableDisableTip>
 	<AllowedAreaShiftClickTip>Shift + click: Set all to home\nShift + right click: Set all to unrestricted</AllowedAreaShiftClickTip>
 	<CheckboxShiftClickTip>Shift + click: Check all\nShift + right click: Uncheck all</CheckboxShiftClickTip>
-	<KnownSiteThreat>Threat: {0}</KnownSiteThreat>
-	<KnownSiteThreats>Threats: {0}</KnownSiteThreats>
-	<KnownSiteThreatsNone>Threats: None</KnownSiteThreatsNone>
+	<KnownSiteThreat>Known threat: {0}</KnownSiteThreat>
+	<KnownSiteThreats>Known threats: {0}</KnownSiteThreats>
+	<KnownSiteThreatsNone>Known threats: None</KnownSiteThreatsNone>
   <SkillRequirements>Skill Requirements</SkillRequirements>
   <Products>Products</Products>
   <Relationship>{0} of {1}</Relationship>
@@ -169,6 +169,7 @@
   <ProximitySingleGoodwillChange>{0} with {1}</ProximitySingleGoodwillChange>
   <EnterCooldown>You can't re-enter for another {0} days.</EnterCooldown>
   <Caravan>Caravan</Caravan>
+  <HiddenOrNoSitePartDescription>there may be danger there</HiddenOrNoSitePartDescription>
 
   <!-- Fermentation barrel -->
 	<ContainsWort>Contains {0} / {1} wort.</ContainsWort>

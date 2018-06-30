@@ -28,35 +28,42 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
         <countRange>
-          <min>300</min>
-          <max>600</max>
+          <min>500</min>
+          <max>800</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
         <countRange>
-          <min>200</min>
-          <max>400</max>
+          <min>400</min>
+          <max>700</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
         <countRange>
-          <min>-50</min>
+          <min>100</min>
+          <max>250</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Uranium</thingDef>
+        <countRange>
+          <min>40</min>
           <max>200</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
         <countRange>
-          <min>100</min>
-          <max>300</max>
+          <min>400</min>
+          <max>600</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Gold</thingDef>
         <countRange>
-          <min>-50</min>
+          <min>100</min>
           <max>200</max>
         </countRange>
       </li>

@@ -144,11 +144,6 @@
   <CaravanDemand_Give>Give and pass</CaravanDemand_Give>
   <CaravanDemand_Fight>Refuse and fight</CaravanDemand_Fight>
 
-  <!-- Temporary item stash -->
-  <ItemStashSitePart_Unknown>Unfortunately, {0} has no idea who or what - if anything - might be guarding the stash.</ItemStashSitePart_Unknown>
-  <ItemStashSitePart_Nothing>{0} says that the stash is unguarded.</ItemStashSitePart_Nothing>
-	<ItemStashSitePart_Part>{0} says that {1}.</ItemStashSitePart_Part>
-
   <!-- Site no longer hostile -->
   <LetterLabelSiteNoLongerHostile>Quest no longer available</LetterLabelSiteNoLongerHostile>
   <LetterLabelSiteNoLongerHostileMulti>Quests no longer available</LetterLabelSiteNoLongerHostileMulti>

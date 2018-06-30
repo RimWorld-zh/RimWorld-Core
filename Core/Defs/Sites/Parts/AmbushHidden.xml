@@ -8,6 +8,7 @@
 		<descriptionDialogue>an enemy force is waiting to ambush anyone who comes near</descriptionDialogue>
 		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/Ambush</expandingIconTexture>
+    <alwaysHidden>true</alwaysHidden>
     <tags>
       <li>MineralScannerPreciousLumpThreat</li>
       <li>ItemStashQuestThreat</li>

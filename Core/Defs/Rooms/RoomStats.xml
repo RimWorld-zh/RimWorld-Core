@@ -279,18 +279,18 @@
   </RoomStatDef>
   
   <RoomStatDef>
-    <defName>FoodPoisonChanceFactor</defName>
-    <label>food poison chance factor</label>
+    <defName>FoodPoisonChance</defName>
+    <label>food poison chance</label>
     <workerClass>RoomStatWorker_FromStatByCurve</workerClass>
     <updatePriority>0</updatePriority>
     <isHidden>true</isHidden>
-    <roomlessScore>1.60</roomlessScore>
+    <roomlessScore>0.02</roomlessScore>
     <inputStat>Cleanliness</inputStat>
     <curve>
       <points>
-        <li>(-3, 1.60)</li>
-        <li>( 0, 1.00)</li>
-        <li>( 2, 0.70)</li>
+        <li>(-5, 0.04)</li>
+        <li>(-3, 0.02)</li>
+        <li>( 0, 0)</li>
       </points>
     </curve>
   </RoomStatDef>

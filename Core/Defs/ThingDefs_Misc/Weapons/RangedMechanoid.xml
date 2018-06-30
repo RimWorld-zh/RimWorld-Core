@@ -49,6 +49,7 @@
         <forcedMissRadius>3.5</forcedMissRadius>
         <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
         <warmupTime>1.25</warmupTime>
+        <minRange>1.5</minRange>
         <range>26.9</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>
@@ -113,6 +114,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
         <warmupTime>1.25</warmupTime>
+        <minRange>1.5</minRange>
         <range>26.9</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>24</burstShotCount>

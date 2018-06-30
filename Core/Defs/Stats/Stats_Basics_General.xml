@@ -106,19 +106,6 @@
 		<scenarioRandomizable>true</scenarioRandomizable>
 	</StatDef>
 
-	<StatDef>
-		<defName>WorkToBuild</defName>
-		<label>work to build</label>
-		<description>The base amount of work it takes to build a structure, once all materials are gathered.</description>
-		<category>BasicsNonPawn</category>
-		<defaultBaseValue>1</defaultBaseValue>
-		<minValue>0</minValue>
-		<toStringStyle>WorkAmount</toStringStyle>
-		<roundToFiveOver>300</roundToFiveOver>
-		<showIfUndefined>false</showIfUndefined>
-		<scenarioRandomizable>true</scenarioRandomizable>
-	</StatDef>
-
   <StatDef>
     <defName>DeteriorationRate</defName>
     <label>deterioration rate</label>

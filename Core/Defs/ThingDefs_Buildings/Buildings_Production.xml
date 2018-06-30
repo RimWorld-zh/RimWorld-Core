@@ -1475,6 +1475,9 @@
     <uiIconOffset>(0, 0.03)</uiIconOffset>
     <uiIconScale>0.85</uiIconScale>
     <minifiedDef>MinifiedThing</minifiedDef>
+    <building>
+      <uninstallWork>1800</uninstallWork>
+   </building>
     <thingCategories>
       <li>BuildingsProduction</li>
     </thingCategories>

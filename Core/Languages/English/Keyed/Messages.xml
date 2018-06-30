@@ -139,7 +139,7 @@
 
   <MessageRottedAwayInStorage>{0} has rotted away in storage.</MessageRottedAwayInStorage>
   
-  <MessageFoodPoisoning>{0} has gotten food poisoning from: {1}.</MessageFoodPoisoning>
+  <MessageFoodPoisoning>{0} has gotten food poisoning from: {1}. Cause: {2}.</MessageFoodPoisoning>
   
   <MessagePawnLostWhileFormingCaravan>{0} has been removed from the caravan.</MessagePawnLostWhileFormingCaravan>
   <MessagePawnLostWhileFormingCaravan_AllLost>The caravan formation process has been terminated.</MessagePawnLostWhileFormingCaravan_AllLost>

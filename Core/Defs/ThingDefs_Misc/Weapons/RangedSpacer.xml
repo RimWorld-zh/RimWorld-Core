@@ -44,6 +44,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
         <warmupTime>1.2</warmupTime>
+        <minRange>1.5</minRange>
         <range>21.9</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <burstShotCount>2</burstShotCount>
@@ -129,6 +130,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeLance</defaultProjectile>
         <warmupTime>1.9</warmupTime>
+        <minRange>1.5</minRange>
         <range>36.9</range>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>

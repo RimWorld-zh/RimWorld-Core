@@ -178,27 +178,26 @@
       <li Class="SkillNeed_Direct">
         <skill>Cooking</skill>
         <valuesPerLevel>
+          <li>0.050</li>
           <li>0.040</li>
           <li>0.030</li>
           <li>0.020</li>
-          <li>0.012</li>
-          <li>0.008</li>
-          <li>0.004</li>
-          <li>0.003</li>
-          <li>0.002</li>
+          <li>0.015</li>
+          <li>0.010</li>
+          <li>0.005</li>
+          <li>0.0025</li>
+          <li>0.0015</li>
           <li>0.001</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
-          <li>0</li>
+          <li>0.001</li>
+          <li>0.001</li>
+          <li>0.001</li>
+          <li>0.001</li>
+          <li>0.001</li>
+          <li>0.001</li>
+          <li>0.001</li>
+          <li>0.001</li>
+          <li>0.001</li>
+          <li>0.001</li>
         </valuesPerLevel>
       </li>
     </skillNeedFactors>
