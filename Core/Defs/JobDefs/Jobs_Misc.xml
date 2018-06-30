@@ -87,6 +87,7 @@
 		<reportString>attacking TargetA.</reportString>
     <alwaysShowWeapon>true</alwaysShowWeapon>
     <casualInterruptible>false</casualInterruptible>
+    <collideWithPawns>true</collideWithPawns>
   </JobDef>
 
   <JobDef>

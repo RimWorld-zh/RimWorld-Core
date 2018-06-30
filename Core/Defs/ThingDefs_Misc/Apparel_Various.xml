@@ -543,6 +543,7 @@
     <label>plate armor</label>
     <description>Overlapping solid plates of armor covering the entire body from neck to feet.</description>
     <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <researchPrerequisite>PlateArmor</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>

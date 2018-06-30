@@ -163,7 +163,7 @@
 
   <!-- Found lump of precious resources -->
   <LetterLabelFoundPreciousLump>Precious minerals found</LetterLabelFoundPreciousLump>
-  <LetterFoundPreciousLump>Your long-range mineral scanner has found a lump of precious resources nearby.\n\n{0}.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>Your long-range mineral scanner has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}.</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <LetterLabelAmbushInExistingMap>Ambush</LetterLabelAmbushInExistingMap>

@@ -112,6 +112,7 @@
     <defName>UnfinishedMetallicTechArmor</defName>
     <stuffCategories>
       <li>Metallic</li>
+      <li>Woody</li>
     </stuffCategories>
   </ThingDef>
 

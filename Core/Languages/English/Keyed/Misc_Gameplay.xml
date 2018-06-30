@@ -170,6 +170,8 @@
   <EnterCooldown>You can't re-enter for another {0} days.</EnterCooldown>
   <Caravan>Caravan</Caravan>
   <HiddenOrNoSitePartDescription>there may be danger there</HiddenOrNoSitePartDescription>
+  <PreciousLumpLabel>lump of {0}</PreciousLumpLabel>
+  <EnemiesCount>{0} enemies</EnemiesCount>
 
   <!-- Fermentation barrel -->
 	<ContainsWort>Contains {0} / {1} wort.</ContainsWort>
