@@ -297,12 +297,12 @@
 	</TraitDef>
 
   <TraitDef>
-    <defName>Tunneler</defName>
+    <defName>Indoorsman</defName>
     <commonality>0.9</commonality> <!-- Note: There are several backstories that force this trait-->
     <degreeDatas>
       <li>
-        <label>tunneler</label>
-        <description>[PAWN_nameDef] has no need for space. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays indoors.</description>
+        <label>indoorsman</label>
+        <description>[PAWN_nameDef] has no need to experience the outdoors. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays inside.</description>
       </li>
     </degreeDatas>
   </TraitDef>

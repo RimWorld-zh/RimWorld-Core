@@ -130,12 +130,13 @@
         <allowedTargetTypes>
           <li>Map_RaidBeacon</li>
         </allowedTargetTypes>
+        <mode>RaidBeacon</mode>
         <threatOffDays>0.8</threatOffDays>
         <threatOnDays>0.6</threatOnDays>
         <minDaysBetweenThreatBigs>0.05</minDaysBetweenThreatBigs>
         <minDaysBeforeNonRaidThreatBig>0</minDaysBeforeNonRaidThreatBig>
         <mtbDaysThreatSmall>1000000</mtbDaysThreatSmall>  <!-- effectively disabled -->
-        <mtbDaysThreatBig>0.3</mtbDaysThreatBig>
+        <mtbDaysThreatBig>0.37</mtbDaysThreatBig>
         <threatSmallCategory>RaidBeacon</threatSmallCategory>
         <threatBigCategory>RaidBeacon</threatBigCategory>
       </li>
@@ -247,13 +248,14 @@
         <allowedTargetTypes>
           <li>Map_RaidBeacon</li>
         </allowedTargetTypes>
+        <mode>RaidBeacon</mode>
         <threatOffDays>0.8</threatOffDays>
         <threatOnDays>0.6</threatOnDays>
         <minDaysBetweenThreatBigs>0.05</minDaysBetweenThreatBigs>
         <minDaysBeforeNonRaidThreatBig>0</minDaysBeforeNonRaidThreatBig>
         <mtbDaysThreatSmall>1000000</mtbDaysThreatSmall>
         <!-- effectively disabled -->
-        <mtbDaysThreatBig>0.3</mtbDaysThreatBig>
+        <mtbDaysThreatBig>0.37</mtbDaysThreatBig>
         <threatSmallCategory>RaidBeacon</threatSmallCategory>
         <threatBigCategory>RaidBeacon</threatBigCategory>
       </li>
@@ -356,13 +358,14 @@
         <allowedTargetTypes>
           <li>Map_RaidBeacon</li>
         </allowedTargetTypes>
+        <mode>RaidBeacon</mode>
         <threatOffDays>0.8</threatOffDays>
         <threatOnDays>0.6</threatOnDays>
         <minDaysBetweenThreatBigs>0.05</minDaysBetweenThreatBigs>
         <minDaysBeforeNonRaidThreatBig>0</minDaysBeforeNonRaidThreatBig>
         <mtbDaysThreatSmall>1000000</mtbDaysThreatSmall>
         <!-- effectively disabled -->
-        <mtbDaysThreatBig>0.3</mtbDaysThreatBig>
+        <mtbDaysThreatBig>0.37</mtbDaysThreatBig>
         <threatSmallCategory>RaidBeacon</threatSmallCategory>
         <threatBigCategory>RaidBeacon</threatBigCategory>
       </li>

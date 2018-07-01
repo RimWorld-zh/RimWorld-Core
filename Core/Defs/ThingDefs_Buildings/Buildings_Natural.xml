@@ -304,7 +304,7 @@
     <tickerType>Normal</tickerType>
     <passability>PassThroughOnly</passability>
     <killedLeavings>
-      <InsectJelly>100</InsectJelly>
+      <InsectJelly>60</InsectJelly>
     </killedLeavings>
     <comps>
       <li Class="CompProperties_SpawnerHives" />

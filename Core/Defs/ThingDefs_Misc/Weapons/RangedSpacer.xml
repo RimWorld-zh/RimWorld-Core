@@ -19,7 +19,7 @@
       <AccuracyShort>0.76</AccuracyShort>
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.50</AccuracyLong>
-      <RangedWeapon_Cooldown>1.16</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.46</RangedWeapon_Cooldown>
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <recipeMaker>
@@ -43,7 +43,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
-        <warmupTime>1.2</warmupTime>
+        <warmupTime>0.9</warmupTime>
         <minRange>1.5</minRange>
         <range>21.9</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
@@ -103,7 +103,7 @@
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
       <Weapon_Bulk>2.0</Weapon_Bulk>
       <WorkToMake>60000</WorkToMake>
     </statBases>
@@ -129,7 +129,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeLance</defaultProjectile>
-        <warmupTime>1.9</warmupTime>
+        <warmupTime>1.7</warmupTime>
         <minRange>1.5</minRange>
         <range>36.9</range>
         <soundCast>ChargeLance_Fire</soundCast>
