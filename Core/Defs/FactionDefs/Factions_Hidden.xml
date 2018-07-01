@@ -45,7 +45,7 @@
         <li>(500, 0.1)</li>
         <li>(800, 0.2)</li>
         <li>(1200, 1)</li>
-        <li>(4000, 1.7)</li>
+        <li>(4000, 1.9)</li>
       </points>
 		</raidCommonalityFromPointsCurve>
     <humanlikeFaction>false</humanlikeFaction>

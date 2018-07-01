@@ -158,6 +158,7 @@
   <DietCategory_Carnivorous_Short>C</DietCategory_Carnivorous_Short>
 
   <!-- Food poison cause -->
+  <FoodPoisonCause_Unknown>unknown</FoodPoisonCause_Unknown>
   <FoodPoisonCause_IncompetentCook>incompetent cook</FoodPoisonCause_IncompetentCook>
   <FoodPoisonCause_FilthyKitchen>dirty cooking area</FoodPoisonCause_FilthyKitchen>
   <FoodPoisonCause_Rotten>rotten food</FoodPoisonCause_Rotten>

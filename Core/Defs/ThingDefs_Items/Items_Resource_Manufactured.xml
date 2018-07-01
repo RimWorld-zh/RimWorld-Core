@@ -84,7 +84,7 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>MedicineUltratech</defName>
-    <label>glitterworld medicine</label>
+    <label>ultratech medicine</label>
     <description>A kit of advanced ultra-tech medical supplies, probably manufactured on a distant glitterworld. It contains advanced polymorphic drugs, nanite diagnostic and healing assisters, a mini-imager, and various multi-use tools.</description>
     <thingClass>Medicine</thingClass>
     <graphicData>

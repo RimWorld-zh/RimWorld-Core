@@ -174,7 +174,6 @@
     <rotatable>false</rotatable>
     <socialPropernessMatters>true</socialPropernessMatters>
     <fillPercent>0.40</fillPercent>
-    <minTechLevelToBuild>Medieval</minTechLevelToBuild>
     <building>
       <joyKind>Gaming_Cerebral</joyKind>
     </building>

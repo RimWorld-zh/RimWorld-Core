@@ -62,7 +62,7 @@
     <description>Unskilled and easy tasks. Release prisoners and flick switches on machines.</description>
     <verb>Deal with</verb>
     <naturalPriority>1150</naturalPriority>
-    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
   </WorkTypeDef>
 
   <WorkTypeDef>

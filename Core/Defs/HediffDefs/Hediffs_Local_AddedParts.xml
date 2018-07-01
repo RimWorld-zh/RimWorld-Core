@@ -140,7 +140,7 @@
     <spawnThingOnRemoved>BionicLeg</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.3</partEfficiency>
+      <partEfficiency>1.4</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -161,7 +161,7 @@
     <spawnThingOnRemoved>BionicHeart</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.3</partEfficiency>
+      <partEfficiency>1.2</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -172,7 +172,7 @@
     <spawnThingOnRemoved>BionicStomach</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.3</partEfficiency>
+      <partEfficiency>1.2</partEfficiency>
     </addedPartProps>
   </HediffDef>
   
@@ -183,7 +183,7 @@
     <spawnThingOnRemoved>BionicEar</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.4</partEfficiency>
+      <partEfficiency>1.2</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -221,7 +221,7 @@
     <spawnThingOnRemoved>ArchotechEye</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.7</partEfficiency>
+      <partEfficiency>1.8</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -246,7 +246,7 @@
     <spawnThingOnRemoved>ArchotechArm</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.7</partEfficiency>
+      <partEfficiency>1.8</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -257,7 +257,7 @@
     <spawnThingOnRemoved>ArchotechLeg</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.6</partEfficiency>
+      <partEfficiency>1.8</partEfficiency>
     </addedPartProps>
   </HediffDef>
   

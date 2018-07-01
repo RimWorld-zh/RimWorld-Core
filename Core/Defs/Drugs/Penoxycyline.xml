@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>Penoxycyline</defName>
     <label>penoxycyline</label>
-    <description>A drug for preventing infections before they take hold. Blocks malaria, sleeping sickness, plague. Must be taken every five days to remain effective.\n\nThis drug only prevents new infections. It does not cure existing infections - even those that are not yet discovered.</description>
+    <description>A drug for preventing infections before they take hold. Blocks malaria, sleeping sickness, and plague. Must be taken every five days to remain effective.\n\nThis drug does nothing to cure existing infections - it only prevents new ones.</description>
     <graphicData>
       <texPath>Things/Item/Drug/Penoxycyline</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

@@ -119,7 +119,7 @@
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
-		<researchViewX>6</researchViewX>
+		<researchViewX>7</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -190,8 +190,8 @@
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
-		<researchViewX>4</researchViewX>
-		<researchViewY>1.83</researchViewY>
+		<researchViewX>6</researchViewX>
+		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -217,7 +217,7 @@
 			<li>Electricity</li>
 		</prerequisites>
 		<researchViewX>6</researchViewX>
-		<researchViewY>1.16</researchViewY>
+		<researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -243,7 +243,7 @@
 			<li>ElectricSmelting</li>
 		</prerequisites>
 		<researchViewX>7</researchViewX>
-		<researchViewY>1.16</researchViewY>
+		<researchViewY>1.25</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -283,7 +283,7 @@
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<researchViewX>7</researchViewX>
-		<researchViewY>0.5</researchViewY>
+		<researchViewY>1.8</researchViewY>
 	</ResearchProjectDef>
   
   <!--===================== Machining and its children sub-tier ======================-->
@@ -439,7 +439,7 @@
 		<defName>GunTurrets</defName>
 		<label>gun turrets</label>
 		<description>Produce simple automated gun turrets.</description>
-		<baseCost>300</baseCost>
+		<baseCost>400</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>MicroelectronicsBasics</li>

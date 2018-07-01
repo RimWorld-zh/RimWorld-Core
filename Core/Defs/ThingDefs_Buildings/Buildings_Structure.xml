@@ -16,7 +16,7 @@
       <li>Stony</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>140</MaxHitPoints>
+      <MaxHitPoints>250</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
