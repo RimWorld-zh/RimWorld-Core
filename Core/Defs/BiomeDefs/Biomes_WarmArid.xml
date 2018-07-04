@@ -17,7 +17,7 @@
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
-    <diseaseMtbDays>60</diseaseMtbDays>
+    <diseaseMtbDays>65</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>
@@ -88,7 +88,7 @@
 			<Plant_Agave>0.3</Plant_Agave>
 			<Plant_SaguaroCactus>0.22</Plant_SaguaroCactus>
 			<Plant_TreeDrago>0.11</Plant_TreeDrago>
-			<Plant_Raspberry>0.1</Plant_Raspberry>
+			<Plant_Berry>0.1</Plant_Berry>
     </wildPlants>
     <wildAnimals>
       <Rat>1</Rat>
@@ -129,7 +129,7 @@
     <foragedFood>RawAgave</foragedFood>
     <wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility>
     <wildPlantRegrowDays>35</wildPlantRegrowDays>
-    <diseaseMtbDays>80</diseaseMtbDays>
+    <diseaseMtbDays>90</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>
@@ -239,7 +239,7 @@
     <forageability>0</forageability>
     <wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility>
     <wildPlantRegrowDays>35</wildPlantRegrowDays>
-    <diseaseMtbDays>80</diseaseMtbDays>
+    <diseaseMtbDays>90</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>

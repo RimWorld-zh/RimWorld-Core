@@ -29,7 +29,7 @@
     <maxSeverity>1</maxSeverity>
     <stages>
       <li>
-        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
+        <partEfficiencyOffset>-0.8</partEfficiencyOffset>
       </li>
     </stages>
     <comps>
@@ -67,7 +67,7 @@
     <maxSeverity>1</maxSeverity>
     <stages>
       <li>
-        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
+        <partEfficiencyOffset>-0.8</partEfficiencyOffset>
       </li>
     </stages>
     <comps>

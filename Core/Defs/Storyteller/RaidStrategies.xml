@@ -77,9 +77,9 @@
     <selectionWeightPerPointsCurve>
       <points>
         <li>(300,0)</li>
-        <li>(700,2)</li>
-        <li>(1200,3)</li>
-        <li>(2000,4)</li>
+        <li>(700,1.5)</li>
+        <li>(1200,2.25)</li>
+        <li>(2000,3)</li>
       </points>
     </selectionWeightPerPointsCurve>
     <minPawns>2</minPawns>
@@ -101,9 +101,9 @@
     <selectionWeightPerPointsCurve>
       <points>
         <li>(300,0)</li>
-        <li>(700,2)</li>
-        <li>(1200,3)</li>
-        <li>(2000,4)</li>
+        <li>(700,1.5)</li>
+        <li>(1200,2.25)</li>
+        <li>(2000,3)</li>
       </points>
     </selectionWeightPerPointsCurve>
     <minPawns>4</minPawns>

@@ -4,7 +4,7 @@
   <Confirm>Confirm</Confirm>
   <GoBack>Go back</GoBack>
   <OK>OK</OK>
-  <Dismiss>Dismiss</Dismiss>
+  <Close>Close</Close>
   
   <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>RimWorld has been updated from version {0} to version {1}.</GameUpdatedToNewVersionInitial>

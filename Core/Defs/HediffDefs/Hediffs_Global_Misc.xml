@@ -236,7 +236,7 @@
           </li>
           <li>
             <capacity>Eating</capacity>
-            <postFactor>0</postFactor>
+            <postFactor>0.3</postFactor>
           </li>
         </capMods>
       </li>

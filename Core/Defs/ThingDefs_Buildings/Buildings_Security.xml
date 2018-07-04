@@ -118,6 +118,7 @@
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <atomicFueling>true</atomicFueling>
         <fuelMultiplier>2</fuelMultiplier>
+        <factorByDifficulty>true</factorByDifficulty>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
         <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
@@ -137,7 +138,7 @@
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-    <specialDisplayRadius>22.9</specialDisplayRadius>
+    <specialDisplayRadius>24.9</specialDisplayRadius>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
     <building>
 			<ai_combatDangerous>true</ai_combatDangerous>
@@ -200,7 +201,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
         <warmupTime>1.5</warmupTime>
-        <range>22.9</range>
+        <range>24.9</range>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
         <soundCast>GunShotA</soundCast>
@@ -271,6 +272,7 @@
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <atomicFueling>true</atomicFueling>
         <fuelMultiplier>0.5</fuelMultiplier>
+        <factorByDifficulty>true</factorByDifficulty>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
         <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
@@ -287,7 +289,7 @@
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-    <specialDisplayRadius>38.9</specialDisplayRadius>
+    <specialDisplayRadius>36.9</specialDisplayRadius>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>

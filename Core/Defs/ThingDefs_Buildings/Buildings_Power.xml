@@ -500,7 +500,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerPlantWater</compClass>
-        <basePowerConsumption>-1200</basePowerConsumption>
+        <basePowerConsumption>-1100</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Breakdownable"/>

@@ -169,8 +169,7 @@
     </hairTags>
     <raidCommonalityFromPointsCurve>
       <points>
-        <li>(1000, 1)</li>
-        <li>(4000, 0.8)</li>
+        <li>(0, 1)</li> <!--Constant 1 at all points levels-->
       </points>
     </raidCommonalityFromPointsCurve>
     <caravanTraderKinds>

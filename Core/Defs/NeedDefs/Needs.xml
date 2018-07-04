@@ -49,6 +49,7 @@
     <listPriority>500</listPriority>
     <major>true</major>
     <freezeWhileSleeping>true</freezeWhileSleeping>
+    <freezeInMentalState>true</freezeInMentalState>
   </NeedDef>
   
   <NeedDef>
@@ -98,6 +99,7 @@
     <seekerRisePerHour>0.90</seekerRisePerHour>
     <seekerFallPerHour>0.90</seekerFallPerHour>
     <listPriority>100</listPriority>
+    <freezeWhileSleeping>true</freezeWhileSleeping>
   </NeedDef>
 
 </Defs>

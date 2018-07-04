@@ -378,7 +378,7 @@
   <ThingDef ParentName="BedWithQualityBase">
     <defName>Bedroll</defName>
     <label>bedroll</label>
-    <description>A simple bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</description>
+    <description>A simple bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed. Caravans can use bedrolls while traveling for better sleep.</description>
     <graphicData>
       <texPath>Things/Building/Furniture/Bed/Bedroll</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -412,6 +412,7 @@
     <building>
       <bed_showSleeperBody>false</bed_showSleeperBody>
       <bed_healPerDay>1</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
     </building>
     <pathCost>5</pathCost>
     <passability>Standable</passability>
@@ -424,7 +425,7 @@
   <ThingDef ParentName="BedWithQualityBase">
     <defName>BedrollDouble</defName>
     <label>double bedroll</label>
-    <description>A simple double-wide bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed.</description>
+    <description>A simple double-wide bed that lays on the floor, usually made of cloth or leather, often lined with fur. It is lightweight and can be rolled up for easy transport, but it is not quite as comfortable as a typical bed. Caravans can use bedrolls while traveling for better sleep.</description>
     <graphicData>
       <texPath>Things/Building/Furniture/Bed/BedrollDouble</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -457,6 +458,7 @@
     <building>
       <bed_showSleeperBody>false</bed_showSleeperBody>
       <bed_healPerDay>1</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
     </building>
     <pathCost>5</pathCost>
     <passability>Standable</passability>

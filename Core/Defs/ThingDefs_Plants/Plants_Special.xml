@@ -78,7 +78,7 @@
       <fertilitySensitivity>0.15</fertilitySensitivity>
       <growDays>6</growDays>
       <leaflessGraphicPath>Things/Plant/Ambrosia_Leafless</leaflessGraphicPath>
-      <immatureGraphicPath>Things/Plant/AmbrosiaImmature</immatureGraphicPath>
+      <immatureGraphicPath>Things/Plant/Ambrosia_Immature</immatureGraphicPath>
       <harvestYield>4</harvestYield>
       <harvestTag>Standard</harvestTag>
       <harvestAfterGrowth>0.3</harvestAfterGrowth>

@@ -17,7 +17,7 @@
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
-    <diseaseMtbDays>45</diseaseMtbDays>
+    <diseaseMtbDays>50</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>
@@ -114,7 +114,7 @@
 			<Plant_Bush>0.6</Plant_Bush>
 			<Plant_TreeOak>0.5</Plant_TreeOak>
 			<Plant_TreePoplar>0.5</Plant_TreePoplar>
-			<Plant_Raspberry>0.05</Plant_Raspberry>
+			<Plant_Berry>0.05</Plant_Berry>
 			<Plant_HealrootWild>0.05</Plant_HealrootWild>
 		</wildPlants>
     <wildAnimals>
@@ -163,7 +163,7 @@
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
-    <diseaseMtbDays>35</diseaseMtbDays>
+    <diseaseMtbDays>40</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>
@@ -265,7 +265,7 @@
       <Plant_TreeWillow>1.0</Plant_TreeWillow>
       <Plant_TreeCypress>1.0</Plant_TreeCypress>
       <Plant_TreeMaple>1.0</Plant_TreeMaple>
-      <Plant_Raspberry>0.05</Plant_Raspberry>
+      <Plant_Berry>0.05</Plant_Berry>
       <Plant_HealrootWild>0.05</Plant_HealrootWild>
     </wildPlants>
     <wildAnimals>

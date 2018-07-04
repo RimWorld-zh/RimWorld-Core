@@ -557,7 +557,7 @@
       <li>Metallic</li>
       <li>Woody</li>
     </stuffCategories>
-    <costStuffCount>210</costStuffCount>
+    <costStuffCount>180</costStuffCount>
     <statBases>
       <WorkToMake>38000</WorkToMake>
       <MaxHitPoints>290</MaxHitPoints>
@@ -643,8 +643,8 @@
       <li>Apparel</li>
     </thingCategories>
     <costList>
-      <Cloth>40</Cloth>
-      <Steel>75</Steel>
+      <Cloth>30</Cloth>
+      <Steel>65</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <apparel>
@@ -711,8 +711,8 @@
       <li>Apparel</li>
     </thingCategories>
     <costList>
-      <Cloth>40</Cloth>
-      <Steel>75</Steel>
+      <Cloth>30</Cloth>
+      <Steel>65</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <apparel>
@@ -752,8 +752,8 @@
       <drawSize>1.00</drawSize>
     </graphicData>
     <costList>
-      <Cloth>60</Cloth>
-      <Steel>100</Steel>
+      <Cloth>50</Cloth>
+      <Steel>80</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>

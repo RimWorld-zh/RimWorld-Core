@@ -14,7 +14,7 @@
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<researchViewX>9</researchViewX>
-		<researchViewY>0.72</researchViewY>
+		<researchViewY>1.3</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -42,7 +42,7 @@
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>9</researchViewX>
-    <researchViewY>1.3</researchViewY>
+    <researchViewY>0.72</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>

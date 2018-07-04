@@ -124,7 +124,7 @@
       <Steel>140</Steel>
 			<Uranium>14</Uranium>
 			<ComponentIndustrial>5</ComponentIndustrial>
-      <ComponentSpacer>5</ComponentSpacer>
+      <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationHotKey>Misc2</designationHotKey>
@@ -179,7 +179,7 @@
     </building>
     <costList>
       <Steel>175</Steel>
-      <ComponentSpacer>8</ComponentSpacer>
+      <ComponentSpacer>6</ComponentSpacer>
 			<Gold>70</Gold>
       <AIPersonaCore>1</AIPersonaCore>
     </costList>
@@ -234,7 +234,7 @@
       <Steel>350</Steel>
       <Plasteel>280</Plasteel>
 			<Uranium>70</Uranium>
-      <ComponentSpacer>16</ComponentSpacer>
+      <ComponentSpacer>12</ComponentSpacer>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -304,7 +304,7 @@
       <Steel>280</Steel>
       <Plasteel>140</Plasteel>
 			<Uranium>70</Uranium>
-      <ComponentSpacer>12</ComponentSpacer>
+      <ComponentSpacer>8</ComponentSpacer>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationHotKey>Misc5</designationHotKey>
@@ -363,7 +363,7 @@
       <Steel>140</Steel>
       <Gold>4</Gold>
       <ComponentIndustrial>8</ComponentIndustrial>
-      <ComponentSpacer>12</ComponentSpacer>
+      <ComponentSpacer>10</ComponentSpacer>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationHotKey>Misc5</designationHotKey>

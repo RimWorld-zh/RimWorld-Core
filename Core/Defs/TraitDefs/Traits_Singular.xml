@@ -147,7 +147,7 @@
     <degreeDatas>
       <li>
         <label>night owl</label>
-        <description>[PAWN_nameDef] likes to be up during the night, and sleep during the day.\n\n[PAWN_pronoun] gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).</description>
+        <description>[PAWN_nameDef] likes to be up during the night, and sleep during the day.\n\n[PAWN_pronoun] gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\n[PAWN_pronoun] doesn't get a mood penalty for being in the dark.</description>
       </li>
     </degreeDatas>
   </TraitDef>
@@ -260,7 +260,7 @@
         <label>wimp</label>
         <description>[PAWN_nameDef] is weak and cowardly. Even a little pain will immobilize [PAWN_objective].</description>
         <statOffsets>
-          <PainShockThreshold>-0.65</PainShockThreshold>
+          <PainShockThreshold>-0.60</PainShockThreshold>
         </statOffsets>
 				<marketValueFactorOffset>-0.15</marketValueFactorOffset>
 			</li>
@@ -297,12 +297,12 @@
 	</TraitDef>
 
   <TraitDef>
-    <defName>Tunneler</defName>
+    <defName>Indoorsman</defName>
     <commonality>0.9</commonality> <!-- Note: There are several backstories that force this trait-->
     <degreeDatas>
       <li>
-        <label>tunneler</label>
-        <description>[PAWN_nameDef] has no need for space. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays indoors.</description>
+        <label>indoorsman</label>
+        <description>[PAWN_nameDef] has no need to experience the outdoors. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays inside.</description>
       </li>
     </degreeDatas>
   </TraitDef>

@@ -103,7 +103,7 @@
   <MessageCantSelectDeadPawn>{0} is dead.</MessageCantSelectDeadPawn>
   <MessageCantSelectOffMapPawn>{0} is off the map.</MessageCantSelectOffMapPawn>
   
-  <MessageSocialFight>{0} started a social fight with {1}. Reason: {2}.</MessageSocialFight>
+  <MessageSocialFight>{0} started a social fight with {1}.</MessageSocialFight>
   
   <MessageNewMarriageCeremony>Colonists are gathering to celebrate {0} and {1}’s marriage.</MessageNewMarriageCeremony>
   <MessageMarriageCeremonyStarts>{0} and {1} are beginning their marriage ceremony!</MessageMarriageCeremonyStarts>

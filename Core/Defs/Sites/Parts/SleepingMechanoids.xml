@@ -5,7 +5,7 @@
     <defName>SleepingMechanoids</defName>
     <label>sleeping mechanoids</label>
     <description>A group of sleeping mechanoids.</description>
-		<descriptionDialogue>there are sleeping mechanoids in the area</descriptionDialogue>
+		<descriptionDialogue>there are {0} sleeping mechanoids in the area</descriptionDialogue>
 		<workerClass>SitePartWorker_SleepingMechanoids</workerClass>
     <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/SleepingPawns</expandingIconTexture>
@@ -23,9 +23,7 @@
     <defName>SleepingMechanoids</defName>
     <linkWithSite>SleepingMechanoids</linkWithSite>
     <order>1600</order>
-    <genStep Class="GenStep_SleepingMechanoids">
-      <pointsRange><min>340</min><max>1000</max></pointsRange>
-    </genStep>
+    <genStep Class="GenStep_SleepingMechanoids" />
   </GenStepDef>
 
 </Defs>

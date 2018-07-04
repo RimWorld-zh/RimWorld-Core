@@ -103,15 +103,15 @@
 	<!--============================= Bushes ================================-->
 
 	<ThingDef ParentName="PlantBase">
-		<defName>Plant_Raspberry</defName>
-		<label>raspberry bush</label>
-		<description>A bushy wild plant which yields delicious red berries. Berries can be cooked, but they're also good to eat even when raw.</description>
+		<defName>Plant_Berry</defName>
+		<label>berry bush</label>
+		<description>A bushy wild plant which yields delicious berries. Berries can be cooked, but they're also good to eat even when raw.</description>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
       <Nutrition>0.35</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plant/RaspberryPlant</texPath>
+			<texPath>Things/Plant/BerryPlant</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.55, 0.2, 0.2)</volume>
@@ -126,8 +126,8 @@
 			<fertilityMin>0.5</fertilityMin>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<growDays>6</growDays>
-			<leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath>
-			<immatureGraphicPath>Things/Plant/RaspberryImmature</immatureGraphicPath>
+			<leaflessGraphicPath>Things/Plant/BerryPlant_Leafless</leaflessGraphicPath>
+			<immatureGraphicPath>Things/Plant/BerryPlant_Immature</immatureGraphicPath>
 			<harvestYield>10</harvestYield>
 			<harvestWork>250</harvestWork>
 			<harvestTag>Standard</harvestTag>

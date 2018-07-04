@@ -18,7 +18,7 @@
 			<li>Ambient_NightInsects_Jungle</li>
 			<li>Ambient_DayInsects_Jungle</li>
 		</soundsAmbient>
-		<diseaseMtbDays>30</diseaseMtbDays>
+		<diseaseMtbDays>35</diseaseMtbDays>
 		<diseases>
       <li>
         <diseaseInc>Disease_Malaria</diseaseInc>
@@ -122,7 +122,7 @@
 			<Plant_TreeTeak>0.2</Plant_TreeTeak>
       <Plant_Bush>0.15</Plant_Bush>
       <Plant_Clivia>0.07</Plant_Clivia>
-      <Plant_Raspberry>0.05</Plant_Raspberry>
+      <Plant_Berry>0.05</Plant_Berry>
       <Plant_Rafflesia>0.0008</Plant_Rafflesia>
 		</wildPlants>
 		<wildAnimals>
@@ -164,7 +164,7 @@
 			<li>Ambient_NightInsects_Jungle</li>
 			<li>Ambient_DayInsects_Jungle</li>
 		</soundsAmbient>
-		<diseaseMtbDays>24</diseaseMtbDays>
+		<diseaseMtbDays>30</diseaseMtbDays>
 		<diseases>
       <li>
         <diseaseInc>Disease_Malaria</diseaseInc>
@@ -287,7 +287,7 @@
 			<Plant_Alocasia>0.8</Plant_Alocasia>
 			<Plant_Bush>0.15</Plant_Bush>
       <Plant_Clivia>0.07</Plant_Clivia>
-      <Plant_Raspberry>0.05</Plant_Raspberry>
+      <Plant_Berry>0.05</Plant_Berry>
       <Plant_Rafflesia>0.0008</Plant_Rafflesia>
 		</wildPlants>
 		<wildAnimals>

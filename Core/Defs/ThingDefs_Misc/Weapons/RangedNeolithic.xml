@@ -60,7 +60,7 @@
       <AccuracyShort>0.65</AccuracyShort>
       <AccuracyMedium>0.45</AccuracyMedium>
       <AccuracyLong>0.25</AccuracyLong>
-      <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <weaponTags>
@@ -79,7 +79,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Arrow_Short</defaultProjectile>
-        <warmupTime>1.35</warmupTime>
+        <warmupTime>1.2</warmupTime>
         <minRange>1.5</minRange>
         <range>28.9</range>
         <soundCast>Bow_Small</soundCast>
@@ -130,7 +130,7 @@
       <AccuracyShort>0.71</AccuracyShort>
       <AccuracyMedium>0.50</AccuracyMedium>
       <AccuracyLong>0.32</AccuracyLong>
-      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>5.5</RangedWeapon_Cooldown>
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <weaponTags>
@@ -146,7 +146,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Pilum_Thrown</defaultProjectile>
-        <warmupTime>4.0</warmupTime>
+        <warmupTime>2.5</warmupTime>
         <minRange>1.5</minRange>
         <range>19.9</range>
         <soundCast>Interact_BeatFire</soundCast>
@@ -208,7 +208,7 @@
       <AccuracyShort>0.78</AccuracyShort>
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
-      <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <weaponTags>
@@ -228,7 +228,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Arrow_Recurve</defaultProjectile>
-        <warmupTime>1.45</warmupTime>
+        <warmupTime>1.3</warmupTime>
         <minRange>1.5</minRange>
         <range>30.9</range>
         <soundCast>Bow_Recurve</soundCast>
@@ -325,8 +325,9 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Arrow</damageDef>
-      <damageAmountBase>18</damageAmountBase>
+      <damageAmountBase>17</damageAmountBase>
       <stoppingPower>2.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
       <speed>49</speed>
     </projectile>
   </ThingDef>

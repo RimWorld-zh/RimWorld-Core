@@ -5,7 +5,7 @@
     <defName>Turrets</defName>
     <label>turrets</label>
     <description>A group of turrets.</description>
-		<descriptionDialogue>a ring of enemy turrets defends the site</descriptionDialogue>
+		<descriptionDialogue>a ring of {0} enemy turrets defends the site</descriptionDialogue>
     <workerClass>SitePartWorker_Turrets</workerClass>
 		<siteTexture>World/WorldObjects/Sites/Outpost</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/Turrets</expandingIconTexture>
@@ -30,8 +30,6 @@
     <order>470</order>
     <genStep Class="GenStep_Turrets">
       <widthRange><min>3</min><max>4</max></widthRange>
-      <turretsCountRange><min>4</min><max>5</max></turretsCountRange>
-      <mortarsCountRange><min>0</min><max>1</max></mortarsCountRange>
       <guardsCountRange><min>1</min><max>1</max></guardsCountRange>
     </genStep>
   </GenStepDef>

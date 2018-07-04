@@ -4,6 +4,9 @@
   <ThoughtDef>
     <defName>EnvironmentDark</defName>
     <workerClass>ThoughtWorker_Dark</workerClass>
+    <nullifyingTraits>
+      <li>NightOwl</li>
+    </nullifyingTraits>
     <stages>
       <li>
         <label>darkness</label>

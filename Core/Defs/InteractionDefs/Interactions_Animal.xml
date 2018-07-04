@@ -6,7 +6,7 @@
     <label>animal chat</label>
     <symbol>Things/Mote/SpeechSymbols/AnimalChat</symbol>
     <initiatorXpGainSkill>Animals</initiatorXpGainSkill>
-    <initiatorXpGainAmount>90</initiatorXpGainAmount>
+    <initiatorXpGainAmount>70</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
         <li>r_logentry(p=5)->[INITIATOR_nameIndef] [tamed] [RECIPIENT_nameIndef].</li>
@@ -69,7 +69,7 @@
     <label>train attempt</label>
     <symbol>Things/Mote/SpeechSymbols/TrainAttempt</symbol>
     <initiatorXpGainSkill>Animals</initiatorXpGainSkill>
-    <initiatorXpGainAmount>90</initiatorXpGainAmount>
+    <initiatorXpGainAmount>70</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
         <li>r_logentry->[INITIATOR_nameIndef] [trained] [RECIPIENT_nameIndef].</li>
@@ -88,8 +88,6 @@
     </logRulesInitiator>
   </InteractionDef>
 
- 
-  
   <InteractionDef>
     <defName>Nuzzle</defName>
     <label>nuzzle</label>

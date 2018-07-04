@@ -8,7 +8,7 @@
     <stackLimit>25</stackLimit>
     <techLevel>Industrial</techLevel>
     <statBases>
-      <MaxHitPoints>70</MaxHitPoints>
+      <MaxHitPoints>60</MaxHitPoints>
       <MarketValue>55</MarketValue>
       <Mass>1.25</Mass>
       <Flammability>1.0</Flammability>
@@ -54,10 +54,10 @@
         <explosiveRadius>2.9</explosiveRadius>
         <explosiveDamageType>Bomb</explosiveDamageType>
         <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
         <wickTicks>
-          <min>10</min>
-          <max>30</max>
+          <min>30</min>
+          <max>60</max>
         </wickTicks>
       </li>
     </comps>
@@ -105,10 +105,10 @@
         <explosiveRadius>2.9</explosiveRadius>
         <explosiveDamageType>Flame</explosiveDamageType>
         <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
         <wickTicks>
-          <min>10</min>
-          <max>30</max>
+          <min>30</min>
+          <max>60</max>
         </wickTicks>
       </li>
     </comps>
@@ -156,13 +156,13 @@
     </graphicData>
     <comps>
       <li Class="CompProperties_Explosive">
-        <explosiveRadius>8.5</explosiveRadius>
+        <explosiveRadius>11.9</explosiveRadius>
         <explosiveDamageType>EMP</explosiveDamageType>
         <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
         <wickTicks>
-          <min>10</min>
-          <max>30</max>
+          <min>30</min>
+          <max>60</max>
         </wickTicks>
       </li>
     </comps>
@@ -207,18 +207,18 @@
     </graphicData>
     <comps>
       <li Class="CompProperties_Explosive">
-        <explosiveRadius>5</explosiveRadius>
+        <explosiveRadius>9.9</explosiveRadius>
         <explosiveDamageType>Extinguish</explosiveDamageType>
         <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
         <postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
         <postExplosionSpawnChance>1</postExplosionSpawnChance>
         <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
         <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
         <explosionEffect>ExtinguisherExplosion</explosionEffect>
         <wickTicks>
-          <min>10</min>
-          <max>30</max>
+          <min>30</min>
+          <max>60</max>
         </wickTicks>
       </li>
     </comps>
@@ -278,14 +278,14 @@
         <explosiveDamageType>Bomb</explosiveDamageType>
         <damageAmountBase>400</damageAmountBase>
         <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
         <chanceToStartFire>0.22</chanceToStartFire>
         <damageFalloff>true</damageFalloff>
         <explosionEffect>GiantExplosion</explosionEffect>
         <explosionSound>Explosion_GiantBomb</explosionSound>
         <wickTicks>
-          <min>10</min>
-          <max>30</max>
+          <min>60</min>
+          <max>120</max>
         </wickTicks>
       </li>
     </comps>

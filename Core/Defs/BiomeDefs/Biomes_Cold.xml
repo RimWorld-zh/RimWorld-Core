@@ -17,7 +17,7 @@
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
-    <diseaseMtbDays>55</diseaseMtbDays>
+    <diseaseMtbDays>60</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>
@@ -110,7 +110,7 @@
 			<Plant_TreePine>5.0</Plant_TreePine>
 			<Plant_TreeBirch>1.5</Plant_TreeBirch>
 			<Plant_TreePoplar>1.2</Plant_TreePoplar>
-			<Plant_Raspberry>0.16</Plant_Raspberry>
+			<Plant_Berry>0.16</Plant_Berry>
 			<Plant_HealrootWild>0.16</Plant_HealrootWild>
 		</wildPlants>
     <wildAnimals>
@@ -156,7 +156,7 @@
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
-    <diseaseMtbDays>70</diseaseMtbDays>
+    <diseaseMtbDays>80</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>
@@ -237,7 +237,7 @@
 			<Plant_Bush>0.3</Plant_Bush>
 			<Plant_Astragalus>0.1</Plant_Astragalus>
 			<Plant_Dandelion>0.1</Plant_Dandelion>
-			<Plant_Raspberry>0.07</Plant_Raspberry>
+			<Plant_Berry>0.07</Plant_Berry>
 			<Plant_TreePine>0.05</Plant_TreePine>
       <Plant_TreeBirch>0.05</Plant_TreeBirch>
 			<Plant_HealrootWild>0.05</Plant_HealrootWild>
@@ -279,7 +279,7 @@
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
-    <diseaseMtbDays>40</diseaseMtbDays>
+    <diseaseMtbDays>45</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>
@@ -393,7 +393,7 @@
       <Plant_TreeWillow>0.6</Plant_TreeWillow>
       <Plant_TreeCypress>0.6</Plant_TreeCypress>
       <Plant_TreeMaple>0.6</Plant_TreeMaple>
-      <Plant_Raspberry>0.07</Plant_Raspberry>
+      <Plant_Berry>0.07</Plant_Berry>
       <Plant_HealrootWild>0.05</Plant_HealrootWild>
     </wildPlants>
     <wildAnimals>
@@ -441,7 +441,7 @@
     <soundsAmbient>
       <li>Ambient_Wind_Desolate</li>
     </soundsAmbient>
-    <diseaseMtbDays>80</diseaseMtbDays>
+    <diseaseMtbDays>90</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>
@@ -536,7 +536,7 @@
 		<soundsAmbient>
 			<li>Ambient_Wind_Desolate</li>
 		</soundsAmbient>
-		<diseaseMtbDays>80</diseaseMtbDays>
+		<diseaseMtbDays>90</diseaseMtbDays>
 		<diseases>
 			<li>
 				<diseaseInc>Disease_Flu</diseaseInc>

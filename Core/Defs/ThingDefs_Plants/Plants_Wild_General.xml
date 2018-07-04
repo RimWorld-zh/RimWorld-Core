@@ -10,7 +10,7 @@
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Flammability>1.3</Flammability>
-			<Nutrition>0.18</Nutrition>
+			<Nutrition>0.15</Nutrition>
     </statBases>
 		<graphicData>
 			<texPath>Things/Plant/Grass</texPath>
@@ -41,7 +41,7 @@
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>1.3</Flammability>
-			<Nutrition>0.2</Nutrition>
+			<Nutrition>0.16</Nutrition>
     </statBases>
 		<pathCost>15</pathCost>
 		<graphicData>

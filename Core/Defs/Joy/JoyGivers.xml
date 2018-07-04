@@ -146,6 +146,7 @@
     <defName>Play_GameOfUr</defName>
     <giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
     <baseChance>2</baseChance>
+    <requireChair>false</requireChair>
     <thingDefs>
       <li>GameOfUrBoard</li>
     </thingDefs>
