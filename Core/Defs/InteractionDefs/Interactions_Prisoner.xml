@@ -10,13 +10,13 @@
     <recipientThought>RapportBuilt</recipientThought>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] [toldastoryabout] [subject] to [RECIPIENT_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] told [RECIPIENT_nameIndef] about [subject].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] described [subject] to [RECIPIENT_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] encouraged [RECIPIENT_nameIndef] to [talkabout] [subject].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] offered a chance for [RECIPIENT_nameIndef] to [talkabout] [subject].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] expressed interest in [RECIPIENT_nameIndef]'s [PersonalCharacteristic].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] asked [RECIPIENT_nameIndef] about [RECIPIENT_possessive] [PersonalCharacteristic].</li>
+        <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] to [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] about [subject].</li>
+        <li>r_logentry->[INITIATOR_nameDef] described [subject] to [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to [talkabout] [subject].</li>
+        <li>r_logentry->[INITIATOR_nameDef] offered a chance for [RECIPIENT_nameDef] to [talkabout] [subject].</li>
+        <li>r_logentry->[INITIATOR_nameDef] expressed interest in [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
+        <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] about [RECIPIENT_possessive] [PersonalCharacteristic].</li>
 
         <li>toldastoryabout(p=2)->told a story about</li>
         <li>toldastoryabout->told a funny story about</li>
@@ -60,8 +60,8 @@
     <initiatorXpGainAmount>230</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] asked [RECIPIENT_nameIndef] to join.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] promised [goodthing] to [RECIPIENT_nameIndef], and asked [RECIPIENT_objective] to join.</li>
+        <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] to join.</li>
+        <li>r_logentry->[INITIATOR_nameDef] promised [goodthing] to [RECIPIENT_nameDef], and asked [RECIPIENT_objective] to join.</li>
 
         <li>goodthing(p=15)->[ConceptPositive]</li>
         <li>goodthing->free, fresh [Vegetable]s</li>
@@ -96,10 +96,10 @@
     <initiatorXpGainAmount>230</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] spoke about the joy of [freedom], and offered a means of escape.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] demonstrated a means of escape to [RECIPIENT_nameIndef], and promised [freedom].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] told [RECIPIENT_nameIndef] that security is lax, and encouraged escape.</li>
+        <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
+        <li>r_logentry->[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
+        <li>r_logentry->[INITIATOR_nameDef] demonstrated a means of escape to [RECIPIENT_nameDef], and promised [freedom].</li>
+        <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that security is lax, and encouraged escape.</li>
 
         <li>freedom->freedom</li>
         <li>freedom->opportunity</li>

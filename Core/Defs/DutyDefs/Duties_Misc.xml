@@ -350,8 +350,7 @@
           <subNodes>
             <li Class="ThinkNode_ConditionalHiveCanReproduce">
               <subNodes>
-                <li Class="ThinkNode_ChancePerHour_Constant">
-                  <mtbHours>18</mtbHours>
+                <li Class="ThinkNode_ChancePerHour_InsectDigChance">
                   <subNodes>
                     <li Class="JobGiver_MineRandom" />
                   </subNodes>

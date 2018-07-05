@@ -8,7 +8,7 @@
     <symbol>Things/Mote/SpeechSymbols/Romance</symbol>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] [wooed] [OTHER_nameIndef] by [wootactic].</li>
+        <li>r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef] by [wootactic].</li>
 
         <li>wooed->tried to flirt with</li>
         <li>wooed->flirted with</li>
@@ -113,9 +113,9 @@
     <symbol>Things/Mote/SpeechSymbols/MarriageProposal</symbol>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] proposed marriage to [OTHER_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] proposed a lifelong commitment to [OTHER_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] told [OTHER_nameIndef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective].</li>
+        <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [OTHER_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [OTHER_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [OTHER_objective].</li>
       </rulesStrings>
     </logRulesInitiator>
   </InteractionDef>
@@ -156,10 +156,10 @@
     <symbol>Things/Mote/SpeechSymbols/Breakup</symbol>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] asked [OTHER_nameIndef] for a break.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] asked [OTHER_nameIndef] for some space.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] told [OTHER_nameIndef] that it's not working out.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] told [OTHER_nameIndef] that it would be best to see other people.</li>
+        <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for a break.</li>
+        <li>r_logentry->[INITIATOR_nameDef] asked [OTHER_nameDef] for some space.</li>
+        <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it's not working out.</li>
+        <li>r_logentry->[INITIATOR_nameDef] told [OTHER_nameDef] that it would be best to see other people.</li>
       </rulesStrings>
     </logRulesInitiator>
   </InteractionDef>
