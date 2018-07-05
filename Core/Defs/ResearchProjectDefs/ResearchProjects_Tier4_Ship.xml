@@ -1,83 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--=============================== Tier 4: Hi-tech research bench with multi-analyzer ===================================-->
-
-	<ResearchProjectDef Name="ShipResearchProjectBase" Abstract="True">
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<requiredResearchFacilities>
-			<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
+  <ResearchProjectDef Name="ShipResearchProjectBase" Abstract="True">
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
     <tags>
       <li>ShipRelated</li>
     </tags>
-	</ResearchProjectDef>
+  </ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="ShipResearchProjectBase">
-		<defName>ShipBasics</defName>
-		<label>starflight basics</label>
-		<description>Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system.</description>
-		<baseCost>1000</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>MultiAnalyzer</li>
-		</prerequisites>
-		<researchViewX>13</researchViewX>
-		<researchViewY>2.6</researchViewY>
-	</ResearchProjectDef>
+  <ResearchProjectDef ParentName="ShipResearchProjectBase">
+    <defName>ShipBasics</defName>
+    <label>starflight basics</label>
+    <description>Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <researchViewX>14</researchViewX>
+    <researchViewY>2.9</researchViewY>
+  </ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="ShipResearchProjectBase">
-		<defName>ShipCryptosleep</defName>
-		<label>vacuum cryptosleep casket</label>
-		<description>Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars.</description>
-		<baseCost>1200</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>ShipBasics</li>
-			<li>Cryptosleep</li>
-		</prerequisites>
-		<researchViewX>14</researchViewX>
-		<researchViewY>2.0</researchViewY>
-	</ResearchProjectDef>
+  <ResearchProjectDef ParentName="ShipResearchProjectBase">
+    <defName>ShipCryptosleep</defName>
+    <label>vacuum cryptosleep casket</label>
+    <description>Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars.</description>
+    <baseCost>1400</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+      <li>Cryptosleep</li>
+    </prerequisites>
+    <researchViewX>15</researchViewX>
+    <researchViewY>2.2</researchViewY>
+  </ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="ShipResearchProjectBase">
-		<defName>ShipReactor</defName>
-		<label>starship reactor</label>
-		<description>Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders.</description>
-		<baseCost>8000</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>ShipBasics</li>
-		</prerequisites>
-		<researchViewX>14</researchViewX>
-		<researchViewY>3.5</researchViewY>
-	</ResearchProjectDef>
+  <ResearchProjectDef ParentName="ShipResearchProjectBase">
+    <defName>ShipReactor</defName>
+    <label>starship reactor</label>
+    <description>Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+    </prerequisites>
+    <researchViewX>15</researchViewX>
+    <researchViewY>3.5</researchViewY>
+  </ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="ShipResearchProjectBase">
-		<defName>ShipEngine</defName>
-		<label>Johnson-Tanaka drive</label>
-		<description>Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere.</description>
-		<baseCost>4000</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>ShipBasics</li>
-		</prerequisites>
-		<researchViewX>14</researchViewX>
-		<researchViewY>4.75</researchViewY>
-	</ResearchProjectDef>
+  <ResearchProjectDef ParentName="ShipResearchProjectBase">
+    <defName>ShipEngine</defName>
+    <label>Johnson-Tanaka drive</label>
+    <description>Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+    </prerequisites>
+    <researchViewX>15</researchViewX>
+    <researchViewY>4.75</researchViewY>
+  </ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="ShipResearchProjectBase">
-		<defName>ShipComputerCore</defName>
-		<label>AI persuasion</label>
-		<description>Build a reward-signal system to persuade an existing AI persona core into serving as a ship's AI captain. Since people sleep during interstellar travel, an AI core is necessary to handle the complex decisions of a years-long starflight.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Spacer</techLevel>
-		<prerequisites>
-			<li>ShipBasics</li>
-		</prerequisites>
-		<researchViewX>14</researchViewX>
-		<researchViewY>1</researchViewY>
-	</ResearchProjectDef>
+  <ResearchProjectDef ParentName="ShipResearchProjectBase">
+    <defName>ShipComputerCore</defName>
+    <label>AI persuasion</label>
+    <description>Build a reward-signal system to persuade an existing AI persona core into serving as a ship's AI captain. Since people sleep during interstellar travel, an AI core is necessary to handle the complex decisions of a years-long starflight.</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+    </prerequisites>
+    <researchViewX>15</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="ShipResearchProjectBase">
     <defName>ShipSensorCluster</defName>
@@ -87,10 +85,9 @@
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>ShipBasics</li>
-      <li>GroundPenetratingScanner</li>
       <li>LongRangeMineralScanner</li>
     </prerequisites>
-    <researchViewX>14</researchViewX>
+    <researchViewX>15</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
 

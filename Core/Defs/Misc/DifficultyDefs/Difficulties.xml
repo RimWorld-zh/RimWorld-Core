@@ -4,7 +4,7 @@
 	<DifficultyDef>
 		<defName>Peaceful</defName>
 		<label>Peaceful</label>
-		<description>For those who want to relax and peacefully build in a sandbox environment.\n\nThis mode disables major threatening events, but your people can still get grumpy and minor challenges such as disease or mad animals can still occur.\n\nThere are bonuses to things like character mood and crop yields.</description>
+		<description>Build a community in sandbox environment.\n\nRecommendeed for: Players who want to focus on the community-building aspects of RimWorld.\n\nThis mode disables major threatening events, but challenges like disease, mental breaks, and mad animals still occur.</description>
 		<difficulty>0</difficulty>
 		<threatScale>0.10</threatScale>
 		<allowBigThreats>false</allowBigThreats>
@@ -27,7 +27,7 @@
 	<DifficultyDef>
 		<defName>Easy</defName>
 		<label>Base builder</label>
-		<description>For those who want to build a colony with a taste of danger.\n\nMajor threats appear, but they're weakened. Some extremely dangerous events are disabled.\n\nThere are bonuses to things like character mood, crop yields.</description>
+		<description>Build a colony, while still having a taste of danger.\n\nRecommended for: Players who are new to this kind of game, and players who want to relax.\n\nMajor threats appear, but they're weaker than other modes. Some extremely dangerous events are disabled.</description>
 		<difficulty>1</difficulty>
 		<threatScale>0.15</threatScale>
 		<raidBeaconThreatMtbFactor>2</raidBeaconThreatMtbFactor>
@@ -46,7 +46,7 @@
 	<DifficultyDef>
 		<defName>Medium</defName>
 		<label>Medium</label>
-		<description>For players on their first game, or casual players who still want a challenge.\n\nThreats are dangerous but not brutal.\n\nThere are small bonuses to things like character mood and crop yields.</description>
+		<description>Build a community while facing down dangerous threats.\n\nRecommended for: Experienced strategy game players on their first game of RimWorld, or skilled RimWorld players who want some breathing room to pursue funny or weird goals.</description>
 		<difficulty>2</difficulty>
 		<threatScale>0.55</threatScale>
 		<raidBeaconThreatMtbFactor>1.3</raidBeaconThreatMtbFactor>
@@ -65,7 +65,7 @@
 	<DifficultyDef>
 		<defName>Hard</defName>
 		<label>Hard</label>
-		<description>It's a rough planet.\n\nThreats can be quite dangerous. Not recommended until you've got some experience with the game.</description>
+		<description>Struggle to survive on a rough, tough planet.\n\nRecommended for: Players with experience with RimWorld, looking to play an intense story requiring significant skill to survive.\n\nThere is no perfect game here - some challenges will be impossible to overcome without losses, so you'll have to fight wounded, sacrifice to survive, and recover.</description>
 		<difficulty>3</difficulty>
 		<threatScale>1</threatScale>
 		<raidBeaconThreatMtbFactor>1</raidBeaconThreatMtbFactor>
@@ -83,7 +83,7 @@
 	<DifficultyDef>
 		<defName>ExtraHard</defName>
 		<label>Extra hard</label>
-		<description>A significant challenge.\n\nSucceeding at this level requires a solid and well-rounded understanding of survival strategies, and some luck.</description>
+		<description>Face brutal survival challenges. The price of survival is blood.\n\nRecommended for: Players with a lot of experience who want to push themselves beyond Hard mode.\n\nSucceeding at this level requires a well-rounded understanding of diverse strategies, an eye towards preparation, and some luck. Threats can spike and combine in vicious ways, so sometimes you'll have to accept serious losses to survive.</description>
 		<difficulty>4</difficulty>
 		<threatScale>1.5</threatScale>
 		<raidBeaconThreatMtbFactor>0.9</raidBeaconThreatMtbFactor>
@@ -102,7 +102,7 @@
 	<DifficultyDef>
 		<defName>Extreme</defName>
 		<label>Extreme</label>
-		<description>As hard as a diamond-bladed dagger in the iciest pit of hell.\n\nEnemies are numerous, prices are poor, crop yields are poor, and colonists are grumpy. For those who enjoy digital suffering.</description>
+		<description>Apply mastery of every RimWorld skill to survive a harrowing trial against a cruel, unfair world.\n\nRecommended for: Players who want to face brutal, unfair situations that require the deployment of fluent and well-rounded skills just to avoid losing everything.\n\nThere is no clean game here. You'll spend a lot of time fighting wounded and recovering, you'll need to prepare carefully, and you'll need to sacrifice things you love to avoid death.</description>
 		<difficulty>5</difficulty>
 		<threatScale>2</threatScale>
 		<raidBeaconThreatMtbFactor>0.8</raidBeaconThreatMtbFactor>

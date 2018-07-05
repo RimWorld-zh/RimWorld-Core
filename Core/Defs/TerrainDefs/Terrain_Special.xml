@@ -40,9 +40,6 @@
     <destroyBuildingsOnDestroyed>true</destroyBuildingsOnDestroyed>
     <destroyEffect>Bridge_Collapse</destroyEffect>
     <destroyEffectWater>Bridge_CollapseWater</destroyEffectWater>
-    <researchPrerequisites>
-    	<li>Bridges</li>
-    </researchPrerequisites>
   </TerrainDef>
 
 </Defs>

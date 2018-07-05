@@ -9,7 +9,7 @@
     <defName>PsychoidBrewing</defName>
     <label>psychoid brewing</label>
     <description>Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea.</description>
-    <baseCost>800</baseCost>
+    <baseCost>600</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>
       <li>TribalStart</li>
@@ -35,7 +35,7 @@
     <defName>Bedrolls</defName>
     <label>bedrolls</label>
     <description>Make bedrolls, easy-to-carry sleeping accomodations.</description>
-    <baseCost>400</baseCost>
+    <baseCost>300</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>0</researchViewX>
     <researchViewY>1.5</researchViewY>
@@ -88,7 +88,7 @@
     <defName>ComplexClothing</defName>
     <label>complex clothing</label>
     <description>Tailor complicated garments like pants, dusters, and cowboy hats.</description>
-    <baseCost>500</baseCost>
+    <baseCost>600</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>0</researchViewX>
     <researchViewY>4.5</researchViewY>
@@ -132,24 +132,14 @@
     <researchViewY>1.5</researchViewY>
   </ResearchProjectDef>
 
-  <ResearchProjectDef>
-    <defName>Bridges</defName>
-    <label>bridges</label>
-    <description>Build bridges to provide passage over water or construct non-heavy structures on otherwise unbuildable terrain.</description>
-    <baseCost>600</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <researchViewX>1</researchViewX>
-    <researchViewY>2.25</researchViewY>
-  </ResearchProjectDef>
-
 <ResearchProjectDef>
     <defName>CarpetMaking</defName>
     <label>carpet making</label>
     <description>Weave beautiful carpets from cloth.</description>
-    <baseCost>600</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>1</researchViewX>
-    <researchViewY>3</researchViewY>
+    <researchViewY>2.25</researchViewY>
   </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -162,7 +152,7 @@
       <li>TribalStart</li>
     </tags>
     <researchViewX>1</researchViewX>
-    <researchViewY>3.75</researchViewY>
+    <researchViewY>3.00</researchViewY>
   </ResearchProjectDef>
 
     <ResearchProjectDef>
@@ -172,7 +162,7 @@
     <baseCost>400</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>1</researchViewX>
-    <researchViewY>4.5</researchViewY>
+    <researchViewY>3.75</researchViewY>
   </ResearchProjectDef>
 
   <!--====== Column 3+ ======-->
@@ -184,7 +174,7 @@
     <baseCost>700</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>2</researchViewX>
-    <researchViewY>3.6</researchViewY>
+    <researchViewY>3.4</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -200,17 +190,100 @@
     <researchViewY>5</researchViewY>
   </ResearchProjectDef>
 
+  <!--====== Drugs ======-->
+
   <ResearchProjectDef>
-    <defName>Electricity</defName>
-    <label>electricity</label>
-    <description>Harness the power of electricity for a hundred different tasks.</description>
-    <baseCost>1200</baseCost>
+    <defName>PsychiteRefining</defName>
+    <label>psychite refining</label>
+    <description>Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug.</description>
+    <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
-    <tags>
-      <li>ClassicStart</li>
-    </tags>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>WakeUpProduction</defName>
+    <label>wake-up production</label>
+    <description>Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1.16</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>GoJuiceProduction</defName>
+    <label>go-juice production</label>
+    <description>Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1.83</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PenoxycylineProduction</defName>
+    <label>penoxycyline production</label>
+    <description>Produce penoxycline, a disease prevention drug which blocks plague, malaria, and more before they start.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+  <!--====== Medieval weapons ======-->
+
+  <ResearchProjectDef>
+    <defName>LongBlades</defName>
+    <label>long blades</label>
+    <description>Craft longswords and spears.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
     <researchViewX>3</researchViewX>
-    <researchViewY>2.9</researchViewY>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PlateArmor</defName>
+    <label>plate armor</label>
+    <description>Smith suits of plate armor from metal or wood.</description>
+    <baseCost>1400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>4.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Greatbow</defName>
+    <label>greatbow</label>
+    <description>Craft greatbows for killing enemies at great range.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>RecurveBow</li>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>5</researchViewY>
   </ResearchProjectDef>
 
 </Defs>

@@ -267,7 +267,7 @@
 
   <!-- Pause caravan -->
   <CommandPauseCaravan>Rest</CommandPauseCaravan>
-  <CommandToggleCaravanPauseDesc>Stop and start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Stop the caravan for a moment. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}\n  - Sick people can rest in bedrolls</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <CommandShowSellableItems>Show what will buy</CommandShowSellableItems>

@@ -94,6 +94,8 @@
   <CaravanTraveling>Traveling.</CaravanTraveling>
   <CaravanPaused>Resting.</CaravanPaused>
   <CaravanWaiting>Waiting.</CaravanWaiting>
+  <BeingCarriedDueToIllness>Being carried due to illness</BeingCarriedDueToIllness>
+  <UsingBedrollsDueToIllness>Using bedrolls due to illness</UsingBedrollsDueToIllness>
   <CurrentTileMovementTime>Current tile movement time</CurrentTileMovementTime>
   <Visibility>Visibility</Visibility>
   <Temperature>Temperature</Temperature>
@@ -152,6 +154,7 @@
   <Impassable>Impassable</Impassable>
   <CaravanMovementSpeedFull>Caravan movement speed</CaravanMovementSpeedFull>
   <DownedLower>downed</DownedLower>
+  <Carried>carried</Carried>
   <AverageCaravanMemberMoveSpeed>Avg. person move speed</AverageCaravanMemberMoveSpeed>
   <MultiplierForCarriedMass>Multiplier for carried mass: {0}</MultiplierForCarriedMass>
   <FinalCaravanPawnsMovementSpeed>Caravan members speed</FinalCaravanPawnsMovementSpeed>
