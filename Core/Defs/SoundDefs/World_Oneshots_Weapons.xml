@@ -664,31 +664,6 @@
           <max>45.2941</max>
         </volumeRange>
         <pitchRange>
-          <min>1.1</min>
-          <max>1.2</max>
-        </pitchRange>
-        <sustainLoop>False</sustainLoop>
-      </li>
-    </subSounds>
-  </SoundDef>
-
-  <SoundDef>
-    <defName>Shot_TurretSniper</defName>
-    <context>MapOnly</context>
-    <eventNames />
-    <maxSimultaneous>1</maxSimultaneous>
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Weapon/AssaultRifle</clipFolderPath>
-          </li>
-        </grains>
-        <volumeRange>
-          <min>48</min>
-          <max>48</max>
-        </volumeRange>
-        <pitchRange>
           <min>0.7</min>
           <max>0.8</max>
         </pitchRange>

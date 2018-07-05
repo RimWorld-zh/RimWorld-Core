@@ -13,7 +13,7 @@
     <texture>World/Biomes/AridShrubland</texture>
     <forageability>0.5</forageability>
     <foragedFood>RawAgave</foragedFood>
-    <wildPlantRegrowDays>27</wildPlantRegrowDays>
+    <wildPlantRegrowDays>30</wildPlantRegrowDays>
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>

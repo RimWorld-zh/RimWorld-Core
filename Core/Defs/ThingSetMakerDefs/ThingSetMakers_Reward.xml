@@ -88,7 +88,6 @@
                   <li>Apparel_SmokepopBelt</li>
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
                   <li>CochlearImplant</li>
                   <li>BionicEar</li>
                 </disallowedThingDefs>
@@ -101,27 +100,13 @@
           </thingSetMaker>
         </li>
         <li>
-          <weight>1.4</weight>
+          <weight>1</weight>
           <thingSetMaker Class="ThingSetMaker_MarketValue">
             <fixedParams>
               <filter>
                 <thingDefs>
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>0.7</weight>
-          <thingSetMaker Class="ThingSetMaker_Count">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>Apparel_PowerArmor</li>
-                  <li>Apparel_PlateArmor</li>
                 </thingDefs>
               </filter>
             </fixedParams>
@@ -208,7 +193,6 @@
                   <li>Apparel_SmokepopBelt</li>
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
                   <li>CochlearImplant</li>
                   <li>BionicEar</li>
                 </disallowedThingDefs>
@@ -228,20 +212,6 @@
                 <thingDefs>
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>0.7</weight>
-          <thingSetMaker Class="ThingSetMaker_Count">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>Apparel_PowerArmor</li>
-                  <li>Apparel_PlateArmor</li>
                 </thingDefs>
               </filter>
             </fixedParams>
@@ -326,7 +296,6 @@
                   <li>Apparel_SmokepopBelt</li>
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
                   <li>CochlearImplant</li>
                   <li>BionicEar</li>
                 </disallowedThingDefs>
@@ -339,14 +308,13 @@
           </thingSetMaker>
         </li>
         <li>
-          <weight>1.4</weight>
+          <weight>1</weight>
           <thingSetMaker Class="ThingSetMaker_MarketValue">
             <fixedParams>
               <filter>
                 <thingDefs>
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
                 </thingDefs>
               </filter>
             </fixedParams>
@@ -444,7 +412,6 @@
                   <li>Apparel_SmokepopBelt</li>
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
                   <li>CochlearImplant</li>
                   <li>BionicEar</li>
                 </disallowedThingDefs>
@@ -457,27 +424,13 @@
           </thingSetMaker>
         </li>
         <li>
-          <weight>1.4</weight>
+          <weight>1</weight>
           <thingSetMaker Class="ThingSetMaker_MarketValue">
             <fixedParams>
               <filter>
                 <thingDefs>
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>0.7</weight>
-          <thingSetMaker Class="ThingSetMaker_Count">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>Apparel_PowerArmor</li>
-                  <li>Apparel_PlateArmor</li>
                 </thingDefs>
               </filter>
             </fixedParams>

@@ -13,7 +13,7 @@
     <texture>World/Biomes/TemperateForest</texture>
     <forageability>1</forageability>
     <foragedFood>RawBerries</foragedFood>
-    <wildPlantRegrowDays>20</wildPlantRegrowDays>
+    <wildPlantRegrowDays>25</wildPlantRegrowDays>
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
@@ -159,7 +159,7 @@
     <texture>World/Biomes/TemperateSwamp</texture>
     <forageability>0.75</forageability>
     <foragedFood>RawBerries</foragedFood>
-    <wildPlantRegrowDays>15</wildPlantRegrowDays>
+    <wildPlantRegrowDays>20</wildPlantRegrowDays>
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>

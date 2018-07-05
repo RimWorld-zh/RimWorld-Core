@@ -152,7 +152,7 @@
     <texture>World/Biomes/Tundra</texture>
     <forageability>0.5</forageability>
     <foragedFood>RawBerries</foragedFood>
-    <wildPlantRegrowDays>28</wildPlantRegrowDays>
+    <wildPlantRegrowDays>30</wildPlantRegrowDays>
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
@@ -275,7 +275,7 @@
     <texture>World/Biomes/ColdBog</texture>
     <forageability>0.5</forageability>
     <foragedFood>RawBerries</foragedFood>
-    <wildPlantRegrowDays>20</wildPlantRegrowDays>
+    <wildPlantRegrowDays>22</wildPlantRegrowDays>
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>

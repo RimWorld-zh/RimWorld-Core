@@ -552,7 +552,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Hyperweave</defName>
     <label>hyperweave</label>
-    <description>Nano-fibers woven into sheets molecule-by-molecule using specialized production mechanites. While it flexes freely most of the time, it stiffens to absorb blows as they land, and is incredibly difficult to break. The secrets of its production are known only to the most advanced glitterworld cultures.</description>
+    <description>Nano-fibers woven into sheets on a molecular level. It is somewhat heavy, but is incredibly difficult to break. The secrets of its production are known only to the most advanced glitterworld cultures.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Hyperweave</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -573,7 +573,7 @@
       <categories>
         <li>Fabric</li>
       </categories>
-      <commonality>0.10</commonality>
+      <commonality>0.05</commonality>
       <color>(0,106,126)</color>
       <statFactors>
         <Flammability>0.4</Flammability>
@@ -582,9 +582,6 @@
     <thingCategories>
       <li>Textiles</li>
     </thingCategories>
-    <tradeTags>
-      <li>ExoticMisc</li>
-    </tradeTags>
   </ThingDef>
 
   <!--=====================================================================-->
