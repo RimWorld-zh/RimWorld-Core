@@ -2,11 +2,11 @@
 <Defs>
 
   <ThingDef ParentName="MakeableDrugBase">
-    <defName>PsychoidPekoe</defName>
-    <label>psychite pekoe</label>
-    <description>A fragrant tea infused with psychoid leaves. Drinking it induces a subtle psychite euphoria. This tea is easy to produce, but can psychite psychoid addiction if consumed too often.\n\nMany tribes use psychoid tea, both as a daily energizer and as part of social and religious rituals.</description>
+    <defName>PsychiteTea</defName>
+    <label>psychite tea</label>
+    <description>A fragrant tea infused with leaves of the psychoid plant. Drinking it induces a subtle psychite euphoria. This tea is easy to produce, but can produce psychite addiction if consumed too often.\n\nMany tribes use psychoid tea, both as a daily energizer and as part of social and religious rituals.</description>
     <graphicData>
-      <texPath>Things/Item/Drug/Pekoe</texPath>
+      <texPath>Things/Item/Drug/Tea</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
@@ -35,7 +35,7 @@
       <ingestReportString>Drinking {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>PekoeHigh</hediffDef>
+          <hediffDef>PsychiteTeaHigh</hediffDef>
           <severity>0.75</severity>
           <toleranceChemical>Psychite</toleranceChemical>
         </li>
@@ -80,10 +80,10 @@
   </ThingDef>
   
   <HediffDef>
-    <defName>PekoeHigh</defName>
+    <defName>PsychiteTeaHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>high on psychite pekoe</label>
-    <labelNoun>a psychite pekoe high</labelNoun>
+    <label>high on psychite tea</label>
+    <labelNoun>a psychite tea high</labelNoun>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -102,14 +102,14 @@
   </HediffDef>
   
   <ThoughtDef>
-    <defName>PekoeHigh</defName>
+    <defName>PsychiteTeaHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>PekoeHigh</hediff>
+    <hediff>PsychiteTeaHigh</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
-        <label>psychite pekoe</label>
-        <description>Drinking that tea made me feel better. I love having this energy.</description>
+        <label>psychite tea</label>
+        <description>Drinking that tea made me feel great. I love having this energy!</description>
         <baseMoodEffect>12</baseMoodEffect>
       </li>
     </stages>

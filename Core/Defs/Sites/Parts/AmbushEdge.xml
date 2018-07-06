@@ -6,6 +6,7 @@
     <label>ambush</label>
     <description>An ambush.</description>
 		<descriptionDialogue>an enemy force is waiting to ambush anyone who comes near</descriptionDialogue>
+    <workerClass>SitePartWorker_Ambush</workerClass>
 		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/Ambush</expandingIconTexture>
     <alwaysHidden>true</alwaysHidden>
@@ -20,9 +21,7 @@
     <defName>AmbushEdge</defName>
     <linkWithSite>AmbushEdge</linkWithSite>
     <order>1600</order>
-    <genStep Class="GenStep_Ambush_Edge">
-      <pointsRange><min>180</min><max>340</max></pointsRange>
-    </genStep>
+    <genStep Class="GenStep_Ambush_Edge" />
   </GenStepDef>
 
 </Defs>

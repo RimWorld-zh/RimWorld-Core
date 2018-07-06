@@ -102,6 +102,7 @@
   <ThoughtDef>
     <defName>NeedComfort</defName>
     <workerClass>ThoughtWorker_NeedComfort</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <label>uncomfortable</label>

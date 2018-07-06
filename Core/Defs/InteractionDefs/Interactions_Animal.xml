@@ -9,10 +9,10 @@
     <initiatorXpGainAmount>70</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry(p=5)->[INITIATOR_nameIndef] [tamed] [RECIPIENT_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] sat near [RECIPIENT_nameIndef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] approached [RECIPIENT_nameIndef] while whispering to [INITIATOR_objective]self about [TalkTopicAny].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] came near [RECIPIENT_nameIndef] while talking to [INITIATOR_objective]self about [TalkTopicAny].</li>
+        <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
+        <li>r_logentry->[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicAny].</li>
+        <li>r_logentry->[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicAny].</li>
 
         <li>tamed->made calming noises towards</li>
         <li>tamed->offered slow, friendly gestures to</li>
@@ -45,21 +45,21 @@
     <initiatorXpGainAmount>90</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] tried to tame [RECIPIENT_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] tried to bring [RECIPIENT_nameIndef] under control.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] attempted to collar [RECIPIENT_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] demanded obedience from [RECIPIENT_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] called [RECIPIENT_nameIndef] to come to [INITIATOR_objective].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] tried to make [RECIPIENT_nameIndef] sit still.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] seized [RECIPIENT_nameIndef] sharply and barked a command.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] attempted to hold [RECIPIENT_nameIndef] still.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] shouted a command at [RECIPIENT_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] slapped [RECIPIENT_nameIndef] in a show of dominance.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] directed [RECIPIENT_nameIndef] back towards the community.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] called [RECIPIENT_nameIndef] to come back to the community.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] touched a vulnerable body part of [RECIPIENT_nameIndef], demanding obedience.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] pointed at the ground, demanding that [RECIPIENT_nameIndef] come.</li>
-        <li>r_logentry->[INITIATOR_nameIndef] gave [RECIPIENT_nameIndef] a first command.</li>
+        <li>r_logentry->[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] tried to bring [RECIPIENT_nameDef] under control.</li>
+        <li>r_logentry->[INITIATOR_nameDef] attempted to collar [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] demanded obedience from [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come to [INITIATOR_objective].</li>
+        <li>r_logentry->[INITIATOR_nameDef] tried to make [RECIPIENT_nameDef] sit still.</li>
+        <li>r_logentry->[INITIATOR_nameDef] seized [RECIPIENT_nameDef] sharply and barked a command.</li>
+        <li>r_logentry->[INITIATOR_nameDef] attempted to hold [RECIPIENT_nameDef] still.</li>
+        <li>r_logentry->[INITIATOR_nameDef] shouted a command at [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] slapped [RECIPIENT_nameDef] in a show of dominance.</li>
+        <li>r_logentry->[INITIATOR_nameDef] directed [RECIPIENT_nameDef] back towards the community.</li>
+        <li>r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come back to the community.</li>
+        <li>r_logentry->[INITIATOR_nameDef] touched a vulnerable body part of [RECIPIENT_nameDef], demanding obedience.</li>
+        <li>r_logentry->[INITIATOR_nameDef] pointed at the ground, demanding that [RECIPIENT_nameDef] come.</li>
+        <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a first command.</li>
       </rulesStrings>
     </logRulesInitiator>
   </InteractionDef>
@@ -72,7 +72,7 @@
     <initiatorXpGainAmount>70</initiatorXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry->[INITIATOR_nameIndef] [trained] [RECIPIENT_nameIndef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
 
         <li>trained(p=2)->[tried] to train</li>
         <li>trained->[tried] to show a new trick to</li>
@@ -96,8 +96,8 @@
     <workerClass>InteractionWorker_Nuzzle</workerClass>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry(p=2)->[INITIATOR_nameIndef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameIndef].</li>
-        <li>r_logentry->[INITIATOR_nameIndef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameIndef]'s [rubbedpart].</li>
+        <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
 
         <li>nuzzled(p=2)->nuzzled</li>
         <li>nuzzled->snuggled up to</li>

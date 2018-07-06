@@ -417,9 +417,6 @@
     <pathCost>5</pathCost>
     <passability>Standable</passability>
     <designationHotKey>Misc2</designationHotKey>
-    <researchPrerequisites>
-      <li>Bedrolls</li>
-    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BedWithQualityBase">
@@ -463,9 +460,6 @@
     <pathCost>5</pathCost>
     <passability>Standable</passability>
     <designationHotKey>Misc3</designationHotKey>
-    <researchPrerequisites>
-      <li>Bedrolls</li>
-    </researchPrerequisites>
   </ThingDef>
 
 

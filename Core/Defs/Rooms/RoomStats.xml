@@ -288,9 +288,9 @@
     <inputStat>Cleanliness</inputStat>
     <curve>
       <points>
-        <li>(-5, 0.04)</li>
-        <li>(-3, 0.02)</li>
-        <li>( 0, 0)</li>
+        <li>(-5, 0.05)</li>
+        <li>(-3, 0.025)</li>
+        <li>(-1, 0)</li>
       </points>
     </curve>
   </RoomStatDef>

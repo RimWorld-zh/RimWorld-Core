@@ -20,6 +20,7 @@
 			<thingDefs>
 				<li>Synthread</li>
 				<li>Hyperweave</li>
+				<li>Plasteel</li>
 			</thingDefs>
 		</apparelStuffFilter>
 	</FactionDef>

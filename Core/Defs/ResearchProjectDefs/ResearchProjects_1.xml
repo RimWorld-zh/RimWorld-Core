@@ -9,7 +9,7 @@
     <defName>PsychoidBrewing</defName>
     <label>psychoid brewing</label>
     <description>Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea.</description>
-    <baseCost>600</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>
       <li>TribalStart</li>
@@ -32,16 +32,13 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Bedrolls</defName>
-    <label>bedrolls</label>
-    <description>Make bedrolls, easy-to-carry sleeping accomodations.</description>
-    <baseCost>300</baseCost>
+    <defName>Brewing</defName>
+    <label>beer brewing</label>
+    <description>Build a brewery and fermenting vats to transform hops into tasty, tasty beer.</description>
+    <baseCost>400</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>0</researchViewX>
     <researchViewY>1.5</researchViewY>
-    <tags>
-      <li>TribalStart</li>
-    </tags>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -136,7 +133,7 @@
     <defName>CarpetMaking</defName>
     <label>carpet making</label>
     <description>Weave beautiful carpets from cloth.</description>
-    <baseCost>500</baseCost>
+    <baseCost>800</baseCost>
     <techLevel>Medieval</techLevel>
     <researchViewX>1</researchViewX>
     <researchViewY>2.25</researchViewY>
@@ -153,16 +150,6 @@
     </tags>
     <researchViewX>1</researchViewX>
     <researchViewY>3.00</researchViewY>
-  </ResearchProjectDef>
-
-    <ResearchProjectDef>
-    <defName>Brewing</defName>
-    <label>beer brewing</label>
-    <description>Build a brewery and fermenting vats to transform hops into tasty, tasty beer.</description>
-    <baseCost>400</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <researchViewX>1</researchViewX>
-    <researchViewY>3.75</researchViewY>
   </ResearchProjectDef>
 
   <!--====== Column 3+ ======-->
