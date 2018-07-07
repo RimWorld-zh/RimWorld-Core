@@ -64,4 +64,28 @@
 		<scenarioRandomizable>true</scenarioRandomizable>
 	</StatDef>
 
+  <StatDef>
+    <defName>RangedWeapon_DamageMultiplier</defName>
+    <label>damage multiplier</label>
+    <description>A damage multiplier applied to projectiles fired from this weapon.</description>
+    <category>Weapon</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>1000</displayPriorityInCategory>
+    <parts>
+      <li Class="StatPart_Quality">
+        <factorAwful>0.8</factorAwful>
+        <factorPoor>0.9</factorPoor>
+        <factorNormal>1</factorNormal>
+        <factorGood>1.1</factorGood>
+        <factorExcellent>1.2</factorExcellent>
+        <factorMasterwork>1.45</factorMasterwork>
+        <factorLegendary>1.65</factorLegendary>
+      </li>
+    </parts>
+    <scenarioRandomizable>true</scenarioRandomizable>
+  </StatDef>
+
 </Defs>

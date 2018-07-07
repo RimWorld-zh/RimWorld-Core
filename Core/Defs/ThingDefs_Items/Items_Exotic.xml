@@ -218,7 +218,7 @@
     </graphicData>
     <equippedAngleOffset>-20</equippedAngleOffset>
     <statBases>
-      <MarketValue>1500</MarketValue>
+      <MarketValue>800</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>3</Mass>
       <Flammability>0.4</Flammability>
@@ -233,16 +233,16 @@
           <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>18.7</power>
-        <cooldownTime>1.85</cooldownTime>
+        <power>21.5</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>base</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8.8</power>
-        <cooldownTime>1.85</cooldownTime>
+        <power>9.4</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
     <thingCategories>
@@ -283,16 +283,16 @@
           <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>19.8</power>
-        <cooldownTime>2.5</cooldownTime>
+        <power>16.8</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>base</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9.9</power>
-        <cooldownTime>2.5</cooldownTime>
+        <power>7.9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
     <thingCategories>

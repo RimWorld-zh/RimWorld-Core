@@ -143,7 +143,7 @@
     <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
-      <WorkToBuild>150</WorkToBuild>
+      <WorkToBuild>135</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <costStuffCount>5</costStuffCount>

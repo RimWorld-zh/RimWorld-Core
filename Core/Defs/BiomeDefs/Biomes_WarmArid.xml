@@ -6,7 +6,7 @@
     <label>arid shrubland</label>
     <description>A dry region, but not dry enough to become a true desert. Open plains with grasses and bushes give way to scattered groves of trees. Plants are hardy and there is a moderate density of animals, but arable soil is hard to find.</description>
     <workerClass>BiomeWorker_AridShrubland</workerClass>
-    <animalDensity>2.0</animalDensity>
+    <animalDensity>1.8</animalDensity>
     <plantDensity>0.16</plantDensity>
     <settlementSelectionWeight>0.95</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
@@ -120,7 +120,7 @@
     <label>desert</label>
     <description>A very dry area which supports little life. There is very little arable land, and animal life is very sparse. Deserts can be hot, or quite cold.</description>
     <workerClass>BiomeWorker_Desert</workerClass>
-    <animalDensity>0.40</animalDensity>
+    <animalDensity>0.4</animalDensity>
     <plantDensity>0.05</plantDensity>
     <settlementSelectionWeight>0.65</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>

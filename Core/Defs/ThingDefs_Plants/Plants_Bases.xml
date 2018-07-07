@@ -70,7 +70,7 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>0.8</Flammability>
-      <Nutrition>1.5</Nutrition>
+      <Nutrition>1.7</Nutrition>
     </statBases>
     <altitudeLayer>Building</altitudeLayer>
     <selectable>true</selectable>

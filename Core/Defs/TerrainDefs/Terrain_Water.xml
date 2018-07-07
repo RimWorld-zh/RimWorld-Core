@@ -24,7 +24,7 @@
         </capacities>
         <hediff>WaterInEyes</hediff>
         <power>0.6</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
   </TerrainDef>
@@ -147,7 +147,7 @@
         </capacities>
         <hediff>MudInEyes</hediff>
         <power>1</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
   </TerrainDef>

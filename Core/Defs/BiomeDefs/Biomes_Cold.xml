@@ -6,8 +6,8 @@
     <label>boreal forest</label>
     <description>Forests of coniferous trees. Despite the harsh winters, boreal forests sustain a diverse population of small and large animals, and have warm summers.</description>
     <workerClass>BiomeWorker_BorealForest</workerClass>
-    <animalDensity>3.1</animalDensity>
-    <plantDensity>0.30</plantDensity>
+    <animalDensity>2.8</animalDensity>
+    <plantDensity>0.32</plantDensity>
     <settlementSelectionWeight>0.9</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <forageability>0.75</forageability>
@@ -145,7 +145,7 @@
     <label>tundra</label>
     <description>These mostly-frozen plains bear almost no trees and little vegetation. There are a few small animals interspersed with large herds of migratory grazers and their predators.</description>
     <workerClass>BiomeWorker_Tundra</workerClass>
-    <animalDensity>1.2</animalDensity>
+    <animalDensity>1.1</animalDensity>
     <plantDensity>0.14</plantDensity>
     <settlementSelectionWeight>0.32</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
@@ -268,8 +268,8 @@
     <label>cold bog</label>
     <description>A wetland packed with trees and vines. Much of the marshy land here can't support heavy structures, moving around is slow due to choking vegetation. Disease is endemic in this dense, wet ecosystem.</description>
     <workerClass>BiomeWorker_ColdBog</workerClass>
-    <animalDensity>3.6</animalDensity>
-    <plantDensity>0.52</plantDensity>
+    <animalDensity>3.3</animalDensity>
+    <plantDensity>0.60</plantDensity>
     <settlementSelectionWeight>0.17</settlementSelectionWeight>
     <movementDifficulty>4</movementDifficulty>
     <texture>World/Biomes/ColdBog</texture>

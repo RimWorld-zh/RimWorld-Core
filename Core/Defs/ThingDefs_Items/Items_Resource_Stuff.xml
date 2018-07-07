@@ -290,8 +290,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9.7</power>
-        <cooldownTime>2.2</cooldownTime>
+        <power>8.9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>

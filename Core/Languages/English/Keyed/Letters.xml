@@ -224,4 +224,8 @@
   <!-- Player entered site (generic label) -->
   <LetterLabelPlayerEnteredNewSiteGeneric>Arrived at site</LetterLabelPlayerEnteredNewSiteGeneric>
 
+  <!-- Predator hunting colonist -->
+  <LetterLabelPredatorHuntingColonist>{0} hunting {1}</LetterLabelPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>text_todo</LetterPredatorHuntingColonist>
+
 </LanguageData>

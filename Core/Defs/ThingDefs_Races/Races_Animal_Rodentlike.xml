@@ -192,13 +192,13 @@
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>0.45</baseBodySize>
-      <baseHungerRate>4.5</baseHungerRate>
+      <baseHungerRate>3.0</baseHungerRate>
       <baseHealthScale>0.7</baseHealthScale>
       <foodType>DendrovoreAnimal</foodType>
       <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
       <gestationPeriodDays>17</gestationPeriodDays>
-      <manhunterOnDamageChance>0.02</manhunterOnDamageChance>
+      <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>

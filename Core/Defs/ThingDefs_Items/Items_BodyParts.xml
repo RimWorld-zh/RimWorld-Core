@@ -339,7 +339,7 @@
   <ThingDef ParentName="BodyPartArtificialBase">
     <defName>PowerClaw</defName>
     <label>power claw</label>
-    <description>A combat-oriented hand replacement consisting of three deadly claws arranged in a grasping shape. It is vicious in combat, and its powerful mini-servos can crush a skull like a natural hand crushes an egg. The blades can be retracted, making it almost as useful as a biological hand for non-combat tasks.</description>
+    <description>A combat-oriented hand replacement consisting of a mechanical hand with a vicious claw on each finger. It is vicious in combat, and its powerful mini-servos can crush a skull like a natural hand crushes an egg. The blades can be retracted, making it as useful as a biological hand for non-combat tasks.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
       <texPath>Things/Item/Health/HealthItemBionic</texPath>

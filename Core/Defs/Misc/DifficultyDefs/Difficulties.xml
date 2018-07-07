@@ -11,6 +11,7 @@
 		<allowIntroThreats>false</allowIntroThreats>
 		<peacefulTemples>true</peacefulTemples>
 		<allowCaveHives>false</allowCaveHives>
+		<predatorsHuntHumanlikes>false</predatorsHuntHumanlikes>
 		<colonistMoodOffset>10</colonistMoodOffset>
 		<cropYieldFactor>1.30</cropYieldFactor>
 		<mineYieldFactor>1.30</mineYieldFactor>
@@ -31,6 +32,7 @@
 		<difficulty>1</difficulty>
 		<threatScale>0.15</threatScale>
 		<raidBeaconThreatMtbFactor>2</raidBeaconThreatMtbFactor>
+		<predatorsHuntHumanlikes>false</predatorsHuntHumanlikes>
 		<colonistMoodOffset>10</colonistMoodOffset>
 		<cropYieldFactor>1.30</cropYieldFactor>
 		<mineYieldFactor>1.30</mineYieldFactor>

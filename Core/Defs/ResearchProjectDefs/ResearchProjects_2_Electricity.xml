@@ -220,19 +220,6 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Mortars</defName>
-    <label>mortars</label>
-    <description>Build mortars which can lob shells long distances - even over walls.</description>
-    <baseCost>2000</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>Machining</li>
-    </prerequisites>
-    <researchViewX>5</researchViewX>
-    <researchViewY>3.4</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
     <defName>SmokepopBelt</defName>
     <label>smokepop belts</label>
     <description>Build smokepop belts which generate an automatic defensive smokescreen when the user is shot.</description>
@@ -268,6 +255,32 @@
       <li>Machining</li>
     </prerequisites>
     <researchViewX>5</researchViewX>
+    <researchViewY>3.4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>FlakArmor</defName>
+    <label>flak armor</label>
+    <description>Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor so slows movement somewhat.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>4.1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Mortars</defName>
+    <label>mortars</label>
+    <description>Build mortars which can lob shells long distances - even over walls.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
     <researchViewY>4.1</researchViewY>
   </ResearchProjectDef>
 
@@ -281,7 +294,7 @@
       <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>6</researchViewX>
-    <researchViewY>4.1</researchViewY>
+    <researchViewY>3.4</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -294,7 +307,7 @@
       <li>BlowbackOperation</li>
     </prerequisites>
     <researchViewX>7</researchViewX>
-    <researchViewY>4.35</researchViewY>
+    <researchViewY>4</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -307,7 +320,7 @@
       <li>BlowbackOperation</li>
     </prerequisites>
     <researchViewX>7</researchViewX>
-    <researchViewY>3.65</researchViewY>
+    <researchViewY>3.4</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>

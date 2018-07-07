@@ -249,7 +249,7 @@
   <ResearchProjectDef>
     <defName>PlateArmor</defName>
     <label>plate armor</label>
-    <description>Smith suits of plate armor from metal or wood.</description>
+    <description>Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively.</description>
     <baseCost>1400</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>

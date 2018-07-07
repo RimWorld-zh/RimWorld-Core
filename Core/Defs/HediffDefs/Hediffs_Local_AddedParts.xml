@@ -63,8 +63,8 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>8</power>
-            <cooldownTime>1.65</cooldownTime>
+            <power>9.7</power>
+            <cooldownTime>2</cooldownTime>
           </li>
         </tools>
       </li>
@@ -120,8 +120,8 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>9</power>
-            <cooldownTime>1.65</cooldownTime>
+            <power>10.9</power>
+            <cooldownTime>2</cooldownTime>
           </li>
         </tools>
       </li>
@@ -199,8 +199,8 @@
             <capacities>
               <li>Scratch</li>
             </capacities>
-            <power>15</power>
-            <cooldownTime>1.65</cooldownTime>
+            <power>18.0</power>
+            <cooldownTime>2</cooldownTime>
             <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
           </li>
         </tools>
@@ -210,7 +210,7 @@
     <addedPartProps>
       <isGoodWeapon>true</isGoodWeapon>
       <solid>true</solid>
-      <partEfficiency>0.92</partEfficiency>
+      <partEfficiency>1.00</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -237,8 +237,8 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>9</power>
-            <cooldownTime>1.5</cooldownTime>
+            <power>12.0</power>
+            <cooldownTime>2</cooldownTime>
           </li>
         </tools>
       </li>

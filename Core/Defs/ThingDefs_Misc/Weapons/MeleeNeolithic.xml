@@ -36,8 +36,8 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>8.8</power>
-        <cooldownTime>2.15</cooldownTime>
+        <power>8.1</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>head</label>
@@ -45,8 +45,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15.6</power>
-        <cooldownTime>2.15</cooldownTime>
+        <power>14.5</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -80,24 +80,24 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6.6</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>blade</label>
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>9.9</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>point</label>
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>11.8</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
 		<recipeMaker>
@@ -137,24 +137,24 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>6.6</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>head</label>
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>16.5</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>17.4</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>edge</label>
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>12.1</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>17.4</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
     <recipeMaker>
@@ -196,16 +196,16 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>8.8</power>
-        <cooldownTime>2.3</cooldownTime>
+        <power>10.0</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>point</label>
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>22.6</power>
-        <cooldownTime>2.3</cooldownTime>
+        <power>21.5</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
     <recipeMaker>

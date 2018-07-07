@@ -115,13 +115,14 @@
           </thingSetMaker>
         </li>
         <li>
-          <weight>0.7</weight>
+          <weight>1</weight>
           <thingSetMaker Class="ThingSetMaker_Count">
             <fixedParams>
               <filter>
                 <thingDefs>
                   <li>Apparel_PowerArmor</li>
                   <li>Apparel_PlateArmor</li>
+                  <li>Apparel_ShieldBelt</li>
                 </thingDefs>
               </filter>
             </fixedParams>
@@ -235,13 +236,14 @@
           </thingSetMaker>
         </li>
         <li>
-          <weight>0.7</weight>
+          <weight>1</weight>
           <thingSetMaker Class="ThingSetMaker_Count">
             <fixedParams>
               <filter>
                 <thingDefs>
                   <li>Apparel_PowerArmor</li>
                   <li>Apparel_PlateArmor</li>
+                  <li>Apparel_ShieldBelt</li>
                 </thingDefs>
               </filter>
             </fixedParams>
@@ -471,13 +473,14 @@
           </thingSetMaker>
         </li>
         <li>
-          <weight>0.7</weight>
+          <weight>1</weight>
           <thingSetMaker Class="ThingSetMaker_Count">
             <fixedParams>
               <filter>
                 <thingDefs>
                   <li>Apparel_PowerArmor</li>
                   <li>Apparel_PlateArmor</li>
+                  <li>Apparel_ShieldBelt</li>
                 </thingDefs>
               </filter>
             </fixedParams>

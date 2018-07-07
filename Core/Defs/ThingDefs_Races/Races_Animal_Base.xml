@@ -36,7 +36,7 @@
   <ThingDef ParentName="BasePawn" Name="AnimalThingBase" Abstract="True">
     <statBases>
       <Flammability>1.0</Flammability>
-      <LeatherAmount>37.5</LeatherAmount>
+      <LeatherAmount>30</LeatherAmount>
     </statBases>
     <race>
       <thinkTreeMain>Animal</thinkTreeMain>

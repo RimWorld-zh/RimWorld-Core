@@ -27,6 +27,11 @@
   <BuySoundtrack>Buy soundtrack</BuySoundtrack>
   <CreateWorld>Create world</CreateWorld>
 
+  <!--=========== Main menu translations info window ===========-->
+  <TranslationThanks>All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers.</TranslationThanks>
+  <TranslationHowToContribute>You can contribute too. Click below to learn more (opens web browser).</TranslationHowToContribute>
+  <LearnMore>Learn more</LearnMore>
+
   <!--=========== Create/review world ================-->
   <ReviewWorld>Review world</ReviewWorld>
   <WorldGenerate>Generate</WorldGenerate>

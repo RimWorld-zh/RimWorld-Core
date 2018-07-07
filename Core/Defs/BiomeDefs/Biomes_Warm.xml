@@ -6,8 +6,8 @@
 		<label>tropical rainforest</label>
 		<description>A thick, moist jungle, buzzing with animal life and infested with disease. Despite its visual beauty, this is a very dangerous biome. Choking overgrowth, aggressive animals, and constant sickness are why some explorers call this the "green hell".</description>
 		<workerClass>BiomeWorker_TropicalRainforest</workerClass>
-		<animalDensity>6.0</animalDensity>
-		<plantDensity>0.80</plantDensity>
+		<animalDensity>5.4</animalDensity>
+		<plantDensity>0.90</plantDensity>
 		<settlementSelectionWeight>0.7</settlementSelectionWeight>
 		<movementDifficulty>2</movementDifficulty>
 		<texture>World/Biomes/TropicalRainforest</texture>
@@ -152,8 +152,8 @@
 		<label>tropical swamp</label>
 		<description>A plant-choked, steamy swamp seething with parasites and pathogens. Much of the land is too marshy to build on. Difficult movement, aggressive animals, and rampant disease make living here a nightmare.</description>
 		<workerClass>BiomeWorker_TropicalSwamp</workerClass>
-		<animalDensity>7.2</animalDensity>
-		<plantDensity>0.85</plantDensity>
+		<animalDensity>6.5</animalDensity>
+		<plantDensity>0.99</plantDensity>
 		<settlementSelectionWeight>0.4</settlementSelectionWeight>
 		<movementDifficulty>4</movementDifficulty>
 		<texture>World/Biomes/TropicalSwamp</texture>

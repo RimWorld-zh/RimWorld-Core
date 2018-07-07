@@ -83,7 +83,7 @@
     <description>A large cactus native to arid Earth environments. Though it is not a tree, it yields a small amount of fibrous material that can be used like wood.</description>
     <statBases>
       <MaxHitPoints>130</MaxHitPoints>
-      <Nutrition>0.7</Nutrition>
+      <Nutrition>1.5</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/SaguaroCactus</texPath>

@@ -726,7 +726,6 @@
     <designationCategory>Security</designationCategory>
     <building>
       <isTrap>true</isTrap>
-      <trapWildAnimalsAvoid>true</trapWildAnimalsAvoid>
     </building>
     <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
     <researchPrerequisites>

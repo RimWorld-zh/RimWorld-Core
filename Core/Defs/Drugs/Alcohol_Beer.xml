@@ -67,16 +67,16 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9.2</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>10.3</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>neck</label>
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>6</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>8.0</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>

@@ -80,7 +80,7 @@
 
   <!-- Beavers -->
   <LetterLabelBeaversArrived>Beavers!</LetterLabelBeaversArrived>
-  <BeaversArrived>A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last tree in the region.</BeaversArrived>
+  <BeaversArrived>A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region.</BeaversArrived>
   
   <!-- Refugee chased -->
 	<RefugeeChasedTitle>Refugee chased at {0}</RefugeeChasedTitle>

@@ -19,8 +19,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.7</cooldownTime>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -36,8 +36,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.7</cooldownTime>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -54,7 +54,7 @@
           <li>Blunt</li>
         </capacities>
         <power>5</power>
-        <cooldownTime>1.9</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
