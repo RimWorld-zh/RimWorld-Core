@@ -15,11 +15,11 @@
     <statBases>
       <WorkToMake>45000</WorkToMake>
       <Mass>4.6</Mass>
-      <AccuracyTouch>0.67</AccuracyTouch>
-      <AccuracyShort>0.76</AccuracyShort>
-      <AccuracyMedium>0.65</AccuracyMedium>
-      <AccuracyLong>0.50</AccuracyLong>
-      <RangedWeapon_Cooldown>1.46</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <recipeMaker>
@@ -43,11 +43,11 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
+        <warmupTime>1.0</warmupTime>
         <minRange>1.5</minRange>
-        <range>21.9</range>
-        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-        <burstShotCount>2</burstShotCount>
+        <range>25.9</range>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
         <soundCast>Shot_ChargeRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>

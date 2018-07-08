@@ -11,7 +11,6 @@
     <graphicData>
       <texPath>Things/Item/Resource/Silver</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.05</drawSize>
     </graphicData>
     <resourceReadoutPriority>First</resourceReadoutPriority>
     <soundInteract>Silver_Drop</soundInteract>
@@ -129,7 +128,6 @@
     <graphicData>
       <texPath>Things/Item/Resource/Steel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>1.04</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -182,7 +180,6 @@
     <graphicData>
       <texPath>Things/Item/Resource/Plasteel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.95</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>

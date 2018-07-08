@@ -391,7 +391,7 @@
     <designationCategory>Joy</designationCategory>
     <designationHotKey>Misc4</designationHotKey>
     <researchPrerequisites><li>TubeTelevision</li></researchPrerequisites>
-    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
     <uiIconScale>0.9</uiIconScale>
   </ThingDef>
   
@@ -433,6 +433,7 @@
     <size>(2,1)</size>
     <defaultPlacingRot>South</defaultPlacingRot>
     <researchPrerequisites><li>FlatscreenTelevision</li></researchPrerequisites>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <building>
       <joyKind>Television</joyKind>
       <spawnedConceptLearnOpportunity>TVForSickPeople</spawnedConceptLearnOpportunity>

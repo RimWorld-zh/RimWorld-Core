@@ -185,7 +185,7 @@
     <costStuffCount>45</costStuffCount>
     <building>
       <bed_showSleeperBody>False</bed_showSleeperBody>
-      <bed_healPerDay>3</bed_healPerDay>
+      <bed_healPerDay>4</bed_healPerDay>
     </building>
     <fillPercent>0.4</fillPercent>
     <pathCost>60</pathCost>
@@ -240,7 +240,7 @@
     <costStuffCount>85</costStuffCount>
     <building>
       <bed_showSleeperBody>False</bed_showSleeperBody>
-      <bed_healPerDay>3</bed_healPerDay>
+      <bed_healPerDay>4</bed_healPerDay>
     </building>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <fillPercent>0.4</fillPercent>
@@ -300,7 +300,7 @@
     </costList>
     <building>
       <bed_showSleeperBody>False</bed_showSleeperBody>
-      <bed_healPerDay>3</bed_healPerDay>
+      <bed_healPerDay>4</bed_healPerDay>
     </building>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <fillPercent>0.4</fillPercent>
@@ -359,7 +359,7 @@
     </costList>
     <building>
       <bed_showSleeperBody>False</bed_showSleeperBody>
-      <bed_healPerDay>9</bed_healPerDay>
+      <bed_healPerDay>10</bed_healPerDay>
       <bed_defaultMedical>true</bed_defaultMedical>
     </building>
     <fillPercent>0.4</fillPercent>
@@ -411,7 +411,7 @@
     <costStuffCount>40</costStuffCount>
     <building>
       <bed_showSleeperBody>false</bed_showSleeperBody>
-      <bed_healPerDay>1</bed_healPerDay>
+      <bed_healPerDay>4</bed_healPerDay>
       <bed_caravansCanUse>true</bed_caravansCanUse>
     </building>
     <pathCost>5</pathCost>
@@ -454,7 +454,7 @@
     <costStuffCount>85</costStuffCount>
     <building>
       <bed_showSleeperBody>false</bed_showSleeperBody>
-      <bed_healPerDay>1</bed_healPerDay>
+      <bed_healPerDay>4</bed_healPerDay>
       <bed_caravansCanUse>true</bed_caravansCanUse>
     </building>
     <pathCost>5</pathCost>
@@ -534,7 +534,7 @@
       <bed_humanlike>false</bed_humanlike>
 			<bed_maxBodySize>0.55</bed_maxBodySize>
 			<bed_showSleeperBody>true</bed_showSleeperBody>
-      <bed_healPerDay>3</bed_healPerDay>
+      <bed_healPerDay>4</bed_healPerDay>
 		</building>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
@@ -580,7 +580,7 @@
 		<building>
       <bed_humanlike>false</bed_humanlike>
 			<bed_showSleeperBody>true</bed_showSleeperBody>
-      <bed_healPerDay>3</bed_healPerDay>
+      <bed_healPerDay>4</bed_healPerDay>
 		</building>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>

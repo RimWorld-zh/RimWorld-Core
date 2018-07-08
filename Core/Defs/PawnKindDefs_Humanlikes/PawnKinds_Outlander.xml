@@ -152,7 +152,7 @@
       <min>1</min>
       <max>1</max>
     </gearHealthRange>
-    <itemQuality>Excellent</itemQuality>
+    <itemQuality>Good</itemQuality>
     <weaponMoney>
       <min>200</min>
       <max>200</max>

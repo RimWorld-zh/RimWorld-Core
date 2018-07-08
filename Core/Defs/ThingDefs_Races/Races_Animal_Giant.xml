@@ -381,7 +381,7 @@
       <leatherDef>Leather_Thrumbo</leatherDef>
       <trainability>Advanced</trainability>
       <gestationPeriodDays>60</gestationPeriodDays>
-      <manhunterOnDamageChance>0.21</manhunterOnDamageChance>
+      <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
       <wildness>0.985</wildness>
       <lifeExpectancy>220</lifeExpectancy>
       <lifeStageAges>

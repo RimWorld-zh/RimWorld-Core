@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <LetterLabelAnimalInsanitySingle>Mad animal</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>Mad {0}</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>A local {0} has gone mad. It will attack everyone it sees.</AnimalInsanitySingle>
-  <LetterLabelAnimalInsanityMultiple>Mad animals!</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>Mad {0}</LetterLabelAnimalInsanityMultiple>
   <AnimalInsanityMultiple>Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane.</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>Blight</LetterLabelCropBlight>

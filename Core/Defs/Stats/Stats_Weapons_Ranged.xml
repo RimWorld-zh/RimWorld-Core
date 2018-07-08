@@ -76,13 +76,13 @@
     <displayPriorityInCategory>1000</displayPriorityInCategory>
     <parts>
       <li Class="StatPart_Quality">
-        <factorAwful>0.8</factorAwful>
-        <factorPoor>0.9</factorPoor>
+        <factorAwful>0.9</factorAwful>
+        <factorPoor>1</factorPoor>
         <factorNormal>1</factorNormal>
-        <factorGood>1.1</factorGood>
-        <factorExcellent>1.2</factorExcellent>
-        <factorMasterwork>1.45</factorMasterwork>
-        <factorLegendary>1.65</factorLegendary>
+        <factorGood>1</factorGood>
+        <factorExcellent>1</factorExcellent>
+        <factorMasterwork>1.25</factorMasterwork>
+        <factorLegendary>1.5</factorLegendary>
       </li>
     </parts>
     <scenarioRandomizable>true</scenarioRandomizable>

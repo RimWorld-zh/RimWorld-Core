@@ -13,7 +13,7 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>11</damageAmountBase>
+      <damageAmountBase>12</damageAmountBase>
       <stoppingPower>1</stoppingPower>
       <speed>55</speed>
     </projectile>
@@ -30,9 +30,9 @@
     <statBases>
       <WorkToMake>4000</WorkToMake>
       <Mass>1.4</Mass>
-      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
-      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyMedium>0.45</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
       <Weapon_Bulk>0.5</Weapon_Bulk>
@@ -104,9 +104,9 @@
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <Mass>1.2</Mass>
-      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyMedium>0.40</AccuracyMedium>
       <AccuracyLong>0.30</AccuracyLong>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
       <Weapon_Bulk>0.5</Weapon_Bulk>
@@ -158,7 +158,7 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>9</damageAmountBase>
+      <damageAmountBase>10</damageAmountBase>
       <speed>55</speed>
     </projectile>
   </ThingDef>
@@ -199,7 +199,7 @@
         <defaultProjectile>Bullet_MachinePistol</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <minRange>1.5</minRange>
-        <range>21.9</range>
+        <range>19.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <soundCast>Shot_MachinePistol</soundCast>
@@ -580,7 +580,7 @@
 				<defaultProjectile>Bullet_HeavySMG</defaultProjectile>
 				<warmupTime>0.7</warmupTime>
         <minRange>1.5</minRange>
-				<range>17.9</range>
+				<range>22.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
 				<soundCast>Shot_HeavySMG</soundCast>
@@ -722,11 +722,11 @@
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.70</AccuracyTouch>
-      <AccuracyShort>0.87</AccuracyShort>
-      <AccuracyMedium>0.77</AccuracyMedium>
-      <AccuracyLong>0.64</AccuracyLong>
-      <RangedWeapon_Cooldown>1.46</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <costList>
@@ -738,11 +738,11 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
-        <warmupTime>0.8</warmupTime>
+        <warmupTime>1.0</warmupTime>
         <minRange>1.5</minRange>
         <range>30.9</range>
-        <burstShotCount>2</burstShotCount>
-        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>

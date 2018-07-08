@@ -261,7 +261,7 @@
   <ResearchProjectDef>
     <defName>FlakArmor</defName>
     <label>flak armor</label>
-    <description>Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor so slows movement somewhat.</description>
+    <description>Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>

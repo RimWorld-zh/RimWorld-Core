@@ -27,7 +27,7 @@
 
 	<DifficultyDef>
 		<defName>Easy</defName>
-		<label>Base builder</label>
+		<label>Builder</label>
 		<description>Build a colony, while still having a taste of danger.\n\nRecommended for: Players who are new to this kind of game, and players who want to relax.\n\nMajor threats appear, but they're weaker than other modes. Some extremely dangerous events are disabled.</description>
 		<difficulty>1</difficulty>
 		<threatScale>0.15</threatScale>

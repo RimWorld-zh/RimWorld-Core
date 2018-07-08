@@ -65,7 +65,7 @@
       <wildness>0.75</wildness>
       <petness>0.05</petness>
       <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.055</manhunterOnDamageChance>
+      <manhunterOnDamageChance>0.06</manhunterOnDamageChance>
       <nameOnTameChance>1</nameOnTameChance>
       <lifeExpectancy>20</lifeExpectancy>
       <lifeStageAges>

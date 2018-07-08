@@ -11,7 +11,7 @@
     <graphicData>
       <texPath>Things/Item/Resource/MedicineHerbal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(0.85,0.85)</drawSize>
+      <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -45,7 +45,7 @@
     <graphicData>
       <texPath>Things/Item/Resource/MedicineIndustrial</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(0.85,0.85)</drawSize>
+      <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -90,7 +90,7 @@
     <graphicData>
       <texPath>Things/Item/Resource/MedicineUltratech</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(0.85,0.85)</drawSize>
+      <drawSize>0.85</drawSize>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -147,7 +147,7 @@
     <graphicData>
       <texPath>Things/Item/Resource/ComponentSpacer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.85</drawSize>
+      <drawSize>0.90</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>

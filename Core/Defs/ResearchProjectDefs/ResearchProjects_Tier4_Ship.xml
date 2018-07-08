@@ -22,6 +22,8 @@
     </prerequisites>
     <researchViewX>14</researchViewX>
     <researchViewY>2.9</researchViewY>
+    <discoveredLetterTitle>About: Launching the ship</discoveredLetterTitle>
+    <discoveredLetterText>Escaping from this planet - it would be freedom at last, and maybe a return home.\n\nBut also incredibly dangerous.\n\nMany desperate souls want off this planet. Ship reactors take 15 days to charge up. Once you begin that process, the ship reactor will emit an energy signature detectable from thousands of kilometers away. Raiders will flock to attack you in waves, with an intensity you've never seen. Mechanoids are also known to be attracted to such energy signatures for their own mysterious reasons.\n\nIt won't start until you activate your ship's reactor, but when it does, it'll be ferocious. You'll need to stockpile resources, weapons, and defenses for the onslaught if you hope to escape alive.</discoveredLetterText>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="ShipResearchProjectBase">

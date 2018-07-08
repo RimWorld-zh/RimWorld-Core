@@ -192,6 +192,7 @@
     <conflictingTraits>
       <li>Greedy</li>
       <li>Jealous</li>
+      <li>Gourmand</li>
     </conflictingTraits>
   </TraitDef>
   
@@ -410,6 +411,9 @@
         </statOffsets>
       </li>
     </degreeDatas>
+    <conflictingTraits>
+      <li>Ascetic</li>
+    </conflictingTraits>
   </TraitDef>
 
   <TraitDef>

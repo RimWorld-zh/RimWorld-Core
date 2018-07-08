@@ -81,7 +81,7 @@
         <defaultProjectile>Arrow_Short</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <minRange>1.5</minRange>
-        <range>28.9</range>
+        <range>22.9</range>
         <soundCast>Bow_Small</soundCast>
       </li>
     </verbs>
@@ -148,7 +148,7 @@
         <defaultProjectile>Pilum_Thrown</defaultProjectile>
         <warmupTime>2.5</warmupTime>
         <minRange>1.5</minRange>
-        <range>19.9</range>
+        <range>18.9</range>
         <soundCast>Interact_BeatFire</soundCast>
         <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
       </li>
@@ -230,7 +230,7 @@
         <defaultProjectile>Arrow_Recurve</defaultProjectile>
         <warmupTime>1.3</warmupTime>
         <minRange>1.5</minRange>
-        <range>30.9</range>
+        <range>25.9</range>
         <soundCast>Bow_Recurve</soundCast>
       </li>
     </verbs>
@@ -294,7 +294,7 @@
         <defaultProjectile>Arrow_Great</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <minRange>1.5</minRange>
-        <range>31.9</range>
+        <range>29.9</range>
         <soundCast>Bow_Large</soundCast>
       </li>
     </verbs>
@@ -325,8 +325,8 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Arrow</damageDef>
-      <damageAmountBase>17</damageAmountBase>
-      <stoppingPower>2.5</stoppingPower>
+      <damageAmountBase>16</damageAmountBase>
+      <stoppingPower>2.0</stoppingPower>
       <armorPenetrationBase>0.15</armorPenetrationBase>
       <speed>49</speed>
     </projectile>

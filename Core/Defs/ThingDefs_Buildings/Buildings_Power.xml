@@ -77,7 +77,7 @@
       <li>Waterproofing</li>
     </researchPrerequisites>
     <costList>
-      <Steel>8</Steel>
+      <Steel>3</Steel>
     </costList>
   </ThingDef>
 
