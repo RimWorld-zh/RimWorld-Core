@@ -7,7 +7,7 @@
     <defName>MechanicalNeck</defName>
     <label>neck</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -23,7 +23,7 @@
     <defName>MechanicalHead</defName>
     <label>head</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -34,7 +34,7 @@
     <defName>ArtificialBrain</defName>
     <label>artificial brain</label>
     <hitPoints>10</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -49,7 +49,7 @@
     <label>sight sensor</label>
     <hitPoints>10</hitPoints>
     <frostbiteVulnerability>2</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -65,7 +65,7 @@
     <label>hearing sensor</label>
     <hitPoints>10</hitPoints>
     <frostbiteVulnerability>2</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -80,7 +80,7 @@
     <label>smell sensor</label>
     <hitPoints>10</hitPoints>
     <frostbiteVulnerability>2</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -91,7 +91,7 @@
     <defName>MechanicalShoulder</defName>
     <label>shoulder</label>
     <hitPoints>25</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -105,7 +105,7 @@
     <defName>MechanicalArm</defName>
     <label>arm</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -119,7 +119,7 @@
     <defName>MechanicalHand</defName>
     <label>hand</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -134,7 +134,7 @@
     <label>finger</label>
     <hitPoints>7</hitPoints>
     <frostbiteVulnerability>10</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -149,7 +149,7 @@
     <defName>MechanicalLeg</defName>
     <label>leg</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -164,7 +164,7 @@
     <label>foot</label>
     <hitPoints>20</hitPoints>
     <frostbiteVulnerability>2</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -180,7 +180,7 @@
     <defName>MechanicalThorax</defName>
     <label>thorax</label>
     <hitPoints>40</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -194,7 +194,7 @@
     <label>blade</label>
     <hitPoints>20</hitPoints>
     <frostbiteVulnerability>5</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -206,7 +206,7 @@
   <BodyPartDef Abstract="True" Name="MechanicalCentipedeRingBase">
     <labelShort>body ring</labelShort>
     <hitPoints>50</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>

@@ -135,8 +135,8 @@
         <sustainAttack>2.5</sustainAttack>
         <sustainRelease>2.5</sustainRelease>
         <distRange>
-          <min>100</min>
-          <max>200</max>
+          <min>20</min>
+          <max>100</max>
         </distRange>
       </li>
     </subSounds>

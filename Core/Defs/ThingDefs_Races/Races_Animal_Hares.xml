@@ -9,11 +9,12 @@
     </statBases>
     <tools>
       <li>
+        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>3.4</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -21,8 +22,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>1</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>1.5</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>

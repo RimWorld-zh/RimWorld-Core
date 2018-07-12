@@ -23,7 +23,7 @@
     <conditionClass>GameCondition_PsychicEmanation</conditionClass>
     <label>psychic drone</label>
     <description>A distant, powerful AI is emitting waves of psychic force that are driving people towards insanity.</description>
-    <droneLevel>BadMedium</droneLevel>
+    <defaultDroneLevel>BadMedium</defaultDroneLevel>
     <endMessage>The psychic drone is ending.</endMessage>
     <exclusiveConditions>
       <li>PsychicSoothe</li>
@@ -36,7 +36,7 @@
     <conditionClass>GameCondition_PsychicEmanation</conditionClass>
     <label>psychic soothe</label>
     <description>A distant, powerful AI is emitting waves of psychic force that are calming people and stabilizing their minds.</description>
-    <droneLevel>GoodMedium</droneLevel>
+    <defaultDroneLevel>GoodMedium</defaultDroneLevel>
     <endMessage>The psychic soothe is ending.</endMessage>
     <exclusiveConditions>
       <li>PsychicDrone</li>

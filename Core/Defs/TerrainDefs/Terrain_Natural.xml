@@ -32,7 +32,6 @@
           <li>KickMaterialInEyes</li>
         </capacities>
         <hediff>DirtInEyes</hediff>
-        <power>1</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
@@ -92,7 +91,6 @@
           <li>KickMaterialInEyes</li>
         </capacities>
         <hediff>MudInEyes</hediff>
-        <power>1</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
@@ -128,7 +126,6 @@
           <li>KickMaterialInEyes</li>
         </capacities>
         <hediff>DirtInEyes</hediff>
-        <power>1</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
@@ -165,7 +162,6 @@
           <li>KickMaterialInEyes</li>
         </capacities>
         <hediff>GravelInEyes</hediff>
-        <power>1</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
@@ -201,7 +197,6 @@
           <li>KickMaterialInEyes</li>
         </capacities>
         <hediff>SandInEyes</hediff>
-        <power>1</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
@@ -233,7 +228,6 @@
           <li>KickMaterialInEyes</li>
         </capacities>
         <hediff>SandInEyes</hediff>
-        <power>1</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
@@ -269,7 +263,6 @@
           <li>KickMaterialInEyes</li>
         </capacities>
         <hediff>MudInEyes</hediff>
-        <power>1</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>

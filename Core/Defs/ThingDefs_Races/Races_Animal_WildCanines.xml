@@ -48,11 +48,12 @@
         </surpriseAttack>
       </li>
       <li>
+        <label>razorfangs</label>
         <capacities>
           <li>Bite</li>
         </capacities>
         <power>15</power>
-        <cooldownTime>2.0</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -68,8 +69,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
@@ -197,8 +198,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>10.9</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -215,8 +216,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>10.9</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -229,11 +230,12 @@
         <commonality>0.5</commonality>
       </li>
       <li>
+        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
         <power>12</power>
-        <cooldownTime>2.1</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -249,8 +251,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
@@ -453,8 +455,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -470,8 +472,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -483,11 +485,12 @@
         </surpriseAttack>
       </li>
       <li>
+        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>2.1</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -503,8 +506,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>

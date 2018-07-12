@@ -1191,7 +1191,7 @@
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToBuild>2800</WorkToBuild>
       <Flammability>1.0</Flammability>
-      <ResearchSpeedFactor>0.6</ResearchSpeedFactor>
+      <ResearchSpeedFactor>0.75</ResearchSpeedFactor>
     </statBases>
     <fillPercent>0.5</fillPercent>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>

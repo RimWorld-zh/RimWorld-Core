@@ -221,7 +221,7 @@
     <label>scyther</label>
     <description>Fast, spindly, human-sized combat mechanoids specializing in rapid approach and close-range combat. Their bodies are covered in points and blades, but their mostly use two arm blades to lop off limbs or gut their victims alive.</description>
     <statBases>
-      <MoveSpeed>5.0</MoveSpeed>
+      <MoveSpeed>4.8</MoveSpeed>
       <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
     </statBases>

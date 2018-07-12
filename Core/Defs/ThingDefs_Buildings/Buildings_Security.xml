@@ -88,6 +88,7 @@
       <WorkToBuild>3500</WorkToBuild>
       <Mass>100</Mass>
       <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
     </statBases>
     <tickerType>Normal</tickerType>
     <comps>
@@ -143,7 +144,7 @@
     <building>
 			<ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_MiniTurret</turretGunDef>
-      <turretBurstCooldownTime>5.15</turretBurstCooldownTime>
+      <turretBurstCooldownTime>5.00</turretBurstCooldownTime>
       <turretTopGraphicPath>Things/Building/Security/TurretMini_Top</turretTopGraphicPath>
     </building>
     <placeWorkers>
@@ -187,7 +188,7 @@
       <AccuracyShort>0.64</AccuracyShort>
       <AccuracyMedium>0.41</AccuracyMedium>
       <AccuracyLong>0.22</AccuracyLong>
-      <RangedWeapon_Cooldown>5.15</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>5.00</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>40</Mass>
       <Flammability>0</Flammability>
@@ -242,6 +243,7 @@
       <WorkToBuild>15000</WorkToBuild>
       <Mass>100</Mass>
       <Beauty>-20</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
     </statBases>
     <tickerType>Normal</tickerType>
     <comps>
@@ -283,8 +285,8 @@
     <fillPercent>0.5</fillPercent>
     <hasTooltip>true</hasTooltip>
     <costList>
-      <Steel>600</Steel>
-      <Plasteel>30</Plasteel>
+      <Steel>550</Steel>
+      <Plasteel>40</Plasteel>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -373,11 +375,15 @@
   <ThingDef ParentName="AutocannonTurret">
     <defName>Turret_Sniper</defName>
     <label>sniper turret</label>
-    <description>A very long-ranged automatic sniper turret. Its high-velocity shells do heavy damage over very long ranges, but it requires frequent and expensive barrel changes. It cannot fire at close-up targets, and may explode when damaged.</description>
+    <description>A very long-ranged automatic sniper turret. Its high-velocity uranium shells do heavy damage over very long ranges, but it requires frequent and expensive barrel changes. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</description>
     <uiIconPath>Things/Building/Security/TurretSniper_MenuIcon</uiIconPath>
+    <statBases>
+      <ShootingAccuracyTurret>0.995</ShootingAccuracyTurret>
+    </statBases>
     <costList Inherit="False">
       <Steel>450</Steel>
-      <Plasteel>70</Plasteel>
+      <Plasteel>30</Plasteel>
+      <Uranium>60</Uranium>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <comps Inherit="False">
@@ -394,11 +400,11 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Refuelable">
-        <fuelLabel>Shots until barrel change</fuelLabel>
+        <fuelLabel>Shots until rearm</fuelLabel>
         <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
         <fuelFilter>
           <thingDefs>
-            <li>Steel</li>
+            <li>Uranium</li>
           </thingDefs>
         </fuelFilter>
         <fuelCapacity>40</fuelCapacity>
@@ -407,17 +413,17 @@
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <atomicFueling>true</atomicFueling>
-        <fuelMultiplier>0.2</fuelMultiplier>
+        <fuelMultiplier>0.6667</fuelMultiplier>
         <factorByDifficulty>true</factorByDifficulty>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+        <outOfFuelMessage>Cannot shoot: Needs rearm</outOfFuelMessage>
         <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
       </li>
     </comps>
     <specialDisplayRadius>49.9</specialDisplayRadius>
     <building>
       <turretGunDef>Gun_TurretSniper</turretGunDef>
-      <turretBurstCooldownTime>1.7</turretBurstCooldownTime>
+      <turretBurstCooldownTime>3.2</turretBurstCooldownTime>
       <turretTopGraphicPath>Things/Building/Security/TurretSniper_Top</turretTopGraphicPath>
     </building>
     <placeWorkers>
@@ -434,7 +440,7 @@
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.5</drawSize>
+      <drawSize>1.4</drawSize>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
@@ -446,7 +452,7 @@
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_TurretSniper</defName>
     <label>sniper cannon</label>
-    <description>A self-loading sniper cannon designed to attach to a turret.</description>
+    <description>A self-loading sniper cannon designed to attach to a turret. Precise at range, it's not good at tracking close targets.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/ChargeRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -458,11 +464,11 @@
     <tradeability>None</tradeability>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <AccuracyTouch>0.25</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.99</AccuracyMedium>
+      <AccuracyTouch>0.20</AccuracyTouch>
+      <AccuracyShort>0.30</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
       <AccuracyLong>0.99</AccuracyLong>
-      <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>40</Mass>
       <Flammability>0</Flammability>
@@ -476,7 +482,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_TurretSniper</defaultProjectile>
         <warmupTime>0</warmupTime>
-        <minRange>10.9</minRange>
+        <minRange>11.9</minRange>
         <range>49.9</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>Shot_TurretSniper</soundCast>
@@ -853,8 +859,7 @@
     <comps>
       <li Class="CompProperties_Explosive">
         <explosiveRadius>15</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <damageAmountBase>400</damageAmountBase>
+        <explosiveDamageType>BombSuper</explosiveDamageType>
         <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
         <chanceToStartFire>0.22</chanceToStartFire>
         <damageFalloff>true</damageFalloff>

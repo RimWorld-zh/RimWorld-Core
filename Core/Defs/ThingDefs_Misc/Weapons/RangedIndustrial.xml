@@ -35,7 +35,6 @@
       <AccuracyMedium>0.45</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -68,8 +67,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6.4</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -77,8 +76,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>6.4</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -109,7 +108,6 @@
       <AccuracyMedium>0.40</AccuracyMedium>
       <AccuracyLong>0.30</AccuracyLong>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>30</Steel>
@@ -134,8 +132,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6.4</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -143,8 +141,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>6.4</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -186,7 +184,6 @@
       <AccuracyMedium>0.35</AccuracyMedium>
       <AccuracyLong>0.15</AccuracyLong>
       <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>45</Steel>
@@ -213,8 +210,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6.4</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -222,8 +219,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>6.4</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -254,8 +251,7 @@
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
 			<Mass>3.4</Mass>
-			<RangedWeapon_Cooldown>5.0</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
+			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
 			<Steel>75</Steel>
@@ -271,7 +267,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
-				<warmupTime>2.0</warmupTime>
+				<warmupTime>3.5</warmupTime>
         <minRange>1.5</minRange>
 				<range>23.9</range>
         <forcedMissRadius>1.9</forcedMissRadius>
@@ -290,8 +286,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -299,8 +295,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7.7</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
 	</ThingDef>
@@ -340,8 +336,7 @@
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
-      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -357,7 +352,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BoltActionRifle</defaultProjectile>
-        <warmupTime>1.4</warmupTime>
+        <warmupTime>1.7</warmupTime>
         <minRange>1.5</minRange>
         <range>36.9</range>
         <soundCast>Shot_BoltActionRifle</soundCast>
@@ -371,8 +366,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -380,8 +375,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7.7</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -417,8 +412,7 @@
       <AccuracyShort>0.87</AccuracyShort>
       <AccuracyMedium>0.77</AccuracyMedium>
       <AccuracyLong>0.64</AccuracyLong>
-      <RangedWeapon_Cooldown>1.46</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -434,7 +428,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Shotgun</defaultProjectile>
-        <warmupTime>0.7</warmupTime>
+        <warmupTime>0.9</warmupTime>
         <minRange>1.5</minRange>
         <range>15.9</range>
         <soundCast>Shot_Shotgun</soundCast>
@@ -448,8 +442,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -457,8 +451,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7.7</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -474,7 +468,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>18</damageAmountBase>
       <stoppingPower>3</stoppingPower>
-      <armorPenetrationBase>0.09</armorPenetrationBase>
+      <armorPenetrationBase>0.14</armorPenetrationBase>
       <speed>55</speed>
     </projectile>
   </ThingDef>
@@ -501,8 +495,7 @@
       <AccuracyShort>0.64</AccuracyShort>
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.45</AccuracyLong>
-      <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>70</Steel>
@@ -513,7 +506,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Shotgun</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
+        <warmupTime>1.2</warmupTime>
         <minRange>1.5</minRange>
         <range>12.9</range>
         <burstShotCount>3</burstShotCount>
@@ -529,8 +522,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -538,8 +531,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7.7</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -566,8 +559,7 @@
 			<AccuracyShort>0.65</AccuracyShort>
 			<AccuracyMedium>0.35</AccuracyMedium>
 			<AccuracyLong>0.20</AccuracyLong>
-			<RangedWeapon_Cooldown>1.85</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
+			<RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
 			<Steel>75</Steel>
@@ -578,7 +570,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_HeavySMG</defaultProjectile>
-				<warmupTime>0.7</warmupTime>
+				<warmupTime>0.9</warmupTime>
         <minRange>1.5</minRange>
 				<range>22.9</range>
 				<burstShotCount>3</burstShotCount>
@@ -594,8 +586,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6.4</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -603,8 +595,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>6.4</power>
-        <cooldownTime>1.6</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
 	</ThingDef>
@@ -644,8 +636,7 @@
 			<AccuracyShort>0.48</AccuracyShort>
 			<AccuracyMedium>0.35</AccuracyMedium>
 			<AccuracyLong>0.26</AccuracyLong>
-			<RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
 			<Steel>75</Steel>
@@ -656,7 +647,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_LMG</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<warmupTime>1.8</warmupTime>
         <minRange>1.5</minRange>
 				<range>25.9</range>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
@@ -675,8 +666,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -684,8 +675,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7.7</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -727,7 +718,6 @@
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.55</AccuracyLong>
       <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -757,8 +747,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -766,8 +756,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7.7</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -807,8 +797,7 @@
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.86</AccuracyMedium>
       <AccuracyLong>0.88</AccuracyLong>
-      <RangedWeapon_Cooldown>2.83</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -819,7 +808,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_SniperRifle</defaultProjectile>
-        <warmupTime>3.0</warmupTime>
+        <warmupTime>3.5</warmupTime>
         <minRange>1.5</minRange>
         <range>44.9</range>
         <soundCast>Shot_SniperRifle</soundCast>
@@ -833,8 +822,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -842,8 +831,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7.7</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
     <weaponTags Inherit="False">
@@ -881,8 +870,7 @@
       <AccuracyShort>0.25</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
       <AccuracyLong>0.18</AccuracyLong>
-      <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>160</Steel>
@@ -907,7 +895,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Minigun</defaultProjectile>
-        <warmupTime>2.1</warmupTime>
+        <warmupTime>2.5</warmupTime>
         <minRange>1.5</minRange>
         <range>30.9</range>
         <burstShotCount>25</burstShotCount>
@@ -923,8 +911,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7.6</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
   </ThingDef>

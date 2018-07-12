@@ -267,7 +267,7 @@
     </graphicData>
     <tradeability>Sellable</tradeability>
     <statBases>
-      <MarketValue>1000</MarketValue>
+      <MarketValue>1200</MarketValue>
     </statBases>
     <thingSetMakerTags>
       <li>RewardSpecial</li>
@@ -275,8 +275,7 @@
     <comps>
       <li Class="CompProperties_Explosive">
         <explosiveRadius>15</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <damageAmountBase>400</damageAmountBase>
+        <explosiveDamageType>BombSuper</explosiveDamageType>
         <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
         <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
         <chanceToStartFire>0.22</chanceToStartFire>
@@ -302,8 +301,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>400</damageAmountBase>
+      <damageDef>BombSuper</damageDef>
       <speed>41</speed>
       <explosionRadius>15</explosionRadius>
       <explosionChanceToStartFire>0.22</explosionChanceToStartFire>

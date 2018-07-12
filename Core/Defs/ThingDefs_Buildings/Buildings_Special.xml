@@ -95,7 +95,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-1200</basePowerConsumption>
+        <basePowerConsumption>-1000</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Glower">

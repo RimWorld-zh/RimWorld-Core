@@ -241,7 +241,7 @@
 		<workerClass>IncidentWorker_MakeGameCondition</workerClass>
 		<gameCondition>VolcanicWinter</gameCondition>
 		<letterLabel>Volcanic winter</letterLabel>
-		<letterText>A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many seasons.</letterText>
+		<letterText>A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums.</letterText>
 		<letterDef>ThreatSmall</letterDef>
 		<baseChance>0.08</baseChance>
 		<earliestDay>30</earliestDay>

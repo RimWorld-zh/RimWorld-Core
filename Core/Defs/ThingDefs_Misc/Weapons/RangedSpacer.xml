@@ -20,7 +20,6 @@
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.45</AccuracyLong>
       <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>ChargedShot</researchPrerequisite>
@@ -59,8 +58,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.8</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -68,8 +67,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7.7</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -104,7 +103,6 @@
       <AccuracyMedium>0.90</AccuracyMedium>
       <AccuracyLong>0.80</AccuracyLong>
       <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
       <WorkToMake>60000</WorkToMake>
     </statBases>
     <recipeMaker>
@@ -144,8 +142,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7.6</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -156,7 +154,7 @@
       <texPath>Things/Projectile/ChargeLanceShot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>

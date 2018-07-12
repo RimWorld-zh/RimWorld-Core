@@ -12,7 +12,9 @@
     <hediffSolid>Crack</hediffSolid>
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
     <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
   </DamageDef>
 
   <DamageDef>
@@ -25,10 +27,12 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Bullet</impactSoundType>
     <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
     <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
   </DamageDef>
 
-  <DamageDef>
+  <DamageDef Name="Arrow">
     <defName>Arrow</defName>
     <label>arrow</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
@@ -39,21 +43,14 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Bullet</impactSoundType>
     <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
     <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
   </DamageDef>
 
-  <DamageDef>
+  <DamageDef ParentName="Arrow">
     <defName>ArrowHighVelocity</defName>
-    <label>arrow</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <externalViolence>true</externalViolence>
-    <deathMessage>{0} has been shot to death by an arrow.</deathMessage>
     <hediff>Stab</hediff>
-    <hediffSolid>Crack</hediffSolid>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Bullet</impactSoundType>
-    <armorCategory>Sharp</armorCategory>
-    <isRanged>true</isRanged>
   </DamageDef>
 
 </Defs>

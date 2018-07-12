@@ -63,7 +63,7 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>9.7</power>
+            <power>8.2</power> <!-- Same as natural fist -->
             <cooldownTime>2</cooldownTime>
           </li>
         </tools>
@@ -120,7 +120,7 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>10.9</power>
+            <power>12</power>
             <cooldownTime>2</cooldownTime>
           </li>
         </tools>
@@ -237,7 +237,7 @@
             <capacities>
               <li>Blunt</li>
             </capacities>
-            <power>12.0</power>
+            <power>14</power>
             <cooldownTime>2</cooldownTime>
           </li>
         </tools>

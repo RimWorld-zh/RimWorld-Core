@@ -42,7 +42,7 @@
     <defName>Joy</defName>
     <needClass>Need_Joy</needClass>
     <label>recreation</label>
-    <description>Recreation is the need have fun. Repeating the same kind of activity makes it less fun, so variety is necessary.</description>
+    <description>Recreation is the need to have fun. Repeating the same kind of activity makes it less fun, so variety is necessary.</description>
     <minIntelligence>Humanlike</minIntelligence>
     <colonistsOnly>true</colonistsOnly>
 		<neverOnPrisoner>true</neverOnPrisoner>

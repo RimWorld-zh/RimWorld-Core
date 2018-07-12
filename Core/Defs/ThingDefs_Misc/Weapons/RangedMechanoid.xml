@@ -32,7 +32,6 @@
       <MarketValue>1400</MarketValue>
       <Mass>18</Mass>
       <RangedWeapon_Cooldown>8.4</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <techLevel>Spacer</techLevel>
     <menuHidden>True</menuHidden>
@@ -63,8 +62,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7.6</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -99,7 +98,6 @@
       <AccuracyMedium>0.30</AccuracyMedium>
       <AccuracyLong>0.20</AccuracyLong>
       <RangedWeapon_Cooldown>7.4</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <techLevel>Spacer</techLevel>
     <menuHidden>True</menuHidden>
@@ -129,8 +127,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7.6</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
   </ThingDef>

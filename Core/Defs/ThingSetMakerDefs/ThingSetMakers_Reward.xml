@@ -6,8 +6,8 @@
     <root Class="ThingSetMaker_RandomOption">
       <fixedParams>
         <totalMarketValueRange>
-          <min>2000</min>
-          <max>3500</max>
+          <min>1700</min>
+          <max>3200</max>
         </totalMarketValueRange>
         <qualityGenerator>Reward</qualityGenerator>
       </fixedParams>
@@ -109,6 +109,7 @@
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
                   <li>Hyperweave</li>
+                  <li>TechprofSubpersonaCore</li>
                 </thingDefs>
               </filter>
             </fixedParams>
@@ -123,232 +124,6 @@
                   <li>Apparel_PowerArmor</li>
                   <li>Apparel_PlateArmor</li>
                   <li>Apparel_ShieldBelt</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-      </options>
-    </root>
-  </ThingSetMakerDef>
-
-  <ThingSetMakerDef>
-    <defName>Reward_TradeRequest</defName>
-    <debugParams>
-      <totalMarketValueRange>
-        <min>1700</min>
-        <max>3700</max>
-      </totalMarketValueRange>
-    </debugParams>
-    <root Class="ThingSetMaker_RandomOption">
-      <fixedParams>
-        <qualityGenerator>Reward</qualityGenerator>
-        <maxTotalMass>50</maxTotalMass>
-      </fixedParams>
-      <options>
-        <li>
-          <weight>1</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>Silver</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>6</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <thingSetMakerTagsToAllow>
-                  <li>RewardSpecial</li>
-                </thingSetMakerTagsToAllow>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>1</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <categories>
-                  <li>ResourcesRaw</li>
-                </categories>
-                <thingSetMakerTagsToDisallow>
-                  <li>RewardSpecial</li>
-                </thingSetMakerTagsToDisallow>
-                <disallowCheaperThan>6</disallowCheaperThan>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>6</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <tradeTagsToAllow>
-                  <li>ExoticMisc</li>
-                </tradeTagsToAllow>
-                <categories>
-                  <li>Weapons</li>
-                  <li>Apparel</li>
-                  <li>BuildingsArt</li>
-                  <li>BuildingsFurniture</li>
-                  <li>BodyPartsArtificial</li>
-                </categories>
-                <thingDefs>
-                  <li>MegascreenTelevision</li>
-                  <li>FlatscreenTelevision</li>
-                </thingDefs>
-                <disallowedThingDefs>
-                  <li>Apparel_SmokepopBelt</li>
-                  <li>MedicineUltratech</li>
-                  <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
-                  <li>CochlearImplant</li>
-                  <li>BionicEar</li>
-                </disallowedThingDefs>
-                <thingSetMakerTagsToDisallow>
-                  <li>RewardSpecial</li>
-                  <li>AnimalPart</li>
-                </thingSetMakerTagsToDisallow>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>1</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>MedicineUltratech</li>
-                  <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>1</weight>
-          <thingSetMaker Class="ThingSetMaker_Count">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>Apparel_PowerArmor</li>
-                  <li>Apparel_PlateArmor</li>
-                  <li>Apparel_ShieldBelt</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-      </options>
-    </root>
-  </ThingSetMakerDef>
-
-  <ThingSetMakerDef>
-    <defName>Reward_PeaceTalksGift</defName>
-    <root Class="ThingSetMaker_RandomOption">
-      <fixedParams>
-        <totalMarketValueRange>
-          <min>800</min>
-          <max>1800</max>
-        </totalMarketValueRange>
-        <qualityGenerator>Reward</qualityGenerator>
-        <maxTotalMass>20</maxTotalMass>
-      </fixedParams>
-      <options>
-        <li>
-          <weight>1</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>Silver</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>6</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <thingSetMakerTagsToAllow>
-                  <li>RewardSpecial</li>
-                </thingSetMakerTagsToAllow>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>1</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <categories>
-                  <li>ResourcesRaw</li>
-                </categories>
-                <thingSetMakerTagsToDisallow>
-                  <li>RewardSpecial</li>
-                </thingSetMakerTagsToDisallow>
-                <disallowCheaperThan>6</disallowCheaperThan>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>6</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <tradeTagsToAllow>
-                  <li>ExoticMisc</li>
-                </tradeTagsToAllow>
-                <categories>
-                  <li>Weapons</li>
-                  <li>Apparel</li>
-                  <li>BuildingsArt</li>
-                  <li>BuildingsFurniture</li>
-                  <li>BodyPartsArtificial</li>
-                </categories>
-                <thingDefs>
-                  <li>MegascreenTelevision</li>
-                  <li>FlatscreenTelevision</li>
-                </thingDefs>
-                <disallowedThingDefs>
-                  <li>Apparel_SmokepopBelt</li>
-                  <li>MedicineUltratech</li>
-                  <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
-                  <li>CochlearImplant</li>
-                  <li>BionicEar</li>
-                </disallowedThingDefs>
-                <thingSetMakerTagsToDisallow>
-                  <li>RewardSpecial</li>
-                  <li>AnimalPart</li>
-                </thingSetMakerTagsToDisallow>
-              </filter>
-            </fixedParams>
-          </thingSetMaker>
-        </li>
-        <li>
-          <weight>1.4</weight>
-          <thingSetMaker Class="ThingSetMaker_MarketValue">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>MedicineUltratech</li>
-                  <li>ComponentSpacer</li>
-                  <li>Hyperweave</li>
                 </thingDefs>
               </filter>
             </fixedParams>
@@ -363,8 +138,8 @@
     <root Class="ThingSetMaker_RandomOption">
       <fixedParams>
         <totalMarketValueRange>
-          <min>2000</min>
-          <max>3500</max>
+          <min>1700</min>
+          <max>3200</max>
         </totalMarketValueRange>
         <qualityGenerator>Reward</qualityGenerator>
         <maxTotalMass>75</maxTotalMass>
@@ -467,6 +242,7 @@
                   <li>MedicineUltratech</li>
                   <li>ComponentSpacer</li>
                   <li>Hyperweave</li>
+                  <li>TechprofSubpersonaCore</li>
                 </thingDefs>
               </filter>
             </fixedParams>
@@ -481,6 +257,234 @@
                   <li>Apparel_PowerArmor</li>
                   <li>Apparel_PlateArmor</li>
                   <li>Apparel_ShieldBelt</li>
+                </thingDefs>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+      </options>
+    </root>
+  </ThingSetMakerDef>
+
+  <ThingSetMakerDef>
+    <defName>Reward_TradeRequest</defName>
+    <debugParams>
+      <totalMarketValueRange> <!-- Not used by live game code, it's based on request size -->
+        <min>1700</min>
+        <max>3200</max>
+      </totalMarketValueRange>
+    </debugParams>
+    <root Class="ThingSetMaker_RandomOption">
+      <fixedParams>
+        <qualityGenerator>Reward</qualityGenerator>
+        <maxTotalMass>50</maxTotalMass>
+      </fixedParams>
+      <options>
+        <li>
+          <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>Silver</li>
+                </thingDefs>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>6</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <thingSetMakerTagsToAllow>
+                  <li>RewardSpecial</li>
+                </thingSetMakerTagsToAllow>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <categories>
+                  <li>ResourcesRaw</li>
+                </categories>
+                <thingSetMakerTagsToDisallow>
+                  <li>RewardSpecial</li>
+                </thingSetMakerTagsToDisallow>
+                <disallowCheaperThan>6</disallowCheaperThan>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>6</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <tradeTagsToAllow>
+                  <li>ExoticMisc</li>
+                </tradeTagsToAllow>
+                <categories>
+                  <li>Weapons</li>
+                  <li>Apparel</li>
+                  <li>BuildingsArt</li>
+                  <li>BuildingsFurniture</li>
+                  <li>BodyPartsArtificial</li>
+                </categories>
+                <thingDefs>
+                  <li>MegascreenTelevision</li>
+                  <li>FlatscreenTelevision</li>
+                </thingDefs>
+                <disallowedThingDefs>
+                  <li>Apparel_SmokepopBelt</li>
+                  <li>MedicineUltratech</li>
+                  <li>ComponentSpacer</li>
+                  <li>Hyperweave</li>
+                  <li>CochlearImplant</li>
+                  <li>BionicEar</li>
+                </disallowedThingDefs>
+                <thingSetMakerTagsToDisallow>
+                  <li>RewardSpecial</li>
+                  <li>AnimalPart</li>
+                </thingSetMakerTagsToDisallow>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>MedicineUltratech</li>
+                  <li>ComponentSpacer</li>
+                  <li>Hyperweave</li>
+                  <li>TechprofSubpersonaCore</li>
+                </thingDefs>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_Count">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>Apparel_PowerArmor</li>
+                  <li>Apparel_PlateArmor</li>
+                  <li>Apparel_ShieldBelt</li>
+                </thingDefs>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+      </options>
+    </root>
+  </ThingSetMakerDef>
+
+  <ThingSetMakerDef>
+    <defName>Reward_PeaceTalksGift</defName>
+    <root Class="ThingSetMaker_RandomOption">
+      <fixedParams>
+        <totalMarketValueRange>
+          <min>500</min>
+          <max>1200</max>
+        </totalMarketValueRange>
+        <qualityGenerator>Reward</qualityGenerator>
+        <maxTotalMass>20</maxTotalMass>
+      </fixedParams>
+      <options>
+        <li>
+          <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>Silver</li>
+                </thingDefs>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>6</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <thingSetMakerTagsToAllow>
+                  <li>RewardSpecial</li>
+                </thingSetMakerTagsToAllow>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <categories>
+                  <li>ResourcesRaw</li>
+                </categories>
+                <thingSetMakerTagsToDisallow>
+                  <li>RewardSpecial</li>
+                </thingSetMakerTagsToDisallow>
+                <disallowCheaperThan>6</disallowCheaperThan>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>6</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <tradeTagsToAllow>
+                  <li>ExoticMisc</li>
+                </tradeTagsToAllow>
+                <categories>
+                  <li>Weapons</li>
+                  <li>Apparel</li>
+                  <li>BuildingsArt</li>
+                  <li>BuildingsFurniture</li>
+                  <li>BodyPartsArtificial</li>
+                </categories>
+                <thingDefs>
+                  <li>MegascreenTelevision</li>
+                  <li>FlatscreenTelevision</li>
+                </thingDefs>
+                <disallowedThingDefs>
+                  <li>Apparel_SmokepopBelt</li>
+                  <li>MedicineUltratech</li>
+                  <li>ComponentSpacer</li>
+                  <li>Hyperweave</li>
+                  <li>CochlearImplant</li>
+                  <li>BionicEar</li>
+                </disallowedThingDefs>
+                <thingSetMakerTagsToDisallow>
+                  <li>RewardSpecial</li>
+                  <li>AnimalPart</li>
+                </thingSetMakerTagsToDisallow>
+              </filter>
+            </fixedParams>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>1.4</weight>
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+              <filter>
+                <thingDefs>
+                  <li>MedicineUltratech</li>
+                  <li>ComponentSpacer</li>
+                  <li>Hyperweave</li>
+                  <li>TechprofSubpersonaCore</li>
                 </thingDefs>
               </filter>
             </fixedParams>

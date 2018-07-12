@@ -654,7 +654,7 @@
     </thingCategories>
     <costList>
       <Cloth>30</Cloth>
-      <Steel>65</Steel>
+      <Steel>60</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <apparel>
@@ -725,7 +725,7 @@
     </thingCategories>
     <costList>
       <Cloth>30</Cloth>
-      <Steel>65</Steel>
+      <Steel>60</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <apparel>
@@ -773,7 +773,7 @@
     </graphicData>
     <costList>
       <Cloth>50</Cloth>
-      <Steel>80</Steel>
+      <Steel>70</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>

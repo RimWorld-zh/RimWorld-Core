@@ -4,7 +4,7 @@
   <ThingDef ParentName="MakeableDrugBase">
     <defName>PsychiteTea</defName>
     <label>psychite tea</label>
-    <description>A fragrant tea infused with leaves of the psychoid plant. Drinking it induces a subtle psychite euphoria. This tea is easy to produce, but can produce psychite addiction if consumed too often.\n\nMany tribes use psychoid tea, both as a daily energizer and as part of social and religious rituals.</description>
+    <description>A fragrant tea infused with leaves of the psychoid plant. Drinking it induces a subtle psychite euphoria. This tea is easy to produce at cooking facilities, but can produce psychite addiction if consumed too often.\n\nMany tribes use psychoid tea, both as a daily energizer and as part of social and religious rituals.</description>
     <graphicData>
       <texPath>Things/Item/Drug/Tea</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

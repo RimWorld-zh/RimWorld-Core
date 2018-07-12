@@ -18,7 +18,7 @@
           <li>Poke</li>
         </capacities>
         <power>7</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
@@ -28,15 +28,16 @@
           <li>Poke</li>
         </capacities>
         <power>7</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
+        <label>teeth</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -44,8 +45,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
@@ -182,8 +183,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
@@ -192,16 +193,17 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
+        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -209,8 +211,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>10</power>
+        <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
@@ -350,8 +352,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>11</power>
-        <cooldownTime>1.85</cooldownTime>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
@@ -360,16 +362,17 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>11</power>
-        <cooldownTime>1.85</cooldownTime>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
+        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -377,8 +380,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>13</power>
+        <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
@@ -519,8 +522,8 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>11</power>
-        <cooldownTime>1.85</cooldownTime>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
@@ -529,16 +532,17 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>11</power>
-        <cooldownTime>1.85</cooldownTime>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
+        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -546,8 +550,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>13</power>
+        <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
@@ -665,17 +669,18 @@
           <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>9.7</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
         <commonality>0.5</commonality>
       </li>
       <li>
+        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>8.5</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <commonality>0.5</commonality>
       </li>
@@ -684,8 +689,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
@@ -809,11 +814,12 @@
     </statBases>
     <tools>
       <li>
+        <label>beak</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>3.1</cooldownTime>
+        <power>8</power>
+        <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
@@ -821,8 +827,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>3</power>
+        <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>

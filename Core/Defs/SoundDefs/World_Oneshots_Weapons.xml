@@ -681,12 +681,12 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipFolderPath>Weapon/AssaultRifle</clipFolderPath>
+            <clipFolderPath>Weapon/SniperRifle</clipFolderPath>
           </li>
         </grains>
         <volumeRange>
-          <min>48</min>
-          <max>48</max>
+          <min>77</min>
+          <max>77</max>
         </volumeRange>
         <pitchRange>
           <min>0.7</min>
@@ -771,8 +771,8 @@
           </li>
         </grains>      
         <volumeRange>
-          <min>77.05883</min>        
-          <max>77.05883</max>
+          <min>70</min>        
+          <max>70</max>
         </volumeRange>      
         <sustainLoop>False</sustainLoop>
       </li>

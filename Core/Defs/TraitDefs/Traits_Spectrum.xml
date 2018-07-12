@@ -258,7 +258,7 @@
         <degree>1</degree>
         <statOffsets>
           <AimingDelayFactor>0.25</AimingDelayFactor>
-          <ShootingAccuracy>5</ShootingAccuracy>
+          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
         </statOffsets>
       </li>
       <li>
@@ -267,7 +267,7 @@
         <degree>-1</degree>
         <statOffsets>
           <AimingDelayFactor>-0.5</AimingDelayFactor>
-          <ShootingAccuracy>-5</ShootingAccuracy>
+          <ShootingAccuracyPawn>-5</ShootingAccuracyPawn>
         </statOffsets>
       </li>
     </degreeDatas>

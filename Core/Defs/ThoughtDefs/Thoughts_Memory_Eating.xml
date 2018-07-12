@@ -10,7 +10,7 @@
       <li>
         <label>ate lavish meal</label>
         <description>That lavish meal was amazing. It nourished my body and my soul.</description>
-        <baseMoodEffect>10</baseMoodEffect>
+        <baseMoodEffect>12</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

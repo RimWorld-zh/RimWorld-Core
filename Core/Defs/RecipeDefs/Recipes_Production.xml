@@ -62,7 +62,7 @@
       <li>Smelted</li>
     </specialProducts>-->
     <products>
-      <Steel>10</Steel>
+      <Steel>20</Steel>
     </products>
     <fixedIngredientFilter>
       <thingDefs>

@@ -15,7 +15,7 @@
     <defName>ShipBasics</defName>
     <label>starflight basics</label>
     <description>Construct the structural and supportive elements of a starship. This is the first step in building a ship to leave this star system.</description>
-    <baseCost>2000</baseCost>
+    <baseCost>4000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>AdvancedFabrication</li>
@@ -30,7 +30,7 @@
     <defName>ShipCryptosleep</defName>
     <label>vacuum cryptosleep casket</label>
     <description>Construct hardened cryptosleep caskets tough enough to be exposed to vacuum, for transporting people on the years-long journey between stars.</description>
-    <baseCost>1400</baseCost>
+    <baseCost>2800</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>ShipBasics</li>
@@ -44,7 +44,7 @@
     <defName>ShipReactor</defName>
     <label>starship reactor</label>
     <description>Build a long-duration nuclear reactor to power a starship. Note that reactors have a long startup process that will attract raiders.</description>
-    <baseCost>8000</baseCost>
+    <baseCost>10000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>ShipBasics</li>
@@ -57,7 +57,7 @@
     <defName>ShipEngine</defName>
     <label>Johnson-Tanaka drive</label>
     <description>Construct a Johnson-Tanaka drive for a ship. The JT drive can push you to other stars by leveraging quantum scale effects to beam momentum to distant stars. Of course, as with all starships, it still takes many years to get anywhere.</description>
-    <baseCost>4000</baseCost>
+    <baseCost>6000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>ShipBasics</li>
@@ -70,7 +70,7 @@
     <defName>ShipComputerCore</defName>
     <label>AI persuasion</label>
     <description>Build a reward-signal system to persuade an existing AI persona core into serving as a ship's AI captain. Since people sleep during interstellar travel, an AI core is necessary to handle the complex decisions of a years-long starflight.</description>
-    <baseCost>1800</baseCost>
+    <baseCost>3000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>ShipBasics</li>
@@ -83,7 +83,7 @@
     <defName>ShipSensorCluster</defName>
     <label>starflight sensors</label>
     <description>Construct long-range sensors for a starship. These sensors are essential for navigation, communication, and threat avoidance.</description>
-    <baseCost>3000</baseCost>
+    <baseCost>4000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>ShipBasics</li>

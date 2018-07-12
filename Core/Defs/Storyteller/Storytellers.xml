@@ -9,6 +9,30 @@
 				<li>10, 1</li>
 			</points>
 		</populationIntentFromTimeCurve>
+    <pointsFactorFromRampDays>
+      <points>
+        <li>(10,  1)</li>
+        <li>(130, 2)</li>
+        <li>(1000,5)</li>
+      </points>
+    </pointsFactorFromRampDays>
+    <rampDaysLossFromColonistDiedByPostPopulation>
+      <points>
+        <li>(3,  9999)</li>
+        <li>(4,  30)</li>
+        <li>(7,  30)</li>
+        <li>(8,  20)</li>
+        <li>(9,  15)</li>
+        <li>(10, 13)</li>
+        <li>(15, 10)</li>
+      </points>
+    </rampDaysLossFromColonistDiedByPostPopulation>
+    <rampDaysLossFromColonistViolentlyDownedByPopulation>
+      <points>
+        <li>(5,  5)</li>
+        <li>(10, 1)</li>
+      </points>
+    </rampDaysLossFromColonistViolentlyDownedByPopulation>
     <comps>
       <li Class="StorytellerCompProperties_DeepDrillInfestation">
         <baseMtbDaysPerDrill>20</baseMtbDaysPerDrill>
@@ -63,11 +87,11 @@
           <li>World</li>
         </allowedTargetTypes>
         <minDaysPassed>6</minDaysPassed>
-        <mtbDays>7</mtbDays>
+        <mtbDays>8</mtbDays>
         <mtbDaysFactorByDaysPassedCurve>
           <points>
-            <li>(6, 4)</li>
-            <li>(25, 1)</li>
+            <li>(6, 5)</li>
+            <li>(40, 1)</li>
           </points>
         </mtbDaysFactorByDaysPassedCurve>
       </li>
@@ -184,11 +208,11 @@
           <li>World</li>
         </allowedTargetTypes>
         <minDaysPassed>6</minDaysPassed>
-        <mtbDays>7</mtbDays>
+        <mtbDays>8</mtbDays>
         <mtbDaysFactorByDaysPassedCurve>
           <points>
-            <li>(6, 4)</li>
-            <li>(25, 1)</li>
+            <li>(6, 5)</li>
+            <li>(40, 1)</li>
           </points>
         </mtbDaysFactorByDaysPassedCurve>
       </li>
@@ -305,12 +329,12 @@
         <allowedTargetTypes>
           <li>World</li>
         </allowedTargetTypes>
-        <minDaysPassed>1</minDaysPassed>
-        <mtbDays>7</mtbDays>
+        <minDaysPassed>6</minDaysPassed>
+        <mtbDays>8</mtbDays>
         <mtbDaysFactorByDaysPassedCurve>
           <points>
-            <li>(6, 3)</li>
-            <li>(15, 1)</li>
+            <li>(6, 5)</li>
+            <li>(40, 1)</li>
           </points>
         </mtbDaysFactorByDaysPassedCurve>
       </li>

@@ -64,10 +64,11 @@
     </comps>
     <tools>
       <li>
+        <label>bottle</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10.3</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -75,7 +76,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>8.0</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>

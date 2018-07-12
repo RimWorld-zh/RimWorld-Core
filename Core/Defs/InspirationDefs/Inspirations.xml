@@ -4,7 +4,7 @@
   <InspirationDef>
     <defName>Frenzy_Work</defName>
     <label>work frenzy</label>
-    <baseDurationDays>1</baseDurationDays>
+    <baseDurationDays>3</baseDurationDays>
     <beginLetterLabel>Inspiration: Work frenzy</beginLetterLabel>
     <beginLetter>{0} has just been inspired. [PAWN_pronoun] will work 2.5 times faster for the next 24 hours.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
@@ -18,7 +18,7 @@
   <InspirationDef>
     <defName>Frenzy_Go</defName>
     <label>go frenzy</label>
-    <baseDurationDays>2</baseDurationDays>
+    <baseDurationDays>3</baseDurationDays>
     <beginLetterLabel>Inspiration: Go frenzy</beginLetterLabel>
     <beginLetter>{0} has just been inspired. [PAWN_pronoun] will walk 1.5 times faster for the next 2 days.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
@@ -42,10 +42,10 @@
     <endMessage>{0} is no longer inspired (shoot frenzy).</endMessage>
     <baseInspectLine>Inspired: Shoot frenzy</baseInspectLine>
     <requiredNonDisabledStats>
-      <li>ShootingAccuracy</li>
+      <li>ShootingAccuracyPawn</li>
     </requiredNonDisabledStats>
     <statOffsets>
-      <ShootingAccuracy>10</ShootingAccuracy>
+      <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
     </statOffsets>
     <associatedSkills>
       <li>Shooting</li>

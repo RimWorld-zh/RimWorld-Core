@@ -10,10 +10,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>1000</MarketValue>
+      <MarketValue>1200</MarketValue>
       <Mass>0.2</Mass>
       <Beauty>-3</Beauty>
-      <Weapon_Bulk>0.1</Weapon_Bulk>
       <Flammability>0.5</Flammability>
     </statBases>
     <techLevel>Spacer</techLevel>

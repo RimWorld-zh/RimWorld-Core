@@ -3,7 +3,7 @@
 
   <FactionDef Name="HumanFactionBase" Abstract="True">
     <goodwillDailyGain>0.20</goodwillDailyGain>
-    <goodwillDailyFall>0.20</goodwillDailyFall>
+    <goodwillDailyFall>0.40</goodwillDailyFall>
   </FactionDef>
 
   <FactionDef ParentName="HumanFactionBase" Name="OutlanderFactionBase" Abstract="True">

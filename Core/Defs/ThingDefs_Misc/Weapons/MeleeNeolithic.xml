@@ -17,7 +17,6 @@
     <statBases>
       <WorkToMake>1200</WorkToMake>
       <Mass>2</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -36,7 +35,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>8.1</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -45,7 +44,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14.5</power>
+        <power>14</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -68,7 +67,6 @@
 		<statBases>
 			<WorkToMake>1800</WorkToMake>
 			<Mass>0.5</Mass>
-      <Weapon_Bulk>0.2</Weapon_Bulk>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<stuffCategories>
@@ -80,7 +78,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -88,15 +86,15 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>2</cooldownTime>
+        <power>12</power>
+        <cooldownTime>1.5</cooldownTime>
       </li>
       <li>
         <label>point</label>
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>15</power>
+        <power>13</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -121,9 +119,8 @@
     </weaponTags>
     <costStuffCount>50</costStuffCount>
     <statBases>
-      <WorkToMake>8000</WorkToMake>
+      <WorkToMake>5000</WorkToMake>
       <Mass>1.1</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
@@ -137,7 +134,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>8</power>
+        <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -145,7 +142,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>17.4</power>
+        <power>15</power>
         <cooldownTime>2</cooldownTime>
       </li>
       <li>
@@ -153,7 +150,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>17.4</power>
+        <power>15</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -182,7 +179,6 @@
     <statBases>
       <WorkToMake>12000</WorkToMake>
       <Mass>2</Mass>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
@@ -196,16 +192,16 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>10.0</power>
-        <cooldownTime>2</cooldownTime>
+        <power>13</power>
+        <cooldownTime>2.6</cooldownTime>
       </li>
       <li>
         <label>point</label>
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>21.5</power>
-        <cooldownTime>2</cooldownTime>
+        <power>28</power>
+        <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
     <recipeMaker>

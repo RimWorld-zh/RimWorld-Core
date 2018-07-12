@@ -13,11 +13,12 @@
     </statBases>
     <tools>
       <li>
+        <label>venom-fangs</label>
         <capacities>
           <li>ToxicBite</li>
         </capacities>
-        <power>10</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -33,8 +34,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>1</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
@@ -154,8 +155,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1.3</cooldownTime>
+        <power>3.6</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
       </li>
       <li>
@@ -163,16 +164,17 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1.3</cooldownTime>
+        <power>3.6</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
       </li>
       <li>
+        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -180,8 +182,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>1</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>2</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>
@@ -305,8 +307,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.2</commonality>

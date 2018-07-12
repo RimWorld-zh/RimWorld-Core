@@ -15,7 +15,7 @@
     <label>beak</label>
     <hitPoints>20</hitPoints>
     <frostbiteVulnerability>1.5</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -31,7 +31,7 @@
     <defName>InsectHead</defName>
     <label>head</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
   </BodyPartDef>
 
@@ -59,7 +59,7 @@
     <defName>SnakeMouth</defName>
     <label>mouth</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>true</skinCovered>
     <tags>
       <li>EatingSource</li>
@@ -86,7 +86,7 @@
     <defName>InsectNostril</defName>
     <label>nostril</label>
     <hitPoints>10</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
   </BodyPartDef>
 
@@ -94,7 +94,7 @@
     <defName>InsectMouth</defName>
     <label>mouth</label>
     <hitPoints>10</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <tags>
       <li>EatingSource</li>
@@ -106,7 +106,7 @@
     <defName>AnimalJaw</defName>
     <label>jaw</label>
     <hitPoints>10</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -135,7 +135,7 @@
     <label>antenna</label>
     <hitPoints>10</hitPoints>
     <frostbiteVulnerability>10</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <alive>false</alive>
     <bleedRate>0.3</bleedRate>
@@ -145,7 +145,7 @@
     <defName>Pronotum</defName>
     <label>pronotum</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -160,7 +160,7 @@
     <defName>Shell</defName>
     <label>shell</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <alive>false</alive>
     <bleedRate>0</bleedRate>
@@ -172,7 +172,7 @@
     <label>elytra</label>
     <hitPoints>30</hitPoints>
     <frostbiteVulnerability>0.5</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <alive>false</alive>
     <bleedRate>0</bleedRate>
@@ -184,7 +184,7 @@
     <hitPoints>20</hitPoints>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <alive>false</alive>
     <bleedRate>0</bleedRate>
   </BodyPartDef>
@@ -206,7 +206,7 @@
     <hitPoints>20</hitPoints>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <alive>false</alive>
     <bleedRate>0</bleedRate>
   </BodyPartDef>
@@ -215,7 +215,7 @@
     <defName>HeadClaw</defName>
     <label>head claw</label>
     <hitPoints>15</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -234,7 +234,7 @@
     <defName>TurtleShell</defName>
     <label>shell</label>
     <hitPoints>50</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <alive>false</alive>
@@ -247,7 +247,7 @@
     <hitPoints>20</hitPoints>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <alive>false</alive>
     <bleedRate>0</bleedRate>
   </BodyPartDef>
@@ -260,7 +260,7 @@
     <solid>true</solid>
     <alive>false</alive>
     <bleedRate>0</bleedRate>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <tags>
       <li>ManipulationLimbCore</li>
     </tags>
@@ -273,7 +273,7 @@
     <label>leg</label>
     <hitPoints>20</hitPoints>
     <frostbiteVulnerability>0.1</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <tags>
       <li>MovingLimbCore</li>
@@ -305,7 +305,7 @@
     <alive>false</alive>
     <bleedRate>0</bleedRate>
     <solid>true</solid>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <tags>
       <li>MovingLimbSegment</li>
     </tags>
@@ -318,7 +318,7 @@
     <solid>true</solid>
     <alive>false</alive>
     <bleedRate>0</bleedRate>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <frostbiteVulnerability>10</frostbiteVulnerability>
     <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>

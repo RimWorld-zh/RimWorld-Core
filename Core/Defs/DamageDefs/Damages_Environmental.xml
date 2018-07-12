@@ -53,6 +53,7 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Tornado</impactSoundType>
     <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
   </DamageDef>
 
 </Defs>

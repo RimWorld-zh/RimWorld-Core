@@ -47,7 +47,6 @@
 		<statBases>
 			<Mass>1</Mass>
 			<RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.2</Weapon_Bulk>
       <WorkToMake>12000</WorkToMake>
     </statBases>
     <costList>
@@ -119,7 +118,6 @@
     <statBases>
       <Mass>1</Mass>
       <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.2</Weapon_Bulk>
       <WorkToMake>6000</WorkToMake>
     </statBases>
     <costList>
@@ -191,7 +189,6 @@
     <statBases>
       <Mass>1</Mass>
       <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.2</Weapon_Bulk>
       <WorkToMake>24000</WorkToMake>
     </statBases>
     <costList>

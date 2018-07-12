@@ -14,7 +14,6 @@
       <MarketValue>1000</MarketValue>
       <Mass>7</Mass>
       <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <techLevel>Spacer</techLevel>
     <weaponTags>
@@ -33,7 +32,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Rocket</defaultProjectile>
         <forcedMissRadius>2.9</forcedMissRadius>
-        <warmupTime>5.0</warmupTime>
+        <warmupTime>4.5</warmupTime>
         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
         <range>35.9</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
@@ -54,8 +53,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7.6</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
     <comps>
@@ -97,7 +96,6 @@
       <MarketValue>1000</MarketValue>
       <Mass>8</Mass>
       <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
     <weaponTags>
       <li>Gun</li>
@@ -134,8 +132,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7.6</power>
-        <cooldownTime>1.9</cooldownTime>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
     <comps>

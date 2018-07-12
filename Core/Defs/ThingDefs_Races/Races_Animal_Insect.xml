@@ -33,11 +33,12 @@
     </statBases>
     <tools>
       <li>
+        <label>mandibles</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>2.9</cooldownTime>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -46,7 +47,7 @@
           <li>Blunt</li>
         </capacities>
         <power>4</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.1</commonality>
@@ -151,11 +152,12 @@
     </statBases>
     <tools>
       <li>
+        <label>head claw</label>
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>2.9</cooldownTime>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
       </li>
       <li>
@@ -163,8 +165,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>5</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.1</commonality>
@@ -270,11 +272,12 @@
     </statBases>
     <tools>
       <li>
+        <label>head claw</label>
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>13</power>
-        <cooldownTime>2.9</cooldownTime>
+        <power>12</power>
+        <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
       </li>
       <li>
@@ -282,8 +285,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <commonality>0.1</commonality>

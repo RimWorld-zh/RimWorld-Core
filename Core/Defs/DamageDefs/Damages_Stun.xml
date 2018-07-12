@@ -14,7 +14,7 @@
 		<defaultDamage>20</defaultDamage>
 		<explosionCellMote>Mote_BlastDry</explosionCellMote>
 		<soundExplosion>Explosion_Stun</soundExplosion>
-    <combatLogRules>Damage_Stun</combatLogRules>
+		<combatLogRules>Damage_Stun</combatLogRules>
 	</DamageDef>
 
 	<DamageDef ParentName="StunBase">
@@ -30,7 +30,7 @@
 		<explosionColorEdge>(0.8, 0.8, 0.8, 0.8)</explosionColorEdge>
 		<explosionInteriorMote>Mote_ElectricalSpark</explosionInteriorMote>
 		<soundExplosion>Explosion_EMP</soundExplosion>
-    <combatLogRules>Damage_EMP</combatLogRules>
+		<combatLogRules>Damage_EMP</combatLogRules>
 	</DamageDef>
 	
 </Defs>

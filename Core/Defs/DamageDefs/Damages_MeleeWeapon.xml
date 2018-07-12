@@ -13,6 +13,7 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>
     <cutExtraTargetsCurve>
       <points>
         <li>0, 0</li>
@@ -36,6 +37,7 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Blunt</armorCategory>
+    <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
   </DamageDef>
 
   <DamageDef Name="BluntBase">
@@ -50,6 +52,8 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Blunt</armorCategory>
+    <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
+    <bluntStunDuration>2.0</bluntStunDuration>
     <bluntInnerHitChance>0.4</bluntInnerHitChance>
     <bluntInnerHitDamageFractionToConvert>
       <min>0.1</min>
@@ -93,6 +97,7 @@
     <armorCategory>Sharp</armorCategory>
     <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>
     <stabPierceBonus>2.5</stabPierceBonus>
+    <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
   </DamageDef>
 
   <DamageDef>
@@ -106,6 +111,7 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
     <scratchSplitPercentage>0.67</scratchSplitPercentage>
   </DamageDef>
 
@@ -120,7 +126,7 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
-    <biteDamageMultiplier>1.25</biteDamageMultiplier>
+    <overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>
   </DamageDef>
 
   <DamageDef ParentName="Bite">

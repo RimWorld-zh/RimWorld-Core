@@ -8,7 +8,7 @@
   <ResearchProjectDef>
     <defName>PsychoidBrewing</defName>
     <label>psychoid brewing</label>
-    <description>Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea.</description>
+    <description>Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove.</description>
     <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>

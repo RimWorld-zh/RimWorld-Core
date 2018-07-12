@@ -23,7 +23,6 @@
           <li>KickMaterialInEyes</li>
         </capacities>
         <hediff>WaterInEyes</hediff>
-        <power>0.6</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
@@ -146,7 +145,6 @@
           <li>KickMaterialInEyes</li>
         </capacities>
         <hediff>MudInEyes</hediff>
-        <power>1</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>

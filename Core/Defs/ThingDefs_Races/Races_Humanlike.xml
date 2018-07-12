@@ -49,6 +49,16 @@
         </surpriseAttack>
       </li>
       <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <commonality>0.07</commonality>
+      </li>
+      <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>

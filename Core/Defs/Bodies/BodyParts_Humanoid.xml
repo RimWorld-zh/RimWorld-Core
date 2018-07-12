@@ -76,7 +76,7 @@
     <defName>Clavicle</defName>
     <label>clavicle</label>
     <hitPoints>25</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -89,7 +89,7 @@
     <defName>Sternum</defName>
     <label>sternum</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -102,7 +102,7 @@
     <defName>Humerus</defName>
     <label>humerus</label>
     <hitPoints>25</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -115,7 +115,7 @@
     <defName>Radius</defName>
     <label>radius</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -128,7 +128,7 @@
     <defName>Pelvis</defName>
     <label>pelvis</label>
     <hitPoints>25</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -141,7 +141,7 @@
     <defName>Femur</defName>
     <label>femur</label>
     <hitPoints>25</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -154,7 +154,7 @@
     <defName>Tibia</defName>
     <label>tibia</label>
     <hitPoints>25</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>

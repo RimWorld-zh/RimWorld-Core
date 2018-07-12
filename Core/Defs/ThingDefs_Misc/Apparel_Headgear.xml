@@ -65,15 +65,15 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.9,0.54,0.15,1)</only>
+          <only>(0.9,0.54,0.15,1)</only>
         </li>
         <li>
           <weight>15</weight>
-          <only>RGBA(0.9,0.6,0.18,1)</only>
+          <only>(0.9,0.6,0.18,1)</only>
         </li>
         <li>
           <weight>20</weight>
-          <only>RGBA(0.9,0.42,0.23,1)</only>
+          <only>(0.9,0.42,0.23,1)</only>
         </li>
       </options>
     </colorGenerator>
@@ -197,20 +197,20 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>(0.33,0.33,0.33,1)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
+          <only>(0.65,0.65,0.65,1)</only>
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.9,0.9,0.9,1)</only>
+          <only>(0.9,0.9,0.9,1)</only>
         </li>
       </options>
     </colorGenerator>
@@ -416,20 +416,20 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>(0.33,0.33,0.33,1)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
+          <only>(0.65,0.65,0.65,1)</only>
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.9,0.9,0.9,1)</only>
+          <only>(0.9,0.9,0.9,1)</only>
         </li>
       </options>
     </colorGenerator>
@@ -491,20 +491,20 @@
       <options>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.33,0.33,0.33,1)</only>
+          <only>(0.33,0.33,0.33,1)</only>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.65,0.65,0.65,1)</only>
+          <only>(0.65,0.65,0.65,1)</only>
         </li>
         <li>
           <weight>6</weight>
-          <min>RGBA(0.3,0.3,0.3,1)</min>
-          <max>RGBA(0.5,0.5,0.5,1)</max>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
         </li>
         <li>
           <weight>10</weight>
-          <only>RGBA(0.9,0.9,0.9,1)</only>
+          <only>(0.9,0.9,0.9,1)</only>
         </li>
       </options>
     </colorGenerator>
@@ -555,20 +555,20 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>RGBA(0.33,0.33,0.33,1)</only>
+					<only>(0.33,0.33,0.33,1)</only>
 				</li>
 				<li>
 					<weight>10</weight>
-					<only>RGBA(0.65,0.65,0.65,1)</only>
+					<only>(0.65,0.65,0.65,1)</only>
 				</li>
 				<li>
 					<weight>6</weight>
-					<min>RGBA(0.3,0.3,0.3,1)</min>
-					<max>RGBA(0.5,0.5,0.5,1)</max>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.5,0.5,0.5,1)</max>
 				</li>
 				<li>
 					<weight>10</weight>
-					<only>RGBA(0.9,0.9,0.9,1)</only>
+					<only>(0.9,0.9,0.9,1)</only>
 				</li>
 			</options>
 		</colorGenerator>

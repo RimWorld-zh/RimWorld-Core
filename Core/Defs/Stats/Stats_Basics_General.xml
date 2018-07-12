@@ -192,36 +192,48 @@
     </parts>
   </StatDef>
   
-    <StatDef>
-        <defName>Nutrition</defName>
-        <label>nutrition</label>
-        <description>How nutritious this food is.</description>
-        <category>BasicsNonPawn</category>
-        <defaultBaseValue>0</defaultBaseValue>
-        <minValue>0</minValue>
-        <showIfUndefined>false</showIfUndefined>
-        <toStringStyle>FloatTwo</toStringStyle>
-        <parts>
-            <li Class="StatPart_BodySize" />
-            <li Class="StatPart_NaturalNotMissingBodyPartsCoverage" />
-            <li Class="StatPart_PlantGrowthNutritionFactor" />
-            <li Class="StatPart_IsFlesh" />
-            <li Class="StatPart_IsCorpseFresh" />
-        </parts>
-    </StatDef>
+  <StatDef>
+    <defName>Nutrition</defName>
+    <label>nutrition</label>
+    <description>How nutritious this food is.</description>
+    <category>BasicsNonPawn</category>
+    <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
+    <showIfUndefined>false</showIfUndefined>
+    <toStringStyle>FloatTwo</toStringStyle>
+    <parts>
+      <li Class="StatPart_BodySize" />
+      <li Class="StatPart_NaturalNotMissingBodyPartsCoverage" />
+      <li Class="StatPart_PlantGrowthNutritionFactor" />
+      <li Class="StatPart_IsFlesh" />
+      <li Class="StatPart_IsCorpseFresh" />
+    </parts>
+  </StatDef>
 
-    <StatDef>
-        <defName>FoodPoisonChanceFixedHuman</defName>
-        <label>food poison chance</label>
-        <description>The chance this food will cause food poisoning.</description>
-        <category>BasicsNonPawn</category>
-        <defaultBaseValue>0</defaultBaseValue>
-        <minValue>0</minValue>
-        <hideAtValue>0</hideAtValue>
-        <toStringStyle>PercentZero</toStringStyle>
-        <parts>
-            <li Class="StatPart_MaxChanceIfRotting" />
-        </parts>
-    </StatDef>
+  <StatDef>
+    <defName>FoodPoisonChanceFixedHuman</defName>
+    <label>food poison chance</label>
+    <description>The chance this food will cause food poisoning.</description>
+    <category>BasicsNonPawn</category>
+    <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
+    <hideAtValue>0</hideAtValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <parts>
+      <li Class="StatPart_MaxChanceIfRotting" />
+    </parts>
+  </StatDef>
+
+	<StatDef>
+    <defName>ShootingAccuracyTurret</defName>
+    <label>shooting accuracy</label>
+    <description>Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target.</description>
+    <category>BasicsNonPawn</category>
+		<workerClass>StatWorker_ShootingAccuracy</workerClass>
+    <defaultBaseValue>0.96</defaultBaseValue>
+    <toStringStyle>PercentTwo</toStringStyle>
+		<toStringStyleUnfinalized>FloatOne</toStringStyleUnfinalized>
+    <showIfUndefined>false</showIfUndefined>
+	</StatDef>
 
 </Defs>

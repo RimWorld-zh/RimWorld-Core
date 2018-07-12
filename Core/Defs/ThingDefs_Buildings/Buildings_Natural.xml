@@ -93,7 +93,7 @@
       <mineableYield>35</mineableYield>
       <mineableScatterCommonality>1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
-        <min>20</min>
+        <min>30</min>
         <max>40</max>
       </mineableScatterLumpSizeRange>
     </building>
@@ -332,13 +332,6 @@
       <li Class="CompProperties_HeatPusher">
         <heatPerSecond>6</heatPerSecond>
         <heatPushMaxTemperature>38</heatPushMaxTemperature>
-      </li>
-      <li Class="CompProperties_TemperatureDamaged">
-        <safeTemperatureRange>
-          <min>-20</min>
-          <max>9999</max>
-        </safeTemperatureRange>
-        <damagePerTickRare>8</damagePerTickRare>
       </li>
       <li Class="CompProperties_SpawnerFilth">
         <filthDef>Filth_Slime</filthDef>

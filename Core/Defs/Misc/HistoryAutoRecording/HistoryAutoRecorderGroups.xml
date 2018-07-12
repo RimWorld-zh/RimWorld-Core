@@ -5,32 +5,40 @@
     <defName>Wealth</defName>
     <label>wealth</label>
     <historyAutoRecorderDefs>
-	    <li>Wealth_Total</li>
-	    <li>Wealth_Items</li>
-	    <li>Wealth_Buildings</li>
-	    <li>Wealth_TameAnimals</li>
+      <li>Wealth_Total</li>
+      <li>Wealth_Items</li>
+      <li>Wealth_Buildings</li>
+      <li>Wealth_TameAnimals</li>
     </historyAutoRecorderDefs>
   </HistoryAutoRecorderGroupDef>
-  
+
   <HistoryAutoRecorderGroupDef>
     <defName>Population</defName>
     <label>population</label>
-	<integersOnly>true</integersOnly>
-	<historyAutoRecorderDefs>
-	  <li>FreeColonists</li>
-	  <li>Prisoners</li>
-	</historyAutoRecorderDefs>
+    <integersOnly>true</integersOnly>
+    <historyAutoRecorderDefs>
+      <li>FreeColonists</li>
+      <li>Prisoners</li>
+    </historyAutoRecorderDefs>
   </HistoryAutoRecorderGroupDef>
-  
+
   <HistoryAutoRecorderGroupDef>
     <defName>ColonistMood</defName>
     <label>colonist mood</label>
-	<useFixedScale>true</useFixedScale>
-	<fixedScale>(0, 100)</fixedScale>
-	<historyAutoRecorderDefs>
-	  <li>ColonistMood</li>
-	  <!--<li>ColonistFear</li>-->
-	</historyAutoRecorderDefs>
+    <useFixedScale>true</useFixedScale>
+    <fixedScale>(0, 100)</fixedScale>
+    <historyAutoRecorderDefs>
+      <li>ColonistMood</li>
+    </historyAutoRecorderDefs>
   </HistoryAutoRecorderGroupDef>
-  
+
+  <HistoryAutoRecorderGroupDef>
+    <defName>Debug</defName>
+    <label>debug</label>
+    <historyAutoRecorderDefs>
+      <li>RampUp</li>
+    </historyAutoRecorderDefs>
+    <devModeOnly>true</devModeOnly>
+  </HistoryAutoRecorderGroupDef>
+
 </Defs>

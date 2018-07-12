@@ -5,7 +5,7 @@
     <defName>Electricity</defName>
     <label>electricity</label>
     <description>Harness the power of electricity for a hundred different tasks.</description>
-    <baseCost>1200</baseCost>
+    <baseCost>1600</baseCost>
     <techLevel>Industrial</techLevel>
     <tags>
       <li>ClassicStart</li>
@@ -138,6 +138,19 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
+    <defName>TubeTelevision</defName>
+    <label>tube television</label>
+    <description>Produce tube televisions for recreational watching.</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>1.83</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>PackagedSurvivalMeal</defName>
     <label>packaged survival meal</label>
     <description>Produce packaged survival meals which never go bad. Great for traveling.</description>
@@ -193,7 +206,7 @@
     <defName>GeothermalPower</defName>
     <label>geothermal power</label>
     <description>Build geothermal power plants on top of steam geysers, for uninterrupted power.</description>
-    <baseCost>2000</baseCost>
+    <baseCost>3200</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
@@ -203,13 +216,27 @@
     <researchViewY>2.5</researchViewY>
   </ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>SterileMaterials</defName>
+    <label>sterile materials</label>
+    <description>Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>7</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
   <!--===================== Machining and its children sub-tier ======================-->
 
   <ResearchProjectDef>
     <defName>Machining</defName>
     <label>machining</label>
     <description>Build machining tables to craft guns, grenades, flak armor, and to disassemble dead mechanoids for resources.</description>
-    <baseCost>700</baseCost>
+    <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
@@ -314,7 +341,7 @@
     <defName>GunTurrets</defName>
     <label>gun turrets</label>
     <description>Produce simple automated gun turrets.</description>
-    <baseCost>300</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BlowbackOperation</li>
@@ -341,7 +368,7 @@
     <defName>HeavyTurrets</defName>
     <label>autocannon turret</label>
     <description>Produce the heavy, long-ranged autocannon turret.</description>
-    <baseCost>1200</baseCost>
+    <baseCost>1600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>GunTurrets</li>
@@ -356,7 +383,7 @@
     <defName>MultibarrelWeapons</defName>
     <label>multibarrel weapons</label>
     <description>Assemble miniguns.</description>
-    <baseCost>2400</baseCost>
+    <baseCost>2600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>GasOperation</li>
@@ -372,8 +399,8 @@
   <ResearchProjectDef>
     <defName>SniperTurret</defName>
     <label>sniper turret</label>
-    <description>Produce the extremely long-ranged sniper turret.</description>
-    <baseCost>1200</baseCost>
+    <description>Produce the extremely long-ranged sniper cannon turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range.</description>
+    <baseCost>1800</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>HeavyTurrets</li>

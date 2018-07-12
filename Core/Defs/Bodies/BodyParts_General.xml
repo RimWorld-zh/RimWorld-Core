@@ -15,7 +15,7 @@
     <defName>Skull</defName>
     <label>skull</label>
     <hitPoints>30</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <canSuggestAmputation>false</canSuggestAmputation>
@@ -26,7 +26,8 @@
     <defName>Brain</defName>
     <label>brain</label>
     <hitPoints>10</hitPoints>
-    <permanentInjuryBaseChance>1</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
     <skinCovered>false</skinCovered>
     <tags>
       <li>ConsciousnessSource</li>
@@ -38,7 +39,8 @@
     <defName>Eye</defName>
     <label>eye</label>
     <hitPoints>10</hitPoints>
-    <permanentInjuryBaseChance>0.5</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>40</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
     <skinCovered>false</skinCovered>
     <socketed>true</socketed>
     <beautyRelated>true</beautyRelated>
@@ -74,7 +76,7 @@
     <beautyRelated>true</beautyRelated>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -82,7 +84,7 @@
     <label>jaw</label>
     <hitPoints>20</hitPoints>
     <frostbiteVulnerability>2</frostbiteVulnerability>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <beautyRelated>true</beautyRelated>
@@ -112,7 +114,7 @@
     <defName>Ribcage</defName>
     <label>ribcage</label>
     <hitPoints>25</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -125,7 +127,7 @@
     <defName>Spine</defName>
     <label>spine</label>
     <hitPoints>20</hitPoints>
-    <permanentInjuryBaseChance>0</permanentInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
