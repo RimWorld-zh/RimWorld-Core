@@ -39,7 +39,7 @@
     <defName>Eye</defName>
     <label>eye</label>
     <hitPoints>10</hitPoints>
-    <permanentInjuryChanceFactor>40</permanentInjuryChanceFactor>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
     <delicate>true</delicate>
     <skinCovered>false</skinCovered>
     <socketed>true</socketed>

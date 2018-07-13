@@ -103,7 +103,7 @@
   <ResearchProjectDef>
     <defName>LongRangeMineralScanner</defName>
     <label>long-range mineral scanner</label>
-    <description>Construct long-range mineral scanners to detect precious minerals like gold or jade in across the planet. Requires advanced components to construct.</description>
+    <description>Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct.</description>
     <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>

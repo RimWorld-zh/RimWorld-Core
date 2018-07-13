@@ -134,7 +134,6 @@
   <EquippedBy>equipped by {0}</EquippedBy>
   <QuestTargetDestroyInspectString>{0} wants this destroyed.\n    Reward: {1}.</QuestTargetDestroyInspectString>
   <WorldObjectTimeout>Time left: {0}</WorldObjectTimeout>
-  <LongRangeMineralScannerEfficiency>Efficiency: {0}</LongRangeMineralScannerEfficiency>
   <ItemStashContents>Contents: {0}</ItemStashContents>
   <ClickToSortByThisColumn>Click to sort by this column.</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift + click: Increase priority\nShift + right click: Decrease priority</WorkPriorityShiftClickTip>
@@ -175,6 +174,7 @@
   <Caravan>Caravan</Caravan>
   <HiddenOrNoSitePartDescription>there may be danger there</HiddenOrNoSitePartDescription>
   <PreciousLumpLabel>lump of {0}</PreciousLumpLabel>
+  <NoActiveResearchProjectToFinish>no active research project</NoActiveResearchProjectToFinish>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Contains {0} / {1} wort.</ContainsWort>

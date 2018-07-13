@@ -24,6 +24,7 @@
 		<foodPoisonChanceFactor>0.3</foodPoisonChanceFactor>
 		<maintenanceCostFactor>0.5</maintenanceCostFactor>
 		<enemyDeathOnDownedChanceFactor>0.5</enemyDeathOnDownedChanceFactor>
+		<adaptationGrowthRateFactorOverZero>0</adaptationGrowthRateFactorOverZero>
 	</DifficultyDef>
 
 	<DifficultyDef>
@@ -45,6 +46,7 @@
 		<foodPoisonChanceFactor>0.5</foodPoisonChanceFactor>
 		<maintenanceCostFactor>0.5</maintenanceCostFactor>
 		<enemyDeathOnDownedChanceFactor>0.90</enemyDeathOnDownedChanceFactor>
+		<adaptationGrowthRateFactorOverZero>0.25</adaptationGrowthRateFactorOverZero>
 	</DifficultyDef>
 
 	<DifficultyDef>
@@ -65,6 +67,7 @@
 		<foodPoisonChanceFactor>0.75</foodPoisonChanceFactor>
 		<maintenanceCostFactor>0.75</maintenanceCostFactor>
 		<enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
+		<adaptationGrowthRateFactorOverZero>0.75</adaptationGrowthRateFactorOverZero>
 	</DifficultyDef>
 
 	<DifficultyDef>
@@ -84,6 +87,7 @@
 		<foodPoisonChanceFactor>1</foodPoisonChanceFactor>
 		<maintenanceCostFactor>1</maintenanceCostFactor>
 		<enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
+		<adaptationGrowthRateFactorOverZero>1</adaptationGrowthRateFactorOverZero>
 	</DifficultyDef>
 
 	<DifficultyDef>
@@ -104,6 +108,7 @@
 		<foodPoisonChanceFactor>1.1</foodPoisonChanceFactor>
 		<maintenanceCostFactor>1</maintenanceCostFactor>
 		<enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
+		<adaptationGrowthRateFactorOverZero>1</adaptationGrowthRateFactorOverZero>
 	</DifficultyDef>
 
 	<DifficultyDef>
@@ -125,6 +130,7 @@
 		<foodPoisonChanceFactor>1.2</foodPoisonChanceFactor>
 		<maintenanceCostFactor>1</maintenanceCostFactor>
 		<enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
+		<adaptationGrowthRateFactorOverZero>1</adaptationGrowthRateFactorOverZero>
 	</DifficultyDef>
 	
 </Defs>

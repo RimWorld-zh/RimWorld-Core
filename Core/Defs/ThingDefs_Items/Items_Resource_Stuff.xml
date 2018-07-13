@@ -295,7 +295,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>Uranium</defName>
     <label>uranium</label>
-    <description>An dark, heavy metal. While it is best known as a fuel for nuclear devices, its extreme density and hardness also make it good for making certain primitive weapons and armor.</description>
+    <description>An dark, heavy metal. While it is best known as a fuel for nuclear devices, its extreme density and hardness also make it good for making certain weapons, armor, and ammunition.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Uranium</texPath>
       <graphicClass>Graphic_Single</graphicClass>

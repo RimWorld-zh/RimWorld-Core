@@ -32,12 +32,16 @@
     </historyAutoRecorderDefs>
   </HistoryAutoRecorderGroupDef>
 
+  <!-- Debug -->
+
   <HistoryAutoRecorderGroupDef>
     <defName>Debug</defName>
     <label>debug</label>
     <historyAutoRecorderDefs>
-      <li>RampUp</li>
+      <li>Adaptation</li>
+      <li>ThreatPoints</li>
     </historyAutoRecorderDefs>
+    <onlyPositiveValues>false</onlyPositiveValues>
     <devModeOnly>true</devModeOnly>
   </HistoryAutoRecorderGroupDef>
 

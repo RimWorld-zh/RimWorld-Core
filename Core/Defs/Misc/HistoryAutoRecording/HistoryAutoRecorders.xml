@@ -64,15 +64,24 @@
     <graphLabelY>Percent</graphLabelY>
   </HistoryAutoRecorderDef>
 
-  <!-- Dev mode recorders -->
+  <!-- Debug -->
 
   <HistoryAutoRecorderDef>
-    <defName>RampUp</defName>
-    <label>ramp-up</label>
+    <defName>Adaptation</defName>
+    <label>adaptation</label>
     <graphColor>(0, 1, 0.5, 1)</graphColor>
     <recordTicksFrequency>60000</recordTicksFrequency>
-    <workerClass>HistoryAutoRecorderWorker_RampUp</workerClass>
+    <workerClass>HistoryAutoRecorderWorker_Adaptation</workerClass>
     <graphLabelY>Days</graphLabelY>
+  </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
+    <defName>ThreatPoints</defName>
+    <label>fun points / 10</label>
+    <graphColor>(1, 0.5, 0.5, 1)</graphColor>
+    <recordTicksFrequency>30000</recordTicksFrequency>
+    <workerClass>HistoryAutoRecorderWorker_ThreatPoints</workerClass>
+    <graphLabelY>Points</graphLabelY>
   </HistoryAutoRecorderDef>
 
 </Defs>

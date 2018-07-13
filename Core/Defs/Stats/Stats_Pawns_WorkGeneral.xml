@@ -140,7 +140,7 @@
   <StatDef>
     <defName>ResearchSpeed</defName>
     <label>research speed</label>
-    <description>How fast this person performs research.</description>
+    <description>How fast this person performs research and how quickly they can find things using scanning equipment.</description>
     <category>PawnWork</category>
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.1</minValue>

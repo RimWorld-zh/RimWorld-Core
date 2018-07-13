@@ -295,8 +295,8 @@
     <description>Automatically detects precious minerals like gold or jade in destinations across the planet. The lumps are found on average once per 30 days within a radius of 30 planet tiles. Building more than one scanner in the same or nearby areas has little to no effect.</description>
     <graphicData>
       <texPath>Things/Building/Misc/LongRangeMineralScanner</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2, 2)</drawSize>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3, 3)</drawSize>
       <shadowData>
         <volume>(1.4, 0.4, 1.4)</volume>
         <offset>(0,0,-0.1)</offset>
@@ -310,7 +310,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>200</basePowerConsumption>
+        <basePowerConsumption>500</basePowerConsumption>
       </li>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Flickable"/>
@@ -321,19 +321,20 @@
     </placeWorkers>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
+      <MaxHitPoints>250</MaxHitPoints>
       <WorkToBuild>1000</WorkToBuild>
       <Flammability>0.5</Flammability>
       <Beauty>-8</Beauty>
     </statBases>
-    <tickerType>Rare</tickerType>
     <fillPercent>0.40</fillPercent>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <pathCost>25</pathCost>
     <designationCategory>Misc</designationCategory>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
     <canOverlapZones>false</canOverlapZones>
-    <size>(2, 2)</size>
+    <size>(3, 3)</size>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <researchPrerequisites>
       <li>LongRangeMineralScanner</li>

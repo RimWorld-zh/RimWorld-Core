@@ -1222,6 +1222,23 @@
     <workType>Research</workType>
     <verb>research</verb>
     <gerund>researching at</gerund>
+    <priorityInType>100</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>Scan</defName>
+    <label>operate scanner</label>
+    <giverClass>WorkGiver_OperateScanner</giverClass>
+    <workType>Research</workType>
+    <priorityInType>50</priorityInType>
+    <verb>scan</verb>
+    <gerund>scanning at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
   </WorkGiverDef>
 
 </Defs>

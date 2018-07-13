@@ -167,7 +167,7 @@
     <defName>TechprofSubpersonaCore</defName>
     <label>techprof subpersona core</label>
     <thingClass>ThingWithComps</thingClass>
-    <description>A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you one technology you don't know, instantly and for free. Can only be used once.</description>
+    <description>A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you the technology you're currently researching, instantly and for free. Can only be used once.</description>
     <graphicData>
       <texPath>Things/Item/Special/SubpersonaCoreTechprof</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -153,6 +153,9 @@
   <CommandSelectPlantToGrow>Plant: {0}</CommandSelectPlantToGrow>
   <CommandSelectPlantToGrowDesc>Determine which plant should be sown here.</CommandSelectPlantToGrowDesc>
   
+  <!-- Select mineral to scan for (long-range mineral scanner) -->
+  <CommandSelectMineralToScanFor>Tuned to</CommandSelectMineralToScanFor>
+
   <!-- Build copy -->
   <CommandBuildCopy>Build copy</CommandBuildCopy>
   <CommandBuildCopyDesc>Build a copy of this building.</CommandBuildCopyDesc>

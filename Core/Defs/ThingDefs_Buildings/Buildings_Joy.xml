@@ -54,11 +54,11 @@
 			</li>
 		</comps>
   </ThingDef>
-  
+
   <ThingDef ParentName="BuildingBase">
     <defName>HoopstoneRing</defName>
     <label>hoopstone ring</label>
-    <description>A simple ancient game played with a stones and a large ring in the ground. Players try to toss stones through the ring from a distance. It's relaxing, and trains shooting skills.</description>
+    <description>A simple ancient game played with stones and a large ring in the ground. Players try to toss stones through the ring from a distance. It's relaxing, and trains shooting skills.</description>
     <graphicData>
       <texPath>Things/Building/Joy/HoopstoneRing</texPath>
       <graphicClass>Graphic_Single</graphicClass>

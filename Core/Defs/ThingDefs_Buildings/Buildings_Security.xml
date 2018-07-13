@@ -59,7 +59,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>Turret_MiniTurret</defName>
     <label>mini-turret</label>
-    <description>A small, short-ranged automatic turret. Requires steel to replace its barrel after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
+    <description>A portable automatic turret. Requires steel to replace its barrel after heavy use. It is relatively fragile, and may explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
       <texPath>Things/Building/Security/TurretMini_Base</texPath>
@@ -83,7 +83,7 @@
       <li>BuildingsSecurity</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>90</MaxHitPoints>
       <Flammability>0.7</Flammability>
       <WorkToBuild>3500</WorkToBuild>
       <Mass>100</Mass>
@@ -118,7 +118,7 @@
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <atomicFueling>true</atomicFueling>
-        <fuelMultiplier>2</fuelMultiplier>
+        <fuelMultiplier>1.5</fuelMultiplier>
         <factorByDifficulty>true</factorByDifficulty>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
@@ -144,7 +144,7 @@
     <building>
 			<ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_MiniTurret</turretGunDef>
-      <turretBurstCooldownTime>5.00</turretBurstCooldownTime>
+      <turretBurstCooldownTime>4.8</turretBurstCooldownTime>
       <turretTopGraphicPath>Things/Building/Security/TurretMini_Top</turretTopGraphicPath>
     </building>
     <placeWorkers>
@@ -188,7 +188,7 @@
       <AccuracyShort>0.64</AccuracyShort>
       <AccuracyMedium>0.41</AccuracyMedium>
       <AccuracyLong>0.22</AccuracyLong>
-      <RangedWeapon_Cooldown>5.00</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>4.8</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>40</Mass>
       <Flammability>0</Flammability>

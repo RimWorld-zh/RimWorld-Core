@@ -249,6 +249,13 @@
   </JobDef>
 
   <JobDef>
+    <defName>OperateScanner</defName>
+    <driverClass>JobDriver_OperateScanner</driverClass>
+    <reportString>scanning at TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
     <defName>Clean</defName>
     <driverClass>JobDriver_CleanFilth</driverClass>
     <reportString>cleaning TargetA.</reportString>

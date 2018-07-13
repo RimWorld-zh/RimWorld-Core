@@ -4,35 +4,49 @@
 	<StorytellerDef Name="BaseStoryteller" Abstract="True">
 		<populationIntentFromTimeCurve>
 			<points>
-				<li>0, 0.05</li>
-				<li>5, 0.15</li>
-				<li>10, 1</li>
+				<li>( 0, 0.05)</li>
+				<li>( 6, 0.15)</li>
+				<li>(15, 1.00)</li>
 			</points>
 		</populationIntentFromTimeCurve>
-    <pointsFactorFromRampDays>
+    <pointsFactorFromAdaptDays>
       <points>
-        <li>(10,  1)</li>
-        <li>(130, 2)</li>
-        <li>(1000,5)</li>
+        <li>(-40, 0.60)</li> <!-- 1% per day -->
+        <li>(  0, 1.00)</li>
+        <li>( 60, 1.60)</li> <!-- 1% per day -->
+        <li>(600, 7.00)</li> <!-- 1% per day -->
       </points>
-    </pointsFactorFromRampDays>
-    <rampDaysLossFromColonistDiedByPostPopulation>
+    </pointsFactorFromAdaptDays>
+    <adaptDaysMin>-60</adaptDaysMin>
+    <adaptDaysGameStartGraceDays>20</adaptDaysGameStartGraceDays>
+    <adaptDaysLossFromColonistLostByPostPopulation>
       <points>
-        <li>(3,  9999)</li>
-        <li>(4,  30)</li>
-        <li>(7,  30)</li>
-        <li>(8,  20)</li>
-        <li>(9,  15)</li>
-        <li>(10, 13)</li>
-        <li>(15, 10)</li>
+        <li>( 0, 30)</li> <!-- 30 days at normal pops; slightly lower at really high pop -->
+        <li>(12, 30)</li>
+        <li>(24, 24)</li>
       </points>
-    </rampDaysLossFromColonistDiedByPostPopulation>
-    <rampDaysLossFromColonistViolentlyDownedByPopulation>
+    </adaptDaysLossFromColonistLostByPostPopulation>
+    <adaptDaysLossFromColonistViolentlyDownedByPopulation>
       <points>
-        <li>(5,  5)</li>
-        <li>(10, 1)</li>
+        <li>(1,  9)</li>
+        <li>(2,  7)</li>
+        <li>(3,  5)</li>
+        <li>(12, 4)</li>
+        <li>(24, 3)</li>
       </points>
-    </rampDaysLossFromColonistViolentlyDownedByPopulation>
+    </adaptDaysLossFromColonistViolentlyDownedByPopulation>
+    <adaptDaysGrowthRateCurve>
+      <points>
+        <li>(-30.01,6)</li>
+        <li>(-30,   3)</li>
+        <li>(-0.01, 3)</li>
+        <li>(0,     1)</li>
+        <li>(59.99, 1)</li>
+        <li>(60,    0.5)</li>
+        <li>(99.99, 0.5)</li>
+        <li>(100,   0.25)</li>
+      </points>
+    </adaptDaysGrowthRateCurve>
     <comps>
       <li Class="StorytellerCompProperties_DeepDrillInfestation">
         <baseMtbDaysPerDrill>20</baseMtbDaysPerDrill>
