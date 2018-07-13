@@ -351,8 +351,8 @@
       <li>Map_PlayerHome</li>
     </targetTypes>
 		<workerClass>IncidentWorker_Alphabeavers</workerClass>
-		<baseChance>1.0</baseChance>
-		<minRefireDays>8</minRefireDays>
+		<baseChance>0.30</baseChance>
+		<minRefireDays>30</minRefireDays>
 	</IncidentDef>
 
 </Defs>

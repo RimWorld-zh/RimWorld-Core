@@ -3,18 +3,21 @@
 
   <ThingSetMakerDef>
     <defName>Reward_StandardByDropPod</defName>
+    <debugParams> <!-- debug only! -->
+      <totalMarketValueRange>
+        <min>1700</min>
+        <max>3200</max>
+      </totalMarketValueRange>
+    </debugParams>
     <root Class="ThingSetMaker_RandomOption">
       <fixedParams>
-        <totalMarketValueRange>
-          <min>1700</min>
-          <max>3200</max>
-        </totalMarketValueRange>
         <qualityGenerator>Reward</qualityGenerator>
       </fixedParams>
       <options>
         <li>
           <weight>1</weight>
           <weightIfPlayerHasNoSuchItem>6</weightIfPlayerHasNoSuchItem>
+          <minMaxTotalMarketValue>2500</minMaxTotalMarketValue>
           <thingSetMaker Class="ThingSetMaker_Count">
             <fixedParams>
               <filter>
@@ -135,12 +138,14 @@
 
   <ThingSetMakerDef>
     <defName>Reward_ItemStashQuestContents</defName>
+    <debugParams> <!-- debug only! -->
+      <totalMarketValueRange>
+        <min>1700</min>
+        <max>3200</max>
+      </totalMarketValueRange>
+    </debugParams>
     <root Class="ThingSetMaker_RandomOption">
       <fixedParams>
-        <totalMarketValueRange>
-          <min>1700</min>
-          <max>3200</max>
-        </totalMarketValueRange>
         <qualityGenerator>Reward</qualityGenerator>
         <maxTotalMass>75</maxTotalMass>
       </fixedParams>
@@ -148,6 +153,7 @@
         <li>
           <weight>1</weight>
           <weightIfPlayerHasNoSuchItem>5</weightIfPlayerHasNoSuchItem>
+          <minMaxTotalMarketValue>2500</minMaxTotalMarketValue>
           <thingSetMaker Class="ThingSetMaker_Count">
             <fixedParams>
               <filter>
@@ -269,7 +275,7 @@
   <ThingSetMakerDef>
     <defName>Reward_TradeRequest</defName>
     <debugParams>
-      <totalMarketValueRange> <!-- Not used by live game code, it's based on request size -->
+      <totalMarketValueRange> <!-- debug only, in-game it's based on the request -->
         <min>1700</min>
         <max>3200</max>
       </totalMarketValueRange>
@@ -495,3 +501,4 @@
   </ThingSetMakerDef>
 
 </Defs>
+

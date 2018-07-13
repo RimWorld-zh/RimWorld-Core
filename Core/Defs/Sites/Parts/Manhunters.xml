@@ -12,6 +12,7 @@
     <arrivedLetter>There are manhunting animals in this area.</arrivedLetter>
     <arrivedLetterLabel>Manhunters</arrivedLetterLabel>
     <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
+    <wantsThreatPoints>true</wantsThreatPoints>
     <tags>
       <li>MineralScannerPreciousLumpThreat</li>
       <li>ItemStashQuestThreat</li>

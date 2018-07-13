@@ -185,7 +185,6 @@
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -344,7 +343,6 @@
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -517,7 +515,6 @@
         </surpriseAttack>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>

@@ -188,7 +188,6 @@
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -335,7 +334,6 @@
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>

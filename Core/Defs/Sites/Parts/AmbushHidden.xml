@@ -10,6 +10,7 @@
 		<siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/Ambush</expandingIconTexture>
     <alwaysHidden>true</alwaysHidden>
+    <wantsThreatPoints>true</wantsThreatPoints>
     <tags>
       <li>MineralScannerPreciousLumpThreat</li>
       <li>ItemStashQuestThreat</li>

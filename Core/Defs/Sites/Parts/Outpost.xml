@@ -17,6 +17,7 @@
     <arrivedLetter>There is an enemy outpost in this area.</arrivedLetter>
     <arrivedLetterLabel>Enemy outpost</arrivedLetterLabel>
     <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
+    <wantsThreatPoints>true</wantsThreatPoints>
     <tags>
       <li>MineralScannerPreciousLumpThreat</li>
       <li>ItemStashQuestThreat</li>

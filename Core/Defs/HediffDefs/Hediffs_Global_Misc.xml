@@ -200,7 +200,7 @@
           </li>
           <li>
             <capacity>BloodFiltration</capacity>
-            <postFactor>0.8</postFactor>
+            <postFactor>0.95</postFactor>
           </li>
           <li>
             <capacity>Eating</capacity>
@@ -228,7 +228,7 @@
           </li>
           <li>
             <capacity>BloodFiltration</capacity>
-            <postFactor>0.6</postFactor>
+            <postFactor>0.85</postFactor>
           </li>
           <li>
             <capacity>Talking</capacity>
@@ -260,7 +260,7 @@
           </li>
           <li>
             <capacity>BloodFiltration</capacity>
-            <postFactor>0.8</postFactor>
+            <postFactor>0.95</postFactor>
           </li>
           <li>
             <capacity>Eating</capacity>

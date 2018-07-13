@@ -206,10 +206,10 @@
         <severityPerDayTended>-0.53</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
-        <immunityPerDayNotSick>-0.4</immunityPerDayNotSick>
-        <immunityPerDaySick>0.55</immunityPerDaySick>
         <severityPerDayNotImmune>0.84</severityPerDayNotImmune>
-        <severityPerDayImmune>-0.7</severityPerDayImmune>
+        <immunityPerDaySick>0.6441</immunityPerDaySick>
+        <severityPerDayImmune>-0.70</severityPerDayImmune>
+        <immunityPerDayNotSick>-0.40</immunityPerDayNotSick>
       </li>
     </comps>
     <stages>
@@ -270,10 +270,10 @@
         <severityPerDayTended>-0.13</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
-        <immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
-        <immunityPerDaySick>0.152</immunityPerDaySick>
         <severityPerDayNotImmune>0.166</severityPerDayNotImmune>
-        <severityPerDayImmune>-0.333</severityPerDayImmune>
+        <immunityPerDaySick>0.1718</immunityPerDaySick>
+        <severityPerDayImmune>-0.33</severityPerDayImmune>
+        <immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
       </li>
     </comps>
     <stages>
@@ -355,10 +355,10 @@
         <severityPerDayTended>-0.13</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
-        <immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
-        <immunityPerDaySick>0.173</immunityPerDaySick>
         <severityPerDayNotImmune>0.166</severityPerDayNotImmune>
-        <severityPerDayImmune>-0.333</severityPerDayImmune>
+        <immunityPerDaySick>0.1955</immunityPerDaySick>
+        <severityPerDayImmune>-0.33</severityPerDayImmune>
+        <immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
       </li>
     </comps>
     <stages>
@@ -440,10 +440,10 @@
         <severityPerDayTended>-0.38</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>0.40</severityPerDayNotImmune>
+        <immunityPerDaySick>0.339</immunityPerDaySick>
+        <severityPerDayImmune>-0.20</severityPerDayImmune>
         <immunityPerDayNotSick>-0.02</immunityPerDayNotSick>
-        <immunityPerDaySick>0.265</immunityPerDaySick>
-        <severityPerDayNotImmune>0.4</severityPerDayNotImmune>
-        <severityPerDayImmune>-0.2</severityPerDayImmune>
       </li>
     </comps>
     <stages>
@@ -532,10 +532,10 @@
         <severityPerDayTended>-0.38</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>0.40</severityPerDayNotImmune>
+        <immunityPerDaySick>0.339</immunityPerDaySick>
+        <severityPerDayImmune>-0.20</severityPerDayImmune>
         <immunityPerDayNotSick>-0.02</immunityPerDayNotSick>
-        <immunityPerDaySick>0.3</immunityPerDaySick>
-        <severityPerDayNotImmune>0.4</severityPerDayNotImmune>
-        <severityPerDayImmune>-0.2</severityPerDayImmune>
       </li>
     </comps>
     <stages>
@@ -626,10 +626,10 @@
         <severityPerDayTended>-0.20</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
-        <immunityPerDayNotSick>-0.03</immunityPerDayNotSick>
-        <immunityPerDaySick>0.11</immunityPerDaySick>
         <severityPerDayNotImmune>0.137</severityPerDayNotImmune>
+        <immunityPerDaySick>0.1243</immunityPerDaySick>
         <severityPerDayImmune>-0.27</severityPerDayImmune>
+        <immunityPerDayNotSick>-0.03</immunityPerDayNotSick>
       </li>
     </comps>
     <stages>
@@ -708,10 +708,10 @@
         <severityPerDayTended>-0.033</severityPerDayTended>
       </li>
       <li Class="HediffCompProperties_Immunizable">
-        <immunityPerDayNotSick>-0.02</immunityPerDayNotSick>
-        <immunityPerDaySick>0.032</immunityPerDaySick>
         <severityPerDayNotImmune>0.0417</severityPerDayNotImmune>
+        <immunityPerDaySick>0.03616</immunityPerDaySick>
         <severityPerDayImmune>-0.125</severityPerDayImmune>
+        <immunityPerDayNotSick>-0.02</immunityPerDayNotSick>
       </li>
     </comps>
     <stages>

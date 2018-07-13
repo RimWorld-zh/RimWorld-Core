@@ -173,7 +173,7 @@
       <Mass>50</Mass>
       <BedRestEffectiveness>1</BedRestEffectiveness>
       <Comfort>0.75</Comfort>
-      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+      <ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
 			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
     </statBases>
     <size>(1,2)</size>
@@ -228,7 +228,7 @@
       <Comfort>0.75</Comfort>
       <Beauty>2</Beauty>
       <BedRestEffectiveness>1</BedRestEffectiveness>
-      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+      <ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
 			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
     </statBases>
     <size>(2,2)</size>
@@ -285,7 +285,7 @@
       <Beauty>75</Beauty>
       <BedRestEffectiveness>1.05</BedRestEffectiveness>
       <Comfort>0.90</Comfort>
-      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+      <ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
 			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
 		</statBases>
     <size>(2,2)</size>
@@ -335,7 +335,7 @@
       <Flammability>1.0</Flammability>
       <BedRestEffectiveness>1</BedRestEffectiveness>
       <Comfort>0.80</Comfort>
-      <ImmunityGainSpeedFactor>1.144</ImmunityGainSpeedFactor>
+      <ImmunityGainSpeedFactor>1.11</ImmunityGainSpeedFactor>
       <MedicalTendQualityOffset>0.10</MedicalTendQualityOffset>
 			<SurgerySuccessChanceFactor>1.1</SurgerySuccessChanceFactor>
 		</statBases>
@@ -590,7 +590,7 @@
       <Mass>10</Mass>
 			<BedRestEffectiveness>1</BedRestEffectiveness>
 			<Comfort>0.75</Comfort>
-			<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+			<ImmunityGainSpeedFactor>1.07</ImmunityGainSpeedFactor>
 			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
 		</statBases>
 		<comps>

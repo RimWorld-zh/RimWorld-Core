@@ -6,9 +6,9 @@
 			<categories>
 				<li>FoodRaw</li>
 			</categories>
-			<disallowedSpecialFilters>
+			<specialFiltersToDisallow>
 				<li>AllowPlantFood</li>
-			</disallowedSpecialFilters>
+			</specialFiltersToDisallow>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<categories>

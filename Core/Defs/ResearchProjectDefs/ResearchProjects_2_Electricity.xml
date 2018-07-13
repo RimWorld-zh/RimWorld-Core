@@ -128,7 +128,7 @@
     <defName>ElectricSmelting</defName>
     <label>electric smelting</label>
     <description>Build electric smithy and smelters.\n\nThe electric smithy allows smithing items without fuel. The electric smelter extracts useful metal from slag chunks and other items.</description>
-    <baseCost>600</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
@@ -141,7 +141,7 @@
     <defName>TubeTelevision</defName>
     <label>tube television</label>
     <description>Produce tube televisions for recreational watching.</description>
-    <baseCost>800</baseCost>
+    <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
@@ -167,7 +167,7 @@
     <defName>ElectricCremation</defName>
     <label>electric cremation</label>
     <description>Build crematoriums for vaporizing unwanted corpses.</description>
-    <baseCost>500</baseCost>
+    <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>ElectricSmelting</li>
@@ -177,10 +177,10 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>ColoredLights</defName>
-    <label>colored lights</label>
-    <description>Construct colored lights for decorative purposes.</description>
-    <baseCost>300</baseCost>
+    <defName>Firefoam</defName>
+    <label>firefoam</label>
+    <description>Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames.</description>
+    <baseCost>600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
@@ -193,7 +193,7 @@
     <defName>IEDs</defName>
     <label>IEDs</label>
     <description>Build improvised traps from any kind of mortar shell.</description>
-    <baseCost>300</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
@@ -211,7 +211,6 @@
     <prerequisites>
       <li>Electricity</li>
     </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>6</researchViewX>
     <researchViewY>2.5</researchViewY>
   </ResearchProjectDef>
@@ -225,7 +224,6 @@
     <prerequisites>
       <li>Electricity</li>
     </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>7</researchViewX>
     <researchViewY>2.5</researchViewY>
   </ResearchProjectDef>
@@ -250,7 +248,7 @@
     <defName>SmokepopBelt</defName>
     <label>smokepop belts</label>
     <description>Build smokepop belts which generate an automatic defensive smokescreen when the user is shot.</description>
-    <baseCost>400</baseCost>
+    <baseCost>300</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Machining</li>
@@ -289,7 +287,7 @@
     <defName>FlakArmor</defName>
     <label>flak armor</label>
     <description>Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly.</description>
-    <baseCost>700</baseCost>
+    <baseCost>800</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Machining</li>
@@ -348,67 +346,6 @@
     </prerequisites>
     <researchViewX>7</researchViewX>
     <researchViewY>3.4</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>PrecisionRifling</defName>
-    <label>precision rifling</label>
-    <description>Craft precisely-machined guns like assault rifles and sniper rifles.</description>
-    <baseCost>1400</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>GasOperation</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <researchViewX>8</researchViewX>
-    <researchViewY>4</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>HeavyTurrets</defName>
-    <label>autocannon turret</label>
-    <description>Produce the heavy, long-ranged autocannon turret.</description>
-    <baseCost>1600</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>GunTurrets</li>
-      <li>GasOperation</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <researchViewX>8</researchViewX>
-    <researchViewY>3.4</researchViewY>
-  </ResearchProjectDef>
-  
-  <ResearchProjectDef>
-    <defName>MultibarrelWeapons</defName>
-    <label>multibarrel weapons</label>
-    <description>Assemble miniguns.</description>
-    <baseCost>2600</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>GasOperation</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <requiredResearchFacilities>
-      <li>MultiAnalyzer</li>
-    </requiredResearchFacilities>
-    <researchViewX>8</researchViewX>
-    <researchViewY>4.5</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>SniperTurret</defName>
-    <label>sniper turret</label>
-    <description>Produce the extremely long-ranged sniper cannon turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range.</description>
-    <baseCost>1800</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>HeavyTurrets</li>
-      <li>PrecisionRifling</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-    <researchViewX>9</researchViewX>
-    <researchViewY>3.7</researchViewY>
   </ResearchProjectDef>
 
 </Defs>

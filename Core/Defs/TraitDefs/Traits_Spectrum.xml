@@ -318,7 +318,7 @@
         <description>[PAWN_nameDef] has a naturally powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.</description>
         <degree>1</degree>
         <statOffsets>
-          <ImmunityGainSpeed>0.3</ImmunityGainSpeed>
+          <ImmunityGainSpeed>0.30</ImmunityGainSpeed>
         </statOffsets>
       </li>
       <li>

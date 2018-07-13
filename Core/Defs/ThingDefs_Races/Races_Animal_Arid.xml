@@ -166,7 +166,6 @@
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -308,7 +307,6 @@
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -435,7 +433,6 @@
     </statBases>
     <tools>
       <li>
-        <id>hornScratch</id>
         <label>horn</label>
         <capacities>
           <li>Scratch</li>
@@ -445,7 +442,6 @@
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>hornBlunt</id>
         <label>horn</label>
         <capacities>
           <li>Blunt</li>
@@ -455,7 +451,6 @@
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -619,7 +614,6 @@
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>

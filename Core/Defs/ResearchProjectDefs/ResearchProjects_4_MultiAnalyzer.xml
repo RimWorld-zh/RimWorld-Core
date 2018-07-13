@@ -19,7 +19,7 @@
     <defName>GroundPenetratingScanner</defName>
     <label>ground-penetrating scanner</label>
     <description>Build ground-penetrating scanners that can detect drillable resources under the surface. Requires advanced components to construct.</description>
-    <baseCost>6000</baseCost>
+    <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>DeepDrilling</li>
@@ -36,7 +36,7 @@
     <defName>DeepDrilling</defName>
     <label>deep drilling</label>
     <description>Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources.</description>
-    <baseCost>5000</baseCost>
+    <baseCost>4000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>MultiAnalyzer</li>
@@ -53,7 +53,7 @@
     <defName>VitalsMonitor</defName>
     <label>vitals monitor</label>
     <description>Build vitals monitors which improve medical outcomes when placed next to hospital beds.</description>
-    <baseCost>3000</baseCost>
+    <baseCost>2500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>MultiAnalyzer</li>

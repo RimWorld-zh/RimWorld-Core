@@ -4,28 +4,28 @@
   <InspirationDef>
     <defName>Frenzy_Work</defName>
     <label>work frenzy</label>
-    <baseDurationDays>3</baseDurationDays>
+    <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Work frenzy</beginLetterLabel>
     <beginLetter>{0} has just been inspired. [PAWN_pronoun] will work 2.5 times faster for the next 24 hours.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (work frenzy).</endMessage>
     <baseInspectLine>Inspired: Work frenzy</baseInspectLine>
     <statFactors>
-      <WorkSpeedGlobal>2.5</WorkSpeedGlobal>
+      <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
     </statFactors>
   </InspirationDef>
 
   <InspirationDef>
     <defName>Frenzy_Go</defName>
     <label>go frenzy</label>
-    <baseDurationDays>3</baseDurationDays>
+    <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Go frenzy</beginLetterLabel>
     <beginLetter>{0} has just been inspired. [PAWN_pronoun] will walk 1.5 times faster for the next 2 days.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (go frenzy).</endMessage>
     <baseInspectLine>Inspired: Go frenzy</baseInspectLine>
     <statFactors>
-      <MoveSpeed>1.5</MoveSpeed>
+      <MoveSpeed>1.4</MoveSpeed>
     </statFactors>
     <requiredCapacities>
       <li>Moving</li>
@@ -35,7 +35,7 @@
   <InspirationDef>
     <defName>Frenzy_Shoot</defName>
     <label>shoot frenzy</label>
-    <baseDurationDays>3</baseDurationDays>
+    <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Shoot frenzy</beginLetterLabel>
     <beginLetter>{0} has just been inspired. [PAWN_possessive] shooting accuracy will be improved for the next 3 days.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
@@ -45,7 +45,7 @@
       <li>ShootingAccuracyPawn</li>
     </requiredNonDisabledStats>
     <statOffsets>
-      <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+      <ShootingAccuracyPawn>8</ShootingAccuracyPawn>
     </statOffsets>
     <associatedSkills>
       <li>Shooting</li>

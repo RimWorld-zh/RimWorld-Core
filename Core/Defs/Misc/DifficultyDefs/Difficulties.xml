@@ -13,8 +13,9 @@
 		<allowCaveHives>false</allowCaveHives>
 		<predatorsHuntHumanlikes>false</predatorsHuntHumanlikes>
 		<colonistMoodOffset>10</colonistMoodOffset>
-		<cropYieldFactor>1.30</cropYieldFactor>
-		<mineYieldFactor>1.30</mineYieldFactor>
+		<cropYieldFactor>1.20</cropYieldFactor>
+		<mineYieldFactor>1.20</mineYieldFactor>
+		<researchSpeedFactor>1.20</researchSpeedFactor>
 		<diseaseIntervalFactor>3</diseaseIntervalFactor>
 		<enemyReproductionRateFactor>0.1</enemyReproductionRateFactor>
 		<playerPawnInfectionChanceFactor>0.3</playerPawnInfectionChanceFactor>
@@ -30,19 +31,20 @@
 		<label>Builder</label>
 		<description>Build a colony, while still having a taste of danger.\n\nRecommended for: Players who are new to this kind of game, and players who want to relax.\n\nMajor threats appear, but they're weaker than other modes. Some extremely dangerous events are disabled.</description>
 		<difficulty>1</difficulty>
-		<threatScale>0.15</threatScale>
-		<raidBeaconThreatMtbFactor>2</raidBeaconThreatMtbFactor>
+		<threatScale>0.30</threatScale>
+		<raidBeaconThreatMtbFactor>1.8</raidBeaconThreatMtbFactor>
 		<predatorsHuntHumanlikes>false</predatorsHuntHumanlikes>
 		<colonistMoodOffset>10</colonistMoodOffset>
-		<cropYieldFactor>1.30</cropYieldFactor>
-		<mineYieldFactor>1.30</mineYieldFactor>
-		<diseaseIntervalFactor>3</diseaseIntervalFactor>
-		<enemyReproductionRateFactor>0.1</enemyReproductionRateFactor>
+		<cropYieldFactor>1.20</cropYieldFactor>
+		<mineYieldFactor>1.20</mineYieldFactor>
+		<researchSpeedFactor>1.20</researchSpeedFactor>
+		<diseaseIntervalFactor>2.5</diseaseIntervalFactor>
+		<enemyReproductionRateFactor>0.15</enemyReproductionRateFactor>
 		<playerPawnInfectionChanceFactor>0.5</playerPawnInfectionChanceFactor>
 		<deepDrillInfestationChanceFactor>0.25</deepDrillInfestationChanceFactor>
 		<foodPoisonChanceFactor>0.5</foodPoisonChanceFactor>
 		<maintenanceCostFactor>0.5</maintenanceCostFactor>
-		<enemyDeathOnDownedChanceFactor>0.75</enemyDeathOnDownedChanceFactor>
+		<enemyDeathOnDownedChanceFactor>0.90</enemyDeathOnDownedChanceFactor>
 	</DifficultyDef>
 
 	<DifficultyDef>
@@ -50,30 +52,32 @@
 		<label>Medium</label>
 		<description>Build a community while facing down dangerous threats.\n\nRecommended for: Experienced strategy game players on their first game of RimWorld, or skilled RimWorld players who want some breathing room to pursue funny or weird goals.</description>
 		<difficulty>2</difficulty>
-		<threatScale>0.55</threatScale>
+		<threatScale>0.65</threatScale>
 		<raidBeaconThreatMtbFactor>1.3</raidBeaconThreatMtbFactor>
 		<colonistMoodOffset>5</colonistMoodOffset>
-		<cropYieldFactor>1.20</cropYieldFactor>
-		<mineYieldFactor>1.20</mineYieldFactor>
+		<cropYieldFactor>1</cropYieldFactor>
+		<mineYieldFactor>1</mineYieldFactor>
+		<researchSpeedFactor>1</researchSpeedFactor>
 		<diseaseIntervalFactor>1.5</diseaseIntervalFactor>
-		<enemyReproductionRateFactor>0.4</enemyReproductionRateFactor>
+		<enemyReproductionRateFactor>0.5</enemyReproductionRateFactor>
 		<playerPawnInfectionChanceFactor>0.75</playerPawnInfectionChanceFactor>
 		<deepDrillInfestationChanceFactor>0.75</deepDrillInfestationChanceFactor>
-		<foodPoisonChanceFactor>0.7</foodPoisonChanceFactor>
+		<foodPoisonChanceFactor>0.75</foodPoisonChanceFactor>
 		<maintenanceCostFactor>0.75</maintenanceCostFactor>
-		<enemyDeathOnDownedChanceFactor>0.85</enemyDeathOnDownedChanceFactor>
+		<enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
 	</DifficultyDef>
 
 	<DifficultyDef>
-		<defName>Hard</defName>
-		<label>Hard</label>
-		<description>Struggle to survive on a rough, tough planet.\n\nRecommended for: Players with experience with RimWorld, looking to play an intense story requiring significant skill to survive.\n\nThere is no perfect game here - some challenges will be impossible to overcome without losses, so you'll have to fight wounded, sacrifice to survive, and recover.</description>
+		<defName>Rough</defName>
+		<label>Rough</label>
+		<description>Struggle to survive on a rough, tough planet.\n\nRecommended for: Players with experience with RimWorld, looking to play an intense story requiring significant skill to survive.\n\nDo not expect to play a perfect clean game. You will lose people. Even if you play well, some challenges will be impossible to overcome without losses. You'll have to fight wounded, sacrifice to survive, and recover. It's all for the drama.</description>
 		<difficulty>3</difficulty>
 		<threatScale>1</threatScale>
 		<raidBeaconThreatMtbFactor>1</raidBeaconThreatMtbFactor>
 		<colonistMoodOffset>0</colonistMoodOffset>
 		<cropYieldFactor>1</cropYieldFactor>
 		<mineYieldFactor>1</mineYieldFactor>
+		<researchSpeedFactor>1</researchSpeedFactor>
 		<diseaseIntervalFactor>1</diseaseIntervalFactor>
 		<enemyReproductionRateFactor>1</enemyReproductionRateFactor>
 		<deepDrillInfestationChanceFactor>1</deepDrillInfestationChanceFactor>
@@ -83,17 +87,18 @@
 	</DifficultyDef>
 
 	<DifficultyDef>
-		<defName>ExtraHard</defName>
-		<label>Extra hard</label>
-		<description>Face brutal survival challenges. The price of survival is blood.\n\nRecommended for: Players with a lot of experience who want to push themselves beyond Hard mode.\n\nSucceeding at this level requires a well-rounded understanding of diverse strategies, an eye towards preparation, and some luck. Threats can spike and combine in vicious ways, so sometimes you'll have to accept serious losses to survive.</description>
+		<defName>Hard</defName>
+		<label>Hard</label>
+		<description>Face brutal survival challenges. The price of survival is blood.\n\nRecommended for: Players with a lot of experience who want to push themselves.\n\nSucceeding at this level requires a well-rounded understanding of diverse strategies, an disciplined preparation, and luck. Threats can spike and combine in vicious ways.\n\nEven if you play well, many challenges will be impossible to overcome without either deliberate sacrifice or random, unexpected losses. You'll have to fight wounded and recover often. Be ready to lose many people in the struggle to survive.</description>
 		<difficulty>4</difficulty>
 		<threatScale>1.5</threatScale>
 		<raidBeaconThreatMtbFactor>0.9</raidBeaconThreatMtbFactor>
 		<colonistMoodOffset>-5</colonistMoodOffset>
 		<tradePriceFactorLoss>0.10</tradePriceFactorLoss>
-		<cropYieldFactor>1</cropYieldFactor>
-		<mineYieldFactor>1</mineYieldFactor>
-		<diseaseIntervalFactor>1</diseaseIntervalFactor>
+		<cropYieldFactor>0.95</cropYieldFactor>
+		<mineYieldFactor>0.95</mineYieldFactor>
+		<researchSpeedFactor>0.95</researchSpeedFactor>
+		<diseaseIntervalFactor>0.95</diseaseIntervalFactor>
 		<enemyReproductionRateFactor>1</enemyReproductionRateFactor>
 		<deepDrillInfestationChanceFactor>1.1</deepDrillInfestationChanceFactor>
 		<foodPoisonChanceFactor>1.1</foodPoisonChanceFactor>
@@ -104,7 +109,7 @@
 	<DifficultyDef>
 		<defName>Extreme</defName>
 		<label>Extreme</label>
-		<description>Apply mastery of every RimWorld skill to survive a harrowing trial against a cruel, unfair world.\n\nRecommended for: Players who want to face brutal, unfair situations that require the deployment of fluent and well-rounded skills just to avoid losing everything.\n\nThere is no clean game here. You'll spend a lot of time fighting wounded and recovering, you'll need to prepare carefully, and you'll need to sacrifice things you love to avoid death.</description>
+		<description>Apply mastery of every RimWorld skill for just a chance to survive a harrowing trial against a cruel, unfair world.\n\nRecommended for: Players who want to face brutal, unfair situations that require the deployment of fluent and well-rounded skills and the sacrifice of treasured people just to avoid losing everything.\n\nThere is no clean game here. You'll spend a lot of time fighting wounded and recovering, you'll need to prepare carefully, and you'll need to sacrifice people and things you love. Unfair challenges and capricious death may come to you at any time. This level is about dealing with losses, because preventing them is impossible.</description>
 		<difficulty>5</difficulty>
 		<threatScale>2</threatScale>
 		<raidBeaconThreatMtbFactor>0.8</raidBeaconThreatMtbFactor>
@@ -112,6 +117,7 @@
 		<tradePriceFactorLoss>0.20</tradePriceFactorLoss>
 		<cropYieldFactor>0.9</cropYieldFactor>
 		<mineYieldFactor>0.9</mineYieldFactor>
+		<researchSpeedFactor>0.9</researchSpeedFactor>
 		<diseaseIntervalFactor>0.9</diseaseIntervalFactor>
 		<enemyReproductionRateFactor>1</enemyReproductionRateFactor>
 		<playerPawnInfectionChanceFactor>1.1</playerPawnInfectionChanceFactor>

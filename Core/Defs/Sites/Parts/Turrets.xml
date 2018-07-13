@@ -16,6 +16,7 @@
     <arrivedLetter>There are enemy turrets in this area.</arrivedLetter>
     <arrivedLetterLabel>Enemy turrets</arrivedLetterLabel>
     <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
+    <wantsThreatPoints>true</wantsThreatPoints>
     <tags>
       <li>MineralScannerPreciousLumpThreat</li>
       <li>ItemStashQuestThreat</li>

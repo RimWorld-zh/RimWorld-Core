@@ -198,7 +198,6 @@
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -367,7 +366,6 @@
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -537,7 +535,6 @@
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -675,7 +672,6 @@
         <commonality>0.5</commonality>
       </li>
       <li>
-        <id>teeth</id>
         <capacities>
           <li>Bite</li>
         </capacities>

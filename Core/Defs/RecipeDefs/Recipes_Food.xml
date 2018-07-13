@@ -99,9 +99,9 @@
       <disallowedCategories>
         <li>AnimalProductRaw</li>
       </disallowedCategories>
-      <disallowedSpecialFilters>
+      <specialFiltersToDisallow>
         <li>AllowPlantFood</li>
-      </disallowedSpecialFilters>
+      </specialFiltersToDisallow>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <categories>

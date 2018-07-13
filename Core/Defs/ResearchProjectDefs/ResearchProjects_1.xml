@@ -237,7 +237,7 @@
     <defName>LongBlades</defName>
     <label>long blades</label>
     <description>Craft longswords and spears.</description>
-    <baseCost>500</baseCost>
+    <baseCost>400</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>Smithing</li>
@@ -250,7 +250,7 @@
     <defName>PlateArmor</defName>
     <label>plate armor</label>
     <description>Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively.</description>
-    <baseCost>1400</baseCost>
+    <baseCost>800</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>Smithing</li>
@@ -263,7 +263,7 @@
     <defName>Greatbow</defName>
     <label>greatbow</label>
     <description>Craft greatbows for killing enemies at great range.</description>
-    <baseCost>800</baseCost>
+    <baseCost>600</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>RecurveBow</li>
