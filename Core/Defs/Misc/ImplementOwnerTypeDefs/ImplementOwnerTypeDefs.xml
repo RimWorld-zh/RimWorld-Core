@@ -22,4 +22,9 @@
     <implementOwnerRuleName>WEAPON</implementOwnerRuleName>
     <implementOwnerTypeValue>terrain</implementOwnerTypeValue>
   </ImplementOwnerTypeDef>
+
+  <ImplementOwnerTypeDef>
+    <defName>NativeVerb</defName>
+    <implementOwnerTypeValue>nativeVerb</implementOwnerTypeValue>
+  </ImplementOwnerTypeDef>
 </Defs>
