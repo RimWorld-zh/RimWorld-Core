@@ -8,7 +8,7 @@
     <label>warg</label>
     <description>Heavily-muscled wolf-like creatures with vicious unnatural claws and an absurdly powerful bite. They will only eat meat or corpses. If disturbed in the wild, they are very likely to attack.\n\nScientists say wargs are the descendants of weaponized military animals created for population suppression. The superstitious see them as the tools of an angry god.</description>
     <statBases>
-      <MoveSpeed>5.00</MoveSpeed>
+      <MoveSpeed>5.0</MoveSpeed>
       <MarketValue>450</MarketValue>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
     </statBases>
@@ -55,6 +55,7 @@
         <power>15</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -73,7 +74,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -90,8 +91,8 @@
       <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>
       <wildness>0.35</wildness>
+      <manhunterOnTameFailChance>0.50</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -209,7 +210,7 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
-        <commonality>0.5</commonality>
+        <chanceFactor>0.5</chanceFactor>
       </li>
       <li>
         <label>right claw</label>
@@ -227,7 +228,7 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
-        <commonality>0.5</commonality>
+        <chanceFactor>0.5</chanceFactor>
       </li>
       <li>
         <capacities>
@@ -236,6 +237,7 @@
         <power>12</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -254,7 +256,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -271,8 +273,8 @@
       <trainability>Advanced</trainability>
       <wildness>0.85</wildness>
       <nuzzleMtbHours>240</nuzzleMtbHours>
-      <manhunterOnDamageChance>0.06</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <gestationPeriodDays>26</gestationPeriodDays>
       <litterSizeCurve>
         <points>
@@ -444,7 +446,7 @@
 
   <ThingDef Name="ThingBaseFox" ParentName="AnimalThingBase" Abstract="True">
     <statBases>
-      <MoveSpeed>5.00</MoveSpeed>
+      <MoveSpeed>4.6</MoveSpeed>
       <ComfyTemperatureMin>-35</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
     </statBases>
@@ -490,6 +492,7 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -508,7 +511,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>

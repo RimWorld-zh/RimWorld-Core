@@ -9,7 +9,7 @@
   <MessageRaidersStealing>{0} from {1} have decided to steal what they can and leave.</MessageRaidersStealing>
 
   <MessageRaidersLeaving>{0} from {1} are leaving.</MessageRaidersLeaving>
-	<MessageRaidersGivenUpLeaving>{0} from {1} have given up and are leaving.</MessageRaidersGivenUpLeaving>
+  <MessageRaidersGivenUpLeaving>{0} from {1} have given up and are leaving.</MessageRaidersGivenUpLeaving>
   <MessageRaidersSatisfiedLeaving>{0} from {1} are satisfied with the damage done and are leaving.</MessageRaidersSatisfiedLeaving>
 
   <MessageFightersFleeing>{0} from {1} are fleeing.</MessageFightersFleeing>
@@ -24,9 +24,9 @@
   <MessageSeasonBegun>{0} has begun.</MessageSeasonBegun>
 
   <MessageShipHasLeftCommsRange>{0} has left comms range.</MessageShipHasLeftCommsRange>
-	
-	<MessageNeedBeaconToTradeWithShip>You need a powered orbital trade beacon to trade with a ship.</MessageNeedBeaconToTradeWithShip>
-	
+  
+  <MessageNeedBeaconToTradeWithShip>You need a powered orbital trade beacon to trade with a ship.</MessageNeedBeaconToTradeWithShip>
+  
   <MessageBillComplete>Bill complete: {0}.</MessageBillComplete>
   
   <MessageFullyHealed>{0} is fully healed.</MessageFullyHealed>
@@ -78,12 +78,12 @@
 
   <MessageInvoluntarySleep>{0} has collapsed due to extreme exhaustion.</MessageInvoluntarySleep>
 
-	<MessageMedicalOperationFailureMinor>{0} has failed in a minor way while operating on {1}.</MessageMedicalOperationFailureMinor>
-	<MessageMedicalOperationFailureCatastrophic>{0} has failed catastrophically while operating on {1}.</MessageMedicalOperationFailureCatastrophic>
-	<MessageMedicalOperationFailureRidiculous>{0} has failed in a ridiculous way while operating on {1}.</MessageMedicalOperationFailureRidiculous>
-	<MessageMedicalOperationFailureFatal>{0} has committed a fatal error while operating on {1} because of the special challenges of: {2}</MessageMedicalOperationFailureFatal>
+  <MessageMedicalOperationFailureMinor>{0} has failed in a minor way while operating on {1}.</MessageMedicalOperationFailureMinor>
+  <MessageMedicalOperationFailureCatastrophic>{0} has failed catastrophically while operating on {1}.</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureRidiculous>{0} has failed in a ridiculous way while operating on {1}.</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureFatal>{0} has committed a fatal error while operating on {1} because of the special challenges of: {2}</MessageMedicalOperationFailureFatal>
 
-	<MessageMedicalOperationWillAngerFaction>This operation will anger {0}.</MessageMedicalOperationWillAngerFaction>
+  <MessageMedicalOperationWillAngerFaction>This operation will anger {0}.</MessageMedicalOperationWillAngerFaction>
 
   <MessageMiscarriedStarvation>{0} has miscarried due to starvation.</MessageMiscarriedStarvation>
   <MessageMiscarriedPoorHealth>{0} has miscarried due to poor health.</MessageMiscarriedPoorHealth>
@@ -150,16 +150,16 @@
   
   <MessageMaxPlanetCoveragePerformanceWarning>Warning: It can take a very long time to generate an entire planet.</MessageMaxPlanetCoveragePerformanceWarning>
 
-	<MessagePlantDiedOfCold>{0} has died because of cold.</MessagePlantDiedOfCold>
-	<MessagePlantDiedOfRot_LeftUnharvested>{0} has died from rotting due to being left unharvested.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfCold>{0} has died because of cold.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0} has died from rotting due to being left unharvested.</MessagePlantDiedOfRot_LeftUnharvested>
   <MessagePlantDiedOfRot_ExposedToLight>{0} has died due to being exposed to light.</MessagePlantDiedOfRot_ExposedToLight>
   <MessagePlantDiedOfRot>{0} has died from rotting.</MessagePlantDiedOfRot>
-	<MessagePlantDiedOfPoison>{0} has died because of poison.</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfPoison>{0} has died because of poison.</MessagePlantDiedOfPoison>
   <MessagePlantDiedOfBlight>{0} has died because of blight.</MessagePlantDiedOfBlight>
 
-	<MessagePawnBeingBurned>{0} is being burned by superheated air!</MessagePawnBeingBurned>
+  <MessagePawnBeingBurned>{0} is being burned by superheated air!</MessagePawnBeingBurned>
 
-	<MessageAccidentalOverdose>{0} has accidentally overdosed while consuming {1}!</MessageAccidentalOverdose>
+  <MessageAccidentalOverdose>{0} has accidentally overdosed while consuming {1}!</MessageAccidentalOverdose>
   
   <MessageCaravanArrivedAtDestination>{0} has arrived at its destination.</MessageCaravanArrivedAtDestination>
   
@@ -171,16 +171,16 @@
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Your animals are moving to join it.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
   
   <MessageSettledInExistingMap>You have successfully settled in a new area.</MessageSettledInExistingMap>
-	
-	<MessagePermanentWoundHealed>{1}'s {2} has healed. Cause: {0}</MessagePermanentWoundHealed>
+  
+  <MessagePermanentWoundHealed>{1}'s {2} has healed. Cause: {0}</MessagePermanentWoundHealed>
 
-	<MessageRescueeJoined>Since you rescued [PAWN_objective], {0} has joined your group!</MessageRescueeJoined>
+  <MessageRescueeJoined>Since you rescued [PAWN_objective], {0} has joined your group!</MessageRescueeJoined>
   
   <MessageTransporterUnreachable>Some transport pods are unreachable.</MessageTransporterUnreachable>
   <MessageTransportersNotAdjacent>All pod launchers connected to the selected transport pods must be adjacent.</MessageTransportersNotAdjacent>
   
   <MessageTransportersLoadCanceled_TransporterDestroyed>The loading process has been canceled because one of the transport pods has been destroyed.</MessageTransportersLoadCanceled_TransporterDestroyed>
-	<MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>The loading process has been canceled because one of the pod launchers has been destroyed.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>The loading process has been canceled because one of the pod launchers has been destroyed.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
   <MessageTransportersLoadingProcessStarted>Your colonists will now load the assigned items into the transport pods.</MessageTransportersLoadingProcessStarted>
   
@@ -206,17 +206,17 @@
   
   <MessageCaravanRanOutOfFood>{0} has run out of food ({1}).</MessageCaravanRanOutOfFood>
 
-	<MessageSelectOwnBaseToFormCaravan>To form a caravan, select your own colony or a site where you have people.</MessageSelectOwnBaseToFormCaravan>
+  <MessageSelectOwnBaseToFormCaravan>To form a caravan, select your own colony or a site where you have people.</MessageSelectOwnBaseToFormCaravan>
 
-	<MessageScreenResTooSmallForUIScale>At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution.</MessageScreenResTooSmallForUIScale>
-	
-	<MessageYouHaveToReformCaravanNow>You have to reform the caravan now. Everyone left behind will be abandoned.</MessageYouHaveToReformCaravanNow>
-	
+  <MessageScreenResTooSmallForUIScale>At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution.</MessageScreenResTooSmallForUIScale>
+  
+  <MessageYouHaveToReformCaravanNow>You have to reform the caravan now. Everyone left behind will be abandoned.</MessageYouHaveToReformCaravanNow>
+  
   <MessageDefendersAttacking>{0} from {1} are attacking your {2}.</MessageDefendersAttacking>
 
   <MessageSelfTendUnsatisfied>To self-tend, {0} must also be assigned to Doctor work.</MessageSelfTendUnsatisfied>
-	<MessageCannotSelfTendEver>{0} is incapable of doing Doctor work, and so cannot ever self-tend.</MessageCannotSelfTendEver>
-	
+  <MessageCannotSelfTendEver>{0} is incapable of doing Doctor work, and so cannot ever self-tend.</MessageCannotSelfTendEver>
+  
   <MessageCantAddWaypointBecauseImpassable>This tile is impassable.</MessageCantAddWaypointBecauseImpassable>
   <MessageCantAddWaypointBecauseUnreachable>It's not possible to reach this tile from the last waypoint.</MessageCantAddWaypointBecauseUnreachable>
   <MessageCantAddWaypointBecauseLimit>You can't add more than {0} waypoints.</MessageCantAddWaypointBecauseLimit>
@@ -307,5 +307,12 @@
   <MessageEnterCooldownBlocksEntering>You can't re-enter for another {0} days.</MessageEnterCooldownBlocksEntering>
 
   <MessagePredatorHuntingPlayerAnimal>{0} is hunting {1} for food!</MessagePredatorHuntingPlayerAnimal>
+
+  <MessagePrisonerResistanceBroken>Prisoner {0}'s resistance has been broken by {1}. Recruitment attempts will begin.</MessagePrisonerResistanceBroken>
+
+  <MessageDisableModsBeforeCleaningTranslationFiles>Disable all mods before using this tool.</MessageDisableModsBeforeCleaningTranslationFiles>
+  <MessageTranslationFilesCleanupDone>Done. Affected folder: {0}</MessageTranslationFilesCleanupDone>
+
+  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
 </LanguageData>

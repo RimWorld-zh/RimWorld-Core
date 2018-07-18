@@ -82,7 +82,6 @@
     <defName>Poke</defName>
     <workerClass>DamageWorker_Stab</workerClass>
     <stabChanceOfForcedInternal>0.4</stabChanceOfForcedInternal>
-    <stabPierceBonus>1.0</stabPierceBonus>
   </DamageDef>
 
   <DamageDef>
@@ -96,7 +95,6 @@
     <impactSoundType>Slice</impactSoundType>
     <armorCategory>Sharp</armorCategory>
     <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>
-    <stabPierceBonus>2.5</stabPierceBonus>
     <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
   </DamageDef>
 

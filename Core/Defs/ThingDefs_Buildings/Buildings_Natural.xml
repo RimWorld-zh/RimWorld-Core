@@ -189,7 +189,7 @@
       <colorTwo>(134,166,166)</colorTwo>
     </graphicData>
     <statBases>
-      <MaxHitPoints>10000</MaxHitPoints>
+      <MaxHitPoints>8000</MaxHitPoints>
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
@@ -296,7 +296,7 @@
     <rotatable>false</rotatable>
     <fillPercent>0.5</fillPercent>
     <statBases>
-      <MaxHitPoints>230</MaxHitPoints>
+      <MaxHitPoints>130</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
     <pathCost>50</pathCost>

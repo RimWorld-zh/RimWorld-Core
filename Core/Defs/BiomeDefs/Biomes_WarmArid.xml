@@ -7,7 +7,7 @@
     <description>A dry region, but not dry enough to become a true desert. Open plains with grasses and bushes give way to scattered groves of trees. Plants are hardy and there is a moderate density of animals, but arable soil is hard to find.</description>
     <workerClass>BiomeWorker_AridShrubland</workerClass>
     <animalDensity>1.8</animalDensity>
-    <plantDensity>0.16</plantDensity>
+    <plantDensity>0.24</plantDensity>
     <settlementSelectionWeight>0.95</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <texture>World/Biomes/AridShrubland</texture>
@@ -85,10 +85,10 @@
 			<Plant_Dandelion>0.8</Plant_Dandelion>
 			<Plant_Bush>0.7</Plant_Bush>
 			<Plant_PincushionCactus>0.6</Plant_PincushionCactus>
-			<Plant_Agave>0.3</Plant_Agave>
-			<Plant_SaguaroCactus>0.22</Plant_SaguaroCactus>
-			<Plant_TreeDrago>0.11</Plant_TreeDrago>
-			<Plant_Berry>0.1</Plant_Berry>
+			<Plant_Agave>0.2</Plant_Agave>
+			<Plant_SaguaroCactus>0.26</Plant_SaguaroCactus>
+			<Plant_TreeDrago>0.20</Plant_TreeDrago>
+			<Plant_Berry>0.10</Plant_Berry>
     </wildPlants>
     <wildAnimals>
       <Rat>1</Rat>

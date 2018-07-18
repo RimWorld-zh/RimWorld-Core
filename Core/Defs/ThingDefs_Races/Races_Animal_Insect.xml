@@ -12,7 +12,7 @@
       <meatColor>(160,168,139)</meatColor>
       <meatMarketValue>0.5</meatMarketValue>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
-      <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+      <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
     </race>
   </ThingDef>
@@ -24,7 +24,7 @@
     <label>megascarab</label>
     <description>A large, genetically-engineered beetle. Once the worker caste of an artifical ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
     <statBases>
-      <MoveSpeed>4.5</MoveSpeed>
+      <MoveSpeed>4.3</MoveSpeed>
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -50,7 +50,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.1</commonality>
+        <chanceFactor>0.1</chanceFactor>
       </li>
     </tools>
     <race>
@@ -169,7 +169,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.1</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -263,7 +263,7 @@
     <label>megaspider</label>
     <description>Not actually a spider, the megaspider is a genetically-engineered giant insectoid the size of a bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long deadly ripper-blades make it deadly.</description>
     <statBases>
-      <MoveSpeed>4.25</MoveSpeed>
+      <MoveSpeed>4.3</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <LeatherAmount>0</LeatherAmount>
@@ -289,7 +289,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.1</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>

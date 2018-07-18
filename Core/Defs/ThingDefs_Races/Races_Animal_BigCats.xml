@@ -48,6 +48,7 @@
         <power>16</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -66,7 +67,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -81,8 +82,8 @@
       <leatherDef>Leather_Panthera</leatherDef>
       <wildness>0.80</wildness>
       <trainability>Advanced</trainability>
-      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.06</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <gestationPeriodDays>26</gestationPeriodDays>
       <lifeExpectancy>13</lifeExpectancy>
       <lifeStageAges>
@@ -293,6 +294,7 @@
         <power>12</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -311,7 +313,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -325,8 +327,8 @@
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherDef>Leather_Panthera</leatherDef>
       <wildness>0.80</wildness>
-      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.06</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <gestationPeriodDays>26</gestationPeriodDays>
       <lifeExpectancy>9</lifeExpectancy>
       <lifeStageAges>

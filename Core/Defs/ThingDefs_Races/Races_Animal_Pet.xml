@@ -37,6 +37,7 @@
         <power>4.8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -47,7 +48,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -191,6 +192,7 @@
         <power>14.2</power>
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -201,7 +203,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -349,6 +351,7 @@
         <power>14.2</power>
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -359,7 +362,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -475,7 +478,7 @@
     <label>cat</label>
     <description>One of mankind's first pets, the cat is a small mammal which hunts vermin. Known for their aloofness, cats are nevertheless popular companions because of their independence, calm disposition, and fine, pettable fur.</description>
     <statBases>
-      <MoveSpeed>4.5</MoveSpeed>
+      <MoveSpeed>4.4</MoveSpeed>
       <MarketValue>100</MarketValue>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
     </statBases>
@@ -521,6 +524,7 @@
         <power>7</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -539,7 +543,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>

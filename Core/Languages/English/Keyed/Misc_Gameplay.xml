@@ -183,7 +183,7 @@
   <FermentationProgress>Progress: {0} ({1} left)</FermentationProgress>
   <FermentationBarrelOutOfIdealTemperature>Non-ideal temperature. Fermentation speed: {0}</FermentationBarrelOutOfIdealTemperature>
 
-  <!--TextMotes-->
+  <!-- TextMotes -->
   <Headshot>Headshot</Headshot>
   <TextMote_TreatSuccess>Treatment success!\n{0} chance</TextMote_TreatSuccess>
   <TextMote_TreatFailed>Treatment failed\n{0} chance</TextMote_TreatFailed>
@@ -191,6 +191,7 @@
   <TextMote_YieldWasted>Yield\nwasted</TextMote_YieldWasted>
   <TextMote_ProductWasted>Product\nwasted</TextMote_ProductWasted>
   <TextMote_RecruitFail>Recruit failed!\n{0} chance</TextMote_RecruitFail>
+  <TextMote_ResistanceReduced>Resistance\n{0} to {1}</TextMote_ResistanceReduced>
   <TextMote_TameFail>Tame failed\n{0} chance</TextMote_TameFail>
   <TextMote_TameSuccess>Tamed!\n{0} chance</TextMote_TameSuccess>
   <TextMote_TrainFail>Failed training: {0}\n{1} chance</TextMote_TrainFail>
@@ -199,6 +200,8 @@
   <TextMote_ConstructionFail>Construction\nbotched</TextMote_ConstructionFail>
   <TextMote_Dodge>Dodge</TextMote_Dodge>
   <TextMote_Tended>{0} tended</TextMote_Tended>
+  <lowMood>low mood</lowMood>
+  <lowOpinion>low opinion</lowOpinion>
 
   <!-- Areas -->
   <Home>Home</Home>
@@ -336,22 +339,20 @@
   <IndoorsUnroofed>Unroofed</IndoorsUnroofed>
   <Outdoors>Outdoors</Outdoors>
 
-  <!--Rotting-->
+  <!-- Rotting -->
   <RotStateFresh>Fresh</RotStateFresh>
   <RotStateRotting>Rotting</RotStateRotting>
   <RotStateDessicated>Dessicated</RotStateDessicated>
-
-  <!-- Shooting tooltip -->
-  <ShotBy>Shot by {0}</ShotBy>
-  <CannotHit>Cannot hit target.</CannotHit>
-  <ManhunterPerHit>Manhunter chance per hit</ManhunterPerHit>
-
-  <!-- Rotting -->
   <CurrentlyFrozen>Frozen (won't spoil)</CurrentlyFrozen>
   <CurrentlyRefrigerated>Refrigerated (spoils in {0})</CurrentlyRefrigerated>
   <NotRefrigerated>Not refrigerated (spoils in {0})</NotRefrigerated>
   <OverADecade>over a decade</OverADecade>
   <LessThanADay>less than a day</LessThanADay>
+
+  <!-- Shooting tooltip -->
+  <ShotBy>Shot by {0}</ShotBy>
+  <CannotHit>Cannot hit target.</CannotHit>
+  <ManhunterPerHit>Manhunter chance per hit</ManhunterPerHit>
 
   <!-- Meal -->
   <Ingredients>Ingredients</Ingredients>
@@ -398,7 +399,7 @@
   <ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing.</ShowRoomStatsToggleButton>
   <ShowColonistBarToggleButton>Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Toggle automatically expanding the home area around new constructions.</AutoHomeAreaToggleButton>
-  <AutoRebuildButton>Toggle automatic rebuild of destroyed structures.</AutoRebuildButton>
+  <AutoRebuildButton>Toggle automatic rebuild of destroyed structures in the home area.</AutoRebuildButton>
   <CategorizedResourceReadoutToggleButton>Toggle categorized mode on the resource readout.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Toggle displaying animal names for tame named animals.</ShowAnimalNamesToggleButton>
   <ShowRoofOverlayToggleButton>Toggle visibility of roofs.</ShowRoofOverlayToggleButton>

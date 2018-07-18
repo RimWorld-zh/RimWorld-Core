@@ -43,7 +43,7 @@
   <BodyPartDef>
     <defName>Finger</defName>
     <label>finger</label>
-    <hitPoints>7</hitPoints>
+    <hitPoints>8</hitPoints>
     <frostbiteVulnerability>8</frostbiteVulnerability>
     <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <skinCovered>true</skinCovered>
@@ -61,7 +61,7 @@
   <BodyPartDef>
     <defName>Toe</defName>
     <label>toe</label>
-    <hitPoints>10</hitPoints>
+    <hitPoints>8</hitPoints>
     <frostbiteVulnerability>10</frostbiteVulnerability>
     <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <skinCovered>true</skinCovered>

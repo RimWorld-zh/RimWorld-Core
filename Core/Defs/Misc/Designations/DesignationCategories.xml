@@ -31,7 +31,7 @@
   
   <DesignationCategoryDef>
     <defName>Zone</defName>
-    <label>zone/Area</label>
+    <label>zone</label>
     <order>800</order>
     <specialDesignatorClasses>
       <li>Designator_Cancel</li>

@@ -7,7 +7,7 @@
     <description>A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.</description>
     <statBases>
       <MarketValue>1750</MarketValue>
-      <MoveSpeed>4.61</MoveSpeed>
+      <MoveSpeed>4.6</MoveSpeed>
       <Flammability>1.0</Flammability>
       <ComfyTemperatureMin>16</ComfyTemperatureMin>
       <ComfyTemperatureMax>26</ComfyTemperatureMax>
@@ -56,7 +56,7 @@
         <power>8.2</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <commonality>0.07</commonality>
+        <chanceFactor>0.1</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -67,7 +67,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>

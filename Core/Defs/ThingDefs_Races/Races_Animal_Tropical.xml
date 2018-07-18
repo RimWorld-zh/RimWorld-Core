@@ -38,7 +38,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -65,8 +65,8 @@
       <meatLabel>cobraflesh</meatLabel>
       <wildness>0.75</wildness>
       <petness>0.05</petness>
-      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.06</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <nameOnTameChance>1</nameOnTameChance>
       <lifeExpectancy>20</lifeExpectancy>
       <lifeStageAges>
@@ -144,7 +144,7 @@
     <label>monkey</label>
     <description>A small primate, the monkey can use its curly tail to grab on to branches, leaving its hands free to do other things. Monkeys are selfish but clever, and can be trained to carry out fairly complex tasks.</description>
     <statBases>
-      <MoveSpeed>4.5</MoveSpeed>
+      <MoveSpeed>4.3</MoveSpeed>
       <MarketValue>100</MarketValue>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
@@ -175,6 +175,7 @@
         <power>4</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -185,7 +186,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -288,7 +289,7 @@
     <label>boomalope</label>
     <description>Engineered for chemicals production, the boomalope grows a large sac of volatile chemicals on its back. Though it is weak and fragile for its size, other animals have learned to avoid it because of the huge explosion it produces when it dies. It can be milked to produce chemfuel - very carefully.</description>
     <statBases>
-      <MoveSpeed>3.5</MoveSpeed>
+      <MoveSpeed>3.4</MoveSpeed>
       <MarketValue>350</MarketValue>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
     </statBases>
@@ -306,11 +307,40 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>11</power>
+        <power>7</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>left hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
       </li>
     </tools>
     <race>

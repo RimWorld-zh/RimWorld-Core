@@ -69,9 +69,9 @@
   <LetterLeadersDeathLabel>{1} died: {0}</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{0}, {3} of {1}, has died.\n\nThe new {3} is {2}.</LetterLeadersDeath>
 
-	<LetterLeaderChangedLabel>New {1}: {0}</LetterLeaderChangedLabel>
-	<LetterLeaderChanged>{0} is no longer {3} of {1}.\n\nThe new {3} is {2}.</LetterLeaderChanged>
-	
+  <LetterLeaderChangedLabel>New {1}: {0}</LetterLeaderChangedLabel>
+  <LetterLeaderChanged>{0} is no longer {3} of {1}.\n\nThe new {3} is {2}.</LetterLeaderChanged>
+  
   <MentalBreakLetterLabel>Mental break</MentalBreakLetterLabel>
   <FinalStraw>The final straw was: {0}</FinalStraw>
   <LastFactionRelationsEvent>The last event was</LastFactionRelationsEvent>

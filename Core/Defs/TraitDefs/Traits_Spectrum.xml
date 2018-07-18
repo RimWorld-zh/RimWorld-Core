@@ -10,7 +10,7 @@
         <description>[PAWN_nameDef] is always falling behind the group whenever [PAWN_pronoun] goes anywhere.</description>
         <degree>-1</degree>
         <statOffsets>
-          <MoveSpeed>-0.20</MoveSpeed>
+          <MoveSpeed>-0.2</MoveSpeed>
         </statOffsets>
         <disallowedInspirations>
           <li>Frenzy_Go</li>
@@ -21,7 +21,7 @@
         <description>[PAWN_nameDef] likes to be where [PAWN_pronoun]'s going. [PAWN_pronoun] walks quicker than most people.</description>
         <degree>1</degree>
         <statOffsets>
-          <MoveSpeed>0.20</MoveSpeed>
+          <MoveSpeed>0.2</MoveSpeed>
         </statOffsets>
       </li>
       <li>
@@ -29,7 +29,7 @@
         <description>[PAWN_nameDef] always moves with a sense of urgency - so much so that others often fail to keep up.</description>
         <degree>2</degree>
         <statOffsets>
-          <MoveSpeed>0.40</MoveSpeed>
+          <MoveSpeed>0.4</MoveSpeed>
         </statOffsets>
       </li>      
     </degreeDatas>

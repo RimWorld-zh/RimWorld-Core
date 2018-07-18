@@ -45,7 +45,7 @@
     </targetTypes>
     <workerClass>IncidentWorker_DeepDrillInfestation</workerClass>
     <letterLabel>Too deep: Infestation</letterLabel>
-    <letterText>You've accidentally drilled a hole in a cave full of insects and now they're tunneling towards you to seek revenge! Beware - the bugs have been angered and will try to destroy your base.</letterText>
+    <letterText>Vibrations from your deep drills have angered some underground insects. Now they're tunneling upwards to seek revenge!\n\nBeware - the insects have been angered and will try to destroy your base.</letterText>
     <letterDef>ThreatBig</letterDef>
     <baseChance>1</baseChance>
     <category>DeepDrillInfestation</category>

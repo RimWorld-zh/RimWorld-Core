@@ -349,13 +349,6 @@
   </JobDef>
 
   <JobDef>
-    <defName>PrisonerFriendlyChat</defName>
-    <driverClass>JobDriver_ChatWithPrisoner</driverClass>
-    <reportString>chatting with prisoner TargetA.</reportString>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>
-
-  <JobDef>
     <defName>PrisonerAttemptRecruit</defName>
     <driverClass>JobDriver_ChatWithPrisoner</driverClass>
     <reportString>attempting to recruit TargetA.</reportString>

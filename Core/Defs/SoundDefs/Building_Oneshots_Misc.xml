@@ -7,16 +7,19 @@
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
-        <onCamera>True</onCamera>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Misc/CryptosleepCasket/CryptosleepCasketEject</clipPath>
           </li>
         </grains>
         <volumeRange>
-          <min>15</min>
-          <max>15</max>
+          <min>40</min>
+          <max>40</max>
         </volumeRange>
+        <distRange>
+          <min>10</min>
+          <max>70</max>
+        </distRange>
       </li>
     </subSounds>
   </SoundDef>
@@ -28,16 +31,19 @@
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
-        <onCamera>True</onCamera>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Misc/CryptosleepCasket/CryptosleepCasketAccept</clipPath>
           </li>
         </grains>
         <volumeRange>
-          <min>15</min>
-          <max>15</max>
+          <min>40</min>
+          <max>40</max>
         </volumeRange>
+        <distRange>
+          <min>10</min>
+          <max>70</max>
+        </distRange>
       </li>
     </subSounds>
   </SoundDef>
@@ -49,16 +55,19 @@
     <maxSimultaneous>1</maxSimultaneous>
     <subSounds>
       <li>
-        <onCamera>True</onCamera>
         <grains>
           <li Class="AudioGrain_Clip">
             <clipPath>Misc/Hive/Spawn</clipPath>
           </li>
         </grains>
         <volumeRange>
-          <min>16</min>
-          <max>16</max>
+          <min>40</min>
+          <max>40</max>
         </volumeRange>
+        <distRange>
+          <min>10</min>
+          <max>100</max>
+        </distRange>
         <pitchRange>
           <min>0.5</min>
           <max>0.9</max>

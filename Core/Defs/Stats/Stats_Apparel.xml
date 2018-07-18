@@ -52,7 +52,7 @@
   <StatDef ParentName="ArmorRatingBase">
     <defName>ArmorRating_Sharp</defName>
     <label>Armor - Sharp</label>
-    <description>Armor against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nThis is the percentage chance that an attack will be affected by the armor. Once the damage is affected, there is a 50% chance it will be deflected entirely, and a 50% chance it will be partially absorbed and converted into a half-damage blunt impact. Many attacks have armor penetration that will cancel part of this armor rating.</description>
+    <description>The chance to affect sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor percentage is the chance the armor will affect the damage.\n\nIf the damage is affected, there is a 50% chance it will deflect harmlessly, and a 50% chance it will be mitigated. If it's mitigated, the damage is converted into blunt damage and reduced by half.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in.</description>
     <displayPriorityInCategory>60</displayPriorityInCategory>
     <parts>
       <li Class="StatPart_Stuff">
@@ -66,7 +66,7 @@
   <StatDef ParentName="ArmorRatingBase">
     <defName>ArmorRating_Blunt</defName>
     <label>Armor - Blunt</label>
-    <description>Armor against blunt damage like fists, club impacts and rock falls.\n\nThis is the percentage chance that an attack will be affected by the armor. Once the damage is affected, there is a 50% chance it will be deflected entirely, and a 50% chance it will be partially absorbed and have damage reduced by half. Many attacks have armor penetration that will cancel part of this armor rating.</description>
+    <description>The chance to affect blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor percentage is the chance the armor will affect the damage.\n\nIf the damage is affected, there is a 50% chance it will deflect harmlessly, and a 50% chance it will be mitigated. If it's mitigated, the damage is reduced by half.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in.</description>
     <displayPriorityInCategory>50</displayPriorityInCategory>
     <parts>
       <li Class="StatPart_Stuff">
@@ -80,7 +80,7 @@
   <StatDef ParentName="ArmorRatingBase">
     <defName>ArmorRating_Heat</defName>
     <label>Armor - Heat</label>
-    <description>Armor against temperature-related damage like burns.\n\nThis is the percentage chance that an attack will be affected by the armor. Once the damage is affected, there is a 50% chance it will be deflected entirely, and a 50% chance it will be partially absorbed and have damage reduced by half. Some attacks may have armor penetration that will cancel part of this armor rating.</description>
+    <description>The chance to affect temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor percentage is the chance the armor will affect the damage.\n\nIf the damage is affected, there is a 50% chance it will deflect harmlessly, and a 50% chance it will be mitigated. If it's mitigated, the damage is reduced by half.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nIn the case of apparel armor, each layer of apparel applies its armor to the attack separately, from the outside in.</description>
     <displayPriorityInCategory>40</displayPriorityInCategory>
     <parts>
       <li Class="StatPart_Stuff">
@@ -111,7 +111,7 @@
         <factorExcellent>1.2</factorExcellent>
         <factorMasterwork>1.5</factorMasterwork>
         <factorLegendary>1.8</factorLegendary>
-        <alsoAppliesToNegativeValues>true</alsoAppliesToNegativeValues>
+        <applyToNegativeValues>true</applyToNegativeValues>
       </li>
     </parts>
   </StatDef>

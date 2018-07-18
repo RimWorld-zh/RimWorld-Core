@@ -6,7 +6,7 @@
     <label>muffalo</label>
     <description>A large herding herbivore descended from buffalo and adapted for both cold and warm environments. While enraged muffalo are deadly, tamed muffalo are quite docile and can be used as pack animals.\n\nNobody is quite sure why they're blue - it might even be some early genetic modification test that just never got changed.</description>
     <statBases>
-      <MoveSpeed>3.5</MoveSpeed>
+      <MoveSpeed>4.5</MoveSpeed>
       <MarketValue>300</MarketValue>
       <ComfyTemperatureMin>-55</ComfyTemperatureMin>
       <ComfyTemperatureMax>45</ComfyTemperatureMax>
@@ -21,6 +21,35 @@
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -172,6 +201,7 @@
         <power>7</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -182,7 +212,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -313,6 +343,7 @@
         <power>10</power>
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -323,7 +354,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -423,159 +454,11 @@
   <!-- ============================================================ -->
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>Rhinoceros</defName>
-    <label>rhinoceros</label>
-    <description>Despite being herbivorous, this large mammal is very easy to enrage. Once angered, its massive strength and sharp horn make it a brutal opponent. It has more muscle in one leg than most humans do in their whole body.</description>
-    <statBases>
-      <MoveSpeed>3.8</MoveSpeed>
-      <MarketValue>700</MarketValue>
-      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
-    </statBases>
-    <tools>
-      <li>
-        <label>horn</label>
-        <capacities>
-          <li>Scratch</li>
-        </capacities>
-        <power>19</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>horn</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>19</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>19</power>
-        <cooldownTime>2.6</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>15</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
-      </li>
-    </tools>
-    <race>
-      <body>QuadrupedAnimalWithHoovesAndHorn</body>
-      <baseHungerRate>1.5</baseHungerRate>
-      <baseBodySize>3.0</baseBodySize>
-      <baseHealthScale>3.5</baseHealthScale>
-      <foodType>VegetarianRoughAnimal</foodType>
-      <leatherDef>Leather_Rhinoceros</leatherDef>
-      <wildness>0.90</wildness>
-      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.06</manhunterOnDamageChance>
-      <gestationPeriodDays>43</gestationPeriodDays>
-      <nameOnTameChance>1</nameOnTameChance>
-      <lifeExpectancy>45</lifeExpectancy>
-      <herdAnimal>true</herdAnimal>
-      <lifeStageAges>
-        <li>
-          <def>AnimalBaby</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>AnimalJuvenile</def>
-          <minAge>0.3</minAge>
-        </li>
-        <li>
-          <def>AnimalAdult</def>
-          <minAge>1.0</minAge>
-          <soundWounded>Pawn_Rhinoceros_Wounded</soundWounded>
-          <soundDeath>Pawn_Rhinoceros_Death</soundDeath>
-          <soundCall>Pawn_Rhinoceros_Call</soundCall>
-          <soundAngry>Pawn_Rhinoceros_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-    </race>
-    <tradeTags>
-      <li>AnimalUncommon</li>
-      <li>AnimalFighter</li>
-    </tradeTags>
-  </ThingDef>
-  <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Rhinoceros</defName>
-    <label>rhinoceros</label>
-    <labelPlural>rhinoceroses</labelPlural>
-    <race>Rhinoceros</race>
-    <combatPower>280</combatPower>
-    <ecoSystemWeight>1.5</ecoSystemWeight>
-    <wildGroupSize>
-      <min>1</min>
-      <max>4</max>
-    </wildGroupSize>
-    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Rhino/Rhino</texPath>
-          <drawSize>1.5</drawSize>
-          <shadowData>
-            <volume>(0.475, 0.2, 0.3)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Rhino/Rhino</texPath>
-          <drawSize>2.25</drawSize>
-          <shadowData>
-            <volume>(0.72, 0.3, 0.45)</volume>
-            <offset>(0,0,-0.25)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.25</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Rhino/Rhino</texPath>
-          <drawSize>3</drawSize>
-          <shadowData>
-            <volume>(0.95, 0.4, 0.6)</volume>
-            <offset>(0,0,-0.3)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-  </PawnKindDef>
-
-  <!-- ============================================================ -->
-
-  <ThingDef ParentName="AnimalThingBase">
     <defName>Dromedary</defName>
     <label>dromedary</label>
     <description>A large land mammal adapted to arid environments. Domesticated since ancient times, its wool and leather are both exceptionally good at insulating against the desert heat, and its milk is quite nourishing. It can be used as a pack animal, but it's bouncing gait makes it too uncomfortable to ride for any distance.\n\nBy storing water in its large humps and reclaiming moisture from its breath as it exhales, it can go weeks without drinking.</description>
     <statBases>
-      <MoveSpeed>3.4</MoveSpeed>
+      <MoveSpeed>4.3</MoveSpeed>
       <MarketValue>300</MarketValue>
       <ComfyTemperatureMin>-22</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
@@ -620,6 +503,7 @@
         <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -630,7 +514,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>

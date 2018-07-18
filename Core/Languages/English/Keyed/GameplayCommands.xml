@@ -3,8 +3,8 @@
 
   <!-- Forbid -->
   <CommandForbid>Forbid</CommandForbid>
-	<CommandForbiddenDesc>Forbidden - colonists will not interact with this.</CommandForbiddenDesc>
-	<CommandNotForbiddenDesc>Not forbidden - colonists may interact with this.</CommandNotForbiddenDesc>
+  <CommandForbiddenDesc>Forbidden - colonists will not interact with this.</CommandForbiddenDesc>
+  <CommandNotForbiddenDesc>Not forbidden - colonists may interact with this.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <CommandTogglePowerLabel>Toggle power</CommandTogglePowerLabel>
@@ -20,7 +20,6 @@
   <CommandGatherSpotToggleDescActive>Active - colonists will gather around this object.</CommandGatherSpotToggleDescActive>
   <CommandGatherSpotToggleDescInactive>Inactive - colonists will not gather around this object.</CommandGatherSpotToggleDescInactive>
   
-  
   <!-- Drafting -->
   <CommandDraftLabel>Draft</CommandDraftLabel>
   <CommandUndraftLabel>Undraft</CommandUndraftLabel>
@@ -28,8 +27,8 @@
   <IsIncapped>{0} cannot walk.</IsIncapped>
 
   <CommandFireAtWillLabel>Fire at will</CommandFireAtWillLabel>
-	<CommandFireAtWillDesc>Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat.</CommandFireAtWillDesc>
-	
+  <CommandFireAtWillDesc>Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat.</CommandFireAtWillDesc>
+  
   <CommandClearPrioritizedWork>Clear prioritized work</CommandClearPrioritizedWork>
   <CommandClearPrioritizedWorkDesc>Clear any prioritized work you assigned. The character will go back to their usual self-directed activities.</CommandClearPrioritizedWorkDesc>
   

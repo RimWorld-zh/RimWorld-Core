@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <BodyPartDef>
     <defName>Heart</defName>
     <label>heart</label>
-    <hitPoints>20</hitPoints>
+    <hitPoints>15</hitPoints>
     <bleedRate>5</bleedRate>
     <skinCovered>false</skinCovered>
     <tags>
@@ -18,7 +17,7 @@
   <BodyPartDef>
     <defName>Lung</defName>
     <label>lung</label>
-    <hitPoints>20</hitPoints>
+    <hitPoints>15</hitPoints>
     <skinCovered>false</skinCovered>
     <tags>
       <li>BreathingSource</li>
@@ -29,7 +28,7 @@
   <BodyPartDef>
     <defName>Kidney</defName>
     <label>kidney</label>
-    <hitPoints>20</hitPoints>
+    <hitPoints>15</hitPoints>
     <skinCovered>false</skinCovered>
     <tags>
       <li>BloodFiltrationKidney</li>
@@ -40,7 +39,7 @@
   <BodyPartDef>
     <defName>Liver</defName>
     <label>liver</label>
-    <hitPoints>20</hitPoints>
+    <hitPoints>15</hitPoints>
     <skinCovered>false</skinCovered>
     <tags>
       <li>BloodFiltrationLiver</li>
@@ -52,7 +51,7 @@
   <BodyPartDef>
     <defName>Stomach</defName>
     <label>stomach</label>
-    <hitPoints>25</hitPoints>
+    <hitPoints>20</hitPoints>
     <skinCovered>false</skinCovered>
     <tags>
       <li>MetabolismSource</li>

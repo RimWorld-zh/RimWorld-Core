@@ -28,7 +28,7 @@
 			<growMinGlow>0.3</growMinGlow>
 			<topWindExposure>0.1</topWindExposure>
 			<growDays>1.5</growDays>
-			<lifespanFraction>5</lifespanFraction>
+			<lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
 			<visualSizeRange>
         <min>0.3</min>
         <max>1.05</max>
@@ -65,7 +65,7 @@
       <growMinGlow>0.3</growMinGlow>
       <topWindExposure>0.1</topWindExposure>
       <growDays>1.5</growDays>
-      <lifespanFraction>3</lifespanFraction>
+      <lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
       <visualSizeRange>
         <min>0.3</min>
         <max>1.05</max>

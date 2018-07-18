@@ -344,6 +344,10 @@
       <EquipDelay>2.5</EquipDelay>
     </statBases>
     <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>

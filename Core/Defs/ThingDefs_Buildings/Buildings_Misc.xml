@@ -333,6 +333,9 @@
     <rotatable>true</rotatable>
     <hasInteractionCell>true</hasInteractionCell>
     <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <interactionCellIcon>DiningChair</interactionCellIcon>
+    <interactionCellIconReverse>true</interactionCellIconReverse>
+    <defaultPlacingRot>South</defaultPlacingRot>
     <canOverlapZones>false</canOverlapZones>
     <size>(3, 3)</size>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>

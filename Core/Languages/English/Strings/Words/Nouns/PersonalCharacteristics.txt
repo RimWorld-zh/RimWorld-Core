@@ -9,8 +9,6 @@ height
 weight
 hair
 hairstyle
-body hair
-pubic hair
 facial hair
 leg hair
 face
@@ -20,7 +18,6 @@ ears
 jawline
 forehead
 hands
-genitals
 body
 muscles
 
@@ -72,10 +69,6 @@ hopes and dreams
 ambitions
 personal habits
 personal hygiene
-toilet habits
-sexual prowess
-sexual preferences
-sexual experience
 hardiness
 personality
 class

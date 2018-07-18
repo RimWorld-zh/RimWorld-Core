@@ -6,12 +6,12 @@
     <label>work frenzy</label>
     <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Work frenzy</beginLetterLabel>
-    <beginLetter>{0} has just been inspired. [PAWN_pronoun] will work 2.5 times faster for the next 24 hours.</beginLetter>
+    <beginLetter>[PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will work faster for the next 8 days.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (work frenzy).</endMessage>
     <baseInspectLine>Inspired: Work frenzy</baseInspectLine>
     <statFactors>
-      <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
+      <WorkSpeedGlobal>1.8</WorkSpeedGlobal>
     </statFactors>
   </InspirationDef>
 
@@ -20,7 +20,7 @@
     <label>go frenzy</label>
     <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Go frenzy</beginLetterLabel>
-    <beginLetter>{0} has just been inspired. [PAWN_pronoun] will walk 1.5 times faster for the next 2 days.</beginLetter>
+    <beginLetter>[PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will move faster for the next 8 days.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (go frenzy).</endMessage>
     <baseInspectLine>Inspired: Go frenzy</baseInspectLine>
@@ -37,7 +37,7 @@
     <label>shoot frenzy</label>
     <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Shoot frenzy</beginLetterLabel>
-    <beginLetter>{0} has just been inspired. [PAWN_possessive] shooting accuracy will be improved for the next 3 days.</beginLetter>
+    <beginLetter>[PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_possessive] shoot more accurately for the next 8 days.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (shoot frenzy).</endMessage>
     <baseInspectLine>Inspired: Shoot frenzy</baseInspectLine>
@@ -57,7 +57,7 @@
     <label>inspired trade</label>
     <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Inspired trade</beginLetterLabel>
-    <beginLetter>{0} has just been inspired. [PAWN_pronoun] will get a significant trade price bonus for [PAWN_possessive] next trade deal.\n\nThe inspiration will end after 8 days or when the deal is done.</beginLetter>
+    <beginLetter>[PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (inspired trade).</endMessage>
     <baseInspectLine>Inspired: Inspired trade</baseInspectLine>
@@ -80,12 +80,12 @@
     <label>inspired recruitment</label>
     <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Inspired recruitment</beginLetterLabel>
-    <beginLetter>{0} has just been inspired. [PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty.\n\nThe inspiration will end after 8 days or when the prisoner is recruited.</beginLetter>
+    <beginLetter>[PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (inspired recruitment).</endMessage>
     <baseInspectLine>Inspired: Inspired recruitment</baseInspectLine>
     <requiredNonDisabledStats>
-      <li>RecruitPrisonerChance</li>
+      <li>NegotiationAbility</li>
     </requiredNonDisabledStats>
     <requiredNonDisabledWorkTypes>
       <li>Warden</li>
@@ -106,7 +106,7 @@
     <label>inspired surgery</label>
     <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Inspired surgery</beginLetterLabel>
-    <beginLetter>{0} has just been inspired. The surgery failure chance for the next surgery performed by [PAWN_objective] will be 10 times smaller.\n\nThe inspiration will end after 8 days or when the surgery is performed.</beginLetter>
+    <beginLetter>[PAWN_nameIndef] has experienced an inspiration!\n\nThe surgery failure chance for the next surgery performed by [PAWN_objective] will be 10 times smaller.\n\nThe inspiration will end after 8 days, or when the surgery is performed.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (inspired surgery).</endMessage>
     <baseInspectLine>Inspired: Inspired surgery</baseInspectLine>
@@ -132,7 +132,7 @@
     <label>inspired creativity</label>
     <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Inspired creativity</beginLetterLabel>
-    <beginLetter>{0} has just been inspired. Any item crafted or piece of furniture or art completed will be 2 quality levels higher than it would otherwise be.\n\nThe inspiration will end after 8 days or when the item, furniture or art is completed.</beginLetter>
+    <beginLetter>[PAWN_nameIndef] has experienced an inspiration!\n\nThe next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (inspired creativity).</endMessage>
     <baseInspectLine>Inspired: Inspired creativity</baseInspectLine>

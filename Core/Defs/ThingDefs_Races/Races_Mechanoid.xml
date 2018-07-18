@@ -43,7 +43,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>12.5</power>
+        <power>19</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -140,7 +140,7 @@
     <label>lancer</label>
     <description>A human-sized combat mechanoid with huge optical sensors on its face for aiming weapons at long range. While effective at distance, it is weaker in melee combat. Veterans of mechanoid wars know that often, the safest thing to do against a lancer is to charge.</description>
     <statBases>
-      <MoveSpeed>5.0</MoveSpeed>
+      <MoveSpeed>4.9</MoveSpeed>
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.36</ArmorRating_Sharp>
     </statBases>
@@ -150,7 +150,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>13.3</power>
+        <power>12.0</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
@@ -160,7 +160,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>13.3</power>
+        <power>12.0</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
@@ -174,7 +174,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -221,7 +221,7 @@
     <label>scyther</label>
     <description>Fast, spindly, human-sized combat mechanoids specializing in rapid approach and close-range combat. Their bodies are covered in points and blades, but their mostly use two arm blades to lop off limbs or gut their victims alive.</description>
     <statBases>
-      <MoveSpeed>4.8</MoveSpeed>
+      <MoveSpeed>4.7</MoveSpeed>
       <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
     </statBases>
@@ -257,7 +257,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>

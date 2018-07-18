@@ -33,7 +33,7 @@
   
   <!-- Wildlife tab -->
   <IsPredator>This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people.</IsPredator>
-	
+  
   <!-- Factions tab -->
   <Hostile>Hostile</Hostile>
   <Ally>Ally</Ally>
@@ -46,12 +46,11 @@
   <CurrentGoodwillTip_Hostile>This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral.</CurrentGoodwillTip_Hostile>
   <CurrentGoodwillTip_NaturalGoodwill>This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day.</CurrentGoodwillTip_NaturalGoodwill>
   
+  <!-- Social tab -->
+  <Friend>Friend</Friend>
+  <Rival>Rival</Rival>
+  <Acquaintance>Acquaintance</Acquaintance>
   
-	<!-- Social tab -->
-	<Friend>Friend</Friend>
-	<Rival>Rival</Rival>
-	<Acquaintance>Acquaintance</Acquaintance>
-	
   <!-- History tab - subtabs -->
   <Graph>Graph</Graph>
   <Messages>Messages</Messages>

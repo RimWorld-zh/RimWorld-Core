@@ -4,7 +4,7 @@
   <!-- ITab titles -->
   <TabBills>Bills</TabBills>
   <TabGrowing>Growing</TabGrowing>
-  <TabCharacter>Character</TabCharacter>
+  <TabCharacter>Story</TabCharacter>
   <TabTraining>Training</TabTraining>
   <TabPrisoner>Prisoner</TabPrisoner>
   <TabGuest>Guest</TabGuest>
@@ -22,7 +22,6 @@
   <TabLog>Log</TabLog>
   <TabFormingCaravan>Caravan</TabFormingCaravan>
 
-  
   <!-- Bills tab  -->
   <AddBill>Add bill</AddBill>
   <RecipeRequiresSkills>The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill.</RecipeRequiresSkills>
@@ -39,22 +38,21 @@
   <PasteBillTip>Paste</PasteBillTip>
   <PasteBillTip_LimitReached>can't add more</PasteBillTip_LimitReached>
 
-
   <!-- Guest/prisoner tab -->
+  <RecruitmentResistance>Resistance remaining</RecruitmentResistance>
   <RecruitmentDifficulty>Recruitment difficulty</RecruitmentDifficulty>
   <GetsFood>Gets food</GetsFood>
   <DoctorsCare>Doctors care</DoctorsCare>
   <GetsMedicine>Gets medicine</GetsMedicine>
   <ShouldTryToRecruit>Try to recruit</ShouldTryToRecruit>
-	<ConsideredGuilty>Considered guilty (expires in {0})</ConsideredGuilty>
-
+  <ConsideredGuilty>Considered guilty (expires in {0})</ConsideredGuilty>
 
   <!-- Medical - general -->
   <MoveSpeed>Move speed</MoveSpeed>
   <Efficiency>Efficiency</Efficiency>
-	<PartEfficiency>Part efficiency</PartEfficiency>
-	<BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
-	<MissingBodyPart>Gone</MissingBodyPart>
+  <PartEfficiency>Part efficiency</PartEfficiency>
+  <BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
+  <MissingBodyPart>Gone</MissingBodyPart>
   <DestroyedBodyPart>Destroyed</DestroyedBodyPart>
   <ShatteredBodyPart>Shattered</ShatteredBodyPart>
   <RemovedBodyPart>Removed</RemovedBodyPart>
@@ -86,7 +84,6 @@
   <SelfTend>Self-tend</SelfTend>
   <SelfTendTip>{0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency.</SelfTendTip>
   
-
   <!-- Medical - Body and activities condition -->
   <None>None</None>
   <VeryPoor>Very poor</VeryPoor>
@@ -102,7 +99,6 @@
   <MediumPain>Medium</MediumPain>
   <SeverePain>Severe</SeverePain>
   <ExtremePain>Extreme</ExtremePain>
-
 
   <!-- Training tab -->
   <Trainability>Trainability</Trainability>

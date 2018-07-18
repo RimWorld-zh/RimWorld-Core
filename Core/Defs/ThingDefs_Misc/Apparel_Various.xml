@@ -787,8 +787,8 @@
       <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
       <ArmorRating_Heat>0.10</ArmorRating_Heat>
-      <Insulation_Cold>3.5</Insulation_Cold>
-      <Insulation_Heat>1</Insulation_Heat>
+      <Insulation_Cold>14.4</Insulation_Cold> <!-- like a cloth jacket -->
+      <Insulation_Heat>3</Insulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>

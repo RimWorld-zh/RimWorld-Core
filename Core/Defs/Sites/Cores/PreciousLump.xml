@@ -17,11 +17,12 @@
     <genStep Class="GenStep_PreciousLump">
       <mineables>
         <li>MineableGold</li>
-        <li>MineableUranium</li>
-        <li>MineablePlasteel</li>
-        <li>MineableJade</li>
-        <li>MineableComponentsIndustrial</li>
         <li>MineableSilver</li>
+        <li>MineableSteel</li>
+        <li>MineablePlasteel</li>
+        <li>MineableComponentsIndustrial</li>
+        <li>MineableUranium</li>
+        <li>MineableJade</li>
       </mineables>
       <totalValueRange><min>3500</min><max>5000</max></totalValueRange>
       <nearMapCenter>true</nearMapCenter>

@@ -3,7 +3,7 @@
 
   <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseBear">
     <statBases>
-      <MoveSpeed>4.25</MoveSpeed>
+      <MoveSpeed>4.6</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>700</MarketValue>
     </statBases>
@@ -49,6 +49,7 @@
         <power>23.6</power>
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
@@ -67,7 +68,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -84,8 +85,8 @@
       <wildness>0.80</wildness>
       <lifeExpectancy>22</lifeExpectancy>
       <trainability>Advanced</trainability>
-      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.06</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>

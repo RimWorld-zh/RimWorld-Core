@@ -105,7 +105,6 @@
   <DesignatorTame>Tame</DesignatorTame>
   <DesignatorTameDesc>Tame a wild animal.</DesignatorTameDesc>
 
-
   <!-- Failure messages -->
   <UnchosenStuff>Unchosen material</UnchosenStuff>
   <TooCloseToMapEdge>Too close to map edge.</TooCloseToMapEdge>
@@ -125,11 +124,9 @@
   <TerrainMustBeRemovable>Must target a removable floor.</TerrainMustBeRemovable>
   <MustBeOnMovingWater>The waterwheel must be on moving water.</MustBeOnMovingWater>
   
-  
   <!-- Mouse attachments -->
   <ExpandOrCreateZone>Expand {0} or\nCreate new {1}</ExpandOrCreateZone>
   <CreateNewZone>Create new {0}</CreateNewZone>
-  
   
   <!-- Desc helpers -->
   <TransmitsPower>Transmits power</TransmitsPower>

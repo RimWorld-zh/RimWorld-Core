@@ -39,6 +39,7 @@
         <power>8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -49,7 +50,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -172,7 +173,7 @@
     <label>ibex</label>
     <description>The wild ancestor of the domesticated goat. Ibexes live on marginal territory where most antelopes couldn't survive, eating lichens and sparse mountain plants. They're famous for dextrously hopping across bare cliff faces - and for their violent ramming attack.</description>
     <statBases>
-      <MoveSpeed>4.5</MoveSpeed>
+      <MoveSpeed>4.6</MoveSpeed>
       <MarketValue>250</MarketValue>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
     </statBases>
@@ -204,6 +205,7 @@
         <power>8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -214,7 +216,6 @@
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
       </li>
     </tools>
     <race>
@@ -372,6 +373,7 @@
         <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -382,7 +384,6 @@
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
       </li>
     </tools>
     <race>
@@ -541,6 +542,7 @@
         <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -551,7 +553,6 @@
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
       </li>
     </tools>
     <race>
@@ -655,7 +656,7 @@
     <label>wild boar</label>
     <description>This hairy omnivore is descended from escaped pigs and evolved for living in the wild.\n\nIts tusks make it a better fighter than its domesticated pig cousins. Unfortunately, it is too unruly to be trained in the most complex tasks.</description>
     <statBases>
-      <MoveSpeed>4.25</MoveSpeed>
+      <MoveSpeed>4.6</MoveSpeed>
       <MarketValue>200</MarketValue>
       <ComfyTemperatureMin>-23</ComfyTemperatureMin>
     </statBases>
@@ -669,7 +670,6 @@
         <power>9.7</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
-        <commonality>0.5</commonality>
       </li>
       <li>
         <capacities>
@@ -678,7 +678,7 @@
         <power>8.5</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <commonality>0.5</commonality>
+        <chanceFactor>0.6</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -689,7 +689,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -803,8 +803,8 @@
     <statBases>
       <MoveSpeed>1.0</MoveSpeed>
       <MarketValue>200</MarketValue>
-      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.54</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
     </statBases>
@@ -827,7 +827,7 @@
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>

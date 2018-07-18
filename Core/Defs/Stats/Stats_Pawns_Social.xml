@@ -2,28 +2,103 @@
 <Defs>
 
   <StatDef>
-    <defName>RecruitPrisonerChance</defName>
-    <label>recruit prisoner chance</label>
-    <description>The base chance this person will recruit a prisoner on any given attempt. The actual chance is also affected by factors like prisoner mood, prisoner difficulty, and so on.</description>
+    <defName>NegotiationAbility</defName>
+    <label>negotiation ability</label>
+    <description>How effective this person is as a negotiator. This affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks.</description>
     <category>PawnSocial</category>
     <defaultBaseValue>1</defaultBaseValue>
-    <minValue>0.01</minValue>
+    <minValue>0.4</minValue>
     <toStringStyle>PercentTwo</toStringStyle>
+    <displayPriorityInCategory>100</displayPriorityInCategory>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Social</skill>
-        <baseValue>0.02</baseValue>
-        <bonusPerLevel>0.04</bonusPerLevel>
+        <baseValue>0.4</baseValue>
+        <bonusPerLevel>0.075</bonusPerLevel>
       </li>
     </skillNeedFactors>
     <capacityFactors>
       <li>
         <capacity>Talking</capacity>
         <weight>0.9</weight>
+        <allowedDefect>0.05</allowedDefect>
+        <max>1</max>
+      </li>
+      <li>
+        <capacity>Hearing</capacity>
+        <weight>0.3</weight>
+        <allowedDefect>0.05</allowedDefect>
+        <max>1</max>
       </li>
     </capacityFactors>
-		<scenarioRandomizable>true</scenarioRandomizable>
-	</StatDef>
+  </StatDef>
+
+  <StatDef>
+    <defName>TradePriceImprovement</defName>
+    <label>trade price improvement</label>
+    <description>When this person acts as a trade negotiator, buy and sell prices are improved by this percentage.</description>
+    <category>PawnSocial</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentTwo</toStringStyle>
+    <displayPriorityInCategory>80</displayPriorityInCategory>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Social</skill>
+        <baseValue>0</baseValue>
+        <bonusPerLevel>0.015</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <capacityFactors>
+      <li>
+        <capacity>Talking</capacity>
+        <weight>0.3</weight>
+        <allowedDefect>0.05</allowedDefect>
+        <max>1</max>
+      </li>
+      <li>
+        <capacity>Hearing</capacity>
+        <weight>0.3</weight>
+        <allowedDefect>0.05</allowedDefect>
+        <max>1</max>
+      </li>
+    </capacityFactors>
+  </StatDef>
+
+    <StatDef>
+    <defName>SocialImpact</defName>
+    <label>social impact</label>
+    <description>A multiplier on how much other people are affected by this person's social interactions.</description>
+    <category>PawnSocial</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.2</minValue>
+    <toStringStyle>PercentTwo</toStringStyle>
+    <displayPriorityInCategory>60</displayPriorityInCategory>
+    <skillNeedFactors>
+      <li Class="SkillNeed_BaseBonus">
+        <skill>Social</skill>
+        <baseValue>0.82</baseValue>
+        <bonusPerLevel>0.0275</bonusPerLevel>
+      </li>
+    </skillNeedFactors>
+    <neverDisabled>true</neverDisabled>
+    <capacityFactors>
+      <li>
+        <capacity>Talking</capacity>
+        <weight>0.9</weight>
+        <allowedDefect>0.05</allowedDefect>
+        <max>1</max>
+      </li>
+      <li>
+        <capacity>Hearing</capacity>
+        <weight>0.3</weight>
+        <allowedDefect>0.05</allowedDefect>
+        <max>1</max>
+      </li>
+    </capacityFactors>
+  </StatDef>
+
+  <!--============ Animal ============-->
 
   <StatDef>
     <defName>TameAnimalChance</defName>
@@ -33,6 +108,7 @@
     <defaultBaseValue>1</defaultBaseValue>
     <minValue>0.01</minValue>
     <toStringStyle>PercentTwo</toStringStyle>
+    <displayPriorityInCategory>40</displayPriorityInCategory>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Animals</skill>
@@ -44,10 +120,20 @@
       <li>
         <capacity>Talking</capacity>
         <weight>0.9</weight>
+        <allowedDefect>0.20</allowedDefect>
+        <max>1</max>
+      </li>
+      <li>
+        <capacity>Hearing</capacity>
+        <weight>0.3</weight>
+        <allowedDefect>0.05</allowedDefect>
+        <max>1</max>
       </li>
       <li>
         <capacity>Manipulation</capacity>
         <weight>0.5</weight>
+        <allowedDefect>0.20</allowedDefect>
+        <max>1</max>
       </li>
     </capacityFactors>
 		<scenarioRandomizable>true</scenarioRandomizable>
@@ -61,6 +147,7 @@
     <defaultBaseValue>1.0</defaultBaseValue>
     <minValue>0.01</minValue>
     <toStringStyle>PercentTwo</toStringStyle>
+    <displayPriorityInCategory>20</displayPriorityInCategory>
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Animals</skill>
@@ -72,85 +159,23 @@
       <li>
         <capacity>Talking</capacity>
         <weight>0.7</weight>
-      </li>
-    </capacityFactors>
-		<scenarioRandomizable>true</scenarioRandomizable>
-	</StatDef>
-
-  <StatDef>
-    <defName>SocialImpact</defName>
-    <label>social chat impact</label>
-    <description>A multiplier on how much other people are affected by this person's social interactions.</description>
-    <category>PawnSocial</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <minValue>0.2</minValue>
-    <toStringStyle>PercentTwo</toStringStyle>
-    <skillNeedFactors>
-      <li Class="SkillNeed_BaseBonus">
-        <skill>Social</skill>
-        <baseValue>0.82</baseValue>
-        <bonusPerLevel>0.0275</bonusPerLevel>
-      </li>
-    </skillNeedFactors>
-    <neverDisabled>true</neverDisabled>
-    <capacityFactors>
-      <li>
-        <capacity>Talking</capacity>
-        <weight>0.9</weight>
-      </li>
-    </capacityFactors>
-  </StatDef>
-
-  <StatDef>
-    <defName>DiplomacyPower</defName>
-    <label>diplomacy power</label>
-    <description>How effective this person is as a diplomat. This affects the impact on relations when giving gifts to another faction, and determines the outcome of peace talks.</description>
-    <category>PawnSocial</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <minValue>0.4</minValue>
-    <toStringStyle>PercentTwo</toStringStyle>
-    <skillNeedFactors>
-      <li Class="SkillNeed_BaseBonus">
-        <skill>Social</skill>
-        <baseValue>0.5</baseValue>
-        <bonusPerLevel>0.05</bonusPerLevel>
-      </li>
-    </skillNeedFactors>
-    <capacityFactors>
-      <li>
-        <capacity>Talking</capacity>
-        <weight>0.9</weight>
-      </li>
-    </capacityFactors>
-  </StatDef>
-
-  <StatDef>
-    <defName>TradePriceImprovement</defName>
-    <label>trade price improvement</label>
-    <description>When this person acts as a trade negotiator, buy and sell prices are improved by this percentage.</description>
-    <category>PawnSocial</category>
-    <defaultBaseValue>1</defaultBaseValue>
-    <minValue>0</minValue>
-    <toStringStyle>PercentTwo</toStringStyle>
-    <skillNeedFactors>
-      <li Class="SkillNeed_BaseBonus">
-        <skill>Social</skill>
-        <baseValue>0</baseValue>
-        <bonusPerLevel>0.015</bonusPerLevel>
-      </li>
-    </skillNeedFactors>
-    <capacityFactors>
-      <li>
-        <capacity>Talking</capacity>
-        <weight>0.3</weight>
-        <allowedDefect>0.05</allowedDefect>
+        <allowedDefect>0.20</allowedDefect>
+        <max>1</max>
       </li>
       <li>
         <capacity>Hearing</capacity>
         <weight>0.3</weight>
         <allowedDefect>0.05</allowedDefect>
+        <max>1</max>
+      </li>
+      <li>
+        <capacity>Manipulation</capacity>
+        <weight>0.5</weight>
+        <allowedDefect>0.20</allowedDefect>
+        <max>1</max>
       </li>
     </capacityFactors>
-  </StatDef>
+		<scenarioRandomizable>true</scenarioRandomizable>
+	</StatDef>
 
 </Defs>

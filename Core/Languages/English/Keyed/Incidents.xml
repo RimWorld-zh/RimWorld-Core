@@ -50,7 +50,7 @@
   <VisitorsLeaving>Visitors from {0} are leaving.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Wanderer joins</LetterLabelWandererJoin>
-  <WandererJoin>A {0} named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a {1}.</WandererJoin>
+  <WandererJoin>A {0} named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a {1}.\n\nIf you don't want [PAWN_nameDef], you can banish [PAWN_objective], sell [PAWN_objective] into slavery, or simply kill [PAWN_objective]. However, your other colonists may find this disturbing.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Manhunter pack</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them.</ManhunterPackArrived>
@@ -79,7 +79,7 @@
   <BeaversArrived>A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region.</BeaversArrived>
   
   <!-- Refugee chased -->
-	<RefugeeChasedTitle>Refugee chased at {0}</RefugeeChasedTitle>
+  <RefugeeChasedTitle>Refugee chased at {0}</RefugeeChasedTitle>
   <RefugeeChasedInitial>A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Offer safety</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignore the message</RefugeeChasedInitial_Reject>
@@ -108,8 +108,8 @@
   <LetterBuildingBrokenDown>One of your machines ({0}) has broken down. It won't work until a colonist with the Construction work type goes and fixes it.</LetterBuildingBrokenDown>
   
   <!-- Ransom demand -->
-	<RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>
-	<RansomDemand>{1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver.</RansomDemand>
+  <RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>
+  <RansomDemand>{1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver.</RansomDemand>
   <RansomDemand_Accept>Accept</RansomDemand_Accept>
   <RansomDemand_Reject>Reject</RansomDemand_Reject>
   
@@ -121,8 +121,8 @@
   <EscapeShipLost>Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet.</EscapeShipLost>
 
   <!-- Caravan meeting -->
-	<CaravanMeetingTitle>Caravan meeting by {0}</CaravanMeetingTitle>
-	<CaravanMeeting>{0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2}</CaravanMeeting>
+  <CaravanMeetingTitle>Caravan meeting by {0}</CaravanMeetingTitle>
+  <CaravanMeeting>{0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2}</CaravanMeeting>
   <CaravanMeeting_Trade>Trade</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Attack</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Move on</CaravanMeeting_MoveOn>
@@ -145,6 +145,5 @@
   <LetterLabelSiteNoLongerHostileMulti>Quests no longer available</LetterLabelSiteNoLongerHostileMulti>
   <LetterSiteNoLongerHostile>Because you are no longer hostile with {0}, the {1} site is no longer available.</LetterSiteNoLongerHostile>
   <LetterSiteNoLongerHostileMulti>Because you are no longer hostile with {0}, the following sites are no longer available</LetterSiteNoLongerHostileMulti>
-
 
 </LanguageData>

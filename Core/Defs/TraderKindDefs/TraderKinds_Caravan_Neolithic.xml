@@ -191,7 +191,8 @@
     <commonality>1</commonality>
     <commonalityMultFromPopulationIntent>
       <points>
-        <li>(0, 0)</li>
+        <li>(-1, 0)</li>
+        <li>(0, 0.3)</li>
         <li>(1, 1)</li>
       </points>
     </commonalityMultFromPopulationIntent>
@@ -222,8 +223,8 @@
       </li>
 		  <li Class="StockGenerator_Slaves">
         <countRange>
-          <min>2</min>
-          <max>4</max>
+          <min>3</min>
+          <max>5</max>
         </countRange>
       </li>
 			<li Class="StockGenerator_BuyArt" />

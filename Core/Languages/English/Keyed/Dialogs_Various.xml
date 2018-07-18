@@ -130,8 +130,6 @@
   <MapStartSeason>Starting season</MapStartSeason>
   <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
   <Notice>Notice</Notice>
-  <PermadeathMode>Permadeath mode</PermadeathMode>
-  <PermadeathModeInfo>In permadeath mode, you get one save file and can only save when quitting the game. You cannot reload the game to fix mistakes, and when the colony dies, that's it.\n\nThis is the way RimWorld was meant to be played, with every dramatic turn - whether tragic or hopeful - played out to full impact.</PermadeathModeInfo>
 
   <!-- Bill config -->
   <Suspended>Suspended</Suspended>
@@ -139,7 +137,7 @@
   <SuspendedAllCaps>SUSPENDED</SuspendedAllCaps>
   <RepeatCount>Repeat:</RepeatCount>
   <Forever>Forever</Forever>
-	<Details>Details</Details>
+  <Details>Details</Details>
   <IngredientSearchRadius>Ingredient radius</IngredientSearchRadius>
   <CurrentlyHave>Currently have</CurrentlyHave>
   <CountingProducts>Counting</CountingProducts>
@@ -205,7 +203,7 @@
   <MinFoodQuality>Min. food quality</MinFoodQuality>
   <Diet>Diet</Diet>
   <LeatherType>Leather type</LeatherType>
-	<BodySize>Body size</BodySize>
+  <BodySize>Body size</BodySize>
   <RecruitDifficulty>Recruit difficulty</RecruitDifficulty>
   <MarketValue>Base price</MarketValue>
   <Covers>Covers</Covers>
@@ -223,8 +221,8 @@
   <TimeRecordsCategory>Time</TimeRecordsCategory>
   <MiscRecordsCategory>Misc</MiscRecordsCategory>
   <Addictiveness>Addictiveness</Addictiveness>
-	<PackAnimal>Pack animal</PackAnimal>
-	<PackAnimalExplanation>Whether this animal is appropriate to use to carry items in a caravan over long distances.</PackAnimalExplanation>
+  <PackAnimal>Pack animal</PackAnimal>
+  <PackAnimalExplanation>Whether this animal is appropriate to use to carry items in a caravan over long distances.</PackAnimalExplanation>
   <Skill>Skill</Skill>
   <SurgerySuccessChanceFactor>Success rate multiplier</SurgerySuccessChanceFactor>
   <SurgeryRequireBed>Requires bed</SurgeryRequireBed>
@@ -252,7 +250,7 @@
   <CancelButton>Cancel</CancelButton>
   <CloseButton>Close</CloseButton>
   <YourTradeableSilver>Your tradeable silver: {0}</YourTradeableSilver>
-	<YourTradeableSilverTip>You can only trade with silver that is near an orbital trade beacon and not under a roof.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>You can only trade with silver that is near an orbital trade beacon and not under a roof.</YourTradeableSilverTip>
   <TraderHasNoMore>Trader has no more.</TraderHasNoMore>
   <ColonyHasNoMore>No more to sell.</ColonyHasNoMore>
   <TraderWillNotTrade>Trader is not willing to buy this.</TraderWillNotTrade>
@@ -262,16 +260,16 @@
   <NegotiatorCapacityImpaired>This will affect trade prices.\n\nConsider using a healthier negotiator.</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>Trader has insufficient silver to fully cover this transaction.  Proceed anyways?</ConfirmTraderShortFunds>
   <SortBy>Sort by</SortBy>
-	<TraderTypePrice>trader type</TraderTypePrice>
-	<Selling>selling</Selling>
-	<Buying>buying</Buying>
-	<ItemSellPriceFactor>item sell price multiplier</ItemSellPriceFactor>
-	<DifficultyLevel>difficulty level</DifficultyLevel>
-	<PostCurve>global post-process curve</PostCurve>
-	<YourNegotiatorBonus>Your negotiator bonus</YourNegotiatorBonus>
-	<TradeWithFactionBaseBonus>Trading with faction base bonus</TradeWithFactionBaseBonus>
-	<minimum>minimum</minimum>
-	<FinalPrice>Final price</FinalPrice>
+  <TraderTypePrice>trader type</TraderTypePrice>
+  <Selling>selling</Selling>
+  <Buying>buying</Buying>
+  <ItemSellPriceFactor>item sell price multiplier</ItemSellPriceFactor>
+  <DifficultyLevel>difficulty level</DifficultyLevel>
+  <PostCurve>global post-process curve</PostCurve>
+  <YourNegotiatorBonus>Your negotiator bonus</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>Trading with faction base bonus</TradeWithFactionBaseBonus>
+  <minimum>minimum</minimum>
+  <FinalPrice>Final price</FinalPrice>
   <GiftModeTip>Gift mode - offer gifts to {0}.</GiftModeTip>
   <TradeModeTip>Return to trade mode.</TradeModeTip>
 
@@ -370,7 +368,7 @@
   <HistoryUploadNo>Do not allow uploading gameplay data</HistoryUploadNo>
   <HistoryUploadYesOnce>Upload only this time</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Do not upload this time, ask me later</HistoryUploadNoOnce>
-	
+  
   <!-- Outfit management -->
   <Outfit>Outfit</Outfit>
   <SelectOutfit>Select outfit...</SelectOutfit>
@@ -409,8 +407,8 @@
   <MoodThresholdColumnDesc>The colonists will take this drug only if their mood level is below this threshold.</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>The colonists will take this drug only if their recreation level is below this threshold.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time.</TakeToInventoryColumnDesc>
-	<DrugUsageTipForAddiction>For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForAddiction>
-	<DrugUsageTipForJoy>For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
+  <DrugUsageTipForAddiction>For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForAddiction>
+  <DrugUsageTipForJoy>For recreation\n\nUse this drug for recreation and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met.</DrugUsageTipScheduled>
 
   <!-- Medical settings -->
@@ -446,4 +444,8 @@
   <!-- Settle near a faction base -->
   <ConfirmSettleNearFactionBase>Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways?</ConfirmSettleNearFactionBase>
   
+  <!-- Cleanup translation files -->
+  <ConfirmCleanupTranslationFiles>Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles_Confirm>Yes, I have a backup</ConfirmCleanupTranslationFiles_Confirm>
+
 </LanguageData>

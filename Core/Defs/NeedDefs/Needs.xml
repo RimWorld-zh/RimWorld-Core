@@ -10,7 +10,7 @@
     <minIntelligence>Humanlike</minIntelligence>
     <baseLevel>0.32</baseLevel>
     <seekerRisePerHour>0.12</seekerRisePerHour>
-    <seekerFallPerHour>0.04</seekerFallPerHour>
+    <seekerFallPerHour>0.06</seekerFallPerHour>
     <listPriority>1000</listPriority>
     <major>true</major>
     <freezeWhileSleeping>true</freezeWhileSleeping>

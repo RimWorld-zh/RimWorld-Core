@@ -73,9 +73,6 @@
     </graphicData>
     <uiIconPath>Things/Building/Linked/WaterproofConduit_MenuIcon</uiIconPath>
     <terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
-    <researchPrerequisites>
-      <li>Waterproofing</li>
-    </researchPrerequisites>
     <costList>
       <Steel>3</Steel>
     </costList>
@@ -576,7 +573,7 @@
 			<ai_chillDestination>false</ai_chillDestination>
     </building>
     <constructEffect>ConstructWood</constructEffect>
-    <researchPrerequisites><li>Electricity</li></researchPrerequisites>
+    <researchPrerequisites><li>WatermillGenerator</li></researchPrerequisites>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
   </ThingDef>
   

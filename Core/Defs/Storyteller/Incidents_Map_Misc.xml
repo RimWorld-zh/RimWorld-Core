@@ -182,7 +182,7 @@
 			<li>Map_PlayerHome</li>
 		</targetTypes>
 		<workerClass>IncidentWorker_WildManWandersIn</workerClass>
-		<baseChance>0.15</baseChance>
+		<baseChance>0.70</baseChance>
 		<populationEffect>Increase</populationEffect>
 		<letterLabel>Wild man wanders in</letterLabel>
 		<letterText>A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective].</letterText>

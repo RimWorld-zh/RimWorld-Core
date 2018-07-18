@@ -131,7 +131,6 @@
     <description>Total time spent wardening.</description>
     <type>Time</type>
     <measuredTimeJobs>
-      <li>PrisonerFriendlyChat</li>
       <li>PrisonerAttemptRecruit</li>
       <li>PrisonerExecution</li>
       <li>TakeWoundedPrisonerToBed</li>

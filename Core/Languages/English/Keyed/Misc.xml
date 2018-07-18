@@ -8,7 +8,6 @@
   <AndLower>and</AndLower>
   <DisabledLower>disabled</DisabledLower>
 
-
   <VersionIndicator>Version {0}</VersionIndicator>
   <DevelopmentBuildLower>development build</DevelopmentBuildLower>
   <CompiledOn>Compiled {0}</CompiledOn>
@@ -27,8 +26,8 @@
   <durationDays>duration (days)</durationDays>
   <intervalDays>interval (days)</intervalDays>
   <repeat>repeat</repeat>
-	<default>default</default>
-	<distance>distance</distance>
+  <default>default</default>
+  <distance>distance</distance>
   <YesUppercase>YES</YesUppercase>
   <NoUppercase>NO</NoUppercase>
   <kg>kg</kg>
@@ -39,13 +38,13 @@
 
   <!-- Content generation-->
   
-	<MeatLabel>{0} meat</MeatLabel>
+  <MeatLabel>{0} meat</MeatLabel>
   <MeatDesc>Raw butchered flesh. Can be cooked into meals, or eaten raw.</MeatDesc>
   <MeatInsectDesc>Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing.</MeatInsectDesc>
   <MeatHumanDesc>Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea.</MeatHumanDesc>
 
   <CorpseLabel>{0} corpse</CorpseLabel>
-	<CorpseDesc>Dead body of a {0}.</CorpseDesc>
+  <CorpseDesc>Dead body of a {0}.</CorpseDesc>
   <DeadLabel>{0} (dead)</DeadLabel>
 
   <RoughStoneTerrainLabel>rough {0}</RoughStoneTerrainLabel>
@@ -59,7 +58,6 @@
   <FrameLabelExtra> (building)</FrameLabelExtra>
 
   <FactionUnaffiliated>Unaffiliated</FactionUnaffiliated>
-
 
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
@@ -78,6 +76,5 @@
   <South>South</South>
   <West>West</West>
   <East>East</East>
-  
   
 </LanguageData>

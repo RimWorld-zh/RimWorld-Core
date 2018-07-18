@@ -41,10 +41,10 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>Waterproofing</defName>
-    <label>waterproof conduit</label>
-    <description>Build underwater electrical conduits.</description>
-    <baseCost>300</baseCost>
+    <defName>WatermillGenerator</defName>
+    <label>watermill generator</label>
+    <description>Build watermill generators on rivers to generate a steady supply of power.</description>
+    <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
@@ -287,7 +287,7 @@
     <defName>FlakArmor</defName>
     <label>flak armor</label>
     <description>Craft clothing with metal armor sewn in to resist bullets and explosions. This weighty armor slows movement slightly.</description>
-    <baseCost>800</baseCost>
+    <baseCost>1200</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Machining</li>

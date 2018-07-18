@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseGun">
     <defName>Gun_TripleRocket</defName>
     <label>triple rocket launcher</label>
-    <description>A single-use rocket launcher that fires a cluster of three large-bore explosive rockets. Because of its unwieldiness, single-use limitation, and the massive destruction it causes, it's said that one must be slightly crazy to use this weapon.</description>
+    <description>A single-use rocket launcher that fires a cluster of three large-bore explosive rockets. Good against smalll groups of tough targets.\n\nBecause of its unwieldiness, single-use limitation, and the massive destruction it causes, it's said that one must be slightly crazy to use this weapon.</description>
     <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/RocketLauncher</texPath>
@@ -77,7 +77,7 @@
     <projectile>
       <damageDef>Bomb</damageDef>
       <!-- Use default damage from explosion def -->
-      <explosionRadius>2.9</explosionRadius>
+      <explosionRadius>3.9</explosionRadius>
       <speed>50</speed>
     </projectile>
   </ThingDef>
@@ -85,7 +85,7 @@
   <ThingDef ParentName="BaseGun">
     <defName>Gun_DoomsdayRocket</defName>
     <label>doomsday rocket launcher</label>
-    <description>A single-use rocket launcher that fires a massive explosive projectile. Because of its unwieldiness, single-use limitation, and the massive destruction it causes, it's said that one must be slightly crazy to use this weapon.</description>
+    <description>A single-use rocket launcher that fires a massive explosive projectile. Good against large groups of soft targets. Starts fires.\n\nBecause of its unwieldiness, single-use limitation, and the massive destruction it causes, it's said that one must be slightly crazy to use this weapon.</description>
     <tickerType>Normal</tickerType>
     <techLevel>Spacer</techLevel>
     <graphicData>

@@ -7,7 +7,7 @@
     <description>Forests of coniferous trees. Despite the harsh winters, boreal forests sustain a diverse population of small and large animals, and have warm summers.</description>
     <workerClass>BiomeWorker_BorealForest</workerClass>
     <animalDensity>2.8</animalDensity>
-    <plantDensity>0.32</plantDensity>
+    <plantDensity>0.36</plantDensity>
     <settlementSelectionWeight>0.9</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <forageability>0.75</forageability>
@@ -146,7 +146,7 @@
     <description>These mostly-frozen plains bear almost no trees and little vegetation. There are a few small animals interspersed with large herds of migratory grazers and their predators.</description>
     <workerClass>BiomeWorker_Tundra</workerClass>
     <animalDensity>1.1</animalDensity>
-    <plantDensity>0.14</plantDensity>
+    <plantDensity>0.19</plantDensity>
     <settlementSelectionWeight>0.32</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
     <texture>World/Biomes/Tundra</texture>
@@ -237,9 +237,9 @@
 			<Plant_Bush>0.3</Plant_Bush>
 			<Plant_Astragalus>0.1</Plant_Astragalus>
 			<Plant_Dandelion>0.1</Plant_Dandelion>
+      <Plant_TreePine>0.08</Plant_TreePine>
+      <Plant_TreeBirch>0.08</Plant_TreeBirch>
 			<Plant_Berry>0.07</Plant_Berry>
-			<Plant_TreePine>0.05</Plant_TreePine>
-      <Plant_TreeBirch>0.05</Plant_TreeBirch>
 			<Plant_HealrootWild>0.05</Plant_HealrootWild>
 		</wildPlants>
     <wildAnimals>

@@ -89,10 +89,11 @@
       <preferability>RawBad</preferability>
     </ingestible>
     <plant>
+      <lifespanDaysPerGrowDays>100</lifespanDaysPerGrowDays>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<soundHarvesting>Harvest_Tree</soundHarvesting>
       <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
-      <sowWork>12000</sowWork>
+      <sowWork>10000</sowWork>
       <sowMinSkill>6</sowMinSkill>
       <sowResearchPrerequisites>
         <li>TreeSowing</li>

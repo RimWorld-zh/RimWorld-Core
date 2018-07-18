@@ -734,7 +734,7 @@
     <researchPrerequisites>
       <li>ComplexFurniture</li>
     </researchPrerequisites>
-    <costStuffCount>100</costStuffCount>
+    <costStuffCount>110</costStuffCount>
     <pathCost>30</pathCost>
     <fillPercent>0.40</fillPercent>
     <designationHotKey>Misc8</designationHotKey>

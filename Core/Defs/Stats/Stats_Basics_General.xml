@@ -51,9 +51,13 @@
         <factorPoor>0.75</factorPoor>
         <factorNormal>1</factorNormal>
         <factorGood>1.25</factorGood>
+        <maxGainGood>500</maxGainGood>
         <factorExcellent>1.5</factorExcellent>
+        <maxGainExcellent>1000</maxGainExcellent>
         <factorMasterwork>2.5</factorMasterwork>
-        <factorLegendary>6</factorLegendary>
+        <maxGainMasterwork>2000</maxGainMasterwork>
+        <factorLegendary>5</factorLegendary>
+        <maxGainLegendary>3000</maxGainLegendary>
       </li>
       <li Class="StatPart_Health">
         <curve>

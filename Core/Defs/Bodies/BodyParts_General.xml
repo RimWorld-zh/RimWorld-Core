@@ -5,7 +5,7 @@
   <BodyPartDef>
     <defName>Head</defName>
     <label>head</label>
-    <hitPoints>30</hitPoints>
+    <hitPoints>25</hitPoints>
     <skinCovered>true</skinCovered>
     <canSuggestAmputation>false</canSuggestAmputation>
     <bleedRate>2</bleedRate>
@@ -14,7 +14,7 @@
   <BodyPartDef>
     <defName>Skull</defName>
     <label>skull</label>
-    <hitPoints>30</hitPoints>
+    <hitPoints>25</hitPoints>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -38,7 +38,7 @@
   <BodyPartDef>
     <defName>Eye</defName>
     <label>eye</label>
-    <hitPoints>10</hitPoints>
+    <hitPoints>8</hitPoints>
     <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
     <delicate>true</delicate>
     <skinCovered>false</skinCovered>
@@ -58,7 +58,7 @@
   <BodyPartDef>
     <defName>Ear</defName>
     <label>ear</label>
-    <hitPoints>10</hitPoints>
+    <hitPoints>12</hitPoints>
     <frostbiteVulnerability>5</frostbiteVulnerability>
     <skinCovered>true</skinCovered>
     <beautyRelated>true</beautyRelated>
@@ -98,7 +98,7 @@
   <BodyPartDef>
     <defName>Neck</defName>
     <label>neck</label>
-    <hitPoints>30</hitPoints>
+    <hitPoints>20</hitPoints>
     <bleedRate>4</bleedRate>
     <skinCovered>true</skinCovered>
     <tags>
@@ -109,11 +109,10 @@
     <canSuggestAmputation>false</canSuggestAmputation>
   </BodyPartDef>
 
-
   <BodyPartDef>
     <defName>Ribcage</defName>
     <label>ribcage</label>
-    <hitPoints>25</hitPoints>
+    <hitPoints>30</hitPoints>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
@@ -126,8 +125,8 @@
   <BodyPartDef>
     <defName>Spine</defName>
     <label>spine</label>
-    <hitPoints>20</hitPoints>
-    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <hitPoints>25</hitPoints>
+    <permanentInjuryChanceFactor>6</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
@@ -149,7 +148,7 @@
   <BodyPartDef>
     <defName>Foot</defName>
     <label>foot</label>
-    <hitPoints>20</hitPoints>
+    <hitPoints>25</hitPoints>
     <frostbiteVulnerability>0.5</frostbiteVulnerability>
     <skinCovered>true</skinCovered>
     <tags>

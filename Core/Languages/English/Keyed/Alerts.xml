@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<ClickToJumpToProblem>Click to jump to problem</ClickToJumpToProblem>
+  <ClickToJumpToProblem>Click to jump to problem</ClickToJumpToProblem>
 
   <BreakRiskMinor>Minor break risk</BreakRiskMinor>
   <BreakRiskMajor>Major break risk</BreakRiskMajor>
@@ -43,10 +43,10 @@
   <AlertTatteredApparel>Tattered apparel</AlertTatteredApparel>
   <AlertTatteredApparelDesc>These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a tailoring table, or buy it from traders.</AlertTatteredApparelDesc>
 
-	<AlertUnhappyNudity>Unhappy nudity</AlertUnhappyNudity>
-	<AlertUnhappyNudityDesc>These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders.</AlertUnhappyNudityDesc>
+  <AlertUnhappyNudity>Unhappy nudity</AlertUnhappyNudity>
+  <AlertUnhappyNudityDesc>These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders.</AlertUnhappyNudityDesc>
 
-	<Starvation>Starvation</Starvation>
+  <Starvation>Starvation</Starvation>
   <StarvationDesc>These colonists are starving:\n\n{0}\nGet them some food.</StarvationDesc>
 
   <StarvationAnimals>Animal starvation</StarvationAnimals>
@@ -99,7 +99,7 @@
   <FireInHomeAreaDesc>There is a fire in the home area.</FireInHomeAreaDesc>
 
   <PawnsWithLifeThreateningDisease>Medical emergency</PawnsWithLifeThreateningDisease>
-  <PawnsWithLifeThreateningDiseaseDesc>People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get the best medical possible.</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseDesc>People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get the best medical care possible.</PawnsWithLifeThreateningDiseaseDesc>
   <PawnsWithLifeThreateningDiseaseAmputationDesc>People are at risk for death because of severe illness:\n\n{0}\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
   <BilliardsNeedsSpace>Billiards needs space</BilliardsNeedsSpace>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- glow -->
+  <!-- Glow -->
   <Dark>Dark</Dark>
   <Lit>Lit</Lit>
   <LitBrightly>Brightly lit</LitBrightly>
   
-  <!-- history upload pref -->
+  <!-- History upload pref -->
   <Unspecified>Undecided</Unspecified>
   <Always>Allow</Always>
   <Never>Do not allow</Never>

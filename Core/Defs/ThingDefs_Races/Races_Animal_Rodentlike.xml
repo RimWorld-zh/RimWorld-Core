@@ -6,7 +6,7 @@
     <label>squirrel</label>
     <description>One of the many hardy rodent species that follows humankind everywhere it spreads. Squirrels are distinguished by their bushy tails, which they use as umbrellas in bad weather.</description>
     <statBases>
-      <MoveSpeed>5.25</MoveSpeed>
+      <MoveSpeed>5.1</MoveSpeed>
       <MarketValue>35</MarketValue>
       <ComfyTemperatureMin>-35</ComfyTemperatureMin>
     </statBases>
@@ -36,6 +36,7 @@
         <power>5</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -46,7 +47,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -145,7 +146,7 @@
     <label>alphabeaver</label>
     <description>A large beaver-like creature genetically engineered to harvest wood with machine-like efficiency. In the absence of specialized feed, these animals will enter a manic state that compels them to eat trees whole, and are likely to attack if disturbed.</description>
     <statBases>
-      <MoveSpeed>3.50</MoveSpeed>
+      <MoveSpeed>3.7</MoveSpeed>
       <MarketValue>250</MarketValue>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
     </statBases>
@@ -175,6 +176,7 @@
         <power>8.5</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -185,7 +187,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -198,7 +200,8 @@
       <leatherDef>Leather_Light</leatherDef>
       <wildness>0.75</wildness>
       <gestationPeriodDays>17</gestationPeriodDays>
-      <manhunterOnDamageChance>0.06</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -289,7 +292,7 @@
     <label>capybara</label>
     <description>The largest natural rodent, the capybara is well-adapted for steaming jungle environments.</description>
     <statBases>
-      <MoveSpeed>3.5</MoveSpeed>
+      <MoveSpeed>3.9</MoveSpeed>
       <MarketValue>150</MarketValue>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
@@ -320,6 +323,7 @@
         <power>8.5</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -330,7 +334,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -439,7 +443,7 @@
     <label>chinchilla</label>
     <description>A small, nimble rodent. Its fur is softer than just about anything in the universe, making it very valuable as a trade good.</description>
     <statBases>
-      <MoveSpeed>5.00</MoveSpeed>
+      <MoveSpeed>5.0</MoveSpeed>
       <MarketValue>150</MarketValue>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <ComfyTemperatureMax>55</ComfyTemperatureMax>
@@ -470,6 +474,7 @@
         <power>5.8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -480,7 +485,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -590,7 +595,7 @@
     <label>boomrat</label>
     <description>Either by deliberate genetic weaponization, or as an unusual defense mechanism, these rodent-like creatures create a powerful fire-starting explosion when killed.</description>
     <statBases>
-      <MoveSpeed>4.75</MoveSpeed>
+      <MoveSpeed>4.6</MoveSpeed>
       <MarketValue>100</MarketValue>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
     </statBases>
@@ -620,6 +625,7 @@
         <power>4.9</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -630,7 +636,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -742,7 +748,7 @@
     <label>raccoon</label>
     <description>A small, hardy animal that ranges wide across forests and shrubland. It is happy to break into your garbage container, or your kitchen, to eat almost anything.</description>
     <statBases>
-      <MoveSpeed>4.0</MoveSpeed>
+      <MoveSpeed>4.1</MoveSpeed>
       <MarketValue>100</MarketValue>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
     </statBases>
@@ -772,6 +778,7 @@
         <power>7</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -782,7 +789,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -914,6 +921,7 @@
         <power>6</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -924,7 +932,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>

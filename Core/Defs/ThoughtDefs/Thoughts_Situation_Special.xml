@@ -2,18 +2,6 @@
 <Defs>
 
   <ThoughtDef>
-    <defName>Imprisoned</defName>
-    <workerClass>ThoughtWorker_Imprisoned</workerClass>
-    <stages>
-      <li>
-        <label>imprisoned</label>
-        <description>I hate being locked up.</description>
-        <baseMoodEffect>-5</baseMoodEffect>
-      </li>
-    </stages>
-  </ThoughtDef>
-
-  <ThoughtDef>
     <defName>SharedBed</defName>
     <thoughtClass>Thought_SharedBed</thoughtClass>
     <workerClass>ThoughtWorker_SharedBed</workerClass>

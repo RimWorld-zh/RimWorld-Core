@@ -47,7 +47,7 @@
       <harvestTag>Wood</harvestTag>
       <growDays>30</growDays>
       <growMinGlow>0</growMinGlow>
-      <lifespanFraction>0</lifespanFraction>
+      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
       <visualSizeRange>
         <min>1.2</min>
         <max>1.9</max>

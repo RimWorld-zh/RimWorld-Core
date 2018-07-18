@@ -44,7 +44,7 @@
       <hasGenders>true</hasGenders>
       <nameGenerator>NamerAnimalGenericMale</nameGenerator>
       <nameGeneratorFemale>NamerAnimalGenericFemale</nameGeneratorFemale>
-      <manhunterOnDamageChance>0.006</manhunterOnDamageChance>
+      <manhunterOnDamageChance>0.02</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.013</manhunterOnTameFailChance>
       <nameOnNuzzleChance>0.5</nameOnNuzzleChance>
       <trainability>Intermediate</trainability>

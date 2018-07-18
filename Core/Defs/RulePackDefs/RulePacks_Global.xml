@@ -48,6 +48,13 @@
         <li>ConceptAny->[ConceptPositive]</li>
         <li>ConceptAny->[ConceptBadass]</li>
         <li>ConceptAny->[ConceptAngsty]</li>
+        <li>PersonalCharacteristic(p=0.15)->genitals</li>
+        <li>PersonalCharacteristic(p=0.15)->pubic hair</li>
+        <li>PersonalCharacteristic(p=0.15)->body hair</li>
+        <li>PersonalCharacteristic(p=0.15)->toilet habits</li>
+        <li>PersonalCharacteristic(p=0.15)->sexual prowess</li>
+        <li>PersonalCharacteristic(p=0.15)->sexual preferences</li>
+        <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
       </rulesStrings>
       <rulesFiles>
         <li>RomanNumeral->Words/Misc/Numbers_SmallRoman</li>
@@ -149,6 +156,11 @@
         <li>TalkTopicLight->[Apparel]s</li>
         <li>TalkTopicLight->wearing [Apparel]s</li>
         <li>TalkTopicLight->making [Apparel]s</li>
+
+        <li>talktopicheavyfile(p=0.15)->sex</li>
+        <li>talktopicheavyfile(p=0.15)->seduction</li>
+        <li>talktopicheavyfile(p=0.15)->animal sexuality</li>
+        <li>talktopicheavyfile(p=0.15)->sexual fetishes</li>
       </rulesStrings>
       <rulesFiles>
         <li>talktopicheavyfile->Words/Nouns/TalkTopics_Heavy</li>

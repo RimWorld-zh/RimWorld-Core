@@ -23,7 +23,7 @@
         </li>
         <li>
           <def>Sternum</def>
-          <coverage>0.005</coverage>
+          <coverage>0.015</coverage>
           <depth>Inside</depth>
           <groups>
             <li>Torso</li>
@@ -31,7 +31,7 @@
         </li>
         <li>
           <def>Pelvis</def>
-          <coverage>0.01</coverage>
+          <coverage>0.025</coverage>
           <height>Bottom</height>
           <depth>Inside</depth>
           <groups>
@@ -40,7 +40,7 @@
         </li>
         <li>
           <def>Spine</def>
-          <coverage>0.02</coverage>
+          <coverage>0.025</coverage>
           <depth>Inside</depth>
           <groups>
             <li>Torso</li>
@@ -48,7 +48,7 @@
         </li>
         <li>
           <def>Stomach</def>
-          <coverage>0.023</coverage>
+          <coverage>0.025</coverage>
           <depth>Inside</depth>
           <groups>
             <li>Torso</li>
@@ -56,7 +56,7 @@
         </li>
         <li>
           <def>Heart</def>
-          <coverage>0.023</coverage>
+          <coverage>0.025</coverage>
           <depth>Inside</depth>
           <groups>
             <li>Torso</li>
@@ -83,7 +83,7 @@
         <li>
           <def>Kidney</def>
           <customLabel>left kidney</customLabel>
-          <coverage>0.01</coverage>
+          <coverage>0.017</coverage>
           <depth>Inside</depth>
           <groups>
             <li>Torso</li>
@@ -92,7 +92,7 @@
         <li>
           <def>Kidney</def>
           <customLabel>right kidney</customLabel>
-          <coverage>0.01</coverage>
+          <coverage>0.017</coverage>
           <depth>Inside</depth>
           <groups>
             <li>Torso</li>
@@ -100,7 +100,7 @@
         </li>
         <li>
           <def>Liver</def>
-          <coverage>0.023</coverage>
+          <coverage>0.025</coverage>
           <depth>Inside</depth>
           <groups>
             <li>Torso</li>
@@ -108,7 +108,7 @@
         </li>
         <li>
           <def>Neck</def>
-          <coverage>0.08</coverage>
+          <coverage>0.080</coverage>
           <height>Top</height>
           <groups>
             <li>Neck</li>
