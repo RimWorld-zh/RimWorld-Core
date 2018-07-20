@@ -374,7 +374,7 @@
       <Flammability>0.5</Flammability>
     </statBases>
     <costList>
-      <Steel>70</Steel>
+      <Steel>50</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <comps>

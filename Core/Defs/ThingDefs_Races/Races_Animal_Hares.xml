@@ -41,6 +41,8 @@
       <mateMtbHours>8</mateMtbHours>
       <nuzzleMtbHours>72</nuzzleMtbHours>
       <gestationPeriodDays>13</gestationPeriodDays>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
       <litterSizeCurve>
         <points>
           <li>(1.0, 0)</li>

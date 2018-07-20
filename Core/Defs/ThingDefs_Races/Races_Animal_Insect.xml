@@ -12,7 +12,7 @@
       <meatColor>(160,168,139)</meatColor>
       <meatMarketValue>0.5</meatMarketValue>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
-      <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
+      <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
     </race>
   </ThingDef>

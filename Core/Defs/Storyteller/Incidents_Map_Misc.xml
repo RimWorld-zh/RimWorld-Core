@@ -83,7 +83,7 @@
     </targetTypes>
 		<workerClass>IncidentWorker_WandererJoin</workerClass>
 		<baseChance>0.4</baseChance>
-		<populationEffect>Increase</populationEffect>
+		<populationEffect>IncreaseEasy</populationEffect>
 	</IncidentDef>
 
 	<IncidentDef>
@@ -95,7 +95,7 @@
     </targetTypes>
 		<workerClass>IncidentWorker_RefugeePodCrash</workerClass>
 		<baseChance>1.5</baseChance>
-		<populationEffect>Increase</populationEffect>
+		<populationEffect>IncreaseMedium</populationEffect>
 	</IncidentDef>
 
 	<!-- =========================== Neutral ============================-->
@@ -109,7 +109,7 @@
     </targetTypes>
     <workerClass>IncidentWorker_RefugeeChased</workerClass>
     <baseChance>2</baseChance>
-    <populationEffect>Increase</populationEffect>
+    <populationEffect>IncreaseHard</populationEffect>
     <minRefireDays>8</minRefireDays>
   </IncidentDef>
 
@@ -134,7 +134,7 @@
     </targetTypes>
     <workerClass>IncidentWorker_RansomDemand</workerClass>
     <baseChance>2</baseChance>
-    <populationEffect>Increase</populationEffect>
+    <populationEffect>IncreaseHard</populationEffect>
     <letterLabel>Ransom demand</letterLabel>
     <letterDef>RansomDemand</letterDef>
   </IncidentDef>
@@ -183,7 +183,7 @@
 		</targetTypes>
 		<workerClass>IncidentWorker_WildManWandersIn</workerClass>
 		<baseChance>0.70</baseChance>
-		<populationEffect>Increase</populationEffect>
+		<populationEffect>IncreaseMedium</populationEffect>
 		<letterLabel>Wild man wanders in</letterLabel>
 		<letterText>A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective].</letterText>
 		<letterDef>NeutralEvent</letterDef>

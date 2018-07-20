@@ -35,7 +35,7 @@
     <statBases>
       <MoveSpeed>1.8</MoveSpeed>
       <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
     </statBases>
     <tools>
       <li>
@@ -83,7 +83,7 @@
     <defName>Mech_Centipede</defName>
     <label>centipede</label>
     <race>Mech_Centipede</race>
-    <combatPower>350</combatPower>
+    <combatPower>400</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>

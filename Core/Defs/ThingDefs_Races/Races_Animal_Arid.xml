@@ -226,6 +226,8 @@
       <wildness>0.75</wildness>
       <gestationPeriodDays>22</gestationPeriodDays>
       <lifeExpectancy>12</lifeExpectancy>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -530,6 +532,8 @@
       <packAnimal>true</packAnimal>
       <gestationPeriodDays>28</gestationPeriodDays>
       <lifeExpectancy>45</lifeExpectancy>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>

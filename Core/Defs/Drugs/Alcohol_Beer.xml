@@ -42,7 +42,7 @@
         </li>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>AlcoholTolerance</hediffDef>
-          <severity>0.032</severity>
+          <severity>0.016</severity>
 					<divideByBodySize>true</divideByBodySize>
 				</li>
       </outcomeDoers>
@@ -387,7 +387,7 @@
     <label>alcohol tolerance</label>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.015</severityPerDay>
+        <severityPerDay>-0.016</severityPerDay>
       </li>
       <li Class="HediffCompProperties_DrugEffectFactor">
         <chemical>Alcohol</chemical>

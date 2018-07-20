@@ -54,7 +54,7 @@
 		<label>Medium</label>
 		<description>Build a community while facing down dangerous threats.\n\nRecommended for: Experienced strategy game players on their first game of RimWorld, or skilled RimWorld players who want some breathing room to pursue funny or weird goals.</description>
 		<difficulty>2</difficulty>
-		<threatScale>0.65</threatScale>
+		<threatScale>0.60</threatScale>
 		<raidBeaconThreatMtbFactor>1.3</raidBeaconThreatMtbFactor>
 		<colonistMoodOffset>5</colonistMoodOffset>
 		<cropYieldFactor>1</cropYieldFactor>

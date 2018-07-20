@@ -29,7 +29,7 @@
       </points>
     </pointsFactorFromAdaptDays>
     <adaptDaysMin>-60</adaptDaysMin>
-    <adaptDaysGameStartGraceDays>20</adaptDaysGameStartGraceDays>
+    <adaptDaysGameStartGraceDays>30</adaptDaysGameStartGraceDays>
     <adaptDaysLossFromColonistLostByPostPopulation>
       <points>
         <li>( 0, 28)</li><!-- 28 days at normal pops; slightly lower at really high pop -->

@@ -176,6 +176,8 @@
   <Current>Current</Current>
   <Male>male</Male>
   <Female>female</Female>
+  <MaleAnimal>male</MaleAnimal>
+  <FemaleAnimal>female</FemaleAnimal>
   <Pain>Pain</Pain>
   <Health>Health</Health>
   <Relations>Relations</Relations>

@@ -41,7 +41,6 @@ Some calculations for a retuning, Apr 3 2018
     <maxMapWealth>10000</maxMapWealth>
     <joyKindsNeeded>2</joyKindsNeeded>
     <joyToleranceDropPerDay>0.18</joyToleranceDropPerDay>
-    <psychicDroneLevel>BadLow</psychicDroneLevel>
   </ExpectationDef>
 
   <ExpectationDef>
@@ -51,7 +50,6 @@ Some calculations for a retuning, Apr 3 2018
     <maxMapWealth>25000</maxMapWealth>
     <joyKindsNeeded>3</joyKindsNeeded>
     <joyToleranceDropPerDay>0.13</joyToleranceDropPerDay>
-    <psychicDroneLevel>BadLow</psychicDroneLevel>
   </ExpectationDef>
 
   <ExpectationDef>
@@ -61,7 +59,6 @@ Some calculations for a retuning, Apr 3 2018
     <maxMapWealth>75000</maxMapWealth>
     <joyKindsNeeded>3</joyKindsNeeded>
     <joyToleranceDropPerDay>0.11</joyToleranceDropPerDay>
-    <psychicDroneLevel>BadMedium</psychicDroneLevel>
   </ExpectationDef>
 
   <ExpectationDef>
@@ -71,7 +68,6 @@ Some calculations for a retuning, Apr 3 2018
     <maxMapWealth>150000</maxMapWealth>
     <joyKindsNeeded>4</joyKindsNeeded>
     <joyToleranceDropPerDay>0.10</joyToleranceDropPerDay>
-    <psychicDroneLevel>BadMedium</psychicDroneLevel>
   </ExpectationDef>
 
   <ExpectationDef>
@@ -81,7 +77,6 @@ Some calculations for a retuning, Apr 3 2018
     <maxMapWealth>300000</maxMapWealth>
     <joyKindsNeeded>5</joyKindsNeeded>
     <joyToleranceDropPerDay>0.08</joyToleranceDropPerDay>
-    <psychicDroneLevel>BadHigh</psychicDroneLevel>
   </ExpectationDef>
 
   <ExpectationDef>
@@ -91,7 +86,6 @@ Some calculations for a retuning, Apr 3 2018
     <maxMapWealth>1000000000</maxMapWealth>
     <joyKindsNeeded>6</joyKindsNeeded>
     <joyToleranceDropPerDay>0.07</joyToleranceDropPerDay>
-    <psychicDroneLevel>BadExtreme</psychicDroneLevel>
   </ExpectationDef>
 
 

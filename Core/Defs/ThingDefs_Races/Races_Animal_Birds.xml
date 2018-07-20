@@ -466,6 +466,8 @@
       <wildness>0.45</wildness>
       <trainability>None</trainability>
       <lifeExpectancy>9</lifeExpectancy>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">

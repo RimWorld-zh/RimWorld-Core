@@ -96,7 +96,7 @@
       <li>
         <label>psychic soothe</label>
         <description>It's like a calming voice at the back of my mind, soothing me, settling my nerves.</description>
-        <baseMoodEffect>14</baseMoodEffect>
+        <baseMoodEffect>16</baseMoodEffect>
       </li>
       <li>
         <label>low psychic drone</label>
@@ -106,17 +106,17 @@
       <li>
         <label>moderate psychic drone</label>
         <description>I feel like someone is always just out of sight, speaking to me. The voice changes but the message doesn't. I'm supposed to hurt people. Make it go away!</description>
-        <baseMoodEffect>-24</baseMoodEffect>
+        <baseMoodEffect>-22</baseMoodEffect>
       </li>
       <li>
         <label>high psychic drone</label>
         <description>The voice is unbearably loud. It's hard to concentrate. I find myself talking back to it, yelling at it. But it just keeps shouting!</description>
-        <baseMoodEffect>-36</baseMoodEffect>
+        <baseMoodEffect>-30</baseMoodEffect>
       </li>
       <li>
         <label>extreme psychic drone</label>
         <description>My heart pounds and I'm sweating. All I can think of is hurting and suffering and all these enemies around me. They're my nightmare, my nightmare, my nightmare...</description>
-        <baseMoodEffect>-48</baseMoodEffect>
+        <baseMoodEffect>-40</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

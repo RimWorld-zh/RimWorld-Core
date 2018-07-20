@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Deer</defName>
     <label>deer</label>
-    <description>A medium-sized herding herbivore which prefers to live in mixed forests and plains. Deer are very quick. Being very docile by nature, deer don't attack even if harmed.</description>
+    <description>A medium-sized herding herbivore which prefers to live in mixed forests and plains. Deer are very quick.</description>
     <statBases>
       <MoveSpeed>5.5</MoveSpeed>
       <MarketValue>250</MarketValue>

@@ -59,6 +59,8 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <trainability>None</trainability>
       <wildness>0</wildness>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
       <mateMtbHours>8</mateMtbHours>
       <lifeExpectancy>6</lifeExpectancy>
       <lifeStageAges>
@@ -195,6 +197,8 @@
       <wildness>0.07</wildness>
       <trainability>Advanced</trainability>
       <meatLabel>pork</meatLabel>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
       <gestationPeriodDays>17</gestationPeriodDays>
       <litterSizeCurve>
         <points>
@@ -577,6 +581,8 @@
 			<foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Camel</leatherDef>
       <wildness>0.25</wildness>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
       <gestationPeriodDays>25</gestationPeriodDays>
       <lifeExpectancy>15</lifeExpectancy>
       <lifeStageAges>

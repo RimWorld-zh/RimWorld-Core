@@ -46,9 +46,7 @@
         <randomMentalState>Binging_DrugExtreme</randomMentalState>
         <randomMentalStateMtbDaysMoodCurve>
           <points>
-            <li>(0, 7.5)</li>
-            <li>(50, 25)</li>
-            <li>(100, 50)</li>
+            <li>(0, 30)</li>
           </points>
         </randomMentalStateMtbDaysMoodCurve>
 				<marketValueFactorOffset>-0.15</marketValueFactorOffset>
@@ -60,9 +58,7 @@
         <randomMentalState>Binging_DrugMajor</randomMentalState>
         <randomMentalStateMtbDaysMoodCurve>
           <points>
-            <li>(0, 15)</li>
-            <li>(50, 50)</li>
-            <li>(100, 100)</li>
+            <li>(0, 60)</li>
           </points>
         </randomMentalStateMtbDaysMoodCurve>
 				<marketValueFactorOffset>-0.10</marketValueFactorOffset>

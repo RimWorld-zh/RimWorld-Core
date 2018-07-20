@@ -35,8 +35,8 @@
 
   <MessageOutOfNearbyShellsFor>{0} found no nearby unreserved shells for {1}.</MessageOutOfNearbyShellsFor>
 
-  <MessageAnimalsGoPsychoHunted>Warning: {0} often attack when harmed ({1} chance at rifle range, more if closer).</MessageAnimalsGoPsychoHunted>
-  <MessageAnimalManhuntsOnTameFailed>Warning: {0} often attack upon failed taming attempts ({1} chance).</MessageAnimalManhuntsOnTameFailed>
+  <MessageAnimalsGoPsychoHunted>Warning: {0} may attack when harmed ({1} chance at rifle range, more if closer).</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalManhuntsOnTameFailed>Warning: {0} may attack upon failed taming attempts ({1} chance).</MessageAnimalManhuntsOnTameFailed>
   
   <LetterLabelMessageRecruitSuccess>New recruit</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{0} successfully recruited {1} ({2} chance).</MessageRecruitSuccess>
