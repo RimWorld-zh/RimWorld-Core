@@ -4,7 +4,6 @@
   <PawnKindDef Name="MercenaryBase" Abstract="True">
     <race>Human</race>
     <defaultFactionType>Pirate</defaultFactionType>
-    <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
     <backstoryCategory>Raider</backstoryCategory>
     <chemicalAddictionChance>0.1</chemicalAddictionChance>
     <invNutrition>2.55</invNutrition>
@@ -339,7 +338,7 @@
     <label>boss</label>
     <labelPlural>bosses</labelPlural>
     <factionLeader>true</factionLeader>
-    <baseRecruitDifficulty>0.9</baseRecruitDifficulty>
+    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
     <canBeSapper>true</canBeSapper>
     <inventoryOptions>
       <skipChance>0.8</skipChance>

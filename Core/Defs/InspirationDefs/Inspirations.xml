@@ -37,7 +37,7 @@
     <label>shoot frenzy</label>
     <baseDurationDays>8</baseDurationDays>
     <beginLetterLabel>Inspiration: Shoot frenzy</beginLetterLabel>
-    <beginLetter>[PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_possessive] shoot more accurately for the next 8 days.</beginLetter>
+    <beginLetter>[PAWN_nameIndef] has experienced an inspiration!\n\n[PAWN_pronoun] will shoot more accurately for the next 8 days.</beginLetter>
     <beginLetterDef>PositiveEvent</beginLetterDef>
     <endMessage>{0} is no longer inspired (shoot frenzy).</endMessage>
     <baseInspectLine>Inspired: Shoot frenzy</baseInspectLine>

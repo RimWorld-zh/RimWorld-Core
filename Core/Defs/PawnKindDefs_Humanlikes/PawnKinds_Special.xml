@@ -6,7 +6,7 @@
     <label>slave</label>
     <combatPower>30</combatPower>
     <race>Human</race>
-    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
     <backstoryCategory>Slave</backstoryCategory>
     <defaultFactionType>OutlanderCivil</defaultFactionType>
     <itemQuality>Poor</itemQuality>
@@ -49,7 +49,7 @@
     <backstoryCategory>Tribal</backstoryCategory>
     <defaultFactionType>TribeCivil</defaultFactionType>
     <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
-    <baseRecruitDifficulty>0.7</baseRecruitDifficulty>
+    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
     <itemQuality>Poor</itemQuality>
     <chemicalAddictionChance>0.03</chemicalAddictionChance>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>

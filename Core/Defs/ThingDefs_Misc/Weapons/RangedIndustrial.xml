@@ -884,7 +884,6 @@
     </recipeMaker>
     <techLevel>Industrial</techLevel>
     <weaponTags>
-      <li>MechanoidGunHeavy</li>
       <li>GunHeavy</li>
     </weaponTags>
     <equippedStatOffsets>

@@ -299,7 +299,7 @@
 
   <TraitDef>
     <defName>Indoorsman</defName>
-    <commonality>0.9</commonality> <!-- Note: There are several backstories that force this trait-->
+    <commonality>0.7</commonality> <!-- Note: There are several backstories that force this trait-->
     <degreeDatas>
       <li>
         <label>indoorsman</label>

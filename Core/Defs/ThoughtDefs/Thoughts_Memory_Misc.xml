@@ -20,12 +20,12 @@
 		<showBubble>true</showBubble>
 		<durationDays>1</durationDays>
 		<stackLimit>3</stackLimit>
-		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stackedEffectMultiplier>1</stackedEffectMultiplier>
 		<stages>
 			<li>
 				<label>disturbed sleep</label>
 				<description>I was disturbed during sleep by people moving around nearby. A private room would solve this.</description>
-				<baseMoodEffect>-4</baseMoodEffect>
+				<baseMoodEffect>-1</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

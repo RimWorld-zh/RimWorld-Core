@@ -433,7 +433,8 @@
   <MustPlaceAdjacentStandable>Must be placed with standable space on all sides.</MustPlaceAdjacentStandable>
   <MustPlaceNearFuelingPort>Must be placed next to a pod launcher's fueling port.</MustPlaceNearFuelingPort>
   <MustPlaceOnDrillable>Must be placed on drillable resources.</MustPlaceOnDrillable>
-  
+  <CannotPlaceAdjacentTrap>Cannot be placed next to traps.</CannotPlaceAdjacentTrap>
+
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Blocked by</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>Blocked by roof</WindTurbine_WindPathIsBlockedByRoof>

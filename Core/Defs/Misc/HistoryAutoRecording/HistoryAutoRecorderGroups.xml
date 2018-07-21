@@ -40,6 +40,8 @@
     <historyAutoRecorderDefs>
       <li>Adaptation</li>
       <li>ThreatPoints</li>
+      <li>PopAdaptation</li>
+      <li>PopIntent</li>
     </historyAutoRecorderDefs>
     <onlyPositiveValues>false</onlyPositiveValues>
     <devModeOnly>true</devModeOnly>

@@ -666,7 +666,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>TrapDeadfall</defName>
     <label>deadfall trap</label>
-    <description>A suspended spiked weight held up by a delicate trigger. When the victim disturbs the trigger, the weight is released and falls on his head or torso.</description>
+    <description>A suspended spiked weight held up by a delicate trigger. When the victim disturbs the trigger, the weight is released and falls on his head or torso. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <thingClass>Building_TrapRearmable</thingClass>
     <graphicData>
       <texPath>Things/Building/Security/DeadfallArmed</texPath>
@@ -706,6 +706,9 @@
       </trapUnarmedGraphicData>
     </building>
     <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentTrap</li>
+    </placeWorkers>
   </ThingDef>
 
   <ThingDef Name="TrapIEDBase" ParentName="BuildingBase" Abstract="True">
@@ -738,12 +741,15 @@
     <researchPrerequisites>
       <li>IEDs</li>
     </researchPrerequisites>
+    <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentTrap</li>
+    </placeWorkers>
   </ThingDef>
 
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_HighExplosive</defName>
     <label>IED trap</label>
-    <description>A mortar shell connected to a homemade trigger. When someone disturbs the trigger, the shell explodes. Wild animals will avoid these.</description>
+    <description>A mortar shell connected to a trigger. When someone disturbs the trigger, the shell explodes. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDHighExplosive</texPath>
     </graphicData>
@@ -768,7 +774,7 @@
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_Incendiary</defName>
     <label>IED incendiary trap</label>
-    <description>Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable. Wild animals will avoid these.</description>
+    <description>Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDIncendiary</texPath>
     </graphicData>
@@ -793,7 +799,7 @@
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_EMP</defName>
     <label>IED EMP trap</label>
-    <description>A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanoids for a few seconds. Can be triggered even by those who are unaffected by EMP explosions. Wild animals will avoid these.</description>
+    <description>A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanoids for a few seconds. Can be triggered even by those who are unaffected by EMP explosions. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDEMP</texPath>
     </graphicData>
@@ -818,7 +824,7 @@
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_Firefoam</defName>
     <label>IED firefoam trap</label>
-    <description>When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself. Wild animals will avoid these.</description>
+    <description>When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDFirefoam</texPath>
     </graphicData>
@@ -848,7 +854,7 @@
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_AntigrainWarhead</defName>
     <label>IED antigrain warhead trap</label>
-    <description>A high-tech antigraing warhead connected to a homemade trigger. When triggered, the antigrain warhead detonates, creating a massive antimatter explosion. Wild animals will avoid these.</description>
+    <description>A high-tech antigraing warhead connected to a homemade trigger. When triggered, the antigrain warhead detonates, creating a massive antimatter explosion. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDAntigrainWarhead</texPath>
     </graphicData>

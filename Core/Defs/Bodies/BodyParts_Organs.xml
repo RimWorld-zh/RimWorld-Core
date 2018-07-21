@@ -39,7 +39,7 @@
   <BodyPartDef>
     <defName>Liver</defName>
     <label>liver</label>
-    <hitPoints>15</hitPoints>
+    <hitPoints>20</hitPoints>
     <skinCovered>false</skinCovered>
     <tags>
       <li>BloodFiltrationLiver</li>

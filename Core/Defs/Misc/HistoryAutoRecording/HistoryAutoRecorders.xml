@@ -69,7 +69,7 @@
   <HistoryAutoRecorderDef>
     <defName>Adaptation</defName>
     <label>adaptation</label>
-    <graphColor>(0, 1, 0.5, 1)</graphColor>
+    <graphColor>(0, 1, 0.7, 1)</graphColor>
     <recordTicksFrequency>60000</recordTicksFrequency>
     <workerClass>HistoryAutoRecorderWorker_Adaptation</workerClass>
     <graphLabelY>Days</graphLabelY>
@@ -77,11 +77,29 @@
 
   <HistoryAutoRecorderDef>
     <defName>ThreatPoints</defName>
-    <label>fun points / 10</label>
+    <label>fun points /10</label>
     <graphColor>(1, 0.5, 0.5, 1)</graphColor>
     <recordTicksFrequency>30000</recordTicksFrequency>
     <workerClass>HistoryAutoRecorderWorker_ThreatPoints</workerClass>
     <graphLabelY>Points</graphLabelY>
+  </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
+    <defName>PopAdaptation</defName>
+    <label>pop adaptation</label>
+    <graphColor>(0, 0.5, 1, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>HistoryAutoRecorderWorker_PopAdaptation</workerClass>
+    <graphLabelY>Days</graphLabelY>
+  </HistoryAutoRecorderDef>
+
+  <HistoryAutoRecorderDef>
+    <defName>PopIntent</defName>
+    <label>pop intent x100</label>
+    <graphColor>(0, 1, 0, 1)</graphColor>
+    <recordTicksFrequency>60000</recordTicksFrequency>
+    <workerClass>HistoryAutoRecorderWorker_PopIntent</workerClass>
+    <graphLabelY>Days</graphLabelY>
   </HistoryAutoRecorderDef>
 
 </Defs>

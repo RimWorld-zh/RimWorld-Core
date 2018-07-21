@@ -69,6 +69,7 @@
   <ThoughtDef>
     <defName>NeedJoy</defName>
     <workerClass>ThoughtWorker_NeedJoy</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>
         <label>recreation-starved</label>

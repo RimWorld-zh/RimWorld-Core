@@ -5,7 +5,6 @@
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
     <backstoryCategory>Tribal</backstoryCategory>
-    <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
     <maxGenerationAge>60</maxGenerationAge>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <invNutrition>2.55</invNutrition>
