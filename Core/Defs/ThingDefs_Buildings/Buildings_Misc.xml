@@ -23,7 +23,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>75</MaxHitPoints>
-      <WorkToBuild>1300</WorkToBuild>
+      <WorkToBuild>800</WorkToBuild>
       <Flammability>0.5</Flammability>
       <Mass>5</Mass>
     </statBases>
@@ -296,7 +296,7 @@
     <graphicData>
       <texPath>Things/Building/Misc/LongRangeMineralScanner</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3, 3)</drawSize>
+      <drawSize>(4, 4)</drawSize>
       <shadowData>
         <volume>(1.4, 0.4, 1.4)</volume>
         <offset>(0,0,-0.1)</offset>
@@ -370,7 +370,7 @@
     </building>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToBuild>6000</WorkToBuild>
+      <WorkToBuild>3000</WorkToBuild>
       <Flammability>0.5</Flammability>
     </statBases>
     <costList>
@@ -426,7 +426,7 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
-      <WorkToBuild>3000</WorkToBuild>
+      <WorkToBuild>1600</WorkToBuild>
       <Flammability>0.5</Flammability>
     </statBases>
     <costList>
@@ -534,7 +534,7 @@
     <fillPercent>0.2</fillPercent>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>6500</WorkToBuild>
+      <WorkToBuild>6000</WorkToBuild>
       <Mass>20</Mass>
       <Flammability>0.7</Flammability>
     </statBases>
@@ -741,7 +741,7 @@
       </defaultStorageSettings>
     </building>
     <statBases>
-      <WorkToBuild>2500</WorkToBuild>
+      <WorkToBuild>2400</WorkToBuild>
       <MaxHitPoints>250</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <Beauty>0</Beauty>

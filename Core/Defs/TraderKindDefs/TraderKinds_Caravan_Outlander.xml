@@ -213,7 +213,6 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
-        <price>Expensive</price>
         <countRange>
           <min>2</min>
           <max>5</max>
@@ -330,6 +329,7 @@
         </excludedThingDefs>
         <customCountRanges>
           <Luciferium>7~25</Luciferium>
+          <Hyperweave>40~120</Hyperweave>
         </customCountRanges>
 			</li>
 			<li Class="StockGenerator_Tag">

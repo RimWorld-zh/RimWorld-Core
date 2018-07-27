@@ -10,7 +10,11 @@
         <li>(700,0.5)</li>
       </points>
     </selectionWeightPerPointsCurve>
-    <pointsFactor>0.9</pointsFactor>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 1</li>
+      </points>
+    </pointsFactorCurve>
     <arriveModes>
       <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>
@@ -34,7 +38,11 @@
         <li>(700,0.5)</li>
       </points>
     </selectionWeightPerPointsCurve>
-    <pointsFactor>1.0</pointsFactor>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 1</li>
+      </points>
+    </pointsFactorCurve>
     <arriveModes>
       <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>
@@ -56,7 +64,11 @@
         <li>(700,1)</li>
       </points>
     </selectionWeightPerPointsCurve>
-    <pointsFactor>0.85</pointsFactor>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 0.95</li>
+      </points>
+    </pointsFactorCurve>
     <arriveModes>
       <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>
@@ -74,16 +86,21 @@
   <RaidStrategyDef>
     <defName>ImmediateAttackSappers</defName>
     <workerClass>RaidStrategyWorker_ImmediateAttackSappers</workerClass>
+    <minPawns>2</minPawns>
     <selectionWeightPerPointsCurve>
       <points>
-        <li>(300,0)</li>
-        <li>(700,1.5)</li>
-        <li>(1200,2.6)</li>
-        <li>(2000,3.5)</li>
+        <li>(300,  0.00)</li>
+        <li>(800,  1.5)</li>
+        <li>(1500, 2.25)</li>
+        <li>(3000, 3.00)</li>
       </points>
     </selectionWeightPerPointsCurve>
-    <minPawns>2</minPawns>
-    <pointsFactor>0.80</pointsFactor>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 0.85</li>
+        <li>5000, 0.50</li>
+      </points>
+    </pointsFactorCurve>
     <arriveModes>
       <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>
@@ -97,16 +114,21 @@
   <RaidStrategyDef>
     <defName>Siege</defName>
     <workerClass>RaidStrategyWorker_Siege</workerClass>
-    <pointsFactor>0.6</pointsFactor>
+    <minPawns>4</minPawns>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 0.65</li>
+        <li>5000, 0.55</li>
+      </points>
+    </pointsFactorCurve>
     <selectionWeightPerPointsCurve>
       <points>
-        <li>(300,0)</li>
-        <li>(700,1.5)</li>
-        <li>(1200,2.25)</li>
-        <li>(2000,3)</li>
+        <li>(300,  0.00)</li>
+        <li>(800,  1.50)</li>
+        <li>(1500, 2.25)</li>
+        <li>(3000, 3.00)</li>
       </points>
     </selectionWeightPerPointsCurve>
-    <minPawns>4</minPawns>
     <arriveModes>
       <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>

@@ -16,16 +16,22 @@
       <options>
         <li>
           <weight>1</weight>
-          <weightIfPlayerHasNoSuchItem>6</weightIfPlayerHasNoSuchItem>
-          <minMaxTotalMarketValue>2500</minMaxTotalMarketValue>
-          <thingSetMaker Class="ThingSetMaker_Count">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>AIPersonaCore</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
+          <weightIfPlayerHasNoItem>6</weightIfPlayerHasNoItem>
+          <weightIfPlayerHasNoItemItem>AIPersonaCore</weightIfPlayerHasNoItemItem>
+          <thingSetMaker Class="ThingSetMaker_Conditional_MinMaxTotalMarketValue">
+            <minMaxTotalMarketValue>2500</minMaxTotalMarketValue>
+            <thingSetMaker Class="ThingSetMaker_Conditional_ResearchFinished">
+              <researchProject>MultiAnalyzer</researchProject>
+              <thingSetMaker Class="ThingSetMaker_Count">
+                <fixedParams>
+                  <filter>
+                    <thingDefs>
+                      <li>AIPersonaCore</li>
+                    </thingDefs>
+                  </filter>
+                </fixedParams>
+              </thingSetMaker>
+            </thingSetMaker>
           </thingSetMaker>
         </li>
         <li>
@@ -94,6 +100,7 @@
                   <li>Hyperweave</li>
                   <li>CochlearImplant</li>
                   <li>BionicEar</li>
+                  <li>AIPersonaCore</li>
                 </disallowedThingDefs>
                 <thingSetMakerTagsToDisallow>
                   <li>RewardSpecial</li>
@@ -152,16 +159,22 @@
       <options>
         <li>
           <weight>1</weight>
-          <weightIfPlayerHasNoSuchItem>5</weightIfPlayerHasNoSuchItem>
-          <minMaxTotalMarketValue>2500</minMaxTotalMarketValue>
-          <thingSetMaker Class="ThingSetMaker_Count">
-            <fixedParams>
-              <filter>
-                <thingDefs>
-                  <li>AIPersonaCore</li>
-                </thingDefs>
-              </filter>
-            </fixedParams>
+          <weightIfPlayerHasNoItem>5</weightIfPlayerHasNoItem>
+          <weightIfPlayerHasNoItemItem>AIPersonaCore</weightIfPlayerHasNoItemItem>
+          <thingSetMaker Class="ThingSetMaker_Conditional_MinMaxTotalMarketValue">
+            <minMaxTotalMarketValue>2500</minMaxTotalMarketValue>
+            <thingSetMaker Class="ThingSetMaker_Conditional_ResearchFinished">
+              <researchProject>MultiAnalyzer</researchProject>
+              <thingSetMaker Class="ThingSetMaker_Count">
+                <fixedParams>
+                  <filter>
+                    <thingDefs>
+                      <li>AIPersonaCore</li>
+                    </thingDefs>
+                  </filter>
+                </fixedParams>
+              </thingSetMaker>
+            </thingSetMaker>
           </thingSetMaker>
         </li>
         <li>
@@ -230,6 +243,7 @@
                   <li>Hyperweave</li>
                   <li>CochlearImplant</li>
                   <li>BionicEar</li>
+                  <li>AIPersonaCore</li>
                 </disallowedThingDefs>
                 <thingSetMakerTagsToDisallow>
                   <li>RewardSpecial</li>
@@ -288,6 +302,24 @@
       <options>
         <li>
           <weight>1</weight>
+          <thingSetMaker Class="ThingSetMaker_Conditional_MinMaxTotalMarketValue">
+            <minMaxTotalMarketValue>2500</minMaxTotalMarketValue>
+            <thingSetMaker Class="ThingSetMaker_Conditional_ResearchFinished">
+              <researchProject>MultiAnalyzer</researchProject>
+              <thingSetMaker Class="ThingSetMaker_Count">
+                <fixedParams>
+                  <filter>
+                    <thingDefs>
+                      <li>AIPersonaCore</li>
+                    </thingDefs>
+                  </filter>
+                </fixedParams>
+              </thingSetMaker>
+            </thingSetMaker>
+          </thingSetMaker>
+        </li>
+        <li>
+          <weight>1</weight>
           <thingSetMaker Class="ThingSetMaker_MarketValue">
             <fixedParams>
               <filter>
@@ -352,6 +384,7 @@
                   <li>Hyperweave</li>
                   <li>CochlearImplant</li>
                   <li>BionicEar</li>
+                  <li>AIPersonaCore</li>
                 </disallowedThingDefs>
                 <thingSetMakerTagsToDisallow>
                   <li>RewardSpecial</li>

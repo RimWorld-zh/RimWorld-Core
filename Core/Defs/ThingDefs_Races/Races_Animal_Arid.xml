@@ -108,7 +108,7 @@
     <defName>Muffalo</defName>
     <label>muffalo</label>
     <race>Muffalo</race>
-    <combatPower>90</combatPower>
+    <combatPower>100</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
     <wildGroupSize>
       <min>3</min>

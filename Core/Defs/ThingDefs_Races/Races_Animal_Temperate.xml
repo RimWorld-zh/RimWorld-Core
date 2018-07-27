@@ -430,7 +430,7 @@
     <label>elk</label>
     <labelPlural>elk</labelPlural>
     <race>Elk</race>
-    <combatPower>75</combatPower>
+    <combatPower>110</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
     <wildGroupSize>
       <min>3</min>
@@ -599,7 +599,7 @@
     <label>caribou</label>
     <labelPlural>caribou</labelPlural>
     <race>Caribou</race>
-    <combatPower>140</combatPower>
+    <combatPower>110</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
     <wildGroupSize>
       <min>3</min>

@@ -37,13 +37,13 @@
     <toStringStyle>PercentOne</toStringStyle>
     <parts>
       <li Class="StatPart_Quality">
-        <factorAwful>0.8</factorAwful>
-        <factorPoor>0.9</factorPoor>
+        <factorAwful>0.6</factorAwful>
+        <factorPoor>0.8</factorPoor>
         <factorNormal>1</factorNormal>
-        <factorGood>1.1</factorGood>
-        <factorExcellent>1.2</factorExcellent>
-        <factorMasterwork>1.4</factorMasterwork>
-        <factorLegendary>1.8</factorLegendary>
+        <factorGood>1.2</factorGood>
+        <factorExcellent>1.4</factorExcellent>
+        <factorMasterwork>1.7</factorMasterwork>
+        <factorLegendary>2.0</factorLegendary>
       </li>
     </parts>
   </StatDef>

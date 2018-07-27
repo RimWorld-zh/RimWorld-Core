@@ -132,9 +132,9 @@
   <VentClosed>Closed</VentClosed>
   <WornBy>worn by {0}</WornBy>
   <EquippedBy>equipped by {0}</EquippedBy>
-  <QuestTargetDestroyInspectString>{0} wants this destroyed.\n    Reward: {1}.</QuestTargetDestroyInspectString>
+  <QuestTargetDestroyInspectString>{0} wants this destroyed.\n    Reward: {1} ({2})</QuestTargetDestroyInspectString>
   <WorldObjectTimeout>Time left: {0}</WorldObjectTimeout>
-  <ItemStashContents>Contents: {0}</ItemStashContents>
+  <ItemStashContents>Contents: {0} ({1})</ItemStashContents>
   <ClickToSortByThisColumn>Click to sort by this column.</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift + click: Increase priority\nShift + right click: Decrease priority</WorkPriorityShiftClickTip>
   <WorkPriorityShiftClickEnableDisableTip>Shift + click: Enable all\nShift + right click: Disable all</WorkPriorityShiftClickEnableDisableTip>
@@ -321,7 +321,7 @@
 
   <!-- Power readout -->
   <PowerNotConnected>Not connected to power.</PowerNotConnected>
-  <PowerConnectedRateStored>Connected rate/stored: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>Grid excess/stored: {0} W / {1} Wd</PowerConnectedRateStored>
   <PowerNeeded>Power needed</PowerNeeded>
   <PowerOutput>Power output</PowerOutput>
   <PowerBatteryStored>Stored</PowerBatteryStored>
@@ -498,11 +498,6 @@
 
   <!-- Generic lifespan -->
   <LifespanExpiry>Expires in:</LifespanExpiry>
-
-  <!-- Traps -->
-  <TrapArmed>Armed</TrapArmed>
-  <TrapNotArmed>Not armed</TrapNotArmed>
-  <TrapRearmingCost>Rearming cost: {0}</TrapRearmingCost>
 
   <!-- Facilities -->
   <InactiveFacility>inactive</InactiveFacility>

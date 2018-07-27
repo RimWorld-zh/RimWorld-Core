@@ -83,12 +83,6 @@
   </DesignationDef>
 
   <DesignationDef>
-    <defName>RearmTrap</defName>
-    <texturePath>Designations/RearmTrap</texturePath>
-    <targetType>Thing</targetType>
-  </DesignationDef>
-
-  <DesignationDef>
     <defName>Slaughter</defName>
     <texturePath>Designations/Slaughter</texturePath>
     <targetType>Thing</targetType>

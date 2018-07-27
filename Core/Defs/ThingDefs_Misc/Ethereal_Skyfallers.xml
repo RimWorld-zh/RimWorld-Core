@@ -11,7 +11,7 @@
     <skyfaller />
   </ThingDef>
 
-  <ThingDef ParentName="SkyfallerBase" Name="DropPodIncoming">
+  <ThingDef ParentName="SkyfallerBase">
     <defName>DropPodIncoming</defName>
     <label>drop pod (incoming)</label>
 		<thingClass>DropPodIncoming</thingClass>
@@ -28,15 +28,6 @@
       <anticipationSound>DropPod_Fall</anticipationSound>
       <anticipationSoundTicks>100</anticipationSoundTicks>
       <motesPerCell>0</motesPerCell>
-    </skyfaller>
-  </ThingDef>
-
-  <ThingDef ParentName="DropPodIncoming">
-    <defName>ExplosiveDropPodIncoming</defName>
-    <skyfaller>
-      <movementType>Accelerate</movementType>
-      <explosionRadius>2</explosionRadius>
-      <explosionDamage>Bomb</explosionDamage>
     </skyfaller>
   </ThingDef>
 

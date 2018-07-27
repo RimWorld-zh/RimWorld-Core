@@ -254,6 +254,7 @@
         </excludedThingDefs>
         <customCountRanges>
           <MedicineUltratech>2~15</MedicineUltratech>
+          <Hyperweave>50~200</Hyperweave>
         </customCountRanges>
       </li>
       <li Class="StockGenerator_Tag">

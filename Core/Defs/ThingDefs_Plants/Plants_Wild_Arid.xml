@@ -30,7 +30,7 @@
       <harvestAfterGrowth>0.30</harvestAfterGrowth>
       <harvestedThingDef>RawAgave</harvestedThingDef>
       <harvestYield>10</harvestYield>
-      <harvestWork>330</harvestWork>
+      <harvestWork>300</harvestWork>
       <visualSizeRange>
         <min>0.9</min>
         <max>1.4</max>

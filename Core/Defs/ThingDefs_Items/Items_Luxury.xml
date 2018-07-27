@@ -7,7 +7,7 @@
     <description>A delicious preparation of cocoa seeds ground together with sugar and vanilla. It fulfills the need for recreation, but it is not very nutritious.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Chocolate</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>

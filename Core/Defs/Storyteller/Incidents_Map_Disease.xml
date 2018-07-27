@@ -4,13 +4,13 @@
   <IncidentDef Name="DiseaseIncident" Abstract="True">
     <workerClass>IncidentWorker_DiseaseHuman</workerClass>
     <category>DiseaseHuman</category>
-    <targetTypes>
+    <targetTags>
       <li>Map_PlayerHome</li>
       <li>Map_TempIncident</li>
       <li>Map_Misc</li>
       <li>Map_RaidBeacon</li>
       <li>Caravan</li>
-    </targetTypes>
+    </targetTags>
     <diseaseVictimFractionRange>
       <min>0.2</min>
       <max>0.5</max>

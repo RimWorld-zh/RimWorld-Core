@@ -49,22 +49,22 @@
   <ThingDef ParentName="MealBase">
     <defName>MealSurvivalPack</defName>
     <label>packaged survival meal</label>
-    <description>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can stilll deteriorate if left outside. Great for traveling.</description>
+    <description>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
     <graphicData>
       <texPath>Things/Item/Meal/SurvivalPack</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
-      <DeteriorationRate>0.5</DeteriorationRate>
-      <MarketValue>25</MarketValue>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>24</MarketValue>
       <Mass>0.3</Mass>
-      <WorkToMake>1400</WorkToMake>
+      <WorkToMake>450</WorkToMake>
       <Nutrition>0.9</Nutrition>
     </statBases>
     <ingestible>
       <preferability>MealSimple</preferability>
       <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
-      <optimalityOffsetFeedingAnimals>-5</optimalityOffsetFeedingAnimals>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
 			<ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
@@ -76,7 +76,7 @@
     <description>A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting.</description>
     <graphicData>
       <texPath>Things/Item/Meal/NutrientPaste</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>10</MarketValue>
@@ -96,7 +96,7 @@
     <description>A simple meal quickly cooked from one main ingredient.</description>
     <graphicData>
       <texPath>Things/Item/Meal/Simple</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>15</MarketValue>
@@ -116,7 +116,7 @@
     <description>A complex dish assembled with care from a variety of ingredients.</description>
     <graphicData>
       <texPath>Things/Item/Meal/Fine</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>20</MarketValue>
@@ -137,7 +137,7 @@
     <description>A masterpiece of the culinary arts, this meal nourishes the body, mind, and soul.</description>
     <graphicData>
       <texPath>Things/Item/Meal/Lavish</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>40</MarketValue>
@@ -193,7 +193,7 @@
     </thingCategories>
     <graphicData>
       <texPath>Things/Item/Resource/Pemmican</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>

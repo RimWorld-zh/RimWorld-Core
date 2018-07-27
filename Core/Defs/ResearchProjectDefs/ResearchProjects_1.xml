@@ -123,7 +123,7 @@
     <defName>Devilstrand</defName>
     <label>devilstrand</label>
     <description>Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber.</description>
-    <baseCost>500</baseCost>
+    <baseCost>800</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>1</researchViewX>
     <researchViewY>1.5</researchViewY>

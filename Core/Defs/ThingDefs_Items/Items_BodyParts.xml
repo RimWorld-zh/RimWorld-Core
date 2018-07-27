@@ -123,8 +123,8 @@
     <description>A leg prosthesis. While it lacks a neutral interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg.</description>
     <techLevel>Industrial</techLevel>
     <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <Steel>40</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <statBases>
       <WorkToMake>11000</WorkToMake>
@@ -141,8 +141,8 @@
     <description>An arm prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real arm.</description>
     <techLevel>Industrial</techLevel>
     <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <Steel>40</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <statBases>
       <WorkToMake>11000</WorkToMake>
@@ -159,8 +159,8 @@
     <description>A heart prosthesis. It contains an electric motor that pumps blood smoothly around the body. Users often report feeling tired, but it's better than the alternative.</description>
     <techLevel>Industrial</techLevel>
     <costList>
-      <Steel>35</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <Steel>25</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <statBases>
       <WorkToMake>11000</WorkToMake>
@@ -178,7 +178,7 @@
     <techLevel>Industrial</techLevel>
     <costList>
       <Steel>20</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <statBases>
       <WorkToMake>11000</WorkToMake>
@@ -215,7 +215,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>10</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>38000</WorkToMake>
@@ -233,7 +233,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -251,7 +251,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -269,7 +269,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>4</ComponentSpacer>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -287,7 +287,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -305,7 +305,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>10</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -323,7 +323,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>10</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>

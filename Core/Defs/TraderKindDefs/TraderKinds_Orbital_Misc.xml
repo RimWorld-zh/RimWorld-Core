@@ -10,8 +10,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>2000</min>
-          <max>4000</max>
+          <min>30000</min>
+          <max>30000</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -24,8 +24,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
         <countRange>
-          <min>-20</min>
-          <max>6</max>
+          <min>1</min>
+          <max>2</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -58,7 +58,6 @@
       </li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineIndustrial</thingDef>
-				<price>Expensive</price>
 				<countRange>
 					<min>20</min>
 					<max>30</max>
@@ -215,13 +214,12 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>2000</min>
-          <max>4000</max>
+          <min>30000</min>
+          <max>30000</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-				<price>Expensive</price>
 				<countRange>
           <min>5</min>
           <max>10</max>
@@ -286,13 +284,12 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>2000</min>
-          <max>4000</max>
+          <min>30000</min>
+          <max>30000</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-				<price>Expensive</price>
 				<countRange>
           <min>5</min>
           <max>30</max>
@@ -301,7 +298,7 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
         <countRange>
-          <min>2</min>
+          <min>3</min>
           <max>8</max>
         </countRange>
       </li>
@@ -359,6 +356,9 @@
           <li>MedicineUltratech</li> <!-- already handled by single def -->
           <li>ComponentSpacer</li> <!-- already handled by single def -->
         </excludedThingDefs>
+        <customCountRanges>
+          <Hyperweave>50~200</Hyperweave>
+        </customCountRanges>
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>TechHediff</tradeTag>
@@ -444,13 +444,12 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>2000</min>
-          <max>4000</max>
+          <min>30000</min>
+          <max>30000</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-				<price>Expensive</price>
 				<countRange>
           <min>5</min>
           <max>10</max>
@@ -465,7 +464,6 @@
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MedicineIndustrial</thingDef>
-				<price>Expensive</price>
 				<countRange>
 					<min>5</min>
 					<max>15</max>
@@ -473,7 +471,6 @@
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Neutroamine</thingDef>
-				<price>Expensive</price>
 				<countRange>
 					<min>100</min>
 					<max>400</max>
@@ -481,7 +478,6 @@
 			</li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>Chemfuel</thingDef>
-				<price>Expensive</price>
 				<countRange>
 					<min>50</min>
 					<max>200</max>

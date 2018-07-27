@@ -171,13 +171,6 @@
   </JobDef>
 
   <JobDef>
-    <defName>RearmTrap</defName>
-    <driverClass>JobDriver_RearmTrap</driverClass>
-    <reportString>rearming TargetA.</reportString>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>
-
-  <JobDef>
     <defName>RearmTurret</defName>
     <driverClass>JobDriver_Refuel</driverClass>
     <reportString>rearming TargetA.</reportString>

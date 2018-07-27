@@ -216,20 +216,17 @@
       <li>
         <label>minor</label>
         <painOffset>0.05</painOffset>
-				<partEfficiencyOffset>-0.10</partEfficiencyOffset>
-      </li>
+      </li> 
       <li>
         <minSeverity>0.33</minSeverity>
         <label>major</label>
         <painOffset>0.08</painOffset>
-				<partEfficiencyOffset>-0.30</partEfficiencyOffset>
 			</li>
       <li>
         <minSeverity>0.78</minSeverity>
         <label>extreme</label>
         <lifeThreatening>true</lifeThreatening>
         <painOffset>0.12</painOffset>
-				<partEfficiencyOffset>-0.50</partEfficiencyOffset>
 				<capMods>
           <li>
             <capacity>Consciousness</capacity>
@@ -242,7 +239,6 @@
         <label>extreme</label>
         <lifeThreatening>true</lifeThreatening>
         <painOffset>0.85</painOffset>
-				<partEfficiencyOffset>-0.70</partEfficiencyOffset>
 				<capMods>
           <li>
             <capacity>Consciousness</capacity>

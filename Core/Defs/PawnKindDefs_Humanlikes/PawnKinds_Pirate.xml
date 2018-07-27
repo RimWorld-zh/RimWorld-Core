@@ -36,7 +36,6 @@
       <max>200</max>
     </weaponMoney>
     <weaponTags>
-      <li>SimpleGun</li>
       <li>MedievalMeleeBasic</li>
       <li>NeolithicMeleeBasic</li>
     </weaponTags>

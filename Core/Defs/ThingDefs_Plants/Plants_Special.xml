@@ -34,7 +34,7 @@
       </shadowData>
     </graphicData>
     <plant>
-      <harvestWork>200</harvestWork>
+      <harvestWork>180</harvestWork>
       <harvestYield>0</harvestYield>
       <fertilityMin>0.01</fertilityMin>
       <fertilitySensitivity>0</fertilitySensitivity>

@@ -10,7 +10,7 @@
     <fillPercent>1.0</fillPercent>
     <size>(6,3)</size>
     <statBases>
-      <MaxHitPoints>1200</MaxHitPoints>
+      <MaxHitPoints>1000</MaxHitPoints>
       <Flammability>0</Flammability>
       <Beauty>-200</Beauty>
     </statBases>
@@ -44,7 +44,7 @@
 
   <ThingDef ParentName="ShipPartBase">
     <defName>CrashedPsychicEmanatorShipPart</defName>
-    <label>ancient ship part (psychic)</label>
+    <label>ship part (psychic)</label>
     <description>A mysterious crashed piece of a spaceship. It may contain any manner of deadly defenders and exotic materials. This one seems to be emanating psychic waves.</description>
     <graphicData>
       <texPath>Things/Building/Exotic/CrashedShipPart</texPath>
@@ -63,8 +63,8 @@
 
   <ThingDef ParentName="ShipPartBase">
     <defName>CrashedPoisonShipPart</defName>
-    <label>ancient ship part (poison)</label>
-    <description>A mysterious crashed piece of a spaceship. It may contain any manner of deadly defenders and exotic materials. This one seems to be poisoning the ground around it.</description>
+    <label>ship part (poison)</label>
+    <description>A mysterious crashed piece of a spaceship. It may contain any manner of deadly defenders and exotic materials. This one seems to be killing plant life around it.</description>
     <graphicData>
       <texPath>Things/Building/Exotic/CrashedPoisonShipPart</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -78,9 +78,9 @@
 				<radiusPerDayCurve>
           <points>
 						<li>0,5</li>
-						<li>1,18</li>
-						<li>4,50</li>
-						<li>10,100</li>
+						<li>1.5,18</li>
+						<li>6,40</li>
+						<li>20,100</li>
 					</points>
 				</radiusPerDayCurve>
 				<harmFrequencyPerArea>0.015</harmFrequencyPerArea>

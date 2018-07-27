@@ -79,7 +79,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Arrow_Short</defaultProjectile>
         <warmupTime>1.35</warmupTime>
-        <minRange>1.5</minRange>
         <range>22.9</range>
         <soundCast>Bow_Small</soundCast>
       </li>
@@ -146,7 +145,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Pilum_Thrown</defaultProjectile>
         <warmupTime>4</warmupTime>
-        <minRange>1.5</minRange>
         <range>18.9</range>
         <soundCast>Interact_BeatFire</soundCast>
         <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
@@ -227,7 +225,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Arrow_Recurve</defaultProjectile>
         <warmupTime>1.45</warmupTime>
-        <minRange>1.5</minRange>
         <range>25.9</range>
         <soundCast>Bow_Recurve</soundCast>
       </li>
@@ -291,7 +288,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Arrow_Great</defaultProjectile>
         <warmupTime>2.0</warmupTime>
-        <minRange>1.5</minRange>
         <range>29.9</range>
         <soundCast>Bow_Large</soundCast>
       </li>

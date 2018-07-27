@@ -145,7 +145,7 @@
             <li>AnimalProductRaw</li>
           </categories>
         </filter>
-        <count>0.3</count>
+        <count>0.30</count>
       </li>
       <li>
         <filter>
@@ -153,7 +153,7 @@
             <li>PlantFoodRaw</li>
           </categories>
         </filter>
-        <count>0.3</count>
+        <count>0.30</count>
       </li>
     </ingredients>
     <products>

@@ -19,7 +19,7 @@
   <FriendlyRaidLeaderPresent>One of the {0} - {1}, is the leader of the faction.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Escape pod</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded.</RefugeePodCrash>
+  <RefugeePodCrash>A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded.\n\nDepending on [PAWN_nameDef]'s faction, you may be able to rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes.</RefugeePodCrash>
   <RefugeePodCrash_NonHostileOrFactionless>You can rescue [PAWN_objective] and send [PAWN_objective] on [PAWN_possessive] way. Or, capture [PAWN_objective] for recruitment or slavery purposes.</RefugeePodCrash_NonHostileOrFactionless>
   <RefugeePodCrash_Hostile>You can capture [PAWN_objective] for recruitment or slavery purposes. [PAWN_pronoun] is from [PAWN_factionName].</RefugeePodCrash_Hostile>
   <RefugeePodCrash_NonHostile>Note: [PAWN_nameDef] is from [PAWN_factionName]. Capturing [PAWN_objective] will anger them, while rescuing and healing [PAWN_objective] will improve faction relations.</RefugeePodCrash_NonHostile>
@@ -80,7 +80,7 @@
   
   <!-- Refugee chased -->
   <RefugeeChasedTitle>Refugee chased at {0}</RefugeeChasedTitle>
-  <RefugeeChasedInitial>A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5}</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Offer safety</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Ignore the message</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>{0} screams in panic through the tinny speaker before you cut off the transmission.</RefugeeChasedRejected>
@@ -131,7 +131,7 @@
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Caravan request</LetterLabelCaravanRequest>
   <LetterCaravanRequest>A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map.</LetterCaravanRequest>
-  <CaravanRequestInfo>Requesting: {0}, Reward: {1} ({2} left)</CaravanRequestInfo>
+  <CaravanRequestInfo>Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left)</CaravanRequestInfo>
   <NormalQualityOrBetter>normal quality or better</NormalQualityOrBetter>
 
   <!-- Caravan demand -->

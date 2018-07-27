@@ -46,20 +46,6 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseFilth">
-    <defName>Filth_HumanFilth</defName>
-    <label>human filth</label>
-    <graphicData>
-      <texPath>Things/Filth/Grainy</texPath>
-      <color>(91,75,65,97)</color>
-    </graphicData>
-    <filth>
-      <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
-      <terrainSourced>true</terrainSourced>
-      <canFilthAttach>true</canFilthAttach>
-    </filth>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseFilth">
     <defName>Filth_Trash</defName>
     <label>trash</label>
     <graphicData>
@@ -163,7 +149,7 @@
     </statBases>
     <graphicData>
       <texPath>Things/Filth/Spatter</texPath>
-      <color>(60, 50, 40, 180)</color>
+      <color>(132, 138, 114, 180)</color>
     </graphicData>
     <filth>
       <rainWashes>true</rainWashes>

@@ -108,7 +108,7 @@
         </li>
         <li>
           <def>Neck</def>
-          <coverage>0.080</coverage>
+          <coverage>0.075</coverage>
           <height>Top</height>
           <groups>
             <li>Neck</li>
@@ -116,7 +116,7 @@
           <parts>
             <li>
               <def>Head</def>
-              <coverage>0.72</coverage>
+              <coverage>0.80</coverage>
               <groups>
                 <li>UpperHead</li>
                 <li>FullHead</li>

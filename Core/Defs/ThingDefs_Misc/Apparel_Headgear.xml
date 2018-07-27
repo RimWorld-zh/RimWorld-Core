@@ -441,8 +441,8 @@
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_PowerArmorHelmet</defName>
-    <label>power armor helmet</label>
-    <description>A powered-armor helmet, with built-in status computer and layered plasteel armor. Usually used by heavy infantry and space marines in spacer-tech militaries.</description>
+    <label>marine helmet</label>
+    <description>A marine armor helmet, with built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by imperial janissaries and rapid-incursion space marines.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>

@@ -4,8 +4,8 @@
   <ThingDef Abstract="True" Name="LeatherBase" ParentName="ResourceBase">
     <description>Tanned, dried, scraped skin. A good traditional material for making clothes and bags.</description>
     <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
       <texPath>Things/Item/Resource/Leather</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>

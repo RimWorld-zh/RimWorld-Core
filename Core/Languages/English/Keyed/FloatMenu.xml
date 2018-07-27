@@ -14,6 +14,7 @@
   <FireAt>Fire at {0}</FireAt>
 
   <OutOfRange>out of range</OutOfRange>
+  <TooClose>too close</TooClose>
   <CannotHitTarget>cannot hit target</CannotHitTarget>
   <IsIncapableOfViolenceLower>{0} is incapable of violence</IsIncapableOfViolenceLower>
   <IncapableOfViolenceLower>incapable of violence</IncapableOfViolenceLower>
@@ -60,6 +61,7 @@
   <CantSowCavePlantBecauseOfLight>too bright</CantSowCavePlantBecauseOfLight>
   <CantSowCavePlantBecauseUnroofed>unroofed</CantSowCavePlantBecauseUnroofed>
   <IncapableOfDeconstruction>incapable of deconstruction</IncapableOfDeconstruction>
+  <AngersFaction>angers faction</AngersFaction>
   
   <ConsumeThing>Consume {0}</ConsumeThing>
   
@@ -197,7 +199,6 @@
   <CountToDesignate>{0} affected</CountToDesignate>
   <ForbidAllItems>Forbid all items</ForbidAllItems>
   <UnforbidAllItems>Unforbid all items</UnforbidAllItems>
-  <RearmAllTraps>Rearm all traps</RearmAllTraps>
 
   <!-- Transport pods -->
   <LandInExistingMap>Zoom in and choose a landing spot in {0}</LandInExistingMap>

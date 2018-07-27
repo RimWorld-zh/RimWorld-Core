@@ -13,7 +13,6 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-				<price>Expensive</price>
 				<countRange>
           <min>3</min>
           <max>10</max>

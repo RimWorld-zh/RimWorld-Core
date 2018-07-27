@@ -43,7 +43,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeRifle</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <minRange>1.5</minRange>
         <range>25.9</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
@@ -99,9 +98,9 @@
     <statBases>
       <Mass>8</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.90</AccuracyMedium>
-      <AccuracyLong>0.80</AccuracyLong>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
       <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
       <WorkToMake>60000</WorkToMake>
     </statBases>
@@ -128,7 +127,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeLance</defaultProjectile>
         <warmupTime>1.7</warmupTime>
-        <minRange>1.5</minRange>
         <range>36.9</range>
         <soundCast>ChargeLance_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -158,7 +156,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>32</damageAmountBase>
+      <damageAmountBase>30</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>120</speed>
     </projectile>

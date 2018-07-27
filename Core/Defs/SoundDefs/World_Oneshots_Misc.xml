@@ -193,7 +193,7 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>DeadfallSpring</defName>  
+    <defName>TrapSpring</defName>  
     <context>MapOnly</context>
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -201,7 +201,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Misc/Trap/DeadfallSpring</clipPath>
+            <clipPath>Misc/Trap/TrapSpring</clipPath>
           </li>
         </grains>      
         <volumeRange>

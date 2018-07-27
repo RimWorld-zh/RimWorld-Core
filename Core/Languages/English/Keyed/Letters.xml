@@ -53,8 +53,8 @@
   <StruckMineable>We have struck {0}!</StruckMineable>
 
   <LetterLabelAnimalManhunterRevenge>{0} revenge</LetterLabelAnimalManhunterRevenge>
-  <AnimalManhunterFromDamage>A {0} is attacking after being harmed!</AnimalManhunterFromDamage>
-  <AnimalManhunterFromTaming>A {0} is attacking due to a taming attempt!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromDamage>[PAWN_indefinite] is attacking after being harmed!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromTaming>[PAWN_indefinite] is attacking due to a botched taming attempt!</AnimalManhunterFromTaming>
   <AnimalManhunterOthers>Other {0} nearby have also become enraged!</AnimalManhunterOthers>
 
   <LetterFriendlyTrapSprungLabel>{0} hit trap</LetterFriendlyTrapSprungLabel>
@@ -215,7 +215,7 @@
 
   <!-- Caravans battlefield victory -->
   <LetterLabelCaravansBattlefieldVictory>Caravan battle won</LetterLabelCaravansBattlefieldVictory>
-  <LetterCaravansBattlefieldVictory>Your caravan has won the battle.\n\nIn {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, the caravan will be reformed automatically.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <LetterLabelRescueQuestFinished>Rescuee joins</LetterLabelRescueQuestFinished>

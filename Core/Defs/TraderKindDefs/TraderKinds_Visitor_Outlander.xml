@@ -14,7 +14,6 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentIndustrial</thingDef>
-				<price>Expensive</price>
 				<countRange>
           <min>-2</min>
           <max>5</max>
@@ -22,7 +21,6 @@
       </li>
 			<li Class="StockGenerator_SingleDef">
 				<thingDef>MealSurvivalPack</thingDef>
-				<price>Expensive</price>
 				<countRange>
 					<min>3</min>
 					<max>6</max>
@@ -43,7 +41,6 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
-				<price>Expensive</price>
 				<thingDefCountRange>
           <min>-1</min>
           <max>1</max>

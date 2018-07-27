@@ -67,7 +67,7 @@
     <description>The most seductive metal of them all. While it is too soft to be of much practical use, it is strikingly beautiful and never tarnishes. Millions have died in attempting to feed the endless human thirst for gold.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Gold</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Silver_Drop</soundInteract>
     <soundDrop>Silver_Drop</soundDrop>
@@ -177,7 +177,7 @@
     <description>Advanced spacer tech structural material. Plasteel is extremely strong due to its unique molecular structure.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Plasteel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -240,9 +240,9 @@
     <statBases>
       <MarketValue>1.2</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-      <Mass>0.4</Mass>
+      <Mass>0.4</Mass> 
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>1</DeteriorationRate>
+      <DeteriorationRate>0.5</DeteriorationRate>
       <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>0.9</StuffPower_Armor_Heat>
@@ -298,7 +298,7 @@
     <description>An dark, heavy metal. While it is best known as a fuel for nuclear devices, its extreme density and hardness also make it good for making certain weapons, armor, and ammunition.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Uranium</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
 		<useHitPoints>false</useHitPoints>
     <soundInteract>Metal_Drop</soundInteract>
@@ -320,7 +320,7 @@
     <deepCommonality>1</deepCommonality>
     <deepCountPerPortion>35</deepCountPerPortion>
     <deepLumpSizeRange>
-      <min>2</min>
+      <min>4</min>
       <max>10</max>
     </deepLumpSizeRange>
     <stuffProps>
@@ -353,7 +353,7 @@
     <description>A hard, green stone. Because of its beauty and rarity, jade is often used for ornaments and decorations. Its hardness and density also makes it a good material for blunt weapons.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Jade</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
 		<useHitPoints>false</useHitPoints>
     <soundInteract>ChunkRock_Drop</soundInteract>
@@ -415,7 +415,7 @@
     <description>Cloth woven from organic fibers.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Cloth</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
       <color>(162,157,152)</color>
     </graphicData>
     <statBases>
@@ -474,7 +474,7 @@
     <description>Spacer-tech synthetic fabric designed for making ordinary clothes. It is soft, light, strong, and insulates well.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Synthread</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
@@ -507,10 +507,10 @@
   <ThingDef ParentName="ResourceBase">
     <defName>DevilstrandCloth</defName>
     <label>devilstrand</label>
-    <description>Fabric spun from microfibers extracted from devilstrand mushrooms. It is very tough, good at insulating, and protects well against flame.</description>
+    <description>Fabric spun from microfibers extracted from devilstrand mushrooms. It is very tough, good at insulating, and protects exceptionally well against flame.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Devilstrand</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -518,11 +518,11 @@
       <Mass>0.032</Mass>
       <Flammability>0.4</Flammability>
       <DeteriorationRate>3</DeteriorationRate>
-      <StuffPower_Armor_Sharp>1.44</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Sharp>1.40</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>2.88</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+      <StuffPower_Armor_Heat>3.00</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
     </statBases>
     <stuffProps>
       <categories>
@@ -551,7 +551,7 @@
     <description>Nano-fibers woven into sheets molecule-by-molecule using specialized production mechanites. While it flexes freely most of the time, it stiffens to absorb blows as they land, and is incredibly difficult to break. The secrets of its production are known only to the most advanced glitterworld cultures.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Hyperweave</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
 			<MaxHitPoints>200</MaxHitPoints>

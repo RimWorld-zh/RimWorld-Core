@@ -57,14 +57,14 @@
     <defName>NutrientPaste</defName>
     <label>nutrient paste</label>
     <description>Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all.</description>
-    <baseCost>500</baseCost>
+    <baseCost>400</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>Electricity</li>
     </prerequisites>
     <researchViewX>6</researchViewX>
-    <researchViewY>0.5</researchViewY>
-     <tags>
+    <researchViewY>1.16</researchViewY>
+    <tags>
       <li>ClassicStart</li>
     </tags>
   </ResearchProjectDef>
@@ -125,19 +125,6 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>ElectricSmelting</defName>
-    <label>electric smelting</label>
-    <description>Build electric smithy and smelters.\n\nThe electric smithy allows smithing items without fuel. The electric smelter extracts useful metal from slag chunks and other items.</description>
-    <baseCost>500</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>Electricity</li>
-    </prerequisites>
-    <researchViewX>6</researchViewX>
-    <researchViewY>1.16</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
     <defName>TubeTelevision</defName>
     <label>tube television</label>
     <description>Produce tube televisions for recreational watching.</description>
@@ -154,23 +141,10 @@
     <defName>PackagedSurvivalMeal</defName>
     <label>packaged survival meal</label>
     <description>Produce packaged survival meals which never go bad. Great for traveling.</description>
-    <baseCost>900</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>NutrientPaste</li>
-    </prerequisites>
-    <researchViewX>7</researchViewX>
-    <researchViewY>0.5</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>ElectricCremation</defName>
-    <label>electric cremation</label>
-    <description>Build crematoriums for vaporizing unwanted corpses.</description>
-    <baseCost>400</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>ElectricSmelting</li>
     </prerequisites>
     <researchViewX>7</researchViewX>
     <researchViewY>1.16</researchViewY>

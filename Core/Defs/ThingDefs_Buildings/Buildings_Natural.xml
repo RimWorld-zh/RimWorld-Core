@@ -90,7 +90,7 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Steel</mineableThing>
-      <mineableYield>35</mineableYield>
+      <mineableYield>40</mineableYield>
       <mineableScatterCommonality>1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>30</min>
@@ -116,7 +116,7 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Silver</mineableThing>
-      <mineableYield>35</mineableYield>
+      <mineableYield>40</mineableYield>
       <mineableScatterCommonality>0.10</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>4</min>
@@ -142,7 +142,7 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Gold</mineableThing>
-      <mineableYield>35</mineableYield>
+      <mineableYield>40</mineableYield>
       <mineableScatterCommonality>0.07</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>2</min>
@@ -168,11 +168,11 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Uranium</mineableThing>
-      <mineableYield>35</mineableYield>
-      <mineableScatterCommonality>0.09</mineableScatterCommonality>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.12</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
-        <min>2</min>
-        <max>8</max>
+        <min>6</min>
+        <max>12</max>
       </mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
@@ -194,7 +194,7 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Plasteel</mineableThing>
-      <mineableYield>35</mineableYield>
+      <mineableYield>40</mineableYield>
       <mineableScatterCommonality>0.05</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>2</min>
@@ -221,7 +221,7 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Jade</mineableThing>
-      <mineableYield>35</mineableYield>
+      <mineableYield>40</mineableYield>
       <mineableScatterCommonality>0.065</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>2</min>

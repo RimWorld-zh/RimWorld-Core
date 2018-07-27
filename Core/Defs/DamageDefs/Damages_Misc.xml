@@ -52,8 +52,8 @@
     <defaultDamage>50</defaultDamage>
     <defaultStoppingPower>0.5</defaultStoppingPower>
     <defaultArmorPenetration>0.10</defaultArmorPenetration>
-    <explosionBuildingDamageFactor>2</explosionBuildingDamageFactor>
-    <explosionPlantDamageFactor>2</explosionPlantDamageFactor>
+    <explosionBuildingDamageFactor>4</explosionBuildingDamageFactor>
+    <explosionPlantDamageFactor>4</explosionPlantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
     <explosionCellMote>Mote_BlastDry</explosionCellMote>

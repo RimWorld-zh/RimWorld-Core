@@ -50,8 +50,8 @@
       <shipPart>true</shipPart>
     </building>
     <costList>
-      <Steel>280</Steel>
-      <Plasteel>50</Plasteel>
+      <Steel>200</Steel>
+      <Plasteel>40</Plasteel>
       <ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>
@@ -121,9 +121,9 @@
       <isPlayerEjectable>true</isPlayerEjectable>
     </building>
     <costList>
-      <Steel>140</Steel>
+      <Steel>120</Steel>
 			<Uranium>14</Uranium>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -178,8 +178,8 @@
       <shipPart>true</shipPart>
     </building>
     <costList>
-      <Steel>175</Steel>
-      <ComponentSpacer>6</ComponentSpacer>
+      <Steel>150</Steel>
+      <ComponentSpacer>5</ComponentSpacer>
 			<Gold>70</Gold>
       <AIPersonaCore>1</AIPersonaCore>
     </costList>
@@ -234,7 +234,7 @@
       <Steel>350</Steel>
       <Plasteel>280</Plasteel>
 			<Uranium>70</Uranium>
-      <ComponentSpacer>12</ComponentSpacer>
+      <ComponentSpacer>10</ComponentSpacer>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -301,7 +301,7 @@
       <shipPart>true</shipPart>
     </building>
     <costList>
-      <Steel>280</Steel>
+      <Steel>260</Steel>
       <Plasteel>140</Plasteel>
 			<Uranium>70</Uranium>
       <ComponentSpacer>8</ComponentSpacer>
@@ -363,7 +363,7 @@
       <Steel>140</Steel>
       <Gold>4</Gold>
       <ComponentIndustrial>8</ComponentIndustrial>
-      <ComponentSpacer>10</ComponentSpacer>
+      <ComponentSpacer>8</ComponentSpacer>
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationHotKey>Misc5</designationHotKey>

@@ -27,8 +27,8 @@
 			<fertilitySensitivity>1.0</fertilitySensitivity>
       <soundHarvesting>Harvest_Standard</soundHarvesting>
       <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
-      <sowWork>280</sowWork>
-      <harvestWork>180</harvestWork>
+      <sowWork>170</sowWork>
+      <harvestWork>250</harvestWork>
       <visualSizeRange>
         <min>0.3</min>
         <max>1.00</max>
@@ -89,11 +89,11 @@
       <preferability>RawBad</preferability>
     </ingestible>
     <plant>
-      <lifespanDaysPerGrowDays>100</lifespanDaysPerGrowDays>
+      <lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
 			<fertilitySensitivity>0.5</fertilitySensitivity>
 			<soundHarvesting>Harvest_Tree</soundHarvesting>
       <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
-      <sowWork>10000</sowWork>
+      <sowWork>4000</sowWork>
       <sowMinSkill>6</sowMinSkill>
       <sowResearchPrerequisites>
         <li>TreeSowing</li>

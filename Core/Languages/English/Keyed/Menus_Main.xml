@@ -34,6 +34,9 @@
   <TranslationHowToContribute>You can contribute too. Click below to learn more (opens web browser).</TranslationHowToContribute>
   <LearnMore>Learn more</LearnMore>
 
+  <!-- Main menu dev build -->
+  <DevBuildWarning>Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version.</DevBuildWarning>
+
   <!-- Create/review world -->
   <ReviewWorld>Review world</ReviewWorld>
   <WorldGenerate>Generate</WorldGenerate>
@@ -118,8 +121,8 @@
   <CommitmentMode>Commitment mode</CommitmentMode>
   <ReloadAnytimeMode>Reload anytime mode</ReloadAnytimeMode>
   <MustChoosePermadeath>Please choose commitment mode or reload anytime mode.</MustChoosePermadeath>
-  <PermadeathModeInfo>You can only save when quitting the game.\n\nSince RimWorld is a story generator, it's designed to encourage recovery after losses. Even losing all but one person is not the end of the game - it's part of the story.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his parents got killed - loss and recovery is dramatic!</PermadeathModeInfo>
-  <ReloadAnytimeModeInfo>You can save and load the game at any time.\n\nThis isn't a bad choice if you're still learning the game, if it fits your personal playstyle or goals, if you're using mods that may break your game, or if you intend to self-enforce commitment mode.</ReloadAnytimeModeInfo>
+  <ReloadAnytimeModeInfo>You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode.</ReloadAnytimeModeInfo>
+  <PermadeathModeInfo>You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his parents got killed - loss and recovery is dramatic!</PermadeathModeInfo>
   <CanChangeStorytellerSettingsDuringPlay>Storyteller and difficulty can be changed any time.</CanChangeStorytellerSettingsDuringPlay>
 
   <!-- Landing site select -->

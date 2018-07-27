@@ -93,9 +93,6 @@
   <DesignatorStrip>Strip</DesignatorStrip>
   <DesignatorStripDesc>Strip apparel from corpses and the wounded.</DesignatorStripDesc>
 
-  <DesignatorRearmTrap>Rearm trap</DesignatorRearmTrap>
-  <DesignatorRearmTrapDesc>Rearm a sprung trap so it can be triggered again.</DesignatorRearmTrapDesc>
-
   <DesignatorOpen>Open</DesignatorOpen>
   <DesignatorOpenDesc>Open containers.</DesignatorOpenDesc>
   

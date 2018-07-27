@@ -169,7 +169,7 @@
       <MaxHitPoints>140</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <Beauty>1</Beauty>
-      <WorkToBuild>850</WorkToBuild>
+      <WorkToBuild>800</WorkToBuild>
       <Mass>50</Mass>
       <BedRestEffectiveness>1</BedRestEffectiveness>
       <Comfort>0.75</Comfort>
@@ -223,7 +223,7 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToBuild>1740</WorkToBuild>
+      <WorkToBuild>1500</WorkToBuild>
       <Mass>85</Mass>
       <Comfort>0.75</Comfort>
       <Beauty>2</Beauty>
@@ -330,7 +330,7 @@
     <castEdgeShadows>True</castEdgeShadows>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
-      <WorkToBuild>2850</WorkToBuild>
+      <WorkToBuild>2800</WorkToBuild>
       <Mass>45</Mass>
       <Flammability>1.0</Flammability>
       <BedRestEffectiveness>1</BedRestEffectiveness>
@@ -393,7 +393,7 @@
       <BedRestEffectiveness>0.95</BedRestEffectiveness>
       <ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
       <Comfort>0.68</Comfort>
-      <WorkToBuild>350</WorkToBuild>
+      <WorkToBuild>600</WorkToBuild>
     </statBases>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
@@ -436,7 +436,7 @@
       <BedRestEffectiveness>0.95</BedRestEffectiveness>
       <ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
       <Comfort>0.68</Comfort>
-      <WorkToBuild>600</WorkToBuild>
+      <WorkToBuild>1100</WorkToBuild>
     </statBases>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
@@ -540,7 +540,7 @@
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>120</WorkToBuild>
+			<WorkToBuild>180</WorkToBuild>
       <Mass>3</Mass>
 			<BedRestEffectiveness>0.93</BedRestEffectiveness>
 			<Comfort>0.60</Comfort>
@@ -586,7 +586,7 @@
 		<statBases>
 			<MaxHitPoints>140</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToBuild>600</WorkToBuild>
+			<WorkToBuild>400</WorkToBuild>
       <Mass>10</Mass>
 			<BedRestEffectiveness>1</BedRestEffectiveness>
 			<Comfort>0.75</Comfort>
@@ -720,7 +720,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>220</MaxHitPoints>
-      <WorkToBuild>7500</WorkToBuild>
+      <WorkToBuild>14000</WorkToBuild>
       <Mass>18</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>4</Beauty>
@@ -1236,7 +1236,7 @@
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>8</Mass>
-      <WorkToBuild>1050</WorkToBuild>
+      <WorkToBuild>600</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <size>(2,1)</size>

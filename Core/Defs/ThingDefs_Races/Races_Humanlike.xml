@@ -84,6 +84,8 @@
       <foodType>OmnivoreHuman</foodType>
       <gestationPeriodDays>45</gestationPeriodDays>
       <meatMarketValue>0.8</meatMarketValue>
+      <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>

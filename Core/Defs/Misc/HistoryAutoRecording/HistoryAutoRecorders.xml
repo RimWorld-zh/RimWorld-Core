@@ -68,7 +68,7 @@
 
   <HistoryAutoRecorderDef>
     <defName>Adaptation</defName>
-    <label>adaptation</label>
+    <label>recovery</label>
     <graphColor>(0, 1, 0.7, 1)</graphColor>
     <recordTicksFrequency>60000</recordTicksFrequency>
     <workerClass>HistoryAutoRecorderWorker_Adaptation</workerClass>
@@ -86,7 +86,7 @@
 
   <HistoryAutoRecorderDef>
     <defName>PopAdaptation</defName>
-    <label>pop adaptation</label>
+    <label>pop recovery</label>
     <graphColor>(0, 0.5, 1, 1)</graphColor>
     <recordTicksFrequency>60000</recordTicksFrequency>
     <workerClass>HistoryAutoRecorderWorker_PopAdaptation</workerClass>
@@ -95,7 +95,7 @@
 
   <HistoryAutoRecorderDef>
     <defName>PopIntent</defName>
-    <label>pop intent x100</label>
+    <label>pop intent x10</label>
     <graphColor>(0, 1, 0, 1)</graphColor>
     <recordTicksFrequency>60000</recordTicksFrequency>
     <workerClass>HistoryAutoRecorderWorker_PopIntent</workerClass>

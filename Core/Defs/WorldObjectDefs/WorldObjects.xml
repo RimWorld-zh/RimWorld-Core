@@ -13,9 +13,9 @@
     <expandingIconPriority>100</expandingIconPriority>
     <expandMore>true</expandMore>
     <allowCaravanIncidentsWhichGenerateMap>true</allowCaravanIncidentsWhichGenerateMap>
-    <incidentTargetTypes>
+    <IncidentTargetTags>
       <li>Caravan</li>
-    </incidentTargetTypes>
+    </IncidentTargetTags>
     <inspectorTabs>
       <li>WITab_Caravan_Health</li>
       <li>WITab_Caravan_Needs</li>
@@ -74,9 +74,9 @@
     <expandingIconTexture>World/WorldObjects/Expanding/JourneyDestination</expandingIconTexture>
     <expandingIconPriority>50</expandingIconPriority>
     <expandMore>true</expandMore>
-    <incidentTargetTypes>
+    <IncidentTargetTags>
       <li>Map_PlayerHome</li>
-    </incidentTargetTypes>
+    </IncidentTargetTags>
     <mapGenerator>EscapeShip</mapGenerator>
     <canBePlayerHome>true</canBePlayerHome>
     <comps>
@@ -98,9 +98,9 @@
     <expandingIconPriority>80</expandingIconPriority>
     <expandMore>true</expandMore>
     <isTempIncidentMapOwner>true</isTempIncidentMapOwner>
-    <incidentTargetTypes>
+    <IncidentTargetTags>
       <li>Map_TempIncident</li>
-    </incidentTargetTypes>
+    </IncidentTargetTags>
     <comps>
       <li Class="WorldObjectCompProperties_FormCaravan" />
       <li Class="WorldObjectCompProperties_TimedForcedExit" />
@@ -149,9 +149,9 @@
       <li Class="WorldObjectCompProperties_TimedForcedExit" />
       <li Class="WorldObjectCompProperties_EnterCooldown" />
     </comps>
-    <incidentTargetTypes>
+    <IncidentTargetTags>
       <li>Map_Misc</li>
-    </incidentTargetTypes>
+    </IncidentTargetTags>
   </WorldObjectDef>
 
   <WorldObjectDef>

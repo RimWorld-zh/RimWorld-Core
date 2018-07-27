@@ -91,7 +91,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>PassiveCooler</defName>
     <label>passive cooler</label>
-    <description>A traditional unpowered cooler that works by water evaporation. Will run out and vanish after several days.</description>
+    <description>A traditional unpowered cooler that works by water evaporation. Must be regularly replenished with wood.</description>
     <category>Building</category>
     <graphicData>
       <texPath>Things/Building/Misc/PassiveCooler</texPath>

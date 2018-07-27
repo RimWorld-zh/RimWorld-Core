@@ -161,7 +161,7 @@
         
 				<!-- Eat random things out of curiosity -->
 				<li Class="ThinkNode_ChancePerHour_Constant">
-					<mtbHours>600</mtbHours>
+					<mtbHours>1440</mtbHours>
 					<subNodes>
             <li Class="ThinkNode_Tagger">
               <tagToGive>SatisfyingNeeds</tagToGive>

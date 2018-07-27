@@ -33,7 +33,7 @@
     <label>centipede</label>
     <description>Heavy combat mechanoids that glide on dozens of tiny legs. Their thick carpace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics.</description>
     <statBases>
-      <MoveSpeed>2.0</MoveSpeed>
+      <MoveSpeed>1.9</MoveSpeed>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
     </statBases>

@@ -38,7 +38,7 @@
   <BodyPartDef>
     <defName>Eye</defName>
     <label>eye</label>
-    <hitPoints>8</hitPoints>
+    <hitPoints>10</hitPoints>
     <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
     <delicate>true</delicate>
     <skinCovered>false</skinCovered>
@@ -98,7 +98,7 @@
   <BodyPartDef>
     <defName>Neck</defName>
     <label>neck</label>
-    <hitPoints>20</hitPoints>
+    <hitPoints>25</hitPoints>
     <bleedRate>4</bleedRate>
     <skinCovered>true</skinCovered>
     <tags>

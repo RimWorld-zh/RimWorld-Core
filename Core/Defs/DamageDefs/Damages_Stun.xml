@@ -24,7 +24,7 @@
 		<deathMessage>{0} has been EMPed to death.</deathMessage>
 		<harmsHealth>false</harmsHealth>
 		<impactSoundType>Electric</impactSoundType>
-		<defaultDamage>40</defaultDamage>
+		<defaultDamage>50</defaultDamage>
 		<explosionSnowMeltAmount>0</explosionSnowMeltAmount>
 		<explosionCellMote>Mote_BlastEMP</explosionCellMote>
 		<explosionColorEdge>(0.8, 0.8, 0.8, 0.8)</explosionColorEdge>

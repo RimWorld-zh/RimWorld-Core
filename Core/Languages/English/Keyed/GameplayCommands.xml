@@ -129,7 +129,7 @@
 
   <!-- Trap -->
   <CommandAutoRearm>Auto Rearm</CommandAutoRearm>
-  <CommandAutoRearmDesc>If this is on, this trap will automatically be designated for rearming when it springs.</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>If this is on, this trap will automatically be replaced after it springs.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
   <CommandReleaseAnimalsLabel>Release animals</CommandReleaseAnimalsLabel>

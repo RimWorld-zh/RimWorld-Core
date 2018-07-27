@@ -1052,19 +1052,6 @@
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
 
-  <WorkGiverDef>
-    <defName>RearmTraps</defName>
-    <label>rearm traps</label>
-    <giverClass>WorkGiver_RearmTraps</giverClass>
-    <workType>Hauling</workType>
-    <verb>rearm</verb>
-    <gerund>rearming</gerund>
-    <priorityInType>50</priorityInType>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-  </WorkGiverDef>
-
 	<WorkGiverDef>
 		<defName>DoBillsCremate</defName>
 		<label>do cremation bills</label>

@@ -265,14 +265,7 @@
     <description>The amount of nutrition I have eaten.</description>
     <type>Float</type>
   </RecordDef>
-  
-  <RecordDef>
-    <defName>TrapsRearmed</defName>
-    <label>traps rearmed</label>
-    <description>The number of traps I have rearmed.</description>
-    <type>Int</type>
-  </RecordDef>
-  
+
   <RecordDef>
     <defName>BodiesStripped</defName>
     <label>bodies stripped</label>

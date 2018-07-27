@@ -449,9 +449,9 @@
       <topWindExposure>0.15</topWindExposure>
       <mustBeWildToSow>false</mustBeWildToSow>
       <immatureGraphicPath>Things/Plant/TreeCocoa_Immature</immatureGraphicPath>
-      <harvestWork>700</harvestWork>
+      <harvestWork>400</harvestWork>
 			<harvestTag>Standard</harvestTag>
-      <harvestYield>16</harvestYield>
+      <harvestYield>20</harvestYield>
       <harvestedThingDef>Chocolate</harvestedThingDef>
       <harvestFailable>true</harvestFailable>
     </plant>

@@ -16,8 +16,8 @@
       <WorkToBuild>0</WorkToBuild>
       <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
     </statBases>
-		<scatterableOnMapGen>false</scatterableOnMapGen>
-		<useHitPoints>false</useHitPoints>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>false</useHitPoints>
     <size>(1,1)</size>
     <designationCategory>Production</designationCategory>
     <passability>Standable</passability>
@@ -29,7 +29,7 @@
     </inspectorTabs>
     <building>
       <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
-			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+      <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <sowTag>SupportPlantsOnly</sowTag>
       <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
@@ -42,14 +42,14 @@
         </linkableFacilities>
       </li>
       <li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
     </comps>
     <designationHotKey>Misc1</designationHotKey>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
-		</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -84,7 +84,7 @@
     </inspectorTabs>
     <building>
       <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
-			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+      <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <sowTag>SupportPlantsOnly</sowTag>
       <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
@@ -97,13 +97,13 @@
         </linkableFacilities>
       </li>
       <li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
     </comps>
     <designationHotKey>Misc1</designationHotKey>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
     </placeWorkers>
   </ThingDef>
 
@@ -119,21 +119,21 @@
     <statBases>
       <Mass>20</Mass>
     </statBases>
-		<building>
-			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
-			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
-		</building>
+    <building>
+      <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+      <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+    </building>
     <interactionCellIcon>DiningChair</interactionCellIcon>
-		<comps>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
-		</comps>
-		<placeWorkers>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
-		</placeWorkers>
+    <comps>
+      <li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
   </ThingDef>
-  
+
   <ThingDef ParentName="BenchBase">
     <defName>TableSculpting</defName>
     <label>sculptor's table</label>
@@ -248,7 +248,7 @@
     </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
+    </building>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
@@ -257,9 +257,9 @@
       </li>
     </comps>
     <designationHotKey>Misc3</designationHotKey>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
   </ThingDef>
 
   <ThingDef ParentName="BenchBase">
@@ -306,7 +306,7 @@
     </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
+    </building>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
@@ -314,9 +314,9 @@
         </linkableFacilities>
       </li>
     </comps>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
     <researchPrerequisites>
       <li>ComplexClothing</li>
     </researchPrerequisites>
@@ -371,7 +371,7 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
-		</building>
+    </building>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -441,7 +441,7 @@
     </inspectorTabs>
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
+    </building>
     <comps>
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>80.0</fuelConsumptionRate>
@@ -532,12 +532,12 @@
         <heatPerSecond>4</heatPerSecond>
       </li>
     </comps>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
     <researchPrerequisites>
       <li>Smithing</li>
-      <li>ElectricSmelting</li>
+      <li>Electricity</li>
     </researchPrerequisites>
   </ThingDef>
 
@@ -608,11 +608,13 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <constructEffect>ConstructMetal</constructEffect>
-    <researchPrerequisites><li>Machining</li></researchPrerequisites>
+    <researchPrerequisites>
+      <li>Machining</li>
+    </researchPrerequisites>
     <designationHotKey>Misc7</designationHotKey>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
   </ThingDef>
 
   <ThingDef ParentName="BenchBase">
@@ -816,11 +818,13 @@
         </linkableFacilities>
       </li>
     </comps>
-    <researchPrerequisites><li>Stonecutting</li></researchPrerequisites>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
     <designationHotKey>Misc9</designationHotKey>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
   </ThingDef>
 
   <ThingDef ParentName="BenchBase">
@@ -871,9 +875,11 @@
     <building>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
-    <researchPrerequisites><li>Brewing</li></researchPrerequisites>
+    <researchPrerequisites>
+      <li>Brewing</li>
+    </researchPrerequisites>
   </ThingDef>
-  
+
   <ThingDef ParentName="BenchBase">
     <defName>DrugLab</defName>
     <label>drug lab</label>
@@ -931,14 +937,14 @@
         </linkableFacilities>
       </li>
     </comps>
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
     <researchPrerequisites>
       <li>DrugProduction</li>
     </researchPrerequisites>
   </ThingDef>
-  
+
   <ThingDef ParentName="BenchBase">
     <defName>ElectricSmelter</defName>
     <label>electric smelter</label>
@@ -982,7 +988,7 @@
     <recipes>
       <li>ExtractMetalFromSlag</li>
       <li>SmeltWeapon</li>
-			<li>DestroyWeapon</li>
+      <li>DestroyWeapon</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -1008,77 +1014,79 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <heatPerTickWhileWorking>0.32</heatPerTickWhileWorking>
     </building>
-    <researchPrerequisites><li>ElectricSmelting</li></researchPrerequisites>
     <designationHotKey>Misc10</designationHotKey>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
   </ThingDef>
 
-	<ThingDef ParentName="BenchBase">
-		<defName>BiofuelRefinery</defName>
-		<label>biofuel refinery</label>
-		<description>Refines biological matter like wood or plant matter into chemfuel.</description>
-		<thingClass>Building_WorkTable</thingClass>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>70</pathCost>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>2000</WorkToBuild>
-			<Flammability>1.0</Flammability>
-		</statBases>
+  <ThingDef ParentName="BenchBase">
+    <defName>BiofuelRefinery</defName>
+    <label>biofuel refinery</label>
+    <description>Refines biological matter like wood or plant matter into chemfuel.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
     <minifiedDef />
     <thingCategories Inherit="false" />
-		<size>(3,2)</size>
-		<costList>
-			<Steel>150</Steel>
-			<ComponentIndustrial>3</ComponentIndustrial>
-		</costList>
-		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>170</basePowerConsumption>
-				<shortCircuitInRain>true</shortCircuitInRain>
-			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-		</comps>
-		<recipes>
-			<li>Make_ChemfuelFromWood</li>
-			<li>Make_ChemfuelFromOrganics</li>
-		</recipes>
+    <size>(3,2)</size>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>170</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <recipes>
+      <li>Make_ChemfuelFromWood</li>
+      <li>Make_ChemfuelFromOrganics</li>
+    </recipes>
     <castEdgeShadows>false</castEdgeShadows>
-		<staticSunShadowHeight>0</staticSunShadowHeight>
-		<graphicData>
-			<texPath>Things/Building/Production/Refinery</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(3,2)</drawSize>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <graphicData>
+      <texPath>Things/Building/Production/Refinery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,2)</drawSize>
       <shadowData>
         <volume>(2.22, 0.8, 0.62)</volume>
         <offset>(0, 0, -0.13)</offset>
       </shadowData>
-			<damageData>
-				<rect>(0.3,0.1,2.4,1.8)</rect>
-			</damageData>
-		</graphicData>
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
-		<fillPercent>0.5</fillPercent>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<hasInteractionCell>true</hasInteractionCell>
-		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>Production</designationCategory>
-		<surfaceType>Item</surfaceType>
+      <damageData>
+        <rect>(0.3,0.1,2.4,1.8)</rect>
+      </damageData>
+    </graphicData>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <fillPercent>0.5</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+    <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <researchPrerequisites>
-			<li>BiofuelRefining</li>
-		</researchPrerequisites>
-	</ThingDef>
+      <li>BiofuelRefining</li>
+    </researchPrerequisites>
+  </ThingDef>
 
-	<ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="BenchBase">
     <defName>FabricationBench</defName>
     <label>fabrication bench</label>
     <description>A workbench equipped with advanced tools for producing technological marvels from simpler materials.</description>
@@ -1199,7 +1207,7 @@
     <designationCategory>Production</designationCategory>
     <surfaceType>Item</surfaceType>
   </ThingDef>
-  
+
   <ThingDef ParentName="BenchBase">
     <defName>HiTechResearchBench</defName>
     <label>hi-tech research bench</label>
@@ -1261,8 +1269,8 @@
     <designationHotKey>Misc4</designationHotKey>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
     <researchPrerequisites>
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
@@ -1340,8 +1348,10 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
       <heatPerTickWhileWorking>0.32</heatPerTickWhileWorking>
     </building>
-    <researchPrerequisites><li>ElectricCremation</li></researchPrerequisites>
     <designationHotKey>Misc5</designationHotKey>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -1394,7 +1404,9 @@
       </li>
       <li Class="CompProperties_Flickable"/>
     </comps>
-    <researchPrerequisites><li>Hydroponics</li></researchPrerequisites>
+    <researchPrerequisites>
+      <li>Hydroponics</li>
+    </researchPrerequisites>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Production</designationCategory>
   </ThingDef>
@@ -1432,18 +1444,20 @@
       <Steel>10</Steel>
       <WoodLog>30</WoodLog>
     </costList>
-		<comps>
-			<li Class="CompProperties_TemperatureRuinable">
-				<minSafeTemperature>-1</minSafeTemperature>
-				<maxSafeTemperature>32</maxSafeTemperature>
-				<progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
-			</li>
-		</comps>
+    <comps>
+      <li Class="CompProperties_TemperatureRuinable">
+        <minSafeTemperature>-1</minSafeTemperature>
+        <maxSafeTemperature>32</maxSafeTemperature>
+        <progressPerDegreePerTick>0.00001</progressPerDegreePerTick>
+      </li>
+    </comps>
     <tickerType>Rare</tickerType>
     <rotatable>true</rotatable>
     <designationCategory>Production</designationCategory>
     <constructEffect>ConstructWood</constructEffect>
-    <researchPrerequisites><li>Brewing</li></researchPrerequisites>
+    <researchPrerequisites>
+      <li>Brewing</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -1478,7 +1492,7 @@
     <minifiedDef>MinifiedThing</minifiedDef>
     <building>
       <uninstallWork>1800</uninstallWork>
-   </building>
+    </building>
     <thingCategories>
       <li>BuildingsProduction</li>
     </thingCategories>
@@ -1502,8 +1516,8 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Power">
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>300</basePowerConsumption>
       </li>
@@ -1511,7 +1525,7 @@
       <li Class="CompProperties_CreatesInfestations" />
     </comps>
   </ThingDef>
-  
+
   <!--======================== Nutrient dispenser ==============================-->
 
   <ThingDef ParentName="BuildingBase">
@@ -1648,5 +1662,5 @@
     <uiIconPath>Things/Building/Production/Hopper_MenuIcon</uiIconPath>
     <uiIconScale>0.85</uiIconScale>
   </ThingDef>
-  
+
 </Defs>

@@ -38,7 +38,11 @@
         <li>(800, 15)</li>
       </points>
     </selectionWeightCurve>
-    <pointsFactor>0.9</pointsFactor>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 0.9</li>
+      </points>
+    </pointsFactorCurve>
     <textEnemy>Several separate groups of {0} from {1} have arrived nearby.</textEnemy>
     <textFriendly>Several separate groups of friendly {0} from {1} have arrived nearby.</textFriendly>
   </PawnsArrivalModeDef>
@@ -52,7 +56,11 @@
         <li>(800, 15)</li>
       </points>
     </selectionWeightCurve>
-    <pointsFactor>0.9</pointsFactor>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 0.9</li>
+      </points>
+    </pointsFactorCurve>
     <minTechLevel>Industrial</minTechLevel>
     <textEnemy>Several separate groups of {0} from {1} have arrived in transport pods nearby.</textEnemy>
     <textFriendly>Several separate groups of friendly {0} from {1} have arrived in transport pods nearby.</textFriendly>
@@ -69,7 +77,12 @@
         <li>(2000, 80)</li>
       </points>
     </selectionWeightCurve>
-    <pointsFactor>0.5</pointsFactor>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 0.5</li>
+        <li>5000, 0.3</li>
+      </points>
+    </pointsFactorCurve>
     <minTechLevel>Industrial</minTechLevel>
     <textEnemy>A group of {0} from {1} have dropped in right on top of you!</textEnemy>
     <textFriendly>A group of friendly {0} from {1} have dropped in right on top of you!</textFriendly>
@@ -85,7 +98,12 @@
         <li>(800, 20)</li>
       </points>
     </selectionWeightCurve>
-    <pointsFactor>0.75</pointsFactor>
+    <pointsFactorCurve>
+      <points>
+        <li>0, 0.70</li>
+        <li>5000, 0.45</li>
+      </points>
+    </pointsFactorCurve>
     <minTechLevel>Industrial</minTechLevel>
     <textEnemy>A group of {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area!</textEnemy>
     <textFriendly>A group of friendly {0} from {1} have arrived in transport pods. Their pods went haywire and are landing scattered all over the area!</textFriendly>

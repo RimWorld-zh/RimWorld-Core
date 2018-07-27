@@ -7,10 +7,10 @@
     <defName>Ambush</defName>
     <label>ambush</label>
 		<category>ThreatBig</category>
-		<targetTypes>
+		<targetTags>
       <li>Caravan</li>
       <li>Map_TempIncident</li>
-    </targetTypes>
+    </targetTags>
 		<workerClass>IncidentWorker_Ambush_EnemyFaction</workerClass>
     <pointsScaleable>true</pointsScaleable>
     <minRefireDays>0.17</minRefireDays>
@@ -38,10 +38,10 @@
     <defName>ManhunterAmbush</defName>
     <label>manhunter ambush</label>
 		<category>ThreatBig</category>
-    <targetTypes>
+    <targetTags>
       <li>Caravan</li>
       <li>Map_TempIncident</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_Ambush_ManhunterPack</workerClass>
     <pointsScaleable>true</pointsScaleable>
     <minRefireDays>0.17</minRefireDays>
@@ -77,9 +77,9 @@
     <expandMore>true</expandMore>
     <blockExitGridUntilBattleIsWon>true</blockExitGridUntilBattleIsWon>
     <isTempIncidentMapOwner>true</isTempIncidentMapOwner>
-    <incidentTargetTypes>
+    <IncidentTargetTags>
       <li>Map_TempIncident</li>
-    </incidentTargetTypes>
+    </IncidentTargetTags>
     <comps>
       <li Class="WorldObjectCompProperties_FormCaravan" />
       <li Class="WorldObjectCompProperties_TimedForcedExit" />
@@ -92,10 +92,10 @@
     <defName>CaravanMeeting</defName>
     <label>caravan meeting</label>
 		<category>Misc</category>
-    <targetTypes>
+    <targetTags>
       <li>Caravan</li>
       <li>Map_TempIncident</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_CaravanMeeting</workerClass>
     <minRefireDays>0.17</minRefireDays>
     <tale>CaravanMeeting</tale>
@@ -121,9 +121,9 @@
     <defName>CaravanDemand</defName>
     <label>payment demand</label>
 		<category>ThreatSmall</category>
-    <targetTypes>
+    <targetTags>
       <li>Caravan</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_CaravanDemand</workerClass>
     <pointsScaleable>true</pointsScaleable>
     <tale>CaravanDemand</tale>

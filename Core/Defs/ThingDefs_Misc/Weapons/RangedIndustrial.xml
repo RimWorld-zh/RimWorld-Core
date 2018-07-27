@@ -54,7 +54,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Revolver</defaultProjectile>
         <warmupTime>0.3</warmupTime>
-        <minRange>1.5</minRange>
         <range>25.9</range>
         <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -119,7 +118,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Autopistol</defaultProjectile>
         <warmupTime>0.3</warmupTime>
-        <minRange>1.5</minRange>
         <range>25.9</range>
         <soundCast>Shot_Autopistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
@@ -195,7 +193,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_MachinePistol</defaultProjectile>
         <warmupTime>0.5</warmupTime>
-        <minRange>1.5</minRange>
         <range>19.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
@@ -268,7 +265,6 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
 				<warmupTime>3.5</warmupTime>
-        <minRange>1.5</minRange>
 				<range>23.9</range>
         <forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
@@ -353,7 +349,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_BoltActionRifle</defaultProjectile>
         <warmupTime>1.7</warmupTime>
-        <minRange>1.5</minRange>
         <range>36.9</range>
         <soundCast>Shot_BoltActionRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -429,7 +424,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Shotgun</defaultProjectile>
         <warmupTime>0.9</warmupTime>
-        <minRange>1.5</minRange>
         <range>15.9</range>
         <soundCast>Shot_Shotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -507,7 +501,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Shotgun</defaultProjectile>
         <warmupTime>1.2</warmupTime>
-        <minRange>1.5</minRange>
         <range>12.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -571,7 +564,6 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_HeavySMG</defaultProjectile>
 				<warmupTime>0.9</warmupTime>
-        <minRange>1.5</minRange>
 				<range>22.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
@@ -648,7 +640,6 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_LMG</defaultProjectile>
 				<warmupTime>1.8</warmupTime>
-        <minRange>1.5</minRange>
 				<range>25.9</range>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<burstShotCount>6</burstShotCount>
@@ -729,7 +720,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
         <warmupTime>1.0</warmupTime>
-        <minRange>1.5</minRange>
         <range>30.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -809,7 +799,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_SniperRifle</defaultProjectile>
         <warmupTime>3.5</warmupTime>
-        <minRange>1.5</minRange>
         <range>44.9</range>
         <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -895,7 +884,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Minigun</defaultProjectile>
         <warmupTime>2.5</warmupTime>
-        <minRange>1.5</minRange>
         <range>30.9</range>
         <burstShotCount>25</burstShotCount>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>

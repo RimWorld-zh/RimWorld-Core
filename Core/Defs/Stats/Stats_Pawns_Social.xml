@@ -112,8 +112,8 @@
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Animals</skill>
-        <baseValue>0.028</baseValue>
-        <bonusPerLevel>0.014</bonusPerLevel>
+        <baseValue>0.04</baseValue>
+        <bonusPerLevel>0.03</bonusPerLevel>
       </li>
     </skillNeedFactors>
     <capacityFactors>
@@ -151,8 +151,8 @@
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Animals</skill>
-        <baseValue>0.042</baseValue>
-        <bonusPerLevel>0.042</bonusPerLevel>
+        <baseValue>0.10</baseValue>
+        <bonusPerLevel>0.05</bonusPerLevel>
       </li>
     </skillNeedFactors>
     <capacityFactors>

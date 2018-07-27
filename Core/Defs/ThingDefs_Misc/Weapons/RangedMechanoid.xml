@@ -27,9 +27,9 @@
       <MarketValue>1400</MarketValue>
       <Mass>22</Mass>
       <AccuracyTouch>0.18</AccuracyTouch>
-      <AccuracyShort>0.30</AccuracyShort>
-      <AccuracyMedium>0.30</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
+      <AccuracyShort>0.26</AccuracyShort>
+      <AccuracyMedium>0.26</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
       <RangedWeapon_Cooldown>7.4</RangedWeapon_Cooldown>
     </statBases>
     <techLevel>Spacer</techLevel>
@@ -45,7 +45,6 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
         <warmupTime>1.25</warmupTime>
-        <minRange>1.5</minRange>
         <range>26.9</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>24</burstShotCount>
@@ -114,7 +113,6 @@
         <forcedMissRadius>3.5</forcedMissRadius>
         <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
         <warmupTime>1.25</warmupTime>
-        <minRange>1.5</minRange>
         <range>26.9</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>InfernoCannon_Fire</soundCast>

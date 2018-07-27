@@ -96,7 +96,7 @@
     <label>rhinoceros</label>
     <labelPlural>rhinoceroses</labelPlural>
     <race>Rhinoceros</race>
-    <combatPower>280</combatPower>
+    <combatPower>270</combatPower>
     <ecoSystemWeight>1.5</ecoSystemWeight>
     <wildGroupSize>
       <min>1</min>
@@ -247,7 +247,7 @@
     <defName>Elephant</defName>
     <label>elephant</label>
     <race>Elephant</race>
-    <combatPower>200</combatPower>
+    <combatPower>260</combatPower>
     <ecoSystemWeight>2.0</ecoSystemWeight>
     <wildGroupSize>
       <min>3</min>
@@ -313,7 +313,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Megasloth</defName>
     <label>megasloth</label>
-    <description>A giant, solitary herbivore with two giant claws for warding off threats. Long extinct after being wiped out by the natives of Earth's American continent, the megasloth was later brought back using advanced cloning and artificial gestators. Its thick hide is exceptionally strong and insulating, and makes a great leather for cold-weather clothing.</description>
+    <description>A giant, solitary herbivore with two giant claws for warding off threats. Long extinct after being wiped out by the natives of Earth's American continent, the megasloth was later brought back using advanced cloning and artificial gestators. Its thick hide is exceptionally strong and insulating, and makes a great leather for cold-weather clothing. It is peaceful if left alone, but will shred anyone who distubs it with its giant claws.</description>
     <statBases>
       <MoveSpeed>4.8</MoveSpeed>
       <MarketValue>700</MarketValue>
@@ -412,7 +412,7 @@
     <defName>Megasloth</defName>
     <label>megasloth</label>
     <race>Megasloth</race>
-    <combatPower>150</combatPower>
+    <combatPower>280</combatPower>
     <ecoSystemWeight>2.0</ecoSystemWeight>
     <lifeStages>
       <li>
@@ -570,7 +570,7 @@
     <defName>Thrumbo</defName>
     <label>thrumbo</label>
     <race>Thrumbo</race>
-    <combatPower>440</combatPower>
+    <combatPower>500</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>

@@ -5,9 +5,9 @@
     <defName>Eclipse</defName>
     <label>eclipse</label>
 		<category>Misc</category>
-    <targetTypes>
+    <targetTags>
       <li>World</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_MakeGameCondition</workerClass>
     <gameCondition>Eclipse</gameCondition>
     <letterLabel>Eclipse</letterLabel>
@@ -26,9 +26,9 @@
     <defName>SolarFlare</defName>
     <label>solar flare</label>
 		<category>Misc</category>
-    <targetTypes>
+    <targetTags>
       <li>World</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_MakeGameCondition</workerClass>
     <gameCondition>SolarFlare</gameCondition>
     <letterLabel>Solar flare</letterLabel>
@@ -46,9 +46,9 @@
     <defName>Aurora</defName>
     <label>aurora</label>
     <category>Misc</category>
-    <targetTypes>
+    <targetTags>
       <li>World</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_Aurora</workerClass>
     <gameCondition>Aurora</gameCondition>
     <letterLabel>Aurora</letterLabel>

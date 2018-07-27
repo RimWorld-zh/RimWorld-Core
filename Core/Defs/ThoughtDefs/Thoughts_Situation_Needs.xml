@@ -199,27 +199,27 @@
       <li>
         <label>entombed underground</label>
         <description>I've been underground too long. I feel like the weight of this mountain is crushing me. I need to see the sky and feel the wind.</description>
-        <baseMoodEffect>-15</baseMoodEffect>
+        <baseMoodEffect>-9</baseMoodEffect>
       </li>
       <li>
         <label>trapped underground</label>
         <description>How long have I been underground? I need to get out in the fresh air and spend some time under the sky.</description>
-        <baseMoodEffect>-12</baseMoodEffect>
+        <baseMoodEffect>-7</baseMoodEffect>
       </li>
       <li>
         <label>cabin fever</label>
         <description>I've spent so long indoors I feel like the roof is pressing in. I need to get out and see the sky.</description>
-        <baseMoodEffect>-9</baseMoodEffect>
+        <baseMoodEffect>-5</baseMoodEffect>
       </li>
       <li>
         <label>trapped indoors</label>
         <description>It's been too long since I've seen the sky.</description>
-        <baseMoodEffect>-6</baseMoodEffect>
+        <baseMoodEffect>-3</baseMoodEffect>
       </li>
       <li>
         <label>stuck indoors</label>
         <description>I'd like to go outside and get some fresh air.</description>
-        <baseMoodEffect>-3</baseMoodEffect>
+        <baseMoodEffect>-1</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

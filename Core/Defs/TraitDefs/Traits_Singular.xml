@@ -298,11 +298,11 @@
 	</TraitDef>
 
   <TraitDef>
-    <defName>Indoorsman</defName>
-    <commonality>0.7</commonality> <!-- Note: There are several backstories that force this trait-->
+    <defName>Undergrounder</defName>
+    <commonality>0.2</commonality> <!-- Note: There are several backstories that force this trait-->
     <degreeDatas>
       <li>
-        <label>indoorsman</label>
+        <label>undergrounder</label>
         <description>[PAWN_nameDef] has no need to experience the outdoors. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays inside.</description>
       </li>
     </degreeDatas>
@@ -390,7 +390,7 @@
     <degreeDatas>
       <li>
         <label>gourmand</label>
-        <description>[PAWN_nameDef]'s life revolves around food. [PAWN_pronoun] gets hungry quickly, and if [PAWN_pronoun] is in a bad mood, [PAWN_pronoun] will often satisfy [PAWN_objective]self by eating.</description>
+        <description>[PAWN_nameDef]'s life revolves around food. [PAWN_pronoun] gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.</description>
         <theOnlyAllowedMentalBreaks>
           <li>Binging_Food</li>
         </theOnlyAllowedMentalBreaks>

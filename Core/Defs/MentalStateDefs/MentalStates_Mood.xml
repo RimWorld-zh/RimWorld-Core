@@ -50,9 +50,9 @@
     <category>Malicious</category>
     <prisonersCanDo>false</prisonersCanDo>
     <colonistsOnly>true</colonistsOnly>
-    <minTicksBeforeRecovery>4000</minTicksBeforeRecovery>
+    <minTicksBeforeRecovery>5000</minTicksBeforeRecovery>
     <recoveryMtbDays>0.1</recoveryMtbDays>
-    <maxTicksBeforeRecovery>15000</maxTicksBeforeRecovery>
+    <maxTicksBeforeRecovery>8000</maxTicksBeforeRecovery>
     <nameColor>(0.5, 0.9, 0.5)</nameColor>
     <beginLetterLabel>fire starting spree</beginLetterLabel>
     <beginLetter>{0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires.</beginLetter>

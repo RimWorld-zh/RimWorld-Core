@@ -6,9 +6,9 @@
   <IncidentDef>
     <defName>ShipChunkDrop</defName>
     <label>ship chunk drop</label>
-    <targetTypes>
+    <targetTags>
       <li>Map_PlayerHome</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_ShipChunkDrop</workerClass>
     <category>ShipChunkDrop</category>
 		<baseChance>3</baseChance>
@@ -19,9 +19,9 @@
   <IncidentDef>
     <defName>OrbitalTraderArrival</defName>
     <label>orbital trader arrival</label>
-    <targetTypes>
+    <targetTags>
       <li>Map_PlayerHome</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_OrbitalTraderArrival</workerClass>
     <category>OrbitalVisitor</category>
     <baseChance>3</baseChance>
@@ -32,9 +32,9 @@
   <IncidentDef>
     <defName>TraderCaravanArrival</defName>
     <label>trader caravan arrival</label>
-    <targetTypes>
+    <targetTags>
       <li>Map_PlayerHome</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_TraderCaravanArrival</workerClass>
     <category>FactionArrival</category>
     <baseChance>4</baseChance>
@@ -43,9 +43,9 @@
   <IncidentDef>
     <defName>VisitorGroup</defName>
     <label>visitor group</label>
-    <targetTypes>
+    <targetTags>
       <li>Map_PlayerHome</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_VisitorGroup</workerClass>
     <category>FactionArrival</category>
     <baseChance>4</baseChance>
@@ -55,9 +55,9 @@
   <IncidentDef>
     <defName>TravelerGroup</defName>
     <label>traveler group</label>
-    <targetTypes>
+    <targetTags>
       <li>Map_PlayerHome</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_TravelerGroup</workerClass>
     <category>FactionArrival</category>
     <baseChance>4</baseChance>
@@ -70,11 +70,11 @@
 		<defName>RaidFriendly</defName>
     <label>friendly raid</label>
 		<category>AllyAssistance</category>
-    <targetTypes>
+    <targetTags>
       <li>Map_PlayerHome</li>
       <li>Map_RaidBeacon</li>
       <li>Map_TempIncident</li>
-    </targetTypes>
+    </targetTags>
 		<workerClass>IncidentWorker_RaidFriendly</workerClass>
 		<baseChance>3.0</baseChance>
 		<pointsScaleable>true</pointsScaleable>
@@ -85,9 +85,9 @@
   <IncidentDef>
     <defName>RaidEnemyBeacon</defName>
     <label>enemy raid (special locations)</label>
-    <targetTypes>
+    <targetTags>
       <li>Map_RaidBeacon</li>
-    </targetTypes>
+    </targetTags>
     <workerClass>IncidentWorker_RaidEnemy</workerClass>
     <baseChance>1</baseChance>
     <category>RaidBeacon</category>

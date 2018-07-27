@@ -199,7 +199,7 @@
 			<WorkToMake>8000</WorkToMake>
 			<Mass>3.8</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.90</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>2.00</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2.5</EquipDelay>
 		</statBases>
@@ -660,6 +660,8 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</wornGraphicPath>
       <layers>
@@ -828,8 +830,8 @@
 
 	<ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_PowerArmor</defName>
-    <label>power armor</label>
-    <description>A suit of powered armor. Layered plasteel-weave plates are very effective at stopping attacks. Neuro-memetic robotics allow a human to wear the heavy armor and still be capable of moving easily.\n\nPowered armor usually used by heavy infantry and space marines from spacer-tech militaries.</description>
+    <label>marine armor</label>
+    <description>A suit of light powered armor. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow a human to wear the armor and still move easily.\n\nArmor like this is often used by imperial janissaries and rapid-incursion space marines.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -854,8 +856,8 @@
       <ArmorRating_Sharp>1.17</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
       <ArmorRating_Heat>0.54</ArmorRating_Heat>
-      <Insulation_Cold>25</Insulation_Cold>
-      <Insulation_Heat>4</Insulation_Heat>
+      <Insulation_Cold>34</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
     </statBases>
     <equippedStatOffsets>
