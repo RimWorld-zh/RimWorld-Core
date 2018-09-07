@@ -110,7 +110,7 @@
           <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -121,8 +121,8 @@
           <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
+          <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -132,8 +132,8 @@
           <color>(161,95,38)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.1</drawSize>
+          <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -255,7 +255,7 @@
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Beaver/Dessicated_Beaver</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -265,7 +265,7 @@
           <drawSize>1.25</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Beaver/Dessicated_Beaver</texPath>
           <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -279,8 +279,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.6</drawSize>
+          <texPath>Things/Pawn/Animal/Beaver/Dessicated_Beaver</texPath>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -403,7 +403,7 @@
           <color>(109,84,49)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -414,8 +414,8 @@
           <color>(109,84,49)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.20</drawSize>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
+          <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -429,8 +429,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.35</drawSize>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -557,8 +557,8 @@
           <color>(178,170,158)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.7</drawSize>
+          <texPath>Things/Pawn/Animal/Chinchilla/Dessicated_Chinchilla</texPath>
+          <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -568,8 +568,8 @@
           <color>(178,170,158)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.9</drawSize>
+          <texPath>Things/Pawn/Animal/Chinchilla/Dessicated_Chinchilla</texPath>
+          <drawSize>0.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -583,8 +583,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Chinchilla/Dessicated_Chinchilla</texPath>
+          <drawSize>0.85</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -708,8 +708,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.75</drawSize>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -720,7 +720,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
           <drawSize>1.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -736,8 +736,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.25</drawSize>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>1.15</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -855,8 +855,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.85</drawSize>
+          <texPath>Things/Pawn/Animal/Raccoon/Dessicated_Raccoon</texPath>
+          <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -867,8 +867,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Raccoon/Dessicated_Raccoon</texPath>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -879,8 +879,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.15</drawSize>
+          <texPath>Things/Pawn/Animal/Raccoon/Dessicated_Raccoon</texPath>
+          <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -1002,7 +1002,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
           <drawSize>1.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -1014,7 +1014,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -1026,8 +1026,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.95</drawSize>
+          <texPath>Things/Pawn/Animal/Rat/Dessicated_Rat</texPath>
+          <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

@@ -103,6 +103,12 @@
 
   <ThingSetMakerDef>
     <defName>VisitorGift</defName>
+    <debugParams> <!-- debug only! -->
+      <totalMarketValueRange>
+        <min>100</min>
+        <max>500</max>
+      </totalMarketValueRange>
+    </debugParams>
     <root Class="ThingSetMaker_RandomOption">
       <fixedParams>
         <qualityGenerator>Gift</qualityGenerator>
@@ -110,17 +116,13 @@
       <options>
         <li>
           <weight>0.8</weight>
-          <thingSetMaker Class="ThingSetMaker_StackCount">
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
             <fixedParams>
               <filter>
                 <thingDefs>
                   <li>Silver</li>
                 </thingDefs>
               </filter>
-              <countRange>
-                <min>100</min>
-                <max>400</max>
-              </countRange>
             </fixedParams>
           </thingSetMaker>
         </li>
@@ -134,10 +136,6 @@
                 </categories>
                 <disallowCheaperThan>6</disallowCheaperThan>
               </filter>
-              <totalMarketValueRange>
-                <min>100</min>
-                <max>500</max>
-              </totalMarketValueRange>
             </fixedParams>
           </thingSetMaker>
         </li>
@@ -153,18 +151,13 @@
                   <li>ComponentSpacer</li>
                 </thingDefs>
               </filter>
-              <totalMarketValueRange>
-                <min>100</min>
-                <max>500</max>
-              </totalMarketValueRange>
             </fixedParams>
           </thingSetMaker>
         </li>
         <li>
           <weight>1</weight>
-          <thingSetMaker Class="ThingSetMaker_StackCount">
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
             <fixedParams>
-              <maxThingMarketValue>800</maxThingMarketValue>
               <filter>
                 <categories>
                   <li>Apparel</li>
@@ -181,9 +174,8 @@
         </li>
         <li>
           <weight>1</weight>
-          <thingSetMaker Class="ThingSetMaker_StackCount">
+          <thingSetMaker Class="ThingSetMaker_MarketValue">
             <fixedParams>
-              <maxThingMarketValue>800</maxThingMarketValue>
               <filter>
                 <categories>
                   <li>Weapons</li>

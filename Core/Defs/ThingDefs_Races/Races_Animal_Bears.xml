@@ -149,7 +149,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -164,7 +164,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
           <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -179,7 +179,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
           <drawSize>2.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -218,7 +218,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -233,7 +233,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
           <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -248,7 +248,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
           <drawSize>2.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>

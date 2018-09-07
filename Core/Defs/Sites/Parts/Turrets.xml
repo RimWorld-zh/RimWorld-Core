@@ -5,7 +5,7 @@
     <defName>Turrets</defName>
     <label>turrets</label>
     <description>A group of turrets.</description>
-		<descriptionDialogue>a ring of {0} enemy turrets defends the site</descriptionDialogue>
+		<descriptionDialogue>{0} defend the site</descriptionDialogue>
     <workerClass>SitePartWorker_Turrets</workerClass>
 		<siteTexture>World/WorldObjects/Sites/Outpost</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/Turrets</expandingIconTexture>

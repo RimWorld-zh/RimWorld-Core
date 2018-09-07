@@ -38,6 +38,7 @@
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
+      <li>Revolver</li>
     </weaponTags>
     <costList>
       <Steel>30</Steel>
@@ -540,7 +541,7 @@
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>

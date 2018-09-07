@@ -1,1 +1,1 @@
-1.0.1977 rev1005 (development build)
+0.19.2009 rev486

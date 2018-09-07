@@ -47,6 +47,7 @@
     <soundInteract>Stone_Drop</soundInteract>
     <soundDrop>Stone_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
+    <tradeability>Buyable</tradeability>
     <statBases>
 			<MaxHitPoints>200</MaxHitPoints>
       <MarketValue>0.9</MarketValue>

@@ -6,6 +6,7 @@
     <workerClass>ThoughtWorker_Dark</workerClass>
     <nullifyingTraits>
       <li>NightOwl</li>
+      <li>Undergrounder</li>
     </nullifyingTraits>
     <stages>
       <li>
@@ -42,22 +43,22 @@
       <li>
         <label>tainted {0}</label>
         <description>I am wearing a piece of apparel that someone died in. It creeps me out and feels dirty.</description>
-        <baseMoodEffect>-3</baseMoodEffect>
+        <baseMoodEffect>-5</baseMoodEffect>
       </li>
 			<li>
 				<label>tainted {0} (+1)</label>
 				<description>I am wearing two pieces of apparel that someone died in. It creeps me out and feels dirty.</description>
-				<baseMoodEffect>-5</baseMoodEffect>
+				<baseMoodEffect>-8</baseMoodEffect>
 			</li>
 			<li>
 				<label>tainted {0} (+2)</label>
 				<description>I am wearing three pieces of apparel that someone died in. It creeps me out and feels dirty.</description>
-				<baseMoodEffect>-7</baseMoodEffect>
+				<baseMoodEffect>-11</baseMoodEffect>
 			</li>
 			<li>
 				<label>tainted {0} etc</label>
 				<description>I am wearing four or more pieces of apparel that someone died in. It creeps me out and feels dirty.</description>
-				<baseMoodEffect>-8</baseMoodEffect>
+				<baseMoodEffect>-14</baseMoodEffect>
 			</li>
     </stages>
 		<nullifyingTraits>

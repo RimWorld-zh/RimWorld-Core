@@ -17,7 +17,9 @@
     <pawnSingular>colonist</pawnSingular>
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Industrial</techLevel>
-    <backstoryCategory>Civil</backstoryCategory>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
     <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
@@ -45,7 +47,9 @@
     <pawnsPlural>tribespeople</pawnsPlural>
     <basicMemberKind>Tribesperson</basicMemberKind>
 		<techLevel>Neolithic</techLevel>
-		<backstoryCategory>Tribal</backstoryCategory>
+		<backstoryCategories>
+			<li>Tribal</li>
+		</backstoryCategories>
 		<expandingIconTexture>World/WorldObjects/Expanding/Village</expandingIconTexture>
 		<homeIconPath>World/WorldObjects/TribalSettlement</homeIconPath>
 		<pawnNameMaker>NamerPersonTribal</pawnNameMaker>

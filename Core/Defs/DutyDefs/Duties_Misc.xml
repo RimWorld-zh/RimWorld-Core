@@ -345,6 +345,9 @@
             <li Class="JobGiver_MaintainHives" />
           </subNodes>
         </li>
+        <li Class="JobGiver_MaintainHives">
+          <onlyIfDamagingState>true</onlyIfDamagingState>
+        </li>
         <li Class="ThinkNode_ConditionalBodySize">
           <min>0.7</min>
           <subNodes>
@@ -441,6 +444,11 @@
     <defName>LoadAndEnterTransporters</defName>
     <thinkNode Class="ThinkNode_Priority">
       <subNodes>
+        <!-- Basic needs -->
+        <li Class="ThinkNode_Subtree">
+          <treeDef>SatisfyVeryUrgentNeeds</treeDef>
+        </li>
+        
         <!-- Load transport pods -->
         <li Class="JobGiver_LoadTransporters" />
 

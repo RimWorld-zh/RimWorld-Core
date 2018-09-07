@@ -86,7 +86,7 @@
       <MaxHitPoints>120</MaxHitPoints>
       <Flammability>0.7</Flammability>
       <WorkToBuild>3500</WorkToBuild>
-      <Mass>100</Mass>
+      <Mass>10</Mass>
       <Beauty>-20</Beauty>
       <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
     </statBases>
@@ -114,7 +114,7 @@
         </fuelFilter>
         <fuelCapacity>120</fuelCapacity>
         <initialFuelPercent>1</initialFuelPercent>
-        <autoRefuelPercent>0.1667</autoRefuelPercent>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <fuelMultiplier>3</fuelMultiplier>
@@ -189,7 +189,7 @@
       <AccuracyLong>0.22</AccuracyLong>
       <RangedWeapon_Cooldown>4.8</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
-      <Mass>40</Mass>
+      <Mass>5</Mass>
       <Flammability>0</Flammability>
     </statBases>
     <weaponTags Inherit="false">
@@ -268,7 +268,7 @@
         </fuelFilter>
         <fuelCapacity>90</fuelCapacity>
         <initialFuelPercent>1</initialFuelPercent>
-        <autoRefuelPercent>0.25</autoRefuelPercent>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <fuelMultiplier>0.75</fuelMultiplier>
@@ -289,7 +289,7 @@
     </costList>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-    <specialDisplayRadius>33.9</specialDisplayRadius>
+    <specialDisplayRadius>32.9</specialDisplayRadius>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
@@ -318,7 +318,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>45</damageAmountBase>
+      <damageAmountBase>40</damageAmountBase>
       <speed>88</speed>
     </projectile>
   </ThingDef>
@@ -357,7 +357,7 @@
         <defaultProjectile>Bullet_AutocannonTurret</defaultProjectile>
         <warmupTime>0</warmupTime>
         <minRange>8.9</minRange>
-        <range>33.9</range>
+        <range>32.9</range>
         <ticksBetweenBurstShots>17</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
         <soundCast>Shot_Autocannon</soundCast>
@@ -376,12 +376,12 @@
     <description>A long-ranged armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor at long ranges, but it requires new uranium slugs to be loaded after use. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.</description>
     <uiIconPath>Things/Building/Security/TurretSniper_MenuIcon</uiIconPath>
     <statBases>
-      <ShootingAccuracyTurret>0.99</ShootingAccuracyTurret>
+      <ShootingAccuracyTurret>0.988</ShootingAccuracyTurret>
     </statBases>
     <costList Inherit="False">
       <Steel>300</Steel>
       <Plasteel>30</Plasteel>
-      <Uranium>40</Uranium>
+      <Uranium>60</Uranium>
       <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <comps Inherit="False">
@@ -407,11 +407,11 @@
         </fuelFilter>
         <fuelCapacity>40</fuelCapacity>
         <initialFuelPercent>1</initialFuelPercent>
-        <autoRefuelPercent>0.25</autoRefuelPercent>
+        <autoRefuelPercent>0.75</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
         <minimumFueledThreshold>1</minimumFueledThreshold>
         <atomicFueling>true</atomicFueling>
-        <fuelMultiplier>1.0</fuelMultiplier>
+        <fuelMultiplier>0.667</fuelMultiplier>
         <factorByDifficulty>true</factorByDifficulty>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <outOfFuelMessage>Cannot shoot: Needs rearm</outOfFuelMessage>
@@ -664,7 +664,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>TrapSpike</defName>
     <label>spike trap</label>
-    <description>A collection of five heavy spikes under tension. When the victim disturbs the trigger, the spikes are released and spring forth, striking the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+    <description>Five spikes under tension, connected to a touch-activated trigger. When the victim disturbs the trigger, the spikes spring forthm and strike the victim. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <thingClass>Building_TrapDamager</thingClass>
     <graphicData>
       <texPath>Things/Building/Security/TrapSpikeArmed</texPath>
@@ -685,7 +685,7 @@
     <statBases>
       <Mass>2.5</Mass>
       <MaxHitPoints>40</MaxHitPoints>
-      <WorkToBuild>2000</WorkToBuild>
+      <WorkToBuild>3200</WorkToBuild>
       <Flammability>1</Flammability>
       <Beauty>-18</Beauty>
       <Cleanliness>-5</Cleanliness>
@@ -697,7 +697,7 @@
       <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
-    <costStuffCount>35</costStuffCount>
+    <costStuffCount>30</costStuffCount>
     <designationCategory>Security</designationCategory>
     <designationHotKey>Misc6</designationHotKey>
     <building>
@@ -705,6 +705,7 @@
       <trapDestroyOnSpring>true</trapDestroyOnSpring>
       <trapDamageCategory>Sharp</trapDamageCategory>
       <expandHomeArea>false</expandHomeArea>
+			<ai_chillDestination>false</ai_chillDestination>
     </building>
     <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
     <placeWorkers>
@@ -743,6 +744,7 @@
       <isTrap>true</isTrap>
       <trapPeacefulWildAnimalsSpringChanceFactor>0.25</trapPeacefulWildAnimalsSpringChanceFactor>
       <expandHomeArea>false</expandHomeArea>
+			<ai_chillDestination>false</ai_chillDestination>
     </building>
     <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
     <researchPrerequisites>
@@ -756,12 +758,12 @@
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_HighExplosive</defName>
     <label>IED trap</label>
-    <description>A mortar shell connected to a trigger. When someone disturbs the trigger, the shell explodes. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+    <description>A pair of high-explosive shells connected to a touch-activated trigger. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDHighExplosive</texPath>
     </graphicData>
     <costList>
-      <Shell_HighExplosive>1</Shell_HighExplosive>
+      <Shell_HighExplosive>2</Shell_HighExplosive>
     </costList>
     <designationHotKey>Misc7</designationHotKey>
     <comps>
@@ -781,12 +783,12 @@
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_Incendiary</defName>
     <label>IED incendiary trap</label>
-    <description>Explosives mixed into an incendiary paste with a chemical trigger for dispersal. Its chemical trigger is simple and reliable. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+    <description>A pair of incendiary shells connected to a touch-activated trigger. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDIncendiary</texPath>
     </graphicData>
     <costList>
-      <Shell_Incendiary>1</Shell_Incendiary>
+      <Shell_Incendiary>2</Shell_Incendiary>
     </costList>
     <designationHotKey>Misc8</designationHotKey>
     <comps>
@@ -806,12 +808,12 @@
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_EMP</defName>
     <label>IED EMP trap</label>
-    <description>A simple trap consisting of an EMP shell and a homemade trigger. The explosion can paralyze mechanoids for a few seconds. Can be triggered even by those who are unaffected by EMP explosions. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+    <description>A pair of EMP shells connected to a touch-activated trigger. The explosion can paralyze mechanoids for a few seconds. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDEMP</texPath>
     </graphicData>
     <costList>
-      <Shell_EMP>1</Shell_EMP>
+      <Shell_EMP>2</Shell_EMP>
     </costList>
     <designationHotKey>Misc9</designationHotKey>
     <comps>
@@ -831,12 +833,12 @@
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_Firefoam</defName>
     <label>IED firefoam trap</label>
-    <description>When someone touches the trigger, the trap explodes and sprays a fire-extinguishing foam around itself. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+    <description>A pair of firefoam shells connected to a touch-activated trigger. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDFirefoam</texPath>
     </graphicData>
     <costList>
-      <Shell_Firefoam>1</Shell_Firefoam>
+      <Shell_Firefoam>2</Shell_Firefoam>
     </costList>
     <designationHotKey>Misc10</designationHotKey>
     <comps>
@@ -861,7 +863,7 @@
   <ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_AntigrainWarhead</defName>
     <label>IED antigrain warhead trap</label>
-    <description>A high-tech antigraing warhead connected to a homemade trigger. When triggered, the antigrain warhead detonates, creating a massive antimatter explosion. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
+    <description>An antimatter-powered antigrain warhead connected to a touch-activated trigger. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
     <graphicData>
       <texPath>Things/Building/Security/IEDAntigrainWarhead</texPath>
     </graphicData>

@@ -74,6 +74,9 @@
     <costList>
       <Steel>15</Steel>
     </costList>
+    <building>
+			<ai_chillDestination>false</ai_chillDestination>
+    </building>
   </ThingDef>
 
 </Defs>

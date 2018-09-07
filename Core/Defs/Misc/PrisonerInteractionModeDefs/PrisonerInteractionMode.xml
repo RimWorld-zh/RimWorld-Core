@@ -14,14 +14,20 @@
   </PrisonerInteractionModeDef>
 
   <PrisonerInteractionModeDef>
+    <defName>ReduceResistance</defName>
+    <label>reduce resistance</label>
+    <listOrder>20</listOrder>
+  </PrisonerInteractionModeDef>
+
+  <PrisonerInteractionModeDef>
     <defName>Release</defName>
     <label>release</label>
-    <listOrder>20</listOrder>
+    <listOrder>30</listOrder>
   </PrisonerInteractionModeDef>
 
   <PrisonerInteractionModeDef>
     <defName>Execution</defName>
     <label>execute</label>
-    <listOrder>30</listOrder>
+    <listOrder>40</listOrder>
   </PrisonerInteractionModeDef>
 </Defs>

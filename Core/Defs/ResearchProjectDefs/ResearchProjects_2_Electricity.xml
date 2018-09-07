@@ -286,7 +286,7 @@
   <ResearchProjectDef>
     <defName>BlowbackOperation</defName>
     <label>blowback operation</label>
-    <description>Craft low-power blowback-operated guns like autopistols, machine pistols, and heavy SMGs.</description>
+    <description>Craft low-power blowback-operated guns like autopistols and machine pistols.</description>
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -299,7 +299,7 @@
   <ResearchProjectDef>
     <defName>GasOperation</defName>
     <label>gas operation</label>
-    <description>Craft high-power guns like chain shotguns and LMGs.</description>
+    <description>Craft high-power guns like chain shotguns, LMGs, and heavy SMGs.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>

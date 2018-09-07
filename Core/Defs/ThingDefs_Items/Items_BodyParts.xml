@@ -110,7 +110,7 @@
         <li>TableMachining</li>
       </recipeUsers>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
       <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
       <researchPrerequisite>Prosthetics</researchPrerequisite>
@@ -120,11 +120,11 @@
   <ThingDef ParentName="BodyPartProstheticBase">
     <defName>SimpleProstheticLeg</defName>
     <label>prosthetic leg</label>
-    <description>A leg prosthesis. While it lacks a neutral interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg.</description>
+    <description>A leg prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg.</description>
     <techLevel>Industrial</techLevel>
     <costList>
       <Steel>40</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <statBases>
       <WorkToMake>11000</WorkToMake>
@@ -142,7 +142,7 @@
     <techLevel>Industrial</techLevel>
     <costList>
       <Steel>40</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <statBases>
       <WorkToMake>11000</WorkToMake>
@@ -160,7 +160,7 @@
     <techLevel>Industrial</techLevel>
     <costList>
       <Steel>25</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <statBases>
       <WorkToMake>11000</WorkToMake>
@@ -178,7 +178,7 @@
     <techLevel>Industrial</techLevel>
     <costList>
       <Steel>20</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <statBases>
       <WorkToMake>11000</WorkToMake>
@@ -215,7 +215,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>10</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
+      <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>38000</WorkToMake>
@@ -231,9 +231,9 @@
     <label>bionic arm</label>
     <description>An advanced artificial arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way.</description>
     <techLevel>Spacer</techLevel>
-    <costList>
+    <costList> 
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
+      <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -251,7 +251,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
+      <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -269,7 +269,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>3</ComponentSpacer>
+      <ComponentSpacer>4</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -287,7 +287,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>15</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -305,7 +305,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>10</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -323,7 +323,7 @@
     <techLevel>Spacer</techLevel>
     <costList>
       <Plasteel>10</Plasteel>
-      <ComponentSpacer>2</ComponentSpacer>
+      <ComponentSpacer>3</ComponentSpacer>
     </costList>
     <statBases>
       <WorkToMake>26000</WorkToMake>
@@ -350,7 +350,7 @@
       <li>RewardSpecial</li>
     </thingSetMakerTags>
     <statBases>
-      <MarketValue>1100</MarketValue>
+      <MarketValue>1200</MarketValue>
       <Mass>4</Mass>
     </statBases>
     <techHediffsTags>

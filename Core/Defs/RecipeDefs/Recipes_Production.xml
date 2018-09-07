@@ -182,6 +182,9 @@
 					<disallowedThingDefs>
 						<li>Hay</li>
 					</disallowedThingDefs>
+          <disallowedCategories>
+            <li>FoodMeals</li>
+          </disallowedCategories>
 				</filter>
 				<count>3.5</count>
 			</li>
@@ -194,6 +197,9 @@
 			<disallowedThingDefs>
 				<li>Hay</li>
 			</disallowedThingDefs>
+      <disallowedCategories>
+        <li>FoodMeals</li>
+      </disallowedCategories>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<categories>

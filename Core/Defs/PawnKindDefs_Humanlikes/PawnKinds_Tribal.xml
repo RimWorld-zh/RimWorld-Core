@@ -4,7 +4,9 @@
   <PawnKindDef Name="TribalBase" Abstract="True">
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
-    <backstoryCategory>Tribal</backstoryCategory>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
     <maxGenerationAge>60</maxGenerationAge>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <invNutrition>2.55</invNutrition>

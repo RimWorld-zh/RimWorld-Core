@@ -318,8 +318,7 @@
 	<designationCategory>Power</designationCategory>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	<building>
-	  <ai_chillDestination>false</ai_chillDestination>
-      <allowAutoroof>false</allowAutoroof>
+    <allowAutoroof>false</allowAutoroof>
 	</building>
 	<costList>
 	  <Steel>100</Steel>
@@ -457,7 +456,6 @@
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
   </ThingDef>
 
-
   <ThingDef ParentName="BuildingBase">
     <defName>GeothermalGenerator</defName>
     <label>geothermal generator</label>
@@ -517,8 +515,7 @@
     <researchPrerequisites><li>GeothermalPower</li></researchPrerequisites>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
-  
-  
+
   <ThingDef ParentName="BuildingBase">
     <defName>WatermillGenerator</defName>
     <label>watermill generator</label>

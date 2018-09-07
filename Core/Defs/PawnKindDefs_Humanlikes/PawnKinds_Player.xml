@@ -13,7 +13,9 @@
     <defName>Colonist</defName>
     <label>colonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>Civil</backstoryCategory>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelTags>
       <li>IndustrialBasic</li>
@@ -40,7 +42,9 @@
     <label>member</label>
     <race>Human</race>
     <defaultFactionType>PlayerTribe</defaultFactionType>
-    <backstoryCategory>Tribal</backstoryCategory>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
       <li>Neolithic</li>

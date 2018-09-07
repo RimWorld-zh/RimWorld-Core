@@ -21,6 +21,7 @@
   <TabSocial>Social</TabSocial>
   <TabLog>Log</TabLog>
   <TabFormingCaravan>Caravan</TabFormingCaravan>
+  <TabTransporterContents>Contents</TabTransporterContents>
 
   <!-- Bills tab  -->
   <AddBill>Add bill</AddBill>
@@ -149,5 +150,9 @@
   <LoadedItems>Loaded items</LoadedItems>
   <PackAnimalsCountLower>pack animals</PackAnimalsCountLower>
   <InMentalStateCountLower>mentally broken</InMentalStateCountLower>
+
+  <!-- Transporter contents -->
+  <RemoveSliderText>Remove {{0}}x {0}</RemoveSliderText>
+  <ConfirmRemoveItemDialog>Do you really want to remove {0}?</ConfirmRemoveItemDialog>
 
 </LanguageData>

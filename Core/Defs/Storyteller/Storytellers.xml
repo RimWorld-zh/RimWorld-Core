@@ -56,10 +56,10 @@
     </adaptDaysGrowthRateCurve>
     <pointsFactorFromAdaptDays>
       <points>
-        <li>(-40, 0.50)</li>
-        <li>(  0, 1.00)</li>
-        <li>( 60, 1.50)</li>
-        <li>(120, 2.00)</li>
+        <li>(-40, 0.40)</li>
+        <li>(  0, 0.80)</li>
+        <li>( 60, 1.20)</li>
+        <li>(120, 1.60)</li>
       </points>
     </pointsFactorFromAdaptDays>
     <comps>
@@ -87,7 +87,7 @@
       <li Class="StorytellerCompProperties_ClassicIntro"/>
       <!-- Home threats -->
       <li Class="StorytellerCompProperties_OnOffCycle">
-        <incidentCategory>ThreatBig</incidentCategory>
+        <category>ThreatBig</category>
         <minDaysPassed>11.0</minDaysPassed>
         <onDays>4.6</onDays>
         <offDays>6.0</offDays>
@@ -99,6 +99,7 @@
         </disallowedTargetTags>
       </li>
       <li Class="StorytellerCompProperties_OnOffCycle">
+        <category>RaidBeacon</category>
         <allowedTargetTags>
           <li>Map_RaidBeacon</li>
         </allowedTargetTags>
@@ -107,14 +108,19 @@
         <minSpacingDays>0.04</minSpacingDays>
         <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
         <numIncidentsRange>1~2</numIncidentsRange>
-        <incidentCategory>RaidBeacon</incidentCategory>
       </li>
       <li Class="StorytellerCompProperties_OnOffCycle">
-        <incidentCategory>ThreatSmall</incidentCategory>
+        <category>ThreatSmall</category>
         <minDaysPassed>11.0</minDaysPassed>
         <onDays>4.6</onDays>
         <offDays>6.0</offDays>
         <numIncidentsRange>0.2~1</numIncidentsRange>
+        <acceptPercentFactorPerThreatPointsCurve>
+          <points>
+            <li>(800, 1)</li>
+            <li>(2800, 0)</li>
+          </points>
+        </acceptPercentFactorPerThreatPointsCurve>
       </li>
       <!-- Home misc -->
       <li Class="StorytellerCompProperties_CategoryMTB">
@@ -127,12 +133,12 @@
       </li>
       <li Class="StorytellerCompProperties_ShipChunkDrop"/>
       <li Class="StorytellerCompProperties_Disease">
+        <category>DiseaseHuman</category>
         <minDaysPassed>9</minDaysPassed>
-        <incidentCategory>DiseaseHuman</incidentCategory>
       </li>
       <li Class="StorytellerCompProperties_Disease">
+        <category>DiseaseAnimal</category>
         <minDaysPassed>9</minDaysPassed>
-        <incidentCategory>DiseaseAnimal</incidentCategory>
       </li>
       <!-- Ally/neutral interaction -->
       <li Class="StorytellerCompProperties_FactionInteraction">
@@ -195,19 +201,20 @@
       </li>
       <!-- World -->
       <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_CategoryMTB">
+      <li Class="StorytellerCompProperties_OnOffCycle">
         <category>WorldQuest</category>
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
-        <minDaysPassed>6</minDaysPassed>
-        <mtbDays>7.5</mtbDays>
-        <mtbDaysFactorByDaysPassedCurve>
+        <onDays>15</onDays>
+        <minSpacingDays>0.2</minSpacingDays>
+        <numIncidentsRange>2</numIncidentsRange>
+        <acceptFractionByDaysPassedCurve>
           <points>
-            <li>(6, 5)</li>
-            <li>(40, 1)</li>
+            <li>(5, 0)</li>
+            <li>(30, 1)</li>
           </points>
-        </mtbDaysFactorByDaysPassedCurve>
+        </acceptFractionByDaysPassedCurve>
       </li>
       <li Class="StorytellerCompProperties_CategoryMTB">
         <category>Misc</category>
@@ -223,6 +230,11 @@
         <onDays>7</onDays>
         <offDays>8</offDays>
         <numIncidentsRange>1</numIncidentsRange>
+      </li>
+      <!-- Triggered -->
+      <li Class="StorytellerCompProperties_Triggered">
+        <incident>StrangerInBlackJoin</incident>
+        <delayTicks>180</delayTicks>
       </li>
     </comps>
   </StorytellerDef>
@@ -239,7 +251,7 @@
       <li Class="StorytellerCompProperties_ClassicIntro"/>
       <!-- Home threats -->
       <li Class="StorytellerCompProperties_OnOffCycle">
-        <incidentCategory>ThreatBig</incidentCategory>
+        <category>ThreatBig</category>
         <minDaysPassed>13.0</minDaysPassed>
         <onDays>8.0</onDays>
         <offDays>8.0</offDays>
@@ -250,6 +262,7 @@
         </disallowedTargetTags>
       </li>
       <li Class="StorytellerCompProperties_OnOffCycle">
+        <category>RaidBeacon</category>
         <allowedTargetTags>
           <li>Map_RaidBeacon</li>
         </allowedTargetTags>
@@ -258,14 +271,19 @@
         <minSpacingDays>0.04</minSpacingDays>
         <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
         <numIncidentsRange>1~2</numIncidentsRange>
-        <incidentCategory>RaidBeacon</incidentCategory>
       </li>
       <li Class="StorytellerCompProperties_OnOffCycle">
-        <incidentCategory>ThreatSmall</incidentCategory>
+        <category>ThreatSmall</category>
         <minDaysPassed>13.0</minDaysPassed>
         <onDays>8.0</onDays>
         <offDays>8.0</offDays>
         <numIncidentsRange>0.2~1</numIncidentsRange>
+        <acceptPercentFactorPerThreatPointsCurve>
+          <points>
+            <li>(800, 1)</li>
+            <li>(2800, 0)</li>
+          </points>
+        </acceptPercentFactorPerThreatPointsCurve>
       </li>
       <!-- Home misc -->
       <li Class="StorytellerCompProperties_CategoryMTB">
@@ -278,12 +296,12 @@
       </li>
       <li Class="StorytellerCompProperties_ShipChunkDrop"/>
       <li Class="StorytellerCompProperties_Disease">
+        <category>DiseaseHuman</category>
         <minDaysPassed>12</minDaysPassed>
-        <incidentCategory>DiseaseHuman</incidentCategory>
       </li>
       <li Class="StorytellerCompProperties_Disease">
+        <category>DiseaseAnimal</category>
         <minDaysPassed>12</minDaysPassed>
-        <incidentCategory>DiseaseAnimal</incidentCategory>
       </li>
       <!-- Ally/neutral interaction -->
       <li Class="StorytellerCompProperties_FactionInteraction">
@@ -346,19 +364,20 @@
       </li>
       <!-- World -->
       <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_CategoryMTB">
+      <li Class="StorytellerCompProperties_OnOffCycle">
         <category>WorldQuest</category>
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
-        <minDaysPassed>6</minDaysPassed>
-        <mtbDays>7.5</mtbDays>
-        <mtbDaysFactorByDaysPassedCurve>
+        <onDays>15</onDays>
+        <minSpacingDays>0.2</minSpacingDays>
+        <numIncidentsRange>2</numIncidentsRange>
+        <acceptFractionByDaysPassedCurve>
           <points>
-            <li>(6, 5)</li>
-            <li>(40, 1)</li>
+            <li>(5, 0)</li>
+            <li>(30, 1)</li>
           </points>
-        </mtbDaysFactorByDaysPassedCurve>
+        </acceptFractionByDaysPassedCurve>
       </li>
       <li Class="StorytellerCompProperties_CategoryMTB">
         <category>Misc</category>
@@ -374,6 +393,11 @@
         <onDays>7</onDays>
         <offDays>8</offDays>
         <numIncidentsRange>1</numIncidentsRange>
+      </li>
+      <!-- Triggered -->
+      <li Class="StorytellerCompProperties_Triggered">
+        <incident>StrangerInBlackJoin</incident>
+        <delayTicks>180</delayTicks>
       </li>
     </comps>
   </StorytellerDef>
@@ -407,15 +431,16 @@
         </categoryWeights>
       </li>
       <li Class="StorytellerCompProperties_Disease">
+        <category>DiseaseHuman</category>
         <minDaysPassed>0</minDaysPassed>
-        <incidentCategory>DiseaseHuman</incidentCategory>
       </li>
       <li Class="StorytellerCompProperties_Disease">
+        <category>DiseaseAnimal</category>
         <minDaysPassed>0</minDaysPassed>
-        <incidentCategory>DiseaseAnimal</incidentCategory>
       </li>
       <!-- Home special threats -->
       <li Class="StorytellerCompProperties_OnOffCycle">
+        <category>RaidBeacon</category>
         <allowedTargetTags>
           <li>Map_RaidBeacon</li>
         </allowedTargetTags>
@@ -424,7 +449,6 @@
         <minSpacingDays>0.04</minSpacingDays>
         <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
         <numIncidentsRange>1~2</numIncidentsRange>
-        <incidentCategory>RaidBeacon</incidentCategory>
       </li>
       <!-- Ally/neutral interaction -->
       <li Class="StorytellerCompProperties_FactionInteraction">
@@ -460,19 +484,20 @@
       </li>
       <!-- World -->
       <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_CategoryMTB">
+      <li Class="StorytellerCompProperties_OnOffCycle">
         <category>WorldQuest</category>
         <allowedTargetTags>
           <li>World</li>
         </allowedTargetTags>
-        <minDaysPassed>6</minDaysPassed>
-        <mtbDays>7.5</mtbDays>
-        <mtbDaysFactorByDaysPassedCurve>
+        <onDays>30</onDays>
+        <minSpacingDays>0.2</minSpacingDays>
+        <numIncidentsRange>4</numIncidentsRange>
+        <acceptFractionByDaysPassedCurve>
           <points>
-            <li>(6, 5)</li>
-            <li>(40, 1)</li>
+            <li>(5, 0)</li>
+            <li>(30, 1)</li>
           </points>
-        </mtbDaysFactorByDaysPassedCurve>
+        </acceptFractionByDaysPassedCurve>
       </li>
       <li Class="StorytellerCompProperties_CategoryMTB">
         <category>Misc</category>
@@ -481,6 +506,11 @@
         </allowedTargetTags>
         <minDaysPassed>1</minDaysPassed>
         <mtbDays>15</mtbDays>
+      </li>
+      <!-- Triggered -->
+      <li Class="StorytellerCompProperties_Triggered">
+        <incident>StrangerInBlackJoin</incident>
+        <delayTicks>180</delayTicks>
       </li>
     </comps>
   </StorytellerDef>

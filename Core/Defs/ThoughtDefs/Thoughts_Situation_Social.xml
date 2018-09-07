@@ -369,6 +369,7 @@
   
   <ThoughtDef>
     <defName>BondedAnimalMaster</defName>
+    <thoughtClass>Thought_BondedAnimalMaster</thoughtClass>
     <workerClass>ThoughtWorker_BondedAnimalMaster</workerClass>
     <validWhileDespawned>true</validWhileDespawned>
     <nullifyingTraits>
@@ -380,11 +381,17 @@
         <description>Being together with my bonded animal makes me feel better.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
+      <li>
+        <label>master of {0}</label>
+        <description>Being together with my bonded animals makes me feel better.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
     </stages>
   </ThoughtDef>
   
   <ThoughtDef>
     <defName>NotBondedAnimalMaster</defName>
+    <thoughtClass>Thought_NotBondedAnimalMaster</thoughtClass>
     <workerClass>ThoughtWorker_NotBondedAnimalMaster</workerClass>
     <validWhileDespawned>true</validWhileDespawned>
     <nullifyingTraits>
@@ -394,6 +401,11 @@
       <li>
         <label>not {0}'s master</label>
         <description>I should be together with my bonded animal.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>not master of {0}</label>
+        <description>I should be together with my bonded animals.</description>
         <baseMoodEffect>-3</baseMoodEffect>
       </li>
     </stages>

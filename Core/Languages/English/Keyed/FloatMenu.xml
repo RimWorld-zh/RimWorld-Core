@@ -61,6 +61,7 @@
   <CantSowCavePlantBecauseOfLight>too bright</CantSowCavePlantBecauseOfLight>
   <CantSowCavePlantBecauseUnroofed>unroofed</CantSowCavePlantBecauseUnroofed>
   <IncapableOfDeconstruction>incapable of deconstruction</IncapableOfDeconstruction>
+  <IncapableOfMining>incapable of mining</IncapableOfMining>
   <AngersFaction>angers faction</AngersFaction>
   
   <ConsumeThing>Consume {0}</ConsumeThing>

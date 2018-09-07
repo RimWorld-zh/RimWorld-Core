@@ -20,7 +20,9 @@
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Industrial</techLevel>
-		<backstoryCategory>Civil</backstoryCategory>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
 		<geneticVariance>0.8</geneticVariance>
 		<hairTags>
 			<li>Rural</li>
@@ -162,7 +164,9 @@
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
     <techLevel>Neolithic</techLevel>
-    <backstoryCategory>Tribal</backstoryCategory>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
     <leaderTitle>chief</leaderTitle>
     <hairTags>
       <li>Tribal</li>
@@ -343,7 +347,9 @@
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
     <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
-		<backstoryCategory>Raider</backstoryCategory>
+		<backstoryCategories>
+			<li>Raider</li>
+		</backstoryCategories>
 		<geneticVariance>0.8</geneticVariance>
 		<hairTags>
 			<li>Punk</li>

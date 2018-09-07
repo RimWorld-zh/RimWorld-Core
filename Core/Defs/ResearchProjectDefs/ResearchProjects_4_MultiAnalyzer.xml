@@ -4,7 +4,7 @@
   <ResearchProjectDef>
     <defName>MultiAnalyzer</defName>
     <label>multi-analyzer</label>
-    <description>Build multi-analyzers which increase research speed and allow higher-level research projects. Requires advanced components to construct.</description>
+    <description>Build multi-analyzers which increase research speed and allow higher-level research projects.</description>
     <baseCost>4000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -90,6 +90,7 @@
     <description>Fabricate advanced components from standard components and other materials.</description>
     <baseCost>4000</baseCost>
     <techLevel>Industrial</techLevel>
+    <unlockExtremeDifficulty>true</unlockExtremeDifficulty>
     <prerequisites>
       <li>Fabrication</li>
     </prerequisites>

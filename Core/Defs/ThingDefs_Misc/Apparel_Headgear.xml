@@ -442,7 +442,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_PowerArmorHelmet</defName>
     <label>marine helmet</label>
-    <description>A marine armor helmet, with built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by imperial janissaries and rapid-incursion space marines.</description>
+    <description>A marine armor helmet, with a built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by imperial janissaries and rapid-incursion space marines.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -464,7 +464,7 @@
       <MaxHitPoints>160</MaxHitPoints>
       <Mass>2.7</Mass>
       <Flammability>0.4</Flammability>
-      <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
+      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
       <ArmorRating_Heat>0.9</ArmorRating_Heat>
       <Insulation_Cold>4</Insulation_Cold>

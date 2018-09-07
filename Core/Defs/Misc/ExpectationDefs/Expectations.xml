@@ -38,7 +38,7 @@ Some calculations for a retuning, Apr 3 2018
     <defName>ExtremelyLow</defName>
     <label>extremely low</label>
     <thoughtStage>5</thoughtStage>
-    <maxMapWealth>10000</maxMapWealth>
+    <maxMapWealth>15000</maxMapWealth>
     <joyKindsNeeded>2</joyKindsNeeded>
     <joyToleranceDropPerDay>0.18</joyToleranceDropPerDay>
   </ExpectationDef>
@@ -47,7 +47,7 @@ Some calculations for a retuning, Apr 3 2018
     <defName>VeryLow</defName>
     <label>very low</label>
     <thoughtStage>4</thoughtStage>
-    <maxMapWealth>25000</maxMapWealth>
+    <maxMapWealth>31000</maxMapWealth>
     <joyKindsNeeded>3</joyKindsNeeded>
     <joyToleranceDropPerDay>0.13</joyToleranceDropPerDay>
   </ExpectationDef>
@@ -56,7 +56,7 @@ Some calculations for a retuning, Apr 3 2018
     <defName>Low</defName>
     <label>low</label>
     <thoughtStage>3</thoughtStage>
-    <maxMapWealth>75000</maxMapWealth>
+    <maxMapWealth>81000</maxMapWealth>
     <joyKindsNeeded>3</joyKindsNeeded>
     <joyToleranceDropPerDay>0.11</joyToleranceDropPerDay>
   </ExpectationDef>
@@ -65,7 +65,7 @@ Some calculations for a retuning, Apr 3 2018
     <defName>Moderate</defName>
     <label>moderate</label>
     <thoughtStage>2</thoughtStage>
-    <maxMapWealth>150000</maxMapWealth>
+    <maxMapWealth>182000</maxMapWealth>
     <joyKindsNeeded>4</joyKindsNeeded>
     <joyToleranceDropPerDay>0.10</joyToleranceDropPerDay>
   </ExpectationDef>
@@ -74,7 +74,7 @@ Some calculations for a retuning, Apr 3 2018
     <defName>High</defName>
     <label>high</label>
     <thoughtStage>1</thoughtStage>
-    <maxMapWealth>300000</maxMapWealth>
+    <maxMapWealth>308000</maxMapWealth>
     <joyKindsNeeded>5</joyKindsNeeded>
     <joyToleranceDropPerDay>0.08</joyToleranceDropPerDay>
   </ExpectationDef>

@@ -43,9 +43,6 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-		<building>
-			<ai_chillDestination>false</ai_chillDestination>
-		</building>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <pathCost>8</pathCost>
     <designationCategory>Misc</designationCategory>
@@ -99,9 +96,6 @@
     <hasInteractionCell>true</hasInteractionCell>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Misc</designationCategory>
-		<building>
-			<ai_chillDestination>false</ai_chillDestination>
-		</building>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -270,7 +264,7 @@
     </comps>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
+      <MaxHitPoints>200</MaxHitPoints>
       <WorkToBuild>12000</WorkToBuild>
       <Flammability>0.5</Flammability>
       <Beauty>-8</Beauty>
@@ -292,7 +286,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>LongRangeMineralScanner</defName>
     <label>long-range mineral scanner</label>
-    <description>Automatically detects precious minerals like gold or jade in destinations across the planet. The lumps are found on average once per 30 days within a radius of 30 planet tiles. Building more than one scanner in the same or nearby areas has little to no effect.</description>
+    <description>Can be used by researchers to detect a specific type of mineral across the planet. The time it takes to find the resource is somewhat random, and depends on researcher skill.</description>
     <graphicData>
       <texPath>Things/Building/Misc/LongRangeMineralScanner</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -439,6 +433,9 @@
       </li>
       <li Class="CompProperties_Launchable" />
     </comps>
+    <inspectorTabs>
+      <li>ITab_TransporterContents</li>
+    </inspectorTabs>
     <placeWorkers>
       <li>PlaceWorker_NeedsFuelingPort</li>
       <li>PlaceWorker_NotUnderRoof</li>
@@ -548,9 +545,6 @@
     <thingCategories>
       <li>BuildingsMisc</li>
     </thingCategories>
-		<building>
-			<ai_chillDestination>false</ai_chillDestination>
-		</building>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -562,7 +556,7 @@
         <statOffsets>
           <MedicalTendQualityOffset>0.07</MedicalTendQualityOffset>
           <ImmunityGainSpeedFactor>0.02</ImmunityGainSpeedFactor>
-					<SurgerySuccessChanceFactor>0.10</SurgerySuccessChanceFactor>
+					<SurgerySuccessChanceFactor>0.05</SurgerySuccessChanceFactor>
         </statOffsets>
         <maxSimultaneous>1</maxSimultaneous>
         <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
@@ -657,6 +651,7 @@
     <defaultPlacingRot>South</defaultPlacingRot>
     <building>
 			<ai_chillDestination>false</ai_chillDestination>
+      <expandHomeArea>false</expandHomeArea>
       <isInert>true</isInert>
       <preventDeteriorationInside>true</preventDeteriorationInside>
       <haulToContainerDuration>500</haulToContainerDuration>

@@ -111,6 +111,20 @@
     <minValue>0.05</minValue>
     <displayPriorityInCategory>75</displayPriorityInCategory>
     <scenarioRandomizable>true</scenarioRandomizable>
+    <capacityFactors>
+      <li>
+        <capacity>BloodPumping</capacity>
+        <weight>0.3</weight>
+      </li>
+      <li>
+        <capacity>Metabolism</capacity>
+        <weight>0.3</weight>
+      </li>
+      <li>
+        <capacity>Breathing</capacity>
+        <weight>0.3</weight>
+      </li>
+    </capacityFactors>
   </StatDef>
 
   <StatDef>

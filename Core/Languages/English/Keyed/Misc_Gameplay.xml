@@ -92,7 +92,6 @@
   <CaravanPawnsInMentalState>{0} in mental state</CaravanPawnsInMentalState>
   <CaravanPawnsDowned>{0} downed</CaravanPawnsDowned>
   <CaravanTraveling>Traveling.</CaravanTraveling>
-  <CaravanPaused>Resting.</CaravanPaused>
   <CaravanWaiting>Waiting.</CaravanWaiting>
   <BeingCarriedDueToIllness>Being carried due to illness</BeingCarriedDueToIllness>
   <UsingBedrollsDueToIllness>Using bedrolls due to illness</UsingBedrollsDueToIllness>
@@ -175,6 +174,11 @@
   <HiddenOrNoSitePartDescription>there may be danger there</HiddenOrNoSitePartDescription>
   <PreciousLumpLabel>lump of {0}</PreciousLumpLabel>
   <NoActiveResearchProjectToFinish>no active research project</NoActiveResearchProjectToFinish>
+  <Turret>turret</Turret>
+  <Turrets>turrets</Turrets>
+  <Mortar>mortar</Mortar>
+  <Mortars>mortars</Mortars>
+  <Enemy>enemy</Enemy>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Contains {0} / {1} wort.</ContainsWort>

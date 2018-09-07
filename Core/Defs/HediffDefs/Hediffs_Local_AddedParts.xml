@@ -14,7 +14,8 @@
     <labelNoun>a peg leg</labelNoun>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>0.6</partEfficiency>
+      <partEfficiency>0.60</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
     </addedPartProps>
     <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
   </HediffDef>
@@ -25,7 +26,8 @@
     <labelNoun>a wooden foot</labelNoun>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>0.8</partEfficiency>
+      <partEfficiency>0.80</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
     </addedPartProps>
     <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
   </HediffDef>
@@ -36,7 +38,8 @@
     <labelNoun>a denture</labelNoun>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>0.8</partEfficiency>
+      <partEfficiency>0.80</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
     </addedPartProps>
   </HediffDef>
 
@@ -48,6 +51,7 @@
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>0.85</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
     </addedPartProps>
   </HediffDef>
 
@@ -72,7 +76,8 @@
     <spawnThingOnRemoved>SimpleProstheticArm</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>0.5</partEfficiency>
+      <partEfficiency>0.50</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
     </addedPartProps>
   </HediffDef>
 
@@ -83,7 +88,8 @@
     <spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>0.8</partEfficiency>
+      <partEfficiency>0.80</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
     </addedPartProps>
   </HediffDef>
 
@@ -94,6 +100,7 @@
     <spawnThingOnRemoved>CochlearImplant</spawnThingOnRemoved>
     <addedPartProps>
       <partEfficiency>0.65</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
     </addedPartProps>
   </HediffDef>
 
@@ -104,7 +111,7 @@
     <spawnThingOnRemoved>BionicEye</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.4</partEfficiency>
+      <partEfficiency>1.25</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -129,7 +136,7 @@
     <spawnThingOnRemoved>BionicArm</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.4</partEfficiency>
+      <partEfficiency>1.25</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -140,7 +147,7 @@
     <spawnThingOnRemoved>BionicLeg</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.3</partEfficiency>
+      <partEfficiency>1.25</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -161,7 +168,7 @@
     <spawnThingOnRemoved>BionicHeart</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.3</partEfficiency>
+      <partEfficiency>1.25</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -172,7 +179,7 @@
     <spawnThingOnRemoved>BionicStomach</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.3</partEfficiency>
+      <partEfficiency>1.25</partEfficiency>
     </addedPartProps>
   </HediffDef>
   
@@ -183,7 +190,7 @@
     <spawnThingOnRemoved>BionicEar</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.4</partEfficiency>
+      <partEfficiency>1.25</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -221,7 +228,7 @@
     <spawnThingOnRemoved>ArchotechEye</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.7</partEfficiency>
+      <partEfficiency>1.50</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -246,7 +253,7 @@
     <spawnThingOnRemoved>ArchotechArm</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.7</partEfficiency>
+      <partEfficiency>1.50</partEfficiency>
     </addedPartProps>
   </HediffDef>
 
@@ -257,7 +264,7 @@
     <spawnThingOnRemoved>ArchotechLeg</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.6</partEfficiency>
+      <partEfficiency>1.50</partEfficiency>
     </addedPartProps>
   </HediffDef>
   

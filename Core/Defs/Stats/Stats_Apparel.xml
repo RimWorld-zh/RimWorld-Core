@@ -35,15 +35,15 @@
     <hideAtValue>0</hideAtValue>
     <maxValue>2</maxValue>
     <toStringStyle>PercentOne</toStringStyle>
-    <parts>
+    <parts> 
       <li Class="StatPart_Quality">
-        <factorAwful>0.6</factorAwful>
-        <factorPoor>0.8</factorPoor>
-        <factorNormal>1</factorNormal>
-        <factorGood>1.2</factorGood>
-        <factorExcellent>1.4</factorExcellent>
-        <factorMasterwork>1.7</factorMasterwork>
-        <factorLegendary>2.0</factorLegendary>
+        <factorAwful>0.60</factorAwful>
+        <factorPoor>0.80</factorPoor>
+        <factorNormal>1.00</factorNormal>
+        <factorGood>1.15</factorGood>
+        <factorExcellent>1.30</factorExcellent>
+        <factorMasterwork>1.45</factorMasterwork>
+        <factorLegendary>1.80</factorLegendary>
       </li>
     </parts>
   </StatDef>

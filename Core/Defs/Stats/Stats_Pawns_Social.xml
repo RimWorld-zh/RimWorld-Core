@@ -26,8 +26,8 @@
       </li>
       <li>
         <capacity>Hearing</capacity>
-        <weight>0.3</weight>
-        <allowedDefect>0.05</allowedDefect>
+        <weight>0.9</weight>
+        <allowedDefect>0.20</allowedDefect>
         <max>1</max>
       </li>
     </capacityFactors>
@@ -52,14 +52,14 @@
     <capacityFactors>
       <li>
         <capacity>Talking</capacity>
-        <weight>0.3</weight>
+        <weight>0.9</weight>
         <allowedDefect>0.05</allowedDefect>
         <max>1</max>
       </li>
       <li>
         <capacity>Hearing</capacity>
-        <weight>0.3</weight>
-        <allowedDefect>0.05</allowedDefect>
+        <weight>0.9</weight>
+        <allowedDefect>0.20</allowedDefect>
         <max>1</max>
       </li>
     </capacityFactors>

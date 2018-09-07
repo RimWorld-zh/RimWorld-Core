@@ -8,6 +8,7 @@
     <graphicData>
       <texPath>Things/Item/Resource/Chocolate</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.88</drawSize>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>

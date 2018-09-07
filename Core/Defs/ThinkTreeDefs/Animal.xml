@@ -104,6 +104,21 @@
             <li Class="ThinkNode_Subtree">
               <treeDef>LeaveIfStarving</treeDef>
             </li>
+
+            <!-- Wild animals randomly leave map -->
+            <li Class="ThinkNode_ChancePerHour_Constant">
+              <mtbDays>60</mtbDays>
+              <subNodes>
+                <li Class="ThinkNode_Tagger">
+                  <tagToGive>Misc</tagToGive>
+                  <subNodes>
+                    <li Class="JobGiver_ExitMapRandom">
+                      <defaultLocomotion>Walk</defaultLocomotion>
+                    </li>
+                  </subNodes>
+                </li>
+              </subNodes>
+            </li>
           </subNodes>
         </li>
 
@@ -161,7 +176,7 @@
         
 				<!-- Eat random things out of curiosity -->
 				<li Class="ThinkNode_ChancePerHour_Constant">
-					<mtbHours>1440</mtbHours>
+					<mtbDays>60</mtbDays>
 					<subNodes>
             <li Class="ThinkNode_Tagger">
               <tagToGive>SatisfyingNeeds</tagToGive>

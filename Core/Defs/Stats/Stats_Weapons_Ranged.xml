@@ -24,29 +24,29 @@
 
   <StatDef ParentName="AccuracyBase">
     <defName>AccuracyTouch</defName>
-    <label>Accuracy (touch)</label>
-    <description>The weapon's effect on accuracy at a distance of 4 cells or less.</description>
+    <label>Accuracy (close)</label>
+    <description>The weapon's accuracy at a distance of 3 cells or less. An actual shot's chance to hit will also be affected by other factors.</description>
     <displayPriorityInCategory>900</displayPriorityInCategory>
   </StatDef>
 
   <StatDef ParentName="AccuracyBase">
     <defName>AccuracyShort</defName>
     <label>Accuracy (short)</label>
-    <description>The weapon's effect on accuracy at a distance of 15 cells.</description>
+    <description>The weapon's accuracy at a distance of 12 cells. An actual shot's chance to hit will also be affected by other factors.</description>
     <displayPriorityInCategory>899</displayPriorityInCategory>
   </StatDef>
 
   <StatDef ParentName="AccuracyBase">
     <defName>AccuracyMedium</defName>
     <label>Accuracy (medium)</label>
-    <description>The weapon's effect on accuracy at a distance of 30 cells.</description>
+    <description>The weapon's accuracy at a distance of 25 cells. An actual shot's chance to hit will also be affected by other factors.</description>
     <displayPriorityInCategory>898</displayPriorityInCategory>
   </StatDef>
 
   <StatDef ParentName="AccuracyBase">
     <defName>AccuracyLong</defName>
     <label>Accuracy (long)</label>
-    <description>The weapon's effect on accuracy at a distance of 50 cells or more.</description>
+    <description>The weapon's accuracy at a distance of 40 cells or more. An actual shot's chance to hit will also be affected by other factors.</description>
     <displayPriorityInCategory>897</displayPriorityInCategory>
   </StatDef>
 

@@ -40,7 +40,6 @@
     <label>plainleather</label>
     <graphicData>
       <color>(162,106,57)</color>
-      <colorTwo>(162,106,57)</colorTwo>
     </graphicData>
     <stuffProps>
       <color>(162,106,57)</color>
@@ -53,7 +52,6 @@
     <label>dog leather</label>
     <graphicData>
       <color>(209,168,39)</color>
-      <colorTwo>(209,168,39)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>2.0</MarketValue>
@@ -71,7 +69,6 @@
     <description>A soft furry pelt harvested from a wolf-like creature. It is difficult to pierce and insulates well against cold.</description>
     <graphicData>
       <color>(115,110,100)</color>
-      <colorTwo>(115,110,100)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>3.0</MarketValue>
@@ -90,7 +87,6 @@
     <description>A soft furry pelt harvested from a big cat. It is difficult to pierce and insulates well against heat.</description>
     <graphicData>
       <color>(60,60,60)</color>
-      <colorTwo>(60,60,60)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>3.0</MarketValue>
@@ -109,7 +105,6 @@
     <description>Tanned, dried, scraped camel skin. Good at temperature regulation in hot climates.</description>
     <graphicData>
       <color>(204,180,150)</color>
-      <colorTwo>(204,180,150)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>2.3</MarketValue>
@@ -127,7 +122,6 @@
     <description>The furry pelt of muffalo. Recognizable by its distinctive blue tint. Good at temperature regulation in cold climates.</description>
     <graphicData>
       <color>(152,170,174)</color>
-      <colorTwo>(152,170,174)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>2.3</MarketValue>
@@ -145,7 +139,6 @@
     <description>The strong furry leather of a bear. Compared to most leather, it is quite a bit tougher and a bit better at all kinds of temperature regulation.</description>
     <graphicData>
       <color>(112,82,65)</color>
-      <colorTwo>(112,82,65)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>3.4</MarketValue>
@@ -167,7 +160,6 @@
     <description>Tanned, dried, scraped human skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
     <graphicData>
       <color>(211,194,143)</color>
-      <colorTwo>(211,194,143)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>4.2</MarketValue>
@@ -187,7 +179,6 @@
     <description>Tanned, dried, scraped pig skin. While a decent leather, it neither protects nor insulates particularly well.</description>
     <graphicData>
       <color>(174,150,126)</color>
-      <colorTwo>(174,150,126)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>1.9</MarketValue>
@@ -209,7 +200,6 @@
     <description>Lightweight, thin leather. Probably harvested from a small animal. Not as protective as thicker leathers.</description>
     <graphicData>
       <color>(140,85,36)</color>
-      <colorTwo>(140,85,36)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>1.9</MarketValue>
@@ -233,7 +223,6 @@
     <description>Tanned, dried, scraped bird skin. It is quite delicate. Without its feathers, it provides little protection from heat or cold.</description>
     <graphicData>
       <color>(76,83,99)</color>
-      <colorTwo>(76,83,99)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>1.8</MarketValue>
@@ -257,7 +246,6 @@
     <description>Tanned, dried, scraped chinchilla skin. Known as an extremely luxurious and insulating fur, it is exceptionally valuable.</description>
     <graphicData>
       <color>(178,170,158)</color>
-      <colorTwo>(178,170,158)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>6.5</MarketValue>
@@ -281,7 +269,6 @@
     <description>The pelt of a fox. It protects well from the cold and is quite luxurious, fetching a high price.</description>
     <graphicData>
       <color>(178,100,34)</color>
-      <colorTwo>(178,100,34)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>3.5</MarketValue>
@@ -311,7 +298,6 @@
     </statBases>
     <graphicData>
       <color>(101,116,58)</color>
-      <colorTwo>(101,116,58)</colorTwo>
     </graphicData>
     <stuffProps>
       <color>(101,116,58)</color>
@@ -330,7 +316,6 @@
     <description>Tanned, dried, scraped elephant skin. While quite tough, it is a poor insulator.</description>
     <graphicData>
       <color>(130,126,119)</color>
-      <colorTwo>(130,126,119)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>3.0</MarketValue>
@@ -353,7 +338,6 @@
     <description>Thick leather covered in a long, rugged mat of fur. Harvested from a large, hardy animal. This thick skin insulates and protects very well.</description>
     <graphicData>
       <color>(189,161,116)</color>
-      <colorTwo>(189,161,116)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>3.3</MarketValue>
@@ -376,7 +360,6 @@
     <description>Tanned, dried, scraped rhinocerous skin. It is exceptionally durable in combat, but provides little protection from weather.</description>
     <graphicData>
       <color>(150,150,150)</color>
-      <colorTwo>(150,150,150)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>4.2</MarketValue>
@@ -401,7 +384,6 @@
     <description>Furry pelt of a thrumbo. Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength.</description>
     <graphicData>
       <color>(233,233,233)</color>
-      <colorTwo>(233,233,233)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>14.0</MarketValue>
@@ -427,7 +409,6 @@
     <description>A weak textile created by cutting up and sewing together various types of leathers. Regardless of what kind of leather is used to create it, patchleather's irregular seams make it less tough and less insulating than any intact leather.</description>
     <graphicData>
       <color>(90,75,60)</color>
-      <colorTwo>(90,75,60)</colorTwo>
     </graphicData>
     <statBases>
       <MarketValue>1.5</MarketValue>

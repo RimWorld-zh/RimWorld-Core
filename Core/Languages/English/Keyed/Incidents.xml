@@ -18,11 +18,11 @@
   <!-- Friendly raids -->
   <FriendlyRaidLeaderPresent>One of the {0} - {1}, is the leader of the faction.</FriendlyRaidLeaderPresent>
 
-  <LetterLabelRefugeePodCrash>Escape pod</LetterLabelRefugeePodCrash>
-  <RefugeePodCrash>A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded.\n\nDepending on [PAWN_nameDef]'s faction, you may be able to rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes.</RefugeePodCrash>
-  <RefugeePodCrash_NonHostileOrFactionless>You can rescue [PAWN_objective] and send [PAWN_objective] on [PAWN_possessive] way. Or, capture [PAWN_objective] for recruitment or slavery purposes.</RefugeePodCrash_NonHostileOrFactionless>
-  <RefugeePodCrash_Hostile>You can capture [PAWN_objective] for recruitment or slavery purposes. [PAWN_pronoun] is from [PAWN_factionName].</RefugeePodCrash_Hostile>
-  <RefugeePodCrash_NonHostile>Note: [PAWN_nameDef] is from [PAWN_factionName]. Capturing [PAWN_objective] will anger them, while rescuing and healing [PAWN_objective] will improve faction relations.</RefugeePodCrash_NonHostile>
+  <LetterLabelRefugeePodCrash>Transport pod crash</LetterLabelRefugeePodCrash>
+  <RefugeePodCrash>A [PAWN_title] named [PAWN_nameDef] is crashing in a transport pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded.</RefugeePodCrash>
+  <RefugeePodCrash_Factionless>[PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Hostile>[PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_NonHostile>[PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction.</RefugeePodCrash_NonHostile>
 
   <LetterLabelCargoPodCrash>Cargo pods</LetterLabelCargoPodCrash>
   <CargoPodCrash>You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage.</CargoPodCrash>
@@ -48,9 +48,6 @@
   <GroupVisitorsArriveTraderInfo>\n\nThey seem to have a few items to trade.</GroupVisitorsArriveTraderInfo>
   <GroupVisitorsArriveLeaderInfo>\n\nOne of the visitors - {0}, is the leader of the faction.</GroupVisitorsArriveLeaderInfo>
   <VisitorsLeaving>Visitors from {0} are leaving.</VisitorsLeaving>
-
-  <LetterLabelWandererJoin>Wanderer joins</LetterLabelWandererJoin>
-  <WandererJoin>A {0} named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a {1}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want [PAWN_nameDef], you can banish [PAWN_objective], sell [PAWN_objective] into slavery, or simply kill [PAWN_objective]. However, your other colonists may find this disturbing.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Manhunter pack</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them.</ManhunterPackArrived>
@@ -102,10 +99,6 @@
   <!-- Trader caravan -->
   <LetterLabelTraderCaravanArrival>{1} from {0}</LetterLabelTraderCaravanArrival>
   <LetterTraderCaravanArrival>A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction!</LetterTraderCaravanArrival>
-  
-  <!-- Building breaks down -->
-  <LetterLabelBuildingBrokenDown>Breakdown: {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>One of your machines ({0}) has broken down. It won't work until a colonist with the Construction work type goes and fixes it.</LetterBuildingBrokenDown>
   
   <!-- Ransom demand -->
   <RansomDemandTitle>Ransom demand at {0}</RansomDemandTitle>

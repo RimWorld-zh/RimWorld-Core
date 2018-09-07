@@ -53,7 +53,7 @@
   <StruckMineable>We have struck {0}!</StruckMineable>
 
   <LetterLabelAnimalManhunterRevenge>{0} revenge</LetterLabelAnimalManhunterRevenge>
-  <AnimalManhunterFromDamage>[PAWN_indefinite] is attacking after being harmed!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>[PAWN_indefinite] is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep.</AnimalManhunterFromDamage>
   <AnimalManhunterFromTaming>[PAWN_indefinite] is attacking due to a botched taming attempt!</AnimalManhunterFromTaming>
   <AnimalManhunterOthers>Other {0} nearby have also become enraged!</AnimalManhunterOthers>
 
@@ -72,7 +72,6 @@
   <LetterLeaderChangedLabel>New {1}: {0}</LetterLeaderChangedLabel>
   <LetterLeaderChanged>{0} is no longer {3} of {1}.\n\nThe new {3} is {2}.</LetterLeaderChanged>
   
-  <MentalBreakLetterLabel>Mental break</MentalBreakLetterLabel>
   <FinalStraw>The final straw was: {0}</FinalStraw>
   <LastFactionRelationsEvent>The last event was</LastFactionRelationsEvent>
 
@@ -206,8 +205,8 @@
   <LetterHibernateCompleteStandalone>The reactor's power up sequence is complete. It is now ready to power a liftoff.</LetterHibernateCompleteStandalone>
 
   <!-- Visitors gave gift -->
-  <LetterLabelVisitorsGaveGift>Gift</LetterLabelVisitorsGaveGift>
-  <LetterVisitorsGaveGift>Since you're having a hard time, we're helping you out.</LetterVisitorsGaveGift>
+  <LetterLabelVisitorsGaveGift>Gift from {0}</LetterLabelVisitorsGaveGift>
+  <LetterVisitorsGaveGift>{0} from [PAWN_factionName] have left a gift:\n\n{1}</LetterVisitorsGaveGift>
 
   <!-- Faction base proximity -->
   <LetterLabelFactionBaseProximity>Faction base proximity</LetterLabelFactionBaseProximity>
@@ -227,5 +226,10 @@
   <!-- Predator hunting colonist -->
   <LetterLabelPredatorHuntingColonist>{0} hunting {1}</LetterLabelPredatorHuntingColonist>
   <LetterPredatorHuntingColonist>{0} is hunting {1} for food!</LetterPredatorHuntingColonist>
+
+  <!-- Disease -->
+  <LetterDisease_Blocked>{0} blocked {1} on: {2}.</LetterDisease_Blocked>
+  <LetterLabelTraitDisease>Disease ({0})</LetterLabelTraitDisease>
+  <LetterTraitDisease>{0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that [PAWN_pronoun] gets proper treatment and spends as much time in bed as possible.</LetterTraitDisease>
 
 </LanguageData>

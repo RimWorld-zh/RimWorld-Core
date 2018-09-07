@@ -29,11 +29,11 @@
   </HistoryAutoRecorderDef>
 
   <HistoryAutoRecorderDef>
-    <defName>Wealth_TameAnimals</defName>
-    <label>wealth (animals)</label>
+    <defName>Wealth_Pawns</defName>
+    <label>wealth (creatures)</label>
     <graphColor>(0.3, 0.6, 0.48, 1)</graphColor>
     <recordTicksFrequency>30000</recordTicksFrequency>
-    <workerClass>HistoryAutoRecorderWorker_WealthTameAnimals</workerClass>
+    <workerClass>HistoryAutoRecorderWorker_WealthPawns</workerClass>
     <graphLabelY>Amount</graphLabelY>
   </HistoryAutoRecorderDef>
 

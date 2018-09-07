@@ -116,7 +116,7 @@
           <drawSize>0.48</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/YorkshireTerrier/Dessicated_YorkshireTerrier</texPath>
           <drawSize>0.48</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -130,9 +130,13 @@
           <drawSize>0.73</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/YorkshireTerrier/Dessicated_YorkshireTerrier</texPath>
           <drawSize>0.75</drawSize>
         </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/YorkshireTerrier/Dessicated_YorkshireTerrier</texPath>
+          <drawSize>0.73</drawSize>
+        </femaleDessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
@@ -148,9 +152,13 @@
           <drawSize>0.89</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/YorkshireTerrier/Dessicated_YorkshireTerrier</texPath>
           <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/YorkshireTerrier/Dessicated_YorkshireTerrier</texPath>
+          <drawSize>0.89</drawSize>
+        </femaleDessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -275,7 +283,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Husky/Dessicated_Husky</texPath>
           <drawSize>1.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -291,8 +299,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.4</drawSize>
+          <texPath>Things/Pawn/Animal/Husky/Dessicated_Husky</texPath>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -307,8 +315,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.7</drawSize>
+          <texPath>Things/Pawn/Animal/Husky/Dessicated_Husky</texPath>
+          <drawSize>1.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -434,7 +442,7 @@
           <color>(220,198,160)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
           <drawSize>0.95</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -449,7 +457,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
           <drawSize>1.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -464,7 +472,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -614,7 +622,7 @@
           <color>(189,171,159)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -625,7 +633,7 @@
           <color>(189,171,159)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -640,7 +648,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>1.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>

@@ -239,6 +239,7 @@
     <ingestible />
     <plant>
 			<growDays>22.5</growDays>
+      <sowWork>400</sowWork>
 			<dieIfLeafless>true</dieIfLeafless>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>DevilstrandCloth</harvestedThingDef>

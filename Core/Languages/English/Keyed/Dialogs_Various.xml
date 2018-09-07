@@ -104,7 +104,7 @@
   <ResolutionRevert>Revert</ResolutionRevert>
 
   <!-- Confirm permanently disable dev mode -->
-  <ConfirmPermanentlyDisableDevMode>Do you really want to permanently disable development mode on this computer?</ConfirmPermanentlyDisableDevMode>
+  <ConfirmPermanentlyDisableDevMode>Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how.</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <Research>Research</Research>
@@ -188,6 +188,8 @@
   <LimitedLifespan>Limited lifespan</LimitedLifespan>
   <GrowingTime>Growing time</GrowingTime>
   <HarvestYield>Harvest yield</HarvestYield>
+  <MinGrowthTemperature>Min growth temperature</MinGrowthTemperature>
+  <MaxGrowthTemperature>Max growth temperature</MaxGrowthTemperature>
   <GrowingTimeDesc>Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth.</GrowingTimeDesc>
   <Days>days</Days>
   <MinGrowingSkillToSow>Minimum growing skill to sow</MinGrowingSkillToSow>
@@ -225,7 +227,6 @@
   <PackAnimalExplanation>Whether this animal is appropriate to use to carry items in a caravan over long distances.</PackAnimalExplanation>
   <Skill>Skill</Skill>
   <SurgerySuccessChanceFactor>Success rate multiplier</SurgerySuccessChanceFactor>
-  <SurgeryRequireBed>Requires bed</SurgeryRequireBed>
   <WorkSpeedStat>Work speed governed by</WorkSpeedStat>
   <EfficiencyStat>Output quantity governed by</EfficiencyStat>
   <ConstructionSkillRequired>Construction skill required</ConstructionSkillRequired>
@@ -316,6 +317,7 @@
   <MassCarriedSimple>Mass carried</MassCarriedSimple>
   <MassCapacity>Mass capacity</MassCapacity>
   <Mass>Mass</Mass>
+  <CaravanMass>Caravan mass</CaravanMass>
   <EquipmentAndApparelMass>Equipment and apparel mass</EquipmentAndApparelMass>
   <InventoryMass>Inventory mass</InventoryMass>
   <CaravanFormationProcessStarted>Your colonists will now gather the items and leave the area.</CaravanFormationProcessStarted>
@@ -447,5 +449,8 @@
   <!-- Cleanup translation files -->
   <ConfirmCleanupTranslationFiles>Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool.</ConfirmCleanupTranslationFiles>
   <ConfirmCleanupTranslationFiles_Confirm>Yes, I have a backup</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <TransportersCaravanWillBeImmobile>The caravan will be immobile if you send the pods to an empty tile. Continue anyway?</TransportersCaravanWillBeImmobile>
 
 </LanguageData>

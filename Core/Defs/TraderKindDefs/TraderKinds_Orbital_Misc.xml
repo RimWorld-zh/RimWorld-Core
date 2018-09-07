@@ -10,8 +10,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>30000</min>
-          <max>30000</max>
+          <min>2000</min>
+          <max>4000</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -214,8 +214,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>30000</min>
-          <max>30000</max>
+          <min>2000</min>
+          <max>4000</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -284,8 +284,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>30000</min>
-          <max>30000</max>
+          <min>2000</min>
+          <max>4000</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
@@ -444,8 +444,8 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>Silver</thingDef>
         <countRange>
-          <min>30000</min>
-          <max>30000</max>
+          <min>2000</min>
+          <max>4000</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">

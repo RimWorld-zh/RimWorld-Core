@@ -21,7 +21,7 @@
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
         <countRange>
-          <min>-20</min>
+          <min>1</min>
           <max>6</max>
         </countRange>
       </li>

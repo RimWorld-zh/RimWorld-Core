@@ -22,7 +22,6 @@
     <moodRecoveryThought>Catharsis</moodRecoveryThought>
     <blockNormalThoughts>true</blockNormalThoughts>
     <nameColor>(0.9,0.2,0.5)</nameColor>
-    <beginLetterLabel>berserk</beginLetterLabel>
     <beginLetter>{0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees.</beginLetter>
     <beginLetterDef>ThreatSmall</beginLetterDef>
     <minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
@@ -54,7 +53,6 @@
     <recoveryMtbDays>0.1</recoveryMtbDays>
     <maxTicksBeforeRecovery>8000</maxTicksBeforeRecovery>
     <nameColor>(0.5, 0.9, 0.5)</nameColor>
-    <beginLetterLabel>fire starting spree</beginLetterLabel>
     <beginLetter>{0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires.</beginLetter>
     <beginLetterDef>ThreatSmall</beginLetterDef>
     <moodRecoveryThought>Catharsis</moodRecoveryThought>
@@ -147,7 +145,6 @@
     <moodRecoveryThought>Catharsis</moodRecoveryThought>
     <blockNormalThoughts>true</blockNormalThoughts>
     <recoveryMessage>{0} is no longer slaughtering random animals.</recoveryMessage>
-    <beginLetterLabel>slaughterer</beginLetterLabel>
     <beginLetter>{0} has a mental breakdown and is going to vent [PAWN_possessive] anger on your animals.</beginLetter>
     <beginLetterDef>ThreatSmall</beginLetterDef>
     <baseInspectLine>Mental state: Slaughterer</baseInspectLine>
@@ -180,7 +177,6 @@
     <moodRecoveryThought>Catharsis</moodRecoveryThought>
     <blockNormalThoughts>true</blockNormalThoughts>
     <recoveryMessage>{0} is no longer in a murderous rage.</recoveryMessage>
-    <beginLetterLabel>murderous rage</beginLetterLabel>
     <beginLetter>{0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}.</beginLetter>
     <beginLetterDef>ThreatSmall</beginLetterDef>
     <baseInspectLine>Mental state: Murderous rage</baseInspectLine>
@@ -291,7 +287,6 @@
     <blockNormalThoughts>true</blockNormalThoughts>
     <nameColor>(0.98,0.48,0.16)</nameColor>
     <recoveryMessage>{0} is no longer having a tantrum.</recoveryMessage>
-    <beginLetterLabel>tantrum</beginLetterLabel>
     <beginLetter>{0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures.</beginLetter>
     <beginLetterDef>NegativeEvent</beginLetterDef>
     <baseInspectLine>Mental state: Tantrum</baseInspectLine>
@@ -340,7 +335,6 @@
     <label>sadistic rage</label>
     <maxTicksBeforeRecovery>14000</maxTicksBeforeRecovery>
     <recoveryMessage>{0} is no longer in a sadistic rage.</recoveryMessage>
-    <beginLetterLabel>sadistic rage</beginLetterLabel>
     <beginLetterDef>ThreatSmall</beginLetterDef>
     <beginLetter>{0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners.</beginLetter>
     <baseInspectLine>Mental state: Sadistic rage</baseInspectLine>
@@ -349,7 +343,7 @@
   <MentalBreakDef>
     <defName>CorpseObsession</defName>
     <mentalState>CorpseObsession</mentalState>
-    <baseCommonality>1</baseCommonality>
+    <baseCommonality>0.4</baseCommonality>
     <intensity>Major</intensity>
   </MentalBreakDef>
   <MentalStateDef ParentName="BaseMentalState">
@@ -369,7 +363,6 @@
     <moodRecoveryThought>Catharsis</moodRecoveryThought>
     <nameColor>(0.8,0.36,1)</nameColor>
     <recoveryMessage>{0} is no longer having a corpse obsession.</recoveryMessage>
-    <beginLetterLabel>corpse obsession</beginLetterLabel>
     <beginLetter>{0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to dig up a corpse and present it for all to see.</beginLetter>
     <beginLetterDef>NegativeEvent</beginLetterDef>
     <baseInspectLine>Mental state: Corpse obsession</baseInspectLine>
@@ -490,7 +483,6 @@
     <blockNormalThoughts>true</blockNormalThoughts>
     <nameColor>(0.98,0.48,0.16)</nameColor>
     <recoveryMessage>{0} is no longer on an insulting spree.</recoveryMessage>
-    <beginLetterLabel>insulting spree</beginLetterLabel>
     <beginLetter>{0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others.</beginLetter>
     <beginLetterDef>NegativeEvent</beginLetterDef>
     <baseInspectLine>Mental state: Insulting spree</baseInspectLine>

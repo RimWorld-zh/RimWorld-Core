@@ -8,7 +8,9 @@
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>Ancients</fixedName>
 		<techLevel>Spacer</techLevel>
-		<backstoryCategory>Civil</backstoryCategory>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
 		<hidden>true</hidden>
 		<rescueesCanJoin>true</rescueesCanJoin>
 		<autoFlee>false</autoFlee>
@@ -43,10 +45,10 @@
     <fixedName>a mechanoid hive</fixedName>
 		<raidCommonalityFromPointsCurve>
 			<points>
-        <li>(500, 0.1)</li>
-        <li>(800, 0.2)</li>
+        <li>(700, 0.1)</li>
+        <li>(900, 0.2)</li>
         <li>(1200, 1)</li>
-        <li>(4000, 1.7)</li>
+        <li>(4000, 1.5)</li>
       </points>
 		</raidCommonalityFromPointsCurve>
     <humanlikeFaction>false</humanlikeFaction>

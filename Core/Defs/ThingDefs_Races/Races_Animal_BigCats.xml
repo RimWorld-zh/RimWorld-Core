@@ -142,7 +142,7 @@
           <color>(177,136,112)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -157,7 +157,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -172,7 +172,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>2.18</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -203,7 +203,7 @@
           <color>(60,60,60)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>1.05</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -218,7 +218,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>1.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -233,7 +233,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>2.12</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -375,7 +375,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -391,7 +391,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -407,7 +407,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>

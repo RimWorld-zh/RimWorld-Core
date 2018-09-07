@@ -2,6 +2,10 @@
 <Defs>
 
   <IncidentCategoryDef>
+    <defName>Special</defName>
+  </IncidentCategoryDef>
+
+  <IncidentCategoryDef>
     <defName>Misc</defName>
   </IncidentCategoryDef>
 
@@ -13,6 +17,7 @@
   <IncidentCategoryDef>
     <defName>ThreatBig</defName>
     <needsParmsPoints>true</needsParmsPoints>
+    <tale>MajorThreat</tale>
   </IncidentCategoryDef>
 
   <IncidentCategoryDef>
@@ -46,6 +51,7 @@
   <IncidentCategoryDef>
     <defName>RaidBeacon</defName>
     <needsParmsPoints>true</needsParmsPoints>
+    <tale>MajorThreat</tale>
   </IncidentCategoryDef>
 
   <IncidentCategoryDef>

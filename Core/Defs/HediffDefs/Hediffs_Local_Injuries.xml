@@ -12,7 +12,7 @@
     <defaultLabelColor>(0.5, 0.5, 0.5, 1)</defaultLabelColor>
     <tendable>true</tendable>
     <injuryProps>
-      <bleedRate>0.05</bleedRate>
+      <bleedRate>0.12</bleedRate>
       <painPerSeverity>0.0125</painPerSeverity>
     </injuryProps>
     <comps>
@@ -47,7 +47,7 @@
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <bleedRate>0.03</bleedRate>
+      <bleedRate>0.06</bleedRate>
       <canMerge>false</canMerge>
       <destroyedLabel>Destroyed</destroyedLabel>
     </injuryProps>
@@ -99,7 +99,7 @@
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
       <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <bleedRate>0.015</bleedRate>
+      <bleedRate>0.01</bleedRate>
       <canMerge>true</canMerge>
       <destroyedLabel>Crushed</destroyedLabel>
     </injuryProps>
@@ -146,7 +146,7 @@
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
       <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <bleedRate>0.03</bleedRate>
+      <bleedRate>0.06</bleedRate>
       <canMerge>false</canMerge>
       <destroyedLabel>Cut off</destroyedLabel>
       <destroyedOutLabel>Cut out</destroyedOutLabel>
@@ -170,7 +170,7 @@
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
       <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <bleedRate>0.03</bleedRate>
+      <bleedRate>0.06</bleedRate>
       <canMerge>false</canMerge>
       <useRemovedLabel>true</useRemovedLabel>
     </injuryProps>
@@ -196,7 +196,7 @@
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
       <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <bleedRate>0.015</bleedRate>
+      <bleedRate>0.06</bleedRate>
       <canMerge>false</canMerge>
       <destroyedLabel>Torn off</destroyedLabel>
       <destroyedOutLabel>Torn out</destroyedOutLabel>
@@ -223,7 +223,7 @@
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
       <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <bleedRate>0.02</bleedRate>
+      <bleedRate>0.06</bleedRate>
       <canMerge>false</canMerge>
       <destroyedLabel>Bitten off</destroyedLabel>
       <destroyedOutLabel>Bitten out</destroyedOutLabel>
@@ -250,7 +250,7 @@
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
       <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <bleedRate>0.035</bleedRate>
+      <bleedRate>0.06</bleedRate>
       <canMerge>false</canMerge>
       <destroyedLabel>Cut off</destroyedLabel>
       <destroyedOutLabel>Cut out</destroyedOutLabel>
@@ -278,7 +278,7 @@
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
       <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <bleedRate>0.04</bleedRate>
+      <bleedRate>0.06</bleedRate>
       <canMerge>false</canMerge>
       <destroyedLabel>Shot off</destroyedLabel>
       <destroyedOutLabel>Shot out</destroyedOutLabel>
@@ -305,7 +305,7 @@
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
       <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <bleedRate>0.04</bleedRate>
+      <bleedRate>0.06</bleedRate>
       <canMerge>true</canMerge>
       <destroyedLabel>Torn off</destroyedLabel>
       <destroyedOutLabel>Torn out</destroyedOutLabel>

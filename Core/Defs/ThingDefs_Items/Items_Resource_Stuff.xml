@@ -89,7 +89,7 @@
     <stackLimit>500</stackLimit>
     <smallVolume>true</smallVolume>
     <deepCommonality>0.5</deepCommonality>
-    <deepCountPerPortion>15</deepCountPerPortion>
+    <deepCountPerPortion>10</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>1</min>
       <max>5</max>
@@ -197,7 +197,7 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <deepCommonality>1</deepCommonality>
-    <deepCountPerPortion>25</deepCountPerPortion>
+    <deepCountPerPortion>7</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>2</min>
       <max>10</max>
@@ -248,7 +248,7 @@
       <StuffPower_Armor_Heat>0.9</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+      <SharpDamageMultiplier>0.45</SharpDamageMultiplier>
       <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
     </statBases>
     <stuffProps>
@@ -318,7 +318,7 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <deepCommonality>1</deepCommonality>
-    <deepCountPerPortion>35</deepCountPerPortion>
+    <deepCountPerPortion>10</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>4</min>
       <max>10</max>
@@ -372,7 +372,7 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <deepCommonality>0.5</deepCommonality>
-    <deepCountPerPortion>15</deepCountPerPortion>
+    <deepCountPerPortion>10</deepCountPerPortion>
     <deepLumpSizeRange>
       <min>1</min>
       <max>5</max>
@@ -626,7 +626,7 @@
       <color>(189,161,116)</color>
     </graphicData>
     <statBases>
-      <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
     </statBases>
     <stuffProps>
@@ -642,7 +642,7 @@
       <color>(179,192,186)</color>
     </graphicData>
     <statBases>
-      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
     </statBases>
     <stuffProps>
@@ -659,7 +659,7 @@
     </graphicData>
     <statBases>
       <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+      <StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
     </statBases>
     <stuffProps>
       <color>(220,179,132)</color>
@@ -675,7 +675,7 @@
     </graphicData>
     <statBases>
       <DeteriorationRate>2.6</DeteriorationRate>
-      <StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
     </statBases>
     <stuffProps>

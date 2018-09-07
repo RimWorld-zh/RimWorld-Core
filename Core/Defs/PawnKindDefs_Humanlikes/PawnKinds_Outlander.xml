@@ -6,7 +6,9 @@
     <defaultFactionType>OutlanderCivil</defaultFactionType>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
-    <backstoryCategory>Civil</backstoryCategory>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
     <invNutrition>2.55</invNutrition>
     <apparelTags>
       <li>IndustrialBasic</li>

@@ -54,7 +54,7 @@
   
   <InstructionDef>
     <defName>RandomizeCharacter</defName>
-    <text>If you don't like a character, you can regenerate it!\n\nTry randomizing a character with the RANDOMIZE button.</text>
+    <text>If you don't like a character, you can regenerate them!\n\nTry randomizing a character with the RANDOMIZE button.</text>
     <eventTagInitiate>ReorderPawn</eventTagInitiate>
     <eventTagInitiateSource>ReorderCharacters</eventTagInitiateSource>
     <actionTagsAllowed>
@@ -160,7 +160,7 @@
   
   <InstructionDef>
     <defName>UnforbidStartingResources</defName>
-    <text>Now, to allow your colonists to bring your items to the stockpile, you must unforbid the items.\n\n1. Clicking your starting items to select them.\n2. Click the TOGGLE FORBIDDEN command to unforbid them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)</text>
+    <text>Now, to allow your colonists to bring your items to the stockpile, you must unforbid the items.\n\n1. Clicking your starting items to select them.\n2. Click the FORBID toggle button to unforbid them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)</text>
     <instructionClass>Instruction_UnforbidStartingResources</instructionClass>
     <eventTagInitiate>InstructionDeactivated-EndStockpileDesignating</eventTagInitiate>
     <actionTagsAllowed>
@@ -332,7 +332,7 @@
 
   <InstructionDef>
     <defName>SetToGrowRice</defName>
-    <text>You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the "Select plant" command at the bottom and change it to Rice.</text>
+    <text>You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice.</text>
     <instructionClass>Instruction_SetGrowingZonePlant</instructionClass>
     <eventTagInitiate>InstructionDeactivated-MakeGrowingZone</eventTagInitiate>
     <actionTagsAllowed>
@@ -456,7 +456,7 @@
 
   <InstructionDef>
     <defName>ChangeWorkSettings</defName>
-    <text>You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is a key skill for success in RimWorld. So set the work settings carefully, and review them often!</text>
+    <text>You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often!</text>
     <eventTagInitiate>InstructionDeactivated-OpenMainTabWork</eventTagInitiate>
     <instructionClass>Instruction_LearnConcept</instructionClass>
     <concept>WorkTab</concept>
@@ -643,7 +643,7 @@
 
   <InstructionDef>
     <defName>ChooseStoryteller</defName>
-    <text>This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click CHOOSE STORYTELLER.\n4. Select a storyteller and difficulty level that appeals to you.\n\nGood luck, and have fun.</text>
+    <text>This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click STORYTELLER SETTINGS.\n4. Select a storyteller and difficulty level that appeals to you.\n\nGood luck, and have fun.</text>
     <eventTagInitiate>InstructionDeactivated-UndraftAll</eventTagInitiate>
     <actionTagsAllowed>
       <li>MainTab-Menu-Open</li>

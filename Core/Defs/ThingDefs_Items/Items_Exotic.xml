@@ -107,7 +107,7 @@
     </graphicData>
     <stackLimit>10</stackLimit>
     <statBases>
-      <MarketValue>900</MarketValue>
+      <MarketValue>1300</MarketValue>
     </statBases>
     <tradeability>Sellable</tradeability>
     <comps>
@@ -138,7 +138,7 @@
     </graphicData>
     <stackLimit>10</stackLimit>
     <statBases>
-      <MarketValue>1500</MarketValue>
+      <MarketValue>1700</MarketValue>
     </statBases>
     <tradeability>Sellable</tradeability>
     <comps>
@@ -268,7 +268,7 @@
     </graphicData>
     <equippedAngleOffset>-20</equippedAngleOffset>
     <statBases>
-      <MarketValue>400</MarketValue>
+      <MarketValue>80</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>1.8</Mass>
       <Flammability>0.9</Flammability>
@@ -283,7 +283,7 @@
           <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>21.8</power>
+        <power>18.2</power>
         <cooldownTime>2.6</cooldownTime>
       </li>
       <li>

@@ -54,7 +54,7 @@
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>MechanicalCentipede</body>
       <baseBodySize>2.0</baseBodySize>
-      <baseHealthScale>3.6</baseHealthScale>
+      <baseHealthScale>4.32</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -179,7 +179,7 @@
     </tools>
     <race>
       <body>Lancer</body>
-      <baseHealthScale>0.6</baseHealthScale>
+      <baseHealthScale>0.72</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
@@ -262,7 +262,7 @@
     </tools>
     <race>
       <body>Scyther</body>
-      <baseHealthScale>1.1</baseHealthScale>
+      <baseHealthScale>1.32</baseHealthScale>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>

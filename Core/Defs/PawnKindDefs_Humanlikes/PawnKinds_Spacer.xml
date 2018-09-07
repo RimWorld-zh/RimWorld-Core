@@ -7,7 +7,9 @@
     <race>Human</race>
     <combatPower>30</combatPower>
     <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
-    <backstoryCategory>Civil</backstoryCategory>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <isFighter>false</isFighter>
@@ -42,7 +44,9 @@
     <race>Human</race>
     <combatPower>100</combatPower>
     <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
-    <backstoryCategory>Civil</backstoryCategory>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
     <defaultFactionType>AncientsHostile</defaultFactionType>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <chemicalAddictionChance>0.08</chemicalAddictionChance>

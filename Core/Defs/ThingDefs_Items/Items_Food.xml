@@ -29,6 +29,7 @@
     <pathCost>15</pathCost>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <drawGUIOverlay>true</drawGUIOverlay>
+    <uiIconForStackCount>1</uiIconForStackCount>
     <ingestible>
       <foodType>Meal</foodType>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>

@@ -303,7 +303,7 @@
     <degreeDatas>
       <li>
         <label>undergrounder</label>
-        <description>[PAWN_nameDef] has no need to experience the outdoors. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays inside.</description>
+        <description>[PAWN_nameDef] has no need to experience the outdoors or light. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays inside, and is not bothered by darkness.</description>
       </li>
     </degreeDatas>
   </TraitDef>

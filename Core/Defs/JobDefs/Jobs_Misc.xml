@@ -232,6 +232,14 @@
   </JobDef>
   
   <JobDef>
+    <defName>HaulToTransporter</defName>
+    <driverClass>JobDriver_HaulToTransporter</driverClass>
+    <reportString>hauling TargetA.</reportString>
+    <suspendable>false</suspendable>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
     <defName>ManTurret</defName>
     <driverClass>JobDriver_ManTurret</driverClass>
     <reportString>operating turret.</reportString>

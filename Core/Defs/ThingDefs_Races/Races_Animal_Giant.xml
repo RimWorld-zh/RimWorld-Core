@@ -113,7 +113,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -127,7 +127,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
           <drawSize>2.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -141,7 +141,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
           <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -266,7 +266,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Elephant/Dessicated_Elephant</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -281,7 +281,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Elephant/Dessicated_Elephant</texPath>
           <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -296,7 +296,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Elephant/Dessicated_Elephant</texPath>
           <drawSize>3.8</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
@@ -313,7 +313,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>Megasloth</defName>
     <label>megasloth</label>
-    <description>A giant, solitary herbivore with two giant claws for warding off threats. Long extinct after being wiped out by the natives of Earth's American continent, the megasloth was later brought back using advanced cloning and artificial gestators. Its thick hide is exceptionally strong and insulating, and makes a great leather for cold-weather clothing. It is peaceful if left alone, but will shred anyone who distubs it with its giant claws.</description>
+    <description>A giant, solitary herbivore with two giant claws for warding off threats. Long extinct after being wiped out by the natives of Earth's American continent, the megasloth was later brought back using advanced cloning and artificial gestators. Its thick hide is exceptionally strong and insulating, and makes a great leather for cold-weather clothing. It is peaceful if left alone, but will shred anyone who disturbs it with its giant claws.</description>
     <statBases>
       <MoveSpeed>4.8</MoveSpeed>
       <MarketValue>700</MarketValue>
@@ -425,7 +425,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Megasloth/Dessicated_Megasloth</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -439,7 +439,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Megasloth/Dessicated_Megasloth</texPath>
           <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -453,7 +453,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedLarge</texPath>
+          <texPath>Things/Pawn/Animal/Megasloth/Dessicated_Megasloth</texPath>
           <drawSize>3.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -586,8 +586,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbo/Dessicated_Thrumbo</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -600,8 +600,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.75</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbo/Dessicated_Thrumbo</texPath>
+          <drawSize>4.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -614,8 +614,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2</drawSize>
+          <texPath>Things/Pawn/Animal/Thrumbo/Dessicated_Thrumbo</texPath>
+          <drawSize>4.8</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
           <bodyPartGroup>HornAttackTool</bodyPartGroup>

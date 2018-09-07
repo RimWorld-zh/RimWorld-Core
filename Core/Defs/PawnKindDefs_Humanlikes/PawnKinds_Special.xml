@@ -7,7 +7,9 @@
     <combatPower>30</combatPower>
     <race>Human</race>
     <baseRecruitDifficulty>0.30</baseRecruitDifficulty>
-    <backstoryCategory>Slave</backstoryCategory>
+    <backstoryCategories>
+      <li>Slave</li>
+    </backstoryCategories>
     <defaultFactionType>OutlanderCivil</defaultFactionType>
     <itemQuality>Poor</itemQuality>
     <backstoryCryptosleepCommonality>0.10</backstoryCryptosleepCommonality>
@@ -46,7 +48,9 @@
     <labelFemalePlural>wild women</labelFemalePlural>
     <combatPower>70</combatPower>
     <race>Human</race>
-    <backstoryCategory>Tribal</backstoryCategory>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
     <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
     <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
     <itemQuality>Poor</itemQuality>
@@ -60,6 +64,54 @@
     <techHediffsTags>
       <li>Poor</li>
     </techHediffsTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>StrangerInBlack</defName>
+    <label>stranger in black</label>
+    <labelMale>man in black</labelMale>
+    <labelFemale>woman in black</labelFemale>
+    <labelPlural>strangers in black</labelPlural>
+    <combatPower>100</combatPower>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>50</maxGenerationAge>
+    <isFighter>true</isFighter>
+    <race>Human</race>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <backstoryCategories>
+      <li>Traveler</li>
+    </backstoryCategories>
+    <invNutrition>10.0</invNutrition>
+    <inventoryOptions>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>6</choiceChance>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>5</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <itemQuality>Good</itemQuality>
+    <weaponMoney>
+      <min>500</min>
+      <max>500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Revolver</li>
+    </weaponTags>
+    <apparelRequired>
+      <li>Apparel_CollarShirt</li>
+      <li>Apparel_Pants</li>
+      <li>Apparel_Duster</li>
+      <li>Apparel_FlakVest</li>
+      <li>Apparel_CowboyHat</li>
+    </apparelRequired>
+    <apparelColor>(58,58,58)</apparelColor>
   </PawnKindDef>
 
 </Defs>

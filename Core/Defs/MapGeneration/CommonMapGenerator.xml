@@ -16,7 +16,6 @@
       <li>Plants</li>
       <li>Snow</li>
       <li>Animals</li>
-      <li>CaveHives</li>
       <li>Fog</li>
     </genSteps>
   </MapGeneratorDef>
@@ -157,12 +156,6 @@
     <defName>Animals</defName>
     <order>1000</order>
     <genStep Class="GenStep_Animals"/>
-  </GenStepDef>
-
-  <GenStepDef>
-    <defName>CaveHives</defName>
-    <order>1100</order>
-    <genStep Class="GenStep_CaveHives"/>
   </GenStepDef>
 
   <GenStepDef>

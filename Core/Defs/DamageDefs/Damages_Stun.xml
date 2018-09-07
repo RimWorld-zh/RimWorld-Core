@@ -20,7 +20,7 @@
 	<DamageDef ParentName="StunBase">
 		<defName>EMP</defName>
 		<label>EMP</label>
-		<externalViolence>true</externalViolence>
+		<externalViolenceForMechanoids>true</externalViolenceForMechanoids>
 		<deathMessage>{0} has been EMPed to death.</deathMessage>
 		<harmsHealth>false</harmsHealth>
 		<impactSoundType>Electric</impactSoundType>

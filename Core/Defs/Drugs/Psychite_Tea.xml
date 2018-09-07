@@ -8,6 +8,7 @@
     <graphicData>
       <texPath>Things/Item/Drug/Tea</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.88</drawSize>
     </graphicData>
     <rotatable>false</rotatable>
     <statBases>

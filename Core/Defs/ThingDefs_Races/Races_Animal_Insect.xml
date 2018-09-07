@@ -9,6 +9,7 @@
     <race>
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
+      <meatColor>(160,168,139)</meatColor>
       <meatMarketValue>0.5</meatMarketValue>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
       <manhunterOnDamageChance>0.35</manhunterOnDamageChance>
@@ -102,8 +103,8 @@
           <color>(114,107,84)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.8</drawSize>
+          <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -113,8 +114,8 @@
           <color>(114,107,84)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.9</drawSize>
+          <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
+          <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -128,8 +129,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -222,8 +223,8 @@
           <color>(156,148,125)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.75</drawSize>
+          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -233,8 +234,8 @@
           <color>(156,148,125)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1</drawSize>
+          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -248,8 +249,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.35</drawSize>
+          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <drawSize>1.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -342,7 +343,7 @@
           <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
           <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -353,7 +354,7 @@
           <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -368,7 +369,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>

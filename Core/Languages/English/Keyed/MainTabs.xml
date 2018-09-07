@@ -77,7 +77,7 @@
   <ThisMapColonyWealthTotal>Colony wealth (this map)</ThisMapColonyWealthTotal>
   <ThisMapColonyWealthItems>Colony wealth (items) (this map)</ThisMapColonyWealthItems>
   <ThisMapColonyWealthBuildings>Colony wealth (buildings) (this map)</ThisMapColonyWealthBuildings>
-  <ThisMapColonyWealthTameAnimals>Colony wealth (animals) (this map)</ThisMapColonyWealthTameAnimals>
+  <ThisMapColonyWealthColonistsAndTameAnimals>Colony wealth (people and animals) (this map)</ThisMapColonyWealthColonistsAndTameAnimals>
   <NumThreatBigs>Major threats</NumThreatBigs>
   <NumEnemyRaids>Enemy raids</NumEnemyRaids>
   <ThisMapDamageTaken>Damage taken (this map)</ThisMapDamageTaken>

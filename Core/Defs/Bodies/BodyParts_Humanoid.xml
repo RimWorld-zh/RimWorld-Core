@@ -83,6 +83,7 @@
     <tags>
       <li>ManipulationLimbSegment</li>
     </tags>
+    <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -96,6 +97,7 @@
     <tags>
       <li>BreathingSourceCage</li>
     </tags>
+    <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -135,6 +137,7 @@
     <tags>
       <li>Pelvis</li>
     </tags>
+    <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
   <BodyPartDef>

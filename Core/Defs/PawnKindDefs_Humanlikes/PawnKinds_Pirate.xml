@@ -4,7 +4,9 @@
   <PawnKindDef Name="PirateBase" Abstract="True">
     <race>Human</race>
     <defaultFactionType>Pirate</defaultFactionType>
-    <backstoryCategory>Raider</backstoryCategory>
+    <backstoryCategories>
+      <li>Raider</li>
+    </backstoryCategories>
     <chemicalAddictionChance>0.12</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
     <invNutrition>2.55</invNutrition>

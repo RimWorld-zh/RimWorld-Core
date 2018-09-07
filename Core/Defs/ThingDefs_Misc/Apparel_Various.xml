@@ -811,7 +811,7 @@
         <li>IndustrialAdvanced</li>
       </tags>
       <defaultOutfitTags>
-        <li>Worker</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -853,7 +853,7 @@
       <MaxHitPoints>340</MaxHitPoints>
       <Mass>15</Mass>
       <Flammability>0.4</Flammability>
-      <ArmorRating_Sharp>1.17</ArmorRating_Sharp>
+      <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
       <ArmorRating_Heat>0.54</ArmorRating_Heat>
       <Insulation_Cold>34</Insulation_Cold>

@@ -533,7 +533,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>Telescope</defName>
     <label>telescope</label>
-    <description>A telescope for doing amateur astronomy. It's a relaxing hobby for a certain kind of person.</description>
+    <description>A telescope for doing amateur astronomy. It's a relaxing hobby for a certain kind of person. Can only be used outdoors.</description>
     <graphicData>
       <texPath>Things/Building/Joy/Telescope</texPath>
       <graphicClass>Graphic_Single</graphicClass>

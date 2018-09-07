@@ -20,6 +20,7 @@
     <solid>true</solid>
     <canSuggestAmputation>false</canSuggestAmputation>
     <bleedRate>0</bleedRate>
+    <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -120,6 +121,7 @@
     <tags>
       <li>BreathingSourceCage</li>
     </tags>
+    <destroyableByDamage>false</destroyableByDamage>
   </BodyPartDef>
 
   <BodyPartDef>
